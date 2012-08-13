@@ -1,0 +1,66 @@
+group user
+"set设置{{{
+    "界面设置，在tab上显示序号{
+        set go+=n
+    "}
+    "Hint{
+    "设置hint为字母模式{
+        set hintkeys=asdfg;lkjh
+    "}
+    "防止在最后一个tab的时候按d退出firefox{
+        set! browser.tabs.closeWindowWithLastTab=false
+    "}
+	 "dict.js插件设置{
+        set dict-langpair=g:'|zh-CN',y:eng
+			 "结合dict插件翻译选中字符串}
+		        "map -a -ex s dict -e <arg>
+		    "dict.cn
+		        map s -js content.getSelection().toString()!=""?dactyl.execute(":dict -e d "+ content.getSelection()):""
+		    "google翻译
+		        map sg -js content.getSelection().toString()!=""?dactyl.execute(":dict -e g "+ content.getSelection()):""
+		    "qq
+		        map sq -js content.getSelection().toString()!=""?dactyl.execute(":dict -e q "+ content.getSelection()):""
+		     "有道
+		        map sy -js content.getSelection().toString()!=""?dactyl.execute(":dict -e y "+ content.getSelection()):""
+		   "汉典
+		        map sh -js content.getSelection().toString()!=""?dactyl.execute(":dict! -e z "+ content.getSelection()):""
+		    "}
+    "}
+	 "快速改变页面编码{
+        map -builtin ,eu :set encoding=UTF-8
+        map -builtin ,eg :set encoding=GB2312
+    "}
+    "tab显示方式{
+        "set showtabline=multitab
+    "}
+    "高亮搜索{
+        set hlfind
+    "}
+
+    " ]]/[[转到上一页/下一页{
+    "下一页
+        set nextpattern^='\s*[下后][一]?[页张个篇章]\s*','››'
+    "上一页
+        set previouspattern^='\s*[上前][一]?[页张个篇章]\s*','‹‹'
+    "}
+"}}}
+    "加快移动{
+        map -builtin j 5j
+        map -builtin k 5k
+    "}
+    "标签移动加速{
+        map K :tn<CR>
+        map J :tp<CR>
+    "}
+    "菜单快捷键{
+	map ,s :emenu View.View Source Chart<CR>
+	map ,c :emenu View.Sidebar.ChmFox<CR>
+    "}
+    "F2来显示隐藏工具栏{
+        map <F2> -e set go!=TBm
+    "}
+  "加大hint的字号{
+        hi Hint font:bold 15px "Droid Sans Mono", monospace !important; margin:-.2ex; padding: 0 0 0 1px; outline:1px solid rgba(0, 0, 0, .5); background:rgba(255, 248, 231, .8); color:black; text-transform:uppercase;
+    "}
+"}}}
+

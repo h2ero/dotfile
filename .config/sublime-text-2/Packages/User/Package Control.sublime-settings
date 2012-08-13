@@ -1,0 +1,14 @@
+{
+	"auto_upgrade_last_run": 1344817583,
+	"installed_packages":
+	[
+		"ConvertToUTF8",
+		"DocBlockr",
+		"jQuery",
+		"Package Control",
+		"SublimeBlockCursor",
+		"VintageEx",
+		"YUI Compressor",
+		"ZenCoding"
+	]
+}
