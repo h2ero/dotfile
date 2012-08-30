@@ -49,7 +49,7 @@ layouts =
 tags = {}
 for s = 1, screen.count() do
     -- Each screen has its own tag table.
-    tags[s] = awful.tag({ "dev", "web","hack","bgrun","video"}, s, layouts[1])
+    tags[s] = awful.tag({ "dev", "web","hack","bgrun","video"}, s, layouts[s])
 end
 -- }}}
 
@@ -58,7 +58,7 @@ end
 myapp= {
    { "manual", terminal .. " -e man awesome" },
    { "firefox","firefox" },
-   { "rox","rox" },
+   { "nautilus","nautilus --no-desktop" }, 
    { "vmplayer","vmplayer" },
    { "zendstudio","/media/software/developTool/ZendStudio/ZendStudio" },
    { "AptanaStudio3","/media/software/developTool/Aptana/AptanaStudio3" },
@@ -77,6 +77,9 @@ mymainmenu = awful.menu({ items = { { "awesome", myapp, beautiful.awesome_icon }
 
 mylauncher = awful.widget.launcher({ image = image(beautiful.awesome_icon),
                                      menu = mymainmenu })
+-- }}}
+-- {{{开机启动
+awful.util.spawn('feh --bg-fill /media/M/bg/nod32.jpg')
 -- }}}
 
 -- {{{ Wibox
@@ -180,7 +183,8 @@ runapp={ "firefox",
 		"vmplayer",
 		"/media/software/developTool/ZendStudio/ZendStudio",
 		"/media/software/developTool/Aptana/AptanaStudio3",
-		"/media/software/developTool/SublimeText2/sublime_text"
+		"/media/software/developTool/SublimeText2/sublime_text",
+		"scrot -e 'mv $f ~/Desktop/temp/ 2>/dev/null'"
 }
 -- {{{ Key bindings
 globalkeys = awful.util.table.join(
@@ -189,7 +193,8 @@ awful.key({ modkey,"Control"}, "f", function () awful.util.spawn(runapp[1]) end)
 awful.key({ modkey,"Control"}, "v", function () awful.util.spawn(runapp[2]) end),
 awful.key({ modkey,"Control"}, "z", function () awful.util.spawn(runapp[3]) end),
 awful.key({ modkey,"Control"}, "a", function () awful.util.spawn(runapp[4]) end),
-awful.key({ modkey,"Control"}, "s", function () awful.util.spawn(runapp[4]) end),
+awful.key({ modkey,"Control"}, "s", function () awful.util.spawn(runapp[5]) end),
+awful.key({ modkey,"Control"}, "x", function () awful.util.spawn(runapp[6]) end),
   
 awful.key({ modkey }, "m", function () awful.util.spawn_with_shell("mute") end),
     awful.key({ modkey }, "=", function () os.execute("amixer set Master $((`amixer get Master | sed 1,4d | sed \"s/.*Playback \\(\[^ \]\\+\\) .*/\\1/g\"` + 2 ))") end),
@@ -332,6 +337,12 @@ awful.rules.rules = {
                      buttons = clientbuttons } },
     { rule = { class = "MPlayer" },
       properties = { floating = true } },
+    { rule = { class = "audacious" },
+      properties = {floating = true,screen=1,tag=tags[1][2]} },
+    { rule = { class = "gnome-terminal" },
+      properties = {floating = true } },
+ 	{ rule = { instance = "plugin-container" },
+      properties = { floating = true } },
     { rule = { class = "pinentry" },
       properties = { floating = true } },
     { rule = { class = "gimp" },
@@ -355,7 +366,6 @@ client.add_signal("manage", function (c, startup)
             client.focus = c
         end
     end)
-
     if not startup then
         -- Set the windows at the slave,
         -- i.e. put it at the end of others instead of setting it master.

@@ -12,5 +12,18 @@
         { "key": "setting.command_mode", "operand": true },
         { "key": "setting.is_widget", "operand": false }
     ]
-}
+},
+{ "keys": ["g","m"], "command": "toggle_minimap","context":[{ "key": "setting.command_mode"}]},
+{ "keys": ["g","s"], "command": "toggle_side_bar","context":[{ "key": "setting.command_mode"}]}, 
+{ "keys": ["g","e"], "command": "show_panel", "args": {"panel": "output.exec"} ,"context":[{ "key": "setting.command_mode"}]}, 
+//keymap sublimeLinter
+{ "keys": ["g","f"], "command": "sublimelinter_lint", "args": {"action": "lint"},"context":[{ "key": "setting.command_mode"}]}, 
+{ "keys": ["g","n"], "command": "find_next_lint_error","context":[{ "key": "setting.command_mode"}]}, 
+{ "keys": ["g","p"], "command": "find_previous_lint_error","context":[{ "key": "setting.command_mode"}]}
+//zen coding
+/*up arraw*/
+/*{ "keys": ["right"], "command": "null"},
+{ "keys": ["left"], "command": "null"},
+{ "keys":["g","u"],"keys": ["up"]},
+{ "keys":["g","d"],"keys": ["down"]}*/
 ]

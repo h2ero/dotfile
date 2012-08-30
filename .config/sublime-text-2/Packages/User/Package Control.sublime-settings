@@ -1,12 +1,25 @@
 {
-	"auto_upgrade_last_run": 1344817583,
+	"auto_upgrade_last_run": 1346295925,
 	"installed_packages":
 	[
+		"ApacheConf.tmLanguage",
+		"CodeIgniter Snippets",
 		"ConvertToUTF8",
 		"DocBlockr",
+		"Git",
+		"InputHelper",
 		"jQuery",
+		"jQuery Snippets pack",
+		"JsFormat",
+		"LESS",
+		"Markdown Preview",
+		"Markdown Slideshow",
 		"Package Control",
+		"Prefixr",
+		"SmartMarkdown",
 		"SublimeBlockCursor",
+		"SublimeCodeIntel",
+		"SublimeLinter",
 		"VintageEx",
 		"YUI Compressor",
 		"ZenCoding"
