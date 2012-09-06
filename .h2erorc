@@ -1,0 +1,60 @@
+#!/bin/bash
+# mv this file to ~/.h2erorc , add ". ~/.h2erorc" at the end of ~/.bashrc
+#------------------LOGIN MESSAGE----------------------
+cat $msg<<'EOF'
+
+/*****************************************************
+ *                                                   * 
+ *      welcome h2ero! now using h2ero's config.     * 
+ *                                                   * 
+ ****************************************************/
+
+EOF
+#echo ${msg//USER/$USER}
+
+#------------------H2ERO'S CONFIG---------------------
+
+#locale
+	export LANG=en_US.UTF-8
+	export LC_CTYPE="en_US.UTF-8"
+	export LC_NUMERIC="en_US.UTF-8"
+	export LC_TIME="en_US.UTF-8"
+	export LC_COLLATE="en_US.UTF-8"
+	export LC_MONETARY="en_US.UTF-8"
+	export LC_MESSAGES="en_US.UTF-8"
+	export LC_PAPER="en_US.UTF-8"
+	export LC_NAME="en_US.UTF-8"
+	export LC_ADDRESS="en_US.UTF-8"
+	export LC_TELEPHONE="en_US.UTF-8"
+	export LC_MEASUREMENT="en_US.UTF-8"
+	export LC_IDENTIFICATION="en_US.UTF-8"
+
+#env
+	export CDPATH=:/media/S:/media/software
+	export PYTHONPATH=:$PYTHONPATH:/media/S/note/python/moudle
+
+#bash setting
+set -o vi
+
+#history
+	HISTFILESIZE=50000
+	HISTIGNORE=':cd:ls:cat'
+	HISTCONTROL=erasedups
+	HISTTIMEFORMAT='%F %T'
+
+#alias
+	alias ll='ls -l'
+	#ask
+	alias rm='rm -i'
+	alias mv='mv -i'
+	alias cp='pc -i'
+	alias  r='reset'
+	#file mssages
+	alias lm='stat -c "%n %A %a"'
+	alias MT='stat -c "%n %y"'
+	alias AT='stat -c "%n %x"'
+	alias CT='stat -c "%n %z"'
+
+#sleep 1s clear monitor
+#sleep .5 && reset
+	
