@@ -12,7 +12,16 @@ require("debian.menu")
 
 -- {{{ Variable definitions
 -- Themes define colours, icons, and wallpapers
-beautiful.init("/usr/share/awesome/themes/default/theme.lua")
+beautiful.init("/home/h2ero/.config/awesome/themes/default/theme.lua")
+
+-- {{{开机启动
+-- conky
+awful.util.spawn("conky -c /home/h2ero/.conky/conkyrc_grey")
+-- 透明效果
+awful.util.spawn("xcompmgr")
+-- 网络管理
+awful.util.spawn("nm-applet")
+-- }}}
 
 -- This is used later as the default terminal and editor to run.
 terminal = "x-terminal-emulator"
@@ -30,10 +39,10 @@ modkey = "Mod4"
 layouts =
 {
     awful.layout.suit.max,
-    awful.layout.suit.floating,
-    awful.layout.suit.tile,
     awful.layout.suit.tile.left,
+    awful.layout.suit.tile,
     awful.layout.suit.tile.bottom,
+    awful.layout.suit.floating,
     awful.layout.suit.tile.top,
     awful.layout.suit.fair,
     awful.layout.suit.fair.horizontal,
@@ -47,9 +56,10 @@ layouts =
 -- {{{ Tags
 -- Define a tag table which hold all screen tags.
 tags = {}
-for s = 1, screen.count() do
+
+for s = 1,screen.count() do
     -- Each screen has its own tag table.
-    tags[s] = awful.tag({ "dev", "web","hack","bgrun","video"}, s, layouts[s])
+    tags[s] = awful.tag({ "1≯web", "2≯dev","3≯hack","4≯bgrun","5≯video"}, s, layouts)
 end
 -- }}}
 
@@ -63,6 +73,9 @@ myapp= {
    { "zendstudio","/media/software/developTool/ZendStudio/ZendStudio" },
    { "AptanaStudio3","/media/software/developTool/Aptana/AptanaStudio3" },
    { "Sublime Text 2","/media/software/developTool/SublimeText2/sublime_text" },
+   { "balsamiq","/media/software/developTool/balsamiq" },
+   { "osdlyrics","osdlyrics" },
+   { "virtualbox","virtualbox" },
    { "shutdown","shutdown -h now" },
    { "edit config", editor_cmd .. " " .. awful.util.getdir("config") .. "/rc.lua" },
    { "restart", awesome.restart },
@@ -77,9 +90,6 @@ mymainmenu = awful.menu({ items = { { "awesome", myapp, beautiful.awesome_icon }
 
 mylauncher = awful.widget.launcher({ image = image(beautiful.awesome_icon),
                                      menu = mymainmenu })
--- }}}
--- {{{开机启动
-awful.util.spawn('feh --bg-fill /media/M/bg/nod32.jpg')
 -- }}}
 
 -- {{{ Wibox
@@ -195,7 +205,7 @@ awful.key({ modkey,"Control"}, "z", function () awful.util.spawn(runapp[3]) end)
 awful.key({ modkey,"Control"}, "a", function () awful.util.spawn(runapp[4]) end),
 awful.key({ modkey,"Control"}, "s", function () awful.util.spawn(runapp[5]) end),
 awful.key({ modkey,"Control"}, "x", function () awful.util.spawn(runapp[6]) end),
-  
+
 awful.key({ modkey }, "m", function () awful.util.spawn_with_shell("mute") end),
     awful.key({ modkey }, "=", function () os.execute("amixer set Master $((`amixer get Master | sed 1,4d | sed \"s/.*Playback \\(\[^ \]\\+\\) .*/\\1/g\"` + 2 ))") end),
     awful.key({ modkey }, "-", function () os.execute("amixer set Master $((`amixer get Master | sed 1,4d | sed \"s/.*Playback \\(\[^ \]\\+\\) .*/\\1/g\"` - 2 ))") end),
@@ -335,21 +345,24 @@ awful.rules.rules = {
                      focus = true,
                      keys = clientkeys,
                      buttons = clientbuttons } },
-    { rule = { class = "MPlayer" },
-      properties = { floating = true } },
-    { rule = { class = "audacious" },
-      properties = {floating = true,screen=1,tag=tags[1][2]} },
+    { rule = { class = "Totem" },
+      properties = { floating = true,tag=tags[1][5]} },
+    { rule = { class = "Firefox" },
+      properties = { tag=tags[1][1]} },
+    { rule = { class = "Gnome-terminal" },
+      properties = { tag=tags[1][2]} },
+    { rule = { class = "Audacious" },
+      properties = {floating = true,tag=tags[1][5]} },
     { rule = { class = "gnome-terminal" },
-      properties = {floating = true } },
+      properties = {floating = true,tag=tags[1][2]} },
  	{ rule = { instance = "plugin-container" },
+      properties = { floating = true } },
+    { rule = { class = "Osdlyrics" },
       properties = { floating = true } },
     { rule = { class = "pinentry" },
       properties = { floating = true } },
     { rule = { class = "gimp" },
       properties = { floating = true } },
-    -- Set Firefox to always map on tags number 2 of screen 1.
-    -- { rule = { class = "Firefox" },
-    --   properties = { tag = tags[1][2] } },
 }
 -- }}}
 

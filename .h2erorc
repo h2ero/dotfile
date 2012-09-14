@@ -1,15 +1,16 @@
 #!/bin/bash
 # mv this file to ~/.h2erorc , add ". ~/.h2erorc" at the end of ~/.bashrc
 #------------------LOGIN MESSAGE----------------------
-cat $msg<<'EOF'
-
-/*****************************************************
- *                                                   * 
- *      welcome h2ero! now using h2ero's config.     * 
- *                                                   * 
- ****************************************************/
-
-EOF
+#
+#cat <<EOF 
+#
+#/*****************************************************
+# *                                                   * 
+# *      welcome $USER! now using h2ero's config.     * 
+# *                                                   * 
+# ****************************************************/
+#
+#EOF
 #echo ${msg//USER/$USER}
 
 #------------------H2ERO'S CONFIG---------------------
@@ -47,14 +48,14 @@ set -o vi
 	#ask
 	alias rm='rm -i'
 	alias mv='mv -i'
-	alias cp='pc -i'
+	alias cp='cp -i'
 	alias  r='reset'
+	alias  e='exit'
 	#file mssages
 	alias lm='stat -c "%n %A %a"'
 	alias MT='stat -c "%n %y"'
 	alias AT='stat -c "%n %x"'
 	alias CT='stat -c "%n %z"'
-
 #sleep 1s clear monitor
 #sleep .5 && reset
 	

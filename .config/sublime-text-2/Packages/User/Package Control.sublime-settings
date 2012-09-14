@@ -1,12 +1,16 @@
 {
-	"auto_upgrade_last_run": 1346295925,
+	"auto_upgrade_last_run": 1347542236,
 	"installed_packages":
 	[
+		"Alignment",
 		"ApacheConf.tmLanguage",
 		"CodeIgniter Snippets",
 		"ConvertToUTF8",
+		"CTags",
 		"DocBlockr",
 		"Git",
+		"IndentGuides",
+		"INI",
 		"InputHelper",
 		"jQuery",
 		"jQuery Snippets pack",
@@ -16,10 +20,15 @@
 		"Markdown Slideshow",
 		"Package Control",
 		"Prefixr",
+		"Python PEP8 Autoformat",
+		"Search Stack Overflow",
+		"Shell Turtlestein",
 		"SmartMarkdown",
 		"SublimeBlockCursor",
 		"SublimeCodeIntel",
 		"SublimeLinter",
+		"Terminal",
+		"Toggle Css Format",
 		"VintageEx",
 		"YUI Compressor",
 		"ZenCoding"

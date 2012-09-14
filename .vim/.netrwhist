@@ -1,7 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/home/h2ero/www/PHP/demo'
-let g:netrw_dirhist_2='/home/h2ero/www/PHP'
-let g:netrw_dirhist_3='/home/h2ero/www/PHP/demo'
-let g:netrw_dirhist_4='/home/h2ero/www/PHP'
-let g:netrw_dirhist_5='/home/h2ero/www/PHP/demo'
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/home/h2ero/.config/fcitx'
+let g:netrw_dirhist_2='/home/h2ero/.vim'
+let g:netrw_dirhist_3='/media/S/backup/.vim/bundle'
+let g:netrw_dirhist_4='/home/h2ero/.config/awesome'

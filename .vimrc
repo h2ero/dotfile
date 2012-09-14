@@ -1,77 +1,5 @@
-" -----------------   Author: Ruchee
-" -----------------    Email: my@ruchee.com
-" -----------------  WebSite: http://www.ruchee.com
-" -----------------     Date: 2012-04-01
-
-
-" Ctrl + H                   --光标移行首
-" Ctrl + J                   --光标移下一行行首
-" Ctrl + K                   --光标移上一行行尾
-" Ctrl + L                   --光标移行尾
-" Ctrl + Z                   --取代ESC模式键 [和部分软件的快捷键有冲突]
-" Ctrl + S                   --保存文件
-" Ctrl + C                   --编译 [支持C/C++、Java、Haskell]
-" Ctrl + R                   --运行 [支持C/C++、Java、Haskell、Lua、Perl、Python、Ruby]
-" Ctrl + ]                   --转到函数定义
-" Ctrl + T                   --返回调用函数
-" Ctrl + E                   --添加注释 [插入模式] [添加的是C语言的多行注释，所以适用于C/C++/Java等]
-" Ctrl + E                   --一步加载语法模板和作者、时间信息 [非插入模式]
-
-" <C-P>                      --单词补全
-" <C-X><C-L>                 --整行补全
-" Tab键                      --插入模式下的全功能语法结构补全 [snipMate插件]
-" Shift + Insert             --向Vim中粘贴从别处复制的内容
-
-" nt                         --打开NERDTree [非插入模式]
-" tl                         --打开TagList [非插入模式]
-" \ww                        --进入vimWiki模式 [非插入模式]
-
-" za                         --打开或关闭当前折叠
-" zM                         --关闭所有折叠
-" zR                         --打开所有折叠
-
-" :set syntax=cpp            --手动选择语法高亮 [或 :set filetype=cpp]
-
-" :%!xxd                     --转储二进制文件，以十六进制形式显示
-" :%!xxd -r                  --还原二进制文件
-
-
-" ---------- 主要插件详细用法说明 ---------------------
-
-" :Tlist                     --呼出变量和函数列表 [TagList插件]
-" :FencView                  --查看文件编码和更改文件编码 [FencView插件]
-" :LoadTemplate              --呼出语法模板 [Load_Template插件]
-" :AuthorInfoDetect          --添加作者、时间等信息 [NERD_commenter && authorinfo插件]
-
-" ---------- a.vim [自动切换C/C++同名头文件] ----------
-"
-" :A                         --切换同名头文件并独占整个屏幕
-" :AS                        --切换同名头文件并垂直分屏，头文件在上
-" :AV                        --切换同名头文件并水平分割，头文件在左
-
-" ---------- mark.vim [追踪高亮指定关键字] ------------
-"
-" \m                         --normal模式下，在想要高亮的单词上面敲击\m即可高亮或取消高亮该单词
-" :Mark                      --取消所有高亮
-" :Mark abc                  --指定高亮单词 abc 或取消高亮 abc
-
-" ---------- NERDTree [智能文件浏览器] ----------------
-"
-" :NERDTree                  --启动NERDTree插件
-" o [小写]                   --切换当前文件或目录的打开、关闭状态
-" u                          --打开上层目录
-" p [小写]                   --返回上层目录
-" P [大写]                   --返回根目录
-" K                          --转到当前目录第一个节点
-" J                          --转到当前目录最后的节点
-" m                          --显示文件系统菜单 [增、删、移]
-" ?                          --弹出帮助菜单
-" q                          --退出该插件
-
-
-
-""colorscheme blackboard       " 着色模式
 set guifont=Monaco:h10       " 字体 && 字号
+set expandtab
 set tabstop=4                " 设置tab键的宽度
 set shiftwidth=4             " 换行时行间交错使用4个空格
 set autoindent               " 自动对齐
@@ -83,17 +11,16 @@ set nu!                      " 显示行号
 "set showmatch               " 显示括号配对情况
 set mouse=a                  " 启用鼠标
 set ruler                    " 右下角显示光标位置的状态行
-set incsearch                " 查找book时，当输入/b时会自动找到
-set hlsearch                 " 开启高亮显示结果
+"set incsearch                " 查找book时，当输入/b时会自动找到
+"set hlsearch                 " 开启高亮显示结果
 set incsearch                " 开启实时搜索功能
 set nowrapscan               " 搜索到文件两端时不重新搜索
 set nocompatible             " 关闭兼容模式
 set vb t_vb=                 " 关闭提示音
 "set cursorline              " 突出显示当前行
 set hidden                   " 允许在有未保存的修改时切换缓冲区
-set list                     " 显示Tab符，使用一高亮竖线代替
-set listchars=tab:\|\ ,
-
+"set list                     " 显示Tab符，使用一高亮竖线代替
+"set listchars=nbsp:%,trail:-,
 syntax enable                " 打开语法高亮
 syntax on                    " 开启文件类型侦测
 filetype indent on           " 针对不同的文件类型采用不同的缩进格式
@@ -120,7 +47,7 @@ set foldmethod=syntax        " 选择代码折叠类型
 set foldlevel=100            " 禁止自动折叠
 
 set laststatus=2             " 开启状态栏信息
-set cmdheight=2              " 命令行的高度，默认为1，这里设为2
+"set cmdheight=2              " 命令行的高度，默认为1，这里设为2
 
 " 每行超过80个的字符用下划线标示
 au BufRead,BufNewFile *.asm,*.c,*.cpp,*.java,*.cs,*.sh,*.lua,*.pl,*.pm,*.py,*.rb,*.erb,*.hs,*.vim 2match Underlined /.\%81v/
@@ -134,7 +61,7 @@ set fileencodings=utf-8,gbk,cp936,latin-1
 source $VIMRUNTIME/delmenu.vim
 source $VIMRUNTIME/menu.vim
 " 解决consle输出乱码
-language messages zh_CN.utf-8
+language messages en_US.utf-8
 
 
 " For Haskell
@@ -325,3 +252,44 @@ map <c-r> :call RunResult()<CR>
 map <c-R> :redo<CR>
 imap <c-r> <ESC>:call RunResult()<CR>
 vmap <c-r> <ESC>:call RunResult()<CR>
+
+"map
+noremap gn <c-w><c-w>
+noremap gN <c-w>h
+"pathogen"
+call pathogen#runtime_append_all_bundles()
+""taglist
+nnoremap <silent> <F8> :TlistToggle<CR>
+let Tlist_Auto_Open=1 "自动打开
+let Tlist_Use_Right_Window=1 "左边显示
+let Tlist_File_Fold_Auto_Close=1 "打开其他文件的时候自动关闭,只显示一个文件的tag
+let Tlist_Auto_Update=1 "自动更新，包含新文件时候
+set title titlestring=%<%f\ %([%{Tlist_Get_Tagname_By_Line()}]%) "状态栏标题
+set statusline=%<%f%=%([%{Tlist_Get_Tagname_By_Line()}]%) "窗口标题
+let Tlist_Compact_Format=1 "不显示空白行
+"NERDTree
+nnoremap <silent> <F7> :NERDTree<CR>
+let NERDTreeIgnore=['\.pyc$']
+"pydiction
+let g:pydiction_location = '~/.vim/bundle/pydiction/complete-dict'
+"zen coding
+"syntastic
+" 在打开文件的时候检查
+let g:syntastic_check_on_open=1
+"phpcs，tab4个空格，编码参考使用CodeIgniter风格
+let g:syntastic_phpcs_conf = "--tab-width=4 --standard=CodeIgniter"
+"Powerline
+set t_Co=256 " Explicitly tell Vim that the terminal supports 256 colors
+let g:Powerline_symbols ='fancy' 
+let g:Powerline_dividers_override = ['>>', '>', '<<', '<']
+"let g:Powerline_theme = 'skwp'
+"let g:Powerline_mode_n ='NORMAL'
+let g:Powerline_stl_path_style = 'full'
+"php 自动补全
+autocmd FileType php set omnifunc=phpcomplete#CompletePHP
+"注释
+map <c-c> :call PhpDoc()<CR>
+
+"set cursorcolumn
+"set cursorline
+
