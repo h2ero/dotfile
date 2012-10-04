@@ -1,0 +1,3092 @@
+{
+	"folder_history":
+	[
+		"/home/h2ero/www/mysites",
+		"/home/h2ero/temp/mysite",
+		"/home/h2ero/www/design",
+		"/media/S/note/python",
+		"/home/h2ero/www/py",
+		"/media/S/blog/_posts/2012",
+		"/media/S/backup/.config/sublime-text-2/Packages/Default",
+		"/media/S/blog",
+		"/home/h2ero/www/PHP/demo",
+		"/home/h2ero/www/PHP/weimei",
+		"/home/h2ero/www/python",
+		"/home/h2ero/www/PHP/yunbian"
+	],
+	"last_window_id": 35,
+	"settings":
+	{
+		"new_window_height": 747.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"re",
+						"render_to_response"
+					],
+					[
+						"j",
+						"jquery	<script> (jQuery google ajax api)"
+					],
+					[
+						"jquery",
+						"jquery	<script> (code.jquery.com)"
+					],
+					[
+						"ta",
+						"targetId"
+					],
+					[
+						"S",
+						"SQLS"
+					],
+					[
+						"ra",
+						"read"
+					],
+					[
+						"req",
+						"Request  (class)"
+					],
+					[
+						"q",
+						"quote_plus  (function)"
+					],
+					[
+						"Whe",
+						"WHERE"
+					],
+					[
+						"op",
+						"newOpen  (function)"
+					],
+					[
+						"img",
+						"imgPath"
+					],
+					[
+						"urlli",
+						"imgUrlList"
+					],
+					[
+						"open",
+						"urlopen  (function)"
+					],
+					[
+						"sp",
+						"spider"
+					],
+					[
+						"wh",
+						"where"
+					],
+					[
+						"s",
+						"sleep  (function)"
+					],
+					[
+						"pr",
+						"print"
+					],
+					[
+						"my",
+						"MySQLdb"
+					],
+					[
+						"lower",
+						"lowercase  (variable)"
+					],
+					[
+						"ready",
+						"ready	document ready - jQuery"
+					],
+					[
+						"ajax",
+						".ajax	ajax"
+					],
+					[
+						"_",
+						"$_	SERVER['…']"
+					],
+					[
+						"pre",
+						"preg_match_all"
+					],
+					[
+						"h",
+						"header"
+					],
+					[
+						"_S",
+						"__construct"
+					]
+				]
+			},
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 392.0,
+				"selected_items":
+				[
+					[
+						"set html",
+						"Set Syntax: HTML"
+					],
+					[
+						"html",
+						"Snippet: html"
+					],
+					[
+						"set py",
+						"Set Syntax: Python"
+					],
+					[
+						"remov",
+						"Package Control: Remove Package"
+					],
+					[
+						"pyt",
+						"Set Syntax: Python"
+					],
+					[
+						"ctags",
+						"CTags: Rebuild Tags"
+					],
+					[
+						"install ",
+						"Package Control: Install Package"
+					],
+					[
+						"ins",
+						"Package Control: Install Package"
+					],
+					[
+						"inst",
+						"Package Control: Install Package"
+					],
+					[
+						"set ini",
+						"Set Syntax: INI"
+					],
+					[
+						"mark pr",
+						"Markdown Preview: current file in Sublime Text"
+					],
+					[
+						"set ma",
+						"Set Syntax: Markdown"
+					],
+					[
+						"set mr",
+						"Set Syntax: MultiMarkdown"
+					],
+					[
+						"remove ",
+						"Package Control: Remove Package"
+					],
+					[
+						"css ",
+						"Tidy CSS"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"prett",
+						"HTMLPrettify: Prettify"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"zend c",
+						"Zen Coding: Move caret to next edit point"
+					],
+					[
+						"zend next",
+						"Zen Coding: Select next item"
+					],
+					[
+						"stack",
+						"Stackoverflow: Search Selection"
+					],
+					[
+						"indent",
+						"Indentation: Convert to Spaces"
+					],
+					[
+						"termi",
+						"Preferences: Terminal Key Bindings – Default"
+					],
+					[
+						"disc",
+						"Package Control: Discover Packages"
+					],
+					[
+						"dis",
+						"Package Control: Discover Packages"
+					],
+					[
+						"pa ",
+						"Package Control: List Packages"
+					],
+					[
+						"py",
+						"User: Python PEP8 Autoformat"
+					],
+					[
+						"pyt f",
+						"User: Python PEP8 Autoformat"
+					],
+					[
+						"python",
+						"User: Python PEP8 Autoformat"
+					],
+					[
+						"python ",
+						"User: Python PEP8 Autoformat"
+					],
+					[
+						"python f",
+						"User: Python PEP8 Autoformat"
+					],
+					[
+						"javascript",
+						"Format: Javascript"
+					],
+					[
+						"pep8",
+						"User: Python PEP8 Autoformat"
+					],
+					[
+						"set javas",
+						"Set Syntax: JavaScript"
+					],
+					[
+						"alignment",
+						"Preferences: Alignment File Settings – Syntax Specific – User"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"s javas",
+						"Set Syntax: JavaScript"
+					],
+					[
+						"s thml",
+						"Set Syntax: HTML"
+					],
+					[
+						"linter",
+						"SublimeLinter: Disable Linting"
+					],
+					[
+						"lint",
+						"SublimeLinter: Disable Linting"
+					],
+					[
+						"liner",
+						"SublimeLinter: Lint Current File"
+					],
+					[
+						"set ",
+						"Set Syntax: PHP"
+					],
+					[
+						"pake re",
+						"Package Control: Remove Package"
+					],
+					[
+						"lintere",
+						"SublimeLinter: Disable Linting"
+					],
+					[
+						"py fo",
+						"User: Python PEP8 Autoformat"
+					],
+					[
+						"pyto",
+						"User: Python PEP8 Autoformat"
+					],
+					[
+						"sql",
+						"Set Syntax: SQL"
+					],
+					[
+						"fo",
+						"Format: Javascript"
+					],
+					[
+						"li pack ",
+						"Package Control: List Packages"
+					],
+					[
+						"input",
+						"InputHelper"
+					],
+					[
+						"lo h",
+						"Snippet: CI - Load Helper File"
+					],
+					[
+						"git diff",
+						"Git: Diff Current File"
+					],
+					[
+						"git comm",
+						"Git: Commit"
+					],
+					[
+						"git s",
+						"Git: Status"
+					],
+					[
+						"git lo",
+						"Git: Log All"
+					],
+					[
+						"inst	",
+						"Package Control: Install Package"
+					],
+					[
+						"for",
+						"Format: Javascript"
+					],
+					[
+						"form",
+						"Format: Javascript"
+					],
+					[
+						"instal",
+						"Package Control: Install Package"
+					],
+					[
+						"snippet co",
+						"Snippet: cookie"
+					],
+					[
+						"snippet",
+						"Snippet: Function"
+					],
+					[
+						"jquery.each",
+						"Snippet: jQuery.each"
+					],
+					[
+						"disc ",
+						"Package Control: Discover Packages"
+					],
+					[
+						"key",
+						"Preferences: Key Bindings - User"
+					],
+					[
+						"key bi",
+						"Preferences: Key Bindings - User"
+					],
+					[
+						"clip",
+						"Clipboard History"
+					],
+					[
+						"jquery ajax",
+						"Snippet: jQuery AJAX call"
+					],
+					[
+						"jqueryr",
+						"Snippet: jQuery ready function"
+					],
+					[
+						"CI load",
+						"Snippet: CI - Upload Boilerplate"
+					],
+					[
+						"sni",
+						"Snippet: SERVER['…']"
+					],
+					[
+						"sget",
+						"Snippet: get"
+					],
+					[
+						"set php",
+						"Set Syntax: PHP"
+					],
+					[
+						"bash",
+						"Set Syntax: Shell Script (Bash)"
+					],
+					[
+						"ci lo h",
+						"Snippet: CI - Load Helper File"
+					],
+					[
+						"ci lo m",
+						"Snippet: CI - Load Model"
+					],
+					[
+						"set mad",
+						"Set Syntax: Markdown"
+					],
+					[
+						"ci db de",
+						"Snippet: CI - Active Record DB Delete"
+					],
+					[
+						"ci db up",
+						"Snippet: CI - Active Record DB Update"
+					],
+					[
+						"ci Actic",
+						"Snippet: CI - Active Record DB Update"
+					],
+					[
+						"markdown ",
+						"Pandoc: Render Markdown to PDF"
+					],
+					[
+						"markdo",
+						"Markdown Slideshow: I/O 2011 theme"
+					],
+					[
+						"mark",
+						"Markdown Slideshow: I/O 2012 theme"
+					],
+					[
+						"mar ",
+						"Markdown Preview: current file in Sublime Text"
+					],
+					[
+						"mark ",
+						"Markdown Preview: current file in browser"
+					],
+					[
+						"mar b",
+						"Markdown Preview: current file in browser"
+					],
+					[
+						"mar c s",
+						"Markdown Preview: current file in Sublime Text"
+					],
+					[
+						"SET HTML",
+						"Set Syntax: HTML"
+					],
+					[
+						":inst",
+						"Package Control: Install Package"
+					],
+					[
+						":w",
+						":w - Save"
+					],
+					[
+						":jquery aj",
+						"Snippet: jQuery.ajax"
+					],
+					[
+						":html",
+						"Set Syntax: HTML"
+					],
+					[
+						":list pa",
+						"Package Control: List Packages"
+					],
+					[
+						":tab",
+						"View: Toggle Tabs"
+					],
+					[
+						":install ",
+						"Package Control: Install Package"
+					],
+					[
+						":remov",
+						"Package Control: Remove Package"
+					],
+					[
+						":PHP",
+						"Set Syntax: PHP"
+					],
+					[
+						":pack",
+						"Package Control: List Packages"
+					],
+					[
+						":ins",
+						"Package Control: Install Package"
+					],
+					[
+						":j",
+						"Snippet: jQuery.ajax"
+					],
+					[
+						":h",
+						"Set Syntax: HTML"
+					],
+					[
+						":zen",
+						"Set Syntax: ZenCoding"
+					],
+					[
+						":package			",
+						"Package Control: Install Package"
+					],
+					[
+						":php",
+						"Set Syntax: PHP"
+					],
+					[
+						":q",
+						"Set Syntax: SQL"
+					],
+					[
+						"Zen Coding: ",
+						"Zen Coding: Wrap zen as you type"
+					],
+					[
+						":z",
+						"Set Syntax: ZenCoding"
+					],
+					[
+						":ev",
+						"Zen Coding: Evaluate math expression"
+					],
+					[
+						":clos",
+						"File: Close All"
+					],
+					[
+						"Package Control: ins",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: in",
+						"Package Control: Install Package"
+					],
+					[
+						":",
+						":w - Save"
+					]
+				],
+				"width": 602.0
+			},
+			"console":
+			{
+				"height": 139.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/h2ero/www/mysites/settings.py",
+				"/home/h2ero/www/mysites/urls.py",
+				"/home/h2ero/www/mysites/index/models.py",
+				"/home/h2ero/www/mysites/index/views.py",
+				"/home/h2ero/www/mysites/demo.py",
+				"/home/h2ero/www/mysites/__init__.py",
+				"/home/h2ero/www/mysites/index/__init__.py",
+				"/home/h2ero/www/mysites/templates/header.html",
+				"/home/h2ero/www/mysites/templates/header2.html",
+				"/home/h2ero/www/mysites/templates/index.html",
+				"/home/h2ero/www/mysites/templates/footer.html",
+				"/media/S/backup/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+				"/media/S/backup/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
+				"/home/h2ero/www/mysites/views.py",
+				"/home/h2ero/www/design/index.html",
+				"/media/S/note/python/post.py",
+				"/home/h2ero/www/py/urls.py",
+				"/home/h2ero/www/py/bbs/views.py",
+				"/home/h2ero/www/py/templates/index.html",
+				"/home/h2ero/www/py/templates/style/style.css",
+				"/home/h2ero/www/py/demo.py",
+				"/home/h2ero/www/py/controller/test.py",
+				"/home/h2ero/www/py/controller/pagelist.py",
+				"/home/h2ero/www/py/controller/index.py",
+				"/home/h2ero/www/py/settings.py",
+				"/home/h2ero/.mozilla/firefox/4b2udtpz.default/gm_scripts/bbdu/bbdu.user.js",
+				"/home/h2ero/www/py/manage.py",
+				"/home/h2ero/www/py/py.ini",
+				"/home/h2ero/www/py/p.ini",
+				"/home/h2ero/www/py/demo/settings.py",
+				"/home/h2ero/www/py/demo/test.py",
+				"/media/S/blog/_posts/2012/2012-09-01-shell-wiki.md",
+				"/media/S/backup/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+				"/media/S/blog/_posts/2012/tpl.md",
+				"/media/S/backup/.config/sublime-text-2/Packages/formatCSS/formatCSS.py",
+				"/media/S/blog/media/js/main.js",
+				"/media/S/blog/_layouts/post.html",
+				"/media/S/blog/media/css/style.css",
+				"/media/S/backup/.config/sublime-text-2/Packages/CSSTidy/CSSTidy.sublime-settings",
+				"/media/S/backup/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
+				"/media/S/blog/_layouts/page.html",
+				"/media/S/backup/.config/sublime-text-2/Packages/ZenCoding/Default.sublime-keymap",
+				"/home/h2ero/www/design/demo.html",
+				"/media/S/note/python/title.py",
+				"/media/S/note/python/splitTag.py",
+				"/media/S/note/python/imgCropResize.py",
+				"/media/S/note/python/reFolder.py",
+				"/media/S/backup/.config/sublime-text-2/Packages/Terminal/Default (Linux).sublime-keymap",
+				"/media/S/backup/.config/sublime-text-2/Packages/Terminal/Terminal.sublime-settings",
+				"/media/S/note/python/getImgHeight.py",
+				"/media/S/note/python/demo.py",
+				"/media/S/note/python/download.py",
+				"/media/S/note/python/spider.py",
+				"/media/S/note/python/res.jpg",
+				"/media/S/note/python/1.thumbnail",
+				"/media/S/note/python/data",
+				"/media/S/note/python/Gzzip.py",
+				"/media/S/note/python/img.zip",
+				"/media/S/note/python/tsql.txt",
+				"/media/S/note/python/titlesql.txt",
+				"/media/S/note/python/t.py",
+				"/media/S/note/python/sql.txt",
+				"/media/S/note/python/moudle/demo2.py",
+				"/media/S/note/python/demo2.py",
+				"/media/S/note/python/i.php",
+				"/media/S/note/python/untitled.js",
+				"/media/S/backup/.config/sublime-text-2/Packages/User/Python.sublime-settings",
+				"/media/S/backup/.config/sublime-text-2/Packages/Terminal/Base File.sublime-settings",
+				"/media/S/backup/.config/sublime-text-2/Packages/Alignment/Default (Linux).sublime-keymap",
+				"/media/S/backup/.config/sublime-text-2/Packages/Git/Git.sublime-settings",
+				"/media/S/note/python/untitled.php",
+				"/media/S/note/python/queue.py",
+				"/media/S/note/python/python.md",
+				"/home/h2ero/www/PHP/weimei/weimei/controllers/pic.php",
+				"/home/h2ero/www/PHP/weimei/weimei/models/pic_m.php",
+				"/home/h2ero/www/PHP/weimei/style/css/style.less",
+				"/home/h2ero/www/PHP/weimei/weimei/views/pic_one.php",
+				"/home/h2ero/www/PHP/weimei/weimei/helpers/self_define_helper.php",
+				"/home/h2ero/www/PHP/weimei/weimei/controllers/comment.php",
+				"/home/h2ero/www/PHP/weimei/weimei/controllers/album.php",
+				"/home/h2ero/www/PHP/weimei/system/core/Common.php",
+				"/home/h2ero/www/design/style/js/jquery-css-transform.js",
+				"/home/h2ero/www/PHP/weimei/weimei/controllers/demo.php",
+				"/home/h2ero/Desktop/temp/untitled.md",
+				"/home/h2ero/www/PHP/weimei/system/helpers/html_helper.php",
+				"/home/h2ero/www/PHP/weimei/index.php",
+				"/home/h2ero/www/PHP/weimei/weimei/controllers/index.php",
+				"/home/h2ero/www/PHP/weimei/weimei/views/index.php",
+				"/home/h2ero/www/PHP/weimei/style/js/main.js",
+				"/home/h2ero/www/PHP/weimei/weimei/controllers/avatar.php",
+				"/home/h2ero/www/PHP/weimei/weimei/models/avatar_m.php",
+				"/home/h2ero/www/PHP/weimei/weimei/views/avatar_list.php",
+				"/home/h2ero/www/PHP/weimei/weimei/views/avatar_one.php",
+				"/home/h2ero/www/PHP/weimei/weimei/models/comment_m.php",
+				"/home/h2ero/www/PHP/weimei/weimei/models/user_m.php",
+				"/home/h2ero/www/PHP/weimei/weimei/controllers/user.php",
+				"/home/h2ero/www/PHP/weimei/weimei/views/user_comment.php",
+				"/home/h2ero/www/PHP/weimei/weimei/views/article_list.php",
+				"/home/h2ero/www/PHP/weimei/weimei/controllers/article.php",
+				"/home/h2ero/www/PHP/weimei/style/style.css",
+				"/home/h2ero/www/PHP/weimei/weimei/controllers/u.php",
+				"/home/h2ero/www/PHP/weimei/weimei/views/user_view_pic.php",
+				"/home/h2ero/www/PHP/weimei/weimei/views/user_tag.php",
+				"/home/h2ero/www/PHP/weimei/weimei/views/showComment.php",
+				"/home/h2ero/www/PHP/weimei/weimei/views/article_view.php",
+				"/home/h2ero/www/PHP/weimei/weimei/views/article_edit.php",
+				"/home/h2ero/www/PHP/weimei/weimei/models/article_m.php",
+				"/home/h2ero/www/PHP/weimei/system/core/CodeIgniter.php",
+				"/home/h2ero/www/PHP/weimei/weimei/models/index_m.php",
+				"/home/h2ero/www/PHP/weimei/weimei/models/tag_m.php",
+				"/home/h2ero/www/PHP/weimei/weimei/models/like_m.php",
+				"/home/h2ero/www/PHP/weimei/weimei/controllers/tag.php",
+				"/home/h2ero/www/PHP/weimei/weimei/views/pic_list.php",
+				"/home/h2ero/www/PHP/weimei/weimei/models/album_m.php",
+				"/home/h2ero/www/PHP/weimei/weimei/views/album_detail.php",
+				"/home/h2ero/www/PHP/weimei/weimei/views/album_list.php",
+				"/home/h2ero/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+				"/home/h2ero/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
+				"/home/h2ero/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
+				"/home/h2ero/www/PHP/demo/demo.php",
+				"/home/h2ero/www/PHP/yunbian/tpl/multi_chat_show.html",
+				"/home/h2ero/www/PHP/yunbian/tpl/pub/css/nav_messages.css",
+				"/home/h2ero/www/PHP/yunbian/tpl/multi_chat.html",
+				"/home/h2ero/www/PHP/yunbian/controller/user.php",
+				"/home/h2ero/www/PHP/yunbian/tpl/user_message.html",
+				"/home/h2ero/www/PHP/yunbian/init/Extensions/thFunctions.php",
+				"/home/h2ero/www/PHP/yunbian/controller/admin.php",
+				"/home/h2ero/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings"
+			],
+			"find":
+			{
+				"height": 35.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+					""
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"site",
+					"INSTALL",
+					"TEMP",
+					">>>",
+					"TEMP",
+					"not f",
+					"404",
+					"conf",
+					"font",
+					"time",
+					"location",
+					"pre",
+					"next",
+					"indent",
+					"adva",
+					"alt",
+					"super",
+					"\"n\"",
+					"encode",
+					"panic",
+					"sprites",
+					"sprits",
+					"logo",
+					"google",
+					"encode",
+					"initialize\\(",
+					"initialize",
+					"initialize(",
+					"initila",
+					"init",
+					"guess",
+					"img",
+					"title",
+					"search/",
+					"coff",
+					"re",
+					"2",
+					"3",
+					" \n",
+					"3",
+					" \n",
+					"3",
+					"2",
+					"3",
+					"2",
+					"Search",
+					"qbui",
+					"image_url",
+					"open",
+					"tab",
+					"panel",
+					"right-box",
+					"r-",
+					"rel",
+					"one",
+					"location",
+					"split",
+					"DtaId",
+					"split",
+					"\n",
+					"file",
+					"body",
+					"h2ero",
+					"->",
+					"log",
+					"->",
+					"get",
+					"->",
+					"->ndwdw",
+					"comm",
+					"->",
+					"data->",
+					"->",
+					"get_pic",
+					"->",
+					"()",
+					"->",
+					"tag",
+					"->",
+					"result",
+					"load",
+					"data->",
+					"->",
+					"result",
+					"result(",
+					"result",
+					"wor",
+					"hide",
+					" (",
+					"preg_match_all",
+					"preg_match",
+					"strip_tags",
+					"preg",
+					"word wrap",
+					"var_",
+					"favatags",
+					"preg",
+					"$res[",
+					"videoimg",
+					"pmCount",
+					"my",
+					"pm",
+					"function",
+					"->read",
+					"read",
+					"reads",
+					"backlin",
+					"arti",
+					"pic",
+					"function",
+					"script",
+					"@id",
+					"re",
+					"<.*>",
+					"comple",
+					"[]",
+					"vim",
+					"tab_completion",
+					"class",
+					"tab",
+					"head",
+					"div",
+					"3",
+					"img",
+					"class",
+					"h2ero",
+					"ignore"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": true,
+				"replace_history":
+				[
+					"",
+					"data['']",
+					"['']",
+					"data['']",
+					"h2ero",
+					"class"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 34.0
+			},
+			"input":
+			{
+				"height": 33.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 349.0
+			},
+			"output.git":
+			{
+				"height": 112.0
+			},
+			"replace":
+			{
+				"height": 64.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+					[
+						"vi",
+						"index/views.py"
+					],
+					[
+						"inv",
+						"index/views.py"
+					],
+					[
+						"indemo",
+						"index/models.py"
+					],
+					[
+						"url",
+						"urls.py"
+					],
+					[
+						"de",
+						"demo.py"
+					],
+					[
+						"dem",
+						"demo.py"
+					],
+					[
+						"inin",
+						"index/__init__.py"
+					],
+					[
+						"mo",
+						"index/models.py"
+					],
+					[
+						"ini",
+						"__init__.py"
+					],
+					[
+						"se",
+						"settings.py"
+					],
+					[
+						"he2",
+						"templates/header2.html"
+					],
+					[
+						"heaer",
+						"templates/header.html"
+					],
+					[
+						"demo",
+						"demo.py"
+					],
+					[
+						"indexvi",
+						"index/views.py"
+					],
+					[
+						"v",
+						"views.py"
+					],
+					[
+						"ur",
+						"urls.py"
+					],
+					[
+						"bbsv",
+						"bbs/views.py"
+					],
+					[
+						"index",
+						"index.html"
+					],
+					[
+						"ti",
+						"title.py"
+					],
+					[
+						"sp",
+						"spider.py"
+					],
+					[
+						"s",
+						"spider.py"
+					],
+					[
+						"tit",
+						"title.py"
+					],
+					[
+						"adminsm",
+						"weimei/models/admin/spider_m.php"
+					],
+					[
+						"spidli",
+						"weimei/views/admin/spider_list.php"
+					],
+					[
+						"admins",
+						"weimei/controllers/admin/spider.php"
+					],
+					[
+						"sql",
+						"sql.txt"
+					],
+					[
+						"t",
+						"t.py"
+					],
+					[
+						"sless",
+						"style/css/style.less"
+					],
+					[
+						"viepico",
+						"weimei/views/pic_one.php"
+					],
+					[
+						"pic",
+						"weimei/controllers/pic.php"
+					],
+					[
+						"picm",
+						"weimei/models/pic_m.php"
+					],
+					[
+						"comment",
+						"weimei/controllers/comment.php"
+					],
+					[
+						"sel",
+						"weimei/helpers/self_define_helper.php"
+					],
+					[
+						"comm",
+						"system/core/Common.php"
+					],
+					[
+						"in",
+						"index.html"
+					],
+					[
+						"css",
+						"style/js/jquery-css-transform.js"
+					],
+					[
+						"inde",
+						"index.html"
+					],
+					[
+						"stylel",
+						"style/css/style.less"
+					],
+					[
+						"contrde",
+						"weimei/controllers/demo.php"
+					],
+					[
+						"html",
+						"system/helpers/html_helper.php"
+					],
+					[
+						"main.js",
+						"style/js/main.js"
+					],
+					[
+						"vieindexh",
+						"weimei/views/index.php"
+					],
+					[
+						"conin",
+						"weimei/controllers/index.php"
+					],
+					[
+						"avataro",
+						"weimei/views/avatar_one.php"
+					],
+					[
+						"avatarlis",
+						"weimei/views/avatar_list.php"
+					],
+					[
+						"avatm",
+						"weimei/models/avatar_m.php"
+					],
+					[
+						"avat",
+						"weimei/controllers/avatar.php"
+					],
+					[
+						"art",
+						"weimei/controllers/article.php"
+					],
+					[
+						"artlist",
+						"weimei/views/article_list.php"
+					],
+					[
+						"userm",
+						"weimei/views/user_comment.php"
+					],
+					[
+						"st",
+						"style/style.css"
+					],
+					[
+						"usercomm",
+						"weimei/views/user_comment.php"
+					],
+					[
+						"user.php",
+						"weimei/controllers/user.php"
+					],
+					[
+						"main",
+						"style/js/main.js"
+					],
+					[
+						"u.php",
+						"weimei/controllers/u.php"
+					],
+					[
+						"commentm",
+						"weimei/models/comment_m.php"
+					],
+					[
+						"show",
+						"weimei/views/showComment.php"
+					],
+					[
+						"comm_",
+						"weimei/models/comment_m.php"
+					],
+					[
+						"userta",
+						"weimei/views/user_tag.php"
+					],
+					[
+						"user_m",
+						"weimei/models/user_m.php"
+					],
+					[
+						"u_vie",
+						"weimei/views/user_view_pic.php"
+					],
+					[
+						"user",
+						"weimei/controllers/user.php"
+					],
+					[
+						"arv",
+						"weimei/views/article_view.php"
+					],
+					[
+						"article",
+						"weimei/controllers/article.php"
+					],
+					[
+						"commm",
+						"weimei/models/comment_m.php"
+					],
+					[
+						"edit",
+						"weimei/views/article_edit.php"
+					],
+					[
+						"arim",
+						"weimei/models/article_m.php"
+					],
+					[
+						"ci",
+						"system/core/CodeIgniter.php"
+					],
+					[
+						"comme",
+						"weimei/controllers/comment.php"
+					],
+					[
+						"commenm",
+						"weimei/models/comment_m.php"
+					],
+					[
+						"viearv",
+						"weimei/views/article_view.php"
+					],
+					[
+						"viearili",
+						"weimei/views/article_list.php"
+					],
+					[
+						"artim",
+						"weimei/models/article_m.php"
+					],
+					[
+						"indem",
+						"weimei/models/index_m.php"
+					],
+					[
+						"coninphp",
+						"weimei/controllers/index.php"
+					],
+					[
+						"viein",
+						"weimei/views/index.php"
+					],
+					[
+						"avatar",
+						"weimei/controllers/avatar.php"
+					],
+					[
+						"tagm",
+						"weimei/models/tag_m.php"
+					],
+					[
+						"tag",
+						"weimei/controllers/tag.php"
+					],
+					[
+						"lik",
+						"weimei/models/like_m.php"
+					],
+					[
+						"_m",
+						"weimei/models/tag_m.php"
+					],
+					[
+						"picone",
+						"weimei/views/pic_one.php"
+					],
+					[
+						"self",
+						"weimei/helpers/self_define_helper.php"
+					],
+					[
+						"piclis",
+						"weimei/views/pic_list.php"
+					],
+					[
+						"albuli",
+						"weimei/views/album_list.php"
+					],
+					[
+						"albude",
+						"weimei/views/album_detail.php"
+					],
+					[
+						"albu_",
+						"weimei/models/album_m.php"
+					],
+					[
+						"albu",
+						"weimei/controllers/album.php"
+					],
+					[
+						"album",
+						"weimei/controllers/album.php"
+					],
+					[
+						"al",
+						"weimei/models/album_m.php"
+					],
+					[
+						"albm",
+						"weimei/models/album_m.php"
+					],
+					[
+						"ii",
+						"ii"
+					],
+					[
+						"th",
+						"init/Extensions/thFunctions.php"
+					],
+					[
+						"user_me",
+						"tpl/user_message.html"
+					],
+					[
+						"multh",
+						"tpl/multi_chat.html"
+					],
+					[
+						"nav",
+						"tpl/pub/css/nav_messages.css"
+					],
+					[
+						"chatsh",
+						"tpl/multi_chat_show.html"
+					],
+					[
+						"thf",
+						"init/Extensions/thFunctions.php"
+					],
+					[
+						"top",
+						"controller/top.php"
+					],
+					[
+						"con",
+						"config.php"
+					],
+					[
+						"cha",
+						"controller/chat.php"
+					],
+					[
+						"chat",
+						"controller/chat.php"
+					],
+					[
+						"notice.h",
+						"tpl/user_notice.html"
+					],
+					[
+						"meagou_he",
+						"tpl/meagou_header.html"
+					],
+					[
+						"head",
+						"tpl/admin/header.html"
+					],
+					[
+						"top.php",
+						"controller/top.php"
+					],
+					[
+						"main.php",
+						"controller/main.php"
+					],
+					[
+						"user_mess",
+						"tpl/user_message.html"
+					],
+					[
+						"mypm",
+						"tpl/user_mypm.html"
+					],
+					[
+						"u",
+						"controller/user.php"
+					],
+					[
+						"userpmm",
+						"tpl/user_mypm.html"
+					],
+					[
+						"m",
+						"controller/main.php"
+					],
+					[
+						"tpl/disar",
+						"tpl/discovery_article.html"
+					],
+					[
+						"controller/ma",
+						"controller/main.php"
+					],
+					[
+						"d",
+						"/home/h2ero/www/PHP/demo/demo.php"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 161.0,
+			"status_bar_visible": true
+		},
+		"new_window_width": 681.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"re",
+						"render_to_response"
+					],
+					[
+						"j",
+						"jquery	<script> (jQuery google ajax api)"
+					],
+					[
+						"jquery",
+						"jquery	<script> (code.jquery.com)"
+					],
+					[
+						"ta",
+						"targetId"
+					],
+					[
+						"S",
+						"SQLS"
+					],
+					[
+						"ra",
+						"read"
+					],
+					[
+						"req",
+						"Request  (class)"
+					],
+					[
+						"q",
+						"quote_plus  (function)"
+					],
+					[
+						"Whe",
+						"WHERE"
+					],
+					[
+						"op",
+						"newOpen  (function)"
+					],
+					[
+						"img",
+						"imgPath"
+					],
+					[
+						"urlli",
+						"imgUrlList"
+					],
+					[
+						"open",
+						"urlopen  (function)"
+					],
+					[
+						"sp",
+						"spider"
+					],
+					[
+						"wh",
+						"where"
+					],
+					[
+						"s",
+						"sleep  (function)"
+					],
+					[
+						"pr",
+						"print"
+					],
+					[
+						"my",
+						"MySQLdb"
+					],
+					[
+						"lower",
+						"lowercase  (variable)"
+					],
+					[
+						"ready",
+						"ready	document ready - jQuery"
+					],
+					[
+						"ajax",
+						".ajax	ajax"
+					],
+					[
+						"_",
+						"$_	SERVER['…']"
+					],
+					[
+						"pre",
+						"preg_match_all"
+					],
+					[
+						"h",
+						"header"
+					],
+					[
+						"_S",
+						"__construct"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/home/h2ero/work/demo.py",
+					"settings":
+					{
+						"buffer_size": 2665,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/h2ero/work/d.py",
+					"settings":
+					{
+						"buffer_size": 48,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 392.0,
+				"selected_items":
+				[
+					[
+						"set html",
+						"Set Syntax: HTML"
+					],
+					[
+						"html",
+						"Snippet: html"
+					],
+					[
+						"set py",
+						"Set Syntax: Python"
+					],
+					[
+						"remov",
+						"Package Control: Remove Package"
+					],
+					[
+						"pyt",
+						"Set Syntax: Python"
+					],
+					[
+						"ctags",
+						"CTags: Rebuild Tags"
+					],
+					[
+						"install ",
+						"Package Control: Install Package"
+					],
+					[
+						"ins",
+						"Package Control: Install Package"
+					],
+					[
+						"inst",
+						"Package Control: Install Package"
+					],
+					[
+						"set ini",
+						"Set Syntax: INI"
+					],
+					[
+						"mark pr",
+						"Markdown Preview: current file in Sublime Text"
+					],
+					[
+						"set ma",
+						"Set Syntax: Markdown"
+					],
+					[
+						"set mr",
+						"Set Syntax: MultiMarkdown"
+					],
+					[
+						"remove ",
+						"Package Control: Remove Package"
+					],
+					[
+						"css ",
+						"Tidy CSS"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"prett",
+						"HTMLPrettify: Prettify"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"zend c",
+						"Zen Coding: Move caret to next edit point"
+					],
+					[
+						"zend next",
+						"Zen Coding: Select next item"
+					],
+					[
+						"stack",
+						"Stackoverflow: Search Selection"
+					],
+					[
+						"indent",
+						"Indentation: Convert to Spaces"
+					],
+					[
+						"termi",
+						"Preferences: Terminal Key Bindings – Default"
+					],
+					[
+						"disc",
+						"Package Control: Discover Packages"
+					],
+					[
+						"dis",
+						"Package Control: Discover Packages"
+					],
+					[
+						"pa ",
+						"Package Control: List Packages"
+					],
+					[
+						"py",
+						"User: Python PEP8 Autoformat"
+					],
+					[
+						"pyt f",
+						"User: Python PEP8 Autoformat"
+					],
+					[
+						"python",
+						"User: Python PEP8 Autoformat"
+					],
+					[
+						"python ",
+						"User: Python PEP8 Autoformat"
+					],
+					[
+						"python f",
+						"User: Python PEP8 Autoformat"
+					],
+					[
+						"javascript",
+						"Format: Javascript"
+					],
+					[
+						"pep8",
+						"User: Python PEP8 Autoformat"
+					],
+					[
+						"set javas",
+						"Set Syntax: JavaScript"
+					],
+					[
+						"alignment",
+						"Preferences: Alignment File Settings – Syntax Specific – User"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"s javas",
+						"Set Syntax: JavaScript"
+					],
+					[
+						"s thml",
+						"Set Syntax: HTML"
+					],
+					[
+						"linter",
+						"SublimeLinter: Disable Linting"
+					],
+					[
+						"lint",
+						"SublimeLinter: Disable Linting"
+					],
+					[
+						"liner",
+						"SublimeLinter: Lint Current File"
+					],
+					[
+						"set ",
+						"Set Syntax: PHP"
+					],
+					[
+						"pake re",
+						"Package Control: Remove Package"
+					],
+					[
+						"lintere",
+						"SublimeLinter: Disable Linting"
+					],
+					[
+						"py fo",
+						"User: Python PEP8 Autoformat"
+					],
+					[
+						"pyto",
+						"User: Python PEP8 Autoformat"
+					],
+					[
+						"sql",
+						"Set Syntax: SQL"
+					],
+					[
+						"fo",
+						"Format: Javascript"
+					],
+					[
+						"li pack ",
+						"Package Control: List Packages"
+					],
+					[
+						"input",
+						"InputHelper"
+					],
+					[
+						"lo h",
+						"Snippet: CI - Load Helper File"
+					],
+					[
+						"git diff",
+						"Git: Diff Current File"
+					],
+					[
+						"git comm",
+						"Git: Commit"
+					],
+					[
+						"git s",
+						"Git: Status"
+					],
+					[
+						"git lo",
+						"Git: Log All"
+					],
+					[
+						"inst	",
+						"Package Control: Install Package"
+					],
+					[
+						"for",
+						"Format: Javascript"
+					],
+					[
+						"form",
+						"Format: Javascript"
+					],
+					[
+						"instal",
+						"Package Control: Install Package"
+					],
+					[
+						"snippet co",
+						"Snippet: cookie"
+					],
+					[
+						"snippet",
+						"Snippet: Function"
+					],
+					[
+						"jquery.each",
+						"Snippet: jQuery.each"
+					],
+					[
+						"disc ",
+						"Package Control: Discover Packages"
+					],
+					[
+						"key",
+						"Preferences: Key Bindings - User"
+					],
+					[
+						"key bi",
+						"Preferences: Key Bindings - User"
+					],
+					[
+						"clip",
+						"Clipboard History"
+					],
+					[
+						"jquery ajax",
+						"Snippet: jQuery AJAX call"
+					],
+					[
+						"jqueryr",
+						"Snippet: jQuery ready function"
+					],
+					[
+						"CI load",
+						"Snippet: CI - Upload Boilerplate"
+					],
+					[
+						"sni",
+						"Snippet: SERVER['…']"
+					],
+					[
+						"sget",
+						"Snippet: get"
+					],
+					[
+						"set php",
+						"Set Syntax: PHP"
+					],
+					[
+						"bash",
+						"Set Syntax: Shell Script (Bash)"
+					],
+					[
+						"ci lo h",
+						"Snippet: CI - Load Helper File"
+					],
+					[
+						"ci lo m",
+						"Snippet: CI - Load Model"
+					],
+					[
+						"set mad",
+						"Set Syntax: Markdown"
+					],
+					[
+						"ci db de",
+						"Snippet: CI - Active Record DB Delete"
+					],
+					[
+						"ci db up",
+						"Snippet: CI - Active Record DB Update"
+					],
+					[
+						"ci Actic",
+						"Snippet: CI - Active Record DB Update"
+					],
+					[
+						"markdown ",
+						"Pandoc: Render Markdown to PDF"
+					],
+					[
+						"markdo",
+						"Markdown Slideshow: I/O 2011 theme"
+					],
+					[
+						"mark",
+						"Markdown Slideshow: I/O 2012 theme"
+					],
+					[
+						"mar ",
+						"Markdown Preview: current file in Sublime Text"
+					],
+					[
+						"mark ",
+						"Markdown Preview: current file in browser"
+					],
+					[
+						"mar b",
+						"Markdown Preview: current file in browser"
+					],
+					[
+						"mar c s",
+						"Markdown Preview: current file in Sublime Text"
+					],
+					[
+						"SET HTML",
+						"Set Syntax: HTML"
+					],
+					[
+						":inst",
+						"Package Control: Install Package"
+					],
+					[
+						":w",
+						":w - Save"
+					],
+					[
+						":jquery aj",
+						"Snippet: jQuery.ajax"
+					],
+					[
+						":html",
+						"Set Syntax: HTML"
+					],
+					[
+						":list pa",
+						"Package Control: List Packages"
+					],
+					[
+						":tab",
+						"View: Toggle Tabs"
+					],
+					[
+						":install ",
+						"Package Control: Install Package"
+					],
+					[
+						":remov",
+						"Package Control: Remove Package"
+					],
+					[
+						":PHP",
+						"Set Syntax: PHP"
+					],
+					[
+						":pack",
+						"Package Control: List Packages"
+					],
+					[
+						":ins",
+						"Package Control: Install Package"
+					],
+					[
+						":j",
+						"Snippet: jQuery.ajax"
+					],
+					[
+						":h",
+						"Set Syntax: HTML"
+					],
+					[
+						":zen",
+						"Set Syntax: ZenCoding"
+					],
+					[
+						":package			",
+						"Package Control: Install Package"
+					],
+					[
+						":php",
+						"Set Syntax: PHP"
+					],
+					[
+						":q",
+						"Set Syntax: SQL"
+					],
+					[
+						"Zen Coding: ",
+						"Zen Coding: Wrap zen as you type"
+					],
+					[
+						":z",
+						"Set Syntax: ZenCoding"
+					],
+					[
+						":ev",
+						"Zen Coding: Evaluate math expression"
+					],
+					[
+						":clos",
+						"File: Close All"
+					],
+					[
+						"Package Control: ins",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: in",
+						"Package Control: Install Package"
+					],
+					[
+						":",
+						":w - Save"
+					]
+				],
+				"width": 602.0
+			},
+			"console":
+			{
+				"height": 139.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/h2ero/work/d.py",
+				"/home/h2ero/work/demo.py",
+				"/home/h2ero/www/mysites/index/views.py",
+				"/media/S/backup/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
+				"/home/h2ero/www/mysites/settings.py",
+				"/home/h2ero/www/mysites/urls.py",
+				"/home/h2ero/www/mysites/index/models.py",
+				"/home/h2ero/www/mysites/demo.py",
+				"/home/h2ero/www/mysites/__init__.py",
+				"/home/h2ero/www/mysites/index/__init__.py",
+				"/home/h2ero/www/mysites/templates/header.html",
+				"/home/h2ero/www/mysites/templates/header2.html",
+				"/home/h2ero/www/mysites/templates/index.html",
+				"/home/h2ero/www/mysites/templates/footer.html",
+				"/media/S/backup/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+				"/home/h2ero/www/mysites/views.py",
+				"/home/h2ero/www/design/index.html",
+				"/media/S/note/python/post.py",
+				"/home/h2ero/www/py/urls.py",
+				"/home/h2ero/www/py/bbs/views.py",
+				"/home/h2ero/www/py/templates/index.html",
+				"/home/h2ero/www/py/templates/style/style.css",
+				"/home/h2ero/www/py/demo.py",
+				"/home/h2ero/www/py/controller/test.py",
+				"/home/h2ero/www/py/controller/pagelist.py",
+				"/home/h2ero/www/py/controller/index.py",
+				"/home/h2ero/www/py/settings.py",
+				"/home/h2ero/.mozilla/firefox/4b2udtpz.default/gm_scripts/bbdu/bbdu.user.js",
+				"/home/h2ero/www/py/manage.py",
+				"/home/h2ero/www/py/py.ini",
+				"/home/h2ero/www/py/p.ini",
+				"/home/h2ero/www/py/demo/settings.py",
+				"/home/h2ero/www/py/demo/test.py",
+				"/media/S/blog/_posts/2012/2012-09-01-shell-wiki.md",
+				"/media/S/backup/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+				"/media/S/blog/_posts/2012/tpl.md",
+				"/media/S/backup/.config/sublime-text-2/Packages/formatCSS/formatCSS.py",
+				"/media/S/blog/media/js/main.js",
+				"/media/S/blog/_layouts/post.html",
+				"/media/S/blog/media/css/style.css",
+				"/media/S/backup/.config/sublime-text-2/Packages/CSSTidy/CSSTidy.sublime-settings",
+				"/media/S/backup/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
+				"/media/S/blog/_layouts/page.html",
+				"/media/S/backup/.config/sublime-text-2/Packages/ZenCoding/Default.sublime-keymap",
+				"/home/h2ero/www/design/demo.html",
+				"/media/S/note/python/title.py",
+				"/media/S/note/python/splitTag.py",
+				"/media/S/note/python/imgCropResize.py",
+				"/media/S/note/python/reFolder.py",
+				"/media/S/backup/.config/sublime-text-2/Packages/Terminal/Default (Linux).sublime-keymap",
+				"/media/S/backup/.config/sublime-text-2/Packages/Terminal/Terminal.sublime-settings",
+				"/media/S/note/python/getImgHeight.py",
+				"/media/S/note/python/demo.py",
+				"/media/S/note/python/download.py",
+				"/media/S/note/python/spider.py",
+				"/media/S/note/python/res.jpg",
+				"/media/S/note/python/1.thumbnail",
+				"/media/S/note/python/data",
+				"/media/S/note/python/Gzzip.py",
+				"/media/S/note/python/img.zip",
+				"/media/S/note/python/tsql.txt",
+				"/media/S/note/python/titlesql.txt",
+				"/media/S/note/python/t.py",
+				"/media/S/note/python/sql.txt",
+				"/media/S/note/python/moudle/demo2.py",
+				"/media/S/note/python/demo2.py",
+				"/media/S/note/python/i.php",
+				"/media/S/note/python/untitled.js",
+				"/media/S/backup/.config/sublime-text-2/Packages/User/Python.sublime-settings",
+				"/media/S/backup/.config/sublime-text-2/Packages/Terminal/Base File.sublime-settings",
+				"/media/S/backup/.config/sublime-text-2/Packages/Alignment/Default (Linux).sublime-keymap",
+				"/media/S/backup/.config/sublime-text-2/Packages/Git/Git.sublime-settings",
+				"/media/S/note/python/untitled.php",
+				"/media/S/note/python/queue.py",
+				"/media/S/note/python/python.md",
+				"/home/h2ero/www/PHP/weimei/weimei/controllers/pic.php",
+				"/home/h2ero/www/PHP/weimei/weimei/models/pic_m.php",
+				"/home/h2ero/www/PHP/weimei/style/css/style.less",
+				"/home/h2ero/www/PHP/weimei/weimei/views/pic_one.php",
+				"/home/h2ero/www/PHP/weimei/weimei/helpers/self_define_helper.php",
+				"/home/h2ero/www/PHP/weimei/weimei/controllers/comment.php",
+				"/home/h2ero/www/PHP/weimei/weimei/controllers/album.php",
+				"/home/h2ero/www/PHP/weimei/system/core/Common.php",
+				"/home/h2ero/www/design/style/js/jquery-css-transform.js",
+				"/home/h2ero/www/PHP/weimei/weimei/controllers/demo.php",
+				"/home/h2ero/Desktop/temp/untitled.md",
+				"/home/h2ero/www/PHP/weimei/system/helpers/html_helper.php",
+				"/home/h2ero/www/PHP/weimei/index.php",
+				"/home/h2ero/www/PHP/weimei/weimei/controllers/index.php",
+				"/home/h2ero/www/PHP/weimei/weimei/views/index.php",
+				"/home/h2ero/www/PHP/weimei/style/js/main.js",
+				"/home/h2ero/www/PHP/weimei/weimei/controllers/avatar.php",
+				"/home/h2ero/www/PHP/weimei/weimei/models/avatar_m.php",
+				"/home/h2ero/www/PHP/weimei/weimei/views/avatar_list.php",
+				"/home/h2ero/www/PHP/weimei/weimei/views/avatar_one.php",
+				"/home/h2ero/www/PHP/weimei/weimei/models/comment_m.php",
+				"/home/h2ero/www/PHP/weimei/weimei/models/user_m.php",
+				"/home/h2ero/www/PHP/weimei/weimei/controllers/user.php",
+				"/home/h2ero/www/PHP/weimei/weimei/views/user_comment.php",
+				"/home/h2ero/www/PHP/weimei/weimei/views/article_list.php",
+				"/home/h2ero/www/PHP/weimei/weimei/controllers/article.php",
+				"/home/h2ero/www/PHP/weimei/style/style.css",
+				"/home/h2ero/www/PHP/weimei/weimei/controllers/u.php",
+				"/home/h2ero/www/PHP/weimei/weimei/views/user_view_pic.php",
+				"/home/h2ero/www/PHP/weimei/weimei/views/user_tag.php",
+				"/home/h2ero/www/PHP/weimei/weimei/views/showComment.php",
+				"/home/h2ero/www/PHP/weimei/weimei/views/article_view.php",
+				"/home/h2ero/www/PHP/weimei/weimei/views/article_edit.php",
+				"/home/h2ero/www/PHP/weimei/weimei/models/article_m.php",
+				"/home/h2ero/www/PHP/weimei/system/core/CodeIgniter.php",
+				"/home/h2ero/www/PHP/weimei/weimei/models/index_m.php",
+				"/home/h2ero/www/PHP/weimei/weimei/models/tag_m.php",
+				"/home/h2ero/www/PHP/weimei/weimei/models/like_m.php",
+				"/home/h2ero/www/PHP/weimei/weimei/controllers/tag.php",
+				"/home/h2ero/www/PHP/weimei/weimei/views/pic_list.php",
+				"/home/h2ero/www/PHP/weimei/weimei/models/album_m.php",
+				"/home/h2ero/www/PHP/weimei/weimei/views/album_detail.php",
+				"/home/h2ero/www/PHP/weimei/weimei/views/album_list.php",
+				"/home/h2ero/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+				"/home/h2ero/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
+				"/home/h2ero/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
+				"/home/h2ero/www/PHP/demo/demo.php",
+				"/home/h2ero/www/PHP/yunbian/tpl/multi_chat_show.html",
+				"/home/h2ero/www/PHP/yunbian/tpl/pub/css/nav_messages.css",
+				"/home/h2ero/www/PHP/yunbian/tpl/multi_chat.html",
+				"/home/h2ero/www/PHP/yunbian/controller/user.php",
+				"/home/h2ero/www/PHP/yunbian/tpl/user_message.html",
+				"/home/h2ero/www/PHP/yunbian/init/Extensions/thFunctions.php"
+			],
+			"find":
+			{
+				"height": 35.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+					""
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					",",
+					"'",
+					"site",
+					"INSTALL",
+					"TEMP",
+					">>>",
+					"TEMP",
+					"not f",
+					"404",
+					"conf",
+					"font",
+					"time",
+					"location",
+					"pre",
+					"next",
+					"indent",
+					"adva",
+					"alt",
+					"super",
+					"\"n\"",
+					"encode",
+					"panic",
+					"sprites",
+					"sprits",
+					"logo",
+					"google",
+					"encode",
+					"initialize\\(",
+					"initialize",
+					"initialize(",
+					"initila",
+					"init",
+					"guess",
+					"img",
+					"title",
+					"search/",
+					"coff",
+					"re",
+					"2",
+					"3",
+					" \n",
+					"3",
+					" \n",
+					"3",
+					"2",
+					"3",
+					"2",
+					"Search",
+					"qbui",
+					"image_url",
+					"open",
+					"tab",
+					"panel",
+					"right-box",
+					"r-",
+					"rel",
+					"one",
+					"location",
+					"split",
+					"DtaId",
+					"split",
+					"\n",
+					"file",
+					"body",
+					"h2ero",
+					"->",
+					"log",
+					"->",
+					"get",
+					"->",
+					"->ndwdw",
+					"comm",
+					"->",
+					"data->",
+					"->",
+					"get_pic",
+					"->",
+					"()",
+					"->",
+					"tag",
+					"->",
+					"result",
+					"load",
+					"data->",
+					"->",
+					"result",
+					"result(",
+					"result",
+					"wor",
+					"hide",
+					" (",
+					"preg_match_all",
+					"preg_match",
+					"strip_tags",
+					"preg",
+					"word wrap",
+					"var_",
+					"favatags",
+					"preg",
+					"$res[",
+					"videoimg",
+					"pmCount",
+					"my",
+					"pm",
+					"function",
+					"->read",
+					"read",
+					"reads",
+					"backlin",
+					"arti",
+					"pic",
+					"function",
+					"script",
+					"@id",
+					"re",
+					"<.*>",
+					"comple",
+					"[]",
+					"vim",
+					"tab_completion",
+					"class",
+					"tab",
+					"head",
+					"div",
+					"3",
+					"img",
+					"class",
+					"h2ero"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": true,
+				"replace_history":
+				[
+					"|",
+					"",
+					"data['']",
+					"['']",
+					"data['']",
+					"h2ero",
+					"class"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/h2ero/work/demo.py",
+							"settings":
+							{
+								"buffer_size": 2665,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										2664,
+										2664
+									]
+								],
+								"settings":
+								{
+									"annotations":
+									[
+										"TODO",
+										"README",
+										"FIXME"
+									],
+									"csslint_options":
+									{
+										"adjoining-classes": "warning",
+										"box-model": true,
+										"box-sizing": "warning",
+										"compatible-vendor-prefixes": "warning",
+										"display-property-grouping": true,
+										"duplicate-background-images": "warning",
+										"duplicate-properties": true,
+										"empty-rules": true,
+										"errors": true,
+										"fallback-colors": "warning",
+										"floats": "warning",
+										"font-faces": "warning",
+										"font-sizes": "warning",
+										"gradients": "warning",
+										"ids": "warning",
+										"import": "warning",
+										"important": "warning",
+										"known-properties": true,
+										"outline-none": "warning",
+										"overqualified-elements": "warning",
+										"qualified-headings": "warning",
+										"regex-selectors": "warning",
+										"rules-count": "warning",
+										"shorthand": "warning",
+										"star-property-hack": "warning",
+										"text-indent": "warning",
+										"underscore-property-hack": "warning",
+										"unique-headings": "warning",
+										"universal-selector": "warning",
+										"vendor-prefix": true,
+										"zero-units": "warning"
+									},
+									"gjslint_ignore":
+									[
+										110.0
+									],
+									"gjslint_options":
+									[
+									],
+									"javascript_linter": "jshint",
+									"jshint_options":
+									{
+										"browser": true,
+										"evil": true,
+										"regexdash": true,
+										"sub": true,
+										"trailing": true,
+										"wsh": true
+									},
+									"origin_encoding": "ASCII",
+									"pep8": true,
+									"pep8_ignore":
+									[
+										"E501"
+									],
+									"perl_linter": "perlcritic",
+									"pyflakes_ignore":
+									[
+									],
+									"pyflakes_ignore_import_*": true,
+									"sublimelinter": true,
+									"sublimelinter_delay": 2.0,
+									"sublimelinter_disable":
+									[
+									],
+									"sublimelinter_executable_map":
+									{
+									},
+									"sublimelinter_fill_outlines": false,
+									"sublimelinter_gutter_marks": false,
+									"sublimelinter_mark_style": "outline",
+									"sublimelinter_notes": false,
+									"sublimelinter_objj_check_ascii": false,
+									"sublimelinter_popup_errors_on_save": false,
+									"sublimelinter_syntax_map":
+									{
+										"Python Django": "python",
+										"Ruby on Rails": "ruby"
+									},
+									"sublimelinter_wrap_find": true,
+									"syntax": "Packages/Python/Python.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/h2ero/work/d.py",
+							"settings":
+							{
+								"buffer_size": 48,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										28,
+										28
+									]
+								],
+								"settings":
+								{
+									"annotations":
+									[
+										"TODO",
+										"README",
+										"FIXME"
+									],
+									"csslint_options":
+									{
+										"adjoining-classes": "warning",
+										"box-model": true,
+										"box-sizing": "warning",
+										"compatible-vendor-prefixes": "warning",
+										"display-property-grouping": true,
+										"duplicate-background-images": "warning",
+										"duplicate-properties": true,
+										"empty-rules": true,
+										"errors": true,
+										"fallback-colors": "warning",
+										"floats": "warning",
+										"font-faces": "warning",
+										"font-sizes": "warning",
+										"gradients": "warning",
+										"ids": "warning",
+										"import": "warning",
+										"important": "warning",
+										"known-properties": true,
+										"outline-none": "warning",
+										"overqualified-elements": "warning",
+										"qualified-headings": "warning",
+										"regex-selectors": "warning",
+										"rules-count": "warning",
+										"shorthand": "warning",
+										"star-property-hack": "warning",
+										"text-indent": "warning",
+										"underscore-property-hack": "warning",
+										"unique-headings": "warning",
+										"universal-selector": "warning",
+										"vendor-prefix": true,
+										"zero-units": "warning"
+									},
+									"gjslint_ignore":
+									[
+										110.0
+									],
+									"gjslint_options":
+									[
+									],
+									"javascript_linter": "jshint",
+									"jshint_options":
+									{
+										"browser": true,
+										"evil": true,
+										"regexdash": true,
+										"sub": true,
+										"trailing": true,
+										"wsh": true
+									},
+									"origin_encoding": "UTF-8",
+									"pep8": true,
+									"pep8_ignore":
+									[
+										"E501"
+									],
+									"perl_linter": "perlcritic",
+									"pyflakes_ignore":
+									[
+									],
+									"pyflakes_ignore_import_*": true,
+									"sublimelinter": true,
+									"sublimelinter_delay": 2.0,
+									"sublimelinter_disable":
+									[
+									],
+									"sublimelinter_executable_map":
+									{
+									},
+									"sublimelinter_fill_outlines": false,
+									"sublimelinter_gutter_marks": false,
+									"sublimelinter_mark_style": "outline",
+									"sublimelinter_notes": false,
+									"sublimelinter_objj_check_ascii": false,
+									"sublimelinter_popup_errors_on_save": false,
+									"sublimelinter_syntax_map":
+									{
+										"Python Django": "python",
+										"Ruby on Rails": "ruby"
+									},
+									"sublimelinter_wrap_find": true,
+									"syntax": "Packages/Python/Python.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 34.0
+			},
+			"input":
+			{
+				"height": 33.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 349.0
+			},
+			"output.git":
+			{
+				"height": 112.0
+			},
+			"position": "0,0,0,0,0,0,19,1364,766,1366,768",
+			"replace":
+			{
+				"height": 64.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+					[
+						"d.py",
+						"/home/h2ero/work/demo.py"
+					],
+					[
+						"vi",
+						"index/views.py"
+					],
+					[
+						"inv",
+						"index/views.py"
+					],
+					[
+						"indemo",
+						"index/models.py"
+					],
+					[
+						"url",
+						"urls.py"
+					],
+					[
+						"de",
+						"demo.py"
+					],
+					[
+						"dem",
+						"demo.py"
+					],
+					[
+						"inin",
+						"index/__init__.py"
+					],
+					[
+						"mo",
+						"index/models.py"
+					],
+					[
+						"ini",
+						"__init__.py"
+					],
+					[
+						"se",
+						"settings.py"
+					],
+					[
+						"he2",
+						"templates/header2.html"
+					],
+					[
+						"heaer",
+						"templates/header.html"
+					],
+					[
+						"demo",
+						"demo.py"
+					],
+					[
+						"indexvi",
+						"index/views.py"
+					],
+					[
+						"v",
+						"views.py"
+					],
+					[
+						"ur",
+						"urls.py"
+					],
+					[
+						"bbsv",
+						"bbs/views.py"
+					],
+					[
+						"index",
+						"index.html"
+					],
+					[
+						"ti",
+						"title.py"
+					],
+					[
+						"sp",
+						"spider.py"
+					],
+					[
+						"s",
+						"spider.py"
+					],
+					[
+						"tit",
+						"title.py"
+					],
+					[
+						"adminsm",
+						"weimei/models/admin/spider_m.php"
+					],
+					[
+						"spidli",
+						"weimei/views/admin/spider_list.php"
+					],
+					[
+						"admins",
+						"weimei/controllers/admin/spider.php"
+					],
+					[
+						"sql",
+						"sql.txt"
+					],
+					[
+						"t",
+						"t.py"
+					],
+					[
+						"sless",
+						"style/css/style.less"
+					],
+					[
+						"viepico",
+						"weimei/views/pic_one.php"
+					],
+					[
+						"pic",
+						"weimei/controllers/pic.php"
+					],
+					[
+						"picm",
+						"weimei/models/pic_m.php"
+					],
+					[
+						"comment",
+						"weimei/controllers/comment.php"
+					],
+					[
+						"sel",
+						"weimei/helpers/self_define_helper.php"
+					],
+					[
+						"comm",
+						"system/core/Common.php"
+					],
+					[
+						"in",
+						"index.html"
+					],
+					[
+						"css",
+						"style/js/jquery-css-transform.js"
+					],
+					[
+						"inde",
+						"index.html"
+					],
+					[
+						"stylel",
+						"style/css/style.less"
+					],
+					[
+						"contrde",
+						"weimei/controllers/demo.php"
+					],
+					[
+						"html",
+						"system/helpers/html_helper.php"
+					],
+					[
+						"main.js",
+						"style/js/main.js"
+					],
+					[
+						"vieindexh",
+						"weimei/views/index.php"
+					],
+					[
+						"conin",
+						"weimei/controllers/index.php"
+					],
+					[
+						"avataro",
+						"weimei/views/avatar_one.php"
+					],
+					[
+						"avatarlis",
+						"weimei/views/avatar_list.php"
+					],
+					[
+						"avatm",
+						"weimei/models/avatar_m.php"
+					],
+					[
+						"avat",
+						"weimei/controllers/avatar.php"
+					],
+					[
+						"art",
+						"weimei/controllers/article.php"
+					],
+					[
+						"artlist",
+						"weimei/views/article_list.php"
+					],
+					[
+						"userm",
+						"weimei/views/user_comment.php"
+					],
+					[
+						"st",
+						"style/style.css"
+					],
+					[
+						"usercomm",
+						"weimei/views/user_comment.php"
+					],
+					[
+						"user.php",
+						"weimei/controllers/user.php"
+					],
+					[
+						"main",
+						"style/js/main.js"
+					],
+					[
+						"u.php",
+						"weimei/controllers/u.php"
+					],
+					[
+						"commentm",
+						"weimei/models/comment_m.php"
+					],
+					[
+						"show",
+						"weimei/views/showComment.php"
+					],
+					[
+						"comm_",
+						"weimei/models/comment_m.php"
+					],
+					[
+						"userta",
+						"weimei/views/user_tag.php"
+					],
+					[
+						"user_m",
+						"weimei/models/user_m.php"
+					],
+					[
+						"u_vie",
+						"weimei/views/user_view_pic.php"
+					],
+					[
+						"user",
+						"weimei/controllers/user.php"
+					],
+					[
+						"arv",
+						"weimei/views/article_view.php"
+					],
+					[
+						"article",
+						"weimei/controllers/article.php"
+					],
+					[
+						"commm",
+						"weimei/models/comment_m.php"
+					],
+					[
+						"edit",
+						"weimei/views/article_edit.php"
+					],
+					[
+						"arim",
+						"weimei/models/article_m.php"
+					],
+					[
+						"ci",
+						"system/core/CodeIgniter.php"
+					],
+					[
+						"comme",
+						"weimei/controllers/comment.php"
+					],
+					[
+						"commenm",
+						"weimei/models/comment_m.php"
+					],
+					[
+						"viearv",
+						"weimei/views/article_view.php"
+					],
+					[
+						"viearili",
+						"weimei/views/article_list.php"
+					],
+					[
+						"artim",
+						"weimei/models/article_m.php"
+					],
+					[
+						"indem",
+						"weimei/models/index_m.php"
+					],
+					[
+						"coninphp",
+						"weimei/controllers/index.php"
+					],
+					[
+						"viein",
+						"weimei/views/index.php"
+					],
+					[
+						"avatar",
+						"weimei/controllers/avatar.php"
+					],
+					[
+						"tagm",
+						"weimei/models/tag_m.php"
+					],
+					[
+						"tag",
+						"weimei/controllers/tag.php"
+					],
+					[
+						"lik",
+						"weimei/models/like_m.php"
+					],
+					[
+						"_m",
+						"weimei/models/tag_m.php"
+					],
+					[
+						"picone",
+						"weimei/views/pic_one.php"
+					],
+					[
+						"self",
+						"weimei/helpers/self_define_helper.php"
+					],
+					[
+						"piclis",
+						"weimei/views/pic_list.php"
+					],
+					[
+						"albuli",
+						"weimei/views/album_list.php"
+					],
+					[
+						"albude",
+						"weimei/views/album_detail.php"
+					],
+					[
+						"albu_",
+						"weimei/models/album_m.php"
+					],
+					[
+						"albu",
+						"weimei/controllers/album.php"
+					],
+					[
+						"album",
+						"weimei/controllers/album.php"
+					],
+					[
+						"al",
+						"weimei/models/album_m.php"
+					],
+					[
+						"albm",
+						"weimei/models/album_m.php"
+					],
+					[
+						"ii",
+						"ii"
+					],
+					[
+						"th",
+						"init/Extensions/thFunctions.php"
+					],
+					[
+						"user_me",
+						"tpl/user_message.html"
+					],
+					[
+						"multh",
+						"tpl/multi_chat.html"
+					],
+					[
+						"nav",
+						"tpl/pub/css/nav_messages.css"
+					],
+					[
+						"chatsh",
+						"tpl/multi_chat_show.html"
+					],
+					[
+						"thf",
+						"init/Extensions/thFunctions.php"
+					],
+					[
+						"top",
+						"controller/top.php"
+					],
+					[
+						"con",
+						"config.php"
+					],
+					[
+						"cha",
+						"controller/chat.php"
+					],
+					[
+						"chat",
+						"controller/chat.php"
+					],
+					[
+						"notice.h",
+						"tpl/user_notice.html"
+					],
+					[
+						"meagou_he",
+						"tpl/meagou_header.html"
+					],
+					[
+						"head",
+						"tpl/admin/header.html"
+					],
+					[
+						"top.php",
+						"controller/top.php"
+					],
+					[
+						"main.php",
+						"controller/main.php"
+					],
+					[
+						"user_mess",
+						"tpl/user_message.html"
+					],
+					[
+						"mypm",
+						"tpl/user_mypm.html"
+					],
+					[
+						"u",
+						"controller/user.php"
+					],
+					[
+						"userpmm",
+						"tpl/user_mypm.html"
+					],
+					[
+						"m",
+						"controller/main.php"
+					],
+					[
+						"tpl/disar",
+						"tpl/discovery_article.html"
+					],
+					[
+						"controller/ma",
+						"controller/main.php"
+					],
+					[
+						"d",
+						"/home/h2ero/www/PHP/demo/demo.php"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 161.0,
+			"status_bar_visible": true,
+			"window_id": 33,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}
