@@ -1,2 +1,0 @@
-12.9.10
-	* implemented basic "/" and "?" commands
