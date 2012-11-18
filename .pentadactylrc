@@ -1,15 +1,20 @@
 group user
+
 "set设置{{{
+
     "界面设置，在tab上显示序号{
         set go+=n
     "}
+
     "Hint{
     "设置hint为字母模式{
         set hintkeys=asdfg;lkjh
     "}
+
     "防止在最后一个tab的时候按d退出firefox{
         set! browser.tabs.closeWindowWithLastTab=false
     "}
+
 	 "dict.js插件设置{
         set dict-langpair=g:'|zh-CN',y:eng
 			 "结合dict插件翻译选中字符串}
@@ -26,13 +31,16 @@ group user
 		        map sh -js content.getSelection().toString()!=""?dactyl.execute(":dict! -e z "+ content.getSelection()):""
 		    "}
     "}
+
 	 "快速改变页面编码{
         map -builtin ,eu :set encoding=UTF-8
         map -builtin ,eg :set encoding=GB2312
     "}
+
     "tab显示方式{
         "set showtabline=multitab
     "}
+
     "高亮搜索{
         set hlfind
     "}
@@ -43,36 +51,67 @@ group user
     "上一页
         set previouspattern^='\s*[上前][一]?[页张个篇頁章]\s*','‹‹'
     "}
+
 "}}}
+
     "加快移动{
         map -builtin j 5j
         map -builtin k 5k
     "}
+
     "标签移动加速{
         map K :tn<CR>
         map J :tp<CR>
     "}
+
     "菜单快捷键{
-	map ,s :emenu View.View Source Chart<CR>
+	map ,ss :emenu View.View Source Chart<CR>
+    map ,sp :emenu Tools.Web Developer.Scratchpad<CR>
 	map ,c :emenu View.Sidebar.ChmFox<CR>
 	map ,k :emenu Tools.Clearly<CR>
-	map ,f :emenu View.Firebug<CR>
+	map ,b :emenu View.Firebug<CR>
+	map ,a :emenu Tools.Adblock Plus.Disable everywhere<CR> 
     "}
+
     "F2来显示隐藏工具栏{
         map <F2> -e set go!=TBm
     "}
+
 	"AutoProxy{
 	map ,gd :se! extensions.autoproxy.proxyMode=disabled<CR>
 	map ,ga :se! extensions.autoproxy.proxyMode=auto<CR>
 	map ,gg :se! extensions.autoproxy.proxyMode=global<CR>
 	"}
+
   "加大hint的字号{
         hi Hint font:bold 15px "Droid Sans Mono", monospace !important; margin:-.2ex; padding: 0 0 0 1px; outline:1px solid rgba(0, 0, 0, .5); background:rgba(255, 248, 231, .8); color:black; text-transform:uppercase;
     "}
-"}}}
 
 "{{{命令行模式禁用输入法
     style -name commandline-ime http://*,https://* input,textarea {ime-mode: active;}
     style chrome://* #dactyl-commandline-command input {ime-mode:inactive;}
     style chrome://* #dactyl-statusline-field-commandline-command input {ime-mode:inactive;}
 "}}}
+
+"""自定义js{{{
+js <<EOF
+function beta(arg){
+    var v=arg;
+    var url=window.top.getBrowser().selectedBrowser.contentWindow.location.href;
+    url=url.replace(/http:\/\//g,'').split('/')[0];
+    pattern=/.*beta.*/;
+    if(pattern.test(url)){
+       urls=url.split('.');
+       urls[0]='beta'+arg;
+       betaurl=urls.join('.');
+    }else{
+        betaurl='beta'+arg+'.'+url;
+    }
+    betaurl=betaurl;
+    window.gBrowser.loadURI(betaurl);
+    }
+EOF
+
+nmap -c -e e js beta(<count>)
+
+"""}}}
