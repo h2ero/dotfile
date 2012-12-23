@@ -59,6 +59,7 @@ set -o vi
 	alias MT='stat -c "%n %y"'
 	alias AT='stat -c "%n %x"'
 	alias CT='stat -c "%n %z"'
+    alias ctags="`brew --prefix`/bin/ctags"
 
 #sleep 1s clear monitor
 #sleep .5 && reset
