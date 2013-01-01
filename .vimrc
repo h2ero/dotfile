@@ -209,6 +209,8 @@ set statusline=%<%f%=%([%{Tlist_Get_Tagname_By_Line()}]%) "窗口标题
 let Tlist_Compact_Format=1 "不显示空白行
 set tags=tags;/ "找不到tags文件到上层找寻"
 let Tlist_Ctags_Cmd = '`brew --prefix`/bin/ctags'
+noremap gl :tnext<CR>
+
 "NERDTree
 "nnoremap <silent> <F7> :NERDTree<CR>
 let NERDTreeIgnore=['\.pyc$']

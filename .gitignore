@@ -1,2 +1,3 @@
 .vim/doc/*
 .DS_Store
+.vim/.netrwhist
