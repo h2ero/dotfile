@@ -54,6 +54,9 @@ set laststatus=2             " 开启状态栏信息
 
 " 每行超过80个的字符用下划线标示
 au BufRead,BufNewFile *.asm,*.c,*.cpp,*.java,*.cs,*.sh,*.lua,*.pl,*.pm,*.py,*.rb,*.erb,*.hs,*.vim 2match Underlined /.\%81v/
+"php mannul"
+au FileType php set keywordprg=:help
+
 
 
 " 设置编码
@@ -223,6 +226,8 @@ let g:pydiction_location = '~/.vim/bundle/pydiction/complete-dict'
 " 在打开文件的时候检查
 "let g:syntastic_check_on_open=1
 "phpcs，tab4个空格，编码参考使用CodeIgniter风格
+let g:user_zen_expandabbr_key = '<c-e>'
+let g:use_zen_complete_tag = 1
 let g:syntastic_phpcs_conf = "--tab-width=4 --standard=CodeIgniter"
 
 "Powerline
