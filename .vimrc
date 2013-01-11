@@ -69,38 +69,38 @@ source $VIMRUNTIME/menu.vim
 " 解决consle输出乱码
 language messages en_US.utf-8
 
-
-" ======= 引号 && 括号自动匹配 ======= "
-
-:inoremap ( ()<ESC>i
-
-:inoremap ) <c-r>=ClosePair(')')<CR>
-
-:inoremap { {}<ESC>i
-
-:inoremap } <c-r>=ClosePair('}')<CR>
-
-:inoremap [ []<ESC>i
-
-:inoremap ] <c-r>=ClosePair(']')<CR>
-
-":inoremap < <><ESC>i
-
-":inoremap > <c-r>=ClosePair('>')<CR>
-
-:inoremap " ""<ESC>i
-
-:inoremap ' ''<ESC>i
-
-:inoremap ` ``<ESC>i
-
-function ClosePair(char)
-	if getline('.')[col('.') - 1] == a:char
-		return "\<Right>"
-	else
-		return a:char
-	endif
-endf
+""
+""" ======= 引号 && 括号自动匹配 ======= "
+""
+"":inoremap ( ()<ESC>i
+""
+"":inoremap ) <c-r>=ClosePair(')')<CR>
+""
+"":inoremap { {}<ESC>i
+""
+"":inoremap } <c-r>=ClosePair('}')<CR>
+""
+"":inoremap [ []<ESC>i
+""
+"":inoremap ] <c-r>=ClosePair(']')<CR>
+""
+""":inoremap < <><ESC>i
+""
+""":inoremap > <c-r>=ClosePair('>')<CR>
+""
+"":inoremap " ""<ESC>i
+""
+"":inoremap ' ''<ESC>i
+""
+"":inoremap ` ``<ESC>i
+""
+""function ClosePair(char)
+""	if getline('.')[col('.') - 1] == a:char
+""		return "\<Right>"
+""	else
+""		return a:char
+""	endif
+""endf
 
 " TxtBrowser          高亮TXT文本文件
 au BufRead,BufNewFile *.txt setlocal ft=txt
@@ -255,3 +255,16 @@ imap  <buffer><Tab> <M-/>
 "imap  <buffer><Tab> <C-R>=RopeCodeAssistInsertMode()<CR>
 "color
 ""highlight PmenuSel ctermbg=DarkI""
+""FuzzyFinder
+"map <C-S-R> :FufFileRecursive<CR>
+"map ,s :FufFile **/<CR>
+
+"Now all operations such as yy, D, and P work with the clipboard. No need to 'prefix them with \"* or \"+.
+set clipboard=unnamed
+
+""ctrlp
+let g:ctrlp_map = ',p'
+let g:ctrlp_working_path_mode = 'ra'
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip 
+let g:ctrlp_use_cachin=1
+let g:ctrlp_cache_dir = $HOME.'/.cache/ctrlp'
