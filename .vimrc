@@ -8,7 +8,7 @@ set expandtab
 set autoindent               " 自动对齐
 set backspace=2              " 设置退格键可用
 set cindent shiftwidth=4     " 自动缩进4空格
-"set smartindent              " 智能自动缩进
+set smartindent              " 智能自动缩进
 set ai!                      " 设置自动缩进
 set nu!                      " 显示行号
 "set showmatch               " 显示括号配对情况
@@ -26,9 +26,9 @@ set hidden                   " 允许在有未保存的修改时切换缓冲区
 "set listchars=nbsp:%,trail:-,
 syntax enable                " 打开语法高亮
 syntax on                    " 开启文件类型侦测
-filetype indent on           " 针对不同的文件类型采用不同的缩进格式
-filetype plugin on           " 针对不同的文件类型加载对应的插件
-filetype plugin indent on    " 启用自动补全
+"filetype indent on           " 针对不同的文件类型采用不同的缩进格式
+"filetype plugin on           " 针对不同的文件类型加载对应的插件
+"filetype plugin indent on    " 启用自动补全
 
 if has("gui_running")
     au GUIEnter * simalt ~x  " 窗口启动时自动最大化
@@ -53,7 +53,7 @@ set laststatus=2             " 开启状态栏信息
 "set cmdheight=2              " 命令行的高度，默认为1，这里设为2
 
 " 每行超过80个的字符用下划线标示
-au BufRead,BufNewFile *.asm,*.c,*.cpp,*.java,*.cs,*.sh,*.lua,*.pl,*.pm,*.py,*.rb,*.erb,*.hs,*.vim 2match Underlined /.\%81v/
+au BufRead,BufNewFile *.asm,*.c,*.cpp,*.java,*.cs,*.sh,*.lua,*.pl,*.pm,*.py,*.rb,*.erb,*.hs,*.vim match Underlined /.\%81v/
 "php mannul"
 au FileType php set keywordprg=:help
 
@@ -228,7 +228,7 @@ let g:pydiction_location = '~/.vim/bundle/pydiction/complete-dict'
 "phpcs，tab4个空格，编码参考使用CodeIgniter风格
 let g:user_zen_expandabbr_key = '<c-y>'
 "let g:use_zen_complete_tag = 1
-"let g:syntastic_phpcs_conf = "--tab-width=4 --standard=CodeIgniter"
+"let g:syntastic_phpcs_conf = '--tab-width=4 --standard=CodeIgniter'
 
 "Powerline
 set t_Co=256 " Explicitly tell Vim that the terminal supports 256 colors
@@ -251,7 +251,7 @@ autocmd FileType python set omnifunc=pythoncomplete#CompletePHP
 let ropevim_vim_completion = 1
 let ropevim_extended_complete = 1
 let g:ropevim_autoimport_modules = ["os.*","traceback","django.*", "xml.etree"]
-imap  <buffer><Tab> <M-/>
+"imap  <buffer><Tab> <M-/>
 "imap  <buffer><Tab> <C-R>=RopeCodeAssistInsertMode()<CR>
 "color
 ""highlight PmenuSel ctermbg=DarkI""
