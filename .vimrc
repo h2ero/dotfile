@@ -273,3 +273,10 @@ let g:ctrlp_show_hidden = 0
 
 ""less css  syntax
 au BufNewFile,BufRead *.less set filetype=less
+
+"" <leader>  1000ms
+let g:EasyMotion_leader_key = '<Leader>'
+
+""format code
+":inoremap <CR> <Esc>:s/\s*\([=+-\*/\|&><^!~]\+\)\s*/ \1 /ge<CR>:noh<CR>o 
+:inoremap <CR> <Esc>:s/\s*\([=+]\+\)\s*/ \1 /ge<CR>:noh<CR>o 
