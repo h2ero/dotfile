@@ -294,11 +294,8 @@ func! Add_space()
     ",         eg : array('a' => 'b', 'c' => 'd')
     let n_line = substitute(n_line,'\s*\([,]\+\)\s*','\1 ','g')
 
-    "(         eg : if ( $foo )  
-    let n_line = substitute(n_line,'\s*\([(]\+\)\s*',' \1','g')
-
-    ") 
-    let n_line = substitute(n_line,'\s*\([)]\+\)\s*','\1 ','g')
+    "()         eg : if ( $foo )  define('') 
+    let n_line = substitute(n_line,'\(if\)\@<=\s*\([(]\+\)\(.\{-}\)\([)]\+\)',' \2\3\4 ','g')
 
     "=>        eg : array('a' => 'b', 'c' => 'd')
     let n_line = substitute(n_line,'\s*\(=>\)\s*',' \1 ','g')
