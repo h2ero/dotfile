@@ -283,9 +283,11 @@ let g:EasyMotion_leader_key = '<Leader>'
 func! Add_space()
     let now_line= line('.')
     exec "inoremap <CR> <CR>"
-    exec "normal i\<CR>\<Esc>"
+    exec "normal a\<CR>\<Esc>"
     let c_line = getline(now_line)
-    let n_line=substitute(c_line,'\s*\([=+]\+\)\s*','s \1 s','g')
+    "=+
+    let n_line=substitute(c_line,'\s*\([=+]\+\)\s*',' \1 ','g')
+    "let n_line=substitute(n_line,'\s*\([=+]\+\)\s*',' \1 ','g')
     call setline(now_line,n_line)
     "exec now_line."s/\\\s*\\\([=+]\\\+\\\)\\\s*/ \\1 /ge"
     exec "inoremap <CR> <Esc>:call Add_space()<CR>"
