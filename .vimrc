@@ -286,34 +286,34 @@ func! Add_space()
     exec "normal! a\<CR>\<Esc>"
     let n_line = getline(now_line)
 
-    "=+ exclude => != !==
-    let n_line = substitute(n_line,'\s*\(!\|!=\)\@<!\([%/=*+-]\+[>]\@!\)\s*',' \2 ','g')
+    " 1.  =+*-%/ exclude => != !== .= +=
+    let n_line = substitute(n_line,'\s*\(!\|!=\|+=\|.=\)\@<!\([%/=*+-]\+[>]\@!\)\s*',' \2 ','g')
 
-    ",         eg : array('a' => 'b', 'c' => 'd')
+    " 2.  ,         eg : array('a' => 'b', 'c' => 'd')
     let n_line = substitute(n_line,'\s*\([,]\+\)\s*','\1 ','g')
 
-    "()         eg : if ( $foo )  exclude define('') 
+    " 3.  ()         eg : if ( $foo )  exclude define('') 
     let n_line = substitute(n_line,'\(if\)\@<=\s*\([(]\+\)\(.\{-}\)\([)]\+\)\s*',' \2\3\4 ','g')
 
-    "=>        eg : array('a' => 'b', 'c' => 'd')
+    " 4.  =>        eg : array('a' => 'b', 'c' => 'd')
     let n_line = substitute(n_line,'\s*\(=>\)\s*',' \1 ','g')
 
-    " + - * /  exclude ++ --
+    " 5.  + - * /  exclude ++ --
     let n_line = substitute(n_line,'\s*\([-]\{2,}\)\s*','\1','g')
 
-    "!= !==    eg : if ($foo !== FALSE)
-    let n_line = substitute(n_line,'\s*\(!=\|!==\)\s*',' \1 ','g')
+    " 6.  != !== += .=   eg : if ($foo !== FALSE)  $a += 5;
+    let n_line = substitute(n_line,'\s*\(!=\|!==\|+=\|.=\)\s*',' \1 ','g')
 
-    "(!        eg : if ( ! $foo)
+    " 7.  (!        eg : if ( ! $foo)
     let n_line = substitute(n_line,'\s*[(]\@<=\(!\)\s*',' \1 ','g')
 
-    "|| &&     eg : if (($foo && $bar) || ($b && $c))
+    " 8.  || &&     eg : if (($foo && $bar) || ($b && $c))
     let n_line = substitute(n_line,'\s*\(&&\|||\)\s*',' \1 ','g')
 
-    "(int)     eg : if ( (int) $foo) in up regex will replace it like if((int) $foo), follow will fix it.
+    " 9.  (int)     eg : if ( (int) $foo) in up regex will replace it like if((int) $foo), follow will fix it.
     let n_line = substitute(n_line,'\s*(\(int\|bool\|float\|string\|binary\|array\|object\|unset\))\s*',' (\1) ','g')
 
-    "?:        eg : $foo = $bar ? $foo : $bar;
+    " 10.  ?:        eg : $foo = $bar ? $foo : $bar;
     let n_line = substitute(n_line,'\s*\(?\)\s*\(.\{-}\)\s*\(:\)\s*',' \1 \2 \3 ','g')
 
     "let n_line=substitute(n_line,'\s*\([=+]\+\)\s*',' \1 ','g')
