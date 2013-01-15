@@ -277,15 +277,13 @@ au BufNewFile,BufRead *.less set filetype=less
 "" <leader>  1000ms
 let g:EasyMotion_leader_key = '<Leader>'
 
-""format code
-":inoremap <CR> <Esc>:s/\s*\([=+-\*/\|&><^!~]\+\)\s*/ \1 /ge<CR>:noh<CR>o 
-":inoremap <CR> <Esc>:s/\s*\([=+]\+\)\s*/ \1 /ge<CR>
+"format code
 "http://kohanaframework.org/3.3/guide/kohana/conventions
 func! Add_space()
 
     let now_line = line( '.' )
-    exec "inoremap <CR> <CR>"
-    exec "normal a\<CR>\<Esc>"
+    "exec "inoremap <CR> <CR>"
+    exec "normal! a\<CR>\<Esc>"
     let c_line = getline(now_line)
 
     "=+ exclude => != !==
@@ -295,7 +293,7 @@ func! Add_space()
     let n_line = substitute(n_line,'\s*\([,]\+\)\s*','\1 ','g')
 
     "()         eg : if ( $foo )  define('') 
-    let n_line = substitute(n_line,'\(if\)\@<=\s*\([(]\+\)\(.\{-}\)\([)]\+\)',' \2\3\4 ','g')
+    let n_line = substitute(n_line,'\(if\)\@<=\s*\([(]\+\)\(.\{-}\)\([)]\+\)\s*',' \2\3\4 ','g')
 
     "=>        eg : array('a' => 'b', 'c' => 'd')
     let n_line = substitute(n_line,'\s*\(=>\)\s*',' \1 ','g')
@@ -306,13 +304,19 @@ func! Add_space()
     "(!        eg : if ( ! $foo)
     let n_line = substitute(n_line,'\s*[(]\@<=\(!\)\s*',' \1 ','g')
 
+    "|| &&     eg : if (($foo && $bar) || ($b && $c))
+    let n_line = substitute(n_line,'\s*\(&&\|||\)\s*',' \1 ','g')
+
+    "(int)     eg : if ( (int) $foo) in up regex will replace it like if((int) $foo), follow will fix it.
+    let n_line = substitute(n_line,'\s*(\(int\|bool\|float\|string\|binary\|array\|object\|unset\))\s*',' (\1) ','g')
+
     "?:        eg : $foo = $bar ? $foo : $bar;
-    "let n_line = substitute(n_line,'\s*\(?\)\(\s{-}\)\(d\)*\s*',' \1 \2 \3','g')
+    let n_line = substitute(n_line,'\s*\(?\)\s*\(.\{-}\)\s*\(:\)\s*',' \1 \2 \3 ','g')
 
     "let n_line=substitute(n_line,'\s*\([=+]\+\)\s*',' \1 ','g')
     call setline(now_line,n_line)
     "exec now_line."s/\\\s*\\\([=+]\\\+\\\)\\\s*/ \\1 /ge"
-    exec "inoremap <CR> <Esc>:call Add_space()<CR>"
+    "exec "inoremap <CR> <Esc>:call Add_space()<CR>"
 
 endfunc
 
