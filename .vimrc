@@ -284,19 +284,22 @@ func! Add_space()
     let now_line = line( '.' )
     "exec "inoremap <CR> <CR>"
     exec "normal! a\<CR>\<Esc>"
-    let c_line = getline(now_line)
+    let n_line = getline(now_line)
 
     "=+ exclude => != !==
-    let n_line = substitute(c_line,'\s*\(!\|!=\)\@<!\([=+]\+[>]\@!\)\s*',' \2 ','g')
+    let n_line = substitute(n_line,'\s*\(!\|!=\)\@<!\([%/=*+-]\+[>]\@!\)\s*',' \2 ','g')
 
     ",         eg : array('a' => 'b', 'c' => 'd')
     let n_line = substitute(n_line,'\s*\([,]\+\)\s*','\1 ','g')
 
-    "()         eg : if ( $foo )  define('') 
+    "()         eg : if ( $foo )  exclude define('') 
     let n_line = substitute(n_line,'\(if\)\@<=\s*\([(]\+\)\(.\{-}\)\([)]\+\)\s*',' \2\3\4 ','g')
 
     "=>        eg : array('a' => 'b', 'c' => 'd')
     let n_line = substitute(n_line,'\s*\(=>\)\s*',' \1 ','g')
+
+    " + - * /  exclude ++ --
+    let n_line = substitute(n_line,'\s*\([-]\{2,}\)\s*','\1','g')
 
     "!= !==    eg : if ($foo !== FALSE)
     let n_line = substitute(n_line,'\s*\(!=\|!==\)\s*',' \1 ','g')
