@@ -152,6 +152,8 @@ func! CompileCode()
 			exec "call CompileHaskell()"
 		elseif &filetype == "lua"
 			exec "!lua %<.lua"
+		elseif &filetype == "php"
+			exec "!php %"
 		elseif &filetype == "python"
 			exec "!python %<.py"
 		elseif &filetype == "perl"
