@@ -291,7 +291,7 @@ func Add_space()
     let n_line = getline(now_line)
 
     " 1.  =+*-%/ exclude => != !== .= +=
-    let n_line = substitute(n_line,'\s*\(!\|!=\|+=\|.=\)\@<!\([%/=*+-]\+[>]\@!\)\s*',' \2 ','g')
+    let n_line = substitute(n_line,'\s*\(!\|!=\|+=\|\.\)\@<!\([%/=*+-]\+[>]\@!\)\s*',' \2 ','g')
 
     " 2.  ,         eg : array('a' => 'b', 'c' => 'd')
     let n_line = substitute(n_line,'\s*\([,]\+\)\s*','\1 ','g')
@@ -306,7 +306,7 @@ func Add_space()
     let n_line = substitute(n_line,'\s*\([-]\{2,}\)\s*','\1','g')
 
     " 6.  != !== += .=   eg : if ($foo !== FALSE)  $a += 5;
-    let n_line = substitute(n_line,'\s*\(!=\+\|+=\|.=\)\s*',' \1 ','g')
+    let n_line = substitute(n_line,'\s*\(!=\+\|+=\|\.=\)\s*',' \1 ','g')
 
     " 7.  (!        eg : if ( ! $foo)
     let n_line = substitute(n_line,'\s*[(]\@<=\(!\)\s*',' \1 ','g')
