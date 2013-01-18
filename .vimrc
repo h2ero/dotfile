@@ -290,35 +290,40 @@ func Add_space()
     exec "normal! a\<CR>\<Esc>"
     let n_line = getline(now_line)
 
-    " 1.  =+*-%/ exclude => != !== .= +=
-    let n_line = substitute(n_line,'\s*\(!\|!=\|+=\|\.\)\@<!\([%/=*+-]\+[>]\@!\)\s*',' \2 ','g')
+    " 1.  =+*<-%/ exclude => != !== .= += <= 
+    let n_line = substitute(n_line,'\s*\(!\|!=\|+=\|<=\|\.\)\@<!\([%/=*+<-]\+[>]\@!\)\s*',' \2 ','g')
 
-    " 2.  ,         eg : array('a' => 'b', 'c' => 'd')
+    " 2.  ,                eg : array('a' => 'b', 'c' => 'd')
     let n_line = substitute(n_line,'\s*\([,]\+\)\s*','\1 ','g')
 
-    " 3.  ()         eg : if ( $foo )  exclude define('') 
-    let n_line = substitute(n_line,'\(if\)\@<=\s*\([(]\+\)\(.\{-}\)\([)]\+\)\s*',' \2\3\4 ','g')
+    " 3.  ()               eg : if ( $foo )  exclude define('') 
+    let n_line = substitute(n_line,'\(if\|for\|foreach\|switch\)\@<=\s*\([(]\+\)\(.\{-}\)\([)]\+\)\s*',' \2\3\4 ','g')
 
-    " 4.  =>        eg : array('a' => 'b', 'c' => 'd')
+    " 4.  =>               eg : array('a' => 'b', 'c' => 'd')
     let n_line = substitute(n_line,'\s*\(=>\)\s*',' \1 ','g')
 
     " 5.  + - * /  exclude ++ --
     let n_line = substitute(n_line,'\s*\([-]\{2,}\)\s*','\1','g')
 
-    " 6.  != !== += .=   eg : if ($foo !== FALSE)  $a += 5;
-    let n_line = substitute(n_line,'\s*\(!=\+\|+=\|\.=\)\s*',' \1 ','g')
+    " 6.  != !== += .=     eg : if ($foo !== FALSE)  $a += 5;
+    let n_line = substitute(n_line,'\s*\(!=\+\|+=\|\.=\|<=\)\s*',' \1 ','g')
 
-    " 7.  (!        eg : if ( ! $foo)
+    " 7.  (!               eg : if ( ! $foo)
     let n_line = substitute(n_line,'\s*[(]\@<=\(!\)\s*',' \1 ','g')
 
-    " 8.  || &&     eg : if (($foo && $bar) || ($b && $c))
+    " 8.  || &&            eg : if (($foo && $bar) || ($b && $c))
     let n_line = substitute(n_line,'\s*\(&&\|||\)\s*',' \1 ','g')
 
-    " 9.  (int)     eg : if ( (int) $foo) in up regex will replace it like if((int) $foo), follow will fix it.
+    " 9.  (int)            eg : if ( (int) $foo) in up regex will replace it like if((int) $foo), follow will fix it.
     let n_line = substitute(n_line,'\s*(\(int\|bool\|float\|string\|binary\|array\|object\|unset\))\s*',' (\1) ','g')
 
-    " 10.  ?:        eg : $foo = $bar ? $foo : $bar;
+    " 10.  ?:              eg : $foo = $bar ? $foo : $bar;
     let n_line = substitute(n_line,'\s*\(?\)\s*\(.\{-}\)\s*\(:\)\s*',' \1 \2 \3 ','g')
+
+    " 11. for(;;)          eg : for($i = 0; $i < 100; $i++) 
+    let n_line = substitute(n_line,'\(for\s(\)\@<=\([^;]*\)\(;\)\([^;]*\)\(;\)','\2\3 \4\5 ','g')
+    
+    "let n_line = substitute(n_line,'\s*\(for(\)\@<=.*\s*\(;\).*\s*','\2 ','g')
 
     "let n_line=substitute(n_line,'\s*\([=+]\+\)\s*',' \1 ','g')
     call setline(now_line,n_line)
