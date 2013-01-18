@@ -281,7 +281,9 @@ let g:EasyMotion_leader_key = '<Leader>'
 
 "format code
 "http://kohanaframework.org/3.3/guide/kohana/conventions
-func! Add_space()
+
+func Add_space()
+
 
     let now_line = line( '.' )
     "exec "inoremap <CR> <CR>"
@@ -325,6 +327,19 @@ func! Add_space()
 
 endfunc
 
+func! PHP_space()
+    let now_line = line( '.' )
+    let n_line = getline(now_line)
+    let html = matchstr(n_line, '^\s*<')
+    if empty(html) 
+        call Add_space()
+    else
+        echo "this is html"
+        "throw "no url recognized into ``".n_line."''"
+    endif
+endfunc
+
 ":inoremap <CR> <Esc>:call Add_space()<CR>
-inoremap <CR> <Esc>:call Add_space()<CR>
+"inoremap <CR> <Esc>:call Add_space()<CR>
+inoremap <CR> <Esc>:call PHP_space()<CR>
 
