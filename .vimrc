@@ -1,4 +1,5 @@
 colorscheme molokai
+set t_Co=256
 set guifont=Monaco:h10       " 字体 && 字号
 set tabstop=4                " 设置tab键的宽度
 set shiftwidth=4             " 换行时行间交错使用4个空格
@@ -285,7 +286,7 @@ let g:EasyMotion_leader_key = '<Leader>'
 func Add_space()
 
 
-    let now_line = line( '.' )
+    let now_line = line('.')
     "exec "inoremap <CR> <CR>"
     exec "normal! a\<CR>\<Esc>"
     let n_line = getline(now_line)
@@ -303,7 +304,7 @@ func Add_space()
     let n_line = substitute(n_line,'\s*\(=>\)\s*',' \1 ','g')
 
     " 5.  + - * /  exclude ++ --
-    let n_line = substitute(n_line,'\s*\([-]\{2,}\)\s*','\1','g')
+    "let n_line = substitute(n_line,'\s*\([-]\{2,}\)\s*','\1','g')
 
     " 6.  != !== += .=     eg : if ($foo !== FALSE)  $a += 5;
     let n_line = substitute(n_line,'\s*\(!=\+\|+=\|\.=\|<=\)\s*',' \1 ','g')
@@ -335,10 +336,11 @@ endfunc
 func! PHP_space()
     let now_line = line( '.' )
     let n_line = getline(now_line)
-    let html = matchstr(n_line, '^\s*<')
+    let html = matchstr(n_line, '^\s*[<.#]')
     if empty(html) 
         call Add_space()
     else
+        exec "normal! \<ESC>a\<CR>"
         echo "this is html"
         "throw "no url recognized into ``".n_line."''"
     endif
@@ -347,4 +349,17 @@ endfunc
 ":inoremap <CR> <Esc>:call Add_space()<CR>
 "inoremap <CR> <Esc>:call Add_space()<CR>
 inoremap <CR> <Esc>:call PHP_space()<CR>
+
+" filter string
+"func! Test_space()
+"    let n_line='asldkf;"ad2jfals"."h2erosx"'
+"    while empty(matchstr(n_line,"\(.\{-}\)"))
+"    let res = matchlist(n_line, '"\(.\{-}\)"')
+"    echo res
+"
+"endfunc
+"
+"
+"map ,s <Esc>:call Test_space()<CR>
+"
 
