@@ -229,7 +229,7 @@ let g:pydiction_location = '~/.vim/bundle/pydiction/complete-dict'
 " 在打开文件的时候检查
 "let g:syntastic_check_on_open=1
 "phpcs，tab4个空格，编码参考使用CodeIgniter风格
-let g:user_zen_expandabbr_key = '<c-y>'
+let g:user_zen_expandabbr_key = '<c-e>'
 "let g:use_zen_complete_tag = 1
 "let g:syntastic_phpcs_conf = '--tab-width=4 --standard=CodeIgniter'
 
@@ -267,6 +267,8 @@ set clipboard=unnamed
 
 ""ctrlp
 let g:ctrlp_map = ',p'
+nmap ,b :CtrlPBuffer<CR>
+nmap ,m :CtrlPMRU<CR>
 let g:ctrlp_working_path_mode = 'ra'
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip 
 let g:ctrlp_use_caching = 1
@@ -283,7 +285,7 @@ let g:EasyMotion_leader_key = '<Leader>'
 "format code
 "http://kohanaframework.org/3.3/guide/kohana/conventions
 
-func Add_space()
+func! Add_space()
 
 
     let now_line = line('.')
@@ -362,4 +364,11 @@ inoremap <CR> <Esc>:call PHP_space()<CR>
 "
 "map ,s <Esc>:call Test_space()<CR>
 "
+
+" quick edit vimrc  and execute it
+:nnoremap <leader>ev :vsplit $MYVIMRC<CR>
+:nnoremap <leader>sv :source $MYVIMRC<CR>
+
+"
+:iabbrev @@    122750707@qq.com
 
