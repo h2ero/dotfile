@@ -350,7 +350,7 @@ endfunc
 
 ":inoremap <CR> <Esc>:call Add_space()<CR>
 "inoremap <CR> <Esc>:call Add_space()<CR>
-inoremap <CR> <Esc>:call PHP_space()<CR>
+au FileType php inoremap <CR> <Esc>:call PHP_space()<CR>
 
 " filter string
 "func! Test_space()
