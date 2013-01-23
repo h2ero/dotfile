@@ -372,3 +372,5 @@ au FileType php inoremap <CR> <Esc>:call PHP_space()<CR>
 "
 :iabbrev @@    122750707@qq.com
 
+au BufRead,BufNewFile .pentadactylrc set filetype=pentadactyl
+au! Syntax pentadactyl source ~/.vim/syntax/pentadactyl.vim
