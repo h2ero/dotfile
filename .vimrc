@@ -277,8 +277,8 @@ let g:ctrlp_cache_dir = $HOME.'/.cache/ctrlp'
 let g:ctrlp_show_hidden = 0
 
 ""less css  syntax
-au BufNewFile,BufRead *.less set filetype=less
-
+au BufNewFile,BufRead *.less set filetype=css
+au BufNewFile,BufRead *.less  source $HOME/.vim/syntax/less.vim
 "" <leader>  1000ms
 let g:EasyMotion_leader_key = '<Leader>'
 
