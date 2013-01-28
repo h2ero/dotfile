@@ -14,7 +14,7 @@ func! Add_space()
     let flag = 0
     let index= 0
     while flag == 0
-        let replacelist = matchlist(n_line, '\([''"]\)\{1}\(.\{-}\)\1\{1}')
+        let replacelist = matchlist(n_line, '\([''"]\)\{1}\(.\{-}\)\\\@<!\1\{1}')
         if len(replacelist) == 0 
             let flag = 1
         else
