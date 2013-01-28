@@ -282,95 +282,18 @@ au BufNewFile,BufRead *.less  source $HOME/.vim/syntax/less.vim
 "" <leader>  1000ms
 let g:EasyMotion_leader_key = '<Leader>'
 
-"format code
-"http://kohanaframework.org/3.3/guide/kohana/conventions
-
-func! Add_space()
-
-
-    let now_line = line('.')
-    "exec "inoremap <CR> <CR>"
-    exec "normal! a\<CR>\<Esc>"
-    let n_line = getline(now_line)
-
-    " 1.  =+*<-%/ exclude => != !== .= += <= 
-    let n_line = substitute(n_line,'\s*\(!\|!=\|+=\|<=\|\.\)\@<!\([%/=*+<-]\+[>]\@!\)\s*',' \2 ','g')
-
-    " 2.  ,                eg : array('a' => 'b', 'c' => 'd')
-    let n_line = substitute(n_line,'\s*\([,]\+\)\s*','\1 ','g')
-
-    " 3.  ()               eg : if ( $foo )  exclude define('') 
-    let n_line = substitute(n_line,'\(if\|for\|foreach\|switch\)\@<=\s*\([(]\+\)\(.\{-}\)\([)]\+\)\s*',' \2\3\4 ','g')
-
-    " 4.  =>               eg : array('a' => 'b', 'c' => 'd')
-    let n_line = substitute(n_line,'\s*\(=>\)\s*',' \1 ','g')
-
-    " 5.  + - * /  exclude ++ --
-    "let n_line = substitute(n_line,'\s*\([-]\{2,}\)\s*','\1','g')
-
-    " 6.  != !== += .=     eg : if ($foo !== FALSE)  $a += 5;
-    let n_line = substitute(n_line,'\s*\(!=\+\|+=\|\.=\|<=\)\s*',' \1 ','g')
-
-    " 7.  (!               eg : if ( ! $foo)
-    let n_line = substitute(n_line,'\s*[(]\@<=\(!\)\s*',' \1 ','g')
-
-    " 8.  || &&            eg : if (($foo && $bar) || ($b && $c))
-    let n_line = substitute(n_line,'\s*\(&&\|||\)\s*',' \1 ','g')
-
-    " 9.  (int)            eg : if ( (int) $foo) in up regex will replace it like if((int) $foo), follow will fix it.
-    let n_line = substitute(n_line,'\s*(\(int\|bool\|float\|string\|binary\|array\|object\|unset\))\s*',' (\1) ','g')
-
-    " 10.  ?:              eg : $foo = $bar ? $foo : $bar;
-    let n_line = substitute(n_line,'\s*\(?\)\s*\(.\{-}\)\s*\(:\)\s*',' \1 \2 \3 ','g')
-
-    " 11. for(;;)          eg : for($i = 0; $i < 100; $i++) 
-    let n_line = substitute(n_line,'\(for\s(\)\@<=\([^;]*\)\(;\)\([^;]*\)\(;\)','\2\3 \4\5 ','g')
-    
-    "let n_line = substitute(n_line,'\s*\(for(\)\@<=.*\s*\(;\).*\s*','\2 ','g')
-
-    "let n_line=substitute(n_line,'\s*\([=+]\+\)\s*',' \1 ','g')
-    call setline(now_line,n_line)
-    "exec now_line."s/\\\s*\\\([=+]\\\+\\\)\\\s*/ \\1 /ge"
-    "exec "inoremap <CR> <Esc>:call Add_space()<CR>"
-
-endfunc
-
-func! PHP_space()
-    let now_line = line( '.' )
-    let n_line = getline(now_line)
-    let html = matchstr(n_line, '^\s*[<.#]')
-    if empty(html) 
-        call Add_space()
-    else
-        exec "normal! \<ESC>a\<CR>"
-        echo "this is html"
-        "throw "no url recognized into ``".n_line."''"
-    endif
-endfunc
-
-":inoremap <CR> <Esc>:call Add_space()<CR>
-"inoremap <CR> <Esc>:call Add_space()<CR>
-au FileType php inoremap <CR> <Esc>:call PHP_space()<CR>
-
-" filter string
-"func! Test_space()
-"    let n_line='asldkf;"ad2jfals"."h2erosx"'
-"    while empty(matchstr(n_line,"\(.\{-}\)"))
-"    let res = matchlist(n_line, '"\(.\{-}\)"')
-"    echo res
-"
-"endfunc
-"
-"
-"map ,s <Esc>:call Test_space()<CR>
-"
-
 " quick edit vimrc  and execute it
 :nnoremap <leader>ev :vsplit $MYVIMRC<CR>
 :nnoremap <leader>sv :source $MYVIMRC<CR>
+" demo
+:nnoremap ,d :source ~/.demorc<CR>
 
 "
 :iabbrev @@    122750707@qq.com
 
 au BufRead,BufNewFile .pentadactylrc set filetype=pentadactyl
 au! Syntax pentadactyl source ~/.vim/syntax/pentadactyl.vim
+
+"script
+:source ~/.vim/script/phpformat.vim
+
