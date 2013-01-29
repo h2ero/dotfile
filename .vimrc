@@ -1,4 +1,5 @@
 colorscheme molokai
+set ff=unix
 set t_Co=256
 set guifont=Monaco:h10       " 字体 && 字号
 set tabstop=4                " 设置tab键的宽度

@@ -3,7 +3,6 @@
 
 func! Add_space()
 
-
     let now_line = line('.')
     "exec "inoremap <CR> <CR>"
     exec "normal! a\<CR>\<Esc>"
@@ -24,7 +23,6 @@ func! Add_space()
             let index+=1
         endif
     endwhile
-
 
     " 1.  =+*<-%/ exclude => != !== .= += <= 
     let n_line = substitute(n_line,'\s*\(!\|!=\|+=\|<=\|\.\)\@<!\([%/=*+<-]\+[>]\@!\)\s*',' \2 ','g')
@@ -59,9 +57,13 @@ func! Add_space()
     " 11. for(;;)          eg : for($i = 0; $i < 100; $i++) 
     let n_line = substitute(n_line,'\(for\s(\)\@<=\([^;]*\)\(;\)\([^;]*\)\(;\)','\2\3 \4\5 ','g')
 
-    " 12. and or xor not      eg : if (1 AND 2 OR 3 XOR 4)  exclude error word contains or
+    " 12. && ||  replace with and or
+    let n_line = substitute(n_line,'\s*||\s*',' OR ','g')
+    let n_line = substitute(n_line,'\s*&&\s*',' AND ','g')
+
+    " 13. and or xor not      eg : if (1 AND 2 OR 3 XOR 4)  exclude error word contains or
     let n_line = substitute(n_line,'\s*\w\@<!\(\cand\|\cor\|\cxor\|\cnot\)\w\@!\s*',' \U\1 ','g')
-    
+
     "let n_line = substitute(n_line,'\s*\(for(\)\@<=.*\s*\(;\).*\s*','\2 ','g')
 
     "let n_line=substitute(n_line,'\s*\([=+]\+\)\s*',' \1 ','g')
