@@ -54,7 +54,7 @@ func! Add_space()
     let n_line = substitute(n_line,'\s*(\(int\|bool\|float\|string\|binary\|array\|object\|unset\))\s*',' (\1) ','g')
 
     " 10.  ?:              eg : $foo = $bar ? $foo : $bar;
-    let n_line = substitute(n_line,'\s*\(?\)\s*\(.\{-}\)\s*\(:\)\s*',' \1 \2 \3 ','g')
+    let n_line = substitute(n_line,'\s*\(?\)\s*\(.\{-}\)\s*:\@<!\(:\):\@!\s*',' \1 \2 \3 ','g')
 
     " 11. for(;;)          eg : for($i = 0; $i < 100; $i++) 
     let n_line = substitute(n_line,'\(for\s(\)\@<=\([^;]*\)\(;\)\([^;]*\)\(;\)','\2\3 \4\5 ','g')
