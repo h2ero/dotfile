@@ -33,7 +33,7 @@ func! Add_space()
     let n_line = substitute(n_line,'\s*\([,]\+\)\s*','\1 ','g')
 
     " 3.  ()               eg : if ( $foo )  exclude define('') 
-    let n_line = substitute(n_line,'\(if\|for\|foreach\|switch\)\@<=\s*\([(]\+\)\(.\{-}\)\([)]\+\)\s*',' \2\3\4 ','g')
+    let n_line = substitute(n_line,'\(if\|while\|for\|foreach\|switch\)\@<=\s*\([(]\+\)\(.\{-}\)\([)]\+\)\s*',' \2\3\4 ','g')
 
     " 4.  =>               eg : array('a' => 'b', 'c' => 'd')
     let n_line = substitute(n_line,'\s*\(=>\)\s*',' \1 ','g')
