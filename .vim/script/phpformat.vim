@@ -59,8 +59,8 @@ func! Add_space()
     " 11. for(;;)          eg : for($i = 0; $i < 100; $i++) 
     let n_line = substitute(n_line,'\(for\s(\)\@<=\([^;]*\)\(;\)\([^;]*\)\(;\)','\2\3 \4\5 ','g')
 
-    " 12. and or xor not      eg : if (1 AND 2 OR 3 XOR 4) 
-    let n_line = substitute(n_line,'\s*\(\cand\|\cor\|\cxor\|\cnot\)\s*',' \U\1 ','g')
+    " 12. and or xor not      eg : if (1 AND 2 OR 3 XOR 4)  exclude error word contains or
+    let n_line = substitute(n_line,'\s*\w\@<!\(\cand\|\cor\|\cxor\|\cnot\)\w\@!\s*',' \U\1 ','g')
     
     "let n_line = substitute(n_line,'\s*\(for(\)\@<=.*\s*\(;\).*\s*','\2 ','g')
 
