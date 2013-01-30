@@ -296,5 +296,5 @@ au BufRead,BufNewFile .pentadactylrc set filetype=pentadactyl
 au! Syntax pentadactyl source ~/.vim/syntax/pentadactyl.vim
 
 "script
-:source ~/.vim/script/phpformat.vim
+":source ~/.vim/script/phpformat.vim
 
