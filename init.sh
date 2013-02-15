@@ -9,3 +9,9 @@ mv ~/.pentadactyl ~/.pentadactyl_backup
 mv ~/.pentadactylrc ~/.pentadactylrc_backup
 ln -s $(pwd)/.pentadactyl ~/.pentadactyl
 ln -s $(pwd)/.pentadactylrc ~/.pentadactylrc
+
+# oh my zsh
+sudo apt-get install zsh
+wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
+chsh -s `which zsh`
+
