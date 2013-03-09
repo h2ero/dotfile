@@ -29,7 +29,7 @@ set hidden                   " 允许在有未保存的修改时切换缓冲区
 syntax enable                " 打开语法高亮
 syntax on                    " 开启文件类型侦测
 "filetype indent on           " 针对不同的文件类型采用不同的缩进格式
-"filetype plugin on           " 针对不同的文件类型加载对应的插件
+filetype plugin on           " 针对不同的文件类型加载对应的插件
 "filetype plugin indent on    " 启用自动补全
 
 if has("gui_running")
@@ -206,7 +206,7 @@ call pathogen#runtime_append_all_bundles()
 "taglist
 "nnoremap <silent> <F8> :TlistToggle<CR>
 "ctags -R . Ctrl+]跳转到定义处 Ctrl+o 跳转回 <space> 查看原型定义 o 新窗口打开当前tag u 更新tag
-let Tlist_Auto_Open=1 "自动打开
+"let Tlist_Auto_Open=1 "自动打开
 let Tlist_Use_Right_Window=1 "左边显示
 let Tlist_File_Fold_Auto_Close=1 "打开其他文件的时候自动关闭,只显示一个文件的tag
 let Tlist_Auto_Update=1 "自动更新，包含新文件时候
@@ -298,3 +298,9 @@ au! Syntax pentadactyl source ~/.vim/syntax/pentadactyl.vim
 "script
 ":source ~/.vim/script/phpformat.vim
 
+"vimwiki
+let g:vimwiki_camel_case = 0
+let g:vimwiki_list = [{'path': '~/.vimwiki/vim/',
+                      \'path_html': '~/.vimwiki/',
+                      \'html_header': '~/.vim/templates/vimwiki/header.tpl',
+                      \'auto_export': 1,}]
