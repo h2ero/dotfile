@@ -63,3 +63,27 @@ set -o vi
 #sleep 1s clear monitor
 #sleep .5 && reset
 	
+# hg ---------------------------------------------------------------------------------
+
+# Copy the name of the current branch to the clipboard 
+alias hgb="hg branch | \
+           tr -d '\n' | \
+           xclip -selection clipboard && \
+           echo \"$(xclip -selection clipboard -o)\" "
+
+# Show all branches in a more readable way
+alias hgbs="hg branches | \
+            column -t | \
+            sort"
+
+# Same as hgbs, but additionally shows closed branches
+alias hgbsc="hg branches -c | \
+             column -t | \
+             sort"
+
+# Copy branch/changeset information to the clipboard.
+# Useful when referring to commits
+alias hglc="hg log -l 1 | \
+            grep -1 changeset | \
+            xclip -selection clipboard"
+
