@@ -215,7 +215,7 @@ set title titlestring=%<%f\ %([%{Tlist_Get_Tagname_By_Line()}]%) "状态栏标�
 set statusline=%<%f%=%([%{Tlist_Get_Tagname_By_Line()}]%) "窗口标题
 let Tlist_Compact_Format=1 "不显示空白行
 set tags=tags;/ "找不到tags文件到上层找寻"
-let Tlist_Ctags_Cmd = '`brew --prefix`/bin/ctags'
+"let Tlist_Ctags_Cmd = '`brew --prefix`/bin/ctags'
 noremap gl :tnext<CR>
 
 "NERDTree
@@ -304,3 +304,11 @@ let g:vimwiki_list = [{'path': '~/.vimwiki/vim/',
                       \'path_html': '~/.vimwiki/',
                       \'html_header': '~/.vim/templates/vimwiki/header.tpl',
                       \'auto_export': 1,}]
+set shell=zsh
+"set shellcmdflag=-d
+
+"snipmate
+let g:snips_author = 'h2ero <122750707@qq.com>'
+
+"phpunit
+:nnoremap ,pu :!clear&&phpunit UnitTest % <CR>
