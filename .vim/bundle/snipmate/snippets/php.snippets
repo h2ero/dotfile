@@ -214,3 +214,28 @@ snippet fun
 # $... = array (...)
 snippet array
 	$${1:arrayName} = array('${2}' => ${3});${4}
+
+# PHPUnit
+snippet PHPUnit
+	/**
+	 * This file contains the $1Test class.
+	 * ${2:undocumented class}
+	 *
+	 * @packaged ${3:default}
+	 * @author ${4:`g:snips_author`}
+	 **/
+	class ${1:}Test extends PHPUnit_Framework_TestCase
+	{${5}
+	} // END class $1Test
+snippet /*d
+	/**
+	 * @depends test${1}
+	 **/
+snippet /*dp
+	/**
+	 * @dataProvider provider${1}
+	 **/
+snippet /*ee
+	/**
+	 * @expectedException ${1}Exception
+	 **/
