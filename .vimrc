@@ -318,4 +318,6 @@ let g:snips_author = 'h2ero <122750707@qq.com>'
 "test nginx config file
 :nnoremap ,nt :!nginx -t -c % <CR>
 
-
+"pbcopy
+vmap ,xc y: call system("xclip -i -selection clipboard", getreg("\""))<CR>
+nmap ,xp :call setreg("\"",system("xclip -o -selection clipboard"))<CR>p
