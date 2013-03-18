@@ -304,6 +304,8 @@ let g:vimwiki_list = [{'path': '~/.vimwiki/vim/',
                       \'path_html': '~/.vimwiki/',
                       \'html_header': '~/.vim/templates/vimwiki/header.tpl',
                       \'auto_export': 1,}]
+:nnoremap ,wd :VimwikiToggleListItem<CR>
+
 set shell=zsh
 "set shellcmdflag=-d
 
@@ -312,3 +314,8 @@ let g:snips_author = 'h2ero <122750707@qq.com>'
 
 "phpunit
 :nnoremap ,pu :!clear&&phpunit UnitTest % <CR>
+
+"test nginx config file
+:nnoremap ,nt :!nginx -t -c % <CR>
+
+

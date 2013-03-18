@@ -47,7 +47,7 @@ set -o vi
 	#ask
 	alias rm='rm -i'
 	alias mv='mv -i'
-	alias cp='cp -i'
+    #alias cp='cp -i'
 	alias c='clear'
     alias pbcopy='xclip -selection clipboard'
     alias pbpaste='xclip -selection clipboard -o'
@@ -87,3 +87,6 @@ alias hglc="hg log -l 1 | \
             grep -1 changeset | \
             xclip -selection clipboard"
 
+#nginx
+alias killpc="sudo killall -HUP php-cgi"
+alias ssf="spawn-fcgi -a 127.0.0.1 -p 9000 -C 10 -u www-data -f /usr/bin/php-cgi"
