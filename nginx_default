@@ -1,0 +1,45 @@
+
+server { 
+	root /home/h2ero/h2ero/www/exam/public;
+	index index.php index.html index.htm;
+
+	# Make site accessible from http://localhost/
+	server_name localhost;
+
+    # rewrite rule
+    location /  {
+     if (-f $request_filename) {
+       break;
+     }
+     if (-d $request_filename) {
+       break;
+     }
+     rewrite ^/(.+)$ /index.php/$1 last;
+    }
+
+	# pass the PHP scripts to FastCGI server listening on 127.0.0.1:9000
+	#
+	location ~ \.php$ {
+		fastcgi_split_path_info ^(.+\.php)(/.+)$;
+		# NOTE: You should have "cgi.fix_pathinfo = 0;" in php.ini
+	
+		# With php5-cgi alone:
+        fastcgi_pass 127.0.0.1:9000;
+		# With php5-fpm:
+        #fastcgi_pass unix:/var/run/php5-fpm.sock;
+        fastcgi_index index.php;
+        include fastcgi_params;
+	}
+}
+
+map $uri $tag {
+    default     0;
+    /main       1;
+    /sub        2;
+}
+
+server {
+    access_log /home/h2ero/h2ero/log/access.log;
+	server_name v1.com;
+    default_type text/plain;
+}
