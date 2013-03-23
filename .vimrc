@@ -279,6 +279,7 @@ let g:ctrlp_show_hidden = 0
 
 ""less css  syntax
 au BufNewFile,BufRead *.less set cinkeys=0{,0},0),0#,!^F,o,O,e " 默认为"0{,0},0),:,0#,!^F,o,O,e" 去掉: ,避免css中出现:的时候缩进改变
+au BufNewFile,BufRead *.less runtime! indent/css.vim
 au BufNewFile,BufRead *.less set filetype=css
 au BufNewFile,BufRead *.less  source $HOME/.vim/syntax/less.vim
 "" <leader>  1000ms
