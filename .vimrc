@@ -301,6 +301,7 @@ au! Syntax pentadactyl source ~/.vim/syntax/pentadactyl.vim
 ":source ~/.vim/script/phpformat.vim
 
 "vimwiki
+let g:vimwiki_table_mappings = 0 " 避免与snipmate的tab冲突
 let g:vimwiki_camel_case = 0
 let g:vimwiki_list = [{'path': '~/.vimwiki/vim/',
                       \'path_html': '~/.vimwiki/',
