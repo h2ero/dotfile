@@ -1,8 +1,22 @@
 ###
 ### Nginx Snippets
 ###
+o
+snippet location
+	location ${1:location} {
+		$2
+	} # location $1
 
 snippet server
+	server {
+	  listen 80 ;
+	  server_name ${1:www.example.com}
+	  access_log  /home/h2ero/h2ero/log/$1_access.log
+	  root       ${2:/var/www/site/htdocs}
+	  $3
+	} # server $1
+
+snippet servert
 	server {
 	  listen 80 ;
 	  listen 443;
@@ -15,7 +29,7 @@ snippet server
 	}
 
 
-snippet location
+snippet locationt
 	location @${1:location} {
 
 	  proxy_set_header Host $http_host;
