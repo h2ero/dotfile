@@ -16,15 +16,16 @@ beautiful.init("/home/h2ero/.config/awesome/themes/default/theme.lua")
 
 -- {{{开机启动
 -- conky
---awful.util.spawn("conky -c /home/h2ero/.conky/conkyrc_grey")
+awful.util.spawn("conky -c /home/h2ero/.conky/conky_grey/conkyrc_grey")
 -- 透明效果
---awful.util.spawn("xcompmgr")
+awful.util.spawn("xcompmgr")
 -- 网络管理
 awful.util.spawn("nm-applet")
 -- }}}
 
 -- This is used later as the default terminal and editor to run.
 terminal = "x-terminal-emulator"
+-- terminal = "urxvt"
 editor = os.getenv("EDITOR") or "editor"
 editor_cmd = terminal .. " -e " .. editor
 
@@ -38,8 +39,10 @@ modkey = "Mod4"
 -- Table of layouts to cover with awful.layout.inc, order matters.
 layouts =
 {
-    awful.layout.suit.max,
+    --awful.layout.suit.max,
     awful.layout.suit.tile.left,
+    awful.layout.suit.tile.left,
+    awful.layout.suit.magnifier,
     awful.layout.suit.tile,
     awful.layout.suit.tile.bottom,
     awful.layout.suit.floating,
@@ -48,8 +51,7 @@ layouts =
     awful.layout.suit.fair.horizontal,
     awful.layout.suit.spiral,
     awful.layout.suit.spiral.dwindle,
-    awful.layout.suit.max.fullscreen,
-    awful.layout.suit.magnifier
+    awful.layout.suit.max.fullscreen
 }
 -- }}}
 
@@ -176,7 +178,6 @@ for s = 1, screen.count() do
         mylayoutbox[s],
         mytextclock,
         s == 1 and mysystray or nil,
-        mytasklist[s],
         layout = awful.widget.layout.horizontal.rightleft
     }
 end
@@ -347,14 +348,14 @@ awful.rules.rules = {
                      buttons = clientbuttons } },
     { rule = { class = "Totem" },
       properties = { floating = true,tag=tags[1][5]} },
-    { rule = { class = "Firefox" },
-      properties = { tag=tags[1][1]} },
-    { rule = { class = "Gnome-terminal" },
-      properties = { tag=tags[1][2]} },
+    ---{ rule = { class = "Firefox" },
+     -- properties = { tag=tags[1][1]} },
+    --{ rule = { class = "Gnome-terminal" },
+     -- properties = { tag=tags[1][2]} },
     { rule = { class = "Audacious" },
       properties = {floating = true,tag=tags[1][5]} },
-    { rule = { class = "gnome-terminal" },
-      properties = {floating = true,tag=tags[1][2]} },
+    --{ rule = { class = "gnome-terminal" },
+     -- properties = {floating = true,tag=tags[1][2]} },
  	{ rule = { instance = "plugin-container" },
       properties = { floating = true } },
     { rule = { class = "Osdlyrics" },
