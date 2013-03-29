@@ -1,4 +1,6 @@
 group user
+colorscheme molokai
+
 
 "set设置{{{
 
