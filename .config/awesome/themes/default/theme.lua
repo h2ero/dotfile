@@ -4,21 +4,20 @@
 
 theme = {}
 
-theme.font          = "sans 8"
+theme.font = "Ubuntu 8"
+theme.bg_normal = "#1B1D1E"
+theme.bg_focus = "#1B1D1E"
+theme.bg_urgent = "#1B1D1E"
+theme.bg_minimize = "#1B1D1E"
 
-theme.bg_normal     = "#222222"
-theme.bg_focus      = "#535d6c"
-theme.bg_urgent     = "#ff0000"
-theme.bg_minimize   = "#444444"
+theme.fg_normal = "#75715E"
+theme.fg_focus = "#A6E22E"
+theme.fg_urgent = "#F92672"
+theme.fg_minimize = "#75715E"
 
-theme.fg_normal     = "#aaaaaa"
-theme.fg_focus      = "#ffffff"
-theme.fg_urgent     = "#ffffff"
-theme.fg_minimize   = "#ffffff"
-
-theme.border_width  = "1"
-theme.border_normal = "#000000"
-theme.border_focus  = "#535d6c"
+theme.border_width = "2"
+theme.border_normal = "#3A3A3A"
+theme.border_focus = "#3189F5"
 theme.border_marked = "#91231c"
 
 -- There are other variable sets
@@ -68,13 +67,12 @@ theme.titlebar_floating_button_focus_inactive  = "/usr/share/awesome/themes/defa
 theme.titlebar_floating_button_normal_active = "/usr/share/awesome/themes/default/titlebar/floating_normal_active.png"
 theme.titlebar_floating_button_focus_active  = "/usr/share/awesome/themes/default/titlebar/floating_focus_active.png"
 
-theme.titlebar_maximized_button_normal_inactive = "/usr/share/awesome/themes/default/titlebar/maximized_normal_inactive.png"
-theme.titlebar_maximized_button_focus_inactive  = "/usr/share/awesome/themes/default/titlebar/maximized_focus_inactive.png"
+theme.titlebar_maximized_button_normal_inactive = "/usr/share/awesome/themes/default/titlebar/maximized_normal_inactive.png" theme.titlebar_maximized_button_focus_inactive  = "/usr/share/awesome/themes/default/titlebar/maximized_focus_inactive.png"
 theme.titlebar_maximized_button_normal_active = "/usr/share/awesome/themes/default/titlebar/maximized_normal_active.png"
 theme.titlebar_maximized_button_focus_active  = "/usr/share/awesome/themes/default/titlebar/maximized_focus_active.png"
 
 -- You can use your own command to set your wallpaper
-theme.wallpaper_cmd = { "awsetbg /media/M/bg/now.jpg" }
+theme.wallpaper_cmd = { "awsetbg /home/h2ero/h2ero/bg/now.jpg" }
 --
 
 -- You can use your own layout icons like this:

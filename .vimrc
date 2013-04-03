@@ -410,4 +410,4 @@ let g:neocomplcache_omni_patterns.c = '\%(\.\|->\)\h\w*'
 let g:neocomplcache_omni_patterns.cpp = '\h\w*\%(\.\|->\)\h\w*\|\h\w*::'
 "neocomplcache end
 
-hi Normal ctermbg=NONE      
+"hi Normal ctermbg=NONE      
