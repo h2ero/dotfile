@@ -18,7 +18,7 @@ colorscheme molokai
     "}
 
 	 "dict.js插件设置{
-        set dict-langpair=g:'|zh-CN',y:eng
+        "set dict-langpair=g:'|zh-CN',y:eng
 			 "结合dict插件翻译选中字符串}
 		        "map -a -ex s dict -e <arg>
 		    "dict.cn
@@ -73,6 +73,7 @@ colorscheme molokai
 	map ,k :emenu Tools.Clearly<CR>
 	map ,b :emenu View.Firebug<CR>
 	map ,a :emenu Tools.Adblock Plus.Disable everywhere<CR> 
+    map ,d :downloads <CR>
     "}
 
     "F2来显示隐藏工具栏{
