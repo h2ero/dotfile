@@ -19,3 +19,7 @@ sudo apt-get install zsh
 wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
 chsh -s `which zsh`
 
+curl http://betterthangrep.com/ack-standalone > ~/bin/ack 
+chmod 755 ~/bin/ack
+
+
