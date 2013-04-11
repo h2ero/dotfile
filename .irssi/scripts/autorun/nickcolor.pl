@@ -1,0 +1,1 @@
+/home/h2ero/h2ero/dotfile/.irssi/scripts/nickcolor.pl

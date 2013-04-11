@@ -303,7 +303,7 @@ settings = {
   };
   "fe-text" = { actlist_sort = "refnum"; };
   "fe-common/core" = {
-      theme = "molokai.theme"
-  };
+      theme = "molokai.theme";
+  }
 };
 ignores = ( { level = "JOINS PARTS QUITS"; } );
