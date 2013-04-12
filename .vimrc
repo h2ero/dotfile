@@ -197,6 +197,7 @@ noremap gN <c-w>h
 "分屏打开关闭
 noremap ,t :TlistToggle<CR>
 noremap ,f :NERDTreeToggle<CR>
+noremap ,g :GundoToggle<CR>
 noremap ,c :close<CR>
 
 
@@ -415,4 +416,11 @@ let g:indent_guides_auto_colors = 0
 hi IndentGuidesOdd  ctermbg=black
 hi IndentGuidesEven ctermbg=darkgrey
 
-"hi Normal ctermbg=NONE      
+"delimitMate
+au FileType html,php let b:delimitMate_matchpairs = "(:),[:],{:},<:>,\":\",':'"
+
+"Gundo
+
+
+hi Normal ctermbg=NONE      
+
