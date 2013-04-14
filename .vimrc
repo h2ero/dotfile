@@ -419,6 +419,10 @@ hi IndentGuidesEven ctermbg=darkgrey
 "delimitMate
 au FileType html,php let b:delimitMate_matchpairs = "(:),[:],{:},<:>,\":\",':'"
 
+"indentLine
+let g:indentLine_color_term = 23
+let g:indentLine_char = '┆'
+
 "Gundo
 
 
