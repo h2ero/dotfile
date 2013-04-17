@@ -1,0 +1,28 @@
+[ui]
+username    = haojieh <haojieh@juemei.com>
+merge = vimdiff
+
+[alias]
+log0        = log --limit 5
+log1        = log --limit 1 --stat
+logs        = log --stat
+logp        = log -p
+log0b       = log0 -b default
+br          = branch
+brs         = branches
+
+[pager]
+pager = LESS='FRX' less
+
+[extensions]
+graphlog    = 
+#bookmarks   = 
+record      = 
+#hgshelve    = 
+color       = 
+pager =
+
+
+[tortoisehg]
+ui.language = en
+vdiff = vimdiff
