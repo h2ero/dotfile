@@ -231,7 +231,9 @@ let g:pydiction_location = '~/.vim/bundle/pydiction/complete-dict'
 " 在打开文件的时候检查
 "let g:syntastic_check_on_open=1
 "phpcs，tab4个空格，编码参考使用CodeIgniter风格
-let g:user_zen_expandabbr_key = '<c-e>'
+let g:user_zen_expandabbr_key = '<C-e>'
+let g:user_zen_next_key = ',n'
+let g:user_zen_prev_key = ',N'
 "let g:use_zen_complete_tag = 1
 "let g:syntastic_phpcs_conf = '--tab-width=4 --standard=CodeIgniter'
 
@@ -424,6 +426,17 @@ let g:indentLine_color_term = 23
 let g:indentLine_char = '┆'
 
 "Gundo
+
+"auto refresh
+function! Refresh_browser()
+    if &modified
+        write
+        silent !xdotool search --title "pentad" key F5
+    endif
+endfunction
+
+autocmd BufWriteCmd *.html,*.css,*.haml,*.php :call Refresh_browser()
+
 
 
 hi Normal ctermbg=NONE      
