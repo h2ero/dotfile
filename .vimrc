@@ -428,14 +428,14 @@ let g:indentLine_char = '┆'
 "Gundo
 
 "auto refresh
-function! Refresh_browser()
+function! RefreshBrowser()
     if &modified
         write
-        silent !xdotool search --title "pentad" key F5
+        silent !xdotool search --name "pentad" key F5
     endif
 endfunction
 
-autocmd BufWriteCmd *.html,*.css,*.haml,*.php :call Refresh_browser()
+autocmd BufWriteCmd *.html,*.css,*.haml,*.php :call RefreshBrowser()
 
 
 

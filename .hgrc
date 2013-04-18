@@ -18,7 +18,7 @@ pager = LESS='FRX' less
 graphlog    = 
 #bookmarks   = 
 record      = 
-#hgshelve    = 
+hgshelve    = /home/h2ero/.hgext/hgshelve.py
 color       = 
 pager =
 
