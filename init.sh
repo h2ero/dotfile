@@ -22,4 +22,5 @@ chsh -s `which zsh`
 curl http://betterthangrep.com/ack-standalone > ~/bin/ack 
 chmod 755 ~/bin/ack
 
-
+#xdotool for vim refresh firefox
+sudo apt-get install xdotool
