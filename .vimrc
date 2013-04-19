@@ -199,6 +199,7 @@ noremap ,t :TlistToggle<CR>
 noremap ,f :NERDTreeToggle<CR>
 noremap ,g :GundoToggle<CR>
 noremap ,c :close<CR>
+noremap ,l :NumbersToggle<CR>
 
 
 "pathogen"
