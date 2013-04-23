@@ -429,16 +429,19 @@ let g:indentLine_char = '┆'
 "Gundo
 
 "auto refresh
+let g:refreshEnable = 1
 function! RefreshBrowser()
     if &modified
         write
-        silent !xdotool search --name "pentad" key F5
+        if g:refreshEnable == 1
+            silent !xdotool search --name "pentad" key F5
+        endif
     endif
 endfunction
 
-autocmd BufWriteCmd *.html,*.css,*.haml,*.php :call RefreshBrowser()
+autocmd BufWriteCmd *.html,*.js,*.css,*.haml,*.php :call RefreshBrowser()
+noremap ,w :let g:refreshEnable = g:refreshEnable ==1 ? 0 : 1 <CR>
 
 
 
 hi Normal ctermbg=NONE      
-
