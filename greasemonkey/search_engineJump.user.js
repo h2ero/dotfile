@@ -838,6 +838,7 @@
 			google:'http://www.google.com/favicon.ico'
 			,baidu:'http://www.baidu.com/favicon.ico'
 			,weibo:'http://www.google.com/s2/favicons?domain=weibo.com'
+			,github:'http://www.google.com/s2/favicons?domain=github.com'
 			,douban:'http://www.google.com/s2/favicons?domain=douban.com'
 			,bing:'http://cn.bing.com/favicon.ico'
 			,gougou:'http://www.gougou.com/images/favicon.ico'
@@ -890,6 +891,7 @@
 			google:base64_icons.google || ol_icons.google
 			,baidu:base64_icons.baidu || ol_icons.baidu
 			,weibo:base64_icons.weibo || ol_icons.weibo
+			,github:base64_icons.github || ol_icons.github
 			,douban:base64_icons.douban || ol_icons.douban
 			,bing:base64_icons.bing|| ol_icons.bing
 			,gougou:base64_icons.gougou || ol_icons.gougou
@@ -952,13 +954,14 @@
 		list.web[1]=['Google加密','https://encrypted.google.com/search?q=%s&sourceid=opera&ie=utf-8&oe=utf-8',icons.google]
 		list.web[2]=['百度','http://www.baidu.com/s?wd=%s&tn=cnopera&ie=utf-8',icons.baidu]
 		list.web[3]=['weibo','http://s.weibo.com/weibo/%s',icons.weibo]
-		list.web[4]=['豆瓣','http://www.douban.com/search?q=%s&ue=utf8',icons.douban]
-		list.web[5]=['雅虎','http://www.yahoo.cn/s?q=%s&fr=opera2',icons.yahoo]
+		list.web[4]=['github','https://github.com/search?q=%s&ref=commandbar',icons.github]
+		list.web[5]=['豆瓣','http://www.douban.com/search?q=%s&ue=utf8',icons.douban]
 		list.web[6]=['搜搜','http://www.soso.com/q?w=%s&ie=utf-8&oe=utf-8',icons.soso]
 		list.web[7]=['搜狗','http://www.sogou.com/web?query=%s',icons.sogou]
 		list.web[8]=['维基(ZH)','http://zh.wikipedia.org/wiki/%s',icons.wiki]
 		list.web[9]=['必应','http://cn.bing.com/search?q=%s&pc=OPER',icons.bing]
 		list.web[10]=['有道','http://www.youdao.com/search?q=%s&ue=utf8',icons.youdao]
+		list.web[11]=['雅虎','http://www.yahoo.cn/s?q=%s&fr=opera2',icons.yahoo]
 		list.web[-9]=['维基(EN)','http://en.wikipedia.org/wiki/%s',icons.wiki]
 		list.web[-10]=['百度百科','http://baike.baidu.com/searchword/?word=%s&pic=1&sug=1&oq=opera',icons.baidu,'gbk']
 
