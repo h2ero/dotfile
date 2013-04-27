@@ -429,6 +429,12 @@ let g:indentLine_char = '┆'
 
 "Gundo
 
+"signify
+let g:signify_vcs_list = [ 'git', 'hg' ]
+let g:signify_mapping_next_hunk = ',sn'
+let g:signify_mapping_prev_hunk = ',sN'
+"let g:signify_line_highlight = 1
+
 "auto refresh
 let g:refreshEnable = 1
 function! RefreshBrowser()
