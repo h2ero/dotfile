@@ -309,7 +309,7 @@ let g:vimwiki_table_mappings = 0 " 避免与snipmate的tab冲突
 let g:vimwiki_camel_case = 0
 let g:vimwiki_list = [{'path': '~/.vimwiki/vim/',
                       \'path_html': '~/.vimwiki/',
-                      \'nested_syntaxes':{'php':'php','python':'python','sql':'sql','sh':'bash','text':'bash'},
+                      \'nested_syntaxes':{'php':'php','python':'python','sql':'sql','html':'html','sh':'sh','js':'javascript','text':'sh'},
                       \'html_header': '~/.vim/templates/vimwiki/header.tpl',
                       \'auto_export': 1,}]
 :nnoremap ,wd :VimwikiToggleListItem<CR>
@@ -430,12 +430,13 @@ let g:indentLine_char = '┆'
 "Gundo
 
 "signify
-let g:signify_vcs_list = [ 'git', 'hg' ]
+"let g:signify_vcs_list = [ 'git', 'hg' ]
 let g:signify_mapping_next_hunk = ',sn'
 let g:signify_mapping_prev_hunk = ',sN'
 "let g:signify_line_highlight = 1
 
 "auto refresh
+"------------------------------------------------------------------------
 let g:refreshEnable = 1
 function! RefreshBrowser()
     if &modified
@@ -448,7 +449,10 @@ endfunction
 
 autocmd BufWriteCmd *.html,*.js,*.css,*.haml,*.php :call RefreshBrowser()
 noremap ,w :let g:refreshEnable = g:refreshEnable ==1 ? 0 : 1 <CR>
+"------------------------------------------------------------------------
+
+"ConqueTerm
+noremap ,z :ConqueTerm zsh<CR>
 
 
-
-hi Normal ctermbg=NONE      
+"hi Normal ctermbg=NONE      
