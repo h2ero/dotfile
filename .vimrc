@@ -200,6 +200,11 @@ noremap ,f :NERDTreeToggle<CR>
 noremap ,g :GundoToggle<CR>
 noremap ,c :close<CR>
 noremap ,l :NumbersToggle<CR>
+"打开当前光标下的url
+nmap ,oo <Plug>(openbrowser-open)
+vmap ,os <Plug>(openbrowser-search)
+nmap ,os <Plug>(openbrowser-search)
+
 
 
 "pathogen"
@@ -275,11 +280,14 @@ let g:ctrlp_map = ',p'
 nmap ,b :CtrlPBuffer<CR>
 nmap ,m :CtrlPMRU<CR>
 let g:ctrlp_working_path_mode = 'ra'
+let g:ctrlp_extensions = ['hg_branch']
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip 
 let g:ctrlp_use_caching = 1
 let g:ctrlp_clear_cache_on_exit = 0
 let g:ctrlp_cache_dir = $HOME.'/.cache/ctrlp'
 let g:ctrlp_show_hidden = 0
+""ctrlp extensions
+:nnoremap ,h :CtrlPHgBranch<CR>
 
 ""less css  syntax
 au BufNewFile,BufRead *.less set cinkeys=0{,0},0),0#,!^F,o,O,e " 默认为"0{,0},0),:,0#,!^F,o,O,e" 去掉: ,避免css中出现:的时候缩进改变
@@ -309,7 +317,7 @@ let g:vimwiki_table_mappings = 0 " 避免与snipmate的tab冲突
 let g:vimwiki_camel_case = 0
 let g:vimwiki_list = [{'path': '~/.vimwiki/vim/',
                       \'path_html': '~/.vimwiki/',
-                      \'nested_syntaxes':{'php':'php','python':'python','sql':'sql','sh':'sh','conf':'conf','text':'sh'},
+                      \'nested_syntaxes':{'php':'php','python':'python','sql':'sql','html':'html','sh':'sh','js':'javascript','text':'sh','conf','conf'},
                       \'html_header': '~/.vim/templates/vimwiki/header.tpl',
                       \'auto_export': 1,}]
 :nnoremap ,wd :VimwikiToggleListItem<CR>
@@ -414,6 +422,7 @@ let g:neocomplcache_omni_patterns.php = '[^. \t]->\h\w*\|\h\w*::'
 let g:neocomplcache_omni_patterns.c = '\%(\.\|->\)\h\w*'
 let g:neocomplcache_omni_patterns.cpp = '\h\w*\%(\.\|->\)\h\w*\|\h\w*::'
 "neocomplcache end
+"------------------------------------------------------------------------
 
 "vim-indent-guides
 let g:indent_guides_auto_colors = 0
@@ -422,8 +431,10 @@ hi IndentGuidesEven ctermbg=darkgrey
 
 
 "indentLine
+let g:indentLine_fileType = ['c', 'cpp', 'php', 'python']
 let g:indentLine_color_term = 23
 let g:indentLine_char = '┆'
+set concealcursor=iv
 
 "Gundo
 
@@ -434,6 +445,7 @@ let g:signify_mapping_prev_hunk = ',sN'
 "let g:signify_line_highlight = 1
 
 "auto refresh
+"------------------------------------------------------------------------
 let g:refreshEnable = 1
 function! RefreshBrowser()
     if &modified
@@ -446,7 +458,10 @@ endfunction
 
 autocmd BufWriteCmd *.html,*.js,*.css,*.haml,*.php :call RefreshBrowser()
 noremap ,w :let g:refreshEnable = g:refreshEnable ==1 ? 0 : 1 <CR>
+"------------------------------------------------------------------------
 
+"ConqueTerm
+noremap ,z :ConqueTerm zsh<CR>
 
 
 hi Normal ctermbg=NONE      
