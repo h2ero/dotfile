@@ -199,6 +199,11 @@ noremap ,t :TlistToggle<CR>
 noremap ,f :NERDTreeToggle<CR>
 noremap ,g :GundoToggle<CR>
 noremap ,c :close<CR>
+"打开当前光标下的url
+nmap ,oo <Plug>(openbrowser-open)
+vmap ,os <Plug>(openbrowser-search)
+nmap ,os <Plug>(openbrowser-search)
+
 
 
 "pathogen"
