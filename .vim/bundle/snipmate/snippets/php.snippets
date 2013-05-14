@@ -27,6 +27,22 @@ snippet pb$
 	public $${1};
 snippet pd$
 	protected $${1};
+snippet	php>
+	<?php ${1} ?>
+snippet	tryc
+	try {
+		${1}
+	} catch (${2:Exception $e}) {
+		${3}
+	}
+snippet	trycf
+	try {
+		${1}
+	} catch (${2:Exception $e}) {
+		${3}
+	} finally {
+		${4}
+	}
 #
 snippet php
 	<?php
