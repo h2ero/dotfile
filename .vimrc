@@ -199,7 +199,6 @@ noremap ,t :TlistToggle<CR>
 noremap ,f :NERDTreeToggle<CR>
 noremap ,g :GundoToggle<CR>
 noremap ,c :close<CR>
-noremap ,l :NumbersToggle<CR>
 
 
 "pathogen"
@@ -275,11 +274,14 @@ let g:ctrlp_map = ',p'
 nmap ,b :CtrlPBuffer<CR>
 nmap ,m :CtrlPMRU<CR>
 let g:ctrlp_working_path_mode = 'ra'
+let g:ctrlp_extensions = ['hg_branch']
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip 
 let g:ctrlp_use_caching = 1
 let g:ctrlp_clear_cache_on_exit = 0
 let g:ctrlp_cache_dir = $HOME.'/.cache/ctrlp'
 let g:ctrlp_show_hidden = 0
+""ctrlp extensions
+:nnoremap ,h :CtrlPHgBranch<CR>
 
 ""less css  syntax
 au BufNewFile,BufRead *.less set cinkeys=0{,0},0),0#,!^F,o,O,e " 默认为"0{,0},0),:,0#,!^F,o,O,e" 去掉: ,避免css中出现:的时候缩进改变
@@ -414,6 +416,7 @@ let g:neocomplcache_omni_patterns.php = '[^. \t]->\h\w*\|\h\w*::'
 let g:neocomplcache_omni_patterns.c = '\%(\.\|->\)\h\w*'
 let g:neocomplcache_omni_patterns.cpp = '\h\w*\%(\.\|->\)\h\w*\|\h\w*::'
 "neocomplcache end
+"------------------------------------------------------------------------
 
 "vim-indent-guides
 let g:indent_guides_auto_colors = 0
@@ -430,7 +433,7 @@ let g:indentLine_char = '┆'
 "Gundo
 
 "signify
-"let g:signify_vcs_list = [ 'git', 'hg' ]
+let g:signify_vcs_list = [ 'git', 'hg' ]
 let g:signify_mapping_next_hunk = ',sn'
 let g:signify_mapping_prev_hunk = ',sN'
 "let g:signify_line_highlight = 1
@@ -455,4 +458,4 @@ noremap ,w :let g:refreshEnable = g:refreshEnable ==1 ? 0 : 1 <CR>
 noremap ,z :ConqueTerm zsh<CR>
 
 
-"hi Normal ctermbg=NONE      
+hi Normal ctermbg=NONE      
