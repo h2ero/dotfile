@@ -317,7 +317,7 @@ let g:vimwiki_table_mappings = 0 " 避免与snipmate的tab冲突
 let g:vimwiki_camel_case = 0
 let g:vimwiki_list = [{'path': '~/.vimwiki/vim/',
                       \'path_html': '~/.vimwiki/',
-                      \'nested_syntaxes':{'php':'php','python':'python','sql':'sql','html':'html','sh':'sh','js':'javascript','text':'sh','conf','conf'},
+                      \'nested_syntaxes':{'php':'php','python':'python','sql':'sql','html':'html','sh':'sh','js':'javascript','text':'sh','conf':'conf'},
                       \'html_header': '~/.vim/templates/vimwiki/header.tpl',
                       \'auto_export': 1,}]
 :nnoremap ,wd :VimwikiToggleListItem<CR>
