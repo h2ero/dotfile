@@ -199,6 +199,7 @@ noremap ,t :TlistToggle<CR>
 noremap ,f :NERDTreeToggle<CR>
 noremap ,g :GundoToggle<CR>
 noremap ,c :close<CR>
+noremap ,l :NumbersToggle<CR>
 "打开当前光标下的url
 nmap ,oo <Plug>(openbrowser-open)
 vmap ,os <Plug>(openbrowser-search)
@@ -316,7 +317,7 @@ let g:vimwiki_table_mappings = 0 " 避免与snipmate的tab冲突
 let g:vimwiki_camel_case = 0
 let g:vimwiki_list = [{'path': '~/.vimwiki/vim/',
                       \'path_html': '~/.vimwiki/',
-                      \'nested_syntaxes':{'php':'php','python':'python','sql':'sql','html':'html','sh':'sh','js':'javascript','text':'sh'},
+                      \'nested_syntaxes':{'php':'php','python':'python','sql':'sql','html':'html','sh':'sh','js':'javascript','text':'sh','conf':'conf'},
                       \'html_header': '~/.vim/templates/vimwiki/header.tpl',
                       \'auto_export': 1,}]
 :nnoremap ,wd :VimwikiToggleListItem<CR>
@@ -428,8 +429,6 @@ let g:indent_guides_auto_colors = 0
 hi IndentGuidesOdd  ctermbg=black
 hi IndentGuidesEven ctermbg=darkgrey
 
-"delimitMate
-au FileType html,php let b:delimitMate_matchpairs = "(:),[:],{:},<:>,\":\",':'"
 
 "indentLine
 let g:indentLine_fileType = ['c', 'cpp', 'php', 'python']
