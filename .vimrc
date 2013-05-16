@@ -463,5 +463,8 @@ noremap ,w :let g:refreshEnable = g:refreshEnable ==1 ? 0 : 1 <CR>
 "ConqueTerm
 noremap ,z :ConqueTerm zsh<CR>
 
+"nginx hightlight
+au BufRead,BufNewFile *.nginx set ft=nginx
+
 
 hi Normal ctermbg=NONE      
