@@ -43,6 +43,8 @@ snippet	trycf
 	} finally {
 		${4}
 	}
+snippet throw
+	throw new \Exception("${1:description}");
 #
 snippet php
 	<?php
@@ -184,7 +186,7 @@ snippet class
 	/**
 	 * ${1}
 	 **/
-	class ${2:ClassName}
+	class ${2:`Filename()`}
 	{
 		${3}
 		public function ${4:__construct}(${5:argument})
