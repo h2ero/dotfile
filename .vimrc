@@ -466,5 +466,8 @@ noremap ,z :ConqueTerm zsh<CR>
 "nginx hightlight
 au BufRead,BufNewFile *.nginx set ft=nginx
 
+"php xdebug
+let g:debuggerPort = 9001
+
 
 hi Normal ctermbg=NONE      
