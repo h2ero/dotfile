@@ -280,6 +280,7 @@ set clipboard=unnamed
 ""ctrlp
 let g:ctrlp_map = ',p'
 nmap ,b :CtrlPBuffer<CR>
+nmap ,, :CtrlPBuffer<CR><CR>
 nmap ,m :CtrlPMRU<CR>
 nmap ,l :CtrlPLine<CR>
 let g:ctrlp_working_path_mode = 'ra'
@@ -337,8 +338,9 @@ let g:snips_author = 'h2ero <122750707@qq.com>'
 "test nginx config file
 :nnoremap ,nt :!nginx -t -c % <CR>
 "pbcopy
-vmap ,xc y: call system("xclip -i -selection clipboard", getreg("\""))<CR>
+vmap ,xc y:call system("xclip -i -selection clipboard", getreg("\""))<CR>
 nmap ,xp :call setreg("\"",system("xclip -o -selection clipboard"))<CR>p
+nmap ,xf :call system("xclip -i -selection clipboard", bufname('%'))<CR>
 
 "map CR
 inoremap <S-CR> <CR>
