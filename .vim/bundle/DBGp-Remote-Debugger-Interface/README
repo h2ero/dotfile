@@ -1,0 +1,18 @@
+Version 1.0.3.3
+
+Changes in this version
+- Removed hard coded breakpoint colors, using a default scheme
+- Fixed bug in viewing associative array names / children
+- Fixed bug in restoring MiniBufExplorer on quit
+- Added a global flag to optionally disable default mappings (if you don't want the plugin to hijack function keys)
+- Added plugin folder support for Pathogen setups
+- Added a global flag to disable the help pane (since you've memorized your mappings and want more screen real estate)
+
+based on a fork from Hadi Zeftin
+https://github.com/vim-scripts/DBGp-Remote-Debugger-Interface
+
+based on updates for Sam Ghods script
+http://www.vim.org/scripts/script.php?script_id=1929
+
+based on Seung Woo Shin script
+http://www.vim.org/scripts/script.php?script_id=1152

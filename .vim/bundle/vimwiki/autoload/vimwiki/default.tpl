@@ -30,7 +30,7 @@
             SyntaxHighlighter.autoloader.apply(null, path(
               'applescript            @shBrushAppleScript.js',
               'actionscript3 as3      @shBrushAS3.js',
-              'bash shell             @shBrushBash.js',
+              'bash shell sh          @shBrushBash.js',
               'coldfusion cf          @shBrushColdFusion.js',
               'cpp c                  @shBrushCpp.js',
               'c# c-sharp csharp      @shBrushCSharp.js',

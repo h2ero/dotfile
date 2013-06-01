@@ -235,7 +235,9 @@ let g:pydiction_location = '~/.vim/bundle/pydiction/complete-dict'
 "zen coding
 "syntastic
 " 在打开文件的时候检查
-"let g:syntastic_check_on_open=1
+" let g:syntastic_check_on_open=1
+noremap ]l :lnext<CR>
+noremap [l :lpre<CR>
 "phpcs，tab4个空格，编码参考使用CodeIgniter风格
 let g:user_zen_expandabbr_key = '<C-e>'
 let g:user_zen_next_key = ',n'
@@ -278,7 +280,9 @@ set clipboard=unnamed
 ""ctrlp
 let g:ctrlp_map = ',p'
 nmap ,b :CtrlPBuffer<CR>
+nmap ,, :CtrlPBuffer<CR><CR>
 nmap ,m :CtrlPMRU<CR>
+nmap ,l :CtrlPLine<CR>
 let g:ctrlp_working_path_mode = 'ra'
 let g:ctrlp_extensions = ['hg_branch']
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip 
@@ -334,8 +338,9 @@ let g:snips_author = 'h2ero <122750707@qq.com>'
 "test nginx config file
 :nnoremap ,nt :!nginx -t -c % <CR>
 "pbcopy
-vmap ,xc y: call system("xclip -i -selection clipboard", getreg("\""))<CR>
+vmap ,xc y:call system("xclip -i -selection clipboard", getreg("\""))<CR>
 nmap ,xp :call setreg("\"",system("xclip -o -selection clipboard"))<CR>p
+nmap ,xf :call system("xclip -i -selection clipboard", bufname('%'))<CR>
 
 "map CR
 inoremap <S-CR> <CR>
@@ -456,12 +461,25 @@ function! RefreshBrowser()
     endif
 endfunction
 
-autocmd BufWriteCmd *.html,*.js,*.css,*.haml,*.php :call RefreshBrowser()
+autocmd BufWriteCmd *.html,*.js,*.css,*.haml,*.php,*.wiki :call RefreshBrowser()
 noremap ,w :let g:refreshEnable = g:refreshEnable ==1 ? 0 : 1 <CR>
 "------------------------------------------------------------------------
 
 "ConqueTerm
 noremap ,z :ConqueTerm zsh<CR>
+
+"nginx hightlight
+au BufRead,BufNewFile *.nginx set ft=nginx
+
+"php xdebug
+let g:debuggerPort = 9001
+
+"ultisnips
+call pathogen#infect()
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<tab>"
+let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
+
 
 
 hi Normal ctermbg=NONE      
