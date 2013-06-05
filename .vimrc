@@ -483,3 +483,4 @@ let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
 
 
 hi Normal ctermbg=NONE      
+hi MatchParen cterm=none ctermbg=darkgrey ctermfg=white
