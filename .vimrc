@@ -329,8 +329,6 @@ let g:vimwiki_list = [{'path': '~/.vimwiki/vim/',
 set shell=zsh
 "set shellcmdflag=-d
 
-"snipmate
-let g:snips_author = 'h2ero <122750707@qq.com>'
 
 "phpunit
 :nnoremap ,pu :!clear&&phpunit UnitTest % <CR>
@@ -475,6 +473,7 @@ au BufRead,BufNewFile *.nginx set ft=nginx
 let g:debuggerPort = 9001
 
 "ultisnips
+let g:snips_author = 'h2ero <122750707@qq.com>'
 call pathogen#infect()
 let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<tab>"
