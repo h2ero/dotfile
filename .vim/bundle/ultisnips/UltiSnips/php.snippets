@@ -260,13 +260,22 @@ snippet //
 endsnippet
 
 #common doc
-snippet /*c
+snippet /*f
 /**
  * ${1:desc}
  * 
  * @param  ${2:type} $${3:name} ${4:desc}
  * @return ${5:type} ${6:desc}
  * @author ${5:`!v g:snips_author`}
+ **/
+endsnippet
+
+snippet /*c
+/**
+ * ${1:desc}
+ * 
+ * @author ${5:`!v g:snips_author`}
+ * @date `!v strftime("%Y-%m-%d %H:%M:%S")`
  **/
 endsnippet
 
@@ -278,6 +287,10 @@ endsnippet
 
 snippet phpe
 <?php echo $${1}; ?>
+endsnippet
+
+snippet phpe
+<?php echo htmlspecialchars($${1}); ?>
 endsnippet
 
 snippet p$
