@@ -255,17 +255,26 @@ snippet //
 /**
  * ${1:description}
  *
- * @return	${1:array}
+ * @return	${2:array}
  */
 endsnippet
 
 #common doc
-snippet /*c
+snippet /*f
 /**
  * ${1:desc}
  * 
  * ${2:@param  ${3:type} $${4:name} ${5:desc}}
  * ${6:@return ${6:type} ${7:desc}}
+ **/
+endsnippet
+
+snippet /*c
+/**
+ * ${1:desc}
+ * 
+ * @author ${5:`!v g:snips_author`}
+ * @date `!v strftime("%Y-%m-%d %H:%M:%S")`
  **/
 endsnippet
 
@@ -277,6 +286,10 @@ endsnippet
 
 snippet phpe
 <?php echo $${1}; ?>
+endsnippet
+
+snippet phpeh
+<?php echo htmlspecialchars($${1}); ?>
 endsnippet
 
 snippet p$

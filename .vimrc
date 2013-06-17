@@ -70,39 +70,6 @@ source $VIMRUNTIME/menu.vim
 " 解决consle输出乱码
 language messages en_US.utf-8
 
-""
-""" ======= 引号 && 括号自动匹配 ======= "
-""
-"":inoremap ( ()<ESC>i
-""
-"":inoremap ) <c-r>=ClosePair(')')<CR>
-""
-"":inoremap { {}<ESC>i
-""
-"":inoremap } <c-r>=ClosePair('}')<CR>
-""
-"":inoremap [ []<ESC>i
-""
-"":inoremap ] <c-r>=ClosePair(']')<CR>
-""
-""":inoremap < <><ESC>i
-""
-""":inoremap > <c-r>=ClosePair('>')<CR>
-""
-"":inoremap " ""<ESC>i
-""
-"":inoremap ' ''<ESC>i
-""
-"":inoremap ` ``<ESC>i
-""
-""function ClosePair(char)
-""	if getline('.')[col('.') - 1] == a:char
-""		return "\<Right>"
-""	else
-""		return a:char
-""	endif
-""endf
-
 " TxtBrowser          高亮TXT文本文件
 au BufRead,BufNewFile *.txt setlocal ft=txt
 
@@ -115,81 +82,10 @@ let g:v_author='h2ero'
 let g:v_email='122750707@qq.com'
 let g:v_home='http://blog.h2ero.cn'
 
-
-" ======= 编译 && 运行 ======= "
-
-" 编译C源文件
-func! CompileGcc()
-    exec "w"
-    let compilecmd="!gcc -Wall -pedantic -std=c99 "
-    let compileflag="-o %<"
-    exec compilecmd." % ".compileflag
-endfunc
-
-" 编译C++源文件
-func! CompileCpp()
-    exec "w"
-    let compilecmd="!g++ -Wall -pedantic -std=c++98 "
-    let compileflag="-o %<"
-    exec compilecmd." % ".compileflag
-endfunc
-
-" 编译Java源文件
-func! CompileJava()
-	exec "w"
-    exec "!javac %"
-endfunc
-
-" 根据文件类型自动选择相应的编译函数
-func! CompileCode()
-        exec "w"
-        if &filetype == "c"
-			exec "call CompileGcc()"
-        elseif &filetype == "cpp"
-			exec "call CompileCpp()"
-		elseif &filetype == "java"
-			exec "call CompileJava()"
-		elseif &filetype == "haskell"
-			exec "call CompileHaskell()"
-		elseif &filetype == "lua"
-			exec "!lua %<.lua"
-		elseif &filetype == "php"
-			exec "!php %"
-		elseif &filetype == "python"
-			exec "!python %<.py"
-		elseif &filetype == "perl"
-			exec "!perl %<.pl"
-		elseif &filetype == "ruby"
-			exec "!ruby %<.rb"
-        endif
-endfunc
-
-" 运行可执行文件
-func! RunResult()
-        exec "w"
-        if &filetype == "c"
-			exec "! %<"
-        elseif &filetype == "cpp"
-			exec "! %<"
-		elseif &filetype == "java"
-			exec "!java %<"
-		elseif &filetype == "haskell"
-			exec "! %<"
-		elseif &filetype == "lua"
-			exec "!lua %<.lua"
-		elseif &filetype == "python"
-			exec "!python %<.py"
-		elseif &filetype == "perl"
-			exec "!perl %<.pl"
-		elseif &filetype == "ruby"
-			exec "!ruby %<.rb"
-        endif
-endfunc
-
 " Ctrl + C 一键保存、编译
-map <c-c> :call CompileCode()<CR>
-imap <c-c> <ESC>:call CompileCode()<CR>
-vmap <c-c> <ESC>:call CompileCode()<CR>
+map <c-c> :QuickRun<CR>
+imap <c-c> <ESC>:QuickRun<CR>
+vmap <c-c> <ESC>:QuickRun<CR>
 
 "分屏显示切换
 noremap gn <c-w><c-w>
@@ -206,8 +102,6 @@ noremap ,l :NumbersToggle<CR>
 nmap ,oo <Plug>(openbrowser-open)
 vmap ,os <Plug>(openbrowser-search)
 nmap ,os <Plug>(openbrowser-search)
-
-
 
 "pathogen"
 call pathogen#runtime_append_all_bundles()
@@ -494,8 +388,6 @@ call pathogen#infect()
 let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<tab>"
 let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
-
-
 
 hi Normal ctermbg=NONE      
 hi MatchParen cterm=none ctermbg=darkgrey ctermfg=white
