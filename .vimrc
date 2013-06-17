@@ -194,8 +194,10 @@ vmap <c-c> <ESC>:call CompileCode()<CR>
 "分屏显示切换
 noremap gn <c-w><c-w>
 noremap gN <c-w>h
+"通用map
+noremap gl :tnext<CR>
 "分屏打开关闭
-noremap ,t :TlistToggle<CR>
+noremap ,t :TagbarToggle<CR>
 noremap ,f :NERDTreeToggle<CR>
 noremap ,g :GundoToggle<CR>
 noremap ,c :close<CR>
@@ -210,20 +212,34 @@ nmap ,os <Plug>(openbrowser-search)
 "pathogen"
 call pathogen#runtime_append_all_bundles()
 
-"taglist
-"nnoremap <silent> <F8> :TlistToggle<CR>
-"ctags -R . Ctrl+]跳转到定义处 Ctrl+o 跳转回 <space> 查看原型定义 o 新窗口打开当前tag u 更新tag
-"let Tlist_Auto_Open=1 "自动打开
-let Tlist_Use_Right_Window=1 "左边显示
-let Tlist_File_Fold_Auto_Close=1 "打开其他文件的时候自动关闭,只显示一个文件的tag
-let Tlist_Auto_Update=1 "自动更新，包含新文件时候
-let Tlist_Exit_OnlyWindow=1"Close Vim if the taglist is the only window.
-set title titlestring=%<%f\ %([%{Tlist_Get_Tagname_By_Line()}]%) "状态栏标题
-set statusline=%<%f%=%([%{Tlist_Get_Tagname_By_Line()}]%) "窗口标题
-let Tlist_Compact_Format=1 "不显示空白行
+" "taglist
+" "nnoremap <silent> <F8> :TlistToggle<CR>
+" "ctags -R . Ctrl+]跳转到定义处 Ctrl+o 跳转回 <space> 查看原型定义 o 新窗口打开当前tag u 更新tag
+" "let Tlist_Auto_Open=1 "自动打开
+" let Tlist_Use_Right_Window=1 "左边显示
+" let Tlist_File_Fold_Auto_Close=1 "打开其他文件的时候自动关闭,只显示一个文件的tag
+" let Tlist_Auto_Update=1 "自动更新，包含新文件时候
+" let Tlist_Exit_OnlyWindow=1"Close Vim if the taglist is the only window.
+" set title titlestring=%<%f\ %([%{Tlist_Get_Tagname_By_Line()}]%) "状态栏标题
+" set statusline=%<%f%=%([%{Tlist_Get_Tagname_By_Line()}]%) "窗口标题
+" let Tlist_Compact_Format=1 "不显示空白行
+" set tags=tags;/ "找不到tags文件到上层找寻"
+" "let Tlist_Ctags_Cmd = '`brew --prefix`/bin/ctags'
+
+"tagbar
+let g:tagbar_iconchars = ['▾', '▸']
+let g:tagbar_type_php = {
+\ 'ctagstype' : 'php',
+\ 'kinds' : [
+\ 'i:interfaces',
+\ 'c:classes',
+\ 'd:constant definitions',
+\ 'f:functions',
+\ 'j:javascript functions:1'
+\ ]
+\ }
 set tags=tags;/ "找不到tags文件到上层找寻"
-"let Tlist_Ctags_Cmd = '`brew --prefix`/bin/ctags'
-noremap gl :tnext<CR>
+
 
 "NERDTree
 "nnoremap <silent> <F7> :NERDTree<CR>
