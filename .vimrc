@@ -121,7 +121,7 @@ call pathogen#runtime_append_all_bundles()
 " "let Tlist_Ctags_Cmd = '`brew --prefix`/bin/ctags'
 
 "tagbar
-let g:tagbar_iconchars = ['▾', '▸']
+let g:tagbar_iconchars = ['▸','▾']
 let g:tagbar_type_php = {
 \ 'ctagstype' : 'php',
 \ 'kinds' : [
@@ -389,5 +389,5 @@ let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<tab>"
 let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
 
-hi Normal ctermbg=NONE      
+" hi Normal ctermbg=NONE      
 hi MatchParen cterm=none ctermbg=darkgrey ctermfg=white
