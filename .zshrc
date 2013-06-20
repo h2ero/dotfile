@@ -101,3 +101,7 @@ alias hgbsc="hg branches -c | \
 alias hglc="hg log -l 1 | \
             grep -1 changeset | \
             xclip -selection clipboard"
+
+hgd(){
+    hg st $(hg root) | awk '{print $2}'  | xargs grep -Rn  "var_dump\|console"
+}
