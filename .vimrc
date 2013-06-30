@@ -146,6 +146,9 @@ let g:pydiction_location = '~/.vim/bundle/pydiction/complete-dict'
 "syntastic
 " 在打开文件的时候检查
 " let g:syntastic_check_on_open=1
+let g:syntastic_php_checkers=['php', 'phpcs']
+let g:syntastic_error_symbol='✗'
+let g:syntastic_warning_symbol='⚠'
 noremap ]l :lnext<CR>
 noremap [l :lpre<CR>
 "phpcs，tab4个空格，编码参考使用CodeIgniter风格
