@@ -343,11 +343,6 @@ hi IndentGuidesOdd  ctermbg=black
 hi IndentGuidesEven ctermbg=darkgrey
 
 
-"indentLine
-let g:indentLine_fileType = ['c', 'cpp', 'php', 'python']
-let g:indentLine_color_term = 23
-let g:indentLine_char = '┆'
-set concealcursor=iv
 
 "Gundo
 
@@ -389,5 +384,5 @@ let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<tab>"
 let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
 
-" hi Normal ctermbg=NONE      
+hi Normal ctermbg=NONE      
 hi MatchParen cterm=none ctermbg=darkgrey ctermfg=white
