@@ -16,16 +16,16 @@ beautiful.init("/home/h2ero/.config/awesome/themes/default/theme.lua")
 
 -- {{{开机启动
 -- conky
-awful.util.spawn("conky -c /home/h2ero/.conky/conky_grey/conkyrc_grey")
+--awful.util.spawn("conky -c /home/h2ero/.conky/conky_grey/conkyrc_grey")
 -- 透明效果
-awful.util.spawn("xcompmgr")
+--awful.util.spawn("xcompmgr")
 -- 网络管理
 awful.util.spawn("nm-applet")
 -- }}}
 
 -- This is used later as the default terminal and editor to run.
-terminal = "x-terminal-emulator"
--- terminal = "urxvt"
+--terminal = "x-terminal-emulator"
+ terminal = "urxvt"
 editor = os.getenv("EDITOR") or "editor"
 editor_cmd = terminal .. " -e " .. editor
 
@@ -233,7 +233,7 @@ awful.key({ modkey }, "m", function () awful.util.spawn_with_shell("mute") end),
     awful.key({ modkey, "Control" }, "j", function () awful.screen.focus_relative( 1) end),
     awful.key({ modkey, "Control" }, "k", function () awful.screen.focus_relative(-1) end),
     awful.key({ modkey,           }, "u", awful.client.urgent.jumpto),
-    awful.key({ modkey,           }, "Tab",
+    awful.key({ modkey,           }, "F1",
         function ()
             awful.client.focus.history.previous()
             if client.focus then
