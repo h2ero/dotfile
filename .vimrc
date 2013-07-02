@@ -217,8 +217,6 @@ let g:EasyMotion_leader_key = '<Leader>'
 " quick edit vimrc  and execute it
 :nnoremap <leader>ev :vsplit $MYVIMRC<CR>
 :nnoremap <leader>sv :source $MYVIMRC<CR>
-" demo
-:nnoremap ,d :source ~/.demorc<CR>
 
 "
 :iabbrev @@    122750707@qq.com
@@ -387,5 +385,22 @@ let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<tab>"
 let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
 
-hi Normal ctermbg=NONE      
+"breeze.vim for dom
+noremap ,dp :BreezePrevSibling<CR>
+noremap ,dn :BreezeNextSibling<CR>
+noremap ,dP :BreezeParent<CR>
+noremap ,dm :BreezeMatchTag<CR>
+
+"for hex 
+function! Bin2Hex()
+    :%!xxd
+endfunction
+function! Hex2Bin()
+    :%!xxd -r
+endfunction
+
+command!  B2H call Bin2Hex()
+command!  H2B call Hex2Bin()
+
+" hi Normal ctermbg=NONE      
 hi MatchParen cterm=none ctermbg=darkgrey ctermfg=white

@@ -1,0 +1,68 @@
+URxvt.foreground: #D7D0C7
+URxvt.background: #151515
+! Black
+URxvt.color0: #303030
+URxvt.color8: #404040
+! Red
+URxvt.color1: #E84F4F
+URxvt.color9: #D23D3D
+! Green
+URxvt.color2: #B8D68C
+URxvt.color10: #A0CF5D
+! Yellow
+URxvt.color3: #E1AA5D
+URxvt.color11: #F39D21
+! Blue
+URxvt.color4: #7DC1CF
+URxvt.color12: #4E9FB1
+! Magenta
+URxvt.color5: #9B64FB
+URxvt.color13: #8542FF
+! Cyan
+URxvt.color6: #6D878D
+URxvt.color14: #42717B
+! White
+URxvt.color7: #dddddd
+URxvt.color15: #dddddd
+
+! scroll set 
+URxvt.scrollBar:false
+!URxvt.scrollBar_right:True
+!URxvt.scrollBar_floating:True
+!URxvt.scrollstyle:plain
+!URxvt.scrollWithBuffer:false
+URxvt.saveLines:5000
+
+! font set
+URxvt.font:xft:Liberation Mono:pixelsize=16:antialias=false,xft:Microsoft Yahei:pixelsize=18
+URxvt.boldFont:xft:Liberation Mono:pixelsize=16:antialias=false:Bold,xft:Microsoft Yahei:pixelsize=18:Bold
+
+! Input Method set 
+URxvt.inputMethod:fcitx
+!URxvt.imFont:Liberation Mono
+!URxvt.preeditType: Root
+
+! window geometry set 
+URxvt.geometry: 80x30
+URxvt.title:Rxvt-Unicode
+
+! bg transparent set
+!URxvt.inheritPixmap: true
+!URxvt.tintCddolor: white
+!URxvt.shading: 45
+
+! Tab set
+!URxvt.perl-ext-common: default,tabbed
+!URxvt.tabbed.tab-fg: 12
+!URxvt.tabbed.tab-bg: 0
+!URxvt.tabbed.tabbar-fg: 4
+
+!Rxvt.menu:/etc/X11/rxvt.menu
+!Rxvt.preeditType:Root
+!Rxvt.transparency:255
+
+! 开启标签功能
+! URxvt.perl-ext-common: default,tabbed
+! 
+URxvt.depth:32
+! URxvt.background:rgba:0000/0000/0000/cccc
