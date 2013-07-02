@@ -18,7 +18,7 @@ beautiful.init("/home/h2ero/.config/awesome/themes/default/theme.lua")
 -- conky
 awful.util.spawn("conky -c /home/h2ero/.conky/conky_grey/conkyrc_grey")
 -- 透明效果
-awful.util.spawn("xcompmgr")
+-- awful.util.spawn("xcompmgr")
 -- 网络管理
 awful.util.spawn("nm-applet")
 -- }}}
