@@ -34,9 +34,11 @@ URxvt.scrollBar:false
 URxvt.saveLines:5000
 
 ! font set
-URxvt.font:xft:Liberation Mono:pixelsize=16:antialias=false,xft:Microsoft Yahei:pixelsize=18
-URxvt.boldFont:xft:Liberation Mono:pixelsize=16:antialias=false:Bold,xft:Microsoft Yahei:pixelsize=18:Bold
+! URxvt.font:xft:Liberation Mono:pixelsize=16:antialias=false,xft:Microsoft Yahei:pixelsize=18
+! URxvt.boldFont:xft:Liberation Mono:pixelsize=16:antialias=false:Bold,xft:Microsoft Yahei:pixelsize=18:Bold
 
+URxvt.font:xft:wenquanyi micro hei mono:pixelsize=14:style=Regular:antialias=true,xft:wenquanyi micro hei mono:pixelsize=14:style=Regular:antialias=true
+URxvt.boldfont:xft:wenquanyi micro hei mono:pixelsize=14:style=BOld:antialias=true,xft:wenquanyi micro hei mono:pixelsize=14:style=Bold:antialias=true
 ! Input Method set 
 URxvt.inputMethod:fcitx
 !URxvt.imFont:Liberation Mono
