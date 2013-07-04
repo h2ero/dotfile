@@ -1,5 +1,6 @@
 group user
 colorscheme molokai
+loadplugins '\.(js|penta)$'
 
 
 "set设置{{{
@@ -10,7 +11,9 @@ colorscheme molokai
 
     "Hint{
     "设置hint为字母模式{
-        set hintkeys=asdfg;lkjh
+        ":set hintkeys=asdfg;lkjh
+        :set hintmatching=custom 
+        :set chinesehints='pingyin'
     "}
 
     "防止在最后一个tab的时候按d退出firefox{
