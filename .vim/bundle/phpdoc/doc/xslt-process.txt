@@ -9,14 +9,14 @@ concept taken from the Sablotron XSLT processor (currently the only XSLT
 processor this extension supports). The input containers default to a filename
 'containing' the document to be processed.
 
-{xh} The XSLT processor link identifier, created with |xslt_create|.
+{ xh}The XSLT processor link identifier, created with |xslt_create|.
 
 {xmlcontainer} Path to XML file or placeholder for the XML argument.
 
 {xslcontainer} Path to XSL file or placeholder for the XML argument.
 
 {resultcontainer} The result container defaults to a filename for the
-transformed document. If the result container is not specified - i.e. NULL -
+transformed document. If the result container is not specified - i.e. &null; -
 than the result is returned.
 
 {arguments} Instead of files as the XML and XSLT arguments to the

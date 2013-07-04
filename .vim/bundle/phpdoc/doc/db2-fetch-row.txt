@@ -17,8 +17,8 @@ advance the result set pointer and return a complete row as an array.
 {row_number} With scrollable cursors, you can request a specific row number in
 the result set. Row numbering is 1-indexed.
 
-Returns TRUE if the requested row exists in the result set. Returns FALSE if
-the requested row does not exist in the result set.
+Returns &true; if the requested row exists in the result set. Returns &false;
+if the requested row does not exist in the result set.
 
 Iterating through a result set The following example demonstrates how to
 iterate through a result set with |db2_fetch_row| and retrieve columns from

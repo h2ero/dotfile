@@ -14,7 +14,7 @@ configuration file is being used.
 {option} The configuration option name.
 
 Returns the current value of the PHP configuration variable specified by
-{option}, or FALSE if an error occurs.
+{option}, or &false; if an error occurs.
 
 Version Description 5.3.0 |get_cfg_var| was fixed to be able to return "array"
 ini options.

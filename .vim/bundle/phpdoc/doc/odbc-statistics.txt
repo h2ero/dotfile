@@ -17,7 +17,7 @@ details.
 
 {accuracy} The accuracy.
 
-Returns an ODBC result identifier or FALSE on failure.
+Returns an ODBC result identifier or &false; on failure.
 
 The result set has the following columns: TABLE_QUALIFIER
 

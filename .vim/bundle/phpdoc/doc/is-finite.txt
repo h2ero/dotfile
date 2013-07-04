@@ -6,8 +6,8 @@ Checks whether {val} is a legal finite on this platform.
 
 {val} The value to check
 
-TRUE if {val} is a legal finite number within the allowed range for a PHP
-float on this platform, else FALSE.
+&true; if {val} is a legal finite number within the allowed range for a PHP
+float on this platform, else &false;.
 
 |is_infinite| |is_nan|
 

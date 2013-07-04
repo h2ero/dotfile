@@ -1,8 +1,8 @@
-XMLWriter::startDTDEntity -- Create start DTD Entity
+xmlwriter_start_dtd_entity -- Create start DTD Entity
 
 Object oriented style
 
-  bool startDTDEntity(string name, bool isparam)~
+  bool XMLWriter::startDTDEntity(string name, bool isparam)~
 
 Procedural style
 
@@ -18,7 +18,7 @@ modified. This resource comes from a call to |xmlwriter_open_uri| or
 
 {isparam}
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 XMLWriter::endDTDEntity XMLWriter::writeDTDEntity
 

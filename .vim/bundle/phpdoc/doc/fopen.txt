@@ -21,9 +21,9 @@ allow_url_fopen is enabled. If it is switched off, PHP will emit a warning and
 the fopen call will fail.
 
 The list of supported protocols can be found in . Some protocols (also
-referred to as wrappers) support context and/or php.ini options. Refer to the
-specific page for the protocol in use for a list of options which can be set.
-(e.g. php.ini value user_agent used by the http wrapper).
+referred to as wrappers) support context and/or &php.ini; options. Refer to
+the specific page for the protocol in use for a list of options which can be
+set. (e.g. &php.ini; value user_agent used by the http wrapper).
 
 On the Windows platform, be careful to escape any backslashes used in the path
 to the file, or use forward slashes.
@@ -46,7 +46,7 @@ file. If the file does not exist, attempt to create it. 'a+' Open for reading
 and writing; place the file pointer at the end of the file. If the file does
 not exist, attempt to create it. 'x' Create and open for writing only; place
 the file pointer at the beginning of the file. If the file already exists, the
-|fopen| call will fail by returning FALSE and generating an error of level
+|fopen| call will fail by returning &false; and generating an error of level
 E_WARNING. If the file does not exist, attempt to create it. This is
 equivalent to specifying O_EXCL|O_CREAT flags for the underlying open(2)
 system call. 'x+' Create and open for reading and writing; otherwise it has
@@ -95,22 +95,22 @@ that uses or relies upon the 't' mode so that it uses the correct line endings
 and 'b' mode instead.
 
 {use_include_path} The optional third {use_include_path} parameter can be set
-to '1' or TRUE if you want to search for the file in the include_path, too.
+to '1' or &true; if you want to search for the file in the include_path, too.
 
 {context} Context support was added with PHP 5.0.0. For a description of
 contexts, refer to .
 
-Returns a file pointer resource on success, or FALSE on error.
+Returns a file pointer resource on success, or &false; on error.
 
 If the open fails, an error of level E_WARNING is generated. You may use @ to
 suppress this warning.
 
-Version Description 4.3.2 As of PHP 4.3.2, the default mode is set to binary
-for all platforms that distinguish between binary and text mode. If you are
-having problems with your scripts after upgrading, try using the 't' flag as a
-workaround until you have made your script more portable as mentioned before
-4.3.2 The 'x' and 'x+' options were added 5.2.6 The 'c' and 'c+' options were
-added
+Version Description 5.2.6 The 'c' and 'c+' options were added 4.3.2 As of PHP
+4.3.2, the default mode is set to binary for all platforms that distinguish
+between binary and text mode. If you are having problems with your scripts
+after upgrading, try using the 't' flag as a workaround until you have made
+your script more portable as mentioned before 4.3.2 The 'x' and 'x+' options
+were added
 
 |fopen| examples
 
@@ -142,7 +142,12 @@ If you are experiencing problems with reading and writing to files and you're
 using the server module version of PHP, remember to make sure that the files
 and directories you're using are accessible to the server process.
 
+This function may also succeed when {filename} is a directory. If you are
+unsure whether {filename} is a file or a directory, you may need to use the
+|is_dir| function before calling |fopen|.
+
 |fclose| |fgets| |fread| |fwrite| |fsockopen| |file| |file_exists|
-|is_readable| |stream_set_timeout| |popen| |stream_context_create|
+|is_readable| |stream_set_timeout| |popen| |stream_context_create| |umask|
+SplFileObject
 
 vim:ft=help:

@@ -12,8 +12,8 @@ significant added value.
 
 {result}
 
-Returns an array that corresponds to the fetched row, or FALSE if there are no
-more rows.
+Returns an array that corresponds to the fetched row, or &false; if there are
+no more rows.
 
 This function is only available when using the CT library interface to Sybase,
 and not with the DB library.

@@ -8,7 +8,7 @@ Returns the size of a {field}.
 
 {field} Can be the field's index (1-based) or name.
 
-Returns the size of a {field} in bytes, or FALSE on errors.
+Returns the size of a {field} in bytes, or &false; on errors.
 
 |oci_field_size| example
 

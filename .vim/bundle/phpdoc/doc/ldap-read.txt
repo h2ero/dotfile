@@ -55,7 +55,7 @@ object but not during the search.
 
 LDAP_DEREF_ALWAYS - aliases should be dereferenced always.
 
-Returns a search result identifier or FALSE on error.
+Returns a search result identifier or &false; on error.
 
 Version Description 4.0.5 Parallel searches support was added. See
 |ldap_search| for details. 4.0.2 The {attrsonly}, {sizelimit}, {timelimit} and

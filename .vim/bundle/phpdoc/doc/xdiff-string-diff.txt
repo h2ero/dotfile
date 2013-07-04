@@ -15,10 +15,10 @@ outputting the shortest patch file possible (can take a long time).
 {context} Indicates how many lines of context you want to include in the diff
 result.
 
-{minimal} Set this parameter to TRUE if you want to minimalize the size of the
-result (can take a long time).
+{minimal} Set this parameter to &true; if you want to minimalize the size of
+the result (can take a long time).
 
-Returns string with resulting diff or FALSE if an internal error happened.
+Returns string with resulting diff or &false; if an internal error happened.
 
 |xdiff_string_diff| example The following code makes unified diff of two
 articles.

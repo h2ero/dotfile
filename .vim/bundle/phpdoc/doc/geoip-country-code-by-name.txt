@@ -7,7 +7,7 @@ code corresponding to a hostname or an IP address.
 
 {hostname} The hostname or IP address whose location is to be looked-up.
 
-Returns the two letter ISO country code on success, or FALSE if the address
+Returns the two letter ISO country code on success, or &false; if the address
 cannot be found in the database.
 
 A |geoip_country_code_by_name| example This will print where the host
@@ -25,6 +25,9 @@ The above example will output:
   This host is located in: US
 
 
+
+Please see &url.maxmind.iso3166; for a complete list of possible return
+values, including special codes.
 
 |geoip_country_code3_by_name| |geoip_country_name_by_name|
 

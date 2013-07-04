@@ -9,7 +9,7 @@ word per line.
 
 {filename} Path to the PWL file.
 
-Returns a dictionary resource on success or FALSE on failure.
+Returns a dictionary resource on success or &false; on failure.
 
 |enchant_dict_describe| |enchant_broker_dict_exists|
 |enchant_broker_free_dict|

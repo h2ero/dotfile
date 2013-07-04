@@ -20,7 +20,7 @@ of the core developers CREDITS_MODULES A list of the extension modules for
 PHP, and their authors CREDITS_SAPI A list of the server API modules for PHP,
 and their authors
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Prints the general credits
 
@@ -60,6 +60,8 @@ Printing all the credits
 
 
 
+
+|phpcredits| outputs plain text instead of HTML when using the CLI mode.
 
 |phpversion| |php_logo_guid| |phpinfo|
 

@@ -7,8 +7,8 @@ command.
 
 {connection} The connection identifier.
 
-Returns a string containing the last error message or 'No Error'. If FALSE is
-returned, this function failed.
+Returns a string containing the last error message or 'No Error'. If &false;
+is returned, this function failed.
 
 |hw_error|
 

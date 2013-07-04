@@ -6,6 +6,6 @@ Returns the last error which occurred in this broker.
 
 {broker} Broker resource.
 
-Return the msg string if an error was found or FALSE
+Return the msg string if an error was found or &false;
 
 vim:ft=help:

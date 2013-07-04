@@ -8,7 +8,7 @@ deletion using |dbase_delete_record|.
 {dbase_identifier} The database link identifier, returned by |dbase_open| or
 |dbase_create|.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Emptying a dBase database
 

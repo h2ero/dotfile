@@ -8,7 +8,7 @@ Deletes a particular entry in LDAP directory.
 
 {dn} The distinguished name of an LDAP entity.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |ldap_add|
 

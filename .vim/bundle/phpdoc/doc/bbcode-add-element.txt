@@ -11,6 +11,6 @@ Adds a tag to an existing BBCode_Container tag_set using tag_rules.
 {tag_rules} An associative array containing the parsing rules; see
 |bbcode_create| for the available keys.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 vim:ft=help:

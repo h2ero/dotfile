@@ -17,6 +17,6 @@ To step through the result more than once, you can call |odbc_fetch_row| with
 to review the result. If a driver doesn't support fetching rows by number, the
 {row_number} parameter is ignored.
 
-Returns TRUE if there was a row, FALSE otherwise.
+Returns &true; if there was a row, &false; otherwise.
 
 vim:ft=help:

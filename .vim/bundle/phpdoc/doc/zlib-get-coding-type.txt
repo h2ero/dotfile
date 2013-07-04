@@ -4,7 +4,7 @@ zlib_get_coding_type -- Returns the coding type used for output compression
 
 Returns the coding type used for output compression.
 
-Possible return values are gzip, deflate, or FALSE.
+Possible return values are gzip, deflate, or &false;.
 
 The zlib.output_compression directive
 

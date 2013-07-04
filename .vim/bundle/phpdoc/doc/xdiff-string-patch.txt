@@ -21,7 +21,7 @@ XDIFF_PATCH_IGNORESPACE flag.
 
 {error} If provided then rejected parts are stored inside this variable.
 
-Returns the patched string, or FALSE on error.
+Returns the patched string, or &false; on error.
 
 |xdiff_string_patch| example The following code applies changes to some
 article.

@@ -5,7 +5,7 @@ gettimeofday -- Get current time
 This is an interface to gettimeofday(2). It returns an associative array
 containing the data returned from the system call.
 
-{return_float} When set to TRUE, a float instead of an array is returned.
+{return_float} When set to &true;, a float instead of an array is returned.
 
 By default an array is returned. If {return_float} is set, then a float is
 returned.

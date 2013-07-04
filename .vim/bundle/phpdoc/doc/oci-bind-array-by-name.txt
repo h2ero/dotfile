@@ -45,7 +45,7 @@ SQLT_LVC - for arrays of LONG VARCHAR.
 
 SQLT_ODT - for arrays of DATE.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |oci_bind_array_by_name| example
 
@@ -101,7 +101,5 @@ Returns TRUE on success or &false; on failure.
 
 
 
-
-This function is available since OCI8 release 1.2.
 
 vim:ft=help:

@@ -37,7 +37,7 @@ but if the regions overlap the results will be unpredictable.
 
 {src_h} Source height.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Resizing an image This example will display the image at half size.
 

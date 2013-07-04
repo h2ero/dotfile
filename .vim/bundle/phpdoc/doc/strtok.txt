@@ -71,10 +71,10 @@ The above example will output:
 
 
 
-This function may return Boolean FALSE, but may also return a non-Boolean
-value which evaluates to FALSE, such as 0 or "". Please read the section on
-Booleans for more information. Use the === operator for testing the return
-value of this function.
+This function may return Boolean &false;, but may also return a non-Boolean
+value which evaluates to &false;. Please read the section on Booleans for more
+information. Use the === operator for testing the return value of this
+function.
 
 |split| |explode|
 

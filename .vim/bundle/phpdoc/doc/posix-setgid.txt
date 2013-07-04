@@ -11,7 +11,7 @@ If the caller is a super user, this will also set the effective group id.
 
 {gid} The group id.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |posix_setgid| example This example will print out the effective group id,
 once it is changed.

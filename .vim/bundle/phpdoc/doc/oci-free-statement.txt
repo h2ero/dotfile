@@ -7,6 +7,6 @@ received from as a result of |oci_parse| or obtained from Oracle.
 
 {statement} A valid OCI statement identifier.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 vim:ft=help:

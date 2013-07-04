@@ -9,7 +9,7 @@ Execute command via Bourne shell, and open the PTY stream to the process.
 
 Returns an open PTY stream to the processes stdio, stdout, and stderr.
 
-On failure this function returns FALSE.
+On failure this function returns &false;.
 
 |expect_popen| example
 

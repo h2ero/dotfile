@@ -16,7 +16,7 @@ name is the mailbox you wish to retrieve information about.
 Returns an array with integer values limit and usage for the given mailbox.
 The value of limit represents the total amount of space allowed for this
 mailbox. The usage value represents the mailboxes current level of capacity.
-Will return FALSE in the case of failure.
+Will return &false; in the case of failure.
 
 As of PHP 4.3, the function more properly reflects the functionality as
 dictated by the RFC2087. The array return value has changed to support an

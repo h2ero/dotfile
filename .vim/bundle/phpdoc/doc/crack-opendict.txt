@@ -13,7 +13,7 @@ Only one dictionary may be open at a time.
 
 {dictionary} The path to the Cracklib dictionary.
 
-Returns a dictionary resource identifier on success or FALSE on failure.
+Returns a dictionary resource identifier on success or &false; on failure.
 
 |crack_check| |crack_closedict|
 

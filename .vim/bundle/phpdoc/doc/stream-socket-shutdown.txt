@@ -10,7 +10,7 @@ Shutdowns (partially or not) a full-duplex connection.
 receptions), STREAM_SHUT_WR (disable further transmissions) or
 STREAM_SHUT_RDWR (disable further receptions and transmissions).
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 A |stream_socket_shutdown| example
 

@@ -13,7 +13,7 @@ that defaults to the current local time if a {timestamp} is not given. In
 other words, it defaults to the value of |time|.
 
 Returns a formatted date string. If a non-numeric value is used for
-{timestamp}, FALSE is returned and an E_WARNING level error is emitted.
+{timestamp}, &false; is returned and an E_WARNING level error is emitted.
 
 Version Description 5.1.0 The valid range of a timestamp is typically from
 Fri, 13 Dec 1901 20:45:54 GMT to Tue, 19 Jan 2038 03:14:07 GMT. (These are the

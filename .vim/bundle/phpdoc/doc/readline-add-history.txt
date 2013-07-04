@@ -6,6 +6,6 @@ This function adds a line to the command line history.
 
 {line} The line to be added in the history.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 vim:ft=help:

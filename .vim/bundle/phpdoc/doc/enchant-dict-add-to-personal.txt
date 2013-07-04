@@ -8,7 +8,7 @@ Add a word to personal word list of the given dictionary.
 
 {word} The word to add
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |enchant_broker_request_pwl_dict| |enchant_broker_request_dict|
 

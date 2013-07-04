@@ -6,6 +6,6 @@ Freeing up memory allocated for agent session.
 
 {agent} A link to Agent, received after call to |udm_alloc_agent|.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 vim:ft=help:

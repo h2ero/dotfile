@@ -6,8 +6,8 @@ pg_result_error_field -- Returns an individual field of an error report.
 associated with {result} resource. It is only available against a PostgreSQL
 7.4 or above server. The error field is specified by the {fieldcode}.
 
-Because |pg_query| and |pg_query_params| return FALSE if the query fails, you
-must use |pg_send_query| and |pg_get_result| to get the result handle.
+Because |pg_query| and |pg_query_params| return &false; if the query fails,
+you must use |pg_send_query| and |pg_get_result| to get the result handle.
 
 If you need to get additional error information from failed |pg_query|
 queries, use |pg_set_error_verbosity| and |pg_last_error| and then parse the
@@ -23,8 +23,8 @@ PGSQL_DIAG_INTERNAL_POSITION (PostgreSQL 8.0+ only), PGSQL_DIAG_INTERNAL_QUERY
 (PostgreSQL 8.0+ only), PGSQL_DIAG_CONTEXT, PGSQL_DIAG_SOURCE_FILE,
 PGSQL_DIAG_SOURCE_LINE or PGSQL_DIAG_SOURCE_FUNCTION.
 
-A string containing the contents of the error field, NULL if the field does
-not exist or FALSE on failure.
+A string containing the contents of the error field, &null; if the field does
+not exist or &false; on failure.
 
 |pg_result_error_field| example
 

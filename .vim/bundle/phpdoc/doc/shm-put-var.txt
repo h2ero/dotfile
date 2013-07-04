@@ -16,7 +16,7 @@ complete your request.
 used: generally this means all types except for resources and some internal
 objects that cannot be serialized.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |shm_get_var| |shm_has_var|
 

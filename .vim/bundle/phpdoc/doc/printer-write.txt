@@ -8,7 +8,7 @@ Writes {content} directly to the printer.
 
 {content} The data to be written.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |printer_write| example
 

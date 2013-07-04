@@ -6,11 +6,11 @@ This function checks whether or not the given class has been defined.
 
 {class_name} The class name. The name is matched in a case-insensitive manner.
 
-{autoload} Whether or not to call __autoload by default.
+{autoload} Whether or not to call &link.autoload; by default.
 
-Returns TRUE if {class_name} is a defined class, FALSE otherwise.
+Returns &true; if {class_name} is a defined class, &false; otherwise.
 
-Version Description 5.0.2 No longer returns TRUE for defined interfaces. Use
+Version Description 5.0.2 No longer returns &true; for defined interfaces. Use
 |interface_exists|. 5.0.0 The {autoload} parameter was added.
 
 |class_exists| example

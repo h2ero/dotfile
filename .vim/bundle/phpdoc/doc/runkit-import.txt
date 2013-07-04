@@ -12,6 +12,6 @@ will be automatically overwritten by their new definitions.
 
 {flags} Bitwise OR of the RUNKIT_IMPORT_* family of constants.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 vim:ft=help:

@@ -16,8 +16,8 @@ called, and use it.
 
 {batch_size} The number of records to batch in the buffer.
 
-Returns a MS SQL result resource on success, TRUE if no rows were returned, or
-FALSE on error.
+Returns a MS SQL result resource on success, &true; if no rows were returned,
+or &false; on error.
 
 |mssql_query| example
 

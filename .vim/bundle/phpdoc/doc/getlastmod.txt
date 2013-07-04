@@ -8,8 +8,8 @@ If you're interested in getting the last modification time of a different
 file, consider using |filemtime|.
 
 Returns the time of the last modification of the current page. The value
-returned is a Unix timestamp, suitable for feeding to |date|. Returns FALSE on
-error.
+returned is a Unix timestamp, suitable for feeding to |date|. Returns &false;
+on error.
 
 |getlastmod| example
 

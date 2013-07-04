@@ -9,6 +9,6 @@ current session. It is very similar to |pspell_add_to_personal|
 
 {word} The added word.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 vim:ft=help:

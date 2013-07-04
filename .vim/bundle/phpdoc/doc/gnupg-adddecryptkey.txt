@@ -8,7 +8,7 @@ gnupg_adddecryptkey -- Add a key for decryption
 
 {passphrase} The pass phrase.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Procedural |gnupg_adddecryptkey| example
 

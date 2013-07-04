@@ -6,7 +6,7 @@ Gets the XML parser error string associated with the given {code}.
 
 {code} An error code from |xml_get_error_code|.
 
-Returns a string with a textual description of the error {code}, or FALSE if
+Returns a string with a textual description of the error {code}, or &false; if
 no description was found.
 
 |xml_get_error_code|

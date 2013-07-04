@@ -16,7 +16,7 @@ socket_create().
 
 {buf} The data received will be fetched to the variable specified with {buf}.
 If an error occurs, if the connection is reset, or if no data is available,
-{buf} will be set to NULL.
+{buf} will be set to &null;.
 
 {len} Up to {len} bytes will be fetched from remote host.
 
@@ -30,7 +30,7 @@ However, if a signal is caught or the remote host disconnects, the function
 may return less data. MSG_DONTWAIT With this flag set, the function returns
 even if it would normally have blocked.
 
-|socket_recv| returns the number of bytes received, or FALSE if there was an
+|socket_recv| returns the number of bytes received, or &false; if there was an
 error. The actual error code can be retrieved by calling |socket_last_error|.
 This error code may be passed to |socket_strerror| to get a textual
 explanation of the error.
@@ -95,7 +95,7 @@ The above example will produce something like:
   Sending HTTP HEAD request...OK.
   Reading response:
   
-  Closing socket...HTTP/1.1 200 OK
+  Read 123 bytes from socket_recv(). Closing socket...HTTP/1.1 200 OK
   Date: Mon, 14 Sep 2009 08:56:36 GMT
   Server: Apache/2.2.3 (Red Hat)
   Last-Modified: Tue, 15 Nov 2005 13:24:10 GMT

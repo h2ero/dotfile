@@ -9,16 +9,16 @@ Returns information about an existing {stream}.
 
 The result array contains the following items:
 
-timed_out (bool) - TRUE if the stream timed out while waiting for data on the
-last call to |fread| or |fgets|.
+timed_out (bool) - &true; if the stream timed out while waiting for data on
+the last call to |fread| or |fgets|.
 
-blocked (bool) - TRUE if the stream is in blocking IO mode. See
+blocked (bool) - &true; if the stream is in blocking IO mode. See
 |stream_set_blocking|.
 
-eof (bool) - TRUE if the stream has reached end-of-file. Note that for socket
-streams this member can be TRUE even when unread_bytes is non-zero. To
-determine if there is more data to be read, use |feof| instead of reading this
-item.
+eof (bool) - &true; if the stream has reached end-of-file. Note that for
+socket streams this member can be &true; even when unread_bytes is non-zero.
+To determine if there is more data to be read, use |feof| instead of reading
+this item.
 
 unread_bytes (int) - the number of bytes currently contained in the PHP's own
 internal buffer.

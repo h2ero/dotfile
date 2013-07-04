@@ -15,6 +15,6 @@ dictionary is used.
 
 {password} The tested password.
 
-Returns TRUE if {password} is strong, or FALSE otherwise.
+Returns &true; if {password} is strong, or &false; otherwise.
 
 vim:ft=help:

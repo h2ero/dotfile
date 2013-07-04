@@ -15,7 +15,7 @@ name of the column.
 
 Returns an integer containing the width of the specified character or binary
 data type column in a result set. If the specified column does not exist in
-the result set, |db2_field_width| returns FALSE.
+the result set, |db2_field_width| returns &false;.
 
 |db2_field_display_size| |db2_field_name| |db2_field_num|
 |db2_field_precision| |db2_field_scale| |db2_field_type|

@@ -7,8 +7,8 @@ Retrieves statistics about the process with the process id {pid}.
 {pid} The process id of the process to stat. If omitted, the id of the current
 process.
 
-Returns FALSE on failure, or an array consisting of the following information
-on success:
+Returns &false; on failure, or an array consisting of the following
+information on success:
 
 {pid} The process id.
 

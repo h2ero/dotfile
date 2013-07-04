@@ -1,5 +1,10 @@
 mysql_stat -- Get current system status
 
+This extension is deprecated as of PHP 5.5.0, and will be removed in the
+future. Instead, the MySQLi or PDO_MySQL extension should be used. See also
+MySQL: choosing an API guide and related FAQ for more information.
+Alternatives to this function include:
+
   string mysql_stat([resource link_identifier])~
 
 |mysql_stat| returns the current server status.
@@ -13,7 +18,7 @@ is generated.
 Returns a string with the status for uptime, threads, queries, open tables,
 flush tables and queries per second. For a complete list of other status
 variables, you have to use the SHOW STATUS SQL command. If {link_identifier}
-is invalid, NULL is returned.
+is invalid, &null; is returned.
 
 |mysql_stat| example
 

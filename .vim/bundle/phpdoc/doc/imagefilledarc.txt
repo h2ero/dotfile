@@ -38,7 +38,7 @@ IMG_ARC_NOFILL, indicates that the beginning and ending angles should be
 connected to the center - this is a good way to outline (rather than fill) a
 'pie slice'.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Creating a 3D looking pie
 

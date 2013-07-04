@@ -10,13 +10,13 @@ matches then assigns the {new_value} to it.
 sensitive.
 
 {old_value} Old value of the variable pointed by {key} in the user cache. The
-value should be of type long, otherwise the function returns FALSE.
+value should be of type long, otherwise the function returns &false;.
 
 {new_value} New value which will get assigned to variable pointer by {key} if
 a match is found. The value should be of type long, otherwise the function
-returns FALSE.
+returns &false;.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Using |wincache_ucache_cas|
 

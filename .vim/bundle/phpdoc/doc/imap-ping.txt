@@ -8,7 +8,7 @@ a "keep alive" for servers which have inactivity timeout.
 
 { imap_stream}An IMAP stream returned by |imap_open|.
 
-Returns TRUE if the stream is still alive, FALSE otherwise.
+Returns &true; if the stream is still alive, &false; otherwise.
 
 |imap_ping| Example
 

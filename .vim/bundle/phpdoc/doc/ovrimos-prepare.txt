@@ -9,7 +9,7 @@ Prepares an SQL statement.
 
 {query} The SQL statement.
 
-Returns a result identifier on success, or FALSE on error.
+Returns a result identifier on success, or &false; on error.
 
 |ovrimos_prepare| Example
 

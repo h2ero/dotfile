@@ -16,7 +16,7 @@ a subpath. If the last drawing operation does not end in point ({x}+{radius},
 
 {radius} The radius of the circle
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |ps_arc| |ps_arcn|
 

@@ -11,6 +11,6 @@ and long varbinary).
 
 {length} The number of bytes to retrieve. Default is zero.
 
-Returns TRUE.
+Returns &true;.
 
 vim:ft=help:

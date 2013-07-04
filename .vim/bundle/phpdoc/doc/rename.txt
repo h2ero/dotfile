@@ -2,7 +2,8 @@ rename -- Renames a file or directory
 
   bool rename(string oldname, string newname [, resource context])~
 
-Attempts to rename {oldname} to {newname}.
+Attempts to rename {oldname} to {newname}, moving it between directories if
+necessary. If {newname} exists, it will be overwritten.
 
 {oldname}
 
@@ -14,7 +15,7 @@ The old name. The wrapper used in {oldname} must match the wrapper used in
 {context} Context support was added with PHP 5.0.0. For a description of
 contexts, refer to .
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Version Description 5.3.1 |rename| can now rename files across drives in
 Windows. 5.0.0 |rename| can now also be used with some URL wrappers. Refer to

@@ -15,7 +15,7 @@ The case will be ignored.
 
 {option} {option} has the same meaning as in |mb_ereg_replace|.
 
-The resultant string or FALSE on error.
+The resultant string or &false; on error.
 
 The internal encoding or the character encoding specified by
 |mb_regex_encoding| will be used as the character encoding for this function.

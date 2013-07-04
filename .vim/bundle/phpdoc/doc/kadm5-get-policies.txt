@@ -6,7 +6,7 @@ Gets an array containing the policies's names.
 
 {handle} A KADM5 handle.
 
-Returns array of policies on success or FALSE on failure.
+Returns array of policies on success or &false; on failure.
 
 |kadm5_get_policies| example
 

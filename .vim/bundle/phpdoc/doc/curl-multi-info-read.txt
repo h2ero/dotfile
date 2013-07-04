@@ -7,9 +7,9 @@ individual transfers. Messages may include information such as an error code
 from the transfer or just the fact that a transfer is completed.
 
 Repeated calls to this function will return a new result each time, until a
-FALSE is returned as a signal that there is no more to get at this point. The
-integer pointed to with {msgs_in_queue} will contain the number of remaining
-messages after this function was called.
+&false; is returned as a signal that there is no more to get at this point.
+The integer pointed to with {msgs_in_queue} will contain the number of
+remaining messages after this function was called.
 
 The data the returned resource points to will not survive calling
 |curl_multi_remove_handle|.
@@ -18,7 +18,7 @@ The data the returned resource points to will not survive calling
 
 {msgs_in_queue} Number of messages that are still in the queue
 
-On success, returns an associative array for the message, FALSE on failure.
+On success, returns an associative array for the message, &false; on failure.
 
 Contents of the returned array Key: Value: msg The CURLMSG_DONE constant.
 Other return values are currently not available. result One of the CURLE_*

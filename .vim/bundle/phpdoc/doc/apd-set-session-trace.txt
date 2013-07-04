@@ -14,7 +14,7 @@ To turn on all functional traces (TIMING, FUNCTIONS, ARGS SUMMARY (like strace
 -c)) use the value 99
 
 {dump_directory} The directory in which the profile dump file is written. If
-not set, the apd.dumpdir setting from the php.ini file is used.
+not set, the apd.dumpdir setting from the &php.ini; file is used.
 
 No value is returned.
 

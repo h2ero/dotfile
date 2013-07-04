@@ -7,6 +7,6 @@ Returns the last error of the current spelling-session
 
 {dict} Dictinaray resource
 
-Returns the error message as string or FALSE if no error occurred.
+Returns the error message as string or &false; if no error occurred.
 
 vim:ft=help:

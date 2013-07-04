@@ -8,7 +8,7 @@ ftp_delete -- Deletes a file on the FTP server
 
 {path} The file to delete.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |ftp_delete| example
 

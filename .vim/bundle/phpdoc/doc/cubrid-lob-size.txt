@@ -8,7 +8,7 @@ cubrid_lob_size -- Get BLOB/CLOB data size
 
 A string representing LOB data size, when process is successful.
 
-FALSE, when process is unsuccessful.
+&false;, when process is unsuccessful.
 
 Version Description 8.4.0 Change return value type from int to string.
 

@@ -12,7 +12,7 @@ It is not possible to read from a BLOB that has been opened for writing by
 
 {len} Size of returned data.
 
-Returns at most {len} bytes from the BLOB, or FALSE on failure.
+Returns at most {len} bytes from the BLOB, or &false; on failure.
 
 |ibase_blob_get| example
 

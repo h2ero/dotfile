@@ -10,10 +10,11 @@ FTP connection.
 
 {option} Currently, the following options are supported: Supported runtime FTP
 options FTP_TIMEOUT_SEC Returns the current timeout used for network related
-operations. FTP_AUTOSEEK Returns TRUE if this option is on, FALSE otherwise.
+operations. FTP_AUTOSEEK Returns &true; if this option is on, &false;
+otherwise.
 
-Returns the value on success or FALSE if the given {option} is not supported.
-In the latter case, a warning message is also thrown.
+Returns the value on success or &false; if the given {option} is not
+supported. In the latter case, a warning message is also thrown.
 
 |ftp_get_option| example
 

@@ -8,19 +8,19 @@ Object oriented style
 
   mixed maxdb_result::fetch_row(resource result)~
 
-Returns an array that corresponds to the fetched row, or NULL if there are no
-more rows.
+Returns an array that corresponds to the fetched row, or &null; if there are
+no more rows.
 
 |maxdb_fetch_row| fetches one row of data from the result set represented by
 {result} and returns it as an enumerated array, where each column is stored in
 an array offset starting from 0 (zero). Each subsequent call to the
 |maxdb_fetch_row| function will return the next row within the result set, or
-FALSE if there are no more rows.
+&false; if there are no more rows.
 
-|maxdb_fetch_row| returns an array that corresponds to the fetched row or NULL
-if there are no more rows in result set.
+|maxdb_fetch_row| returns an array that corresponds to the fetched row or
+&null; if there are no more rows in result set.
 
-This function sets NULL fields to the PHP NULL value.
+This function sets NULL fields to the PHP &null; value.
 
 Object oriented style
 

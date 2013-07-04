@@ -5,7 +5,7 @@ radius_put_attr -- Attaches a binary attribute
 This function is currently not documented; only its argument list is
 available.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |radius_put_attr| example
 

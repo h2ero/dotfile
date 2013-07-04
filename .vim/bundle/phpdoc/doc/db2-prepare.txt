@@ -37,8 +37,8 @@ functionality.
 For a description of valid statement options, see |db2_set_option|.
 
 Returns a statement resource if the SQL statement was successfully parsed and
-prepared by the database server. Returns FALSE if the database server returned
-an error. You can determine which error was returned by calling
+prepared by the database server. Returns &false; if the database server
+returned an error. You can determine which error was returned by calling
 |db2_stmt_error| or |db2_stmt_errormsg|.
 
 Preparing and executing an SQL statement with parameter markers The following

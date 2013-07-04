@@ -8,9 +8,9 @@ Returns a result set listing the primary keys for a table.
 database.
 
 {qualifier} A qualifier for DB2 databases running on OS/390 or z/OS servers.
-For other databases, pass NULL or an empty string.
+For other databases, pass &null; or an empty string.
 
-{schema} The schema which contains the tables. If {schema} is NULL,
+{schema} The schema which contains the tables. If {schema} is &null;,
 |db2_primary_keys| matches the schema for the current connection.
 
 {table-name} The name of the table.

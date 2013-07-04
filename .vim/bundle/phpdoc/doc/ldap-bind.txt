@@ -13,7 +13,7 @@ Binds to the LDAP directory with specified RDN and password.
 If {bind_rdn} and {bind_password} are not specified, an anonymous bind is
 attempted.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Using LDAP Bind
 

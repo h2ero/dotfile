@@ -12,6 +12,6 @@ corresponding transaction will be rolled back. The transaction context will be
 retained, so statements executed from within this transaction will not be
 invalidated.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 vim:ft=help:

@@ -19,7 +19,7 @@ terminator instead of "\n" or the operation will fail
 appended message. The parameter should be a date string that conforms to the
 rfc2060 specifications for a date_time value.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Version Description 5.3.2 Added INTERNALDATE support to imap_append.
 

@@ -22,8 +22,8 @@ filter to the beginning of the list, use |stream_filter_prepend|.
 Returns a resource which can be used to refer to this filter instance during a
 call to |stream_filter_remove|.
 
-Version Description 5.1.0 Prior to PHP 5.1.0, this function returns TRUE on
-success or FALSE on failure.
+Version Description 5.1.0 Prior to PHP 5.1.0, this function returns &true; on
+success or &false; on failure.
 
 Controlling where filters are applied
 

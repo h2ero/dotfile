@@ -9,6 +9,6 @@ normally, then exit without blocking for events again.
 
 {timeout} Optional timeout parameter (in microseconds).
 
-|event_base_loopexit| returns TRUE on success or FALSE on error.
+|event_base_loopexit| returns &true; on success or &false; on error.
 
 vim:ft=help:

@@ -15,7 +15,7 @@ number generator), MCRYPT_DEV_RANDOM (read data from /dev/random) and
 MCRYPT_DEV_URANDOM (read data from /dev/urandom). Prior to 5.3.0, MCRYPT_RAND
 was the only one supported on Windows.
 
-Returns the initialization vector, or FALSE on error.
+Returns the initialization vector, or &false; on error.
 
 Version Description 5.3.0 MCRYPT_DEV_RANDOM and MCRYPT_DEV_URANDOM became
 available on Windows platforms. 5.3.0 It is no longer required to call |srand|
@@ -32,8 +32,6 @@ first. This is now done automatically.
 
 
 
-http://www.ciphersbyritter.com/GLOSSARY.HTM#IV
-http://www.quadibloc.com/crypto/co0409.htm Chapter 9.3 of Applied Cryptography
-by Schneier (ISBN 0-471-11709-9)
+&url.mcrypt.iv; &url.mcrypt.bcm; Chapter 9.3 of &book.applied.cryptography;
 
 vim:ft=help:

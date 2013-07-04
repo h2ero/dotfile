@@ -20,7 +20,7 @@ by whatever type is in the second array.
 {...} More arrays from which elements will be extracted. Values from later
 arrays overwrite the previous values.
 
-Returns an array, or NULL if an error occurs.
+Returns an array, or &null; if an error occurs.
 
 |array_replace| example
 

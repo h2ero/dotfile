@@ -12,7 +12,7 @@ id must also be unset. If a cookie is used to propagate the session id
 (default behavior), then the session cookie must be deleted. |setcookie| may
 be used for that.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Destroying a session with $_SESSION
 

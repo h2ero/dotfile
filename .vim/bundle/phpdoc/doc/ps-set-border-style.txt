@@ -14,7 +14,7 @@ border line.
 
 {width} The line width of the border.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |ps_set_border_color| |ps_set_border_dash|
 

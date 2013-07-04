@@ -8,7 +8,7 @@ Get the modulus of the {left_operand} using {modulus}.
 
 {modulus} The modulus, as a string.
 
-Returns the modulus as a string, or NULL if {modulus} is 0.
+Returns the modulus as a string, or &null; if {modulus} is 0.
 
 |bcmod| example
 

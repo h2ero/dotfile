@@ -8,7 +8,7 @@ do with |setlocale| nor with the system locale.
 {name} The new Locale name. A comprehensive list of the supported locales is
 available at .
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 A |locale_set_default| example This example demonstrates a possible usage of
 |locale_set_default| to localize the |sort| functions.

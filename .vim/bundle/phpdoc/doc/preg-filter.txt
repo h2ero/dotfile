@@ -10,7 +10,7 @@ Returns an array if the {subject} parameter is an array, or a string
 otherwise.
 
 If no matches are found or an error occurred, an empty array is returned when
-{subject} is an array or NULL otherwise.
+{subject} is an array or &null; otherwise.
 
 Example comparing |preg_filter| with |preg_replace|
 

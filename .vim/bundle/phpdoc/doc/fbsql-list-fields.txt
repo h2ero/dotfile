@@ -16,7 +16,7 @@ the FrontBase server and if no such link is found it will try to create one as
 if |fbsql_connect| was called with no arguments.
 
 Returns a result pointer which can be used with the fbsql_field_xxx functions,
-or FALSE on error.
+or &false; on error.
 
 A string describing the error will be placed in $phperrmsg, and unless the
 function was called as @fbsql() then this error string will also be printed

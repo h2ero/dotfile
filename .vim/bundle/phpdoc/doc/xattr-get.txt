@@ -17,7 +17,8 @@ default, but this can be changed with the {flags} parameter.
 but operate on symbolic link itself. XATTR_ROOT Set attribute in root
 (trusted) namespace. Requires root privileges.
 
-Returns a string containing the value or FALSE if the attribute doesn't exist.
+Returns a string containing the value or &false; if the attribute doesn't
+exist.
 
 Checks if system administrator has signed the file
 

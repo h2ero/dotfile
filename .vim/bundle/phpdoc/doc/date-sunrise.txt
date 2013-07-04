@@ -22,7 +22,7 @@ date.default_longitude
 
 {gmtoffset} Specified in hours.
 
-Returns the sunrise time in a specified {format} on success or FALSE on
+Returns the sunrise time in a specified {format} on success or &false; on
 failure.
 
 Every call to a date/time function will generate a E_NOTICE if the time zone

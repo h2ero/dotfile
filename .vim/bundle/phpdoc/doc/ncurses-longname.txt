@@ -9,7 +9,7 @@ PHP. This function should be used at your own risk.
 Returns a verbose description of the terminal.
 
 Returns the description, as a string truncated to 128 characters. On errors,
-returns NULL.
+returns &null;.
 
 |ncurses_termname|
 

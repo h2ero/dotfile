@@ -9,7 +9,7 @@ temporarily overriding built-in functions.
 
 {new_name} The new name for the {original_name} function.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |rename_function| example
 

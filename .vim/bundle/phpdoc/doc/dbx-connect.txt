@@ -38,9 +38,9 @@ persistent connection will be created.
 The {host}, {database}, {username} and {password} parameters are expected, but
 not always used depending on the connect functions for the abstracted module.
 
-Returns an object on success, FALSE on error. If a connection has been made
-but the database could not be selected, the connection is closed and FALSE is
-returned.
+Returns an object on success, &false; on error. If a connection has been made
+but the database could not be selected, the connection is closed and &false;
+is returned.
 
 The returned object has three properties: database It is the name of the
 currently selected database.

@@ -4,6 +4,6 @@ session_pgsql_reset -- Reset connection to session database servers
 
 Reset the connection to the session database servers.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 vim:ft=help:

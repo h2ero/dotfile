@@ -7,6 +7,6 @@ Kerberos admin server open.
 
 {handle} A KADM5 handle.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 vim:ft=help:

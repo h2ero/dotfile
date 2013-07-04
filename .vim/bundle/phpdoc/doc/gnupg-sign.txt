@@ -11,7 +11,7 @@ depending on what was set with gnupg_setsignmode.
 {plaintext} The plain text being signed.
 
 On success, this function returns the signed text or the signature. On
-failure, this function returns FALSE.
+failure, this function returns &false;.
 
 Procedural |gnupg_sign| example
 

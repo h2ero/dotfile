@@ -10,7 +10,7 @@ Executes a prepared statement.
 marks in the statement), the correct number of parameters should be passed in
 an array.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |ovrimos_prepare|
 

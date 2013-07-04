@@ -10,7 +10,7 @@ or |fdf_open_string|.
 {filename} If provided, the resulting FDF will be written in this parameter.
 Otherwise, this function will write the FDF to the default PHP output stream.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |fdf_close| |fdf_create| |fdf_save_string|
 

@@ -6,11 +6,11 @@ document
 |tidy_setopt| updates the specified {option} with a new {value}.
 
 {option} The tidy option name. A list of available configuration options may
-be found at: http://tidy.sourceforge.net/docs/quickref.html.
+be found at: &url.tidy.conf;.
 
 {value} The tidy option name.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |tidy_setopt| example
 

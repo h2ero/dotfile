@@ -6,8 +6,8 @@ Finds whether more rows are available from the given result set.
 
 {result} The SQLite result resource.
 
-Returns TRUE if there are more rows available from the {result} handle, or
-FALSE otherwise.
+Returns &true; if there are more rows available from the {result} handle, or
+&false; otherwise.
 
 |sqlite_num_rows| |sqlite_changes|
 

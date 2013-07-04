@@ -22,8 +22,8 @@ Id to distinguish multiple devices
 
 "mmask" : Mouse action
 
-Returns FALSE if a mouse event is actually visible in the given window,
-otherwise returns TRUE.
+Returns &false; if a mouse event is actually visible in the given window,
+otherwise returns &true;.
 
 |ncurses_getmouse| example
 

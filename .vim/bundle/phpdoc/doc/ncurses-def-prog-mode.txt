@@ -9,7 +9,7 @@ PHP. This function should be used at your own risk.
 Saves the current terminal modes for program (in curses) for use by
 |ncurses_reset_prog_mode|.
 
-Returns FALSE on success, otherwise TRUE.
+Returns &false; on success, otherwise &true;.
 
 |ncurses_reset_prog_mode|
 

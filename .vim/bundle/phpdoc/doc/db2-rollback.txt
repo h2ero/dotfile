@@ -10,7 +10,7 @@ turned off for the connection resource.
 {connection} A valid database connection resource variable as returned from
 |db2_connect| or |db2_pconnect|.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Rolling back a DELETE statement In the following example, we count the number
 of rows in a table, turn off AUTOCOMMIT mode on a database connection, delete

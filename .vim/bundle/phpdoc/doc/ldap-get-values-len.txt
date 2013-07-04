@@ -13,7 +13,7 @@ binary data and not string data.
 
 {attribute}
 
-Returns an array of values for the attribute on success and FALSE on error.
+Returns an array of values for the attribute on success and &false; on error.
 Individual values are accessed by integer index in the array. The first index
 is 0. The number of values can be found by indexing "count" in the resultant
 array.

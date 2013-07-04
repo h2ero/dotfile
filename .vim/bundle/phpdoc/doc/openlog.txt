@@ -5,7 +5,7 @@ openlog -- Open connection to system logger
 |openlog| opens a connection to the system logger for a program.
 
 The use of |openlog| is optional. It will automatically be called by |syslog|
-if necessary, in which case {ident} will default to FALSE.
+if necessary, in which case {ident} will default to &false;.
 
 {ident} The string {ident} is added to each message.
 
@@ -34,7 +34,7 @@ generic user-level messages LOG_UUCP UUCP subsystem
 
 LOG_USER is the only valid log type under Windows operating systems
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |syslog| |closelog|
 

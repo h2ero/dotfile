@@ -16,7 +16,7 @@ you use double quotes there will be a need to escape the variable names, e.g.
 
 {function_code} The new code for the function.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |override_function| example
 

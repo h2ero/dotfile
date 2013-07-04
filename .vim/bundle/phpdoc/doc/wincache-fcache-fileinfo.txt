@@ -8,7 +8,7 @@ Retrieves information about file cache content and its usage.
 {summaryonly} Controls whether the returned array will contain information
 about individual cache entries along with the file cache summary.
 
-Array of meta data about file cache or FALSE on failure
+Array of meta data about file cache or &false; on failure
 
 The array returned by this function contains the following elements:
 total_cache_uptime - total time in seconds that the file cache has been active

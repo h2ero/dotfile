@@ -9,7 +9,7 @@ This function sorts an array in reverse order (highest to lowest).
 {sort_flags} You may modify the behavior of the sort using the optional
 parameter {sort_flags}, for details see |sort|.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |rsort| example
 

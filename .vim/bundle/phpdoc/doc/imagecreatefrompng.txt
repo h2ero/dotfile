@@ -13,7 +13,7 @@ provide.
 
 {filename} Path to the PNG image.
 
-Returns an image resource identifier on success, FALSE on errors.
+Returns an image resource identifier on success, &false; on errors.
 
 Example to handle an error during loading of a PNG
 
@@ -48,7 +48,9 @@ Example to handle an error during loading of a PNG
   imagedestroy($img);
 ?>
 
+The above example will output something similar to:
 
+imagecreatefrompng() example
 
 Windows versions of PHP prior to PHP 4.3.0 do not support access of remote
 files via this function, even if allow_url_fopen is enabled.

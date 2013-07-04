@@ -11,7 +11,7 @@ shmop_write -- Write data into shared memory block
 {offset} Specifies where to start writing data inside the shared memory
 segment.
 
-The size of the written {data}, or FALSE on failure.
+The size of the written {data}, or &false; on failure.
 
 Writing to shared memory block
 

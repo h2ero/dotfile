@@ -6,6 +6,6 @@ This function writes the command history to a file.
 
 {filename} Path to the saved file.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 vim:ft=help:

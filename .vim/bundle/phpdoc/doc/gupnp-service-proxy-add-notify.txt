@@ -29,7 +29,7 @@ function takes on three parameters. The {variable} parameter being the first,
 
 {arg} User data for {callback}.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |gupnp_service_proxy_remove_notify|
 

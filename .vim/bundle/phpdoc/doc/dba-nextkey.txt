@@ -7,7 +7,7 @@ key pointer.
 
 {handle} The database handler, returned by |dba_open| or |dba_popen|.
 
-Returns the key on success or FALSE on failure.
+Returns the key on success or &false; on failure.
 
 |dba_firstkey| |dba_key_split| Example 2 in the DBA examples
 

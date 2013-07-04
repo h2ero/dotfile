@@ -12,7 +12,7 @@ Embeds binary IPTC data into a JPEG image.
 as a string.
 
 If success and spool flag is lower than 2 then the JPEG will not be returned
-as a string, FALSE on errors.
+as a string, &false; on errors.
 
 Embedding IPTC data into a JPEG
 

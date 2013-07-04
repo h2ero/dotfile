@@ -70,6 +70,8 @@ The above example will output:
 
 
 
+|array_count_values|
+
 Note that |array_unique| is not intended to work on multi dimensional arrays.
 
 vim:ft=help:

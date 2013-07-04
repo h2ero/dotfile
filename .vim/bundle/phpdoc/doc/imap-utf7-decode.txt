@@ -11,9 +11,9 @@ characters which are not in range of printable ASCII characters.
 (original UTF-7 was defined in RFC1642).
 
 Returns a string that is encoded in ISO-8859-1 and consists of the same
-sequence of characters in {text}, or FALSE if {text} contains invalid modified
-UTF-7 sequence or {text} contains a character that is not part of ISO-8859-1
-character set.
+sequence of characters in {text}, or &false; if {text} contains invalid
+modified UTF-7 sequence or {text} contains a character that is not part of
+ISO-8859-1 character set.
 
 |imap_utf7_encode|
 

@@ -8,7 +8,7 @@ gnupg_addsignkey -- Add a key for signing
 
 {passphrase} The pass phrase.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Procedural |gnupg_addsignkey| example
 

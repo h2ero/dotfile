@@ -6,7 +6,7 @@ runkit_function_copy -- Copy a function to a new function name
 
 {targetname} Name of new function to copy definition to
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 A |runkit_function_copy| example
 

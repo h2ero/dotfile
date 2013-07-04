@@ -6,7 +6,7 @@ Checks whether the message queue {key} exists.
 
 {key} Queue key.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |msg_remove_queue| |msg_receive| |msg_stat_queue|
 

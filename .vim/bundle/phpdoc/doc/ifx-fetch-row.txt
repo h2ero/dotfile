@@ -6,7 +6,7 @@ Fetches one row of data from the result associated with the specified result
 identifier.
 
 Subsequent calls to |ifx_fetch_row| would return the next row in the result
-set, or FALSE if there are no more rows.
+set, or &false; if there are no more rows.
 
 {result_id} {result_id} is a valid resultid returned by |ifx_query| or
 |ifx_prepare| (select type queries only!).
@@ -16,8 +16,8 @@ NEXT, PREVIOUS, CURRENT, FIRST, LAST or a number. If you specify a number, an
 "absolute" row fetch is executed. This parameter is optional, and only valid
 for SCROLL cursors.
 
-Returns an associative array that corresponds to the fetched row, or FALSE if
-there are no more rows.
+Returns an associative array that corresponds to the fetched row, or &false;
+if there are no more rows.
 
 Blob columns are returned as integer blob id values for use in |ifx_get_blob|
 unless you have used ifx_textasvarchar(1) or ifx_byteasvarchar(1), in which

@@ -1,8 +1,8 @@
-XMLWriter::startComment -- Create start comment
+xmlwriter_start_comment -- Create start comment
 
 Object oriented style
 
-  bool startComment()~
+  bool XMLWriter::startComment()~
 
 Procedural style
 
@@ -14,7 +14,7 @@ Starts a comment.
 modified. This resource comes from a call to |xmlwriter_open_uri| or
 |xmlwriter_open_memory|.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 XMLWriter::endComment XMLWriter::writeComment
 

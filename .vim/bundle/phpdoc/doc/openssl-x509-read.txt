@@ -8,6 +8,6 @@ returns a resource identifier for it.
 
 {x509certdata}
 
-Returns a resource identifier on success or FALSE on failure.
+Returns a resource identifier on success or &false; on failure.
 
 vim:ft=help:

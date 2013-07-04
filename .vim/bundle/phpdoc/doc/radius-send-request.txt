@@ -11,7 +11,7 @@ reply, retrying the defined servers in round-robin fashion as necessary.
 If a valid response is received, |radius_send_request| returns the Radius code
 which specifies the type of the response. This will typically be
 RADIUS_ACCESS_ACCEPT, RADIUS_ACCESS_REJECT, or RADIUS_ACCESS_CHALLENGE. If no
-valid response is received, |radius_send_request| returns FALSE.
+valid response is received, |radius_send_request| returns &false;.
 
 |radius_create_request|
 

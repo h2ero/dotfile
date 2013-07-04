@@ -9,6 +9,6 @@ identifier.
 
 {field_number} The field number. Field numbering starts at 1.
 
-Returns the field scale as a integer, or FALSE on error.
+Returns the field scale as a integer, or &false; on error.
 
 vim:ft=help:

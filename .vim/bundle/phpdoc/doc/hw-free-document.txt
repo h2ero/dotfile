@@ -6,6 +6,6 @@ Frees the memory occupied by the Hyperwave document.
 
 {hw_document} The document identifier.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 vim:ft=help:

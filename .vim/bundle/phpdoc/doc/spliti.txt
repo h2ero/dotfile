@@ -31,7 +31,7 @@ expression {pattern}.
 If there are n occurrences of {pattern}, the returned array will contain n+1
 items. For example, if there is no occurrence of {pattern}, an array with only
 one element will be returned. Of course, this is also true if {string} is
-empty. If an error occurs, |spliti| returns FALSE.
+empty. If an error occurs, |spliti| returns &false;.
 
 This example splits a string using 'a' as the separator : |spliti| example
 
@@ -57,6 +57,9 @@ The above example will output:
 As of PHP 5.3.0, the regex extension is deprecated in favor of the PCRE
 extension. Calling this function will issue an E_DEPRECATED notice. See the
 list of differences for help on converting to PCRE.
+
+|spliti| is deprecated as of PHP 5.3.0. |preg_split| with the i
+(PCRE_CASELESS) modifier is the suggested alternative.
 
 |preg_split| |split| |explode| |implode|
 

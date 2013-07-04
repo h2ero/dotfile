@@ -15,7 +15,7 @@ If you want to output text at a certain position it is more convenient to use
 
 {y} y-coordinate of the new text position.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Placing text at a given position
 

@@ -9,7 +9,7 @@ won't include a field offset, this field would be returned.
 
 {field_offset}
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |sybase_fetch_field|
 

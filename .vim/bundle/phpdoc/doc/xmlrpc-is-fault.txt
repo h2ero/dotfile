@@ -8,8 +8,9 @@ PHP. This function should be used at your own risk.
 
 {arg} Array returned by |xmlrpc_decode|.
 
-Returns TRUE if the argument means fault, FALSE otherwise. Fault description
-is available in $arg["faultString"], fault code is in $arg["faultCode"].
+Returns &true; if the argument means fault, &false; otherwise. Fault
+description is available in $arg["faultString"], fault code is in
+$arg["faultCode"].
 
 See example by |xmlrpc_encode_request|.
 

@@ -9,7 +9,7 @@ available.
 
 {error_message}
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |session_pgsql_get_error|
 

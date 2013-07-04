@@ -9,7 +9,7 @@ parameter is less than one you will be condensing the font.
 
 {extend} Extension value, must be greater than 0.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |imagepsextendfont| example
 

@@ -26,13 +26,13 @@ will fail (unless you set {flags} as described below).
 {message} The received message will be stored in {message}, unless there were
 errors receiving the message.
 
-{unserialize} If set to TRUE, the message is treated as though it was
+{unserialize} If set to &true;, the message is treated as though it was
 serialized using the same mechanism as the session module. The message will be
 unserialized and then returned to your script. This allows you to easily
 receive arrays or complex object structures from other PHP scripts, or if you
 are using the WDDX serializer, from any WDDX compatible source.
 
-If {unserialize} is FALSE, the message will be returned as a binary-safe
+If {unserialize} is &false;, the message will be returned as a binary-safe
 string.
 
 {flags} The optional {flags} allows you to pass flags to the low-level msgrcv
@@ -49,7 +49,7 @@ message to {maxsize} and will not signal an error.
 {errorcode} If the function fails, the optional {errorcode} will be set to the
 value of the system errno variable.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Upon successful completion the message queue data structure is updated as
 follows: msg_lrpid is set to the process-ID of the calling process, msg_qnum

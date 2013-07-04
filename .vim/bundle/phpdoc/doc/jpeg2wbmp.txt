@@ -14,7 +14,7 @@ Converts a JPEG file into a WBMP file.
 
 {threshold} Threshold value, between 0 and 8 (inclusive).
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |jpeg2wbmp| example
 

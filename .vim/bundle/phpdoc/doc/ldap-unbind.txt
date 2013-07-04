@@ -6,7 +6,7 @@ Unbinds from the LDAP directory.
 
 {link_identifier} An LDAP link identifier, returned by |ldap_connect|.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |ldap_bind|
 

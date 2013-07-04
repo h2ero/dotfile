@@ -16,8 +16,8 @@ call to |msql_query|.
 {result_type} A constant that can take the following values: MSQL_ASSOC,
 MSQL_NUM, and MSQL_BOTH with MSQL_BOTH being the default.
 
-Returns an array that corresponds to the fetched row, or FALSE if there are no
-more rows.
+Returns an array that corresponds to the fetched row, or &false; if there are
+no more rows.
 
 |msql_fetch_array| example
 
@@ -48,7 +48,7 @@ more rows.
 
 
 Version Description 4.3.11 and 5.0.4 A bug was fixed when retrieving data from
-columns containing NULL values. Such columns were not placed into the
+columns containing &null; values. Such columns were not placed into the
 resulting array.
 
 |msql_fetch_row| |msql_fetch_object| |msql_data_seek| |msql_result|

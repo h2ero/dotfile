@@ -12,7 +12,7 @@ parser is the parser itself.
 {bbcode_arg_parser} BBCode_Container resource, returned by |bbcode_create|. It
 will be used only for parsed arguments
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |bbcode_set_arg_parser| usage example
 

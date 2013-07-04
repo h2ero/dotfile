@@ -16,9 +16,9 @@ available when drawing on palette images.
 such as |imagecreatetruecolor|.
 
 {blendmode} Whether to enable the blending mode or not. On true color images
-the default value is TRUE otherwise the default value is FALSE
+the default value is &true; otherwise the default value is &false;
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |imagealphablending| usage example
 

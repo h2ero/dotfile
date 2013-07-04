@@ -14,7 +14,7 @@ This function has to be called after a sequence of
 {param_nr} indicates which parameter to associate the end of data with.
 Parameters are numbered beginning with 0.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |maxdb_prepare| |maxdb_stmt_bind_param|
 

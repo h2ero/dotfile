@@ -20,7 +20,7 @@ strings.
 Integers that would have caused an overflow (> 32 bits) are returned as
 strings.
 
-On error, |dbase_get_record_with_names| will return FALSE.
+On error, |dbase_get_record_with_names| will return &false;.
 
 Listing all the registered members in the database
 

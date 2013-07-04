@@ -48,7 +48,7 @@ type integer d corresponding variable has type double s corresponding variable
 has type string b corresponding variable is a blob and will be sent in
 packages
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Object oriented style
 

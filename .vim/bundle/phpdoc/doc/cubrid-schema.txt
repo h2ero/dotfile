@@ -44,7 +44,7 @@ UPDATE_ACTION 0:cascade 1:restrict 2:no action 3:set null 7 DELETE_ACTION
 
 Array containing the schema information, when process is successful;
 
-FALSE, when process is unsuccessful
+&false;, when process is unsuccessful
 
 Version Description 8.3.1 Change return value: when process is unsuccessful,
 return false, not -1.

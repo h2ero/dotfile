@@ -9,7 +9,7 @@ Initializes a stored procedure or a remote stored procedure.
 {link_identifier} A MS SQL link identifier, returned by |mssql_connect|.
 
 Returns a resource identifier "statement", used in subsequent calls to
-|mssql_bind| and |mssql_execute|, or FALSE on errors.
+|mssql_bind| and |mssql_execute|, or &false; on errors.
 
 |mssql_init| example
 

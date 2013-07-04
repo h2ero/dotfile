@@ -7,7 +7,7 @@ Return the current error mode for string conversions in {direction}.
 {direction} Get the error mode for conversion {direction}. This can either be
 FROM_UNICODE or TO_UNICODE. See |unicode_set_error_mode| for more details.
 
-This function returns one of the error mode constants or FALSE on failure.
+This function returns one of the error mode constants or &false; on failure.
 
 Emits a E_WARNING level error if {direction} is invalid.
 

@@ -9,7 +9,7 @@ value.
 the function. This means you must pass it a real variable and not a function
 returning an array because only actual variables may be passed by reference.
 
-Returns the value of the last element or FALSE for empty array.
+Returns the value of the last element or &false; for empty array.
 
 |end| example
 

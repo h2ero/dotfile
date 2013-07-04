@@ -7,7 +7,7 @@ Returns the number of columns in the specified result identifier.
 {result_id} A result identifier, returned by |ovrimos_execute| or
 |ovrimos_exec|.
 
-Returns the number of columns as an integer, or FALSE on error.
+Returns the number of columns as an integer, or &false; on error.
 
 |ovrimos_num_rows|
 

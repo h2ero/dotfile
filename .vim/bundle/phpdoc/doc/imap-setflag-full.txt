@@ -17,7 +17,7 @@ and \Draft as defined by RFC2060.
 {options} A bit mask that may contain the single option: ST_UID - The sequence
 argument contains UIDs instead of sequence numbers
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |imap_setflag_full| example
 

@@ -11,7 +11,7 @@ with the same {dsn}, {user}, {password} combination (via |odbc_connect| and
 
 See |odbc_connect| for details.
 
-Returns an ODBC connection id or 0 (FALSE) on error.
+Returns an ODBC connection id or 0 (&false;) on error.
 
 Persistent connections have no effect if PHP is used as a CGI program.
 

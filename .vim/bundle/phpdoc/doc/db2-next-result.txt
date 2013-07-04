@@ -11,7 +11,7 @@ return the result to a uniquely named PHP variable.
 {stmt} A prepared statement returned from |db2_exec| or |db2_execute|.
 
 Returns a new statement resource containing the next result set if the stored
-procedure returned another result set. Returns FALSE if the stored procedure
+procedure returned another result set. Returns &false; if the stored procedure
 did not return another result set.
 
 Calling a stored procedure that returns multiple result sets In the following

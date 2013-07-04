@@ -8,7 +8,7 @@ Sets the rotation of the coordinate system.
 
 {rot} Angle of rotation in degree.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Rotation of the coordinate system
 

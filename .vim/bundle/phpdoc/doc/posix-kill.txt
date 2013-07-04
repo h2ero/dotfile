@@ -8,7 +8,7 @@ Send the signal {sig} to the process with the process identifier {pid}.
 
 {sig} One of the PCNTL signals constants.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 The kill(2) manual page of the POSIX system, which contains additional
 information about negative process identifiers, the special pid 0, the special

@@ -8,7 +8,7 @@ return a file pointer to be used by further functions.
 
 {filename} The filename of the RPM file you wish to check for validity.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |rpm_is_valid| example
 

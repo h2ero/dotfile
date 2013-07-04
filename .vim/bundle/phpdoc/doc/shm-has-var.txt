@@ -8,7 +8,7 @@ Checks whether a specific key exists inside a shared memory segment.
 
 {variable_key} The variable key.
 
-Returns TRUE if the entry exists, otherwise FALSE
+Returns &true; if the entry exists, otherwise &false;
 
 |shm_get_var| |shm_put_var|
 

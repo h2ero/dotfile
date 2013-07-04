@@ -9,10 +9,10 @@ directory.
 
 {topath} The path to the new repository.
 
-{working_copy} If TRUE, it will export uncommitted files from the working
+{working_copy} If &true;, it will export uncommitted files from the working
 copy.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |svn_export| example
 

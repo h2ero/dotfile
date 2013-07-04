@@ -20,7 +20,7 @@ CLASSKIT_ACC_PROTECTED or CLASSKIT_ACC_PRIVATE
 This parameter is only used as of PHP 5, because, prior to this, all methods
 were public.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |classkit_method_add| example
 

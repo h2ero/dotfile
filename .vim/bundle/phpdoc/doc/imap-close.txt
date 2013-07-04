@@ -10,7 +10,7 @@ Closes the imap stream.
 before closing, removing all messages marked for deletion. You can achieve the
 same thing by using |imap_expunge|
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |imap_open|
 

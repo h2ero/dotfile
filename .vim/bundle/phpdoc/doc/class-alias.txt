@@ -1,6 +1,6 @@
 class_alias -- Creates an alias for a class
 
-  bool class_alias([string original [, string alias]])~
+  bool class_alias(string original, string alias [, bool autoload])~
 
 Creates an alias named {alias} based on the defined class {original}. The
 aliased class is exactly the same as the original class.
@@ -9,7 +9,9 @@ aliased class is exactly the same as the original class.
 
 {alias} The alias name for the class.
 
-Returns TRUE on success or &false; on failure.
+{autoload} Whether do autoload if the original class is not found.
+
+Returns &true; on success or &false; on failure.
 
 |class_alias| example
 

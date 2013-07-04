@@ -20,7 +20,7 @@ may be larger than the chunk size.
 
 {length} Up to {length} number of bytes read.
 
-Returns the read string or FALSE on failure.
+Returns the read string or &false; on failure.
 
 A simple |fread| example
 

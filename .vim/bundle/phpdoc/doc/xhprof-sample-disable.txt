@@ -1,11 +1,8 @@
 xhprof_sample_disable -- Stops xhprof sample profiler
 
-  NULL xhprof_sample_disable()~
+  array xhprof_sample_disable()~
 
 Stops the sample mode xhprof profiler, and
-
-This function is currently not documented; only its argument list is
-available.
 
 This function has no parameters.
 

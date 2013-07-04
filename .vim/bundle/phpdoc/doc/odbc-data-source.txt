@@ -12,6 +12,6 @@ details.
 SQL_FETCH_FIRST, SQL_FETCH_NEXT. Use SQL_FETCH_FIRST the first time this
 function is called, thereafter use the SQL_FETCH_NEXT.
 
-Returns FALSE on error, and an array upon success.
+Returns &false; on error, and an array upon success.
 
 vim:ft=help:

@@ -29,7 +29,7 @@ This function is only available if pxlib >= 0.6.0 is used.
 {data} Associated or indexed array containing the field values as e.g.
 returned by |px_retrieve_record|.
 
-Returns FALSE on failure or the record number in case of success.
+Returns &false; on failure or the record number in case of success.
 
 Set the date/time fields in a paradox database to the current date/time
 

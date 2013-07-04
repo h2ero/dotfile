@@ -12,7 +12,7 @@ The link to the server will be closed as soon as the execution of the script
 ends, unless it's closed earlier by explicitly calling |ifx_close|.
 
 All of the arguments are optional, and if they're missing, defaults are taken
-from values supplied in php.ini (ifx.default_host for the host (Informix
+from values supplied in &php.ini; (ifx.default_host for the host (Informix
 libraries will use INFORMIXSERVER environment value if not defined),
 ifx.default_user for user, ifx.default_password for the password (none if not
 defined).
@@ -23,7 +23,7 @@ defined).
 
 {password} The password, as a string.
 
-Returns a connection identifier on success, or FALSE on error.
+Returns a connection identifier on success, or &false; on error.
 
 Connect to a Informix database
 

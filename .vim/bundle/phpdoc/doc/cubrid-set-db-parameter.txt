@@ -16,9 +16,9 @@ specified, the last link opened by |cubrid_connect| is assumed.
 
 {param_value} Isolation level value (1-6) or lock timeout (in seconds) value.
 
-TRUE on success.
+&true; on success.
 
-FALSE on failure.
+&false; on failure.
 
 |cubrid_get_db_parameter| example
 

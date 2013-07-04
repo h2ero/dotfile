@@ -21,10 +21,10 @@ taken as a file name. If this is not an option, then you must use another
 mechanism to store the string, such as executing the query directly with
 |odbc_exec|).
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |odbc_execute| and |odbc_prepare| example In the following code, $success will
-only be TRUE if all three parameters to myproc are IN parameters:
+only be &true; if all three parameters to myproc are IN parameters:
 
 <?php >
   $a = 1;

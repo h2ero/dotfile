@@ -11,7 +11,7 @@ representing the 0-indexed position of the column, or a string containing the
 name of the column.
 
 Returns a string containing the name of the specified column. If the specified
-column does not exist in the result set, |db2_field_name| returns FALSE.
+column does not exist in the result set, |db2_field_name| returns &false;.
 
 |db2_field_display_size| |db2_field_num| |db2_field_precision|
 |db2_field_scale| |db2_field_type| |db2_field_width|

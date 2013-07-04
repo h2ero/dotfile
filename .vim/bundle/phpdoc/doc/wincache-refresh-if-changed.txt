@@ -10,7 +10,7 @@ the cache.
 {files} An array of file names for files that need to be refreshed. An
 absolute or relative file paths can be used.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 WinCache performs regular checks on the cached files to ensure that if any
 file has changed then the corresponding entry in the cache is updated. By

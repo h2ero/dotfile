@@ -6,7 +6,7 @@ lzf_compress -- LZF compression
 
 {data} The string to compress.
 
-Returns the compressed data or FALSE if an error occurred.
+Returns the compressed data or &false; if an error occurred.
 
 |lzf_decompress|
 

@@ -10,7 +10,7 @@ Allocates resources to hold descriptor or LOB locator.
 {type} Valid values for {type} are: OCI_DTYPE_FILE, OCI_DTYPE_LOB and
 OCI_DTYPE_ROWID.
 
-Returns a new LOB or FILE descriptor on success, FALSE on error.
+Returns a new LOB or FILE descriptor on success, &false; on error.
 
 |oci_new_descriptor| example
 
@@ -75,7 +75,7 @@ Returns a new LOB or FILE descriptor on success, FALSE on error.
        }else{
           echo "Couldn't upload Blob\n";
        }
-       oci_free_descriptor($lob);
+       $lob->free();
        oci_free_statement($stmt);
        oci_close($conn);
     }

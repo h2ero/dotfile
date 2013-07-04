@@ -7,6 +7,6 @@ The function deletes the device context. For an example see
 
 {printer_handle} {printer_handle} must be a valid printer handle.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 vim:ft=help:

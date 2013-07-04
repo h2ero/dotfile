@@ -10,6 +10,6 @@ call to |msql_query|.
 { field_offset}The numerical field offset. The {field_offset} starts at 1.
 
 The type of the field. One of int, char, real, ident, null or unknown. This
-functions will return FALSE on failure.
+functions will return &false; on failure.
 
 vim:ft=help:

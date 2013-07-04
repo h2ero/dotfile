@@ -40,6 +40,6 @@ documents.
 
 UDM_FIELD_CRC - document CRC.
 
-|udm_get_res_field| returns result field value on success, FALSE on error.
+|udm_get_res_field| returns result field value on success, &false; on error.
 
 vim:ft=help:

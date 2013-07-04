@@ -23,7 +23,7 @@ CL_EXPUNGE - Expunge mailbox automatically upon mailbox close (see also
 
 {n_retries} Number of maximum connect attempts
 
-Returns TRUE if the stream is reopened, FALSE otherwise.
+Returns &true; if the stream is reopened, &false; otherwise.
 
 Version Description 5.2.0 {n_retries} added
 

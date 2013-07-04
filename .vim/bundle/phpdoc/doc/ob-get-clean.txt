@@ -7,7 +7,7 @@ Gets the current buffer contents and delete current output buffer.
 |ob_get_clean| essentially executes both |ob_get_contents| and |ob_end_clean|.
 
 Returns the contents of the output buffer and end output buffering. If output
-buffering isn't active then FALSE is returned.
+buffering isn't active then &false; is returned.
 
 A simple |ob_get_clean| example
 

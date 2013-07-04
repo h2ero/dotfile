@@ -10,7 +10,7 @@ Logs in to the given FTP stream.
 
 {password} The password (PASS).
 
-Returns TRUE on success or &false; on failure. If login fails, PHP will also
+Returns &true; on success or &false; on failure. If login fails, PHP will also
 throw a warning.
 
 |ftp_login| example

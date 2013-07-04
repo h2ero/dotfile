@@ -14,7 +14,7 @@ access to a database file.
 as parameter. Make sure the database is writable if you plan to update or
 insert records.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |fopen| The example at |px_new|
 

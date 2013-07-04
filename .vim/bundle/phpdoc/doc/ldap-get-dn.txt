@@ -8,6 +8,6 @@ Finds out the DN of an entry in the result.
 
 {result_entry_identifier}
 
-Returns the DN of the result entry and FALSE on error.
+Returns the DN of the result entry and &false; on error.
 
 vim:ft=help:

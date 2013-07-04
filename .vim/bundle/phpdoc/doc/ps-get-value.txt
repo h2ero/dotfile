@@ -77,7 +77,7 @@ subminor, revision The subminor version number of pslib.
 {modifier} The parameter {modifier} specifies the resource for which the value
 is to be retrieved. This can be the id of a font or an image.
 
-Returns the value of the parameter or FALSE.
+Returns the value of the parameter or &false;.
 
 |ps_set_value|
 

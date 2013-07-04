@@ -11,7 +11,7 @@ The next call to |fbsql_fetch_row| would return that row.
 
 {row_number} The row number. Starts at 0.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |fbsql_data_seek| example
 

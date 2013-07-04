@@ -15,7 +15,7 @@ This function used to be called |pg_loread|.
 
 {len} An optional maximum number of bytes to return.
 
-A string containing {len} bytes from the large object, or FALSE on error.
+A string containing {len} bytes from the large object, or &false; on error.
 
 |pg_lo_read| example
 

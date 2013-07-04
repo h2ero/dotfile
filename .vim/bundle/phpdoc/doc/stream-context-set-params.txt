@@ -11,6 +11,6 @@ Sets parameters on the specified context.
 {params} should be an associative array of the structure: $params['paramname']
 = "paramvalue";.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 vim:ft=help:

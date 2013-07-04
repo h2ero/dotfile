@@ -9,7 +9,7 @@ The location of files to be saved specified with |pspell_config_personal| and
 {dictionary_link} A dictionary link identifier opened with
 |pspell_new_personal|.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |pspell_add_to_personal|
 

@@ -18,7 +18,7 @@ follows:
 
 {hostname} The hostname or IP address whose region is to be looked-up.
 
-Returns the associative array on success, or FALSE if the address cannot be
+Returns the associative array on success, or &false; if the address cannot be
 found in the database.
 
 A |geoip_region_by_name| example This will print the array containing the

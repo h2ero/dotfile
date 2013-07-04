@@ -8,6 +8,6 @@ file.
 
 Array of options for the export, see rrd xport man page.
 
-Array with information about RRD database file, FALSE when error occurs.
+Array with information about RRD database file, &false; when error occurs.
 
 vim:ft=help:

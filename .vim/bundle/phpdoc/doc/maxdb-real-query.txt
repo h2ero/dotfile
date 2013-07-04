@@ -13,7 +13,7 @@ The |maxdb_real_query| is functionally identical with the |maxdb_query|.
 In order to determine if a given query should return a result set or not, see
 |maxdb_field_count|.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |maxdb_query| |maxdb_store_result| |maxdb_use_result|
 

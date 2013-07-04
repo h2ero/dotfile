@@ -9,9 +9,9 @@ options for the session are set.
 
 {ch} A cURL handle returned by |curl_init|.
 
-Returns TRUE on success or &false; on failure. However, if the
+Returns &true; on success or &false; on failure. However, if the
 CURLOPT_RETURNTRANSFER option is set, it will return the result on success,
-FALSE on failure.
+&false; on failure.
 
 Fetching a web page
 

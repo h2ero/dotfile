@@ -1,8 +1,8 @@
-XMLWriter::startDTD -- Create start DTD tag
+xmlwriter_start_dtd -- Create start DTD tag
 
 Object oriented style
 
-  bool startDTD(string qualifiedName [, string publicId [, string systemId]])~
+  bool XMLWriter::startDTD(string qualifiedName [, string publicId [, string systemId]])~
 
 Procedural style
 
@@ -20,7 +20,7 @@ modified. This resource comes from a call to |xmlwriter_open_uri| or
 
 {systemId} The external subset system identifier.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 XMLWriter::endDTD XMLWriter::writeDTD
 

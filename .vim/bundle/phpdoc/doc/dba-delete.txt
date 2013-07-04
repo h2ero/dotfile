@@ -8,7 +8,7 @@ dba_delete -- Delete DBA entry specified by key
 
 {handle} The database handler, returned by |dba_open| or |dba_popen|.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |dba_exists| |dba_fetch| |dba_insert| |dba_replace|
 

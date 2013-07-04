@@ -39,7 +39,7 @@ libgeoip 1.4.3 or newer)
 
 {hostname} The hostname or IP address whose record is to be looked-up.
 
-Returns the associative array on success, or FALSE if the address cannot be
+Returns the associative array on success, or &false; if the address cannot be
 found in the database.
 
 Version Description 1.0.4 Adding the continent_code with GeoIP Library 1.4.3

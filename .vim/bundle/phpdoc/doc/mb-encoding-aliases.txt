@@ -6,7 +6,7 @@ Returns an array of aliases for a known {encoding} type.
 
 The encoding type being checked, for aliases.
 
-Returns a numerically indexed array of encoding aliases on success, or FALSE
+Returns a numerically indexed array of encoding aliases on success, or &false;
 on failure
 
 Emits an E_WARNING level error if {encoding} is unknown.

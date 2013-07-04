@@ -14,7 +14,7 @@ by the {offset} in the result set represented by {result}. The {offset}
 parameter must be between zero and the total number of rows minus one
 (0..|maxdb_num_rows| - 1).
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Object oriented style
 

@@ -9,7 +9,7 @@ UPDATE|DELETE ... WHERE CURRENT OF {name} statements.
 
 {name} The name to be assigned.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |ibase_name_result| example
 

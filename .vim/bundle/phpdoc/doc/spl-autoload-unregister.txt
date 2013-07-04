@@ -12,6 +12,6 @@ __autoload function that previously existed will not be reactivated.
 
 {autoload_function} The autoload function being unregistered.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 vim:ft=help:

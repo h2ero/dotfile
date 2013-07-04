@@ -20,7 +20,7 @@ details.
 
 {fk_table} The foreign key table.
 
-Returns an ODBC result identifier or FALSE on failure.
+Returns an ODBC result identifier or &false; on failure.
 
 The result set has the following columns: PKTABLE_QUALIFIER
 

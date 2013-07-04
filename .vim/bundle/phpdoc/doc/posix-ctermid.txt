@@ -7,8 +7,8 @@ for the process. On error this will set errno, which can be checked using
 |posix_get_last_error|
 
 Upon successful completion, returns string of the pathname to the current
-controlling terminal. Otherwise FALSE is returned and errno is set, which can
-be checked with |posix_get_last_error|.
+controlling terminal. Otherwise &false; is returned and errno is set, which
+can be checked with |posix_get_last_error|.
 
 |posix_ctermid| example This example will display the path to the current TTY.
 

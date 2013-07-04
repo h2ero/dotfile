@@ -7,7 +7,7 @@ Cloudscape, or Apache Derby database.
 
 For more information on persistent connections, refer to .
 
-Calling |db2_close| on a persistent connection always returns TRUE, but the
+Calling |db2_close| on a persistent connection always returns &true;, but the
 underlying DB2 client connection remains open and waiting to serve the next
 matching |db2_pconnect| request.
 

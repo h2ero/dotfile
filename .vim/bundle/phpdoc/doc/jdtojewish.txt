@@ -6,8 +6,8 @@ Converts a Julian Day Count to the Jewish Calendar.
 
 {julianday} A julian day number as integer
 
-{hebrew} If the {hebrew} parameter is set to TRUE, the {fl} parameter is used
-for Hebrew, string based, output format.
+{hebrew} If the {hebrew} parameter is set to &true;, the {fl} parameter is
+used for Hebrew, string based, output format.
 
 {fl} The available formats are: CAL_JEWISH_ADD_ALAFIM_GERESH,
 CAL_JEWISH_ADD_ALAFIM, CAL_JEWISH_ADD_GERESHAYIM.

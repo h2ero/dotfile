@@ -7,7 +7,7 @@ destroyed.
 
 {shm_identifier} The shared memory identifier as returned by |shm_attach|
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |shm_remove_var|
 

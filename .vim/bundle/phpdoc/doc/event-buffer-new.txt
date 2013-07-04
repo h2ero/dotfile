@@ -19,7 +19,7 @@ be NULL.
 
 {arg} An argument that will be passed to each of the callbacks (optional).
 
-|event_buffer_new| returns new buffered event resource on success or FALSE on
-error.
+|event_buffer_new| returns new buffered event resource on success or &false;
+on error.
 
 vim:ft=help:

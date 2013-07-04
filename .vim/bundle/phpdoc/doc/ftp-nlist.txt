@@ -9,8 +9,8 @@ arguments, eg. ftp_nlist($conn_id, "-la /your/dir"); Note that this parameter
 isn't escaped so there may be some issues with filenames containing spaces and
 other characters.
 
-Returns an array of filenames from the specified directory on success or FALSE
-on error.
+Returns an array of filenames from the specified directory on success or
+&false; on error.
 
 |ftp_nlist| example
 

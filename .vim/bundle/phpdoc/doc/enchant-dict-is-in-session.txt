@@ -9,7 +9,7 @@ Tells whether or not a word already exists in the current session.
 
 {word} The word to lookup
 
-Returns TRUE if the word exists or FALSE
+Returns &true; if the word exists or &false;
 
 |enchant_dict_add_to_session|
 

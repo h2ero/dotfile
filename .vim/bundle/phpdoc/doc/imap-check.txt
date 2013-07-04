@@ -17,7 +17,7 @@ Nmsgs - number of messages in the mailbox
 
 Recent - number of recent messages in the mailbox
 
-Returns FALSE on failure.
+Returns &false; on failure.
 
 |imap_check| example
 

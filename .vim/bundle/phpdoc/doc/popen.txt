@@ -15,7 +15,7 @@ When the mode is 'r', the returned file pointer equals to the STDOUT of the
 command, when the mode is 'w', the returned file pointer equals to the STDIN
 of the command.
 
-If an error occurs, returns FALSE.
+If an error occurs, returns &false;.
 
 |popen| example
 

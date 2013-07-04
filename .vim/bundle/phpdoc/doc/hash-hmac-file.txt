@@ -12,7 +12,7 @@ wrappers.
 {key} Shared secret key used for generating the HMAC variant of the message
 digest.
 
-{raw_output} When set to TRUE, outputs raw binary data. FALSE outputs
+{raw_output} When set to &true;, outputs raw binary data. &false; outputs
 lowercase hexits.
 
 Returns a string containing the calculated message digest as lowercase hexits

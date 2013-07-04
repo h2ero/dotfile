@@ -12,7 +12,7 @@ protocol.
 
 {local_file} Path to the local file.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Downloading a file via SCP
 

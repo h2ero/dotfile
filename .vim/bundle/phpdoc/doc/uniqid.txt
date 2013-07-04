@@ -9,11 +9,11 @@ simultaneously on several hosts that might happen to generate the identifier
 at the same microsecond.
 
 With an empty {prefix}, the returned string will be 13 characters long. If
-{more_entropy} is TRUE, it will be 23 characters.
+{more_entropy} is &true;, it will be 23 characters.
 
-{more_entropy} If set to TRUE, |uniqid| will add additional entropy (using the
-combined linear congruential generator) at the end of the return value, which
-should make the results more unique.
+{more_entropy} If set to &true;, |uniqid| will add additional entropy (using
+the combined linear congruential generator) at the end of the return value,
+which increases the likelihood that the result will be unique.
 
 Returns the unique identifier, as a string.
 
@@ -45,7 +45,12 @@ Returns the unique identifier, as a string.
 Version Description 5.0.0 The {prefix} parameter was made optional. 4.3.1 The
 limit of 114 characters long for {prefix} was raised.
 
-Under Cygwin, the {more_entropy} must be set to TRUE for this function to
+This function does not generate cryptographically secure tokens, in fact
+without being passed any additional parameters the return value is little
+different from |microtime|. If you need to generate cryptographically secure
+tokens use |openssl_random_pseudo_bytes|.
+
+Under Cygwin, the {more_entropy} must be set to &true; for this function to
 work.
 
 vim:ft=help:

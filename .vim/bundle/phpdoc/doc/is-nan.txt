@@ -6,7 +6,7 @@ Checks whether {val} is 'not a number', like the result of acos(1.01).
 
 {val} The value to check
 
-Returns TRUE if {val} is 'not a number', else FALSE.
+Returns &true; if {val} is 'not a number', else &false;.
 
 |is_nan| example
 

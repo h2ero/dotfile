@@ -7,8 +7,8 @@ intl_is_failure -- Check whether the given error code indicates failure
 {error_code} is a value that returned by functions: |intl_get_error_code|,
 |collator_get_error_code| .
 
-TRUE if it the code indicates some failure, and FALSE in case of success or a
-warning.
+&true; if it the code indicates some failure, and &false; in case of success
+or a warning.
 
 |intl_is_failure| example
 

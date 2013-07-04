@@ -9,7 +9,7 @@ function is available.
 
 {rownumber} Optionally choose which row number to retrieve.
 
-Returns an object that corresponds to the fetched row, or FALSE if there are
+Returns an object that corresponds to the fetched row, or &false; if there are
 no more rows.
 
 Version Description 4.3.3 This function exists when compiled with IBM DB2 or

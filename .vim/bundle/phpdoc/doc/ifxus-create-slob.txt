@@ -7,7 +7,7 @@ Creates an slob object and opens it.
 {mode} A combination of IFX_LO_RDONLY, IFX_LO_WRONLY, IFX_LO_APPEND
 IFX_LO_RDWR, IFX_LO_BUFFER, IFX_LO_NOBUFFER.
 
-Return the new slob object-id, or FALSE on errors.
+Return the new slob object-id, or &false; on errors.
 
 |ifxus_close_slob| |ifxus_free_slob|
 

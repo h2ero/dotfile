@@ -5,7 +5,7 @@ value
 
 |db2_conn_errormsg| returns an error message and SQLCODE value representing
 the reason the last database connection attempt failed. As |db2_connect|
-returns FALSE in the event of a failed connection attempt, do not pass any
+returns &false; in the event of a failed connection attempt, do not pass any
 parameters to |db2_conn_errormsg| to retrieve the associated error message and
 SQLCODE value.
 

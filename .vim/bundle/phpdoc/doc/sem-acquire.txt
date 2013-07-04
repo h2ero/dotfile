@@ -14,7 +14,7 @@ generated.
 {sem_identifier} {sem_identifier} is a semaphore resource, obtained from
 |sem_get|.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |sem_get| |sem_release|
 

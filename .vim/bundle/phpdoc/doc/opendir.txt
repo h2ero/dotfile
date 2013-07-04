@@ -10,10 +10,10 @@ and |rewinddir| calls.
 {context} For a description of the {context} parameter, refer to the streams
 section of the manual.
 
-Returns a directory handle resource on success, or FALSE on failure.
+Returns a directory handle resource on success, or &false; on failure.
 
 If {path} is not a valid directory or the directory can not be opened due to
-permission restrictions or filesystem errors, |opendir| returns FALSE and
+permission restrictions or filesystem errors, |opendir| returns &false; and
 generates a PHP error of level E_WARNING. You can suppress the error output of
 |opendir| by prepending '@' to the front of the function name.
 
@@ -47,6 +47,6 @@ The above example will output something similar to:
 
 
 
-|is_dir| |readdir| Dir
+|is_dir| |readdir| |dir|
 
 vim:ft=help:

@@ -8,8 +8,8 @@ Sends a SITE EXEC {command} request to the FTP server.
 
 {command} The command to execute.
 
-Returns TRUE if the command was successful (server sent response code: 200);
-otherwise returns FALSE.
+Returns &true; if the command was successful (server sent response code: 200);
+otherwise returns &false;.
 
 |ftp_exec| example
 

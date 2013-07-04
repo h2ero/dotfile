@@ -21,9 +21,9 @@ from 0 upwards.
 
 Boolean is returned as "t" or "f". All other types, including arrays are
 returned as strings formatted in the same default PostgreSQL manner that you
-would see in the psql program. Database NULL values are returned as NULL.
+would see in the psql program. Database NULL values are returned as &null;.
 
-FALSE is returned if {row} exceeds the number of rows in the set, or on any
+&false; is returned if {row} exceeds the number of rows in the set, or on any
 other error.
 
 |pg_fetch_result| example

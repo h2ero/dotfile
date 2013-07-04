@@ -7,7 +7,7 @@ available.
 
 Returns client Zval cache statistics. Available only with mysqlnd.
 
-Returns an array with client Zval cache stats if success, FALSE otherwise.
+Returns an array with client Zval cache stats if success, &false; otherwise.
 
 A |mysqli_get_cache_stats| example
 

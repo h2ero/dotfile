@@ -6,7 +6,8 @@ error information as needed
 |libxml_use_internal_errors| allows you to disable standard libxml errors and
 enable user error handling.
 
-{use_errors} Whether to enable user error handling.
+{use_errors} Enable (&true;) user error handling or disable (&false;) user
+error handling. Disabling will also clear any existing libxml errors.
 
 This function returns the previous value of {use_errors}.
 

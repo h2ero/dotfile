@@ -21,7 +21,7 @@ connection made by |pg_connect| or |pg_pconnect|.
 {mode} Can be either "r" for read-only, "w" for write only or "rw" for read
 and write.
 
-A large object resource or FALSE on error.
+A large object resource or &false; on error.
 
 |pg_lo_open| example
 

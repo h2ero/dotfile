@@ -13,7 +13,7 @@ when the converter cannot convert a character. For a list of available modes,
 refer to |unicode_set_error_mode|. If the parameter is not set, the global
 error mode is used.
 
-A unicode string or FALSE on failure.
+A unicode string or &false; on failure.
 
 Emits a E_WARNING level error if a converter cannot be created for the desired
 {encoding}.

@@ -11,7 +11,7 @@ then column is NUMBER. Else it's NUMBER(precision, scale).
 
 {field} Can be the field's index (1-based) or name.
 
-Returns the scale as an integer, or FALSE on errors.
+Returns the scale as an integer, or &false; on errors.
 
 In PHP versions before 5.0.0 you must use |ocicolumnscale| instead. This name
 still can be used, it was left as alias of |oci_field_scale| for downwards

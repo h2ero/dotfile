@@ -12,6 +12,6 @@ strings naming the variables or another array, etc.
 
 {...}
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 vim:ft=help:

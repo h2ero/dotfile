@@ -10,7 +10,7 @@ Escape the given string so that it can safely be used in an sql-statement.
 {text} The string to escape.
 
 Returns the text, escaped where necessary (such as quotes, backslashes etc).
-On error, NULL is returned.
+On error, &null; is returned.
 
 |dbx_escape_string| example
 

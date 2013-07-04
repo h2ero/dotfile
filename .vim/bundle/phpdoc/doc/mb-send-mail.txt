@@ -21,7 +21,7 @@ are separated with a newline ("\n").
 {additional_parameter} {additional_parameter} is a MTA command line parameter.
 It is useful when setting the correct Return-Path header when using sendmail.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Version Description 5.0.0 The Content-Type and Content-Transfer-Encoding
 headers may be redefined as of PHP 5.0.0. Before this time, the values defined

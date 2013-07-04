@@ -40,14 +40,14 @@ index modes.
 
 Oracle's default, non-case sensitive column names will have uppercase array
 keys. Case-sensitive column names will have array keys using the exact column
-case. Use |var_dump| on {output}to verify the appropriate case to use for each
-query.
+case. Use |var_dump| on {output} to verify the appropriate case to use for
+each query.
 
 Queries that have more than one column with the same name should use column
 aliases. Otherwise only one of the columns will appear in an associative
 array.
 
-Returns the number of rows in {output}, which may be 0 or more, or FALSE on
+Returns the number of rows in {output}, which may be 0 or more, or &false; on
 failure.
 
 |oci_fetch_all| example
@@ -91,7 +91,7 @@ failure.
   foreach ($res as $col) {
       echo "<tr>\n";
       foreach ($col as $item) {
-          echo "    <td>".($item !== null ? htmlentities($item, ENT_QUOTES) : "&amp;nbsp;")."</td>\n";
+          echo "    <td>".($item !== null ? htmlentities($item, ENT_QUOTES) : "")."</td>\n";
       }
       echo "</tr>\n";
   }

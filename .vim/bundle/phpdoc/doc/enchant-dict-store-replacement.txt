@@ -12,6 +12,6 @@ replaced with @cor. So it might bump @cor up in the suggestion list.
 
 {cor} The correct word
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 vim:ft=help:

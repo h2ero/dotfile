@@ -15,7 +15,7 @@ given file pointer.
 
 {resumepos} The position in the remote file to start downloading from.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |ftp_fget| example
 

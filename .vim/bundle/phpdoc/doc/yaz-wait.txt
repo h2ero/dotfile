@@ -15,7 +15,7 @@ a server has not responded within the timeout it is considered dead and
 
 event A boolean.
 
-Returns TRUE on success or &false; on failure. In event mode, returns resource
-or FALSE on failure.
+Returns &true; on success or &false; on failure. In event mode, returns
+resource or &false; on failure.
 
 vim:ft=help:

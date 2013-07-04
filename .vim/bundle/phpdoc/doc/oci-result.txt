@@ -13,7 +13,7 @@ datatypes supported by the driver
 uppercase).
 
 Returns everything as strings except for abstract types (ROWIDs, LOBs and
-FILEs). Returns FALSE on error.
+FILEs). Returns &false; on error.
 
 In PHP versions before 5.0.0 you must use |ociresult| instead. This name still
 can be used, it was left as alias of |oci_result| for downwards compatability.

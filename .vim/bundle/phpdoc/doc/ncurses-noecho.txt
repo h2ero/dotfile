@@ -8,7 +8,7 @@ PHP. This function should be used at your own risk.
 
 Prevents echoing of user typed characters.
 
-Returns TRUE if any error occurred, FALSE otherwise.
+Returns &true; if any error occurred, &false; otherwise.
 
 |ncurses_echo| |ncurses_getch|
 

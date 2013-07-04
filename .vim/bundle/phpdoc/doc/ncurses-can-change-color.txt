@@ -9,7 +9,8 @@ initialized using |ncurses_init| before calling this function.
 
 This function has no parameters.
 
-Return TRUE if the programmer can change color definitions, FALSE otherwise.
+Return &true; if the programmer can change color definitions, &false;
+otherwise.
 
 |ncurses_has_colors| |ncurses_init_color| |ncurses_start_color|
 

@@ -11,7 +11,7 @@ definition string values.
 
 {value} The value of the parameter.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |ps_get_parameters| |ps_set_value|
 

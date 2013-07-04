@@ -18,7 +18,8 @@ with the same name.
 
 {handle} The database handler, returned by |dba_open| or |dba_popen|.
 
-Returns the associated string if the key/data pair is found, FALSE otherwise.
+Returns the associated string if the key/data pair is found, &false;
+otherwise.
 
 Version Description 4.3.0 The {skip} parameter is available to support cdb's
 capability of multiple keys having the same name.

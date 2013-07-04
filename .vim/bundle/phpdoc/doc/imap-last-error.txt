@@ -8,7 +8,7 @@ page. The error stack is untouched; calling |imap_last_error| subsequently,
 with no intervening errors, will return the same error.
 
 Returns the full text of the last IMAP error message that occurred on the
-current page. Returns FALSE if no error messages are available.
+current page. Returns &false; if no error messages are available.
 
 |imap_errors|
 

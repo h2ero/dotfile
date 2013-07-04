@@ -7,8 +7,8 @@ visible output.
 
 {text} The tested string.
 
-Returns TRUE if every character in {text} is printable and actually creates
-visible output (no white space), FALSE otherwise.
+Returns &true; if every character in {text} is printable and actually creates
+visible output (no white space), &false; otherwise.
 
 A |ctype_graph| example
 
@@ -30,6 +30,11 @@ The above example will output:
   The string 'string3' consists of all (visibly) printable characters.
 
 
+
+If an integer between -128 and 255 inclusive is provided, it is interpreted as
+the ASCII value of a single character (negative values have 256 added in order
+to allow characters in the Extended ASCII range). Any other integer is
+interpreted as a string containing the decimal digits of the integer.
 
 |ctype_alnum| |ctype_print| |ctype_punct|
 

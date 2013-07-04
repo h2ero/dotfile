@@ -149,7 +149,7 @@ of mnoGoSearch installation is used. Can have only string values.
 
 Version Description 4.1.0 UDM_PARAM_VARDIR was added.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Crosswords are supported only in mnoGoSearch 3.1.11 or later.
 

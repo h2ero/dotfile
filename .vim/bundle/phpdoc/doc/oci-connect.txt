@@ -67,7 +67,7 @@ OCI_CRED_EXT may be combined with the OCI_SYSOPER or OCI_SYSDBA modes.
 
 OCI_CRED_EXT is not supported on Windows for security reasons.
 
-Returns a connection identifier or FALSE on error.
+Returns a connection identifier or &false; on error.
 
 Basic |oci_connect| using Easy Connect syntax
 

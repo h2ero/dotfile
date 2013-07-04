@@ -6,7 +6,7 @@ An Open AL(Buffer) resource (previously created by |openal_buffer_create|).
 
 Specific property, one of: AL_FREQUENCY, AL_BITS, AL_CHANNELS and AL_SIZE.
 
-Returns an integer value appropriate to the {property} requested or FALSE on
+Returns an integer value appropriate to the {property} requested or &false; on
 failure.
 
 |openal_buffer_create|

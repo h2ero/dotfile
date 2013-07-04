@@ -7,7 +7,7 @@ This function will discard a BLOB if it has not yet been closed by
 
 {blob_handle} A BLOB handle opened with |ibase_blob_create|.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |ibase_blob_close| |ibase_blob_create| |ibase_blob_import|
 

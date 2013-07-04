@@ -22,7 +22,7 @@ will be copied onto the x,y coordinates, {dst_x} and {dst_y}.
 
 {src_h} Source height.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Cropping the PHP.net logo
 

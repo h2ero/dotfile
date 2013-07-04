@@ -10,7 +10,7 @@ This function is similar to using |rmdir| with the ssh2.sftp:// wrapper.
 
 {dirname}
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Removing a directory on a remote server
 

@@ -13,7 +13,7 @@ Relative paths will be resolved as if the current working directory was the
 one that contains the PHP binary. To use the calling script"s working
 directory, use |realpath| or dirname(__FILE__).
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 This function is EXPERIMENTAL. The behaviour of this function, its name, and
 surrounding documentation may change without notice in a future release of

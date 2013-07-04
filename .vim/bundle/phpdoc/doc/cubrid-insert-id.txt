@@ -1,4 +1,4 @@
-cubrid_insert_id -- Return the ID generated for the lastest updated
+cubrid_insert_id -- Return the ID generated for the last updated
 AUTO_INCREMENT column
 
   string cubrid_insert_id([resource conn_identifier])~
@@ -21,7 +21,7 @@ previous query, on success.
 
 0, if the previous query does not generate new rows.
 
-FALSE on failure.
+&false; on failure.
 
 Version Description 8.4.0 Change the return value from an array to string;
 Remove the first parameter class_name.

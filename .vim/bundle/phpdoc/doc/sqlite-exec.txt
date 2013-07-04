@@ -1,4 +1,4 @@
-SQLiteDatabase->exec -- Executes a result-less query against a given database
+SQLiteDatabase::exec -- Executes a result-less query against a given database
 
   bool sqlite_exec(resource dbhandle, string query [, string error_msg])~
 
@@ -6,7 +6,7 @@ SQLiteDatabase->exec -- Executes a result-less query against a given database
 
 Object oriented style (method):
 
-  bool queryExec(resource dbhandle, string query [, string error_msg, string query, resource dbhandle, string query [, string error_msg]])~
+  bool SQLiteDatabase::queryExec(resource dbhandle, string query [, string error_msg, string query, resource dbhandle, string query [, string error_msg]])~
 
 Executes an SQL statement given by the {query} against a given database handle
 (specified by the {dbhandle} parameter).
@@ -31,7 +31,7 @@ Two alternative syntaxes are supported for compatibility with other database
 extensions (such as MySQL). The preferred form is the first, where the
 {dbhandle} parameter is the first parameter to the function.
 
-This function will return a boolean result; TRUE for success or FALSE for
+This function will return a boolean result; &true; for success or &false; for
 failure. If you need to run a query that returns rows, see |sqlite_query|.
 
 The column names returned by SQLITE_ASSOC and SQLITE_BOTH will be case-folded

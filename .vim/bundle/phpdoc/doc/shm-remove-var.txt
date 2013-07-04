@@ -8,7 +8,7 @@ Removes a variable with a given {variable_key} and frees the occupied memory.
 
 {variable_key} The variable key.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |shm_remove|
 

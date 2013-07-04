@@ -6,6 +6,6 @@ This function closes the resource opened by |bbcode_create|.
 
 {bbcode_container} BBCode_Container resource returned by |bbcode_create|.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 vim:ft=help:

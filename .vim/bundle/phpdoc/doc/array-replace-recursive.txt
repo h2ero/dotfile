@@ -25,7 +25,7 @@ recursively.
 
 {...} Optional. More arrays from which elements will be extracted.
 
-Returns an array, or NULL if an error occurs.
+Returns an array, or &null; if an error occurs.
 
 |array_replace_recursive| example
 
@@ -101,6 +101,6 @@ The above example will output:
 
 
 
-|array_replace|
+|array_replace| |array_merge_recursive|
 
 vim:ft=help:

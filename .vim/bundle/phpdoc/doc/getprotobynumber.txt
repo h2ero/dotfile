@@ -7,7 +7,7 @@ as per /etc/protocols.
 
 {number} The protocol number.
 
-Returns the protocol name as a string, or FALSE on failure.
+Returns the protocol name as a string, or &false; on failure.
 
 |getprotobyname|
 

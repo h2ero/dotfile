@@ -12,7 +12,7 @@ Object-level deletions are done by the |ldap_delete| function.
 
 {entry}
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |ldap_mod_add| |ldap_mod_replace|
 

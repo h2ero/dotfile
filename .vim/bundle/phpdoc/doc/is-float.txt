@@ -9,7 +9,7 @@ which is always a string), you must use |is_numeric|.
 
 {var} The variable being evaluated.
 
-Returns TRUE if {var} is a float, FALSE otherwise.
+Returns &true; if {var} is a float, &false; otherwise.
 
 |is_float| example
 

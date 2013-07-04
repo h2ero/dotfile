@@ -32,22 +32,4 @@ form, like for example 0644
 Note: the 3rd and 4th should be entered as 0 if you are opening an existing
 memory segment.
 
-On success |shmop_open| will return an id that you can use to access the
-shared memory segment you've created. FALSE is returned on failure.
-
-Create a new shared memory block
-
-<?php >
-  $shm_key = ftok(__FILE__, 't');
-  $shm_id = shmop_open($shm_key, "c", 0644, 100);
-?>
-
-
-
-
-
-This example opened a shared memory block with a system id returned by |ftok|.
-
-|shmop_close| |shmop_delete|
-
 vim:ft=help:

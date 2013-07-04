@@ -1,4 +1,9 @@
-mysql_db_query -- Send a MySQL query
+mysql_db_query -- Selects a database and executes a query on it
+
+This extension is deprecated as of PHP 5.5.0, and will be removed in the
+future. Instead, the MySQLi or PDO_MySQL extension should be used. See also
+MySQL: choosing an API guide and related FAQ for more information.
+Alternatives to this function include:
 
   resource mysql_db_query(string database, string query [, resource link_identifier])~
 
@@ -19,9 +24,9 @@ is found, it will try to create one as if |mysql_connect| was called with no
 arguments. If no connection is found or established, an E_WARNING level error
 is generated.
 
-Returns a positive MySQL result resource to the query result, or FALSE on
-error. The function also returns TRUE/FALSE for INSERT/UPDATE/DELETE queries
-to indicate success/failure.
+Returns a positive MySQL result resource to the query result, or &false; on
+error. The function also returns &true;/&false; for INSERT/UPDATE/DELETE
+queries to indicate success/failure.
 
 Version Description 5.3.0 This function now throws an E_DEPRECATED notice.
 4.0.6 This function is deprecated, do not use this function. Use

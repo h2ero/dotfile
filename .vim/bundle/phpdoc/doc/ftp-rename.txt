@@ -10,7 +10,7 @@ ftp_rename -- Renames a file or a directory on the FTP server
 
 {newname} The new name.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |ftp_rename| example
 

@@ -30,7 +30,7 @@ minor version, and rrrr is the release. The DB2 client always returns
 
 {connection} Specifies an active DB2 client connection.
 
-Returns an object on a successful call. Returns FALSE on failure.
+Returns an object on a successful call. Returns &false; on failure.
 
 A |db2_client_info| example To retrieve information about the client, you must
 pass a valid database connection resource to |db2_client_info|.

@@ -1,12 +1,12 @@
-gupnp_service_action_return -- Return succesfully
+gupnp_service_action_return -- Return successfully
 
   bool gupnp_service_action_return(resource action)~
 
-Return succesfully.
+Return successfully.
 
 {action} A service action identifier.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |gupnp_service_action_return_error|
 

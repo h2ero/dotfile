@@ -11,7 +11,7 @@ Object oriented style
 The |maxdb_multi_query| works like the function |maxdb_query|. Multiple
 queries are not yet supported.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Object oriented style
 

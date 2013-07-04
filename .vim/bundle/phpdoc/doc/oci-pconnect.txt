@@ -61,7 +61,7 @@ OCI_CRED_EXT may be combined with the OCI_SYSOPER or OCI_SYSDBA modes.
 
 OCI_CRED_EXT is not supported on Windows for security reasons.
 
-Returns a connection identifier or FALSE on error.
+Returns a connection identifier or &false; on error.
 
 Starting with PHP 5.1.2 and PECL oci8 1.1, the lifetime and maximum number of
 persistent Oracle connections can be tuned by setting the following

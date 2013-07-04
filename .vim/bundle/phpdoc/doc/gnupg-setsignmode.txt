@@ -12,7 +12,7 @@ Sets the mode for signing.
 produced. The possible values are GNUPG_SIG_MODE_NORMAL, GNUPG_SIG_MODE_DETACH
 and GNUPG_SIG_MODE_CLEAR. By default GNUPG_SIG_MODE_CLEAR is used.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Procedural |gnupg_setsignmode| example
 

@@ -9,7 +9,7 @@ Toggle the armored output.
 {armor} Pass a non-zero integer-value to this function to enable
 armored-output (default). Pass 0 to disable armored output.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Procedural |gnupg_setarmor| example
 

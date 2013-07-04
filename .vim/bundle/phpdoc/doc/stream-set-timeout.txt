@@ -6,7 +6,8 @@ Sets the timeout value on {stream}, expressed in the sum of {seconds} and
 {microseconds}.
 
 When the stream times out, the 'timed_out' key of the array returned by
-|stream_get_meta_data| is set to TRUE, although no error/warning is generated.
+|stream_get_meta_data| is set to &true;, although no error/warning is
+generated.
 
 {stream} The target stream.
 
@@ -14,7 +15,7 @@ When the stream times out, the 'timed_out' key of the array returned by
 
 {microseconds} The microseconds part of the timeout to be set.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Version Description 4.3.0 As of PHP 4.3, this function can (potentially) work
 on any kind of stream. In PHP 4.3, socket based streams are still the only

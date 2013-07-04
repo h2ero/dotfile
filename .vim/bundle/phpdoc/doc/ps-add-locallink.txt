@@ -29,7 +29,7 @@ Ghostview.
 {dest} The parameter {dest} determines how the document is being viewed. It
 can be fitpage, fitwidth, fitheight, or fitbbox.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |ps_add_launchlink| |ps_add_pdflink| |ps_add_weblink|
 

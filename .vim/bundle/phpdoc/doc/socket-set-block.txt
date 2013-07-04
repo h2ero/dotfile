@@ -12,7 +12,7 @@ signal or it can perform the operation.
 {socket} A valid socket resource created with |socket_create| or
 |socket_accept|.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |socket_set_block| example
 

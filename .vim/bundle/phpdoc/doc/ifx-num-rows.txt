@@ -8,7 +8,7 @@ Gives the number of rows fetched so far for a query with {result_id} after a
 {result_id} {result_id} is a valid resultid returned by |ifx_query| or
 |ifx_prepare| (select type queries only!).
 
-Returns the number of fetched rows or FALSE on errors.
+Returns the number of fetched rows or &false; on errors.
 
 |ifx_num_fields|
 

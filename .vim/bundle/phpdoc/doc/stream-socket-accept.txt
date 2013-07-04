@@ -15,7 +15,7 @@ included and available from the selected transport.
 
 Can also be determined later using |stream_socket_get_name|.
 
-Returns a stream to the accepted socket connection or FALSE on failure.
+Returns a stream to the accepted socket connection or &false; on failure.
 
 This function should not be used with UDP server sockets. Instead, use
 |stream_socket_recvfrom| and |stream_socket_sendto|.

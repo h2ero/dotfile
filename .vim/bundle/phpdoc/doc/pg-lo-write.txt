@@ -18,7 +18,7 @@ is less than the length of {data}, only {len} bytes will be written.
 {len} An optional maximum number of bytes to write. Must be greater than zero
 and no greater than the length of {data}. Defaults to the length of {data}.
 
-The number of bytes written to the large object, or FALSE on error.
+The number of bytes written to the large object, or &false; on error.
 
 |pg_lo_write| example
 

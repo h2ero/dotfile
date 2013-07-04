@@ -18,7 +18,7 @@ data.
 {padding} {padding} can be one of OPENSSL_PKCS1_PADDING,
 OPENSSL_SSLV23_PADDING, OPENSSL_PKCS1_OAEP_PADDING, OPENSSL_NO_PADDING.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |openssl_public_encrypt| |openssl_public_decrypt|
 

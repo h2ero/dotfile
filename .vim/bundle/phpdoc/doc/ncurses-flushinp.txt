@@ -9,6 +9,6 @@ PHP. This function should be used at your own risk.
 Throws away any typeahead that has been typed and has not yet been read by
 your program.
 
-Returns FALSE on success, otherwise TRUE.
+Returns &false; on success, otherwise &true;.
 
 vim:ft=help:

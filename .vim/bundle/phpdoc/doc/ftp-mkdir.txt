@@ -8,7 +8,7 @@ Creates the specified {directory} on the FTP server.
 
 {directory} The name of the directory that will be created.
 
-Returns the newly created directory name on success or FALSE on error.
+Returns the newly created directory name on success or &false; on error.
 
 |ftp_mkdir| example
 

@@ -22,7 +22,7 @@ in string only matches slash in the given pattern. FNM_PERIOD Leading period
 in string must be exactly matched by period in the given pattern. FNM_CASEFOLD
 Caseless match. Part of the GNU extension.
 
-Returns TRUE if there is a match, FALSE otherwise.
+Returns &true; if there is a match, &false; otherwise.
 
 Version Description 5.3.0 This function is now available on Windows platforms.
 
@@ -38,7 +38,8 @@ Checking a color name against a shell wildcard pattern
 
 
 
-For now this function is not available on non-POSIX compliant systems.
+For now, this function is not available on non-POSIX compliant systems except
+Windows.
 
 |glob| |preg_match| |sscanf| |printf| |sprintf|
 

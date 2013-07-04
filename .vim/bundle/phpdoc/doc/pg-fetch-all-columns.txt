@@ -6,7 +6,7 @@ array
 |pg_fetch_all_columns| returns an array that contains all rows (records) in a
 particular column of the result resource.
 
-This function sets NULL fields to the PHP NULL value.
+This function sets NULL fields to the PHP &null; value.
 
 {result} PostgreSQL query result resource, returned by |pg_query|,
 |pg_query_params| or |pg_execute| (among others).
@@ -16,7 +16,7 @@ Defaults to the first column if not specified.
 
 An array with all values in the result column.
 
-FALSE is returned if {column} is larger than the number of columns in the
+&false; is returned if {column} is larger than the number of columns in the
 result, or on any other error.
 
 |pg_fetch_all_columns| example
@@ -24,13 +24,13 @@ result, or on any other error.
 <?php >
   $conn = pg_pconnect("dbname=publisher");
   if (!$conn) {
-    echo "An error occured.\n";
+    echo "An error occurred.\n";
     exit;
   }
   
   $result = pg_query($conn, "SELECT title, name, address FROM authors");
   if (!$result) {
-    echo "An error occured.\n";
+    echo "An error occurred.\n";
     exit;
   }
   

@@ -6,7 +6,7 @@ ob_implicit_flush -- Turn implicit flush on/off
 will result in a flush operation after every output call, so that explicit
 calls to |flush| will no longer be needed.
 
-{flag} TRUE to turn implicit flushing on, FALSE otherwise.
+{flag} &true; to turn implicit flushing on, &false; otherwise.
 
 No value is returned.
 

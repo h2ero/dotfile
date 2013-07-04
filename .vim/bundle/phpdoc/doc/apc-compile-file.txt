@@ -8,6 +8,6 @@ Stores a file in the bytecode cache, bypassing all filters.
 {filename} Full or relative path to a PHP file that will be compiled and
 stored in the bytecode cache.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 vim:ft=help:

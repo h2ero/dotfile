@@ -15,7 +15,7 @@ and the {arg} is second.
 
 {arg} User data for {callback}.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Issues E_WARNING either with not valid callback function or with not valid
 signal.

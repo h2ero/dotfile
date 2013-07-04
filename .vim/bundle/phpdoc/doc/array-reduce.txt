@@ -1,7 +1,7 @@
 array_reduce -- Iteratively reduce the array to a single value using a
 callback function
 
-  mixed array_reduce(array input, callback function [, mixed initial])~
+  mixed array_reduce(array input, callable function [, mixed initial])~
 
 |array_reduce| applies iteratively the {function} function to the elements of
 the array {input}, so as to reduce the array to a single value.
@@ -10,13 +10,15 @@ the array {input}, so as to reduce the array to a single value.
 
 {function} The callback function.
 
+  mixed (array input, callable function [, mixed initial, mixed result, mixed item])~
+
 {initial} If the optional {initial} is available, it will be used at the
 beginning of the process, or as a final result in case the array is empty.
 
 Returns the resulting value.
 
 If the array is empty and {initial} is not passed, |array_reduce| returns
-NULL.
+&null;.
 
 Version Description 5.3.0 Changed {initial} to allow mixed, previously
 integer.

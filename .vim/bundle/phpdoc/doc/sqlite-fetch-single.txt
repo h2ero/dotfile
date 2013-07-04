@@ -1,13 +1,13 @@
-SQLiteUnbuffered->fetchSingle -- Fetches the first column of a result set as a
+SQLiteUnbuffered::fetchSingle -- Fetches the first column of a result set as a
 string
 
   string sqlite_fetch_single(resource result [, bool decode_binary])~
 
 Object oriented style (method):
 
-  string fetchSingle(resource result [, bool decode_binary [, bool decode_binary]])~
+  string SQLiteResult::fetchSingle(resource result [, bool decode_binary [, bool decode_binary]])~
 
-  string fetchSingle(resource result [, bool decode_binary [, bool decode_binary [, bool decode_binary]]])~
+  string SQLiteUnbuffered::fetchSingle(resource result [, bool decode_binary [, bool decode_binary [, bool decode_binary]]])~
 
 |sqlite_fetch_single| is identical to |sqlite_fetch_array| except that it
 returns the value of the first column of the rowset.
@@ -18,7 +18,7 @@ the values from a single column of data.
 {result} The SQLite result resource. This parameter is not required when using
 the object-oriented method.
 
-{decode_binary} When the {decode_binary} parameter is set to TRUE (the
+{decode_binary} When the {decode_binary} parameter is set to &true; (the
 default), PHP will decode the binary encoding it applied to the data if it was
 encoded using the |sqlite_escape_string|. You should normally leave this value
 at its default, unless you are interoperating with databases created by other

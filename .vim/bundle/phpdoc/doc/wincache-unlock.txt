@@ -14,7 +14,7 @@ functions.
 
 {key} Name of the key in the cache to release the lock on.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Using |wincache_unlock|
 

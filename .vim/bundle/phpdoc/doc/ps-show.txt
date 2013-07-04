@@ -32,7 +32,7 @@ turned off by default.
 
 {text} The text to be output.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |ps_continue_text| |ps_show_xy| |ps_setfont|
 

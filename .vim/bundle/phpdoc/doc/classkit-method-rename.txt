@@ -15,7 +15,7 @@ PHP. This function should be used at your own risk.
 
 {newname} The new name to give to the renamed method
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |classkit_method_rename| example
 

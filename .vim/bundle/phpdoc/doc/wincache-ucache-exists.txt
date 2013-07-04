@@ -7,7 +7,7 @@ Checks if a variable with the {key} exists in the user cache or not.
 {key} The {key} that was used to store the variable in the cache. {key} is
 case sensitive.
 
-Returns TRUE if variable with the {key} exitsts, otherwise returns FALSE.
+Returns &true; if variable with the {key} exitsts, otherwise returns &false;.
 
 Using |wincache_ucache_exists|
 

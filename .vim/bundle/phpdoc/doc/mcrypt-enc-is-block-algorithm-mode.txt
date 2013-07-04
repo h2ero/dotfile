@@ -3,12 +3,12 @@ opened mode works on blocks
 
   bool mcrypt_enc_is_block_algorithm_mode(resource td)~
 
-Tells whether the algorithm of the opened mode works on blocks (e.g. FALSE for
-stream, and TRUE for cbc, cfb, ofb)..
+Tells whether the algorithm of the opened mode works on blocks (e.g. &false;
+for stream, and &true; for cbc, cfb, ofb)..
 
 {td} The encryption descriptor.
 
-Returns TRUE if the mode is for use with block algorithms, otherwise it
-returns FALSE.
+Returns &true; if the mode is for use with block algorithms, otherwise it
+returns &false;.
 
 vim:ft=help:

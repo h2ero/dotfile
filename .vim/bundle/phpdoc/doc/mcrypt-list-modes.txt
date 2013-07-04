@@ -5,7 +5,7 @@ mcrypt_list_modes -- Gets an array of all supported modes
 Gets the list of all supported modes in the {lib_dir} parameter.
 
 {lib_dir} Specifies the directory where all modes are located. If not
-specified, the value of the mcrypt.modes_dir php.ini directive is used.
+specified, the value of the mcrypt.modes_dir &php.ini; directive is used.
 
 Returns an array with all the supported modes.
 
@@ -20,7 +20,7 @@ Returns an array with all the supported modes.
 ?>
 
 The example above will produce a list with all supported algorithms in the
-default mode directory. If it is not set with the mcrypt.modes_dir php.ini
+default mode directory. If it is not set with the mcrypt.modes_dir &php.ini;
 directive, the default directory of mcrypt is used (which is
 /usr/local/lib/libmcrypt).
 

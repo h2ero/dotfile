@@ -22,14 +22,14 @@ SQLBIT, SQLFLT4, SQLFLT8, SQLFLTN.
 parameter and you don't mention it, it will be treated as a normal input
 parameter and no error will be thrown.
 
-{is_null} Whether the parameter is NULL or not. Passing the NULL value as
+{is_null} Whether the parameter is &null; or not. Passing the &null; value as
 {var} will not do the job.
 
 {maxlen} Used with char/varchar values. You have to indicate the length of the
 data so if the parameter is a varchar(50), the type must be SQLVARCHAR and
 this value 50.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |mssql_bind| example
 

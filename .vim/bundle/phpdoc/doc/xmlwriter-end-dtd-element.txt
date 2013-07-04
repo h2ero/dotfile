@@ -1,8 +1,8 @@
-XMLWriter::endDTDElement -- End current DTD element
+xmlwriter_end_dtd_element -- End current DTD element
 
 Object oriented style
 
-  bool endDTDElement()~
+  bool XMLWriter::endDTDElement()~
 
 Procedural style
 
@@ -14,7 +14,7 @@ Ends the current DTD element.
 modified. This resource comes from a call to |xmlwriter_open_uri| or
 |xmlwriter_open_memory|.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 XMLWriter::startDTDElement XMLWriter::writeDTDElement
 

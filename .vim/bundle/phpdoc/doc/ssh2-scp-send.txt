@@ -15,7 +15,7 @@ protocol.
 {create_mode} The file will be created with the mode specified by
 {create_mode}.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Uploading a file via SCP
 

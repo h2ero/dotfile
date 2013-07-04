@@ -11,7 +11,7 @@ This function works also with class constants.
 
 {name} The constant name.
 
-Returns the value of the constant, or NULL if the constant is not defined.
+Returns the value of the constant, or &null; if the constant is not defined.
 
 An E_WARNING level error is generated if the constant is not defined.
 

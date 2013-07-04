@@ -10,7 +10,7 @@ spell checker.
 
 {n} Words less than {n} characters will be skipped.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |pspell_config_ignore|
 

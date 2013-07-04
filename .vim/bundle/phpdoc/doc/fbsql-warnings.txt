@@ -6,7 +6,7 @@ Enables or disables FrontBase warnings.
 
 {OnOff} Whether to enable warnings or no.
 
-Returns TRUE if warnings is turned on, FALSE otherwise.
+Returns &true; if warnings is turned on, &false; otherwise.
 
 |fbsql_errno| |fbsql_error|
 

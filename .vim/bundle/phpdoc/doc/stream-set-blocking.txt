@@ -15,7 +15,7 @@ and if 1, it will be switched to blocking mode. This affects calls like
 call will always return right away while in blocking mode it will wait for
 data to become available on the stream.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Version Description 4.3.0 Prior to PHP 4.3.0, this function only worked on
 socket based streams.

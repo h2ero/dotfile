@@ -9,8 +9,8 @@ pg_dbname -- Get the database name
 present, the default connection is used. The default connection is the last
 connection made by |pg_connect| or |pg_pconnect|.
 
-A string containing the name of the database the {connection} is to, or FALSE
-on error.
+A string containing the name of the database the {connection} is to, or
+&false; on error.
 
 |pg_dbname| example
 

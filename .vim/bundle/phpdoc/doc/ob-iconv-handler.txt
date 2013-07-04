@@ -4,7 +4,7 @@ ob_iconv_handler -- Convert character encoding as output buffer handler
 
 Converts the string encoded in {internal_encoding} to {output_encoding}.
 
-{internal_encoding} and {output_encoding} should be defined in the php.ini
+{internal_encoding} and {output_encoding} should be defined in the &php.ini;
 file or in |iconv_set_encoding|.
 
 See |ob_start| for information about this handler parameters.

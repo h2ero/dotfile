@@ -8,7 +8,7 @@ connections.
 {databases} The array {databases} must contain one database URL per element,
 analog to the first parameter of |udm_alloc_agent|.
 
-Returns a resource link identifier on success or FALSE on failure.
+Returns a resource link identifier on success or &false; on failure.
 
 |udm_alloc_agent|
 

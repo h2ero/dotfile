@@ -28,6 +28,6 @@ component.
 The second parameter is currently not always evaluated. The color is sometimes
 set for filling and drawing just as if fillstroke were passed.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 vim:ft=help:

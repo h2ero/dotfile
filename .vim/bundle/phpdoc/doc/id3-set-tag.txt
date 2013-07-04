@@ -23,7 +23,7 @@ integer between 0 and 255 v1.1
 {version} Allows you to specify the version of the tag as MP3 files may
 contain both, version 1.x and version 2.x tags
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |id3_set_tag| example
 
@@ -35,17 +35,17 @@ Returns TRUE on success or &false; on failure.
                );
   $result = id3_set_tag( "path/to/example.mp3", $data, ID3_V1_0 );
   if ($result === true) {
-      echo "Tag succesfully updated\n";
+      echo "Tag successfully updated\n";
   }
 ?>
 
 If the file is writable, this will output:
 
-  Tag succesfully updated
+  Tag successfully updated
 
 
 
-Currently |id3_remove_tag| only supports version 1.0 and 1.1.
+Currently |id3_set_tag| only supports version 1.0 and 1.1.
 
 |id3_remove_tag| |id3_get_tag| |id3_get_version|
 

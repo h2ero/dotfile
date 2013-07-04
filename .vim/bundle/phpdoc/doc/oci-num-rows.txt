@@ -6,7 +6,7 @@ Gets the number of rows affected during statement execution.
 
 {statement} A valid OCI statement identifier.
 
-Returns the number of rows affected as an integer, or FALSE on errors.
+Returns the number of rows affected as an integer, or &false; on errors.
 
 |oci_num_rows| example
 

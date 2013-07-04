@@ -10,8 +10,8 @@ a large amount of cURL options without repetitively calling |curl_setopt|.
 {options} An array specifying which options to set and their values. The keys
 should be valid |curl_setopt| constants or their integer equivalents.
 
-Returns TRUE if all options were successfully set. If an option could not be
-successfully set, FALSE is immediately returned, ignoring any future options
+Returns &true; if all options were successfully set. If an option could not be
+successfully set, &false; is immediately returned, ignoring any future options
 in the {options} array.
 
 Initializing a new cURL session and fetching a web page

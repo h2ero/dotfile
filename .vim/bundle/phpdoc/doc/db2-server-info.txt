@@ -35,13 +35,13 @@ INST_NAME string The instance on the database server that contains the
 database. ISOLATION_OPTION array An array of the isolation options supported
 by the database server. The isolation options are described in the
 DFT_ISOLATION property. KEYWORDS array An array of the keywords reserved by
-the database server. LIKE_ESCAPE_CLAUSE bool TRUE if the database server
-supports the use of % and _ wildcard characters. FALSE if the database server
-does not support these wildcard characters. MAX_COL_NAME_LEN int Maximum
-length of a column name supported by the database server, expressed in bytes.
-MAX_IDENTIFIER_LEN int Maximum length of an SQL identifier supported by the
-database server, expressed in characters. MAX_INDEX_SIZE int Maximum size of
-columns combined in an index supported by the database server, expressed in
+the database server. LIKE_ESCAPE_CLAUSE bool &true; if the database server
+supports the use of % and _ wildcard characters. &false; if the database
+server does not support these wildcard characters. MAX_COL_NAME_LEN int
+Maximum length of a column name supported by the database server, expressed in
+bytes. MAX_IDENTIFIER_LEN int Maximum length of an SQL identifier supported by
+the database server, expressed in characters. MAX_INDEX_SIZE int Maximum size
+of columns combined in an index supported by the database server, expressed in
 bytes. MAX_PROC_NAME_LEN int Maximum length of a procedure name supported by
 the database server, expressed in bytes. MAX_ROW_SIZE int Maximum length of a
 row in a base table supported by the database server, expressed in bytes.
@@ -49,12 +49,12 @@ MAX_SCHEMA_NAME_LEN int Maximum length of a schema name supported by the
 database server, expressed in bytes. MAX_STATEMENT_LEN int Maximum length of
 an SQL statement supported by the database server, expressed in bytes.
 MAX_TABLE_NAME_LEN int Maximum length of a table name supported by the
-database server, expressed in bytes. NON_NULLABLE_COLUMNS bool TRUE if the
-database server supports columns that can be defined as NOT NULL, FALSE if the
-database server does not support columns defined as NOT NULL. PROCEDURES bool
-TRUE if the database server supports the use of the CALL statement to call
-stored procedures, FALSE if the database server does not support the CALL
-statement. SPECIAL_CHARS string A string containing all of the characters
+database server, expressed in bytes. NON_NULLABLE_COLUMNS bool &true; if the
+database server supports columns that can be defined as NOT NULL, &false; if
+the database server does not support columns defined as NOT NULL. PROCEDURES
+bool &true; if the database server supports the use of the CALL statement to
+call stored procedures, &false; if the database server does not support the
+CALL statement. SPECIAL_CHARS string A string containing all of the characters
 other than a-Z, 0-9, and underscore that can be used in an identifier name.
 SQL_CONFORMANCE string The level of conformance to the ANSI/ISO SQL-92
 specification offered by the database server: ENTRY Entry-level SQL-92
@@ -68,7 +68,7 @@ INTERMEDIATE Intermediate level SQL-92 compliance.
 
 {connection} Specifies an active DB2 client connection.
 
-Returns an object on a successful call. Returns FALSE on failure.
+Returns an object on a successful call. Returns &false; on failure.
 
 A |db2_server_info| example To retrieve information about the server, you must
 pass a valid database connection resource to |db2_server_info|.

@@ -13,15 +13,14 @@ same kind of query several times with only some parameters changing.
 
 {...}
 
-If the query raises an error, returns FALSE. If it is successful and there is
-a (possibly empty) result set (such as with a SELECT query), returns a result
-identifier. If the query was successful and there were no results, returns
-TRUE.
+If the query raises an error, returns &false;. If it is successful and there
+is a (possibly empty) result set (such as with a SELECT query), returns a
+result identifier. If the query was successful and there were no results,
+returns &true;.
 
-In PHP 5.0.0 and up, this function returns the number of rows affected by the
-query (if > 0 and applicable to the statement type). A query that succeeded,
-but did not affect any rows (e.g. an UPDATE of a non-existent record) will
-return TRUE.
+This function returns the number of rows affected by the query (if > 0 and
+applicable to the statement type). A query that succeeded, but did not affect
+any rows (e.g. an UPDATE of a non-existent record) will return &true;.
 
 |ibase_execute| example
 

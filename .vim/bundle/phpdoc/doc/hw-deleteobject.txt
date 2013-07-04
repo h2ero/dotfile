@@ -9,7 +9,7 @@ delete all instances of the object.
 
 {object_to_delete} The object identifier.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |hw_mv|
 

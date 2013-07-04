@@ -7,9 +7,9 @@ values for use in an SQL statement. Precondition for |pg_convert| is the
 existence of a table {table_name} which has at least as many columns as
 {assoc_array} has elements. The fieldnames in {table_name} must match the
 indices in {assoc_array} and the corresponding datatypes must be compatible.
-Returns an array with the converted values on success, FALSE otherwise.
+Returns an array with the converted values on success, &false; otherwise.
 
-If there are boolean fields in {table_name} don't use the constant TRUE in
+If there are boolean fields in {table_name} don't use the constant &true; in
 {assoc_array}. It will be converted to the string 'TRUE' which is no valid
 entry for boolean fields in PostgreSQL. Use one of t, true, 1, y, yes instead.
 
@@ -26,7 +26,7 @@ PHP. This function should be used at your own risk.
 {options} Any number of PGSQL_CONV_IGNORE_DEFAULT, PGSQL_CONV_FORCE_NULL or
 PGSQL_CONV_IGNORE_NOT_NULL, combined.
 
-An array of converted values, or FALSE on error.
+An array of converted values, or &false; on error.
 
 |pg_convert| example
 

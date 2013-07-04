@@ -1,8 +1,8 @@
-XMLWriter::writeAttributeNS -- Write full namespaced attribute
+xmlwriter_write_attribute_ns -- Write full namespaced attribute
 
 Object oriented style
 
-  bool writeAttributeNS(string prefix, string name, string uri, string content)~
+  bool XMLWriter::writeAttributeNS(string prefix, string name, string uri, string content)~
 
 Procedural style
 
@@ -22,7 +22,7 @@ modified. This resource comes from a call to |xmlwriter_open_uri| or
 
 {content} The attribute value.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 XMLWriter::writeAttribute XMLWriter::startAttribute
 XMLWriter::startAttributeNS XMLWriter::endAttribute

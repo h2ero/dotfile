@@ -7,11 +7,11 @@ the colors defined in the built-in syntax highlighter for PHP.
 
 {str} The PHP code to be highlighted. This should include the opening tag.
 
-{return} Set this parameter to TRUE to make this function return the
+{return} Set this parameter to &true; to make this function return the
 highlighted code.
 
-If {return} is set to TRUE, returns the highlighted code as a string instead
-of printing it out. Otherwise, it will return TRUE on success, FALSE on
+If {return} is set to &true;, returns the highlighted code as a string instead
+of printing it out. Otherwise, it will return &true; on success, &false; on
 failure.
 
 Version Description 4.2.0 The {return} parameter was added.
@@ -38,9 +38,9 @@ The above example will output (in PHP 5):
 
 
 
-This function uses internal output buffering with this parameter so it can not
-be used inside an |ob_start| callback function.
+When the {return} parameter is used, this function uses internal output
+buffering so it cannot be used inside an |ob_start| callback function.
 
-|highlight_file|
+|highlight_file| Highlighting INI directives
 
 vim:ft=help:

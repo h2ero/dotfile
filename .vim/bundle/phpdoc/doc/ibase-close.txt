@@ -9,7 +9,7 @@ other transactions are rolled back.
 {connection_id} An InterBase link identifier returned from |ibase_connect|. If
 omitted, the last opened link is assumed.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |ibase_connect| |ibase_pconnect|
 

@@ -19,7 +19,7 @@ connection made by |pg_connect| or |pg_pconnect|.
 {pathname} The full path and file name of the file in which to write the large
 object on the client filesystem.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |pg_lo_export| example
 

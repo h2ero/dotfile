@@ -13,7 +13,7 @@ automatically closed at the end of the script's execution.
 {link_identifier} The link identifier. If not specified, the last opened link
 is assumed.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Closing a Informix connection
 

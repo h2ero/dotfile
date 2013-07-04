@@ -8,7 +8,7 @@ dba_exists -- Check whether key exists
 
 {handle} The database handler, returned by |dba_open| or |dba_popen|.
 
-Returns TRUE if the key exists, FALSE otherwise.
+Returns &true; if the key exists, &false; otherwise.
 
 |dba_delete| |dba_fetch| |dba_insert| |dba_replace|
 

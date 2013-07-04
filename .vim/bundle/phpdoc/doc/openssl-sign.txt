@@ -15,7 +15,7 @@ hashing followed by encryption using the private key associated with
 
 {signature_alg} For more information see the list of Signature Algorithms.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Version Description 5.0.0 The {signature_alg} parameter was added.
 

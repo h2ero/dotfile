@@ -9,6 +9,6 @@ Retrieves the output column specified by {field}.
 
 {field} Either as a string with the field name or as an 1-based index.
 
-Returns the column as a string, FALSE on failure.
+Returns the column as a string, &false; on failure.
 
 vim:ft=help:

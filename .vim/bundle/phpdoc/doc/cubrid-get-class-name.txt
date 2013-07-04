@@ -10,12 +10,12 @@ The |cubrid_get_class_name| function is used to get the class name from {oid}.
 
 Class name when process is successful.
 
-FALSE, when process is unsuccessful.
+&false;, when process is unsuccessful.
 
 |cubrid_get_class_name| example
 
 <?php >
-  $conn = cubrid_connect("localhost", 33088, "demodb");
+  $conn = cubrid_connect("localhost", 33000, "demodb");
   
   $req = cubrid_execute($conn, "SELECT * FROM code", CUBRID_INCLUDE_OID);
   $oid = cubrid_current_oid($req);

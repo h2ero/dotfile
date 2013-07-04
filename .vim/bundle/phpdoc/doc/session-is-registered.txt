@@ -5,13 +5,12 @@ session
 
 Finds out whether a global variable is registered in a session.
 
-This function has been DEPRECATED as of PHP 5.3.0. Relying on this feature is
-highly discouraged.
+This function has been DEPRECATED as of PHP 5.3.0 and REMOVED as of PHP 5.4.0.
 
 {name} The variable name.
 
-|session_is_registered| returns TRUE if there is a global variable with the
-name {name} registered in the current session, FALSE otherwise.
+|session_is_registered| returns &true; if there is a global variable with the
+name {name} registered in the current session, &false; otherwise.
 
 If $_SESSION (or $HTTP_SESSION_VARS for PHP 4.0.6 or less) is used, use
 |isset| to check a variable is registered in $_SESSION.

@@ -4,7 +4,7 @@ maxdb_report -- Enables or disables internal report functions
 
 {flags} One of the MAXDB_REPORT_XXX constants.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Procedural style
 

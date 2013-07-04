@@ -8,7 +8,7 @@ Removes the {principal} from the Kerberos database.
 
 {principal} The removed principal.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |kadm5_delete_principal| example
 

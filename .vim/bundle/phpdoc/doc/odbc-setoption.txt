@@ -28,7 +28,7 @@ SQLSetConnectOption() and 2 for SQLSetStmtOption().
 
 {param} The value for the given {option}.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |odbc_setoption| examples
 

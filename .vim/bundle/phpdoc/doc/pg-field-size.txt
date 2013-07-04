@@ -13,7 +13,7 @@ This function used to be called |pg_fieldsize|.
 {field_number} Field number, starting from 0.
 
 The internal field storage size (in bytes). -1 indicates a variable length
-field. FALSE is returned on error.
+field. &false; is returned on error.
 
 Getting information about fields
 

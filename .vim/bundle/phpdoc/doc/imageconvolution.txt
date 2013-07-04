@@ -15,7 +15,7 @@ such as |imagecreatetruecolor|.
 
 {offset} Color offset.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Embossing the PHP.net logo
 

@@ -1,6 +1,6 @@
 forward_static_call -- Call a static method
 
-  mixed forward_static_call(callback function [, mixed parameter [, mixed ...]])~
+  mixed forward_static_call(callable function [, mixed parameter [, mixed ...]])~
 
 Calls a user defined function or method given by the {function} parameter,
 with the following arguments. This function must be called within a method
@@ -12,7 +12,7 @@ function name.
 
 {parameter} Zero or more parameters to be passed to the function.
 
-Returns the function result, or FALSE on error.
+Returns the function result, or &false; on error.
 
 |forward_static_call| example
 

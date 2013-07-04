@@ -7,7 +7,7 @@ by the {length} parameter.
 
 It also indicates if a cryptographically strong algorithm was used to produce
 the pseudo-random bytes, and does this via the optional {crypto_strong}
-parameter. It's rare for this to be FALSE, but some systems may be broken or
+parameter. It's rare for this to be &false;, but some systems may be broken or
 old.
 
 {length} The length of the desired string of bytes. Must be a positive
@@ -15,9 +15,9 @@ integer. PHP will try to cast this parameter to a non-null integer to use it.
 
 {crypto_strong} If passed into the function, this will hold a boolean value
 that determines if the algorithm used was "cryptographically strong", e.g.,
-safe for usage with GPG, passwords, etc. TRUE if it did, otherwise FALSE
+safe for usage with GPG, passwords, etc. &true; if it did, otherwise &false;
 
-Returns the generated string of bytes on success, or FALSE on failure.
+Returns the generated &string; of bytes on success, or &false; on failure.
 
 |openssl_random_pseudo_bytes| example
 

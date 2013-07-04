@@ -7,6 +7,6 @@ Deletes all the messages marked for deletion by |imap_delete|,
 
 { imap_stream}An IMAP stream returned by |imap_open|.
 
-Returns TRUE.
+Returns &true;.
 
 vim:ft=help:

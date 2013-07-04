@@ -7,7 +7,7 @@ have to call |fclose| afterwards.
 
 {pxdoc} Resource identifier of the paradox database as returned by |px_new|.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |px_open_fp| The example at |px_new|
 

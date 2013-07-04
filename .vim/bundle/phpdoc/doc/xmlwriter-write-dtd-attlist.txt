@@ -1,8 +1,8 @@
-XMLWriter::writeDTDAttlist -- Write full DTD AttList tag
+xmlwriter_write_dtd_attlist -- Write full DTD AttList tag
 
 Object oriented style
 
-  bool writeDTDAttlist(string name, string content)~
+  bool XMLWriter::writeDTDAttlist(string name, string content)~
 
 Procedural style
 
@@ -18,7 +18,7 @@ modified. This resource comes from a call to |xmlwriter_open_uri| or
 
 {content} The content of the DTD attribute list.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 XMLWriter::startDTDAttlist XMLWriter::endDTDAttlist
 

@@ -15,9 +15,9 @@ element in a sequent type attribute using OID.
 
 {seq_element} New content that you want to use for the update.
 
-TRUE, when process is successful.
+&true;, when process is successful.
 
-FALSE, when process is unsuccessful.
+&false;, when process is unsuccessful.
 
 |cubrid_seq_put| example
 

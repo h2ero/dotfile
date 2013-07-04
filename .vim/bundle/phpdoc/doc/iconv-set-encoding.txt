@@ -5,12 +5,12 @@ iconv_set_encoding -- Set current setting for character encoding conversion
 Changes the value of the internal configuration variable specified by {type}
 to {charset}.
 
-{type} The value of {type} can be any one of those: input_encoding
+{type} The value of {type} can be any one of these: input_encoding
 output_encoding internal_encoding
 
 {charset} The character set.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |iconv_set_encoding| example
 

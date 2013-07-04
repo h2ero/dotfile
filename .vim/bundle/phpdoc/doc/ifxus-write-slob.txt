@@ -8,7 +8,7 @@ Writes a string into the slob object.
 
 {content} The content to write, as a string.
 
-Returns the bytes written as an integer, or FALSE on errors.
+Returns the bytes written as an integer, or &false; on errors.
 
 |ifxus_read_slob|
 

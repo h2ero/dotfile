@@ -9,7 +9,7 @@ instance)
 
 {client_area} Include the client area of the application window.
 
-Returns an image resource identifier on success, FALSE on failure.
+Returns an image resource identifier on success, &false; on failure.
 
 E_NOTICE is issued if {window_handle} is invalid window handle. E_WARNING is
 issued if the Windows API is too old.

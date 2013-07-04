@@ -19,7 +19,7 @@ the domain itself.
 
 {field_number} Field number, starting from 0.
 
-The OID of the field's base type. FALSE is returned on error.
+The OID of the field's base type. &false; is returned on error.
 
 Getting information about fields
 

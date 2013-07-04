@@ -18,7 +18,7 @@ the cache in one operation, thus avoiding race condition.
 
 {value} Value of a variable to store. {Value} supports all data types except
 resources, such as file handles. This paramter is ignored if first argument is
-an array. A general guidance is to pass NULL as {value} while using array as
+an array. A general guidance is to pass &null; as {value} while using array as
 {key}. If {value} is an object, or an array containing objects, then the
 objects will be serialized. See __sleep() for details on serializing objects.
 
@@ -30,13 +30,14 @@ cache. This parameter takes a default value of 0 which means the variable will
 stay in the cache unless explicitly deleted by using |wincache_ucache_delete|
 or |wincache_ucache_clear| functions.
 
-If {key} is string, the function returns TRUE on success and FALSE on failure.
+If {key} is string, the function returns &true; on success and &false; on
+failure.
 
 If {key} is an array, the function returns: If all the name => value pairs in
 the array can be set, function returns an empty array;
 
 If all the name => value pairs in the array cannot be set, function returns
-FALSE;
+&false;;
 
 If some can be set while others cannot, function returns an array with
 name=>value pair for which the addition failed in the user cache.

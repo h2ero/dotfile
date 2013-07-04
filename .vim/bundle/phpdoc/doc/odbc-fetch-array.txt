@@ -9,8 +9,8 @@ when this function is available.
 
 {rownumber} Optionally choose which row number to retrieve.
 
-Returns an array that corresponds to the fetched row, or FALSE if there are no
-more rows.
+Returns an array that corresponds to the fetched row, or &false; if there are
+no more rows.
 
 Version Description 4.3.3 This function exists when compiled with IBM DB2 or
 UnixODBC support. 4.3.2 This function exists when compiled for Windows. 4.0.2

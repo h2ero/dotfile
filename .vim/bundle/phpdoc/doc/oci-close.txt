@@ -12,7 +12,7 @@ makes database resources available for other users.
 {connection} An Oracle connection identifier returned by |oci_connect|,
 |oci_pconnect|, or |oci_new_connect|.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Closing a connection Resources associated with a connection should be closed
 to ensure the underlying database connection is properly terminated and the

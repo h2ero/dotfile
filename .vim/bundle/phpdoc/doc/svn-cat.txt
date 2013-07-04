@@ -11,7 +11,7 @@ optionally at revision number {revision_no}.
 revision.
 
 Returns the string contents of the item from the repository on success, and
-FALSE on failure.
+&false; on failure.
 
 This function is EXPERIMENTAL. The behaviour of this function, its name, and
 surrounding documentation may change without notice in a future release of

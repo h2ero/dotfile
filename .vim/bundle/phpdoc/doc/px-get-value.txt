@@ -10,6 +10,6 @@ Gets various values.
 keys. Paradox databases always use the first numprimkeys fields for the
 primary index.
 
-Returns the value of the parameter or FALSE on failure.
+Returns the value of the parameter or &false; on failure.
 
 vim:ft=help:

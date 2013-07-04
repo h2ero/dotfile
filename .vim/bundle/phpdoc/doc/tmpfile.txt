@@ -12,7 +12,7 @@ For details, consult your system documentation on the tmpfile(3) function, as
 well as the stdio.h header file.
 
 Returns a file handle, similar to the one returned by |fopen|, for the new
-file or FALSE on failure.
+file or &false; on failure.
 
 |tmpfile| example
 

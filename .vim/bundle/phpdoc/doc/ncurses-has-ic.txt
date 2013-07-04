@@ -8,7 +8,8 @@ PHP. This function should be used at your own risk.
 
 Checks whether the terminal has insert and delete capabilities.
 
-Returns TRUE if the terminal has insert/delete-capabilities, FALSE otherwise.
+Returns &true; if the terminal has insert/delete-capabilities, &false;
+otherwise.
 
 |ncurses_has_il|
 

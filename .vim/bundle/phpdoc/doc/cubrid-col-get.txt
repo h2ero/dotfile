@@ -14,7 +14,7 @@ collection type (set, multiset, sequence) attribute you requested as an array.
 Array (0-based numerical array) containing the elements you requested, when
 process is successful;
 
-FALSE (to distinguish the error from the situation of attribute having empty
+&false; (to distinguish the error from the situation of attribute having empty
 collection or NULL, in case of error, a warning message is shown; in such case
 you can check the error by using |cubrid_error_code|), when process is
 unsuccessful.

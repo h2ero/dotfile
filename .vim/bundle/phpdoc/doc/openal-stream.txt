@@ -9,7 +9,7 @@ and AL_FORMAT_STEREO16
 
 Frequency of data to stream given in Hz.
 
-Returns a stream resource on success or FALSE on failure.
+Returns a stream resource on success or &false; on failure.
 
 |openal_source_create| |fwrite|
 

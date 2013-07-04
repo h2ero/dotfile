@@ -15,8 +15,8 @@ will put the PHP source file name and line number where output started in the
 
 {line} The line number where the output started.
 
-|headers_sent| will return FALSE if no HTTP headers have already been sent or
-TRUE otherwise.
+|headers_sent| will return &false; if no HTTP headers have already been sent
+or &true; otherwise.
 
 Version Description 4.3.0 The optional {file} and {line} parameters were
 added.
@@ -50,6 +50,9 @@ Examples using |headers_sent|
 
 
 
+
+Headers will only be accessible and output when a SAPI that supports them is
+in use.
 
 |ob_start| |trigger_error| |headers_list| |header| for a more detailed
 discussion of the matters involved.

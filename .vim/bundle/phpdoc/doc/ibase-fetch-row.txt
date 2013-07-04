@@ -5,7 +5,7 @@ ibase_fetch_row -- Fetch a row from an InterBase database
 |ibase_fetch_row| fetches one row of data from the given result set.
 
 Subsequent calls to |ibase_fetch_row| return the next row in the result set,
-or FALSE if there are no more rows.
+or &false; if there are no more rows.
 
 {result_identifier} An InterBase result identifier.
 
@@ -15,9 +15,9 @@ return BLOB contents instead of BLOB ids. Passing IBASE_UNIXTIME will cause
 this function to return date/time values as Unix timestamps instead of as
 formatted strings.
 
-Returns an array that corresponds to the fetched row, or FALSE if there are no
-more rows. Each result column is stored in an array offset, starting at offset
-0.
+Returns an array that corresponds to the fetched row, or &false; if there are
+no more rows. Each result column is stored in an array offset, starting at
+offset 0.
 
 |ibase_fetch_assoc| |ibase_fetch_object|
 

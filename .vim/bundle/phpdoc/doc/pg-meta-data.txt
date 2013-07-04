@@ -12,7 +12,7 @@ PHP. This function should be used at your own risk.
 
 {table_name} The name of the table.
 
-An array of the table definition, or FALSE on error.
+An array of the table definition, or &false; on error.
 
 Getting table metadata
 

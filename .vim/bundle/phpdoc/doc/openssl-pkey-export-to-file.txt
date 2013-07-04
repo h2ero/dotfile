@@ -19,6 +19,6 @@ correctly. See the notes under the installation section for more information.
 specifying and/or overriding options for the openssl configuration file. See
 |openssl_csr_new| for more information about {configargs}.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 vim:ft=help:

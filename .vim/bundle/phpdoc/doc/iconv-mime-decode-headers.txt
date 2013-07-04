@@ -22,8 +22,8 @@ header.
 represent the result by. If omitted, iconv.internal_encoding will be used.
 
 Returns an associative array that holds a whole set of MIME header fields
-specified by {encoded_headers} on success, or FALSE if an error occurs during
-the decoding.
+specified by {encoded_headers} on success, or &false; if an error occurs
+during the decoding.
 
 Each key of the return value represents an individual field name and the
 corresponding element represents a field value. If more than one field of the

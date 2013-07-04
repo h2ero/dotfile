@@ -10,6 +10,6 @@ available.
 
 {dh_key} DH key
 
-Returns computed key on success or FALSE on failure.
+Returns computed key on success or &false; on failure.
 
 vim:ft=help:

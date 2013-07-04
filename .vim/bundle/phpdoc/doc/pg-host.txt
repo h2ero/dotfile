@@ -9,7 +9,7 @@ is connected to.
 present, the default connection is used. The default connection is the last
 connection made by |pg_connect| or |pg_pconnect|.
 
-A string containing the name of the host the {connection} is to, or FALSE on
+A string containing the name of the host the {connection} is to, or &false; on
 error.
 
 |pg_host| example

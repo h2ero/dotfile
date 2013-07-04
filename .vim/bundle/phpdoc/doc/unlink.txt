@@ -10,7 +10,7 @@ error will be generated on failure.
 {context} Context support was added with PHP 5.0.0. For a description of
 contexts, refer to .
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Version Description 5.0.0 As of PHP 5.0.0 |unlink| can also be used with some
 URL wrappers. Refer to for a listing of which wrappers support |unlink|.

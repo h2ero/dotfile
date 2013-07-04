@@ -11,7 +11,7 @@ call to |msql_query|.
 
 {row_number} The seeked row number.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |msql_fetch_array| |msql_fetch_object| |msql_fetch_row| |msql_result|
 

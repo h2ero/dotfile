@@ -9,7 +9,7 @@ Returns a result set listing the stored procedures registered in a database.
 database.
 
 {qualifier} A qualifier for DB2 databases running on OS/390 or z/OS servers.
-For other databases, pass NULL or an empty string.
+For other databases, pass &null; or an empty string.
 
 {schema} The schema which contains the procedures. This parameter accepts a
 search pattern containing _ and % as wildcards.
@@ -20,7 +20,7 @@ containing _ and % as wildcards.
 Returns a statement resource with a result set containing rows describing the
 stored procedures matching the specified parameters. The rows are composed of
 the following columns: Column name Description PROCEDURE_CAT The catalog that
-contains the procedure. The value is NULL if this table does not have
+contains the procedure. The value is &null; if this table does not have
 catalogs. PROCEDURE_SCHEM Name of the schema that contains the stored
 procedure. PROCEDURE_NAME Name of the procedure. NUM_INPUT_PARAMS Number of
 input (IN) parameters for the stored procedure. NUM_OUTPUT_PARAMS Number of

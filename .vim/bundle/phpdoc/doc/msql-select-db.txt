@@ -13,7 +13,7 @@ Subsequent calls to |msql_query| will be made on the active database.
 by |msql_connect| is assumed. If no such link is found, the function will try
 to establish a link as if |msql_connect| was called, and use it.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |msql_connect| |msql_pconnect| |msql_query|
 

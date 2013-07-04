@@ -17,7 +17,7 @@ for breaks are returned in an array of interger numbers. Each number is the
 position of the char in {text} after which a hyphenation can take place.
 
 An array of integers indicating the position of possible breaks in the text or
-FALSE on failure.
+&false; on failure.
 
 Hyphennate a text
 

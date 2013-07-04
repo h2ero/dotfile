@@ -19,7 +19,7 @@ points to the current path.
 
 {y3} y-coordinate of third control point.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |ps_lineto|
 

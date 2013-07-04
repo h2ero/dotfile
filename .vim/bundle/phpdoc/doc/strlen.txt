@@ -22,8 +22,11 @@ A |strlen| example
 
 
 
-|strlen| returns NULL when executed on arrays, and an E_WARNING level error is
-emitted.
+|strlen| returns the number of bytes rather than the number of characters in a
+string.
+
+|strlen| returns &null; when executed on arrays, and an E_WARNING level error
+is emitted.
 
 |count| |mb_strlen|
 

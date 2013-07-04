@@ -9,8 +9,8 @@ PHP. This function should be used at your own risk.
 
 Checks if ncurses is in endwin mode.
 
-Returns TRUE, if |ncurses_end| has been called without any subsequent calls to
-|ncurses_wrefresh|, FALSE otherwise.
+Returns &true;, if |ncurses_end| has been called without any subsequent calls
+to |ncurses_wrefresh|, &false; otherwise.
 
 |ncurses_end| |ncurses_wrefresh|
 

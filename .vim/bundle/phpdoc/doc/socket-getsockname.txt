@@ -20,8 +20,8 @@ Unix filesystem path (e.g. /var/run/daemon.sock) in the {address} parameter.
 
 {port} If provided, this will hold the associated port.
 
-Returns TRUE on success or &false; on failure. |socket_getsockname| may also
-return FALSE if the socket type is not any of AF_INET, AF_INET6, or AF_UNIX,
+Returns &true; on success or &false; on failure. |socket_getsockname| may also
+return &false; if the socket type is not any of AF_INET, AF_INET6, or AF_UNIX,
 in which case the last socket error code is not updated.
 
 |socket_getpeername| |socket_last_error| |socket_strerror|

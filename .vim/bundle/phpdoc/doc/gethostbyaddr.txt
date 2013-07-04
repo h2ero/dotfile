@@ -7,7 +7,8 @@ Returns the host name of the Internet host specified by {ip_address}.
 
 {ip_address} The host IP address.
 
-Returns the host name or the unmodified {ip_address} on failure.
+Returns the host name on success, the unmodified {ip_address} on failure, or
+&false; on malformed input.
 
 A simple |gethostbyaddr| example
 

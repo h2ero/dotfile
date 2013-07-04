@@ -1,8 +1,8 @@
-XMLWriter::writeAttribute -- Write full attribute
+xmlwriter_write_attribute -- Write full attribute
 
 Object oriented style
 
-  bool writeAttribute(string name, string value)~
+  bool XMLWriter::writeAttribute(string name, string value)~
 
 Procedural style
 
@@ -18,7 +18,7 @@ modified. This resource comes from a call to |xmlwriter_open_uri| or
 
 {value} The value of the attribute.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 XMLWriter::writeAttributeNS XMLWriter::startAttribute
 XMLWriter::startAttributeNS XMLWriter::endAttribute

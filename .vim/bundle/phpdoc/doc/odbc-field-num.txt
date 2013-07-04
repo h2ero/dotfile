@@ -9,7 +9,7 @@ given result identifier.
 
 {field_name} The field name.
 
-Returns the field number as a integer, or FALSE on error. Field numbering
+Returns the field number as a integer, or &false; on error. Field numbering
 starts at 1.
 
 vim:ft=help:

@@ -5,10 +5,10 @@ bin2hex -- Convert binary data into hexadecimal representation
 Returns an ASCII string containing the hexadecimal representation of {str}.
 The conversion is done byte-wise with the high-nibble first.
 
-{str} A character.
+{str} A string.
 
 Returns the hexadecimal representation of the given string.
 
-|pack| |unpack|
+|hex2bin| |pack|
 
 vim:ft=help:

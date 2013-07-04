@@ -21,11 +21,11 @@ the server it resides on. If the server is not local, it must be prefixed with
 either 'hostname:' (TCP/IP), '//hostname/' (NetBEUI) or 'hostname@' (IPX/SPX),
 depending on the connection protocol used.
 
-{username} The user name. Can be set with the ibase.default_user php.ini
+{username} The user name. Can be set with the ibase.default_user &php.ini;
 directive.
 
 {password} The password for {username}. Can be set with the
-ibase.default_password php.ini directive.
+ibase.default_password &php.ini; directive.
 
 {charset} {charset} is the default character set for a database.
 
@@ -40,7 +40,7 @@ libraries. Functional only with InterBase 6 and up.
 
 {sync}
 
-Returns an InterBase link identifier on success, or FALSE on error.
+Returns an InterBase link identifier on success, or &false; on error.
 
 |ibase_close| |ibase_connect|
 

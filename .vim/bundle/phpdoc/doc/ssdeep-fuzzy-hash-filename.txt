@@ -7,6 +7,6 @@ ssdeep_fuzzy_hash_filename -- Create a fuzzy hash from a file
 
 The filename of the file to hash.
 
-Returns a string on success, FALSE otherwise.
+Returns a string on success, &false; otherwise.
 
 vim:ft=help:

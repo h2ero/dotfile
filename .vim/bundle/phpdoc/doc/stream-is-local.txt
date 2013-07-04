@@ -6,7 +6,7 @@ Checks if a stream, or a URL, is a local one or not.
 
 {stream_or_url} The stream resource or URL to check.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |stream_is_local| example Basic usage example.
 

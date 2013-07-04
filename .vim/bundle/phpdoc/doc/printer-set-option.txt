@@ -84,7 +84,7 @@ PRINTER_TA_RIGHT: text will be aligned at the right.
 
 {value} The {option} value.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |printer_set_option| example
 

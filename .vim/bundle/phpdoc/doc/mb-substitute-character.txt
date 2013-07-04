@@ -4,7 +4,7 @@ mb_substitute_character -- Set/Get substitution character
 
 Specifies a substitution character when input character encoding is invalid or
 character code does not exist in output character encoding. Invalid characters
-may be substituted NULL (no output), string or integer value (Unicode
+may be substituted &null; (no output), string or integer value (Unicode
 character code value).
 
 This setting affects |mb_convert_encoding|, |mb_convert_variables|,
@@ -17,8 +17,9 @@ following strings: "none" : no output
 
 "entity" : Output character entity (Example: &#x200;)
 
-If {substchar} is set, it returns TRUE for success, otherwise returns FALSE.
-If {substchar} is not set, it returns the Unicode value, or "none" or "long".
+If {substchar} is set, it returns &true; for success, otherwise returns
+&false;. If {substchar} is not set, it returns the Unicode value, or "none" or
+"long".
 
 |mb_substitute_character| example
 

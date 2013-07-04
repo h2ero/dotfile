@@ -15,14 +15,14 @@ associative indices while PGSQL_BOTH, the default, will return both numerical
 and associative indices.
 
 An array containing the NOTIFY message name and backend PID. Otherwise if no
-NOTIFY is waiting, then FALSE is returned.
+NOTIFY is waiting, then &false; is returned.
 
 PostgreSQL NOTIFY message
 
 <?php >
   $conn = pg_pconnect("dbname=publisher");
   if (!$conn) {
-    echo "An error occured.\n";
+    echo "An error occurred.\n";
     exit;
   }
   

@@ -5,7 +5,7 @@ apd_set_pprof_trace -- Starts the session debugging
 Starts debugging to pprof_{process_id} in the dump directory.
 
 {dump_directory} The directory in which the profile dump file is written. If
-not set, the apd.dumpdir setting from the php.ini file is used.
+not set, the apd.dumpdir setting from the &php.ini; file is used.
 
 {fragment}
 

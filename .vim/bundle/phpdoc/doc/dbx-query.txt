@@ -13,7 +13,7 @@ Data inside the query should be properly escaped.
 {flags} The {flags} parameter is used to control the amount of information
 that is returned. It may be any combination of the following constants with
 the bitwise OR operator (|). The DBX_COLNAMES_* flags override the
-dbx.colnames_case setting from php.ini. DBX_RESULT_INDEX It is always set,
+dbx.colnames_case setting from &php.ini;. DBX_RESULT_INDEX It is always set,
 that is, the returned object has a data property which is a 2 dimensional
 array indexed numerically. For example, in the expression data[2][3] 2 stands
 for the row (or record) number and 3 stands for the column (or field) number.

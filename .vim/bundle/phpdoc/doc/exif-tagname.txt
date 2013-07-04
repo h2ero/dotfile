@@ -4,7 +4,7 @@ exif_tagname -- Get the header name for an index
 
 {index} The Tag ID for which a Tag Name will be looked up.
 
-Returns the header name, or FALSE if {index} is not a defined EXIF tag id.
+Returns the header name, or &false; if {index} is not a defined EXIF tag id.
 
 |exif_tagname| example
 

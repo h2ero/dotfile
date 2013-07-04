@@ -15,7 +15,7 @@ remaining buffer).
 is negative, no seeking will occur and reading will start from the current
 position.
 
-Returns a string or FALSE on failure.
+Returns a string or &false; on failure.
 
 Version Description 5.1.0 The {offset} was added.
 

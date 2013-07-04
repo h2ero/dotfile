@@ -20,7 +20,7 @@ For efficiency reasons, this function should be used after calling
 |maxdb_execute|. In this case, the data is not stored on the client side. The
 end of the sequence must end with a call to |maxdb_stmt_close_long_data|.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |maxdb_prepare| |maxdb_stmt_bind_param|
 

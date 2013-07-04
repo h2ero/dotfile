@@ -13,14 +13,14 @@ image instead, which guarantees the highest output quality.
 { image}An image resource, returned by one of the image creation functions,
 such as |imagecreatetruecolor|.
 
-{dither} Indicates if the image should be dithered - if it is TRUE then
+{dither} Indicates if the image should be dithered - if it is &true; then
 dithering will be used which will result in a more speckled image but with
 better color approximation.
 
 {ncolors} Sets the maximum number of colors that should be retained in the
 palette.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Converting a true color image to a palette-based image
 

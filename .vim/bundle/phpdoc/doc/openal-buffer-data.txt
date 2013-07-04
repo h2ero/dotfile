@@ -11,7 +11,7 @@ Block of binary audio data in the {format} and {freq} specified.
 
 Frequency of {data} given in Hz.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |openal_buffer_loadwav| |openal_stream|
 

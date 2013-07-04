@@ -7,7 +7,7 @@ ancestral methods when appropriate
 
 {parentname} Parent class which child class is extending
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 A |runkit_class_adopt| example
 

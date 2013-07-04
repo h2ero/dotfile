@@ -6,7 +6,7 @@ This function returns the current version of the extension as a string.
 
 This function has no parameters.
 
-It returns a string on success and FALSE on failure.
+It returns a string on success and &false; on failure.
 
 This function throws no errors or exceptions.
 

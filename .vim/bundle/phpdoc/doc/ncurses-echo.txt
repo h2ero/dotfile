@@ -8,7 +8,7 @@ PHP. This function should be used at your own risk.
 
 Enables echo mode. All characters typed by user are echoed by |ncurses_getch|.
 
-Returns FALSE on success, TRUE if any error occurred.
+Returns &false; on success, &true; if any error occurred.
 
 |ncurses_noecho| to disable echo mode
 

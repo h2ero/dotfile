@@ -19,8 +19,8 @@ When using FBSQL_BOTH, in addition to storing the data in the numeric indices
 of the result array, it also stores the data in associative indices, using the
 field names as keys.
 
-Returns an array that corresponds to the fetched row, or FALSE if there are no
-more rows.
+Returns an array that corresponds to the fetched row, or &false; if there are
+no more rows.
 
 If two or more columns of the result have the same field names, the last
 column will take precedence. To access the other column(s) of the same name,

@@ -34,7 +34,7 @@ cursor.
 add a {blobidarray} parameter containing the corresponding "blob ids", and you
 should replace those columns with a "?" in the query text.
 
-Returns valid Informix result identifier on success, or FALSE on errors.
+Returns valid Informix result identifier on success, or &false; on errors.
 
 Show all rows of the "orders" table as a HTML table
 

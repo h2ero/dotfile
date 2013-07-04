@@ -1,6 +1,6 @@
 array_filter -- Filters elements of an array using a callback function
 
-  array array_filter(array input [, callback callback])~
+  array array_filter(array input [, callable callback])~
 
 Iterates over each value in the {input} array passing them to the {callback}
 function. If the { callback} function returns true, the current value from
@@ -10,7 +10,7 @@ function. If the { callback} function returns true, the current value from
 
 {callback} The callback function to use
 
-If no {callback} is supplied, all entries of {input} equal to FALSE (see
+If no {callback} is supplied, all entries of {input} equal to &false; (see
 converting to boolean) will be removed.
 
 Returns the filtered array.

@@ -9,7 +9,7 @@ data for the query associated with {result_id}.
 |ifx_prepare| (select type queries only!).
 
 Returns an associative array with fieldnames as key and the SQL fieldtypes as
-data for query with {result_id}. Returns FALSE on error.
+data for query with {result_id}. Returns &false; on error.
 
 Fieldnames and SQL fieldtypes
 

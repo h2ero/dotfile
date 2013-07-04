@@ -10,7 +10,7 @@ can save the wordlist later with |pspell_save_wordlist|.
 
 {word} The added word.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |pspell_add_to_personal|
 

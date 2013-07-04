@@ -5,7 +5,7 @@ case insensitive
 
 |mb_stripos| returns the numeric position of the first occurrence of {needle}
 in the {haystack} string. Unlike |mb_strpos|, |mb_stripos| is
-case-insensitive. If {needle} is not found, it returns FALSE.
+case-insensitive. If {needle} is not found, it returns &false;.
 
 {haystack} The string from which to get the position of the first occurrence
 of {needle}
@@ -18,7 +18,7 @@ of {needle}
 character encoding is used.
 
 Return the numeric position of the first occurrence of {needle} in the
-{haystack} string, or FALSE if {needle} is not found.
+{haystack} string, or &false; if {needle} is not found.
 
 |stripos| |strpos| |mb_strpos|
 

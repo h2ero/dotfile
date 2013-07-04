@@ -6,7 +6,7 @@ imagepsfreefont -- Free memory used by a PostScript Type 1 font
 
 {font_index} A font resource, returned by |imagepsloadfont|.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |imagepsfreefont| example
 

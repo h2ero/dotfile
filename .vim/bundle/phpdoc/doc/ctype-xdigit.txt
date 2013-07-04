@@ -7,8 +7,8 @@ hexadecimal 'digits'.
 
 {text} The tested string.
 
-Returns TRUE if every character in {text} is a hexadecimal 'digit', that is a
-decimal digit or a character from [A-Fa-f] , FALSE otherwise.
+Returns &true; if every character in {text} is a hexadecimal 'digit', that is
+a decimal digit or a character from [A-Fa-f] , &false; otherwise.
 
 A |ctype_xdigit| example
 
@@ -30,6 +30,11 @@ The above example will output:
   The string ab12bc99 consists of all hexadecimal digits.
 
 
+
+If an integer between -128 and 255 inclusive is provided, it is interpreted as
+the ASCII value of a single character (negative values have 256 added in order
+to allow characters in the Extended ASCII range). Any other integer is
+interpreted as a string containing the decimal digits of the integer.
 
 |ctype_digit|
 

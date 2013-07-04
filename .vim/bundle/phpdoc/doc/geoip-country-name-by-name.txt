@@ -7,7 +7,7 @@ corresponding to a hostname or an IP address.
 
 {hostname} The hostname or IP address whose location is to be looked-up.
 
-Returns the country name on success, or FALSE if the address cannot be found
+Returns the country name on success, or &false; if the address cannot be found
 in the database.
 
 A |geoip_country_name_by_name| example This will print where the host

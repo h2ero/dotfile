@@ -18,7 +18,7 @@ cut from the first illegal character and an E_NOTICE is generated.
 
 {str} The string to be converted.
 
-Returns the converted string or FALSE on failure.
+Returns the converted string or &false; on failure.
 
 |iconv| example
 

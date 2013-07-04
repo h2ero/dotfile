@@ -11,7 +11,7 @@ Object oriented style
 The |maxdb_close| function closes a previously opened database connection
 specified by the {link} parameter.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |maxdb_connect| |maxdb_init| |maxdb_real_connect|
 

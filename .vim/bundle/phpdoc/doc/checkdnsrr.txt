@@ -11,8 +11,8 @@ name.
 {type} {type} may be any one of: A, MX, NS, SOA, PTR, CNAME, AAAA, A6, SRV,
 NAPTR, TXT or ANY.
 
-Returns TRUE if any records are found; returns FALSE if no records were found
-or if an error occurred.
+Returns &true; if any records are found; returns &false; if no records were
+found or if an error occurred.
 
 Version Description 5.3.0 This function is now available on Windows platforms.
 5.2.4 TXT {type} was added. 5.0.0 AAAA {type} was added.

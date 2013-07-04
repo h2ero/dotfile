@@ -10,7 +10,7 @@ is possible to convert the latter to a number.
 {b} It can be either a GMP number resource, or a numeric string given that it
 is possible to convert the latter to a number.
 
-A GMP number on success or FALSE if an inverse does not exist.
+A GMP number on success or &false; if an inverse does not exist.
 
 |gmp_invert| example
 

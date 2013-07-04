@@ -5,7 +5,7 @@ xslt_create -- Create a new XSLT processor
 Create and return a new XSLT processor resource for manipulation by the other
 XSLT functions.
 
-Returns an XSLT processor link identifier on success, or FALSE on error.
+Returns an XSLT processor link identifier on success, or &false; on error.
 
 |xslt_create| example
 

@@ -10,7 +10,7 @@ Object oriented style
 
 This function has no functionally effect.
 
-Returns a result resource or FALSE if an error occurred.
+Returns a result resource or &false; if an error occurred.
 
 See |maxdb_multi_query|.
 

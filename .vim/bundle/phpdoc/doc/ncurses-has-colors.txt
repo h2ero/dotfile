@@ -8,7 +8,7 @@ to write terminal-independent programs. ncurses must be initialized using
 
 This function has no parameters.
 
-Return TRUE if the terminal has color capabilities, FALSE otherwise.
+Return &true; if the terminal has color capabilities, &false; otherwise.
 
 Writing a string with a specified color to the screen
 

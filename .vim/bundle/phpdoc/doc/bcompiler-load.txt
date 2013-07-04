@@ -6,7 +6,7 @@ Reads data from a bzcompressed file and creates classes from the bytecodes.
 
 {filename} The bzcompressed file path, as a string.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |bcompiler_load| example
 

@@ -11,7 +11,7 @@ connection remains available for the next caller.
 
 {connection} Specifies an active DB2 client connection.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Closing a connection The following example demonstrates a successful attempt
 to close a connection to an IBM DB2, Cloudscape, or Apache Derby database.

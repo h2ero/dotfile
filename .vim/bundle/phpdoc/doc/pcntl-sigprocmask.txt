@@ -15,7 +15,7 @@ blocked signals by the given list of signals.
 {oldset} The {oldset} parameter is set to an array containing the list of the
 previously blocked signals.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |pcntl_sigprocmask| example
 

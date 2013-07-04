@@ -16,7 +16,7 @@ first modifying it or seeking to a particular offset, you may want to use the
 successfully opened by |gzopen|.
 
 The number of uncompressed characters read from {gz} and passed through to the
-input, or FALSE on error.
+input, or &false; on error.
 
 |gzpassthru| example
 

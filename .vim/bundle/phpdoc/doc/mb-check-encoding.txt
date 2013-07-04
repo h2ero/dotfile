@@ -12,6 +12,6 @@ input from the beginning of the request.
 
 {encoding} The expected encoding.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 vim:ft=help:

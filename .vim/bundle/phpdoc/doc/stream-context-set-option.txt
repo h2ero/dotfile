@@ -16,6 +16,6 @@ $arr['wrapper']['option'] = $value.
 
 Refer to context options and parameters for a listing of stream options.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 vim:ft=help:

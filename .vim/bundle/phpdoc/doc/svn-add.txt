@@ -13,13 +13,13 @@ one that contains the PHP binary. To use the calling script"s working
 directory, use |realpath| or dirname(__FILE__).
 
 {recursive} If item is directory, whether or not to recursively add all of its
-contents. Default is TRUE
+contents. Default is &true;
 
 {force} If true, Subversion will recurse into already versioned directories in
 order to add unversioned files that may be hiding in those directories.
-Default is FALSE
+Default is &false;
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 This function is EXPERIMENTAL. The behaviour of this function, its name, and
 surrounding documentation may change without notice in a future release of

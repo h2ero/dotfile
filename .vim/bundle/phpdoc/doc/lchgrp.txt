@@ -11,7 +11,7 @@ may change the group of a symlink to any group of which that user is a member.
 
 {group} The group specified by name or number.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Changing the group of a symbolic link
 

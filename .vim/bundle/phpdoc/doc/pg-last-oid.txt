@@ -23,7 +23,7 @@ This function used to be called |pg_getlastoid|.
 |pg_query_params| or |pg_execute| (among others).
 
 A string containing the OID assigned to the most recently inserted row in the
-specified {connection}, or FALSE on error or no available OID.
+specified {connection}, or &false; on error or no available OID.
 
 |pg_last_oid| example
 

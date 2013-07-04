@@ -35,8 +35,9 @@ keys have the same size.
 
 Returns the translated string.
 
-If {replace_pairs} contains a key which is an empty string (""), FALSE will be
-returned.
+If {replace_pairs} contains a key which is an empty string (""), &false; will
+be returned. If the {str} is not a scalar then it is not typecasted into a
+string, instead a warning is raised and &null; is returned.
 
 |strtr| example
 

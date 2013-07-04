@@ -22,7 +22,7 @@ for a list of bulitin transports.
 {errno} If the optional {errno} and {errstr} arguments are present they will
 be set to indicate the actual system level error that occurred in the
 system-level socket(), bind(), and listen() calls. If the value returned in
-{errno} is 0 and the function returned FALSE, it is an indication that the
+{errno} is 0 and the function returned &false;, it is an indication that the
 error occurred before the bind() call. This is most likely due to a problem
 initializing the socket. Note that the {errno} and {errstr} arguments will
 always be passed by reference.
@@ -36,7 +36,7 @@ For UDP sockets, you must use STREAM_SERVER_BIND as the {flags} parameter.
 
 {context}
 
-Returns the created stream, or FALSE on error.
+Returns the created stream, or &false; on error.
 
 Using TCP server sockets
 

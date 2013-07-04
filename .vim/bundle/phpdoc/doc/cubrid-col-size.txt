@@ -14,7 +14,7 @@ collection type (set, multiset, sequence) attribute.
 
 Number of elements, when process is successful.
 
-FALSE, when process is unsuccessful.
+&false;, when process is unsuccessful.
 
 Version Description 8.3.1 Change return value: when process is unsuccessful,
 return false, not -1.

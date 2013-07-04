@@ -6,7 +6,7 @@ Returns the content of the blob object.
 
 {bid} The BLOB object id.
 
-The contents of the BLOB as a string, or FALSE on errors.
+The contents of the BLOB as a string, or &false; on errors.
 
 |ifx_get_char|
 

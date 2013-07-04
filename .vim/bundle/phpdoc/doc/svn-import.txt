@@ -3,7 +3,7 @@ svn_import -- Imports an unversioned path into a repository
   bool svn_import(string path, string url, bool nonrecursive)~
 
 Commits unversioned {path} into repository at {url}. If {path} is a directory
-and {nonrecursive} is FALSE, the directory will be imported recursively.
+and {nonrecursive} is &false;, the directory will be imported recursively.
 
 {path} Path of file or directory to import.
 
@@ -16,7 +16,7 @@ directory, use |realpath| or dirname(__FILE__).
 {nonrecursive} Whether or not to refrain from recursively processing
 directories.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 This function is EXPERIMENTAL. The behaviour of this function, its name, and
 surrounding documentation may change without notice in a future release of

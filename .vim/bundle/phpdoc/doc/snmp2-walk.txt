@@ -9,7 +9,7 @@ The SNMP agent (server).
 
 The read community.
 
-If NULL, {object_id} is taken as the root of the SNMP objects tree and all
+If &null;, {object_id} is taken as the root of the SNMP objects tree and all
 objects under that tree are returned as an array.
 
 If {object_id} is specified, all the SNMP objects below that {object_id} are
@@ -17,10 +17,10 @@ returned.
 
 The number of microseconds until the first timeout.
 
-The number of retries in case timeouts occur.
+The number of times to retry if timeouts occur.
 
 Returns an array of SNMP object values starting from the {object_id} as root
-or FALSE on error.
+or &false; on error.
 
 |snm2_pwalk| Example
 

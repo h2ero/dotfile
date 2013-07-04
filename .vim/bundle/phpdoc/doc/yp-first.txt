@@ -8,7 +8,7 @@ Gets the first key-value pair from the named {map} in the named {domain}.
 
 {map} The NIS map.
 
-Returns the first key-value pair as an array on success, or FALSE on errors.
+Returns the first key-value pair as an array on success, or &false; on errors.
 
 Example for the NIS first
 

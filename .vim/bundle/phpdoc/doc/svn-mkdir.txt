@@ -6,7 +6,7 @@ Creates a directory in a working copy or repository.
 
 {path} The path to the working copy or repository.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |svn_add| |svn_copy|
 

@@ -5,8 +5,8 @@ imagettfbbox -- Give the bounding box of a text using TrueType fonts
 This function calculates and returns the bounding box in pixels for a TrueType
 text.
 
-{size} If you created the image from a file, only colors used in the image are
-resolved. Colors present only in the palette are not resolved.
+{size} The font size. In GD 1, this is measured in pixels. In GD 2, this is
+measured in points.
 
 {angle} Angle in degrees in which {text} will be measured.
 
@@ -18,7 +18,7 @@ filename and searching along a library-defined font path.
 {text} The string to be measured.
 
 |imagettfbbox| returns an array with 8 elements representing four points
-making the bounding box of the text on success and FALSE on error. key
+making the bounding box of the text on success and &false; on error. key
 contents 0 lower left corner, X position 1 lower left corner, Y position 2
 lower right corner, X position 3 lower right corner, Y position 4 upper right
 corner, X position 5 upper right corner, Y position 6 upper left corner, X

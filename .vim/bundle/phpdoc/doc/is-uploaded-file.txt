@@ -2,8 +2,8 @@ is_uploaded_file -- Tells whether the file was uploaded via HTTP POST
 
   bool is_uploaded_file(string filename)~
 
-Returns TRUE if the file named by {filename} was uploaded via HTTP POST. This
-is useful to help ensure that a malicious user hasn't tried to trick the
+Returns &true; if the file named by {filename} was uploaded via HTTP POST.
+This is useful to help ensure that a malicious user hasn't tried to trick the
 script into working on files upon which it should not be working--for
 instance, /etc/passwd.
 
@@ -17,7 +17,7 @@ client's machine $_FILES['userfile']['name'] does not work.
 
 {filename} The filename being checked.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |is_uploaded_file| example
 

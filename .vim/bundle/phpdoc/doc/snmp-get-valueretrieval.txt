@@ -3,17 +3,19 @@ returned
 
   int snmp_get_valueretrieval()~
 
-On of the SNMP_VALUE_LIBRARY, SNMP_VALUE_PLAIN, SNMP_VALUE_OBJECT constants.
+OR-ed combitantion of constants ( SNMP_VALUE_LIBRARY or SNMP_VALUE_PLAIN )
+with possible SNMP_VALUE_OBJECT set.
 
 Using snmp_get_valueretrieval
 
 <?php >
    $ret = snmpget('localhost', 'public', 'IF-MIB::ifName.1');
-   if (snmp_get_valueretrieval() == SNMP_VALUE_OBJECT) {
+   if (snmp_get_valueretrieval() &amp; SNMP_VALUE_OBJECT) {
      echo $ret->value;
    } else {
      echo $ret;
    }
+?>
 
 
 

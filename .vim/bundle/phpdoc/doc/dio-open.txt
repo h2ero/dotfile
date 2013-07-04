@@ -38,7 +38,7 @@ O_CREAT is specified in mode and is ignored otherwise.
 The actual permissions assigned to the created file will be affected by the
 process's umask setting as per usual.
 
-A file descriptor or FALSE on error.
+A file descriptor or &false; on error.
 
 Opening a file descriptor
 

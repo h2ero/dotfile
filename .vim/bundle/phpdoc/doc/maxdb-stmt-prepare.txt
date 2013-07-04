@@ -35,7 +35,7 @@ The parameter markers must be bound to application variables using
 |maxdb_stmt_bind_param| and/or |maxdb_stmt_bind_result| before executing the
 statement or fetching rows.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Object oriented style
 

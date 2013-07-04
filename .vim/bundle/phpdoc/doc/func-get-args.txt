@@ -14,7 +14,7 @@ of the current user-defined function's argument list.
 Version Description 5.3.0 This function can now be used in parameter lists.
 5.3.0 If this function is called from the outermost scope of a file which has
 been included by calling |include| or |require| from within a function in the
-calling file, it now generates a warning and returns FALSE.
+calling file, it now generates a warning and returns &false;.
 
 Generates a warning if called from outside of a user-defined function.
 
@@ -127,6 +127,6 @@ reflected in the values returned by this function.
 This function returns a copy of the passed arguments only, and does not
 account for default (non-passed) arguments.
 
-|func_get_arg| |func_num_args|
+|func_get_arg| |func_num_args| ReflectionFunctionAbstract::getParameters
 
 vim:ft=help:

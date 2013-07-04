@@ -4,7 +4,7 @@ file_get_contents -- Reads entire file into a string
 
 This function is similar to |file|, except that |file_get_contents| returns
 the file in a string, starting at the specified {offset} up to {maxlen} bytes.
-On failure, |file_get_contents| will return FALSE.
+On failure, |file_get_contents| will return &false;.
 
 |file_get_contents| is the preferred way to read the contents of a file into a
 string. It will use memory mapping techniques if supported by your OS to
@@ -19,7 +19,7 @@ encode the URI with |urlencode|.
 trigger include path search.
 
 {context} A valid context resource created with |stream_context_create|. If
-you don't need to use a custom context, you can skip this parameter by NULL.
+you don't need to use a custom context, you can skip this parameter by &null;.
 
 {offset} The offset where the reading starts on the original stream.
 
@@ -31,10 +31,16 @@ it works on the buffered stream.
 is reached. Note that this parameter is applied to the stream processed by the
 filters.
 
-The function returns the read data or FALSE on failure.
+The function returns the read data or &false; on failure.
 
-An E_WARNING level error is generated if either {maxlength} is less than zero,
-or if {offset} exceeds the length of the stream.
+This function may return Boolean &false;, but may also return a non-Boolean
+value which evaluates to &false;. Please read the section on Booleans for more
+information. Use the === operator for testing the return value of this
+function.
+
+An E_WARNING level error is generated if {filename} cannot be found,
+{maxlength} is less than zero, or if seeking to the specified {offset} in the
+stream fails.
 
 Get and output the source of the homepage of a website
 

@@ -7,10 +7,10 @@ Outputs a GD image to the given {filename}.
 { image}An image resource, returned by one of the image creation functions,
 such as |imagecreatetruecolor|.
 
-{filename} The path to save the file to. If not set or NULL, the raw image
+{filename} The path to save the file to. If not set or &null;, the raw image
 stream will be outputted directly.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Outputting a GD image
 

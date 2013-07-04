@@ -13,9 +13,9 @@ attribute (set, multiset, sequence) you requested.
 
 {set_element} Content of the element you want to insert.
 
-TRUE, when process is successful.
+&true;, when process is successful.
 
-FALSE, when process is unsuccessful.
+&false;, when process is unsuccessful.
 
 |cubrid_set_add| example
 

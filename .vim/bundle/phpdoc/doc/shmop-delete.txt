@@ -6,7 +6,7 @@ shmop_delete -- Delete shared memory block
 
 {shmid} The shared memory block identifier created by |shmop_open|
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Deleting shared memory block
 

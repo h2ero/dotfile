@@ -10,7 +10,7 @@ otherwise know how to retrieve and use the results.
 {stmt} A valid statement resource containing a result set.
 
 Returns an integer value representing the number of fields in the result set
-associated with the specified statement resource. Returns FALSE if the
+associated with the specified statement resource. Returns &false; if the
 statement resource is not a valid input value.
 
 Retrieving the number of fields in a result set The following example

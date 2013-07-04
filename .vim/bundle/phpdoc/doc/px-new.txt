@@ -7,7 +7,7 @@ further functions. |px_new| does not create any file on the disk, it just
 creates an instance of a paradox object. This function must not be called if
 the object oriented interface is used. Use new paradox_db() instead.
 
-Returns FALSE on failure.
+Returns &false; on failure.
 
 Opening a Paradox database
 

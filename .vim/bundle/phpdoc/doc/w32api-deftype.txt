@@ -20,7 +20,7 @@ This function takes 2n+1 arguments, where n is the number of members the type
 has. After that is the type of the member followed by the members name (in
 pairs).
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 This function is EXPERIMENTAL. The behaviour of this function, its name, and
 surrounding documentation may change without notice in a future release of

@@ -14,7 +14,7 @@ name of the column.
 
 Returns an integer value with the maximum number of bytes required to display
 the specified column. If the column does not exist in the result set,
-|db2_field_display_size| returns FALSE.
+|db2_field_display_size| returns &false;.
 
 |db2_field_name| |db2_field_num| |db2_field_precision| |db2_field_scale|
 |db2_field_type| |db2_field_width|

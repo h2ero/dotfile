@@ -13,7 +13,7 @@ line width.
 values (> 10) will result in very long spikes when two lines meet in a small
 angle. Keep the default unless you know what you are doing.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |ps_setlinecap| |ps_setlinejoin| |ps_setlinewidth|
 

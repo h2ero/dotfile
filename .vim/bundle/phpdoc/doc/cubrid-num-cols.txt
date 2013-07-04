@@ -10,7 +10,7 @@ statement.
 
 Number of columns, when process is successful.
 
--1, if SQL statement is not SELECT.
+&false;, if SQL statement is not SELECT.
 
 |cubrid_num_cols| example
 

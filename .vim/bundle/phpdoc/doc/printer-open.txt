@@ -7,10 +7,10 @@ This function tries to open a connection to the given printer.
 |printer_open| also starts a device context.
 
 {printername} The printer name. If no parameter was given it tries to open a
-connection to the default printer (if not specified in php.ini as
+connection to the default printer (if not specified in &php.ini; as
 printer.default_printer, PHP tries to detect it).
 
-Returns a printer handle on success or FALSE on failure.
+Returns a printer handle on success or &false; on failure.
 
 |printer_open| example
 

@@ -4,7 +4,7 @@ inotify_init -- Initialize an inotify instance
 
 Initialize an inotify instance for use with |inotify_add_watch|
 
-A stream resource or FALSE on error.
+A stream resource or &false; on error.
 
 Example usage of inotify
 

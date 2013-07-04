@@ -16,7 +16,7 @@ attempted.
 This function can be used by clients that remain idle for a long while, to
 check whether the server has closed the connection and reconnect if necessary.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Object oriented style
 

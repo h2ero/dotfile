@@ -17,7 +17,7 @@ libxdiff website.
 {new_data} Second string with binary data. It acts as "new" data.
 
 Returns string with binary diff containing differences between "old" and "new"
-data or FALSE if an internal error occurred.
+data or &false; if an internal error occurred.
 
 |xdiff_string_bpatch|
 

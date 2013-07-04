@@ -22,7 +22,7 @@ parameters are used, they are referred to as $1, $2, etc.
 placeholders in the original prepared query string. The number of elements in
 the array must match the number of placeholders.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Use |pg_get_result| to determine the query result.
 

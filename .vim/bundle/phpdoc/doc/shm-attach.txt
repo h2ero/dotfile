@@ -13,7 +13,7 @@ shared memory. {memsize} and {perm} will be ignored.
 {key} A numeric shared memory segment ID
 
 {memsize} The memory size. If not provided, default to the sysvshm.init_mem in
-the php.ini, otherwise 10000 bytes.
+the &php.ini;, otherwise 10000 bytes.
 
 {perm} The optional permission bits. Default to 0666.
 

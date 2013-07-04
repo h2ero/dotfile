@@ -6,6 +6,6 @@ Closes the connection to a Cyrus IMAP server.
 
 {connection} The connection handle.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 vim:ft=help:

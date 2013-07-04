@@ -23,7 +23,7 @@ GUPNP_SIGNAL_NOTIFY_FAILED signal) being the second, and the {arg} is third.
 
 {arg} User data for {callback}.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Issues E_WARNING either with not valid callback function or with not valid
 signal.

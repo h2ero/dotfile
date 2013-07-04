@@ -16,7 +16,7 @@ of the script ends. Instead, the link will remain open for future use
 This type of links is therefore called 'persistent'.
 
 All of the arguments are optional, and if they're missing, defaults are taken
-from values supplied in php.ini (ifx.default_host for the host (Informix
+from values supplied in &php.ini; (ifx.default_host for the host (Informix
 libraries will use INFORMIXSERVER environment value if not defined),
 ifx.default_user for user, ifx.default_password for the password (none if not
 defined).
@@ -27,7 +27,7 @@ defined).
 
 {password} The password, as a string.
 
-Returns: valid Informix persistent link identifier on success, or FALSE on
+Returns: valid Informix persistent link identifier on success, or &false; on
 errors.
 
 |ifx_connect|

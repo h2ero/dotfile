@@ -12,7 +12,7 @@ Output a text at the given text position.
 
 {y} y-coordinate of the lower left corner of the box surrounding the text.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |ps_continue_text| |ps_show|
 

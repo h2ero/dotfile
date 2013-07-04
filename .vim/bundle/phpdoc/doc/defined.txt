@@ -9,7 +9,7 @@ to constants. If you want to see if a function exists, use |function_exists|.
 
 {name} The constant name.
 
-Returns TRUE if the named constant given by {name} has been defined, FALSE
+Returns &true; if the named constant given by {name} has been defined, &false;
 otherwise.
 
 Checking Constants

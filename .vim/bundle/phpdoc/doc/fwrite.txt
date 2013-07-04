@@ -18,7 +18,7 @@ Note that if the {length} argument is given, then the magic_quotes_runtime
 configuration option will be ignored and no slashes will be stripped from
 {string}.
 
-|fwrite| returns the number of bytes written, or FALSE on error.
+|fwrite| returns the number of bytes written, or &false; on error.
 
 Writing to a network stream may end before the whole string is written. Return
 value of |fwrite| may be checked:

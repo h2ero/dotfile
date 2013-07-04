@@ -7,7 +7,7 @@ Returns the width of the given {image} resource.
 { image}An image resource, returned by one of the image creation functions,
 such as |imagecreatetruecolor|.
 
-Return the width of the {image} or FALSE on errors.
+Return the width of the {image} or &false; on errors.
 
 Using |imagesx|
 

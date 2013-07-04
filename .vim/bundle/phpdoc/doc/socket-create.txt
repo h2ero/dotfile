@@ -51,7 +51,7 @@ reasons, the TCP implementation itself decides the appropriate octet
 boundaries of the underlying datagram communication layer. Therefore, TCP
 applications must allow for the possibility of partial record transmission.
 
-|socket_create| returns a socket resource on success, or FALSE on error. The
+|socket_create| returns a socket resource on success, or &false; on error. The
 actual error code can be retrieved by calling |socket_last_error|. This error
 code may be passed to |socket_strerror| to get a textual explanation of the
 error.

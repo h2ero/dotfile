@@ -16,15 +16,15 @@ structure along with a similar object for each mime attachment. The structure
 of the returned objects is as follows:
 
 Returned Objects for |imap_fetchstructure| type Primary body type encoding
-Body transfer encoding ifsubtype TRUE if there is a subtype string subtype
-MIME subtype ifdescription TRUE if there is a description string description
-Content description string ifid TRUE if there is an identification string id
+Body transfer encoding ifsubtype &true; if there is a subtype string subtype
+MIME subtype ifdescription &true; if there is a description string description
+Content description string ifid &true; if there is an identification string id
 Identification string lines Number of lines bytes Number of bytes
-ifdisposition TRUE if there is a disposition string disposition Disposition
-string ifdparameters TRUE if the dparameters array exists dparameters An array
-of objects where each object has an "attribute" and a "value" property
+ifdisposition &true; if there is a disposition string disposition Disposition
+string ifdparameters &true; if the dparameters array exists dparameters An
+array of objects where each object has an "attribute" and a "value" property
 corresponding to the parameters on the Content-disposition MIME header.
-ifparameters TRUE if the parameters array exists parameters An array of
+ifparameters &true; if the parameters array exists parameters An array of
 objects where each object has an "attribute" and a "value" property. parts An
 array of objects identical in structure to the top-level object, each of which
 corresponds to a MIME body part.

@@ -15,9 +15,9 @@ latest Mozilla.
 { image}An image resource, returned by one of the image creation functions,
 such as |imagecreatetruecolor|.
 
-{saveflag} Whether to save the alpha channel or not. Default to FALSE.
+{saveflag} Whether to save the alpha channel or not. Default to &false;.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |imagesavealpha| example
 

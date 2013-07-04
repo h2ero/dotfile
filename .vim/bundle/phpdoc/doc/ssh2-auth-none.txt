@@ -11,8 +11,8 @@ methods.
 
 {username} Remote user name.
 
-Returns TRUE if the server does accept "none" as an authentication method, or
-an array of accepted authentication methods on failure.
+Returns &true; if the server does accept "none" as an authentication method,
+or an array of accepted authentication methods on failure.
 
 Retrieving a list of authentication methods
 

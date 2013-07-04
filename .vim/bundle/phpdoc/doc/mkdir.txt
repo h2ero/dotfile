@@ -16,12 +16,12 @@ means it should have a leading zero. The mode is also modified by the current
 umask, which you can change using |umask|.
 
 {recursive} Allows the creation of nested directories specified in the
-{pathname}. Defaults to FALSE.
+{pathname}.
 
 {context} Context support was added with PHP 5.0.0. For a description of
 contexts, refer to .
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Version Description 5.0.0 The {recursive} parameter was added 5.0.0 As of PHP
 5.0.0 |mkdir| can also be used with some URL wrappers. Refer to for a listing

@@ -13,7 +13,7 @@ Every subsequent call to |sybase_query| will be made on the active database.
 assumed. If no link is open, the function will try to establish a link as if
 |sybase_connect| was called, and use it.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |sybase_connect| |sybase_pconnect| |sybase_query|
 

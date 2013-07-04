@@ -7,9 +7,9 @@ Deletes the elements in the user cache pointed by {key}.
 {key} The {key} that was used to store the variable in the cache. {key} is
 case sensitive. {key} can be an array of keys.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
-If {key} is an array then the function returns FALSE if every element of the
+If {key} is an array then the function returns &false; if every element of the
 array fails to get deleted from the user cache, otherwise returns an array
 which consists of all the keys that are deleted.
 

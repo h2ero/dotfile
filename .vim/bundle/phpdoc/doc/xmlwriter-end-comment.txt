@@ -1,8 +1,8 @@
-XMLWriter::endComment -- Create end comment
+xmlwriter_end_comment -- Create end comment
 
 Object oriented style
 
-  bool endComment()~
+  bool XMLWriter::endComment()~
 
 Procedural style
 
@@ -14,7 +14,7 @@ Ends the current comment.
 modified. This resource comes from a call to |xmlwriter_open_uri| or
 |xmlwriter_open_memory|.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 XMLWriter::startComment XMLWriter::writeComment
 

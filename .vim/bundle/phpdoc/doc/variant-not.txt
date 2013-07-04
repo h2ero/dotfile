@@ -8,9 +8,9 @@ Performs bitwise not negation on {variant} and returns the result.
 
 As with all the variant arithmetic functions, the parameters for this function
 can be either a PHP native type (integer, string, floating point, boolean or
-NULL), or an instance of a COM, VARIANT or DOTNET class. PHP native types will
-be converted to variants using the same rules as found in the constructor for
-the class. COM and DOTNET objects will have the value of their default
+&null;), or an instance of a COM, VARIANT or DOTNET class. PHP native types
+will be converted to variants using the same rules as found in the constructor
+for the class. COM and DOTNET objects will have the value of their default
 property taken and used as the variant value.
 
 The variant arithmetic functions are wrappers around the similarly named
@@ -19,7 +19,7 @@ the MSDN library. The PHP functions are named slightly differently; for
 example |variant_add| in PHP corresponds to VarAdd() in the MSDN
 documentation.
 
-Returns the bitwise not negation. If {variant} is NULL, the result will also
-be NULL.
+Returns the bitwise not negation. If {variant} is &null;, the result will also
+be &null;.
 
 vim:ft=help:

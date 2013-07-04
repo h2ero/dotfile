@@ -10,8 +10,8 @@ Get result data
 the column number of the field you want; or it can be a string containing the
 name of the field.
 
-Returns the string contents of the field, FALSE on error, NULL for NULL data,
-or TRUE for binary data.
+Returns the string contents of the field, &false; on error, &null; for NULL
+data, or &true; for binary data.
 
 The first call to |odbc_result| returns the value of the third field in the
 current record of the query result. The second function call to |odbc_result|

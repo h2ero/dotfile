@@ -6,7 +6,7 @@ Returns a list of available dictionaries with their details.
 
 {broker} Broker resource
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 List all available dictionaries for one broker
 

@@ -11,7 +11,7 @@ return that row.
 
 {row_number} The desired row number of the new result pointer.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |mssql_data_seek| example
 

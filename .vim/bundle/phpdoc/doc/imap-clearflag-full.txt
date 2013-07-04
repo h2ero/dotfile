@@ -17,7 +17,7 @@ syntax
 {options} {options} are a bit mask and may contain the single option: ST_UID -
 The sequence argument contains UIDs instead of sequence numbers
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |imap_setflag_full|
 

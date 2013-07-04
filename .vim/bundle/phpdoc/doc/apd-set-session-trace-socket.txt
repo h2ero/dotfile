@@ -22,7 +22,7 @@ to be accurate. ASSIGNMENT_TRACE is not implemented yet.
 To turn on all functional traces (TIMING, FUNCTIONS, ARGS SUMMARY (like strace
 -c)) use the value 99
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |apd_set_session_trace_socket| example
 

@@ -13,7 +13,7 @@ that.
 
 Windows uses only the first three characters of prefix.
 
-Returns the new temporary filename, or FALSE on failure.
+Returns the new temporary filename, or &false; on failure.
 
 Version Description 4.0.6 Prior to PHP 4.0.6, the behaviour of the |tempnam|
 function was system dependent. On Windows the TMP environment variable will

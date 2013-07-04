@@ -17,7 +17,7 @@ default, but this can be changed with the {flags} parameter.
 but operate on symbolic link itself. XATTR_ROOT Set attribute in root
 (trusted) namespace. Requires root privileges.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Removes all extended attributes of a file
 

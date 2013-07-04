@@ -1,8 +1,8 @@
-XMLWriter::endDTDEntity -- End current DTD Entity
+xmlwriter_end_dtd_entity -- End current DTD Entity
 
 Object oriented style
 
-  bool endDTDEntity()~
+  bool XMLWriter::endDTDEntity()~
 
 Procedural style
 
@@ -14,7 +14,7 @@ Ends the current DTD entity.
 modified. This resource comes from a call to |xmlwriter_open_uri| or
 |xmlwriter_open_memory|.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 XMLWriter::startDTDEntity XMLWriter::writeDTDEntity
 

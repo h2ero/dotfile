@@ -23,8 +23,8 @@ prepared using |pg_prepare|, |pg_send_prepare| or a PREPARE SQL command.
 placeholders in the original prepared query string. The number of elements in
 the array must match the number of placeholders.
 
-Returns TRUE on success, FALSE on failure. Use |pg_get_result| to determine
-the query result.
+Returns &true; on success, &false; on failure. Use |pg_get_result| to
+determine the query result.
 
 Using |pg_send_execute|
 

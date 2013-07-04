@@ -11,7 +11,7 @@ Object oriented style
 Commits the current transaction for the database connection specified by the
 {link} parameter.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Object oriented style
 

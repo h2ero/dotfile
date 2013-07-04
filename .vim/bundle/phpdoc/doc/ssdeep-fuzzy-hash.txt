@@ -7,6 +7,6 @@ piecewise hashing, and returns that hash.
 
 The input string.
 
-Returns a string on success, FALSE otherwise.
+Returns a string on success, &false; otherwise.
 
 vim:ft=help:

@@ -9,6 +9,6 @@ Returns the state variable data by the name {variable_name} in this service.
 
 {variable_name} The name of the variable to retreive.
 
-Return the state variable data or FALSE.
+Return the state variable data or &false;.
 
 vim:ft=help:

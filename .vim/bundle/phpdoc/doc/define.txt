@@ -11,13 +11,13 @@ Scalar values are integer, float, string or boolean values. It is possible to
 define resource constants, however it is not recommended and may cause
 unpredictable behavior.
 
-{case_insensitive} If set to TRUE, the constant will be defined
+{case_insensitive} If set to &true;, the constant will be defined
 case-insensitive. The default behavior is case-sensitive; i.e. CONSTANT and
 Constant represent different values.
 
 Case-insensitive constants are stored as lower-case.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Defining Constants
 

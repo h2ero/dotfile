@@ -33,7 +33,7 @@ invoked by the server.
 created, even if the {connection_string} is identical to an existing
 connection.
 
-PostgreSQL connection resource on success, FALSE on failure.
+PostgreSQL connection resource on success, &false; on failure.
 
 Using |pg_connect|
 

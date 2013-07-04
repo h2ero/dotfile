@@ -17,8 +17,8 @@ can also use the INI setting date.timezone to set the default timezone.
 {timezone_identifier} The timezone identifier, like UTC or Europe/Lisbon. The
 list of valid identifiers is available in the .
 
-This function returns FALSE if the {timezone_identifier} isn't valid, or TRUE
-otherwise.
+This function returns &false; if the {timezone_identifier} isn't valid, or
+&true; otherwise.
 
 Getting the default timezone
 

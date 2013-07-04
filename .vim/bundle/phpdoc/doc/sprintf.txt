@@ -61,7 +61,7 @@ Argument swapping
   $location = 'tree';
   
   $format = 'There are %d monkeys in the %s';
-  printf($format, $num, $location);
+  echo sprintf($format, $num, $location);
 ?>
 
 
@@ -72,7 +72,7 @@ internationalize it and we rewrite it as: Argument swapping
 
 <?php >
   $format = 'The %s contains %d monkeys';
-  printf($format, $num, $location);
+  echo sprintf($format, $num, $location);
 ?>
 
 
@@ -85,7 +85,7 @@ Argument swapping
 
 <?php >
   $format = 'The %2$s contains %1$d monkeys';
-  printf($format, $num, $location);
+  echo sprintf($format, $num, $location);
 ?>
 
 
@@ -96,12 +96,28 @@ more arguments in the code. For example: Argument swapping
 <?php >
   $format = 'The %2$s contains %1$d monkeys.
              That\'s a nice %2$s full of %1$d monkeys.';
-  printf($format, $num, $location);
+  echo sprintf($format, $num, $location);
 ?>
 
 
 
+When using argument swapping, the n$ position specifier must come immediately
+after the percent sign (%), before any other specifiers, as shown in the
+example below. Position specifier with other specifiers
 
+<?php >
+  $format = 'The %2$s contains %1$04d monkeys';
+  echo sprintf($format, $num, $location);
+?>
+
+The above example will output:
+
+  The tree contains 0005 monkeys
+
+
+
+Attempting to use a position specifier greater than PHP_INT_MAX will result in
+|sprintf| generating warnings.
 
 {args}
 

@@ -7,7 +7,7 @@ write to the disk, if supported.
 
 {handle} The database handler, returned by |dba_open| or |dba_popen|.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |dba_optimize|
 

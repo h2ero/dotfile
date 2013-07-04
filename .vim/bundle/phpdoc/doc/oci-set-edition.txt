@@ -31,7 +31,7 @@ oci8.connection_class and the edition name used by applications. Each pooled
 server of a given connection class should only be used with one edition. This
 restriction has been removed with Oracle 11.2.0.2.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Two scripts can use different versions of myfunc() at the same time
 

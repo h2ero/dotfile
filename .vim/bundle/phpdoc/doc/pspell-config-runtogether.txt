@@ -13,10 +13,10 @@ suggestions.
 
 {dictionary_link}
 
-{flag} TRUE if run-together words should be treated as legal compounds, FALSE
-otherwise.
+{flag} &true; if run-together words should be treated as legal compounds,
+&false; otherwise.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |pspell_config_runtogether|
 

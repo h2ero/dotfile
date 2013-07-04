@@ -21,7 +21,7 @@ parenthesis; $regs[2] will contain the substring starting at the second, and
 so on. $regs[0] will contain a copy of the complete string matched.
 
 Returns the length of the matched string if a match for {pattern} was found in
-{string}, or FALSE if no matches were found or an error occurred.
+{string}, or &false; if no matches were found or an error occurred.
 
 If the optional parameter {regs} was not passed or the length of the matched
 string is 0, this function returns 1.
@@ -43,6 +43,10 @@ As of PHP 5.3.0, the regex extension is deprecated in favor of the PCRE
 extension. Calling this function will issue an E_DEPRECATED notice. See the
 list of differences for help on converting to PCRE.
 
-|ereg| |ereg_replace| |eregi_replace| |stripos| |stristr|
+|eregi| is deprecated as of PHP 5.3.0. |preg_match| with the i (PCRE_CASELESS)
+modifier is the suggested alternative.
+
+|ereg| |ereg_replace| |eregi_replace| |preg_match| |stripos| |stristr|
+|quotemeta|
 
 vim:ft=help:

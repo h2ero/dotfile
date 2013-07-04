@@ -19,7 +19,7 @@ libxdiff website.
 {dest} Path of the resulting patch file. Resulting file contains differences
 between "old" and "new" files. It is in binary format and is human-unreadable.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |xdiff_file_rabdiff| example The following code makes binary diff of two
 archives.

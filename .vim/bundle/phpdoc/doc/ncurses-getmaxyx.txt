@@ -14,9 +14,9 @@ changes the terminal size.
 
 {window} The measured window
 
-{x} This will be set to the window width
-
 {y} This will be set to the window height
+
+{x} This will be set to the window width
 
 No value is returned.
 

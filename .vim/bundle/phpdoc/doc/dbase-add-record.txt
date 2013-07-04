@@ -13,7 +13,7 @@ number of fields in the database, otherwise |dbase_add_record| will fail.
 If you're using |dbase_get_record| return value for this parameter, remember
 to reset the key named deleted.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Inserting a record in a dBase database
 

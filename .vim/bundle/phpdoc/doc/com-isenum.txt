@@ -8,7 +8,7 @@ See class for more details on these methods.
 
 {com_module} The COM object.
 
-Returns TRUE if the object can be enumerated, FALSE otherwise.
+Returns &true; if the object can be enumerated, &false; otherwise.
 
 This function does not exist in PHP 5; use the more natural foreach statement
 to iterate over the contents of COM objects. See for more details.

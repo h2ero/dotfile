@@ -4,15 +4,15 @@ property_exists -- Checks if the object or class has a property
 
 This function checks if the given {property} exists in the specified class.
 
-As opposed with |isset|, |property_exists| returns TRUE even if the property
-has the value NULL.
+As opposed with |isset|, |property_exists| returns &true; even if the property
+has the value &null;.
 
 {class} The class name or an object of the class to test for
 
 {property} The name of the property
 
-Returns TRUE if the property exists, FALSE if it doesn't exist or NULL in case
-of an error.
+Returns &true; if the property exists, &false; if it doesn't exist or &null;
+in case of an error.
 
 Using this function will use any registered autoloaders if the class is not
 already known.

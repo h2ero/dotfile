@@ -9,7 +9,7 @@ determines what type of content encoding the browser will accept ("gzip",
 "deflate" or none at all) and will return its output accordingly. All browsers
 are supported since it's up to the browser to send the correct header saying
 that it accepts compressed web pages. If a browser doesn't support compressed
-pages this function returns FALSE.
+pages this function returns &false;.
 
 {buffer}
 
@@ -27,8 +27,8 @@ Version Description 4.0.5 The {mode} parameter was added.
   <html>
   <body>
   <p>This should be a compressed page.</p>
+  </body>
   </html>
-  <body>
 
 
 

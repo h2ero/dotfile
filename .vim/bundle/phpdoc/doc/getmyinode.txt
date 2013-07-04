@@ -4,7 +4,7 @@ getmyinode -- Gets the inode of the current script
 
 Gets the inode of the current script.
 
-Returns the current script's inode as an integer, or FALSE on error.
+Returns the current script's inode as an integer, or &false; on error.
 
 |getmygid| |getmyuid| |getmypid| |get_current_user| |getlastmod|
 

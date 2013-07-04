@@ -16,7 +16,7 @@ transaction block.
 PGSQL_SEEK_CUR (seek from current position) or PGSQL_SEEK_END (seek from
 object end) .
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |pg_lo_seek| example
 

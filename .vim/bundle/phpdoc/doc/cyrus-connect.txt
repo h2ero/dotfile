@@ -10,6 +10,6 @@ Connects to a Cyrus IMAP server.
 
 {flags}
 
-Returns a connection handler on success or FALSE on failure.
+Returns a connection handler on success or &false; on failure.
 
 vim:ft=help:

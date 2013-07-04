@@ -6,7 +6,7 @@ hash_update -- Pump data into an active hashing context
 
 {data} Message to be included in the hash digest.
 
-Returns TRUE.
+Returns &true;.
 
 |hash_init| |hash_update_file| |hash_update_stream| |hash_final|
 

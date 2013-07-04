@@ -9,7 +9,7 @@ twilight begin/end
 
 {longitude} Longitude in degrees.
 
-Returns array on success or FALSE on failure.
+Returns array on success or &false; on failure.
 
 A |date_sun_info| example
 

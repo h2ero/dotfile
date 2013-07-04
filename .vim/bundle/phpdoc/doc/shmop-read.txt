@@ -10,7 +10,7 @@ shmop_read -- Read data from shared memory block
 
 {count} The number of bytes to read
 
-Returns the data or FALSE on failure.
+Returns the data or &false; on failure.
 
 Reading shared memory block
 

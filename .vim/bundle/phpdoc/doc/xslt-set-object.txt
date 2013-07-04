@@ -9,11 +9,11 @@ The callback functions can be declared with |xslt_set_sax_handlers|,
 |xslt_set_scheme_handlers| or |xslt_set_error_handler| and are assumed to be
 methods of {object}.
 
-{processor} The XSLT processor link identifier, created with |xslt_create|.
+{ processor}The XSLT processor link identifier, created with |xslt_create|.
 
 {obj} An object.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Using your own error handler as a method
 

@@ -9,7 +9,7 @@ create a new one with |ftp_connect|.
 
 {ftp_stream} The link identifier of the FTP connection.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |ftp_close| example
 

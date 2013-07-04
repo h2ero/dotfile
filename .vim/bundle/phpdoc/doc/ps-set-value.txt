@@ -20,7 +20,7 @@ leading The distance between lines in pixels.
 
 {value} The value of the parameter.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |ps_get_value| |ps_set_parameter|
 

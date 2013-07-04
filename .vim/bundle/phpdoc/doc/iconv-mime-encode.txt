@@ -38,7 +38,7 @@ performed on a long header field. If not given, this defaults to "\r\n" (CR
 LF). Note that this parameter is always treated as an ASCII string regardless
 of the value of input-charset. \r\n \n
 
-Returns an encoded MIME field on success, or FALSE if an error occurs during
+Returns an encoded MIME field on success, or &false; if an error occurs during
 the encoding.
 
 |iconv_mime_encode| example

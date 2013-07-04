@@ -12,7 +12,7 @@ Allocates a new collection object.
 {schema} Should point to the scheme, where the named type was created. The
 name of the current user is the default value.
 
-Returns a new OCICollection object or FALSE on error.
+Returns a new OCICollection object or &false; on error.
 
 In PHP versions before 5.0.0 you must use |ocinewcollection| instead. This
 name still can be used, it was left as alias of |oci_new_collection| for

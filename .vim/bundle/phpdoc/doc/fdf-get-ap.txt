@@ -14,6 +14,6 @@ or |fdf_open_string|.
 
 {filename} The appearance will be stored in this parameter.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 vim:ft=help:

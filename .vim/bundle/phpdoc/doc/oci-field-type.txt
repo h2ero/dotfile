@@ -8,7 +8,7 @@ Returns a field's data type.
 
 {field} Can be the field's index (1-based) or name.
 
-Returns the field data type as a string, or FALSE on errors.
+Returns the field data type as a string, or &false; on errors.
 
 |oci_field_type| example
 

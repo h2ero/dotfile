@@ -10,6 +10,6 @@ Converts a logical string to a visual one.
 
 {charset} One of the FRIBIDI_CHARSET_XXX constants.
 
-Returns the visual string on success or FALSE on failure.
+Returns the visual string on success or &false; on failure.
 
 vim:ft=help:

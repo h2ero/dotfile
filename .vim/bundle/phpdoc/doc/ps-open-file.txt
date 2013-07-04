@@ -11,7 +11,7 @@ file will be closed when |ps_close| is called.
 document will be created in memory and all output will go straight to the
 browser.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |ps_close|
 

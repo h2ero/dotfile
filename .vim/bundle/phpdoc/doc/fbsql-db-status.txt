@@ -14,7 +14,7 @@ the FrontBase server and if no such link is found it will try to create one as
 if |fbsql_connect| was called with no arguments.
 
 Returns an integer value with the current status. This can be one of the
-following constants: FALSE - The exec handler for the host was invalid. This
+following constants: &false; - The exec handler for the host was invalid. This
 error will occur when the {link_identifier} connects directly to a database by
 using a port number. FBExec can be available on the server but no connection
 has been made for it.

@@ -8,7 +8,7 @@ The function calculates the logical font height of {height}.
 
 {height} The font height.
 
-Returns the logical font height or FALSE on failure.
+Returns the logical font height or &false; on failure.
 
 |printer_logical_fontheight| example
 

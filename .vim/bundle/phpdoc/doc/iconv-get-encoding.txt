@@ -9,7 +9,7 @@ Retrieve internal configuration variables of iconv extension.
 output_encoding internal_encoding
 
 Returns the current value of the internal configuration variable if successful
-or FALSE on failure.
+or &false; on failure.
 
 If {type} is omitted or set to "all", |iconv_get_encoding| returns an array
 that stores all these variables.

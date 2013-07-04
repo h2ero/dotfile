@@ -10,7 +10,7 @@ such as |imagecreatetruecolor|.
 
 {thickness} Thickness, in pixels.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |imagesetthickness| example
 

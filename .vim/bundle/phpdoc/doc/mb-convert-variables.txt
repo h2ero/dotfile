@@ -21,7 +21,7 @@ the same encoding.
 
 {...} Additional {vars}.
 
-The character encoding before conversion for success, or FALSE for failure.
+The character encoding before conversion for success, or &false; for failure.
 
 |mb_convert_variables| example
 

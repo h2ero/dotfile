@@ -11,7 +11,7 @@ Creates a symbolic link named {link} on the remote filesystem pointing to
 
 {link}
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Creating a symbolic link
 

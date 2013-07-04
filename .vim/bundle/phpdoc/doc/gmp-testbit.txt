@@ -9,9 +9,10 @@ is possible to convert the latter to a number.
 
 {index} The bit to test
 
-Returns TRUE on success or &false; on failure.
+Returns &true; if the bit is set in resource {$a}, otherwise &false;.
 
-E_WARNING is issued when {index} is less than zero.
+An E_WARNING level error is issued when {index} is less than zero, and &false;
+is returned.
 
 |gmp_testbit| example
 

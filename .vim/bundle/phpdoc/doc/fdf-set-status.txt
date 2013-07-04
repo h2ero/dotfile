@@ -10,7 +10,7 @@ or |fdf_open_string|.
 
 {status}
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |fdf_get_status|
 

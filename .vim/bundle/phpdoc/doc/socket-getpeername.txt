@@ -19,8 +19,8 @@ Unix filesystem path (e.g. /var/run/daemon.sock) in the {address} parameter.
 
 {port} If given, this will hold the port associated to {address}.
 
-Returns TRUE on success or &false; on failure. |socket_getpeername| may also
-return FALSE if the socket type is not any of AF_INET, AF_INET6, or AF_UNIX,
+Returns &true; on success or &false; on failure. |socket_getpeername| may also
+return &false; if the socket type is not any of AF_INET, AF_INET6, or AF_UNIX,
 in which case the last socket error code is not updated.
 
 |socket_getpeername| should not be used with AF_UNIX sockets created with

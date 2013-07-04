@@ -12,7 +12,7 @@ omitted, the internal character encoding value will be used.
 {str} with all alphabetic characters converted to uppercase.
 
 For more information about the Unicode properties, please see
-http://www.unicode.org/unicode/reports/tr21/.
+&url.unicode.reports;.
 
 By contrast to |strtoupper|, 'alphabetic' is determined by the Unicode
 character properties. Thus the behaviour of this function is not affected by

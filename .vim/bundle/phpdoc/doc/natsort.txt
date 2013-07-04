@@ -10,7 +10,7 @@ can be seen in the example below.
 
 {array} The input array.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |natsort| examples demonstrating basic usage
 

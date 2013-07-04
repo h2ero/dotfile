@@ -9,7 +9,7 @@ PHP. This function should be used at your own risk.
 Restores the terminal state, which was previously saved by calling
 |ncurses_savetty|.
 
-Always returns FALSE.
+Always returns &false;.
 
 |ncurses_savetty|
 

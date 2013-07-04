@@ -11,7 +11,7 @@ Removes the deletion flag for a specified message, which is set by
 
 {flags}
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |imap_delete| |imap_mail_move|
 

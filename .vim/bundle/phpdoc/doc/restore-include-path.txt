@@ -4,7 +4,7 @@ option
   void restore_include_path()~
 
 Restores the include_path configuration option back to its original master
-value as set in php.ini
+value as set in &php.ini;
 
 No value is returned.
 

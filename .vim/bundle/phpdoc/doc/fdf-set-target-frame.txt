@@ -9,7 +9,7 @@ or |fdf_open_string|.
 
 {frame_name} The frame name, as a string.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |fdf_save_file|
 

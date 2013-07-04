@@ -37,7 +37,7 @@ in single quotes (') or unquoted. For example, "'TABLE','VIEW'" or "TABLE,
 VIEW". If the data source does not support a specified table type,
 |odbc_tables| does not return any results for that type.
 
-Returns an ODBC result identifier containing the information or FALSE on
+Returns an ODBC result identifier containing the information or &false; on
 failure.
 
 The result set has the following columns: TABLE_QUALIFIER

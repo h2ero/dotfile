@@ -12,7 +12,7 @@ If optional and not specified, the function will try to find an open link to
 the FrontBase server and if no such link is found it will try to create one as
 if |fbsql_connect| was called with no arguments.
 
-Returns a result pointer or FALSE on error.
+Returns a result pointer or &false; on error.
 
 |fbsql_list_dbs| example
 

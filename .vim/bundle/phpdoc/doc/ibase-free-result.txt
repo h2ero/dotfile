@@ -6,6 +6,6 @@ Frees a result set.
 
 {result_identifier} A result set created by |ibase_query| or |ibase_execute|.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 vim:ft=help:

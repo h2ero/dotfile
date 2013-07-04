@@ -12,6 +12,6 @@ be already initalized by |event_set| and |event_base_set| functions. If the
 
 {timeout} Optional timeout (in microseconds).
 
-|event_add| returns TRUE on success or FALSE on error.
+|event_add| returns &true; on success or &false; on error.
 
 vim:ft=help:

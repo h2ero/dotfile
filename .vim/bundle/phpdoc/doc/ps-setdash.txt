@@ -10,7 +10,7 @@ Sets the length of the black and white portions of a dashed line.
 
 {off} The length of the gap between dashes.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |ps_setpolydash|
 

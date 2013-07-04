@@ -16,7 +16,7 @@ which should not be stripped.
 Returns a string of up to {length} - 1 bytes read from the file pointed to by
 {handle}, with all HTML and PHP code stripped.
 
-If an error occurs, returns FALSE.
+If an error occurs, returns &false;.
 
 Version Description 5.0.0 The {length} parameter is optional
 

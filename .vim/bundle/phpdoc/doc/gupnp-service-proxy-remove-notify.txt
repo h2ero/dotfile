@@ -8,7 +8,7 @@ Cancels the variable change notification.
 
 {value} The variable to add notification for.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |gupnp_service_proxy_add_notify|
 

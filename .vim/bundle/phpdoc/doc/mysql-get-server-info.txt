@@ -1,5 +1,10 @@
 mysql_get_server_info -- Get MySQL server info
 
+This extension is deprecated as of PHP 5.5.0, and will be removed in the
+future. Instead, the MySQLi or PDO_MySQL extension should be used. See also
+MySQL: choosing an API guide and related FAQ for more information.
+Alternatives to this function include:
+
   string mysql_get_server_info([resource link_identifier])~
 
 Retrieves the MySQL server version.
@@ -10,7 +15,7 @@ is found, it will try to create one as if |mysql_connect| was called with no
 arguments. If no connection is found or established, an E_WARNING level error
 is generated.
 
-Returns the MySQL server version on success or FALSE on failure.
+Returns the MySQL server version on success or &false; on failure.
 
 |mysql_get_server_info| example
 

@@ -14,7 +14,7 @@ contents written to standard output.
 search for the file in the include_path too.
 
 Returns the number of (uncompressed) bytes read from the file. If an error
-occurs, FALSE is returned and unless the function was called as @readgzfile,
+occurs, &false; is returned and unless the function was called as @readgzfile,
 an error message is printed.
 
 |gzpassthru| |gzfile| |gzopen|

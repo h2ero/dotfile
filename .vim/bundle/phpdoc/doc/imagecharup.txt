@@ -20,7 +20,7 @@ identifiers registered with |imageloadfont|.
 
 {color} A color identifier created with |imagecolorallocate|.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |imagecharup| example
 

@@ -24,7 +24,7 @@ Ghostview.
 {url} The url of the hyperlink to be opened when clicking on this link, e.g.
 http://www.php.net.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |ps_add_launchlink| |ps_add_locallink| |ps_add_pdflink|
 

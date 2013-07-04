@@ -7,7 +7,7 @@ data.
 
 {data} The compressed string.
 
-Returns the decompressed data or FALSE if an error occurred.
+Returns the decompressed data or &false; if an error occurred.
 
 |lzf_compress|
 

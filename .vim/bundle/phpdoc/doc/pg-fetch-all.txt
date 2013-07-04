@@ -5,7 +5,7 @@ pg_fetch_all -- Fetches all rows from a result as an array
 |pg_fetch_all| returns an array that contains all rows (records) in the result
 resource.
 
-This function sets NULL fields to the PHP NULL value.
+This function sets NULL fields to the PHP &null; value.
 
 {result} PostgreSQL query result resource, returned by |pg_query|,
 |pg_query_params| or |pg_execute| (among others).
@@ -13,20 +13,20 @@ This function sets NULL fields to the PHP NULL value.
 An array with all rows in the result. Each row is an array of field values
 indexed by field name.
 
-FALSE is returned if there are no rows in the result, or on any other error.
+&false; is returned if there are no rows in the result, or on any other error.
 
 PostgreSQL fetch all
 
 <?php >
   $conn = pg_pconnect("dbname=publisher");
   if (!$conn) {
-      echo "An error occured.\n";
+      echo "An error occurred.\n";
       exit;
   }
   
   $result = pg_query($conn, "SELECT * FROM authors");
   if (!$result) {
-      echo "An error occured.\n";
+      echo "An error occurred.\n";
       exit;
   }
   

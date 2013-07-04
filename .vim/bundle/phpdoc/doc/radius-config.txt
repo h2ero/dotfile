@@ -13,7 +13,7 @@ file whose format is described in radius.conf.
 to |radius_config|. The library can also be configured programmatically by
 calls to |radius_add_server|.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |radius_add_server|
 

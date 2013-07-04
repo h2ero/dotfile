@@ -7,7 +7,7 @@ Sets whether a client disconnect should cause a script to be aborted.
 
 When running PHP as a command line script, and the script's tty goes away
 without the script being terminated then the script will die the next time it
-tries to write anything, unless {value} is set to TRUE
+tries to write anything, unless {value} is set to &true;
 
 {value} If set, this function will set the ignore_user_abort ini setting to
 the given {value}. If not, this function will only return the previous setting

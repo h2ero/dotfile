@@ -8,7 +8,7 @@ Delays program execution for the given number of {seconds} and {nanoseconds}.
 
 {nanoseconds} Must be a non-negative integer less than 1 billion.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 If the delay was interrupted by a signal, an associative array will be
 returned with the components: seconds - number of seconds remaining in the

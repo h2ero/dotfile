@@ -10,7 +10,7 @@ before.
 {text} The text being decrypted.
 
 On success, this function returns the decrypted text. On failure, this
-function returns FALSE.
+function returns &false;.
 
 Procedural |gnupg_decrypt| example
 

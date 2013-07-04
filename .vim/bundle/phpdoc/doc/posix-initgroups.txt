@@ -8,7 +8,7 @@ Calculates the group access list for the user specified in name.
 
 {base_group_id} Typically the group number from the password file.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 The Unix manual page for initgroups(3).
 

@@ -10,7 +10,7 @@ Adds a smiley to the parser
 
 {replace_by} The string that replace smiley when found.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |bbcode_add_smiley| usage example
 

@@ -17,7 +17,7 @@ This parameter is no longer used as this is now handled automatically by PHP.
 For backwards compatibility PHP will not throw an error if this parameter is
 passed.
 
-Returns the next attribute in an entry on success and FALSE on error.
+Returns the next attribute in an entry on success and &false; on error.
 
 Version Description 5.2.4 The {ber_identifier} was removed. This is now
 handled automatically by PHP.

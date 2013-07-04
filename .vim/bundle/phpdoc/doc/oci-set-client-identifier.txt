@@ -20,7 +20,7 @@ The value may be retained across persistent connections.
 
 {client_identifier} User chosen string up to 64 bytes long.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Setting the client identifier to the application user
 

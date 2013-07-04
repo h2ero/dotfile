@@ -17,7 +17,7 @@ GUPNP_CONTROL_ERROR_ACTION_FAILED The action failed.
 
 {error_description} The error description.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |gupnp_service_action_return|
 

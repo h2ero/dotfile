@@ -7,7 +7,7 @@ continent code corresponding to a hostname or an IP address.
 
 {hostname} The hostname or IP address whose location is to be looked-up.
 
-Returns the two letter continent code on success, or FALSE if the address
+Returns the two letter continent code on success, or &false; if the address
 cannot be found in the database.
 
 A |geoip_continent_code_by_name| example This will print where the host

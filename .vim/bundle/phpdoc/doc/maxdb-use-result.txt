@@ -10,7 +10,7 @@ Object oriented style
 
 |maxdb_use_result| has no effect.
 
-Returns result or FALSE on failure.
+Returns result or &false; on failure.
 
 Object oriented style
 

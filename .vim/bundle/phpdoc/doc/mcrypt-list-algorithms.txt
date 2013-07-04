@@ -5,7 +5,7 @@ mcrypt_list_algorithms -- Gets an array of all supported ciphers
 Gets the list of all supported algorithms in the {lib_dir} parameter.
 
 {lib_dir} Specifies the directory where all algorithms are located. If not
-specified, the value of the mcrypt.algorithms_dir php.ini directive is used.
+specified, the value of the mcrypt.algorithms_dir &php.ini; directive is used.
 
 Returns an array with all the supported algorithms.
 

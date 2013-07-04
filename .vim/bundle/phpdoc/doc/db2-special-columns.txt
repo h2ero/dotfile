@@ -9,7 +9,7 @@ Returns a result set listing the unique row identifier columns for a table.
 database.
 
 {qualifier} A qualifier for DB2 databases running on OS/390 or z/OS servers.
-For other databases, pass NULL or an empty string.
+For other databases, pass &null; or an empty string.
 
 {schema} The schema which contains the tables.
 
@@ -34,10 +34,10 @@ COLUMN_NAME Name of the unique column. DATA_TYPE SQL data type for the column.
 TYPE_NAME Character string representation of the SQL data type for the column.
 COLUMN_SIZE An integer value representing the size of the column.
 BUFFER_LENGTH Maximum number of bytes necessary to store data from this
-column. DECIMAL_DIGITS The scale of the column, or NULL where scale is not
+column. DECIMAL_DIGITS The scale of the column, or &null; where scale is not
 applicable. NUM_PREC_RADIX An integer value of either 10 (representing an
 exact numeric data type), 2 (representing an approximate numeric data type),
-or NULL (representing a data type for which radix is not applicable).
+or &null; (representing a data type for which radix is not applicable).
 PSEUDO_COLUMN Always returns 1.
 
 |db2_column_privileges| |db2_columns| |db2_foreign_keys| |db2_primary_keys|

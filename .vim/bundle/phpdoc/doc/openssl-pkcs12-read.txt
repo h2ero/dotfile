@@ -11,6 +11,6 @@ openssl_pkcs12_read -- Parse a PKCS#12 Certificate Store into an array
 
 {pass} Encryption password for unlocking the PKCS#12 file.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 vim:ft=help:

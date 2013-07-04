@@ -6,13 +6,13 @@ Outputs a text in a given box. The lower left corner of the box is at ({left},
 {bottom}). Line breaks will be inserted where needed. Multiple spaces are
 treated as one. Tabulators are treated as spaces.
 
-The text will be hyphenated if the parameter {hyphenation} is set to true and
-the parameter {hyphendict} contains a valid filename for a hyphenation file.
-The line spacing is taken from the value leading. Paragraphs can be separated
-by an empty line just like in TeX. If the value parindent is set to value >
-0.0 then the first n lines will be indented. The number n of lines is set by
-the parameter numindentlines. In order to prevent indenting of the first m
-paragraphs set the value parindentskip to a positive number.
+The text will be hyphenated if the parameter {hyphenation} is set to &true;
+and the parameter {hyphendict} contains a valid filename for a hyphenation
+file. The line spacing is taken from the value leading. Paragraphs can be
+separated by an empty line just like in TeX. If the value parindent is set to
+value > 0.0 then the first n lines will be indented. The number n of lines is
+set by the parameter numindentlines. In order to prevent indenting of the
+first m paragraphs set the value parindentskip to a positive number.
 
 {psdoc} Resource identifier of the postscript file as returned by |ps_new|.
 

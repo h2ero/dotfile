@@ -11,7 +11,7 @@ cleared by a successful statement.
 to the failing function call. For connection errors with |oci_connect|,
 |oci_new_connect| or |oci_pconnect| do not pass {resource}.
 
-If no error is found, |oci_error| returns FALSE. Otherwise, |oci_error|
+If no error is found, |oci_error| returns &false;. Otherwise, |oci_error|
 returns the error information as an associative array.
 
 |oci_error| Array Description Array key Type Description code integer The

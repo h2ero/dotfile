@@ -9,7 +9,7 @@ Writes the header part of a bcompiler file.
 {write_ver} Can be used to write bytecode in a previously used format, so that
 you can use it with older versions of bcompiler.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |bcompiler_write_header| example
 

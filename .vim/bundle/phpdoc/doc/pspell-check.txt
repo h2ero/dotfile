@@ -8,7 +8,7 @@ pspell_check -- Check a word
 
 {word} The tested word.
 
-Returns TRUE if the spelling is correct, FALSE if not.
+Returns &true; if the spelling is correct, &false; if not.
 
 |pspell_check| Example
 

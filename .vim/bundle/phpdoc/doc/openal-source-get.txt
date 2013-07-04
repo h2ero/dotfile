@@ -12,7 +12,7 @@ AL_REFERENCE_DISTANCE (float), AL_POSITION (array(float,float,float)),
 AL_VELOCITY (array(float,float,float)), AL_DIRECTION
 (array(float,float,float)).
 
-Returns the type associated with the property being retrieved or FALSE on
+Returns the type associated with the property being retrieved or &false; on
 failure.
 
 |openal_source_create| |openal_source_set| |openal_source_play|

@@ -8,7 +8,7 @@ strpbrk -- Search a string for any of a set of characters
 
 {char_list} This parameter is case sensitive.
 
-Returns a string starting from the character found, or FALSE if it is not
+Returns a string starting from the character found, or &false; if it is not
 found.
 
 |strpbrk| example
@@ -26,5 +26,7 @@ found.
 
 
 
+
+|strpos| |strstr| |preg_match|
 
 vim:ft=help:

@@ -10,7 +10,7 @@ Create a new form.
 
 {flags} Various flags
 
-Returns a resource link to the created form component, or FALSE on error.
+Returns a resource link to the created form component, or &false; on error.
 
 A |newt_form| example Displays a single button "Quit", which closes the
 application once it's pressed.

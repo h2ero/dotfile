@@ -16,7 +16,7 @@ parts during merging process.
 
 {error} If provided then rejected parts are stored inside this variable.
 
-Returns the merged string, FALSE if an internal error happened, or TRUE if
+Returns the merged string, &false; if an internal error happened, or &true; if
 merged string is empty.
 
 |xdiff_file_merge3|

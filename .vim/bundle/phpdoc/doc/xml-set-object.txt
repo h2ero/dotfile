@@ -10,7 +10,7 @@ could be set with |xml_set_element_handler| etc and assumed to be methods of
 
 {object} The object where to use the XML parser.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |xml_set_object| example
 

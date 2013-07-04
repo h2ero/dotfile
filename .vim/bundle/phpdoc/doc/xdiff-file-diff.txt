@@ -17,10 +17,10 @@ outputting the shortest patch file possible (can take a long time).
 {context} Indicates how many lines of context you want to include in diff
 result.
 
-{minimal} Set this parameter to TRUE if you want to minimalize size of the
+{minimal} Set this parameter to &true; if you want to minimalize size of the
 result (can take a long time).
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |xdiff_file_diff| example The following code makes unified diff of two php
 files with context length of 2.

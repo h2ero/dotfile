@@ -6,7 +6,7 @@ Duplicates the given blob object.
 
 {bid} A BLOB identifier.
 
-Returns the new blob object-id, or FALSE on errors.
+Returns the new blob object-id, or &false; on errors.
 
 |ifx_create_blob| |ifx_free_blob|
 

@@ -9,8 +9,8 @@ IMAP_WRITETIMEOUT, or IMAP_CLOSETIMEOUT.
 
 {timeout} The timeout, in seconds.
 
-If the {timeout} parameter is set, this function returns TRUE on success and
-FALSE on failure.
+If the {timeout} parameter is set, this function returns &true; on success and
+&false; on failure.
 
 If {timeout} is not provided or evaluates to -1, the current timeout value of
 {timeout_type} is returned as an integer.

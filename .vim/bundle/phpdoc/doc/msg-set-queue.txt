@@ -16,7 +16,7 @@ required to raise the msg_qbytes values above the system defined limit.
 {data} You specify the values you require by setting the value of the keys
 that you require in the {data} array.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |msg_remove_queue| |msg_receive| |msg_stat_queue| |msg_get_queue|
 

@@ -7,7 +7,7 @@ Resolve {filename} against the include path according to the same rules as
 
 {filename} The filename to resolve.
 
-Returns a string containing the resolved absolute filename, or FALSE on
+Returns a string containing the resolved absolute filename, or &false; on
 failure.
 
 |stream_resolve_include_path| example Basic usage example.

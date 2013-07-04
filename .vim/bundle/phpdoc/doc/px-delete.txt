@@ -6,6 +6,6 @@ Deletes the resource of the paradox file and frees all memory.
 
 {pxdoc} Resource identifier of the paradox database as returned by |px_new|.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 vim:ft=help:

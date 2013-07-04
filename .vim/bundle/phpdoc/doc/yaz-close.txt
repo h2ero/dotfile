@@ -5,11 +5,11 @@ yaz_close -- Close YAZ connection
 Closes the connection given by parameter {id}.
 
 This function will only close a non-persistent connection opened by setting
-the persistent option to FALSE with |yaz_connect|.
+the persistent option to &false; with |yaz_connect|.
 
 {id} The connection resource returned by |yaz_connect|.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |yaz_connect|
 

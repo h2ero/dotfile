@@ -9,7 +9,7 @@ Sets how lines are joined.
 {type} The way lines are joined. Possible values are PS_LINEJOIN_MITER,
 PS_LINEJOIN_ROUND, or PS_LINEJOIN_BEVEL.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |ps_setlinecap| |ps_setlinewidth| |ps_setmiterlimit|
 

@@ -14,7 +14,7 @@ This function used to be called |pg_loreadall|.
 {large_object} PostgreSQL large object (LOB) resource, returned by
 |pg_lo_open|.
 
-Number of bytes read or FALSE on error.
+Number of bytes read or &false; on error.
 
 |pg_lo_read_all| example
 

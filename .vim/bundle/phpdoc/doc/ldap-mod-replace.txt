@@ -12,7 +12,7 @@ Object-level modifications are done by the |ldap_modify| function.
 
 {entry}
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 This function is binary-safe.
 

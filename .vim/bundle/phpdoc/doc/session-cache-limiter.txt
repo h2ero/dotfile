@@ -16,6 +16,9 @@ some browsers, including Mozilla. You can avoid this problem by using
 private_no_expire mode. The Expire header is never sent to the client in this
 mode.
 
+Setting the cache limiter to '' will turn off automatic sending of cache
+headers entirely.
+
 The cache limiter is reset to the default value stored in
 session.cache_limiter at request startup time. Thus, you need to call
 |session_cache_limiter| for every request (and before |session_start| is

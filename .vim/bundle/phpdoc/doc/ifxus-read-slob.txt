@@ -8,7 +8,7 @@ Reads {nbytes} of the slob object.
 
 {nbytes} The number of bytes to read.
 
-Returns the slob contents as a string, or FALSE on errors.
+Returns the slob contents as a string, or &false; on errors.
 
 |ifxus_write_slob|
 

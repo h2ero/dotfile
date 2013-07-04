@@ -1,8 +1,8 @@
-XMLWriter::writeComment -- Write full comment tag
+xmlwriter_write_comment -- Write full comment tag
 
 Object oriented style
 
-  bool writeComment(string content)~
+  bool XMLWriter::writeComment(string content)~
 
 Procedural style
 
@@ -16,7 +16,7 @@ modified. This resource comes from a call to |xmlwriter_open_uri| or
 
 {content} The contents of the comment.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 XMLWriter::startComment XMLWriter::endComment
 

@@ -13,7 +13,7 @@ or |fdf_open_string|.
 
 {newFlags}
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |fdf_set_opt|
 

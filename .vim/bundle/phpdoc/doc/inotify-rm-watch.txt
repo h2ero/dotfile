@@ -9,7 +9,7 @@ instance {inotify_instance}.
 
 {watch_descriptor} Watch to remove from the instance
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |inotify_init|
 

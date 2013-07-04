@@ -19,8 +19,8 @@ XDIFF_PATCH_REVERSE (reversed patch).
 Starting from version 1.5.0, you can also use binary OR to enable
 XDIFF_PATCH_IGNORESPACE flag.
 
-Returns FALSE if an internal error happened, string with rejected chunks if
-patch couldn't be applied or TRUE if patch has been successfully applied.
+Returns &false; if an internal error happened, string with rejected chunks if
+patch couldn't be applied or &true; if patch has been successfully applied.
 
 |xdiff_file_patch| example The following code applies unified diff to a file.
 

@@ -10,7 +10,7 @@ row number. The next call to |sybase_fetch_row| would return that row.
 
 {row_number}
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |sybase_fetch_row|
 

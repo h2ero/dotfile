@@ -9,9 +9,9 @@ pointed by the given {oid}.
 
 {oid} OID of the instance that you want to put write lock on.
 
-TRUE, when process is successful.
+&true;, when process is successful.
 
-FALSE, when process is unsuccessful.
+&false;, when process is unsuccessful.
 
 |cubrid_lock_write| example
 

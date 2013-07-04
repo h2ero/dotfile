@@ -13,7 +13,7 @@ This behavior is different from that of |strstr|.
 If {needle} is not a string, it is converted to an integer and applied as the
 ordinal value of a character.
 
-This function returns the portion of string, or FALSE if {needle} is not
+This function returns the portion of string, or &false; if {needle} is not
 found.
 
 Version Description 4.3.0 This function is now binary safe.
@@ -35,6 +35,6 @@ Version Description 4.3.0 This function is now binary safe.
 
 This function is binary-safe.
 
-|strstr| |substr| |stristr|
+|strstr| |strrpos|
 
 vim:ft=help:

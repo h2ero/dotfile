@@ -21,7 +21,7 @@ in the target environment.
 {width_height_type} {width_height_type} should be one of SSH2_TERM_UNIT_CHARS
 or SSH2_TERM_UNIT_PIXELS.
 
-Returns a stream on success or FALSE on failure.
+Returns a stream on success or &false; on failure.
 
 Executing a command
 

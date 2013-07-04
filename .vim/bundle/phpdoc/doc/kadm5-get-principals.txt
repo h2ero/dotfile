@@ -6,7 +6,7 @@ kadm5_get_principals -- Gets all principals from the Kerberos database
 
 {handle} A KADM5 handle.
 
-Returns array of principals on success or FALSE on failure.
+Returns array of principals on success or &false; on failure.
 
 |kadm5_get_principals| example
 

@@ -9,7 +9,7 @@ of the script.
 
 {stmt} A valid statement resource.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |db2_free_stmt|
 

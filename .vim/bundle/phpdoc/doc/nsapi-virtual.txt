@@ -22,6 +22,6 @@ experience this problem.
 
 {uri} The URI of the script.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 vim:ft=help:

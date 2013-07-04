@@ -4,7 +4,7 @@ filter_id -- Returns the filter ID belonging to a named filter
 
 {filtername} Name of a filter to get.
 
-ID of a filter on success or FALSE if filter doesn't exist.
+ID of a filter on success or &false; if filter doesn't exist.
 
 |filter_list|
 

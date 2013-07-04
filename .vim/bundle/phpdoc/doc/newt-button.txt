@@ -10,7 +10,7 @@ Creates a new button.
 
 {text} The text which should be displayed in the button.
 
-Returns a resource link to the created button component, or FALSE on error.
+Returns a resource link to the created button component, or &false; on error.
 
 A |newt_button| example
 

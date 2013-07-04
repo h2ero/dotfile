@@ -1,8 +1,8 @@
-XMLWriter::writeCData -- Write full CDATA tag
+xmlwriter_write_cdata -- Write full CDATA tag
 
 Object oriented style
 
-  bool writeCData(string content)~
+  bool XMLWriter::writeCData(string content)~
 
 Procedural style
 
@@ -16,7 +16,7 @@ modified. This resource comes from a call to |xmlwriter_open_uri| or
 
 {content} The contents of the CDATA.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 XMLWriter::startCData XMLWriter::endCData
 

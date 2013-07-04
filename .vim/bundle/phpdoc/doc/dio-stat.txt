@@ -32,6 +32,6 @@ Returns an associative array with the following keys: "device" - device
 
 "ctime" - time of last change
 
-On error |dio_stat| returns NULL.
+On error |dio_stat| returns &null;.
 
 vim:ft=help:

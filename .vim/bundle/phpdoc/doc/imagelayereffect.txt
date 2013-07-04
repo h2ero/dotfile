@@ -9,9 +9,9 @@ Set the alpha blending flag to use the bundled libgd layering effects.
 such as |imagecreatetruecolor|.
 
 {effect} One of the following constants: IMG_EFFECT_REPLACE Use pixel
-replacement (equivalent of passing TRUE to |imagealphablending|)
+replacement (equivalent of passing &true; to |imagealphablending|)
 
-IMG_EFFECT_ALPHABLEND Use normal pixel blending (equivalent of passing FALSE
+IMG_EFFECT_ALPHABLEND Use normal pixel blending (equivalent of passing &false;
 to |imagealphablending|)
 
 IMG_EFFECT_NORMAL Same as IMG_EFFECT_ALPHABLEND.
@@ -20,7 +20,7 @@ IMG_EFFECT_OVERLAY Overlay has the effect that black background pixels will
 remain black, white background pixels will remain white, but grey background
 pixels will take the colour of the foreground pixel.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |imagelayereffect| example
 

@@ -13,7 +13,7 @@ numprimkeys fields for the primary index.
 
 {value}
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |px_set_parameter|
 

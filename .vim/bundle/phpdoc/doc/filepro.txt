@@ -12,6 +12,6 @@ operated upon have the same UID (owner) as the script that is being executed.
 
 {directory} The map directory.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 vim:ft=help:

@@ -11,7 +11,7 @@ results, one by one.
 
 {connection} PostgreSQL database connection resource.
 
-The result resource, or FALSE if no more results are available.
+The result resource, or &false; if no more results are available.
 
 |pg_get_result| example
 

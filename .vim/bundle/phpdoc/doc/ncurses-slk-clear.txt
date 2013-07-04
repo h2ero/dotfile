@@ -8,6 +8,6 @@ PHP. This function should be used at your own risk.
 
 The function |ncurses_slk_clear| clears soft label keys from screen.
 
-Returns TRUE on errors, FALSE otherwise.
+Returns &true; on errors, &false; otherwise.
 
 vim:ft=help:

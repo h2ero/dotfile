@@ -14,7 +14,7 @@ array {options}. Allowed are the following options: KADM5_PRINC_EXPIRE_TIME,
 KADM5_PW_EXPIRATION, KADM5_ATTRIBUTES, KADM5_MAX_LIFE, KADM5_KVNO,
 KADM5_POLICY, KADM5_CLEARPOLICY, KADM5_MAX_RLIFE. KADM5_FAIL_AUTH_COUNT.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Example of modifying principal
 

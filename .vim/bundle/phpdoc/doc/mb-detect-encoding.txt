@@ -12,9 +12,9 @@ may be specified by array or comma separated list string.
 If {encoding_list} is omitted, detect_order is used.
 
 {strict} {strict} specifies whether to use the strict encoding detection or
-not. Default is FALSE.
+not. Default is &false;.
 
-The detected character encoding or FALSE if the encoding cannot be detected
+The detected character encoding or &false; if the encoding cannot be detected
 from the given string.
 
 |mb_detect_encoding| example

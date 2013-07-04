@@ -8,7 +8,7 @@ was registered to handle.
 
 {event} An event resource, created by |ibase_set_event_handler|.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |ibase_set_event_handler|
 

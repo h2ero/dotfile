@@ -14,7 +14,7 @@ ftp_put -- Uploads a file to the FTP server
 
 {startpos} The position in the remote file to start uploading to.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |ftp_put| example
 

@@ -26,7 +26,7 @@ GUPNP_TYPE_FLOAT Type of the variable is float.
 
 GUPNP_TYPE_STRING Type of the variable is string.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Issues E_WARNING with either not correctly defined type of the action or
 unable to send action.

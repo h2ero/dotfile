@@ -9,7 +9,7 @@ call to |mssql_query|.
 
 {offset} The field offset, starts at 0. If omitted, the current field is used.
 
-The name of the specified field index on success or FALSE on failure.
+The name of the specified field index on success or &false; on failure.
 
 |mssql_field_name| example
 

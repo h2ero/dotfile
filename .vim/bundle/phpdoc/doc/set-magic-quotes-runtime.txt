@@ -5,12 +5,11 @@ magic_quotes_runtime
 
 Set the current active configuration setting of magic_quotes_runtime.
 
-This function has been DEPRECATED as of PHP 5.3.0. Relying on this feature is
-highly discouraged.
+This function has been DEPRECATED as of PHP 5.3.0 and REMOVED as of PHP 5.4.0.
 
-{new_setting} FALSE for off, TRUE for on.
+{new_setting} &false; for off, &true; for on.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |set_magic_quotes_runtime| example
 

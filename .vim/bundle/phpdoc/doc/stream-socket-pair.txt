@@ -17,7 +17,7 @@ STREAM_IPPROTO_RAW, STREAM_IPPROTO_TCP or STREAM_IPPROTO_UDP
 
 Please consult the Streams constant list for further details on each constant.
 
-Returns an array with the two socket resources on success, or FALSE on
+Returns an array with the two socket resources on success, or &false; on
 failure.
 
 Version Description 5.3.0 This function is now available on Windows platforms.

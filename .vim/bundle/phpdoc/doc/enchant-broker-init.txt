@@ -4,7 +4,7 @@ enchant_broker_init -- create a new broker object capable of requesting
 
 
 
-Returns a broker resource on success or FALSE.
+Returns a broker resource on success or &false;.
 
 |enchant_broker_free|
 

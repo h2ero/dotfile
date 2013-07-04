@@ -8,6 +8,6 @@ open on the file descriptor {fd}.
 {fd} The file descriptor.
 
 On success, returns a string of the absolute path of the {fd}. On failure,
-returns FALSE
+returns &false;
 
 vim:ft=help:

@@ -9,7 +9,7 @@ This function has no parameters.
 
 
 
-|event_base_new| returns valid event base resource on success or FALSE on
+|event_base_new| returns valid event base resource on success or &false; on
 error.
 
 vim:ft=help:

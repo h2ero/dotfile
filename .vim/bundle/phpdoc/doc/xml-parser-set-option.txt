@@ -20,7 +20,7 @@ ISO-8859-1, US-ASCII and UTF-8.
 
 {value} The option's new value.
 
-This function returns FALSE if {parser} does not refer to a valid parser, or
-if the option could not be set. Else the option is set and TRUE is returned.
+This function returns &false; if {parser} does not refer to a valid parser, or
+if the option could not be set. Else the option is set and &true; is returned.
 
 vim:ft=help:

@@ -12,7 +12,7 @@ useful for handling such things as file permissions and group membership.
 {command} The SITE command. Note that this parameter isn't escaped so there
 may be some issues with filenames containing spaces and other characters.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Sending a SITE command to an ftp server
 

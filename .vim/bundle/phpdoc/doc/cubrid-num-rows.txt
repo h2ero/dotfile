@@ -10,13 +10,16 @@ query, you have to use the |cubrid_affected_rows| function.
 Note: The |cubrid_num_rows| function can only be used for synchronous query;
 it returns 0 when it is used for asynchronous query.
 
-{result} Result.
+{result} {result} comes from a call to |cubrid_execute|, |cubrid_query| and
+|cubrid_prepare|
 
 Number of rows, when process is successful.
 
 0 when the query was done in async mode.
 
 -1, if SQL statement is not SELECT.
+
+&false; when process is unsuccessful.
 
 |cubrid_num_rows| example
 

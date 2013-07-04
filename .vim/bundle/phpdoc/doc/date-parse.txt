@@ -4,7 +4,7 @@ date_parse -- Returns associative array with detailed info about given date
 
 {date} Date in format accepted by |strtotime|.
 
-Returns array with information about the parsed date on success or FALSE on
+Returns array with information about the parsed date on success or &false; on
 failure.
 
 In case the date format has an error, the element 'errors' will contains the

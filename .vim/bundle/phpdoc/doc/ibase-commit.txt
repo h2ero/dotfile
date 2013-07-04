@@ -10,6 +10,6 @@ connection identifier, the default transaction of the corresponding connection
 will be committed. If the argument is a transaction identifier, the
 corresponding transaction will be committed.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 vim:ft=help:

@@ -19,7 +19,7 @@ Refer to |db2_prepare| for a brief discussion of the advantages of using
 {parameters} An array of input parameters matching any parameter markers
 contained in the prepared statement.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Preparing and executing an SQL statement with parameter markers The following
 example prepares an INSERT statement that accepts four parameter markers, then

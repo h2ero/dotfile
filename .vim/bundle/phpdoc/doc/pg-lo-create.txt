@@ -27,7 +27,7 @@ object with this id, else a free object id is assigned by the server. The
 parameter was added in PHP 5.3 and relies on functionality that first appeared
 in PostgreSQL 8.1.
 
-A large object OID or FALSE on error.
+A large object OID or &false; on error.
 
 Version Description 5.3.0 The optional {object_id} was added.
 

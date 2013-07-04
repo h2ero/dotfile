@@ -20,7 +20,7 @@ informational message LOG_DEBUG debug-level message
 replaced by the error message string (strerror) corresponding to the present
 value of errno.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Using |syslog|
 

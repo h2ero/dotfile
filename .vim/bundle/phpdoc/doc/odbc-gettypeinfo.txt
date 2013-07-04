@@ -11,7 +11,7 @@ details.
 {data_type} The data type, which can be used to restrict the information to a
 single data type.
 
-Returns an ODBC result identifier or FALSE on failure.
+Returns an ODBC result identifier or &false; on failure.
 
 The result set has the following columns: TYPE_NAME
 

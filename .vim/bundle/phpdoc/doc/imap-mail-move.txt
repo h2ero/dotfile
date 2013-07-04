@@ -14,7 +14,7 @@ RFC2060).
 {options} {options} is a bitmask and may contain the single option: CP_UID -
 the sequence numbers contain UIDS
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |imap_mail_move| will flag the original mail with a delete flag, to
 successfully delete it a call to the |imap_expunge| function must be made.

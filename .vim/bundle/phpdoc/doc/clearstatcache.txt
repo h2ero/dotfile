@@ -14,9 +14,9 @@ file.
 
 You should also note that PHP doesn't cache information about non-existent
 files. So, if you call |file_exists| on a file that doesn't exist, it will
-return FALSE until you create the file. If you create the file, it will return
-TRUE even if you then delete the file. However |unlink| clears the cache
-automatically.
+return &false; until you create the file. If you create the file, it will
+return &true; even if you then delete the file. However |unlink| clears the
+cache automatically.
 
 This function caches information about specific filenames, so you only need to
 call |clearstatcache| if you are performing multiple operations on the same
@@ -30,8 +30,8 @@ Affected functions include |stat|, |lstat|, |file_exists|, |is_writable|,
 
 {clear_realpath_cache} Whether to clear the realpath cache or not.
 
-{filename} Clear the realpath cache for a specific filename; only used if
-{clear_realpath_cache} is TRUE.
+{filename} Clear the realpath and the stat cache for a specific filename only;
+only used if {clear_realpath_cache} is &true;.
 
 No value is returned.
 

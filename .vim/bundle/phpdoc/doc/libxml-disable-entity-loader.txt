@@ -4,8 +4,8 @@ libxml_disable_entity_loader -- Disable the ability to load external entities
 
 Disable/enable the ability to load external entities.
 
-{disable} Disable (TRUE) or enable (FALSE) libxml extensions (such as , and )
-to load external entities.
+{disable} Disable (&true;) or enable (&false;) libxml extensions (such as ,
+and ) to load external entities.
 
 Returns the previous value.
 

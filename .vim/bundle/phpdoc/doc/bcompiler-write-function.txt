@@ -1,4 +1,4 @@
-bcompiler_write_function -- Writes an defined function as bytecodes
+bcompiler_write_function -- Writes a defined function as bytecodes
 
   bool bcompiler_write_function(resource filehandle, string functionName)~
 
@@ -10,7 +10,7 @@ and you compile it like the example below, it will work perfectly OK).
 
 {functionName} The function name, as a string.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |bcompiler_write_function| example
 

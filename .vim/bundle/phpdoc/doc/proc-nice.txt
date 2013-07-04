@@ -11,7 +11,7 @@ way.
 
 {increment} The increment value of the priority change.
 
-Returns TRUE on success or &false; on failure. If an error occurs, like the
+Returns &true; on success or &false; on failure. If an error occurs, like the
 user lacks permission to change the priority, an error of level E_WARNING is
 also generated.
 

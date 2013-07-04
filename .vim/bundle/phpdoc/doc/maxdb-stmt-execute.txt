@@ -20,7 +20,7 @@ Likewise, if the query yields a result set the |maxdb_fetch| function is used.
 When using |maxdb_stmt_execute|, the |maxdb_fetch| function must be used to
 fetch the data prior to preforming any additional queries.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Object oriented style
 

@@ -1,6 +1,6 @@
 register_tick_function -- Register a function for execution on each tick
 
-  bool register_tick_function(callback function [, mixed arg [, mixed ...]])~
+  bool register_tick_function(callable function [, mixed arg [, mixed ...]])~
 
 Registers the given {function} to be executed when a tick is called.
 
@@ -11,7 +11,7 @@ and a method.
 
 {...}
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |register_tick_function| example
 

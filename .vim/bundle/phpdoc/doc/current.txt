@@ -10,12 +10,12 @@ initialized to the first element inserted into the array.
 The |current| function simply returns the value of the array element that's
 currently being pointed to by the internal pointer. It does not move the
 pointer in any way. If the internal pointer points beyond the end of the
-elements list or the array is empty, |current| returns FALSE.
+elements list or the array is empty, |current| returns &false;.
 
-This function may return Boolean FALSE, but may also return a non-Boolean
-value which evaluates to FALSE, such as 0 or "". Please read the section on
-Booleans for more information. Use the === operator for testing the return
-value of this function.
+This function may return Boolean &false;, but may also return a non-Boolean
+value which evaluates to &false;. Please read the section on Booleans for more
+information. Use the === operator for testing the return value of this
+function.
 
 Example use of |current| and friends
 
@@ -39,8 +39,8 @@ Example use of |current| and friends
 
 
 
-You won't be able to distinguish the end of an array from a boolean FALSE
-element. To properly traverse an array which may contain FALSE elements, see
+You won't be able to distinguish the end of an array from a boolean &false;
+element. To properly traverse an array which may contain &false; elements, see
 the |each| function.
 
 |end| |key| |each| |prev| |reset| |next|

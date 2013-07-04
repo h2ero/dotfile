@@ -10,7 +10,7 @@ be freed when the script is finished.
 
 {result_id} The result identifier.
 
-Always returns TRUE.
+Always returns &true;.
 
 If auto-commit is disabled (see |odbc_autocommit|) and you call
 |odbc_free_result| before committing, all pending transactions are rolled

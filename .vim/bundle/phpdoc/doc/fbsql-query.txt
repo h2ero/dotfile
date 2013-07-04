@@ -21,20 +21,20 @@ if |fbsql_connect| was called with no arguments.
 
 {batch_size}
 
-|fbsql_query| returns TRUE (non-zero) or FALSE to indicate whether or not the
-query succeeded. A return value of TRUE means that the query was legal and
-could be executed by the server. It does not indicate anything about the
+|fbsql_query| returns &true; (non-zero) or &false; to indicate whether or not
+the query succeeded. A return value of &true; means that the query was legal
+and could be executed by the server. It does not indicate anything about the
 number of rows affected or returned. It is perfectly possible for a query to
 succeed but affect no rows or return no rows.
 
 For SELECT statements, |fbsql_query| returns a new result identifier that you
 can pass to |fbsql_result|.
 
-|fbsql_query| will also fail and return FALSE if you don't have permission to
-access the table(s) referenced by the query.
+|fbsql_query| will also fail and return &false; if you don't have permission
+to access the table(s) referenced by the query.
 
 The following query is syntactically invalid, so |fbsql_query| fails and
-returns FALSE: |fbsql_query| example
+returns &false;: |fbsql_query| example
 
 <?php >
   $result = fbsql_query("SELECT * WHERE 1=1")
@@ -46,7 +46,8 @@ returns FALSE: |fbsql_query| example
 
 
 The following query is semantically invalid if my_col is not a column in the
-table my_tbl, so |fbsql_query| fails and returns FALSE: |fbsql_query| example
+table my_tbl, so |fbsql_query| fails and returns &false;: |fbsql_query|
+example
 
 <?php >
   $result = fbsql_query ("SELECT my_col FROM my_tbl;")

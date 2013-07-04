@@ -9,7 +9,7 @@ Checks whether the given {key} is the private key that corresponds to {cert}.
 
 {key} The private key.
 
-Returns TRUE if {key} is the private key that corresponds to {cert}, or FALSE
-otherwise.
+Returns &true; if {key} is the private key that corresponds to {cert}, or
+&false; otherwise.
 
 vim:ft=help:

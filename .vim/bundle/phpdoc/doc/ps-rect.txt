@@ -18,7 +18,7 @@ lower left corner then there will be a gap in the path.
 
 {height} The height of the image.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |ps_arc| |ps_cirle| |ps_lineto|
 

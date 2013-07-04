@@ -4,10 +4,10 @@ apc_sma_info -- Retrieves APC's Shared Memory Allocation information
 
 Retrieves APC's Shared Memory Allocation information.
 
-{limited} When set to FALSE (default) |apc_sma_info| will return a detailed
+{limited} When set to &false; (default) |apc_sma_info| will return a detailed
 information about each segment.
 
-Array of Shared Memory Allocation data; FALSE on failure.
+Array of Shared Memory Allocation data; &false; on failure.
 
 A |apc_sma_info| example
 

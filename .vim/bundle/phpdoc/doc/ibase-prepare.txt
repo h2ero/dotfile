@@ -12,6 +12,6 @@ Prepare a query for later binding of parameter placeholders and execution (via
 
 {query} An InterBase query.
 
-Returns a prepared query handle, or FALSE on error.
+Returns a prepared query handle, or &false; on error.
 
 vim:ft=help:

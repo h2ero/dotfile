@@ -7,7 +7,7 @@ Everything drawn outside of that area will not be visible.
 
 {psdoc} Resource identifier of the postscript file as returned by |ps_new|.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |ps_closepath|
 

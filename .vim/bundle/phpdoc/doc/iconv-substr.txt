@@ -32,7 +32,7 @@ offsets.
 Returns the portion of {str} specified by the {offset} and {length}
 parameters.
 
-If {str} is shorter than {offset} characters long, FALSE will be returned.
+If {str} is shorter than {offset} characters long, &false; will be returned.
 
 |substr| |mb_substr| |mb_strcut|
 

@@ -1,15 +1,15 @@
-SQLiteUnbuffered->fetch -- Fetches the next row from a result set as an array
+SQLiteUnbuffered::fetch -- Fetches the next row from a result set as an array
 
   array sqlite_fetch_array(resource result [, int result_type [, bool decode_binary]])~
 
 Object oriented style (method):
 
-  array fetch(resource result [, int result_type [, bool decode_binary [, int result_type [, bool decode_binary]]]])~
+  array SQLiteResult::fetch(resource result [, int result_type [, bool decode_binary [, int result_type [, bool decode_binary]]]])~
 
-  array fetch(resource result [, int result_type [, bool decode_binary [, int result_type [, bool decode_binary [, int result_type [, bool decode_binary]]]]]])~
+  array SQLiteUnbuffered::fetch(resource result [, int result_type [, bool decode_binary [, int result_type [, bool decode_binary [, int result_type [, bool decode_binary]]]]]])~
 
 Fetches the next row from the given {result} handle. If there are no more
-rows, returns FALSE, otherwise returns an associative array representing the
+rows, returns &false;, otherwise returns an associative array representing the
 row data.
 
 {result} The SQLite result resource. This parameter is not required when using
@@ -22,14 +22,14 @@ only numerical indices (ordinal field numbers). SQLITE_BOTH will return both
 associative and numerical indices. SQLITE_BOTH is the default for this
 function.
 
-{decode_binary} When the {decode_binary} parameter is set to TRUE (the
+{decode_binary} When the {decode_binary} parameter is set to &true; (the
 default), PHP will decode the binary encoding it applied to the data if it was
 encoded using the |sqlite_escape_string|. You should normally leave this value
 at its default, unless you are interoperating with databases created by other
 sqlite capable applications.
 
-Returns an array of the next row from a result set; FALSE if the next position
-is beyond the final row.
+Returns an array of the next row from a result set; &false; if the next
+position is beyond the final row.
 
 The column names returned by SQLITE_ASSOC and SQLITE_BOTH will be case-folded
 according to the value of the sqlite.assoc_case configuration option.

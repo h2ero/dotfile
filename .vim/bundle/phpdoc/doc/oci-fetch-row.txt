@@ -4,7 +4,7 @@ oci_fetch_row -- Returns the next row from a query as a numeric array
 
 Returns a numerically indexed array containing the next result-set row of a
 query. Each array entry corresponds to a column of the row. This function is
-typically called in a loop until it returns FALSE, indicating no more rows
+typically called in a loop until it returns &false;, indicating no more rows
 exist.
 
 Calling |oci_fetch_row| is identical to calling |oci_fetch_array| with OCI_NUM
@@ -14,7 +14,7 @@ Calling |oci_fetch_row| is identical to calling |oci_fetch_array| with OCI_NUM
 executed by |oci_execute|, or a REF CURSOR statement identifier.
 
 Returns a numerically indexed array. If there are no more rows in the
-{statement} then FALSE is returned.
+{statement} then &false; is returned.
 
 See |oci_fetch_array| for examples of fetching rows.
 
