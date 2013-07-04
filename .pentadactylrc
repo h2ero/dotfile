@@ -3,6 +3,7 @@ colorscheme molokai
 loadplugins '\.(js|penta)$'
 
 
+
 "set设置{{{
 
     "界面设置，在tab上显示序号{
@@ -13,7 +14,7 @@ loadplugins '\.(js|penta)$'
     "设置hint为字母模式{
         ":set hintkeys=asdfg;lkjh
         :set hintmatching=custom 
-        :set chinesehints='pingyin'
+        ":set chinesehints='pingyin'
     "}
 
     "防止在最后一个tab的时候按d退出firefox{
@@ -100,24 +101,24 @@ loadplugins '\.(js|penta)$'
 "}}}
 
 """自定义js{{{
-js <<EOF
-function beta(arg){
-    var v=arg;
-    var url=window.top.getBrowser().selectedBrowser.contentWindow.location.href;
-    url=url.replace(/http:\/\//g,'').split('/')[0];
-    pattern=/.*beta.*/;
-    if(pattern.test(url)){
-       urls=url.split('.');
-       urls[0]='beta'+arg;
-       betaurl=urls.join('.');
-    }else{
-        betaurl='beta'+arg+'.'+url;
-    }
-    betaurl=betaurl;
-    window.gBrowser.loadURI(betaurl);
-    }
-EOF
-
-nmap -c -e e js beta(<count>)
+"js <<EOF
+"function beta(arg){
+"    var v=arg;
+"    var url=window.top.getBrowser().selectedBrowser.contentWindow.location.href;
+"    url=url.replace(/http:\/\//g,'').split('/')[0];
+"    pattern=/.*beta.*/;
+"    if(pattern.test(url)){
+"       urls=url.split('.');
+"       urls[0]='beta'+arg;
+"       betaurl=urls.join('.');
+"    }else{
+"        betaurl='beta'+arg+'.'+url;
+"    }
+"    betaurl=betaurl;
+"    window.gBrowser.loadURI(betaurl);
+"    }
+"EOF
+"
+"nmap -c -e e js beta(<count>)
 
 """}}}
