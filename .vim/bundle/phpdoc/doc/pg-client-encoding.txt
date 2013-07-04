@@ -18,7 +18,7 @@ The function used to be called |pg_clientencoding|.
 present, the default connection is used. The default connection is the last
 connection made by |pg_connect| or |pg_pconnect|.
 
-The client encoding, or FALSE on error.
+The client encoding, or &false; on error.
 
 |pg_client_encoding| example
 

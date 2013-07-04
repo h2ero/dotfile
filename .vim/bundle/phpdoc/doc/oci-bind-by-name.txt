@@ -90,7 +90,7 @@ SQLT_LBI - for LONG RAW columns;
 
 SQLT_RSET - for cursors created with |oci_new_cursor|.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Inserting data with |oci_bind_by_name|
 
@@ -544,7 +544,7 @@ Binding a CLOB column
 
 
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Do not use magic_quotes_gpc or |addslashes| and |oci_bind_by_name|
 simultaneously as no quoting is needed. Any magically applied quotes will be

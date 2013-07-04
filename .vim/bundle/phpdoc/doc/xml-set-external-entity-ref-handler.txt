@@ -1,7 +1,7 @@
 xml_set_external_entity_ref_handler -- Set up external entity reference
 handler
 
-  bool xml_set_external_entity_ref_handler(resource parser, callback handler)~
+  bool xml_set_external_entity_ref_handler(resource parser, callable handler)~
 
 Sets the external entity reference handler function for the XML parser
 {parser}.
@@ -12,10 +12,10 @@ handler function.
 {handler} {handler} is a string containing the name of a function that must
 exist when |xml_parse| is called for {parser}.
 
-  bool (resource parser, callback handler, resource parser, string open_entity_names, string base, string system_id, string public_id)~
+  bool (resource parser, callable handler, resource parser, string open_entity_names, string base, string system_id, string public_id)~
 
 The function named by {handler} must accept five parameters, and should return
-an integer value.If the value returned from the handler is FALSE (which it
+an integer value.If the value returned from the handler is &false; (which it
 will be if no value is returned), the XML parser will stop parsing and
 |xml_get_error_code| will return XML_ERROR_EXTERNAL_ENTITY_HANDLING. {parser}
 The first parameter, parser, is a reference to the XML parser calling the
@@ -37,12 +37,12 @@ specified in the entity declaration, or an empty string if none was specified;
 the whitespace in the public identifier will have been normalized as required
 by the XML spec.
 
-If a handler function is set to an empty string, or FALSE, the handler in
+If a handler function is set to an empty string, or &false;, the handler in
 question is disabled.
 
 Instead of a function name, an array containing an object reference and a
 method name can also be supplied.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 vim:ft=help:

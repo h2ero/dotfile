@@ -11,7 +11,7 @@ cannot be located.
 
 {hostname} The hostname or IP address.
 
-Returns the ISP name on success, or FALSE if the address cannot be found in
+Returns the ISP name on success, or &false; if the address cannot be found in
 the database.
 
 A |geoip_isp_by_name| example This will print the ISP name of host

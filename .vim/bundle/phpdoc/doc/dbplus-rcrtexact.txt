@@ -11,7 +11,7 @@ under a new {name}.
 {relation} The copied relation, opened by |dbplus_open|.
 
 {overwrite} An existing relation by the same {name} will only be overwritten
-if this parameter is set to TRUE and no other process is currently using the
+if this parameter is set to &true; and no other process is currently using the
 relation.
 
 Returns resource on success or DBPLUS_ERR_UNKNOWN on failure.

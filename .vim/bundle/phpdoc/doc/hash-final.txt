@@ -4,7 +4,7 @@ hash_final -- Finalize an incremental hash and return resulting digest
 
 {context} Hashing context returned by |hash_init|.
 
-{raw_output} When set to TRUE, outputs raw binary data. FALSE outputs
+{raw_output} When set to &true;, outputs raw binary data. &false; outputs
 lowercase hexits.
 
 Returns a string containing the calculated message digest as lowercase hexits

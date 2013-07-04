@@ -8,7 +8,7 @@ Returns the name of the specified field index.
 
 {field_index} The numerical offset of the field. The field index starts at 0.
 
-Returns the name as a string, or FALSE if the field doesn't exist.
+Returns the name as a string, or &false; if the field doesn't exist.
 
 |fbsql_field_name| example
 

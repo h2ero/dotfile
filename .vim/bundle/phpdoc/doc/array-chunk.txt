@@ -9,13 +9,13 @@ Chunks an array into {size} large chunks. The last chunk may contain less than
 
 {size} The size of each chunk
 
-{preserve_keys} When set to TRUE keys will be preserved. Default is FALSE
+{preserve_keys} When set to &true; keys will be preserved. Default is &false;
 which will reindex the chunk numerically
 
 Returns a multidimensional numerically indexed array, starting with zero, with
 each dimension containing {size} elements.
 
-If {size} is less than 1 E_WARNING will be thrown and NULL returned.
+If {size} is less than 1 E_WARNING will be thrown and &null; returned.
 
 |array_chunk| example
 
@@ -69,5 +69,7 @@ The above example will output:
   )
 
 
+
+|array_slice|
 
 vim:ft=help:

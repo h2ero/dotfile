@@ -15,7 +15,7 @@ Starting with version 1.5.0 this function is an alias of |xdiff_file_bdiff|.
 {dest} Path of the resulting patch file. Resulting file contains differences
 between "old" and "new" files. It is in binary format and is human-unreadable.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |xdiff_file_diff_binary| example The following code makes binary diff of two
 archives.

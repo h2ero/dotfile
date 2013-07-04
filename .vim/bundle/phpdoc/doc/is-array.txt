@@ -6,7 +6,7 @@ Finds whether the given variable is an array.
 
 {var} The variable being evaluated.
 
-Returns TRUE if {var} is an array, FALSE otherwise.
+Returns &true; if {var} is an array, &false; otherwise.
 
 Check that variable is an array
 

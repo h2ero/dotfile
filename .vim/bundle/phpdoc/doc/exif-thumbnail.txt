@@ -8,8 +8,8 @@ If you want to deliver thumbnails through this function, you should send the
 mimetype information using the |header| function.
 
 It is possible that |exif_thumbnail| cannot create an image but can determine
-its size. In this case, the return value is FALSE but {width} and {height} are
-set.
+its size. In this case, the return value is &false; but {width} and {height}
+are set.
 
 {filename} The name of the image file being read. This image contains an
 embedded thumbnail.
@@ -21,7 +21,7 @@ embedded thumbnail.
 {imagetype} The returned image type of the returned thumbnail. This is either
 TIFF or JPEG.
 
-Returns the embedded thumbnail, or FALSE if the image contains no thumbnail.
+Returns the embedded thumbnail, or &false; if the image contains no thumbnail.
 
 Version Description 4.3.0 The optional parameters {width}, {height}, and
 {imagetype} all became available. 4.3.0 May return thumbnails in the TIFF

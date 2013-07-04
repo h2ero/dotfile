@@ -4,8 +4,8 @@ openssl_get_md_methods -- Gets available digest methods
 
 Gets a list of available digest methods.
 
-{aliases} Set to TRUE if digest aliases should be included within the returned
-array.
+{aliases} Set to &true; if digest aliases should be included within the
+returned array.
 
 An array of available digest methods.
 

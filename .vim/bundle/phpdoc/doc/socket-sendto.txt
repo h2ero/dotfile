@@ -22,8 +22,8 @@ completes the transaction. MSG_DONTROUTE Bypass routing, use direct interface.
 
 {port} {port} is the remote port number at which the data will be sent.
 
-|socket_sendto| returns the number of bytes sent to the remote host, or FALSE
-if an error occurred.
+|socket_sendto| returns the number of bytes sent to the remote host, or
+&false; if an error occurred.
 
 |socket_sendto| Example
 

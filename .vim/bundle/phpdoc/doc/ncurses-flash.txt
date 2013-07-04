@@ -8,7 +8,7 @@ PHP. This function should be used at your own risk.
 
 Flashes the screen, and if its not possible, sends an audible alert (bell).
 
-Returns FALSE on success, otherwise TRUE.
+Returns &false; on success, otherwise &true;.
 
 |ncurses_beep|
 

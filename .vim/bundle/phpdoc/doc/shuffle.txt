@@ -6,7 +6,7 @@ This function shuffles (randomizes the order of the elements in) an array.
 
 {array} The array.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |shuffle| example
 
@@ -28,6 +28,6 @@ This function assigns new keys to the elements in {array}. It will remove any
 existing keys that may have been assigned, rather than just reordering the
 keys.
 
-The comparison of array sorting functions
+|array_rand| The comparison of array sorting functions
 
 vim:ft=help:

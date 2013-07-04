@@ -10,7 +10,7 @@ Returns terminal to normal (cooked) mode. Initially the terminal may or may
 not in cbreak mode as the mode is inherited. Therefore a program should call
 |ncurses_cbreak| and |ncurses_nocbreak| explicitly.
 
-Returns TRUE if any error occurred, otherwise FALSE.
+Returns &true; if any error occurred, otherwise &false;.
 
 |ncurses_cbreak|
 

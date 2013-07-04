@@ -13,7 +13,7 @@ and |mb_ereg_search_regs|.
 
 {option} The search option.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 The internal encoding or the character encoding specified by
 |mb_regex_encoding| will be used as the character encoding for this function.

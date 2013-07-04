@@ -26,6 +26,9 @@ returned as an array. Otherwise, if optional parameters are passed, the
 function will return the number of assigned values. The optional parameters
 must be passed by reference.
 
+If there are more substrings expected in the {format} than there are available
+within {str}, -1 will be returned.
+
 |sscanf| Example
 
 <?php >

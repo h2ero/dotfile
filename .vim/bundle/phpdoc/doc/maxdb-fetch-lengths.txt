@@ -1,4 +1,4 @@
-maxdb_result->lengths -- Returns the lengths of the columns of the current row
+maxdb_result::lengths -- Returns the lengths of the columns of the current row
 in the result set
 
 Procedural style
@@ -10,14 +10,14 @@ Object oriented style
 The |maxdb_fetch_lengths| function returns an array containing the lengths of
 every column of the current row within the result set represented by the
 {result} parameter. If successful, a numerically indexed array representing
-the lengths of each column is returned or FALSE on failure.
+the lengths of each column is returned or &false; on failure.
 
 An array of integers representing the size of each column (not including any
-terminating null characters). FALSE if an error occurred.
+terminating null characters). &false; if an error occurred.
 
 |maxdb_fetch_lengths| is valid only for the current row of the result set. It
-returns FALSE if you call it before calling maxdb_fetch_row/array/resource or
-after retrieving all rows in the result.
+returns &false; if you call it before calling maxdb_fetch_row/array/resource
+or after retrieving all rows in the result.
 
 Object oriented style
 

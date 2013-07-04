@@ -6,7 +6,7 @@ rpm_close -- Closes an RPM file
 
 {rpmr} A file pointer resource successfully opened by |rpm_open|.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |rpm_close| example
 

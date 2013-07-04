@@ -12,9 +12,9 @@ all the other filesystem functions (such as |fopen|, |fread| etc.).
 {flags} Should be set to STREAM_IS_URL if {protocol} is a URL protocol.
 Default is 0, local stream.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
-|stream_wrapper_register| will return FALSE if the {protocol} already has a
+|stream_wrapper_register| will return &false; if the {protocol} already has a
 handler.
 
 Version Description 5.2.4 Added the {flags} parameter.

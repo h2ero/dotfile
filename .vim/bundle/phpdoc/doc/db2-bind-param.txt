@@ -35,7 +35,7 @@ from the stored procedure.
 {scale} Specifies the scale with which the variable should be bound to the
 database.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Binding PHP variables to a prepared statement The SQL statement in the
 following example uses two input parameters in the WHERE clause. We call

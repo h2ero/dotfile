@@ -5,7 +5,7 @@ closelog -- Close connection to system logger
 |closelog| closes the descriptor being used to write to the system logger. The
 use of |closelog| is optional.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |syslog| |openlog|
 

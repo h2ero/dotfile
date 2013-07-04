@@ -12,7 +12,7 @@ This function is also called by |ps_delete| if it has not been called before.
 
 {psdoc} Resource identifier of the postscript file as returned by |ps_new|.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |ps_open_file| |ps_delete|
 

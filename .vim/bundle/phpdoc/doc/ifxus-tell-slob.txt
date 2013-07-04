@@ -6,7 +6,7 @@ Returns the current file or seek position of an open slob object
 
 {bid} An existing slob id.
 
-Returns the seek position as an integer, or FALSE on errors.
+Returns the seek position as an integer, or &false; on errors.
 
 |ifxus_seek_slob|
 

@@ -2,8 +2,8 @@ pg_lo_unlink -- Delete a large object
 
   bool pg_lo_unlink(resource connection, int oid)~
 
-|pg_lo_unlink| deletes a large object with the {oid}. Returns TRUE on success
-or &false; on failure.
+|pg_lo_unlink| deletes a large object with the {oid}. Returns &true; on
+success or &false; on failure.
 
 To use the large object interface, it is necessary to enclose it within a
 transaction block.
@@ -16,7 +16,7 @@ connection made by |pg_connect| or |pg_pconnect|.
 
 {oid} The OID of the large object in the database.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |pg_lo_unlink| example
 

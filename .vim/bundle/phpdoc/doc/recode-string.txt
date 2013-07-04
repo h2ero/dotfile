@@ -8,12 +8,13 @@ Recode the string {string} according to the recode request {request}.
 
 {string} The string to be recoded
 
-Returns the recoded string or FALSE, if unable to perform the recode request.
+Returns the recoded string or &false;, if unable to perform the recode
+request.
 
 Basic |recode_string| example
 
 <?php >
-  echo recode_string("us..flat", "The following character has a diacritical mark: &amp;aacute;");
+  echo recode_string("us..flat", "The following character has a diacritical mark: á");
 ?>
 
 

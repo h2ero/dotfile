@@ -11,7 +11,8 @@ See |oci_fetch_array| for general information about fetching data.
 {statement} A valid OCI8 statement identifier created by |oci_parse| and
 executed by |oci_execute|, or a REF CURSOR statement identifier.
 
-Returns TRUE on success or FALSE if there are no more rows in the {statement}.
+Returns &true; on success or &false; if there are no more rows in the
+{statement}.
 
 |oci_fetch| with defined variables
 

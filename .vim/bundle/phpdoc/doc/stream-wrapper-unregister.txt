@@ -9,6 +9,6 @@ been disabled you may override it with a user-defined wrapper using
 
 {protocol}
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 vim:ft=help:

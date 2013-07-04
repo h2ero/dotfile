@@ -10,7 +10,7 @@ associated statement memory will be freed.
 
 {stmt} Statement resource, obtained with |mssql_init|.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |mssql_free_statement| example
 

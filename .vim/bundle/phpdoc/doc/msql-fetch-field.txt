@@ -16,7 +16,7 @@ are: name - column name
 
 table - name of the table the column belongs to
 
-not_null - 1 if the column cannot be NULL
+not_null - 1 if the column cannot be &null;
 
 unique - 1 if the column is a unique key
 

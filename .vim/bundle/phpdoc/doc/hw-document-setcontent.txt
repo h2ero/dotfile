@@ -14,7 +14,7 @@ content.
 
 {content}
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |hw_document_attributes| |hw_document_size| |hw_document_content|
 

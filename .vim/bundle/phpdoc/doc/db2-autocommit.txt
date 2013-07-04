@@ -20,7 +20,7 @@ that AUTOCOMMIT is on.
 
 When |db2_autocommit| receives both the {connection} parameter and
 {autocommit} parameter, it attempts to set the AUTOCOMMIT state of the
-requested connection to the corresponding state. Returns TRUE on success or
+requested connection to the corresponding state. Returns &true; on success or
 &false; on failure.
 
 Retrieving the AUTOCOMMIT value for a connection In the following example, a

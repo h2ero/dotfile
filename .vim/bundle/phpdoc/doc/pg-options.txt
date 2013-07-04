@@ -9,7 +9,7 @@ given PostgreSQL {connection} resource.
 present, the default connection is used. The default connection is the last
 connection made by |pg_connect| or |pg_pconnect|.
 
-A string containing the {connection} options, or FALSE on error.
+A string containing the {connection} options, or &false; on error.
 
 |pg_options| example
 

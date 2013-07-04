@@ -5,7 +5,7 @@ before
 
 {identifier} The gnupg identifier, from a call to |gnupg_init| or gnupg.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Procedural |gnupg_cleardecryptkeys| example
 

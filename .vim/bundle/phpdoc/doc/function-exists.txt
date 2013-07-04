@@ -1,4 +1,4 @@
-function_exists -- Return TRUE if the given function has been defined
+function_exists -- Return &true; if the given function has been defined
 
   bool function_exists(string function_name)~
 
@@ -7,9 +7,9 @@ user-defined, for {function_name}.
 
 {function_name} The function name, as a string.
 
-Returns TRUE if {function_name} exists and is a function, FALSE otherwise.
+Returns &true; if {function_name} exists and is a function, &false; otherwise.
 
-This function will return FALSE for constructs, such as |include_once| and
+This function will return &false; for constructs, such as |include_once| and
 |echo|.
 
 |function_exists| example
@@ -31,5 +31,6 @@ configuration or compiling options (with the image functions being an
 example).
 
 |method_exists| |is_callable| |get_defined_functions| |class_exists|
+|extension_loaded|
 
 vim:ft=help:

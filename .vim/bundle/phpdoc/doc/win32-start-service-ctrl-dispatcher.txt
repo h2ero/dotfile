@@ -19,8 +19,8 @@ determine if it should terminate. This is achieved by periodically calling
 
 {name} The short-name of the service, as registered by |win32_create_service|.
 
-Returns TRUE on success, &false; if there is a problem with the parameters or
-a Win32 Error Code on failure.
+Returns &true; on success, &false; if there is a problem with the parameters
+or a Win32 Error Code on failure.
 
 A |win32_start_service_ctrl_dispatcher| example Check if the service is runnig
 under the SCM.

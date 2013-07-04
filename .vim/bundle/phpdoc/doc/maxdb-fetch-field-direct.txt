@@ -12,8 +12,8 @@ Object oriented style
 information from specified resultset. The value of fieldnr must be in the
 range from 0 to number of fields - 1.
 
-Returns an resource which contains field definition information or FALSE if no
-field information for specified fieldnr is available.
+Returns an resource which contains field definition information or &false; if
+no field information for specified fieldnr is available.
 
 Object attributes Attribute Description name The name of the column max_length
 The maximum width of the field for the result set. type The data type used for

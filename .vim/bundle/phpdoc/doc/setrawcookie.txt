@@ -7,9 +7,11 @@ will not be automatically urlencoded when sent to the browser.
 
 For parameter information, see the |setcookie| documentation.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
-Version Description 5.2.0 The {httponly} parameter was added.
+Version Description 5.5.0 A Max-Age attribute is now included in the
+Set-Cookie header sent to the client. 5.2.0 The {httponly} parameter was
+added.
 
 |setcookie|
 

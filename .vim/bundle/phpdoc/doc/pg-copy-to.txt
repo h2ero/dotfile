@@ -15,7 +15,7 @@ internally to retrieve records.
 {null_as} How SQL NULL values are represented in the {rows}. Default is \N
 ("\\N").
 
-An array with one element for each line of COPY data. It returns FALSE on
+An array with one element for each line of COPY data. It returns &false; on
 failure.
 
 |pg_copy_to| example

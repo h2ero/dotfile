@@ -12,7 +12,7 @@ Closes a prepared statement. |maxdb_stmt_close| also deallocates the statement
 handle pointed to by {stmt}. If the current statement has pending or unread
 results, this function cancels them so that the next query can be executed.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |maxdb_prepare|
 

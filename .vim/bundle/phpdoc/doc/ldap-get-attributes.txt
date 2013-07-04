@@ -24,7 +24,7 @@ won't care what other data is held.
 {result_entry_identifier}
 
 Returns a complete entry information in a multi-dimensional array on success
-and FALSE on error.
+and &false; on error.
 
 Show the list of attributes held for a particular directory entry
 

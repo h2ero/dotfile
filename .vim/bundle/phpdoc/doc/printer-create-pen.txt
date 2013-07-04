@@ -22,6 +22,6 @@ PRINTER_PEN_INVISIBLE: creates an invisible pen.
 
 {color} {color} must be a color in RGB hex format, i.e. "000000" for black.
 
-Returns a pen handle or FALSE on error.
+Returns a pen handle or &false; on error.
 
 vim:ft=help:

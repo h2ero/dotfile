@@ -22,9 +22,9 @@ indexed array, where each element contains a single header line.
 {flags} {flags} can be used to specify options that affect the encoding
 process - see PKCS7 constants.
 
-{cipherid} Cipher can be selected with {cipherid}.
+{cipherid} One of cipher constants.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Version Description 5.0.0 The {cipherid} parameter was added.
 

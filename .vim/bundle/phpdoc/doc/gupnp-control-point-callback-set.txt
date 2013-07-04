@@ -25,7 +25,7 @@ first, and the {arg} second.
 
 {arg} User data for {callback}.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Create new UPnP context and start browsing
 

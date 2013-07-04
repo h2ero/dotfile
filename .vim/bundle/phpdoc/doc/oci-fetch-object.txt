@@ -4,7 +4,7 @@ oci_fetch_object -- Returns the next row from a query as an object
 
 Returns an object containing the next result-set row of a query. Each
 attribute of the object corresponds to a column of the row. This function is
-typically called in a loop until it returns FALSE, indicating no more rows
+typically called in a loop until it returns &false;, indicating no more rows
 exist.
 
 For details on the data type mapping performed by the OCI8 extension, see the
@@ -14,7 +14,7 @@ datatypes supported by the driver
 executed by |oci_execute|, or a REF CURSOR statement identifier.
 
 Returns an object. Each attribute of the object corresponds to a column of the
-row. If there are no more rows in the {statement} then FALSE is returned.
+row. If there are no more rows in the {statement} then &false; is returned.
 
 Any LOB columns are returned as LOB descriptors.
 
@@ -28,7 +28,7 @@ attribute names. Case-sensitive column names will have attribute names using
 the exact column case. Use |var_dump| on the result object to verify the
 appropriate case to use for each query.
 
-Attribute values will be NULL for any NULL data fields.
+Attribute values will be &null; for any NULL data fields.
 
 |oci_fetch_object| example
 

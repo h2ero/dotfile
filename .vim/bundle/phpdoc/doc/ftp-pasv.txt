@@ -11,9 +11,9 @@ otherwise it will fail.
 
 {ftp_stream} The link identifier of the FTP connection.
 
-{pasv} If TRUE, the passive mode is turned on, else it's turned off.
+{pasv} If &true;, the passive mode is turned on, else it's turned off.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |ftp_pasv| example
 

@@ -6,14 +6,14 @@ The |socket_set_nonblock| function sets the O_NONBLOCK flag on the socket
 specified by the {socket} parameter.
 
 When an operation (e.g. receive, send, connect, accept, ...) is performed on a
-non-blocking socket, the script not pause its execution until it receives a
-signal or it can perform the operation. Rather, if the operation would result
-in a block, the called function will fail.
+non-blocking socket, the script will not pause its execution until it receives
+a signal or it can perform the operation. Rather, if the operation would
+result in a block, the called function will fail.
 
 {socket} A valid socket resource created with |socket_create| or
 |socket_accept|.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |socket_set_nonblock| example
 

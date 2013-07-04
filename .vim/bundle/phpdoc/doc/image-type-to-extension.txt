@@ -7,7 +7,7 @@ Returns the extension for the given IMAGETYPE_XXX constant.
 {imagetype} One of the IMAGETYPE_XXX constant.
 
 {include_dot} Whether to prepend a dot to the extension or not. Default to
-TRUE.
+&true;.
 
 A string with the extension corresponding to the given image type.
 

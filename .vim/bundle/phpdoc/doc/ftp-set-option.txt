@@ -15,9 +15,9 @@ position within the file. This is enabled by default.
 
 {value} This parameter depends on which {option} is chosen to be altered.
 
-Returns TRUE if the option could be set; FALSE if not. A warning message will
-be thrown if the {option} is not supported or the passed {value} doesn't match
-the expected value for the given {option}.
+Returns &true; if the option could be set; &false; if not. A warning message
+will be thrown if the {option} is not supported or the passed {value} doesn't
+match the expected value for the given {option}.
 
 |ftp_set_option| example
 

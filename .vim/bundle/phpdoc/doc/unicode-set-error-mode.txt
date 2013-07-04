@@ -27,7 +27,7 @@ character format. U_CONV_ERROR_ESCAPE_XML_DEC Escape the faulty bytes and
 represent them in decimal format. U_CONV_ERROR_ESCAPE_XML_HEX Escape the
 faulty bytes and represent them in hexadecimal format.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Emits a E_WARNING level error if the direction or the mode are invalid.
 

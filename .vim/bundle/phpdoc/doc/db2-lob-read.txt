@@ -11,7 +11,7 @@ retrieve a user defined size of LOB data.
 
 {length} The size of the LOB data to be retrieved from the stmt resource.
 
-Returns the amount of data the user specifies. Returns FALSE if the data
+Returns the amount of data the user specifies. Returns &false; if the data
 cannot be retrieved.
 
 Iterating through different types of data

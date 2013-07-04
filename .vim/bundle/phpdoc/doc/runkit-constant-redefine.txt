@@ -7,7 +7,7 @@ classname::constname indicating class constant.
 
 {newvalue} New value to assign to constant.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |runkit_constant_add| |runkit_constant_remove|
 

@@ -14,7 +14,7 @@ Starting with version 1.5.0 this function is an alias of |xdiff_file_bpatch|.
 
 {dest} Path of the resulting file.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |xdiff_file_patch_binary| example The following code applies binary diff to a
 file.

@@ -10,7 +10,7 @@ present, the default connection is used. The default connection is the last
 connection made by |pg_connect| or |pg_pconnect|.
 
 An int containing the port number of the database server the {connection} is
-to, or FALSE on error.
+to, or &false; on error.
 
 |pg_port| example
 

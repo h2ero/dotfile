@@ -13,7 +13,7 @@ PHP. This function should be used at your own risk.
 
 {type} 'base64' or 'datetime'
 
-Returns TRUE on success or &false; on failure. If successful, {value} is
+Returns &true; on success or &false; on failure. If successful, {value} is
 converted to an object.
 
 A |xmlrpc_set_type| example

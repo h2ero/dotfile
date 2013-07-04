@@ -6,7 +6,7 @@ Get the port that the SOAP server is running on.
 
 {context} A context identifier, returned by |gupnp_context_new|.
 
-Returns the port number for the current context and FALSE on error.
+Returns the port number for the current context and &false; on error.
 
 Create new UPnP context and get port number
 

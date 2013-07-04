@@ -11,12 +11,12 @@ argument lists.
 {arg_num} The argument offset. Function arguments are counted starting from
 zero.
 
-Returns the specified argument, or FALSE on error.
+Returns the specified argument, or &false; on error.
 
 Version Description 5.3.0 This function can now be used in parameter lists.
 5.3.0 If this function is called from the outermost scope of a file which has
 been included by calling |include| or |require| from within a function in the
-calling file, it now generates a warning and returns FALSE.
+calling file, it now generates a warning and returns &false;.
 
 Generates a warning if called from outside of a user-defined function, or if
 {arg_num} is greater than the number of arguments actually passed.

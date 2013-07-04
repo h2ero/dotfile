@@ -2,11 +2,11 @@ php_ini_loaded_file -- Retrieve a path to the loaded php.ini file
 
   string php_ini_loaded_file()~
 
-Check if a php.ini file is loaded, and retrieve its path.
+Check if a &php.ini; file is loaded, and retrieve its path.
 
 This function has no parameters.
 
-The loaded php.ini path, or FALSE if one is not loaded.
+The loaded &php.ini; path, or &false; if one is not loaded.
 
 |php_ini_loaded_file| example
 

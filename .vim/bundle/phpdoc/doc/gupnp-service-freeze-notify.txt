@@ -7,7 +7,7 @@ called.
 
 {service} A service identifier.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |gupnp_service_notify| |gupnp_service_thaw_notify|
 

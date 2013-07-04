@@ -1,8 +1,8 @@
-XMLWriter::writeDTD -- Write full DTD tag
+xmlwriter_write_dtd -- Write full DTD tag
 
 Object oriented style
 
-  bool writeDTD(string name [, string publicId [, string systemId [, string subset]]])~
+  bool XMLWriter::writeDTD(string name [, string publicId [, string systemId [, string subset]]])~
 
 Procedural style
 
@@ -22,7 +22,7 @@ modified. This resource comes from a call to |xmlwriter_open_uri| or
 
 {subset} The content of the DTD.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 XMLWriter::startDTD XMLWriter::endDTD
 

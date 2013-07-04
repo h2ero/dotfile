@@ -11,9 +11,9 @@ encode e-mail.
 Language and its setting is ISO-2022-JP/Base64 for Japanese, UTF-8/Base64 for
 uni, ISO-8859-1/quoted printable for English.
 
-If {language} is set and {language} is valid, it returns TRUE. Otherwise, it
-returns FALSE. When {language} is omitted, it returns the language name as a
-string. If no language is set previously, it then returns FALSE.
+If {language} is set and {language} is valid, it returns &true;. Otherwise, it
+returns &false;. When {language} is omitted, it returns the language name as a
+string. If no language is set previously, it then returns &false;.
 
 |mb_send_mail|
 

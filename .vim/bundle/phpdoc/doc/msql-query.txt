@@ -11,7 +11,7 @@ that's associated with the specified link identifier.
 by |msql_connect| is assumed. If no such link is found, the function will try
 to establish a link as if |msql_connect| was called, and use it.
 
-Returns a positive mSQL query identifier on success, or FALSE on error.
+Returns a positive mSQL query identifier on success, or &false; on error.
 
 |msql_query| example
 

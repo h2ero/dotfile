@@ -9,7 +9,7 @@ representation.
 
 {in_addr} A 32bit IPv4, or 128bit IPv6 address.
 
-Returns a string representation of the address or FALSE on failure.
+Returns a string representation of the address or &false; on failure.
 
 |inet_ntop| Example
 

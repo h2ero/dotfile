@@ -26,6 +26,6 @@ bytes and will be padded with zeros if you supply less bytes.
 
 {bytes} The key length, in bytes.
 
-Returns the generated key as a string, or FALSE on error.
+Returns the generated key as a string, or &false; on error.
 
 vim:ft=help:

@@ -18,7 +18,7 @@ Keys and values are converted to strings before being written to the file, as
 chdb only support the string type. Note that binary strings are supported as
 well, both as keys and values.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Throws an exception in case the chdb file hasn't been successfully created.
 

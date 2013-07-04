@@ -11,15 +11,15 @@ Object oriented style
 
 The |maxdb_fetch_object| will return the current row result set as an object
 where the attributes of the object represent the names of the fields found
-within the result set. If no more rows exist in the current result set, NULL
+within the result set. If no more rows exist in the current result set, &null;
 is returned.
 
-Returns an object that corresponds to the fetched row or NULL if there are no
-more rows in resultset.
+Returns an object that corresponds to the fetched row or &null; if there are
+no more rows in resultset.
 
 Field names returned by this function are case-sensitive.
 
-This function sets NULL fields to the PHP NULL value.
+This function sets NULL fields to the PHP &null; value.
 
 Object oriented style
 

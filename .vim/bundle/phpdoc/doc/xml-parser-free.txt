@@ -6,7 +6,7 @@ Frees the given XML {parser}.
 
 {parser} A reference to the XML parser to free.
 
-This function returns FALSE if {parser} does not refer to a valid parser, or
-else it frees the parser and returns TRUE.
+This function returns &false; if {parser} does not refer to a valid parser, or
+else it frees the parser and returns &true;.
 
 vim:ft=help:

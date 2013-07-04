@@ -7,7 +7,7 @@ about them. The same info is provided through phpinfo().
 
 {broker} Broker resource
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 List the backends provided by the given broker
 

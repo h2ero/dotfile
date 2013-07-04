@@ -9,7 +9,7 @@ superuser may change the owner of a file.
 
 {user} A user name or number.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Simple |chown| usage
 

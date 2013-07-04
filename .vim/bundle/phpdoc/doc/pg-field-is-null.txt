@@ -18,7 +18,7 @@ omitted, current row is fetched.
 {field} Field number (starting from 0) as an integer or the field name as a
 string.
 
-Returns 1 if the field in the given row is SQL NULL, 0 if not. FALSE is
+Returns 1 if the field in the given row is SQL NULL, 0 if not. &false; is
 returned if the row is out of range, or upon any other error.
 
 |pg_field_is_null| example

@@ -8,7 +8,7 @@ Changes the current directory to the specified one.
 
 {directory} The target directory.
 
-Returns TRUE on success or &false; on failure. If changing directory fails,
+Returns &true; on success or &false; on failure. If changing directory fails,
 PHP will also throw a warning.
 
 |ftp_chdir| example

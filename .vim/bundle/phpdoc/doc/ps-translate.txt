@@ -10,7 +10,7 @@ Sets a new initial point of the coordinate system.
 
 {y} y-coordinate of the origin of the translated coordinate system.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Translation of the coordinate system
 

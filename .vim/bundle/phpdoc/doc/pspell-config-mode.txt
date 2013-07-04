@@ -16,7 +16,7 @@ PSPELL_NORMAL - Normal mode (more suggestions)
 
 PSPELL_BAD_SPELLERS - Slow mode (a lot of suggestions)
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |pspell_config_mode| Example
 

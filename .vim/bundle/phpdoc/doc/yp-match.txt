@@ -10,7 +10,7 @@ Returns the value associated with the passed {key} out of the specified {map}.
 
 {key} This key must be exact.
 
-Returns the value, or FALSE on errors.
+Returns the value, or &false; on errors.
 
 Example for NIS match
 

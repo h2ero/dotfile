@@ -19,6 +19,6 @@ screen.
 and 2 indicates the PC like 4-4-4 mode, but in addition an index line will be
 created.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 vim:ft=help:

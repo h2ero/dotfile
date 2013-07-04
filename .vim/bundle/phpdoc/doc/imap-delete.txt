@@ -13,7 +13,7 @@ deletion will stay in the mailbox until either |imap_expunge| is called or
 {options} You can set the FT_UID which tells the function to treat the
 {msg_number} argument as an UID.
 
-Returns TRUE.
+Returns &true;.
 
 |imap_delete| example
 
@@ -41,7 +41,7 @@ Returns TRUE.
 
 
 
-POP3 mailboxes do not have their message flags saved between connections, so
+IMAP mailboxes do not have their message flags saved between connections, so
 |imap_expunge| must be called during the same connection in order for messages
 marked for deletion to actually be purged.
 

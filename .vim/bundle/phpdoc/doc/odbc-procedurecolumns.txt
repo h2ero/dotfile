@@ -25,7 +25,7 @@ character.
 
 Returns the list of input and output parameters, as well as the columns that
 make up the result set for the specified procedures. Returns an ODBC result
-identifier or FALSE on failure.
+identifier or &false; on failure.
 
 The result set has the following columns: PROCEDURE_QUALIFIER
 

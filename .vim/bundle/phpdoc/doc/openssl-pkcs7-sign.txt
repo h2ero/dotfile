@@ -24,7 +24,7 @@ about the format of this parameter).
 extra certificates to include in the signature which can for example be used
 to help the recipient to verify the certificate that you used.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |openssl_pkcs7_sign| example
 

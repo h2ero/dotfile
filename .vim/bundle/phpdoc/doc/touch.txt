@@ -17,7 +17,7 @@ used.
 of {atime}. Otherwise, it is set to the value passed to the {time} parameter.
 If neither are present, the current system time is used.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Version Description 5.3.0 It became possible to change the modification time
 of a directory under Windows.

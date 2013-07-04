@@ -14,7 +14,7 @@ present, the default connection is used. The default connection is the last
 connection made by |pg_connect| or |pg_pconnect|.
 
 Returns an array with client, protocol and server keys and values (if
-available). Returns FALSE on error or invalid connection.
+available). Returns &false; on error or invalid connection.
 
 |pg_version| example
 

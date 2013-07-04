@@ -5,7 +5,7 @@ ldap_sasl_bind -- Bind to LDAP directory using SASL
 This function is currently not documented; only its argument list is
 available.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |ldap_sasl_bind| requires SASL support (sasl.h). Be sure --with-ldap-sasl is
 used when configuring PHP otherwise this function will be undefined.

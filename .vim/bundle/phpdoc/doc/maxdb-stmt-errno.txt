@@ -1,4 +1,4 @@
-maxdb_stmt->errno -- Returns the error code for the most recent statement call
+maxdb_stmt::errno -- Returns the error code for the most recent statement call
 
 Procedural style
 
@@ -9,8 +9,7 @@ Object oriented style
 For the statement specified by stmt, |maxdb_stmt_errno| returns the error code
 for the most recently invoked statement function that can succeed or fail.
 
-For possible error codes see documentation of SQLDBC:
-http://maxdb.sap.com/documentation/.
+For possible error codes see documentation of SQLDBC: &url.maxdb.doc;.
 
 An error code value. Zero means no error occurred.
 

@@ -10,7 +10,7 @@ This is useful mainly for associative arrays.
 {sort_flags} You may modify the behavior of the sort using the optional
 parameter {sort_flags}, for details see |sort|.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |krsort| example
 

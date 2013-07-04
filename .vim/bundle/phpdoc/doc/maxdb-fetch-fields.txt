@@ -14,7 +14,7 @@ with the single difference that, instead of returning one resource at a time
 for each field, the columns are returned as an array of resources.
 
 Returns an array of resources which contains field definition information or
-FALSE if no field information is available.
+&false; if no field information is available.
 
 Object properties Property Description name The name of the column max_length
 The maximum width of the field for the result set. type The data type used for

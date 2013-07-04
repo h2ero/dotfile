@@ -4,8 +4,8 @@ win32_ps_stat_mem -- Stat memory utilization
 
 Retrieves statistics about the global memory utilization.
 
-Returns FALSE on failure, or an array consisting of the following information
-on success:
+Returns &false; on failure, or an array consisting of the following
+information on success:
 
 {load} The current memory load in percent of physical memory.
 

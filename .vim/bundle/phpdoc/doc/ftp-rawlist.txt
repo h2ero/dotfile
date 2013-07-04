@@ -7,9 +7,9 @@ array.
 
 {ftp_stream} The link identifier of the FTP connection.
 
-{directory} The directory path.
+{directory} The directory path. May include arguments for the LIST command.
 
-{recursive} If set to TRUE, the issued command will be LIST -R.
+{recursive} If set to &true;, the issued command will be LIST -R.
 
 Returns an array where each element corresponds to one line of text.
 

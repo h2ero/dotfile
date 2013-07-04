@@ -13,7 +13,7 @@ Typically, callback function takes on {arg} parameter.
 
 {arg} User data for {callback}.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Create new UPnP context and set callback
 

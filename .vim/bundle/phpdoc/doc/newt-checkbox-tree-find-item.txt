@@ -8,6 +8,6 @@ Finds an item in the checkbox tree by item's data.
 
 {data}
 
-Returns checkbox tree item resource, or NULL if it wasn't found.
+Returns checkbox tree item resource, or &null; if it wasn't found.
 
 vim:ft=help:

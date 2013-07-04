@@ -13,7 +13,7 @@ README file included in the runkit package for more information.
 
 {filename} File containing PHP Code to be lint checked
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |runkit_lint|
 

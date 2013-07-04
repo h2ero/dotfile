@@ -8,7 +8,7 @@ This function is EXPERIMENTAL. The behaviour of this function, its name, and
 surrounding documentation may change without notice in a future release of
 PHP. This function should be used at your own risk.
 
-The message from the last obscure check or FALSE if there was no obscure
+The message from the last obscure check or &false; if there was no obscure
 checks made so far.
 
 The returned message is one of: it's WAY too short

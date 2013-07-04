@@ -4,7 +4,7 @@ session_pgsql_get_error -- Returns number of errors and last error message
 
 Get the number of errors and optional the error messages.
 
-{with_error_message} Set to TRUE the literal error message for each error is
+{with_error_message} Set to &true; the literal error message for each error is
 also returned.
 
 The number of errors are returned as array.

@@ -13,7 +13,7 @@ or |fdf_open_string|.
 {script_code} The script code. It is strongly suggested to use \r for
 linebreaks within the script code.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Adding JavaScript code to a FDF
 

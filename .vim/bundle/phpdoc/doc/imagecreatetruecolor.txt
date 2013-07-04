@@ -16,7 +16,7 @@ correct GD version is installed.
 
 {height} Image height.
 
-Returns an image resource identifier on success, FALSE on errors.
+Returns an image resource identifier on success, &false; on errors.
 
 Creating a new GD image stream and outputting an image.
 

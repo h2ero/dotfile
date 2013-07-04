@@ -9,7 +9,7 @@ Enables handling of LONG and LONGVARBINARY columns.
 {length} The number of bytes returned to PHP is controlled by the parameter
 length. If it is set to 0, Long column data is passed through to the client.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Handling of LONGVARBINARY columns is also affected by |odbc_binmode|.
 

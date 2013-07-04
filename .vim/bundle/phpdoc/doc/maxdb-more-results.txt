@@ -1,4 +1,4 @@
-maxdb->more_results -- Check if there any more query results from a multi
+maxdb::more_results -- Check if there any more query results from a multi
 query
 
   bool maxdb_more_results(resource link)~
@@ -6,7 +6,7 @@ query
 |maxdb_more_results| indicates if one or more result sets are available from a
 previous call to |maxdb_multi_query|.
 
-Always FALSE.
+Always &false;.
 
 See |maxdb_multi_query|.
 

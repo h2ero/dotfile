@@ -10,14 +10,15 @@ handle, however, is still valid.
 
 {conn_identifier} Connection identifier.
 
-TRUE, when process is successful.
+&true;, when process is successful.
 
-FALSE, when process is unsuccessful.
+&false;, when process is unsuccessful.
 
 |cubrid_rollback| example
 
 <?php >
   $conn = cubrid_connect("127.0.0.1", 33000, "demodb");
+  cubrid_set_autocommit($conn,false);
   
   @cubrid_execute($conn, "DROP TABLE publishers");
   

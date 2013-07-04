@@ -1,8 +1,8 @@
-XMLWriter::endAttribute -- End attribute
+xmlwriter_end_attribute -- End attribute
 
 Object oriented style
 
-  bool endAttribute()~
+  bool XMLWriter::endAttribute()~
 
 Procedural style
 
@@ -14,7 +14,7 @@ Ends the current attribute.
 modified. This resource comes from a call to |xmlwriter_open_uri| or
 |xmlwriter_open_memory|.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 XMLWriter::startAttribute XMLWriter::startAttributeNS
 XMLWriter::writeAttribute XMLWriter::writeAttributeNS

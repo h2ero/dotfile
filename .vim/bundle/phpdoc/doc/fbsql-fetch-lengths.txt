@@ -8,7 +8,7 @@ Stores the lengths of each result column in the last row returned by
 { result}A result identifier returned by |fbsql_query| or |fbsql_db_query|.
 
 Returns an array, starting at offset 0, that corresponds to the lengths of
-each field in the last row fetched by |fbsql_fetch_row|, or FALSE on error.
+each field in the last row fetched by |fbsql_fetch_row|, or &false; on error.
 
 |fbsql_fetch_row|
 

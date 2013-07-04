@@ -11,7 +11,7 @@ successfully opened by |gzopen|.
 
 {length} The length of data to get.
 
-The uncompressed string, or FALSE on error.
+The uncompressed string, or &false; on error.
 
 |gzgets| example
 

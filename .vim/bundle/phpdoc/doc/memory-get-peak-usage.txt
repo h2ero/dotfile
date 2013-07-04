@@ -5,8 +5,8 @@ memory_get_peak_usage -- Returns the peak of memory allocated by PHP
 Returns the peak of memory, in bytes, that's been allocated to your PHP
 script.
 
-{real_usage} Set this to TRUE to get the real size of memory allocated from
-system. If not set or FALSE only the memory used by emalloc() is reported.
+{real_usage} Set this to &true; to get the real size of memory allocated from
+system. If not set or &false; only the memory used by emalloc() is reported.
 
 Returns the memory peak in bytes.
 

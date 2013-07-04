@@ -10,6 +10,6 @@ Restored RRD database file name.
 
 Array of options for restoring. See man page for rrd restore.
 
-Returns TRUE on success, FALSE otherwise.
+Returns &true; on success, &false; otherwise.
 
 vim:ft=help:

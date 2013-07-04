@@ -7,7 +7,7 @@ Allocates a new statement handle on the specified connection.
 {connection} An Oracle connection identifier, returned by |oci_connect| or
 |oci_pconnect|.
 
-Returns a new statement handle, or FALSE on error.
+Returns a new statement handle, or &false; on error.
 
 Using REF CURSOR in an Oracle's stored procedure
 

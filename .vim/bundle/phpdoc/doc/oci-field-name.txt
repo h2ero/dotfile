@@ -8,7 +8,7 @@ Returns the name of the {field}.
 
 {field} Can be the field's index (1-based) or name.
 
-Returns the name as a string, or FALSE on errors.
+Returns the name as a string, or &false; on errors.
 
 |oci_field_name| example
 

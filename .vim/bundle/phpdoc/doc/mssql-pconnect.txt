@@ -29,7 +29,7 @@ of the already opened link will be returned. This parameter modifies this
 behavior and makes |mssql_pconnect| always open a new link, even if
 |mssql_pconnect| was called before with the same parameters.
 
-Returns a positive MS SQL persistent link identifier on success, or FALSE on
+Returns a positive MS SQL persistent link identifier on success, or &false; on
 error.
 
 |mssql_pconnect| using the {new_link} parameter

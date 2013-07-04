@@ -16,8 +16,8 @@ modified versions of an original.
 {dest} Path of the resulting file, containing merged changed from both
 {new_file1} and {new_file2}.
 
-Returns TRUE if merge was successful, string with rejected chunks if it was
-not or FALSE if an internal error happened.
+Returns &true; if merge was successful, string with rejected chunks if it was
+not or &false; if an internal error happened.
 
 |xdiff_file_merge3| example The following code merges three files into one.
 

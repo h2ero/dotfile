@@ -16,6 +16,6 @@ greater than the current number of records in the database. The function will
 add as many empty records as needed. There is hardly any need for this
 parameter.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 vim:ft=help:

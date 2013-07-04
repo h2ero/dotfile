@@ -18,7 +18,7 @@ The value may be retained across persistent connections.
 
 {action_name} User chosen string up to 32 bytes long.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Setting the action
 

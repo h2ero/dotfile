@@ -7,6 +7,6 @@ most recent update of the RRD database file.
 
 RRD database file name.
 
-Array of information about last update, FALSE when error occurs.
+Array of information about last update, &false; when error occurs.
 
 vim:ft=help:

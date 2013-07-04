@@ -21,7 +21,7 @@ distinguish multiple devices
 
 "mmask" : Mouse action
 
-Returns FALSE on success, TRUE otherwise.
+Returns &false; on success, &true; otherwise.
 
 |ncurses_getmouse|
 

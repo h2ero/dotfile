@@ -17,6 +17,6 @@ an ordering.
 
 {ordering} Comma delimited list of provider names
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 vim:ft=help:

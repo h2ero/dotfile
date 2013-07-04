@@ -7,7 +7,7 @@ number of bytes on the corresponding filesystem or disk partition.
 
 {directory} A directory of the filesystem or disk partition.
 
-Returns the total number of bytes as a float or FALSE on failure.
+Returns the total number of bytes as a float or &false; on failure.
 
 |disk_total_space| example
 

@@ -27,6 +27,6 @@ parameter is used to specify the BMP instead of the RGB color code.
 
 {color} {color} must be a color in RGB hex format, i.e. "000000" for black.
 
-Returns a brush handle or FALSE on error.
+Returns a brush handle or &false; on error.
 
 vim:ft=help:

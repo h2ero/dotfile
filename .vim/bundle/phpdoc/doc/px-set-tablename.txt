@@ -10,7 +10,7 @@ Sets the table name of a paradox database, which was created with
 {tablename} The name of the table. If it is not set explicitly it will be set
 to the name of the database file.
 
-Returns NULL on success or FALSE on failure.
+Returns &null; on success or &false; on failure.
 
 |px_set_parameter|
 

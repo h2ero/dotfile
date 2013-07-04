@@ -121,6 +121,6 @@ recursively. 1 means recursive modification. If some of the objects cannot be
 modified they will be skipped without notice. |hw_error| may not indicate an
 error though some of the objects could not be modified.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 vim:ft=help:

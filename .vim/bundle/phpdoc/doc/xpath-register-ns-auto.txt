@@ -6,7 +6,7 @@ context
 This function is currently not documented; only its argument list is
 available.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |xpath_register_ns|
 

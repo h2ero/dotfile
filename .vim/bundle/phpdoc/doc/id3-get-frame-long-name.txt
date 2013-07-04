@@ -6,7 +6,7 @@ id3_get_frame_long_name -- Get the long name of an ID3v2 frame
 
 {frameId} An ID3v2 frame
 
-Returns the frame long name or FALSE on errors.
+Returns the frame long name or &false; on errors.
 
 |id3_get_frame_long_name| example
 

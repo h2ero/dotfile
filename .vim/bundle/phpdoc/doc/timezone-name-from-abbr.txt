@@ -17,7 +17,7 @@ is assumed to be an offset without daylight saving in effect. If {abbr}
 doesn't exist then the time zone is searched solely by the {gmtOffset} and
 {isdst}.
 
-Returns time zone name on success or FALSE on failure.
+Returns time zone name on success or &false; on failure.
 
 A |timezone_name_from_abbr| example
 

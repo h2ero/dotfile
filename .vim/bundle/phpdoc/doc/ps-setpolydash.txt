@@ -10,7 +10,7 @@ Sets the length of the black and white portions of a dashed line.
 {arr} {arr} is a list of length elements alternately for the black and white
 portion.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Drawing a dashed line
 

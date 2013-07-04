@@ -15,6 +15,6 @@ additional information.
 program. The array is in the format of name => value, the key being the name
 of the environmental variable and the value being the value of that variable.
 
-Returns FALSE on error and does not return on success.
+Returns &false; on error and does not return on success.
 
 vim:ft=help:

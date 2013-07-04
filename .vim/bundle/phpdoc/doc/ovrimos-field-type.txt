@@ -9,7 +9,7 @@ Returns the type of the output column
 
 {field_number} A 1-based index.
 
-Returns the field type as an integer, or FALSE on error.
+Returns the field type as an integer, or &false; on error.
 
 |ovrimos_field_len| |ovrimos_field_name| |ovrimos_field_num|
 

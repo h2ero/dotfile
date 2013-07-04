@@ -6,7 +6,7 @@ udm_clear_search_limits -- Clear all mnoGoSearch search restrictions
 
 {agent} A link to Agent, received after call to |udm_alloc_agent|.
 
-Returns TRUE.
+Returns &true;.
 
 |udm_add_search_limit|
 

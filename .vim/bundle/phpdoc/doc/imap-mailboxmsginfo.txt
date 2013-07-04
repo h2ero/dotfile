@@ -14,7 +14,7 @@ name of the mailbox Nmsgs number of messages Recent number of recent messages
 Unread number of unread messages Deleted number of deleted messages Size
 mailbox size
 
-Returns FALSE on failure.
+Returns &false; on failure.
 
 |imap_mailboxmsginfo| example
 

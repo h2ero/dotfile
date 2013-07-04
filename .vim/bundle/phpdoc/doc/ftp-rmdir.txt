@@ -9,7 +9,7 @@ Removes the specified {directory} on the FTP server.
 {directory} The directory to delete. This must be either an absolute or
 relative path to an empty directory.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |ftp_rmdir| example
 

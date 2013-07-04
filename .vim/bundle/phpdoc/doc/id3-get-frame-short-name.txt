@@ -6,7 +6,7 @@ id3_get_frame_short_name -- Get the short name of an ID3v2 frame
 
 {frameId} An ID3v2 frame
 
-Returns the frame short name or FALSE on errors.
+Returns the frame short name or &false; on errors.
 
 The values returned by |id3_get_frame_short_name| are used in the array
 returned by |id3_get_tag|.

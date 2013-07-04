@@ -7,6 +7,6 @@ Set the default blob mode for all select queries.
 {mode} Mode "0" means save Byte-Blobs in memory, and mode "1" means save
 Byte-Blobs in a file.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 vim:ft=help:

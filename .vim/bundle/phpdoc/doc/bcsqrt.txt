@@ -10,7 +10,7 @@ Return the square root of the {operand}.
 decimal place in the result. You can also set the global default scale for all
 functions by using |bcscale|.
 
-Returns the square root as a string, or NULL if {operand} is negative.
+Returns the square root as a string, or &null; if {operand} is negative.
 
 |bcsqrt| example
 

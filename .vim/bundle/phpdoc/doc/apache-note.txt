@@ -16,7 +16,7 @@ another within the same request.
 If called with one argument, it returns the current value of note note_name.
 If called with two arguments, it sets the value of note note_name to
 note_value and returns the previous value of note note_name. If the note
-cannot be retrieved, FALSE is returned.
+cannot be retrieved, &false; is returned.
 
 Passing information between PHP and Perl
 

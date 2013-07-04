@@ -1,4 +1,4 @@
-SQLiteDatabase->query -- Executes a query against a given database and returns
+SQLiteDatabase::query -- Executes a query against a given database and returns
 a result handle
 
   resource sqlite_query(resource dbhandle, string query [, int result_type [, string error_msg]])~
@@ -7,7 +7,7 @@ a result handle
 
 Object oriented style (method):
 
-  SQLiteResult query(resource dbhandle, string query [, int result_type [, string error_msg, string query, resource dbhandle [, int result_type [, string error_msg, string query [, int result_type [, string error_msg]]]]]])~
+  SQLiteResult SQLiteDatabase::query(resource dbhandle, string query [, int result_type [, string error_msg, string query, resource dbhandle [, int result_type [, string error_msg, string query [, int result_type [, string error_msg]]]]]])~
 
 Executes an SQL statement given by the {query} against a given database
 handle.
@@ -35,11 +35,11 @@ Two alternative syntaxes are supported for compatibility with other database
 extensions (such as MySQL). The preferred form is the first, where the
 {dbhandle} parameter is the first parameter to the function.
 
-This function will return a result handle or FALSE on failure. For queries
+This function will return a result handle or &false; on failure. For queries
 that return rows, the result handle can then be used with functions such as
 |sqlite_fetch_array| and |sqlite_seek|.
 
-Regardless of the query type, this function will return FALSE if the query
+Regardless of the query type, this function will return &false; if the query
 failed.
 
 |sqlite_query| returns a buffered, seekable result handle. This is useful for
@@ -58,7 +58,7 @@ used - if it is used, only the first SQL statement would be executed. Function
 |sqlite_exec| will always execute multiple SQL statements.
 
 When executing multiple queries, the return value of this function will be
-FALSE if there was an error, but undefined otherwise (it might be TRUE for
+&false; if there was an error, but undefined otherwise (it might be &true; for
 success or it might return a result handle).
 
 |sqlite_unbuffered_query| |sqlite_array_query|

@@ -10,7 +10,7 @@ Purges the cache of entries of a specific type.
 following constants: IMAP_GC_ELT (message cache elements), IMAP_GC_ENV
 (enveloppe and bodies), IMAP_GC_TEXTS (texts).
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |imap_gc| example
 

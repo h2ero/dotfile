@@ -24,6 +24,10 @@ considered read-only. A value of MYSQLND_MS_QUERY_USE_LAST_USED is returned to
 recommend running the query on the last used server. This can either be a
 MySQL replication master server or a MySQL replication slave server.
 
+If read write splitting has been disabled by setting
+mysqlnd_ms.disable_rw_split, the function will always return
+MYSQLND_MS_QUERY_USE_MASTER or MYSQLND_MS_QUERY_USE_LAST_USED.
+
 |mysqlnd_ms_query_is_select| example
 
 <?php >
@@ -59,6 +63,7 @@ The above example will output:
 
 
 
-Predefined Constants
+Predefined Constants user filter Runtime configuration
+mysqlnd_ms.disable_rw_split mysqlnd_ms.enable
 
 vim:ft=help:

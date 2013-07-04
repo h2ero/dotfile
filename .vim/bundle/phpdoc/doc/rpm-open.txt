@@ -8,7 +8,7 @@ file.
 {filename} The filename of the RPM file you wish to open.
 
 If the open succeeds, then |rpm_open| will return a file pointer resource to
-the newly opened file. On error, the function will return FALSE.
+the newly opened file. On error, the function will return &false;.
 
 |rpm_open| example
 

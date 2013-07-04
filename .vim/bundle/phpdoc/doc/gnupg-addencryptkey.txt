@@ -6,7 +6,7 @@ gnupg_addencryptkey -- Add a key for encryption
 
 {fingerprint} The fingerprint key.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Procedural |gnupg_addencryptkey| example
 

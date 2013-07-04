@@ -10,7 +10,7 @@ font. The font encoding for a font can be set when loading the font with
 
 {ord} The position of the glyph in the font encoding vector.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |ps_symbol_name| |ps_symbol_width|
 

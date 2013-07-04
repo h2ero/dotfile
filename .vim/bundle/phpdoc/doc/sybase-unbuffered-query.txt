@@ -26,11 +26,11 @@ unbuffered query.
 
 {link_identifier}
 
-{store_result} The optional {store_result} can be FALSE to indicate the
+{store_result} The optional {store_result} can be &false; to indicate the
 resultsets shouldn't be fetched into memory, thus minimizing memory usage
 which is particularly interesting with very large resultsets.
 
-Returns a positive Sybase result identifier on success, or FALSE on error.
+Returns a positive Sybase result identifier on success, or &false; on error.
 
 |sybase_unbuffered_query| example
 

@@ -29,6 +29,6 @@ we find a match.
 {case_insensitive} The {case_insensitive} behaves in the same way as the
 parameter with the same name in the |define| function.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 vim:ft=help:

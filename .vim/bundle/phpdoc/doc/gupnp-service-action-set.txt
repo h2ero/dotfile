@@ -23,7 +23,7 @@ GUPNP_TYPE_STRING Type of the variable is string.
 
 {value} The value of the variable to retrieve.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Issues E_WARNING with neither not correctly defined type of the variable or
 the value is not corresponding to the defined type.

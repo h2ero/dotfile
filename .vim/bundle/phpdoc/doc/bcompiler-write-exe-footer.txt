@@ -17,7 +17,7 @@ in the examples/embed directory on bcompiler's CVS.
 {startpos} The file position at which the Bytecodes start, and can be obtained
 using |ftell|.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |bcompiler_write_exe_footer| example
 

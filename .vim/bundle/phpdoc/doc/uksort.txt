@@ -1,6 +1,6 @@
 uksort -- Sort an array by keys using a user-defined comparison function
 
-  bool uksort(array array, callback cmp_function)~
+  bool uksort(array array, callable cmp_function)~
 
 |uksort| will sort the keys of an array using a user-supplied comparison
 function. If the array you wish to sort needs to be sorted by some non-trivial
@@ -8,14 +8,13 @@ criteria, you should use this function.
 
 {array} The input array.
 
-{cmp_function} The callback comparison function.
-
-Function {cmp_function} should accept two parameters which will be filled by
-pairs of {array} keys. The comparison function must return an integer less
-than, equal to, or greater than zero if the first argument is considered to be
+{cmp_function} The comparison function must return an integer less than, equal
+to, or greater than zero if the first argument is considered to be
 respectively less than, equal to, or greater than the second.
 
-Returns TRUE on success or &false; on failure.
+&callback.cmp;
+
+Returns &true; on success or &false; on failure.
 
 |uksort| example
 

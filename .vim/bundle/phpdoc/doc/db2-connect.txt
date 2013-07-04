@@ -66,11 +66,11 @@ the database.
 
 {username} The username with which you are connecting to the database.
 
-For uncataloged connections, you must pass a NULL value or empty string.
+For uncataloged connections, you must pass a &null; value or empty string.
 
 {password} The password with which you are connecting to the database.
 
-For uncataloged connections, you must pass a NULL value or empty string.
+For uncataloged connections, you must pass a &null; value or empty string.
 
 {options} An associative array of connection options that affect the behavior
 of the connection, where valid array keys include: {autocommit} Passing the

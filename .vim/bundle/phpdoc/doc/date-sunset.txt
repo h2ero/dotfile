@@ -29,7 +29,7 @@ settings or the TZ environment variable. See also |date_default_timezone_set|
 Version Description 5.1.0 Now issues the E_STRICT and E_NOTICE time zone
 errors.
 
-Returns the sunset time in a specified {format} on success or FALSE on
+Returns the sunset time in a specified {format} on success or &false; on
 failure.
 
 |date_sunset| example

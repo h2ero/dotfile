@@ -77,7 +77,7 @@ OP_SECURE - Don't do non-secure authentication
 one or more connection parameters: DISABLE_AUTHENTICATOR - Disable
 authentication properties
 
-Returns an IMAP stream on success or FALSE on error.
+Returns an IMAP stream on success or &false; on error.
 
 Version Description 5.3.2 {params} added 5.2.0 {n_retries} added
 

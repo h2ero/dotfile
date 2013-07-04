@@ -7,7 +7,8 @@ the value of the first array element.
 
 {array} The input array.
 
-Returns the value of the first array element, or FALSE if the array is empty.
+Returns the value of the first array element, or &false; if the array is
+empty.
 
 |reset| example
 

@@ -6,7 +6,7 @@ Deletes the slob object on the given slob object-id {bid}.
 
 {bid} An existing slob id.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |ifxus_open_slob|
 

@@ -20,7 +20,7 @@ by using the |getprotobyname| function.
 
 {optval} The option value.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |socket_set_option| example
 

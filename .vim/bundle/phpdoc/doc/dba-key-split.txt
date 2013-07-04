@@ -9,7 +9,7 @@ representation.
 {key} The key in string representation.
 
 Returns an array of the form array(0 => group, 1 => value_name). This function
-will return FALSE if {key} is NULL or FALSE.
+will return &false; if {key} is &null; or &false;.
 
 |dba_firstkey| |dba_nextkey| |dba_fetch|
 

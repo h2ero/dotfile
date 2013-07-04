@@ -5,6 +5,6 @@ radius_put_vendor_addr -- Attaches a vendor specific IP-Address attribute
 This function is currently not documented; only its argument list is
 available.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 vim:ft=help:

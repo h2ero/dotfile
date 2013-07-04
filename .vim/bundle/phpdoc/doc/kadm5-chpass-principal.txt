@@ -10,7 +10,7 @@ kadm5_chpass_principal -- Changes the principal's password
 
 {password} The new password.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Example of changing principal's password
 

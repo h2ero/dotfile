@@ -31,7 +31,7 @@ the array must match the number of placeholders.
 
 Elements are converted to strings by calling this function.
 
-A query result resource on success or FALSE on failure.
+A query result resource on success or &false; on failure.
 
 Using |pg_execute|
 

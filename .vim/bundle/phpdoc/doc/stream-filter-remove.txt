@@ -9,7 +9,7 @@ removing it.
 
 {stream_filter} The stream filter to be removed.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Dynamicly refiltering a stream
 

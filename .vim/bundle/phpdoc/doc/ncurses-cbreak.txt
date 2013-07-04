@@ -10,7 +10,7 @@ Disables line buffering and character processing (interrupt and flow control
 characters are unaffected), making characters typed by the user immediately
 available to the program.
 
-Returns TRUE or NCURSES_ERR if any error occurred.
+Returns &true; or NCURSES_ERR if any error occurred.
 
 |ncurses_nocbreak|
 

@@ -17,8 +17,8 @@ call to |mssql_query|.
 {result_type} The type of array that is to be fetched. It's a constant and can
 take the following values: MSSQL_ASSOC, MSSQL_NUM, and MSSQL_BOTH.
 
-Returns an array that corresponds to the fetched row, or FALSE if there are no
-more rows.
+Returns an array that corresponds to the fetched row, or &false; if there are
+no more rows.
 
 |mssql_fetch_array| example
 
@@ -49,7 +49,7 @@ more rows.
 
 Field names returned by this function are case-sensitive.
 
-This function sets NULL fields to the PHP NULL value.
+This function sets NULL fields to the PHP &null; value.
 
 |mssql_fetch_row|
 

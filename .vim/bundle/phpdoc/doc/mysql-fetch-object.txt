@@ -1,5 +1,10 @@
 mysql_fetch_object -- Fetch a result row as an object
 
+This extension is deprecated as of PHP 5.5.0, and will be removed in the
+future. Instead, the MySQLi or PDO_MySQL extension should be used. See also
+MySQL: choosing an API guide and related FAQ for more information.
+Alternatives to this function include:
+
   object mysql_fetch_object(resource result [, string class_name [, array params]])~
 
 Returns an object with properties that correspond to the fetched row and moves
@@ -15,7 +20,7 @@ return. If not specified, a stdClass object is returned.
 {class_name} objects.
 
 Returns an object with string properties that correspond to the fetched row,
-or FALSE if there are no more rows.
+or &false; if there are no more rows.
 
 Version Description 5.0.0 Added the ability to return as a different object.
 
@@ -65,7 +70,7 @@ are illegal property names).
 
 Field names returned by this function are case-sensitive.
 
-This function sets NULL fields to the PHP NULL value.
+This function sets NULL fields to the PHP &null; value.
 
 |mysql_fetch_array| |mysql_fetch_assoc| |mysql_fetch_row| |mysql_data_seek|
 |mysql_query|

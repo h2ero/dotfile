@@ -3,7 +3,7 @@ haystack
 
   int iconv_strpos(string haystack, string needle [, int offset [, string charset]])~
 
-Finds position of first occurrence of a needle within a haystack.
+Finds position of first occurrence of a {needle} within a {haystack}.
 
 In contrast to |strpos|, the return value of |iconv_strpos| is the number of
 characters that appear before the needle, rather than the offset in bytes to
@@ -26,12 +26,12 @@ applied as the ordinal value of a character.
 Returns the numeric position of the first occurrence of {needle} in
 {haystack}.
 
-If {needle} is not found, |iconv_strpos| will return FALSE.
+If {needle} is not found, |iconv_strpos| will return &false;.
 
-This function may return Boolean FALSE, but may also return a non-Boolean
-value which evaluates to FALSE, such as 0 or "". Please read the section on
-Booleans for more information. Use the === operator for testing the return
-value of this function.
+This function may return Boolean &false;, but may also return a non-Boolean
+value which evaluates to &false;. Please read the section on Booleans for more
+information. Use the === operator for testing the return value of this
+function.
 
 |strpos| |iconv_strrpos| |mb_strpos|
 

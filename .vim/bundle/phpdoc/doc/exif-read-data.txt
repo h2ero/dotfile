@@ -31,7 +31,7 @@ UserComment is available in both cases so it should be used in preference to
 the value in IFD0 section.
 
 |exif_read_data| also validates EXIF data tags according to the EXIF
-specification (http://exif.org/Exif2-2.PDF, page 20).
+specification (&url.exifspec;, page 20).
 
 Windows Me/XP can both wipe the Exif headers when connecting to a camera.
 
@@ -39,7 +39,7 @@ Windows Me/XP can both wipe the Exif headers when connecting to a camera.
 
 {sections} Is a comma separated list of sections that need to be present in
 file to produce a result array. If none of the requested sections could be
-found the return value is FALSE. FILE FileName, FileSize, FileDateTime,
+found the return value is &false;. FILE FileName, FileSize, FileDateTime,
 SectionsFound COMPUTED html, Width, Height, IsColor, and more if available.
 Height and Width are computed the same way |getimagesize| does so their values
 must not be part of any header returned. Also, html is a height/width text
@@ -55,12 +55,12 @@ information about an image. Most of these entries are digital camera related.
 {sections} COMPUTED, THUMBNAIL, and COMMENT always become arrays as they may
 contain values whose names conflict with other sections.
 
-{thumbnail} When set to TRUE the thumbnail itself is read. Otherwise, only the
-tagged data is read.
+{thumbnail} When set to &true; the thumbnail itself is read. Otherwise, only
+the tagged data is read.
 
 It returns an associative array where the array indexes are the header names
 and the array values are the values associated with those headers. If no data
-can be returned, |exif_read_data| will return FALSE.
+can be returned, |exif_read_data| will return &false;.
 
 Version Description 4.3.0 Can read all embedded IFD data including arrays
 (returned as such). Also the size of an embedded thumbnail is returned in a
@@ -69,7 +69,7 @@ no longer a maximum length for returned values (not until the memory limit has
 been reached) 4.3.0 If PHP has mbstring support, the user comment can
 automatically change encoding. Also, if the user comment uses Unicode or JIS
 encoding this encoding will automatically be changed according to the exif ini
-settings in php.ini 4.3.0 If the image contains any IFD0 data then COMPUTED
+settings in &php.ini; 4.3.0 If the image contains any IFD0 data then COMPUTED
 contains the entry ByteOrderMotorola which is 0 for little-endian (intel) and
 1 for big-endian (motorola) byte order. Also, COMPUTED and UserComment no
 longer only contain the first copyright entry if the datatype was wrong.

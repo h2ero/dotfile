@@ -1,7 +1,7 @@
 uasort -- Sort an array with a user-defined comparison function and maintain
 index association
 
-  bool uasort(array array, callback cmp_function)~
+  bool uasort(array array, callable cmp_function)~
 
 This function sorts an array such that array indices maintain their
 correlation with the array elements they are associated with, using a
@@ -15,7 +15,7 @@ order is significant.
 {cmp_function} See |usort| and |uksort| for examples of user-defined
 comparison functions.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Basic |uasort| example
 

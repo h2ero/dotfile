@@ -15,7 +15,7 @@ variable is not changed.
 {walk_to_top} Whether to set the top-level variable available to all Apache
 layers.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Setting an Apache environment variable using |apache_setenv|
 

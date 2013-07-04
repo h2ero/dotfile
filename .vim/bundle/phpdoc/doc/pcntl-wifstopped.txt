@@ -9,8 +9,8 @@ WUNTRACED.
 {status} The {status} parameter is the status parameter supplied to a
 successful call to |pcntl_waitpid|.
 
-Returns TRUE if the child process which caused the return is currently
-stopped, FALSE otherwise.
+Returns &true; if the child process which caused the return is currently
+stopped, &false; otherwise.
 
 |pcntl_waitpid|
 

@@ -7,7 +7,8 @@ ibase_blob_create -- Create a new blob for adding data
 {link_identifier} An InterBase link identifier. If omitted, the last opened
 link is assumed.
 
-Returns a BLOB handle for later use with |ibase_blob_add| or FALSE on failure.
+Returns a BLOB handle for later use with |ibase_blob_add| or &false; on
+failure.
 
 |ibase_blob_add| |ibase_blob_cancel| |ibase_blob_close| |ibase_blob_import|
 

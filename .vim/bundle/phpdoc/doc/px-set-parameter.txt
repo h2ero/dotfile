@@ -21,7 +21,7 @@ database.
 this must be the name of the encoding as understood by iconv or recode, e.g.
 iso-8859-1, utf-8, cp850.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |px_get_info| to determine the DOS code page.
 

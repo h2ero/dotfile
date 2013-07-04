@@ -10,14 +10,15 @@ equivalent with starting a transaction.
 {connection_id} The ODBC connection identifier, see |odbc_connect| for
 details.
 
-{OnOff} If {OnOff} is TRUE, auto-commit is enabled, if it is FALSE auto-commit
-is disabled.
+{OnOff} If {OnOff} is &true;, auto-commit is enabled, if it is &false;
+auto-commit is disabled.
 
 Without the {OnOff} parameter, this function returns auto-commit status for
 {connection_id}. Non-zero is returned if auto-commit is on, 0 if it is off, or
-FALSE if an error occurs.
+&false; if an error occurs.
 
-If {OnOff} is set, this function returns TRUE on success and FALSE on failure.
+If {OnOff} is set, this function returns &true; on success and &false; on
+failure.
 
 |odbc_commit| |odbc_rollback|
 

@@ -13,7 +13,8 @@ directory entry.
 
 {value} The compared value.
 
-Returns TRUE if {value} matches otherwise returns FALSE. Returns -1 on error.
+Returns &true; if {value} matches otherwise returns &false;. Returns -1 on
+error.
 
 The following example demonstrates how to check whether or not given password
 matches the one defined in DN specified entry.

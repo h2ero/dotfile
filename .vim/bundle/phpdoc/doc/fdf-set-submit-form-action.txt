@@ -15,7 +15,7 @@ or |fdf_open_string|.
 
 {flags}
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |fdf_set_javascript_action|
 

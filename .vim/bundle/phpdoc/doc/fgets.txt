@@ -7,8 +7,8 @@ Gets a line from file pointer.
 {handle} The file pointer must be valid, and must point to a file successfully
 opened by |fopen| or |fsockopen| (and not yet closed by |fclose|).
 
-{length} Reading ends when {length} - 1 bytes have been read, on a newline
-(which is included in the return value), or on EOF (whichever comes first). If
+{length} Reading ends when {length} - 1 bytes have been read, or a newline
+(which is included in the return value), or an EOF (whichever comes first). If
 no length is specified, it will keep reading from the stream until it reaches
 the end of the line.
 
@@ -17,10 +17,10 @@ majority of the lines in the file are all larger than 8KB, it is more resource
 efficient for your script to specify the maximum line length.
 
 Returns a string of up to {length} - 1 bytes read from the file pointed to by
-{handle}. If there is no more data to read in the file pointer, then FALSE is
-returned.
+{handle}. If there is no more data to read in the file pointer, then &false;
+is returned.
 
-If an error occurs, FALSE is returned.
+If an error occurs, &false; is returned.
 
 Version Description 4.3.0 |fgets| is now binary safe 4.2.0 The {length}
 parameter became optional

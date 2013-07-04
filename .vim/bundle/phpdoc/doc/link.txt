@@ -8,7 +8,7 @@ link -- Create a hard link
 
 {link} The link name.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 For Windows only: This function requires PHP to run in an elevated mode or
 with the UAC disabled.

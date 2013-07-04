@@ -25,7 +25,7 @@ format A suggested |printf| format specifier for the column
 
 offset The byte offset of the column from the start of the row
 
-If the database header information cannot be read, FALSE is returned.
+If the database header information cannot be read, &false; is returned.
 
 Showing header information for a dBase database file
 

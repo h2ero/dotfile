@@ -6,7 +6,7 @@ ftp_pwd -- Returns the current directory name
 
 {ftp_stream} The link identifier of the FTP connection.
 
-Returns the current directory name or FALSE on error.
+Returns the current directory name or &false; on error.
 
 |ftp_pwd| example
 

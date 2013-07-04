@@ -11,7 +11,7 @@ such as |imagecreatetruecolor|.
 
 {brush} An image resource.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |imagesetbrush| example
 

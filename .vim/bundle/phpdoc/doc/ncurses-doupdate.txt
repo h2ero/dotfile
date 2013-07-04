@@ -9,6 +9,6 @@ PHP. This function should be used at your own risk.
 Compares the virtual screen to the physical screen and updates the physical
 screen. This way is more effective than using multiple refresh calls.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 vim:ft=help:

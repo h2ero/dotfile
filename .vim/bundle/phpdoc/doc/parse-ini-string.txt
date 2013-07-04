@@ -5,18 +5,18 @@ parse_ini_string -- Parse a configuration string
 |parse_ini_string| returns the settings in string {ini} in an associative
 array.
 
-The structure of the ini string is the same as the php.ini's.
+The structure of the ini string is the same as the &php.ini;'s.
 
 {ini} The contents of the ini file being parsed.
 
-{process_sections} By setting the {process_sections} parameter to TRUE, you
+{process_sections} By setting the {process_sections} parameter to &true;, you
 get a multidimensional array, with the section names and settings included.
-The default for {process_sections} is FALSE
+The default for {process_sections} is &false;
 
 {scanner_mode} Can either be INI_SCANNER_NORMAL (default) or INI_SCANNER_RAW.
 If INI_SCANNER_RAW is supplied, then option values will not be parsed.
 
-The settings are returned as an associative array on success, and FALSE on
+The settings are returned as an associative array on success, and &false; on
 failure.
 
 vim:ft=help:

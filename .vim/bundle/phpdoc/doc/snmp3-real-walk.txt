@@ -25,10 +25,11 @@ The SNMP object id.
 
 The number of microseconds until the first timeout.
 
-The number of retries in case of timeouts.
+The number of times to retry if timeouts occur.
 
 Returns an associative array of the SNMP object ids and their values on
-success or FALSE on error. In case of an error, an E_WARNING message is shown.
+success or &false; on error. In case of an error, an E_WARNING message is
+shown.
 
 Using |snmp3_real_walk|
 

@@ -12,7 +12,7 @@ such as |imagecreatetruecolor|.
 {style} An array of pixel colors. You can use the IMG_COLOR_TRANSPARENT
 constant to add a transparent pixel.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Following example script draws a dashed line from upper left to lower right
 corner of the canvas: |imagesetstyle| example

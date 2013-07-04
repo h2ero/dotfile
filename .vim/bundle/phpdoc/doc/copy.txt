@@ -15,7 +15,7 @@ If the destination file already exists, it will be overwritten.
 
 {context} A valid context resource created with |stream_context_create|.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Version Description 5.3.0 Added context support. 4.3.0 Both {source} and
 {dest} may now be URLs if the "fopen wrappers" have been enabled. See |fopen|

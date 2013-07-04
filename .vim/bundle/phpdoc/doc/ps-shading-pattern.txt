@@ -11,7 +11,7 @@ Creates a pattern based on a shading, which has to be created before with
 
 {optlist} This argument is not currently used.
 
-The identifier of the pattern or FALSE on failure.
+The identifier of the pattern or &false; on failure.
 
 |ps_shading| |ps_shfill|
 

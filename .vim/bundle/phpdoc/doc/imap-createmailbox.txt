@@ -9,7 +9,7 @@ Creates a new mailbox specified by {mailbox}.
 {mailbox} The mailbox name, see |imap_open| for more information. Names
 containing international characters should be encoded by |imap_utf7_encode|
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |imap_createmailbox| example
 
@@ -18,14 +18,14 @@ Returns TRUE on success or &false; on failure.
        or die("can't connect: " . imap_last_error());
   
   $name1 = "phpnewbox";
-  $name2 = imap_utf7_encode("phpnewb&amp;ouml;x");
+  $name2 = imap_utf7_encode("phpnewböx"); // phpnewb&amp;w7Y-x
   
   $newname = $name1;
   
   echo "Newname will be '$name1'<br />\n";
   
   // we will now create a new mailbox "phptestbox" in your inbox folder,
-  // check its status after creation and finaly remove it to restore
+  // check its status after creation and finally remove it to restore
   // your inbox to its initial state
   
   if (@imap_createmailbox($mbox, imap_utf7_encode("{imap.example.org}INBOX.$newname"))) {

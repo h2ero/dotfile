@@ -8,7 +8,7 @@ the given pattern
 {pattern} The pattern being checked against the keys.
 
 Returns an array with information about all keys that matches the given
-pattern or FALSE, if an error has occurred.
+pattern or &false;, if an error has occurred.
 
 Procedural |gnupg_keyinfo| example
 

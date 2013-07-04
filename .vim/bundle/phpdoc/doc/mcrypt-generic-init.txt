@@ -21,7 +21,7 @@ zeros, but this is not recommended.
 The function returns a negative value on error: -3 when the key length was
 incorrect, -4 when there was a memory allocation problem and any other return
 value is an unknown error. If an error occurs a warning will be displayed
-accordingly. FALSE is returned if incorrect parameters were passed.
+accordingly. &false; is returned if incorrect parameters were passed.
 
 |mcrypt_module_open|
 

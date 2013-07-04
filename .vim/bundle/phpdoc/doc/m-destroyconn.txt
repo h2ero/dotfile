@@ -7,7 +7,7 @@ available.
 
 { conn}An MCVE_CONN resource returned by |m_initengine|.
 
-Returns TRUE.
+Returns &true;.
 
 |m_initconn|
 

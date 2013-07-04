@@ -15,10 +15,10 @@ out in |com_load_typelib|).
 {dispinterface} The name of an IDispatch descendant interface that you want to
 display.
 
-{wantsink} If set to TRUE, the corresponding sink interface will be displayed
-instead.
+{wantsink} If set to &true;, the corresponding sink interface will be
+displayed instead.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |com_event_sink| |com_load_typelib|
 

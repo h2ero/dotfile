@@ -13,7 +13,7 @@ please see your system's setpriority(2) man page for specific details.
 
 {process_identifier} One of PRIO_PGRP, PRIO_USER or PRIO_PROCESS.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |pcntl_getpriority|
 

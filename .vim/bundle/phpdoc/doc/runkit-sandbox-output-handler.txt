@@ -27,7 +27,7 @@ will be displayed normally. If this parameter is not passed then output
 handling will not be changed. If a non-truth value is passed, output handling
 will be disabled and will revert to direct display.
 
-Returns the name of the previously defined output handler callback, or FALSE
+Returns the name of the previously defined output handler callback, or &false;
 if no handler was previously defined.
 
 Feeding output to a variable

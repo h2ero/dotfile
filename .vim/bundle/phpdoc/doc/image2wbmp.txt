@@ -12,7 +12,7 @@ outputted directly.
 
 {threshold} Threshold value, between 0 and 255 (inclusive).
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |image2wbmp| example
 

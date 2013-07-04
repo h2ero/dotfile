@@ -7,7 +7,7 @@ Draws the path constructed with previously called drawing functions like
 
 {psdoc} Resource identifier of the postscript file as returned by |ps_new|.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |ps_closepath_stroke| |ps_fill| |ps_fill_stroke|
 

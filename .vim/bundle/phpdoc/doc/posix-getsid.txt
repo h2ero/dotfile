@@ -6,7 +6,7 @@ Return the session id of the process {pid}. The session id of a process is the
 process group id of the session leader.
 
 {pid} The process identifier. If set to 0, the current process is assumed. If
-an invalid {pid} is specified, then FALSE is returned and an error is set
+an invalid {pid} is specified, then &false; is returned and an error is set
 which can be checked with |posix_get_last_error|.
 
 Returns the identifier, as an integer.

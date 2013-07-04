@@ -5,7 +5,7 @@ radius_request_authenticator -- Returns the request authenticator
 The request authenticator is needed for demangling mangled data like passwords
 and encryption-keys.
 
-Returns the request authenticator as string, or FALSE on error.
+Returns the request authenticator as string, or &false; on error.
 
 |radius_demangle|
 

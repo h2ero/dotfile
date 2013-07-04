@@ -10,7 +10,7 @@ The step, or value to increase.
 
 Optionally pass the success or fail boolean value to this referenced variable.
 
-Returns the current value of {key}'s value on success, or FALSE on failure
+Returns the current value of {key}'s value on success, or &false; on failure
 
 |apc_inc| example
 

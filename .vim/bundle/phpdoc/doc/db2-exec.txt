@@ -28,7 +28,7 @@ functionality.
 For a description of valid statement options, see |db2_set_option|.
 
 Returns a statement resource if the SQL statement was issued successfully, or
-FALSE if the database failed to execute the SQL statement.
+&false; if the database failed to execute the SQL statement.
 
 Creating a table with |db2_exec| The following example uses |db2_exec| to
 issue a set of DDL statements in the process of creating a table.

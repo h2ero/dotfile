@@ -3,8 +3,8 @@ will be used
 
   bool runkit_return_value_used()~
 
-Returns TRUE if the function's return value is used by the calling scope,
-otherwise FALSE
+Returns &true; if the function's return value is used by the calling scope,
+otherwise &false;
 
 |runkit_return_value_used| example
 

@@ -7,7 +7,7 @@ mb_ereg_search_setpos -- Set start point of next regular expression match
 
 {position} The position to set.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 The internal encoding or the character encoding specified by
 |mb_regex_encoding| will be used as the character encoding for this function.

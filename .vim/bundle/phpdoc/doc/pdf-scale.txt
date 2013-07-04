@@ -2,6 +2,6 @@ PDF_scale -- Scale coordinate system
 
   bool PDF_scale(resource p, float sx, float sy)~
 
-Scales the coordinate system. Returns TRUE on success or &false; on failure.
+Scales the coordinate system. Returns &true; on success or &false; on failure.
 
 vim:ft=help:

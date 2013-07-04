@@ -9,7 +9,7 @@ script.)
 
 {td} The encryption descriptor.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |mcrypt_module_open| |mcrypt_generic_init|
 

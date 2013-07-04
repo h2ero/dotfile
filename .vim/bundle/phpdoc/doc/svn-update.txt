@@ -15,7 +15,7 @@ directory, use |realpath| or dirname(__FILE__).
 
 {recurse} Whether or not to recursively update directories.
 
-Returns new revision number on success, returns FALSE on failure.
+Returns new revision number on success, returns &false; on failure.
 
 This function is EXPERIMENTAL. The behaviour of this function, its name, and
 surrounding documentation may change without notice in a future release of

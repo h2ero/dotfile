@@ -11,20 +11,20 @@ Instead of a filename you may also pass a valid stream resource
 {version} Allows you to specify the version of the tag as MP3 files may
 contain both, version 1.x and version 2.x tags.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |id3_remove_tag| example
 
 <?php >
   $result = id3_remove_tag( "path/to/example.mp3", ID3_V1_0 );
   if ($result === true) {
-      echo "Tag succesfully removed\n";
+      echo "Tag successfully removed\n";
   }
 ?>
 
 If the file is writable and contained a 1.0 tag, this will output:
 
-  Tag succesfully removed
+  Tag successfully removed
 
 
 

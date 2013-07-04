@@ -8,7 +8,7 @@ associated with {result}.
 { result}The result resource that is being evaluated. This result comes from a
 call to |msql_query|.
 
-Returns the number of affected rows on success, or FALSE on error.
+Returns the number of affected rows on success, or &false; on error.
 
 |msql_query|
 

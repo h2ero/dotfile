@@ -10,7 +10,7 @@ bytes available on the corresponding filesystem or disk partition.
 Given a file name instead of a directory, the behaviour of the function is
 unspecified and may differ between operating systems and PHP versions.
 
-Returns the number of available bytes as a float or FALSE on failure.
+Returns the number of available bytes as a float or &false; on failure.
 
 |disk_free_space| example
 

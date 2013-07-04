@@ -24,7 +24,7 @@ from the headers.
 {rpath} Use this parameter to specify return path upon mail delivery failure.
 This is useful when using PHP as a mail client for multiple users.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |mail|
 

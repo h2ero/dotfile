@@ -11,7 +11,8 @@ link is assumed.
 
 {blob_id} A BLOB id.
 
-Returns a BLOB handle for later use with |ibase_blob_get| or FALSE on failure.
+Returns a BLOB handle for later use with |ibase_blob_get| or &false; on
+failure.
 
 |ibase_blob_close| |ibase_blob_echo| |ibase_blob_get|
 

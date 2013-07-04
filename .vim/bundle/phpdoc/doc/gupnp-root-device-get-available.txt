@@ -6,7 +6,7 @@ Get whether or not {root_device} is available (announcing its presence).
 
 {root_device} A root device identifier, returned by |gupnp_root_device_new|.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |gupnp_root_device_set_available|
 

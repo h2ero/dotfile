@@ -11,6 +11,6 @@ databases specified in call to |yaz_connect|.
 {databases} A string containing one or more databases. Multiple databases are
 separated by a plus sign +.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 vim:ft=help:

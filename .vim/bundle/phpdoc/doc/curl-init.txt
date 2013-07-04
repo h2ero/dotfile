@@ -8,7 +8,9 @@ Initializes a new session and return a cURL handle for use with the
 {url} If provided, the CURLOPT_URL option will be set to its value. You can
 manually set this using the |curl_setopt| function.
 
-Returns a cURL handle on success, FALSE on errors.
+The file protocol is disabled by cURL if open_basedir is set.
+
+Returns a cURL handle on success, &false; on errors.
 
 Initializing a new cURL session and fetching a web page
 

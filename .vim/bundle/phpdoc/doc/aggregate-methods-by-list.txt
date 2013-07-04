@@ -18,7 +18,7 @@ always excluded.
 
 {exclude} The optional parameter {exclude} is used to decide whether the list
 contains the names of methods to include in the aggregation (i.e. {exclude} is
-FALSE), or to exclude from the aggregation ({exclude} is TRUE).
+&false;), or to exclude from the aggregation ({exclude} is &true;).
 
 No value is returned.
 

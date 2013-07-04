@@ -10,8 +10,8 @@ string.
 
 {option} The search option.
 
-|mb_ereg_search| returns TRUE if the multibyte string matches with the regular
-expression, or FALSE otherwise. The string for matching is set by
+|mb_ereg_search| returns &true; if the multibyte string matches with the
+regular expression, or &false; otherwise. The string for matching is set by
 |mb_ereg_search_init|. If {pattern} is not specified, the previous one is
 used.
 

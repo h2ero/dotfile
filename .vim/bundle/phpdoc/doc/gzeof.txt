@@ -7,8 +7,8 @@ Tests the given GZ file pointer for EOF.
 {zp} The gz-file pointer. It must be valid, and must point to a file
 successfully opened by |gzopen|.
 
-Returns TRUE if the gz-file pointer is at EOF or an error occurs; otherwise
-returns FALSE.
+Returns &true; if the gz-file pointer is at EOF or an error occurs; otherwise
+returns &false;.
 
 |gzeof| example
 

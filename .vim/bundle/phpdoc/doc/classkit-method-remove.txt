@@ -13,7 +13,7 @@ PHP. This function should be used at your own risk.
 
 {methodname} The name of the method to remove
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |classkit_method_remove| example
 

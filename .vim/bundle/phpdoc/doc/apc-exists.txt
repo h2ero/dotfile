@@ -6,9 +6,9 @@ Checks if one ore more APC keys exist.
 
 A string, or an array of strings, that contain keys.
 
-Returns TRUE if the key exists, otherwise FALSE Or if an array was passed to
-{keys}, then an array is returned that contains all existing keys, or an empty
-array if none exist.
+Returns &true; if the key exists, otherwise &false; Or if an array was passed
+to {keys}, then an array is returned that contains all existing keys, or an
+empty array if none exist.
 
 |apc_exists| example
 

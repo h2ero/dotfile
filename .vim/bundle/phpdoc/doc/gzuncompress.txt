@@ -8,7 +8,7 @@ This function uncompress a compressed string.
 
 {length} The maximum length of data to decode.
 
-The original uncompressed data or FALSE on error.
+The original uncompressed data or &false; on error.
 
 The function will return an error if the uncompressed data is more than 32768
 times the length of the compressed input {data} or more than the optional

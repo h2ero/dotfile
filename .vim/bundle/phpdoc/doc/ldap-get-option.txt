@@ -15,7 +15,7 @@ string LDAP_OPT_SERVER_CONTROLS array LDAP_OPT_CLIENT_CONTROLS array
 
 {retval} This will be set to the option value.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Check protocol version
 

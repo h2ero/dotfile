@@ -13,7 +13,7 @@ provide.
 
 {filename} Path to the JPEG image.
 
-Returns an image resource identifier on success, FALSE on errors.
+Returns an image resource identifier on success, &false; on errors.
 
 Example to handle an error during loading of a JPEG
 

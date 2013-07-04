@@ -5,6 +5,6 @@ ibase_service_detach -- Disconnect from the service manager
 This function is currently not documented; only its argument list is
 available.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 vim:ft=help:

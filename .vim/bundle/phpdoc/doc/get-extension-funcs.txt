@@ -10,7 +10,7 @@ indicated by {module_name}.
 
 This parameter must be in lowercase.
 
-Returns an array with all the functions, or FALSE if {module_name} is not a
+Returns an array with all the functions, or &false; if {module_name} is not a
 valid extension.
 
 Prints the XML functions
@@ -51,6 +51,6 @@ The above example will output something similar to:
 
 
 
-|get_loaded_extensions|
+|get_loaded_extensions| ReflectionExtension::getFunctions
 
 vim:ft=help:

@@ -22,7 +22,7 @@ A column can be bound or rebound at any time, even after a result set has been
 partially retrieved. The new binding takes effect the next time
 |maxdb_stmt_fetch| is called.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Object oriented style
 

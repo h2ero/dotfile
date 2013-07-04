@@ -7,9 +7,9 @@ Fetchs a stored variable from the cache.
 {key} The {key} used to store the value (with |apc_store|). If an array is
 passed then each element is fetched and returned.
 
-{success} Set to TRUE in success and FALSE in failure.
+{success} Set to &true; in success and &false; in failure.
 
-The stored variable or array of variables on success; FALSE on failure
+The stored variable or array of variables on success; &false; on failure
 
 A |apc_fetch| example
 

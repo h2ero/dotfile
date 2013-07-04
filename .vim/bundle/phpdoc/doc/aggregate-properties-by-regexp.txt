@@ -17,8 +17,8 @@ considered private to the aggregated class, are always excluded.
 
 {exclude} The optional parameter {exclude} is used to decide whether the
 regular expression will select the names of class properties to include in the
-aggregation (i.e. {exclude} is FALSE), or to exclude from the aggregation
-({exclude} is TRUE).
+aggregation (i.e. {exclude} is &false;), or to exclude from the aggregation
+({exclude} is &true;).
 
 No value is returned.
 

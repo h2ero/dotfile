@@ -12,7 +12,7 @@ provide.
 
 {filename} Path to the GD file.
 
-Returns an image resource identifier on success, FALSE on errors.
+Returns an image resource identifier on success, &false; on errors.
 
 |imagecreatefromgd| example
 

@@ -10,7 +10,7 @@ are between 1 and dbase_numrecords($db).
 {dbase_identifier} The database link identifier, returned by |dbase_open| or
 |dbase_create|.
 
-The number of fields in the database, or FALSE if an error occurs.
+The number of fields in the database, or &false; if an error occurs.
 
 |dbase_numfields| Example
 

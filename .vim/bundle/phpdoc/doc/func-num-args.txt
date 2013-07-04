@@ -70,5 +70,6 @@ If this value must be passed, the results should be assigned to a variable,
 and that variable should be passed.
 
 |func_get_arg| |func_get_args|
+ReflectionFunctionAbstract::getNumberOfParameters
 
 vim:ft=help:

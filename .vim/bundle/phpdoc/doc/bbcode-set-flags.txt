@@ -11,7 +11,7 @@ Set or alter parser options
 {mode} One of the BBCODE_SET_FLAGS_* constant to set, unset a specific flag
 set or to replace the flag set by flags.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |bbcode_set_flags| usage example
 
@@ -33,7 +33,7 @@ Returns TRUE on success or &false; on failure.
   $text="[i] Parser [b] Auto Correction [/i] at work [/b]\n";
   $BBHandler=bbcode_create($arrayBBCode);
   echo bbcode_parse($BBHandler,$text);
-  // Enabling reopening of automaticaly closed elements
+  // Enabling reopening of automatically closed elements
   bbcode_set_flags($BBHandler,BBCODE_CORRECT_REOPEN_TAGS, 
                    BBCODE_SET_FLAGS_SET);
   echo bbcode_parse($BBHandler,$text);

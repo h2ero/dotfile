@@ -9,7 +9,7 @@ Check if a number is a perfect square.
 It can be either a GMP number resource, or a numeric string given that it is
 possible to convert the latter to a number.
 
-Returns TRUE if {a} is a perfect square, FALSE otherwise.
+Returns &true; if {a} is a perfect square, &false; otherwise.
 
 |gmp_perfect_square| example
 

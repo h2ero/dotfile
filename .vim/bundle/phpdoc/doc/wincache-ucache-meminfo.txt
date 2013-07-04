@@ -4,7 +4,7 @@ wincache_ucache_meminfo -- Retrieves information about user cache memory usage
 
 Retrieves information about memory usage by user cache.
 
-Array of meta data about user cache memory usage or FALSE on failure
+Array of meta data about user cache memory usage or &false; on failure
 
 The array returned by this function contains the following elements:
 memory_total - amount of memory in bytes allocated for the user cache

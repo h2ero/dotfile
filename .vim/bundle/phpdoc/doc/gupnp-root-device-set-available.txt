@@ -6,9 +6,9 @@ Controls whether or not root_device is available (announcing its presence).
 
 {root_device} A root device identifier, returned by |gupnp_root_device_new|.
 
-{available} Set TRUE if {root_device} should be available.
+{available} Set &true; if {root_device} should be available.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |gupnp_root_device_get_available|
 

@@ -11,7 +11,7 @@ set and prepare to fetch the rows from the new result set.
 {result_id} The result resource that is being evaluated. This result comes
 from a call to |mssql_query|.
 
-Returns TRUE if an additional result set was available or FALSE otherwise.
+Returns &true; if an additional result set was available or &false; otherwise.
 
 |mssql_next_result| example
 

@@ -20,7 +20,7 @@ socket, being more efficient than a localhost TCP socket connection.
 While this function will accept a colon (:) as a host/port separator, a comma
 (,) is the preferred method.
 
-Returns a positive mSQL link identifier on success, or FALSE on error.
+Returns a positive mSQL link identifier on success, or &false; on error.
 
 |msql_connect| |msql_close|
 

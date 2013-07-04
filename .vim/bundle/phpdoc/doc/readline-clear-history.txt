@@ -4,6 +4,6 @@ readline_clear_history -- Clears the history
 
 This function clears the entire command line history.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 vim:ft=help:

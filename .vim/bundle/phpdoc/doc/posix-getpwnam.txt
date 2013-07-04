@@ -6,7 +6,7 @@ Returns an array of information about the given user.
 
 {username} An alphanumeric username.
 
-On success an array with the following elements is returned, else FALSE is
+On success an array with the following elements is returned, else &false; is
 returned: The user information array Element Description name The name element
 contains the username of the user. This is a short, usually less than 16
 character "handle" of the user, not the real, full name. This should be the
@@ -40,7 +40,7 @@ The above example will output something similar to:
       [passwd]  => x
       [uid]     => 10000
       [gid]     => 42
-      [geocs]   => "tom,,,"
+      [gecos]   => "tom,,,"
       [dir]     => "/home/tom"
       [shell]   => "/bin/bash"
   )

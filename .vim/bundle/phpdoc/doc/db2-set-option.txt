@@ -27,14 +27,14 @@ order, but are only supported by IBM DB2 Universal Database databases.
 
 {binmode} Passing DB2_BINARY specifies that binary data will be returned as
 is. This is the default mode. This is the equivalent of setting
-ibm_db2.binmode=1 in php.ini.
+ibm_db2.binmode=1 in &php.ini;.
 
 Passing DB2_CONVERT specifies that binary data will be converted to
 hexadecimal encoding, and will be returned as such. This is the equivalent of
-setting ibm_db2.binmode=2 in php.ini.
+setting ibm_db2.binmode=2 in &php.ini;.
 
-Passing DB2_PASSTHRU specifies that binary data will be converted to NULL.
-This is the equivalent of setting ibm_db2.binmode=3 in php.ini.
+Passing DB2_PASSTHRU specifies that binary data will be converted to &null;.
+This is the equivalent of setting ibm_db2.binmode=3 in &php.ini;.
 
 {db2_attr_case} Passing DB2_CASE_LOWER specifies that column names of the
 result set are returned in lower case.

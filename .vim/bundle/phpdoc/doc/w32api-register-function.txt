@@ -15,7 +15,7 @@ This type can be a generic PHP type, or a type defined with |w32api_deftype|.
 All type names are case sensitive. Built in type names should be provided in
 lowercase.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 This function is EXPERIMENTAL. The behaviour of this function, its name, and
 surrounding documentation may change without notice in a future release of

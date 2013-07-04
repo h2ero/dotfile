@@ -16,7 +16,7 @@ Use the fast-exponentiation method to raise {left_operand} to the power
 decimal place in the result. You can also set the global default scale for all
 functions by using |bcscale|.
 
-Returns the result as a string, or NULL if {modulus} is 0.
+Returns the result as a string, or &null; if {modulus} is 0.
 
 Because this method uses the modulus operation, numbers which are not positive
 integers may give unexpected results.

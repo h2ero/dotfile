@@ -16,7 +16,7 @@ counting from the end of the string.
 {length} The length of the comparison. The default value is the largest of the
 length of the {str} compared to the length of {main_str} less the {offset}.
 
-{case_insensitivity} If {case_insensitivity} is TRUE, comparison is case
+{case_insensitivity} If {case_insensitivity} is &true;, comparison is case
 insensitive.
 
 vim:ft=help:

@@ -10,7 +10,7 @@ Removes an authorized publickey.
 
 {blob} Publickey blob as raw binary data
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 The public key subsystem is used for managing public keys on a server to which
 the client is already authenticated. To authenticate to a remote system using

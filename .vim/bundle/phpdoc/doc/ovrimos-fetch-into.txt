@@ -20,7 +20,7 @@ direction from the end. Absolute Absolute position from the start. Requires
 {rownumber} The row number, first one is 0. Only needed when {how} is set to
 Absolute.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 A fetch into example
 

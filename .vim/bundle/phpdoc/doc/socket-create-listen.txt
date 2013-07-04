@@ -14,7 +14,7 @@ listens to accept new connections.
 pending connections may grow to. SOMAXCONN may be passed as {backlog}
 parameter, see |socket_listen| for more information.
 
-|socket_create_listen| returns a new socket resource on success or FALSE on
+|socket_create_listen| returns a new socket resource on success or &false; on
 error. The error code can be retrieved with |socket_last_error|. This code may
 be passed to |socket_strerror| to get a textual explanation of the error.
 

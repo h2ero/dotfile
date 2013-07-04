@@ -9,7 +9,7 @@ Exports the key {fingerprint}.
 {fingerprint} The fingerprint key.
 
 On success, this function returns the keydata. On failure, this function
-returns FALSE.
+returns &false;.
 
 Procedural |gnupg_export| example
 

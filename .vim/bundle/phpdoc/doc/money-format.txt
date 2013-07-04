@@ -71,8 +71,8 @@ n The number is formatted according to the locale's national currency format
 {number} The number to be formatted.
 
 Returns the formatted string. Characters before and after the formatting
-string will be returned unchanged. Non-numeric {number} causes returning NULL
-and emitting E_WARNING.
+string will be returned unchanged. Non-numeric {number} causes returning
+&null; and emitting E_WARNING.
 
 The function |money_format| is only defined if the system has strfmon
 capabilities. For example, Windows does not, so |money_format| is undefined in

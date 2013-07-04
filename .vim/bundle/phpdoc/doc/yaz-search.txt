@@ -33,7 +33,7 @@ Maintenance Agency site.
 If you would like to use a more friendly notation, use the CCL parser -
 functions |yaz_ccl_conf| and |yaz_ccl_parse|.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Query Examples You can search for simple terms, like this:
 

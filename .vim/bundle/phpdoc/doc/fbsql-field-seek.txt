@@ -10,7 +10,7 @@ doesn't include a field offset, the field offset specified in
 
 {field_offset} The numerical offset of the field. The field index starts at 0.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |fbsql_fetch_field|
 

@@ -20,7 +20,7 @@ specified by the typelibrary associated with {comobject}, but you may override
 this choice by setting {sinkinterface} to the name of the dispinterface that
 you want to use.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 COM event sink example
 

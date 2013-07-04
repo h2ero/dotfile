@@ -1,12 +1,12 @@
-is_null -- Finds whether a variable is NULL
+is_null -- Finds whether a variable is &null;
 
   bool is_null(mixed var)~
 
-Finds whether the given variable is NULL.
+Finds whether the given variable is &null;.
 
 {var} The variable being evaluated.
 
-Returns TRUE if {var} is null, FALSE otherwise.
+Returns &true; if {var} is null, &false; otherwise.
 
 |is_null| example
 
@@ -23,7 +23,7 @@ Returns TRUE if {var} is null, FALSE otherwise.
 
 
 
-The NULL type |isset| |is_bool| |is_numeric| |is_float| |is_int| |is_string|
+The &null; type |isset| |is_bool| |is_numeric| |is_float| |is_int| |is_string|
 |is_object| |is_array|
 
 vim:ft=help:

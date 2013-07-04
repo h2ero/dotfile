@@ -6,7 +6,7 @@ Deletes the charobject for the given char object-id.
 
 {bid} The char object id.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |ifx_create_char|
 

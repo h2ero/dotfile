@@ -10,7 +10,7 @@ Sets the current file or seek position of an open slob object.
 
 {offset} A byte offset.
 
-Returns the seek position as an integer, or FALSE on errors.
+Returns the seek position as an integer, or &false; on errors.
 
 |ifxus_tell_slob|
 

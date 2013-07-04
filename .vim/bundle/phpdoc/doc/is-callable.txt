@@ -1,30 +1,25 @@
 is_callable -- Verify that the contents of a variable can be called as a
 function
 
-  bool is_callable(callback name [, bool syntax_only [, string callable_name]])~
+  bool is_callable(callable name [, bool syntax_only [, string callable_name]])~
 
 Verify that the contents of a variable can be called as a function. This can
 check that a simple variable contains the name of a valid function, or that an
 array contains a properly encoded object and function name.
 
-{name} Can be either the name of a function stored in a string variable, or an
-object and the name of a method within the object, like this:
+{name} The callback function to check
 
-  array($SomeObject, 'MethodName')
-
-
-
-{syntax_only} If set to TRUE the function only verifies that {name} might be a
-function or method. It will only reject simple variables that are not strings,
-or an array that does not have a valid structure to be used as a callback. The
-valid ones are supposed to have only 2 entries, the first of which is an
-object or a string, and the second a string.
+{syntax_only} If set to &true; the function only verifies that {name} might be
+a function or method. It will only reject simple variables that are not
+strings, or an array that does not have a valid structure to be used as a
+callback. The valid ones are supposed to have only 2 entries, the first of
+which is an object or a string, and the second a string.
 
 {callable_name} Receives the "callable name". In the example below it is
 "someClass::someMethod". Note, however, that despite the implication that
 someClass::SomeMethod() is a callable static method, this is not the case.
 
-Returns TRUE if {name} is callable, FALSE otherwise.
+Returns &true; if {name} is callable, &false; otherwise.
 
 |is_callable| example
 

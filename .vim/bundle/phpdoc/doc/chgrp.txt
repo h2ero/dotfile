@@ -11,7 +11,7 @@ change the group of a file to any group of which that user is a member.
 
 {group} A group name or number.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Changing a file's group
 

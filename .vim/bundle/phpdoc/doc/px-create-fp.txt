@@ -29,7 +29,7 @@ will have to make sure to either make the field large enough for all field
 values to fit or specify a blob file with |px_set_blob_file| for storing the
 blobs. If this is not done the field data is truncated.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Creating a Paradox database with two fields
 

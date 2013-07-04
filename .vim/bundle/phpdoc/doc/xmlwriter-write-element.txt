@@ -1,8 +1,8 @@
-XMLWriter::writeElement -- Write full element tag
+xmlwriter_write_element -- Write full element tag
 
 Object oriented style
 
-  bool writeElement(string name [, string content])~
+  bool XMLWriter::writeElement(string name [, string content])~
 
 Procedural style
 
@@ -18,9 +18,9 @@ modified. This resource comes from a call to |xmlwriter_open_uri| or
 
 {content} The element contents.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
-Version Description PHP 5.2.3 The {content} parameter became optional.
+Version Description 5.2.3 The {content} parameter became optional.
 
 XMLWriter::startElement XMLWriter::endElement XMLWriter::writeElementNS
 

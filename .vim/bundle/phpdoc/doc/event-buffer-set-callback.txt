@@ -17,6 +17,6 @@ be NULL.
 
 {arg} An argument that will be passed to each of the callbacks (optional).
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 vim:ft=help:

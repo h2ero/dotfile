@@ -2,7 +2,7 @@ apache_getenv -- Get an Apache subprocess_env variable
 
   string apache_getenv(string variable [, bool walk_to_top])~
 
-Get an Apache environment variable as specified by {variable}.
+Retrieve an Apache environment variable specified by {variable}.
 
 This function requires Apache 2 otherwise it's undefined.
 
@@ -11,7 +11,7 @@ This function requires Apache 2 otherwise it's undefined.
 {walk_to_top} Whether to get the top-level variable available to all Apache
 layers.
 
-The value of the Apache environment variable on success, or FALSE on failure
+The value of the Apache environment variable on success, or &false; on failure
 
 |apache_getenv| example The example above shows how to retrieve the value of
 the Apache environment variable SERVER_ADDR.

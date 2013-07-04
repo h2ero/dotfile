@@ -38,7 +38,7 @@ value.
 {error_message} Passed by reference and is set to hold a descriptive error
 message explaining why the database could not be opened if there was an error.
 
-Returns a resource (database handle) on success, FALSE on error.
+Returns a resource (database handle) on success, &false; on error.
 
 |sqlite_open| |sqlite_close| |sqlite_factory|
 

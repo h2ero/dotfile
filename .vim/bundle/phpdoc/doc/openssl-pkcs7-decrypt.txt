@@ -15,7 +15,7 @@ Decrypts the S/MIME encrypted message contained in the file specified by
 
 {recipkey}
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |openssl_pkcs7_decrypt| example
 

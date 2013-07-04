@@ -20,7 +20,7 @@ functions.
 Local locks are scoped to the application pool in IIS FastCGI case or to all
 php processes that have the same parent process identifier.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Using |wincache_lock|
 

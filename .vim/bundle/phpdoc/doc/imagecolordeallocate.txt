@@ -10,7 +10,7 @@ such as |imagecreatetruecolor|.
 
 {color} The color identifier.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Using |imagecolordeallocate|
 

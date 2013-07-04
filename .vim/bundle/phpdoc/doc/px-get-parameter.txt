@@ -19,6 +19,6 @@ inputencoding The encoding of the input data which is to be stored into the
 database. When storing data of character fields in the database, the data is
 expected to be delivered in this encoding.
 
-Returns the value of the parameter or FALSE on failure.
+Returns the value of the parameter or &false; on failure.
 
 vim:ft=help:

@@ -9,7 +9,7 @@ Reads the bytecodes of a class and calls back to a user function.
 
 {callback}
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |bcompiler_parse_class| example
 

@@ -8,7 +8,7 @@ connection, it will be blocked.
 
 {connection} PostgreSQL database connection resource.
 
-Returns TRUE if the connection is busy, FALSE otherwise.
+Returns &true; if the connection is busy, &false; otherwise.
 
 |pg_connection_busy| example
 

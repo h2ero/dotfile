@@ -21,7 +21,7 @@ match will be executed in POSIX mode, line break will be considered as normal
 character. If e is specified, {replacement} string will be evaluated as PHP
 expression.
 
-The resultant string on success, or FALSE on error.
+The resultant string on success, or &false; on error.
 
 The internal encoding or the character encoding specified by
 |mb_regex_encoding| will be used as the character encoding for this function.

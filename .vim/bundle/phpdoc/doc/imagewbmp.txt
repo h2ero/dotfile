@@ -7,14 +7,14 @@ imagewbmp -- Output image to browser or file
 { image}An image resource, returned by one of the image creation functions,
 such as |imagecreatetruecolor|.
 
-{filename} The path to save the file to. If not set or NULL, the raw image
+{filename} The path to save the file to. If not set or &null;, the raw image
 stream will be outputted directly.
 
 {foreground} You can set the foreground color with this parameter by setting
 an identifier obtained from |imagecolorallocate|. The default foreground color
 is black.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Outputting a WBMP image
 

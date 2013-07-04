@@ -10,7 +10,7 @@ Fills the terminal screen with blanks.
 
 Created blanks have the current background rendition, set by |ncurses_bkgd|.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |ncurses_bkgd| |ncurses_clear|
 

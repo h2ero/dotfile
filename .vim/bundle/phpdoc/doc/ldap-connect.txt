@@ -11,7 +11,7 @@ configure PHP with SSL, and set this parameter as ldaps://hostname/.
 
 {port} The port to connect to. Not used when using URLs.
 
-Returns a positive LDAP link identifier on success, or FALSE on error. When
+Returns a positive LDAP link identifier on success, or &false; on error. When
 OpenLDAP 2.x.x is used, |ldap_connect| will always return a resource as it
 does not actually connect but just initializes the connecting parameters. The
 actual connect happens with the next calls to ldap_* funcs, usually with

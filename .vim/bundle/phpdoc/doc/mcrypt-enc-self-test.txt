@@ -7,7 +7,7 @@ This function runs the self test on the algorithm specified by the descriptor
 
 {td} The encryption descriptor.
 
-If the self test succeeds it returns FALSE. In case of an error, it returns
-TRUE.
+If the self test succeeds it returns &false;. In case of an error, it returns
+&true;.
 
 vim:ft=help:

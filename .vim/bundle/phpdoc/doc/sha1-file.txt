@@ -8,10 +8,10 @@ hexadecimal number.
 
 {filename} The filename of the file to hash.
 
-{raw_output} When TRUE, returns the digest in raw binary format with a length
-of 20.
+{raw_output} When &true;, returns the digest in raw binary format with a
+length of 20.
 
-Returns a string on success, FALSE otherwise.
+Returns a string on success, &false; otherwise.
 
 |sha1_file| example
 

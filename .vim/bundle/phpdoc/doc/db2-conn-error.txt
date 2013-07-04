@@ -4,8 +4,8 @@ last connection attempt
   string db2_conn_error([resource connection])~
 
 |db2_conn_error| returns an SQLSTATE value representing the reason the last
-attempt to connect to a database failed. As |db2_connect| returns FALSE in the
-event of a failed connection attempt, you do not pass any parameters to
+attempt to connect to a database failed. As |db2_connect| returns &false; in
+the event of a failed connection attempt, you do not pass any parameters to
 |db2_conn_error| to retrieve the SQLSTATE value.
 
 If, however, the connection was successful but becomes invalid over time, you

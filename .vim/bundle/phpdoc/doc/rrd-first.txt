@@ -8,6 +8,6 @@ RRD database file name.
 
 The index number of the RRA that is to be examined. Default value is 0.
 
-Integer number of unix timestamp, FALSE if some error occurs.
+Integer number of unix timestamp, &false; if some error occurs.
 
 vim:ft=help:

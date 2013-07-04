@@ -10,8 +10,8 @@ internal data pointer ahead. |mssql_fetch_assoc| is equivalent to calling
 {result_id} The result resource that is being evaluated. This result comes
 from a call to |mssql_query|.
 
-Returns an associative array that corresponds to the fetched row, or FALSE if
-there are no more rows.
+Returns an associative array that corresponds to the fetched row, or &false;
+if there are no more rows.
 
 |mssql_fetch_assoc| example
 

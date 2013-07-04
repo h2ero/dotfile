@@ -22,7 +22,7 @@ FT_PEEK - Do not set the \Seen flag if not already set
 FT_INTERNAL - The return string is in internal format, will not canonicalize
 to CRLF.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |imap_fetchbody|
 

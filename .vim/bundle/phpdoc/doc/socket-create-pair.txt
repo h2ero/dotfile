@@ -23,7 +23,7 @@ See |socket_create| for the full list of supported protocols.
 
 {fd} Reference to an array in which the two socket resources will be inserted.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Version Description 5.3.0 This function is now re-enabled on Windows
 platforms. 4.3.0 This function was due to a bug made unavailable on Windows

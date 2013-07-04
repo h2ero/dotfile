@@ -6,13 +6,13 @@ bzdecompress -- Decompresses bzip2 encoded data
 
 {source} The string to decompress.
 
-{small} If TRUE, an alternative decompression algorithm will be used which
+{small} If &true;, an alternative decompression algorithm will be used which
 uses less memory (the maximum memory requirement drops to around 2300K) but
 works at roughly half the speed.
 
 See the bzip2 documentation for more information about this feature.
 
-The decompressed string or number of error in case of error.
+The decompressed string, or an error number if an error occurred.
 
 Decompressing a String
 

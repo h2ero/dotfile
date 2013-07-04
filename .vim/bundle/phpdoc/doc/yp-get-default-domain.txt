@@ -9,7 +9,7 @@ A NIS domain can be described a group of NIS maps. Every host that needs to
 look up information binds itself to a certain domain. Refer to the documents
 mentioned at the beginning for more detailed information.
 
-Returns the default domain of the node or FALSE. Can be used as the domain
+Returns the default domain of the node or &false;. Can be used as the domain
 parameter for successive NIS calls.
 
 Example for the default domain

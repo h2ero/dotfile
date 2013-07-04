@@ -23,7 +23,7 @@ whose values are the conditions that a row must meet to be updated.
 PGSQL_DML_STRING combined. If PGSQL_DML_STRING is part of the {options} then
 query string is returned.
 
-Returns TRUE on success or &false; on failure. Returns string if
+Returns &true; on success or &false; on failure. Returns string if
 PGSQL_DML_STRING is passed via {options}.
 
 |pg_update| example

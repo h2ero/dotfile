@@ -21,7 +21,7 @@ If no link identifier is specified, the last opened link is assumed. If no
 link is open, the function will try to establish a link as if |mssql_connect|
 was called, and use it.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |mssql_select_db| example
 

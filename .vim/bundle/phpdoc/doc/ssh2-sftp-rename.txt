@@ -10,7 +10,7 @@ Renames a file on the remote filesystem.
 
 {to} The new file name that replaces {from}.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Renaming a file via sftp
 

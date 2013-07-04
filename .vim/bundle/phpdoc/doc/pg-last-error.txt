@@ -17,8 +17,8 @@ This function used to be called |pg_errormessage|.
 present, the default connection is used. The default connection is the last
 connection made by |pg_connect| or |pg_pconnect|.
 
-A string containing the last error message on the given {connection}, or FALSE
-on error.
+A string containing the last error message on the given {connection}, or
+&false; on error.
 
 |pg_last_error| example
 

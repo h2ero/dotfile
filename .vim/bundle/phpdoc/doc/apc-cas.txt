@@ -11,7 +11,7 @@ The old value (the value currently stored).
 
 The new value to update to.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |apc_cas| example
 

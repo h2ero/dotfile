@@ -32,7 +32,7 @@ or'ed together.
 add a {blobidarray} parameter containing the corresponding "blob ids", and you
 should replace those columns with a "?" in the query text.
 
-Returns a valid result identifier for use by |ifx_do|, or FALSE on errors.
+Returns a valid result identifier for use by |ifx_do|, or &false; on errors.
 
 |ifx_do|
 

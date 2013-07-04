@@ -7,7 +7,7 @@ This function returns the names of all the modules compiled and loaded in the
 PHP interpreter.
 
 {zend_extensions} Only return Zend extensions, if not then regular extensions,
-like mysqli are listed. Defaults to FALSE (return regular extensions).
+like mysqli are listed. Defaults to &false; (return regular extensions).
 
 Returns an indexed array of all the modules names.
 

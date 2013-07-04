@@ -13,7 +13,7 @@ section.
 
 {filename} Path to the monitored file
 
-Returns a monitoring resource or FALSE on errors.
+Returns a monitoring resource or &false; on errors.
 
 |fam_monitor_directory| |fam_monitor_collection| |fam_cancel_monitor|
 |fam_suspend_monitor| |fam_resume_monitor|

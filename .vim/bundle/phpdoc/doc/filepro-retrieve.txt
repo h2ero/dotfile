@@ -13,6 +13,6 @@ minus one (0..|filepro_rowcount| - 1)
 {field_number} The field number. Accepts values between zero and the total
 number of fields minus one (0..|filepro_fieldcount| - 1)
 
-Returns the specified data, or FALSE on errors.
+Returns the specified data, or &false; on errors.
 
 vim:ft=help:

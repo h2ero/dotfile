@@ -8,7 +8,7 @@ Stop hosting the file or folder at {server_path}.
 
 {server_path} Web server path where the file or folder is hosted.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |gupnp_context_new| |gupnp_context_host_path|
 

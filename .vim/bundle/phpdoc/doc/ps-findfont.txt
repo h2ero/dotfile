@@ -31,8 +31,8 @@ They contain a font encoding vector (which is currently not used but must be
 present) and a list of extra ligatures to extend the list of ligatures derived
 from the afm file.
 
-{encoding} can be NULL or the empty string if the default encoding (TeXBase1)
-shall be used.
+{encoding} can be &null; or the empty string if the default encoding
+(TeXBase1) shall be used.
 
 If the encoding is set to builtin then there will be no reencoding and the
 font specific encoding will be used. This is very useful with symbol fonts.

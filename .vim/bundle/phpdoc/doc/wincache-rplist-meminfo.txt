@@ -6,7 +6,7 @@ resolve file path cache
 Retrieves information about memory usage by resolve file path cache.
 
 Array of meta data that describes memory usage by resolve file path cache. or
-FALSE on failure
+&false; on failure
 
 The array returned by this function contains the following elements:
 memory_total - amount of memory in bytes allocated for the resolve file path

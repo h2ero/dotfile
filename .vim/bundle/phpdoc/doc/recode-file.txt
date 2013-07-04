@@ -11,7 +11,7 @@ file handle {output} according to the recode {request}.
 
 {output} A local file handle resource for the {output}
 
-Returns FALSE, if unable to comply, TRUE otherwise.
+Returns &false;, if unable to comply, &true; otherwise.
 
 Basic |recode_file| example
 

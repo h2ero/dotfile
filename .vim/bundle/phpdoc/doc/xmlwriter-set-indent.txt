@@ -1,8 +1,8 @@
-XMLWriter::setIndent -- Toggle indentation on/off
+xmlwriter_set_indent -- Toggle indentation on/off
 
 Object oriented style
 
-  bool setIndent(bool indent)~
+  bool XMLWriter::setIndent(bool indent)~
 
 Procedural style
 
@@ -16,7 +16,7 @@ modified. This resource comes from a call to |xmlwriter_open_uri| or
 
 {indent} Whether indentation is enabled.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 XMLWriter::setIndentString
 

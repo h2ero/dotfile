@@ -13,7 +13,7 @@ If optional and not specified, the function will try to find an open link to
 the FrontBase server and if no such link is found it will try to create one as
 if |fbsql_connect| was called with no arguments.
 
-Returns the BLOB size as an integer, or FALSE on error.
+Returns the BLOB size as an integer, or &false; on error.
 
 |fbsql_clob_size|
 

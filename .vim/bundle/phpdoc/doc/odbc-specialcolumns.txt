@@ -26,7 +26,7 @@ the data source when any value in the row is updated by any transaction.
 
 {nullable} The nullable option.
 
-Returns an ODBC result identifier or FALSE on failure.
+Returns an ODBC result identifier or &false; on failure.
 
 The result set has the following columns: SCOPE
 

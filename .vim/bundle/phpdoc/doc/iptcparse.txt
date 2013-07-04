@@ -7,7 +7,7 @@ Parses an IPTC block into its single tags.
 {iptcblock} A binary IPTC block.
 
 Returns an array using the tagmarker as an index and the value as the value.
-It returns FALSE on error or if no IPTC data was found.
+It returns &false; on error or if no IPTC data was found.
 
 iptcparse() used together with |getimagesize|
 

@@ -7,7 +7,7 @@ Load a PostScript Type 1 font from the given {filename}.
 {filename} Path to the Postscript font file.
 
 In the case everything went right, a valid font index will be returned and can
-be used for further purposes. Otherwise the function returns FALSE.
+be used for further purposes. Otherwise the function returns &false;.
 
 |imagepsloadfont| example
 

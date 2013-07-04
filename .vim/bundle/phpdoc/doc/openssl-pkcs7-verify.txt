@@ -24,7 +24,7 @@ containing a bunch of certificates to use as untrusted CAs.
 {content} You can specify a filename with {content} that will be filled with
 the verified data, but with the signature information stripped.
 
-Returns TRUE if the signature is verified, FALSE if it is not correct (the
+Returns &true; if the signature is verified, &false; if it is not correct (the
 message has been tampered with, or the signing certificate is invalid), or -1
 on error.
 

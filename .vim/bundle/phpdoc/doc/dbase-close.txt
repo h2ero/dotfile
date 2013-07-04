@@ -7,7 +7,7 @@ Closes the given database link identifier.
 {dbase_identifier} The database link identifier, returned by |dbase_open| or
 |dbase_create|.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Closing a dBase database file
 

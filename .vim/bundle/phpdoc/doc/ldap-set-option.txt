@@ -19,13 +19,13 @@ consists of an oid identifying the control, an optional value, and an optional
 flag for criticality. In PHP a control is given by an array containing an
 element with the key oid and string value, and two optional elements. The
 optional elements are key value with string value and key iscritical with
-boolean value. iscritical defaults to FALSE if not supplied. See
+boolean value. iscritical defaults to &false; if not supplied. See
 draft-ietf-ldapext-ldap-c-api-xx.txt for details. See also the second example
 below.
 
 {newval} The new value for the specified {option}.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Set protocol version
 

@@ -15,7 +15,7 @@ S_IFCHR or S_IFBLK).
 
 {minor} The minor device kernel identifier.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 A |posix_mknod| example
 

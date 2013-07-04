@@ -23,9 +23,9 @@ win32, if passed SOMAXCONN, the underlying service provider responsible for
 the socket will set the backlog to a maximum reasonable value. There is no
 standard provision to find out the actual backlog value on this platform.
 
-Returns TRUE on success or &false; on failure. The error code can be retrieved
-with |socket_last_error|. This code may be passed to |socket_strerror| to get
-a textual explanation of the error.
+Returns &true; on success or &false; on failure. The error code can be
+retrieved with |socket_last_error|. This code may be passed to
+|socket_strerror| to get a textual explanation of the error.
 
 |socket_accept| |socket_bind| |socket_connect| |socket_create|
 |socket_strerror|

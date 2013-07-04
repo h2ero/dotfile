@@ -9,7 +9,7 @@ to the open file handle.
 
 {filename} The source file path, as a string.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |bcompiler_write_file| example
 

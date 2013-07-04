@@ -12,7 +12,7 @@ link is assumed.
 
 {file_handle} The file handle is a handle returned by |fopen|.
 
-Returns the BLOB id on success, or FALSE on error.
+Returns the BLOB id on success, or &false; on error.
 
 |ibase_blob_import| example
 

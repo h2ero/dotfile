@@ -8,7 +8,7 @@ This function returns a decoded version of the input {data}.
 
 {length} The maximum length of data to decode.
 
-The decoded string, or FALSE if an error occurred.
+The decoded string, or &false; if an error occurred.
 
 |gzencode|
 

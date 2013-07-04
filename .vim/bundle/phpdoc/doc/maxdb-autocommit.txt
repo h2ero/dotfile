@@ -11,7 +11,7 @@ Object oriented style
 |maxdb_autocommit| is used to turn on or off auto-commit mode on queries for
 the database connection represented by the {link} resource.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Object oriented style
 

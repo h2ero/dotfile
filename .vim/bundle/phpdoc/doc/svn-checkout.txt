@@ -18,7 +18,7 @@ HEAD, the most recent revision.
 
 {flags} Any combination of SVN_NON_RECURSIVE and SVN_IGNORE_EXTERNALS.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 This function is EXPERIMENTAL. The behaviour of this function, its name, and
 surrounding documentation may change without notice in a future release of

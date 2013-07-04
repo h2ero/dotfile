@@ -8,9 +8,9 @@ debug_backtrace -- Generates a backtrace
 |debug_backtrace| options DEBUG_BACKTRACE_PROVIDE_OBJECT Whether or not to
 populate the "object" index. DEBUG_BACKTRACE_IGNORE_ARGS Whether or not to
 omit the "args" index, and thus all the function/method arguments, to save
-memory. Before 5.3.6, the only values recognized are TRUE or FALSE, which are
-the same as setting or not setting the DEBUG_BACKTRACE_PROVIDE_OBJECT option
-respectively.
+memory. Before 5.3.6, the only values recognized are &true; or &false;, which
+are the same as setting or not setting the DEBUG_BACKTRACE_PROVIDE_OBJECT
+option respectively.
 
 {limit} As of 5.4.0, this parameter can be used to limit the number of stack
 frames returned. By default ({limit}=0) it returns all stack frames.

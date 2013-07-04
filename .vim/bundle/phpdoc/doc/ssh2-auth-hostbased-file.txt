@@ -21,7 +21,7 @@ passphrase must be provided.
 {local_username} If {local_username} is omitted, then the value for {username}
 will be used for it.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Authentication using a public hostkey
 

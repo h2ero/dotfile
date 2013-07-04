@@ -1,6 +1,6 @@
 gzdeflate -- Deflate a string
 
-  string gzdeflate(string data [, int level])~
+  string gzdeflate(string data [, int level [, int encoding]])~
 
 This function compress the given string using the DEFLATE data format.
 
@@ -13,7 +13,9 @@ Compressed Data Format Specification version 1.3" (RFC 1951).
 for maximum compression. If not given, the default compression level will be
 the default compression level of the zlib library.
 
-The deflated string or FALSE if an error occurred.
+{encoding} One of ZLIB_ENCODING_* constants.
+
+The deflated string or &false; if an error occurred.
 
 |gzdeflate| example
 
@@ -25,6 +27,8 @@ The deflated string or FALSE if an error occurred.
 
 
 
+
+Version Description 5.4.0 Added {encoding} parameter.
 
 |gzinflate| |gzcompress| |gzuncompress| |gzencode|
 

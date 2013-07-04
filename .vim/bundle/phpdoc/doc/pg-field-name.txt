@@ -13,7 +13,7 @@ This function used to be called |pg_fieldname|.
 
 {field_number} Field number, starting from 0.
 
-The field name, or FALSE on error.
+The field name, or &false; on error.
 
 Getting information about fields
 

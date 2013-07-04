@@ -11,7 +11,7 @@ or another array, etc.
 
 {...}
 
-Returns the WDDX packet, or FALSE on error.
+Returns the WDDX packet, or &false; on error.
 
 |wddx_serialize_vars| example
 

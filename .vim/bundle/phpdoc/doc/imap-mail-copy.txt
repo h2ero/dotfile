@@ -16,7 +16,7 @@ numbers contain UIDS
 
 CP_MOVE - Delete the messages from the current mailbox after copying
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |imap_mail_move|
 

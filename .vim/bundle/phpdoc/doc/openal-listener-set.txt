@@ -8,7 +8,7 @@ AL_ORIENTATION (array(float,float,float)).
 
 Value to set, either float, or an array of floats as appropriate.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |openal_listener_get|
 

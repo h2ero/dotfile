@@ -10,8 +10,8 @@ Gets an option value from an XML parser.
 XML_OPTION_TARGET_ENCODING are available. See |xml_parser_set_option| for
 their description.
 
-This function returns FALSE if {parser} does not refer to a valid parser or if
-{option} isn't valid (generates also a E_WARNING). Else the option's value is
-returned.
+This function returns &false; if {parser} does not refer to a valid parser or
+if {option} isn't valid (generates also a E_WARNING). Else the option's value
+is returned.
 
 vim:ft=help:

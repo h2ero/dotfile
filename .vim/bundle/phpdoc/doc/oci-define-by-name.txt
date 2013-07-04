@@ -24,7 +24,7 @@ ignored and the returned data type will still be SQLT_CHR.
 You can optionally use |oci_new_descriptor| to allocate LOB/ROWID/BFILE
 descriptors.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |oci_define_by_name| example
 

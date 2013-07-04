@@ -5,7 +5,7 @@ any method whose scope is ancestral
 
 {classname} Name of class to emancipate
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 A |runkit_class_emancipate| example
 

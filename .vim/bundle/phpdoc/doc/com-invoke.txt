@@ -3,7 +3,7 @@ com_invoke -- Calls a COM component's method [deprecated]
   mixed com_invoke(resource com_object, string function_name [, mixed function_parameters])~
 
 |com_invoke| invokes the method named {function_name} of the COM component
-referenced by {com_object}. |com_invoke| returns FALSE on error, returns the
+referenced by {com_object}. |com_invoke| returns &false; on error, returns the
 {function_name}'s return value on success. All the extra parameters
 {function_parameters} are passed to the method {function_name}.
 

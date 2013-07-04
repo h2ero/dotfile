@@ -6,7 +6,7 @@ Returns the system type identifier of the remote FTP server.
 
 {ftp_stream} The link identifier of the FTP connection.
 
-Returns the remote system type, or FALSE on error.
+Returns the remote system type, or &false; on error.
 
 |ftp_systype| example
 

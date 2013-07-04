@@ -4,7 +4,7 @@ set_time_limit -- Limits the maximum execution time
 
 Set the number of seconds a script is allowed to run. If this is reached, the
 script returns a fatal error. The default limit is 30 seconds or, if it
-exists, the max_execution_time value defined in the php.ini.
+exists, the max_execution_time value defined in the &php.ini;.
 
 When called, |set_time_limit| restarts the timeout counter from zero. In other
 words, if the timeout is the default 30 seconds, and 25 seconds into script
@@ -18,7 +18,7 @@ No value is returned.
 
 This function has no effect when PHP is running in safe mode. There is no
 workaround other than turning off safe mode or changing the time limit in the
-php.ini.
+&php.ini;.
 
 The |set_time_limit| function and the configuration directive
 max_execution_time only affect the execution time of the script itself. Any

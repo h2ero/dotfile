@@ -7,16 +7,16 @@ imagejpeg -- Output image to browser or file
 { image}An image resource, returned by one of the image creation functions,
 such as |imagecreatetruecolor|.
 
-{filename} The path to save the file to. If not set or NULL, the raw image
+{filename} The path to save the file to. If not set or &null;, the raw image
 stream will be outputted directly.
 
-To skip this argument in order to provide the {quality} parameter, use NULL.
+To skip this argument in order to provide the {quality} parameter, use &null;.
 
 {quality} {quality} is optional, and ranges from 0 (worst quality, smaller
 file) to 100 (best quality, biggest file). The default is the default IJG
 quality value (about 75).
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Outputting a JPEG image
 

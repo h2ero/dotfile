@@ -4,7 +4,7 @@ get_called_class -- the "Late Static Binding" class name
 
 Gets the name of the class the static method is called in.
 
-Returns the class name. Returns FALSE if called from outside a class.
+Returns the class name. Returns &false; if called from outside a class.
 
 Using |get_called_class|
 

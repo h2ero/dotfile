@@ -16,7 +16,7 @@ The function draws an bmp.
 
 {height} The bitmap height.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |printer_draw_bmp| example
 

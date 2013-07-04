@@ -11,7 +11,7 @@ Base64-encoded data takes about 33% more space than the original data.
 
 {data} The data to encode.
 
-The encoded data, as a string.
+The encoded data, as a string or &false; on failure.
 
 |base64_encode| example
 

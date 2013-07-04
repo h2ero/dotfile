@@ -10,7 +10,7 @@ request.
 {filename} Path to the FDF file. This file must contain the data as returned
 from a PDF form or created using |fdf_create| and |fdf_save|.
 
-Returns a FDF document handle, or FALSE on error.
+Returns a FDF document handle, or &false; on error.
 
 Accessing the form data
 

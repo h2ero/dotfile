@@ -6,7 +6,7 @@ Usually sent via the socket to request information about the running script.
 
 {output} The debugged variable.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |apd_echo| example
 

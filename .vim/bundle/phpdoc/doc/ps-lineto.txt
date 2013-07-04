@@ -11,7 +11,7 @@ current path. Use |ps_moveto| to set the starting point of the line.
 
 {y} y-coordinate of the end point of the line.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Drawing a rectangle
 

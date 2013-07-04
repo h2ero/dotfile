@@ -4,7 +4,7 @@ gethostname -- Gets the host name
 
 |gethostname| gets the standard host name for the local machine.
 
-Returns a string with the hostname on success, otherwise FALSE is returned.
+Returns a string with the hostname on success, otherwise &false; is returned.
 
 A simple |gethostname| example
 

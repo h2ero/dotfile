@@ -11,10 +11,10 @@ GeoIP Free Country Edition.
 {database} The database type as an integer. You can use the various constants
 defined with this extension (ie: GEOIP_*_EDITION).
 
-Returns the corresponding database version, or NULL on error.
+Returns the corresponding database version, or &null; on error.
 
-A |geoip_region_by_name| example This will output the current database version
-string.
+A |geoip_database_info| example This will output information regarding the
+database.
 
 <?php >
   print geoip_database_info(GEOIP_COUNTRY_EDITION);

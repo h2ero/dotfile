@@ -13,8 +13,8 @@ quick as |mssql_fetch_row| (the difference is insignificant).
 {result} The result resource that is being evaluated. This result comes from a
 call to |mssql_query|.
 
-Returns an object with properties that correspond to the fetched row, or FALSE
-if there are no more rows.
+Returns an object with properties that correspond to the fetched row, or
+&false; if there are no more rows.
 
 |mssql_fetch_object| example
 
@@ -48,7 +48,7 @@ if there are no more rows.
 
 Field names returned by this function are case-sensitive.
 
-This function sets NULL fields to the PHP NULL value.
+This function sets NULL fields to the PHP &null; value.
 
 |mssql_fetch_array| |mssql_fetch_row|
 

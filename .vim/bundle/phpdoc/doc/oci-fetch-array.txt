@@ -5,7 +5,7 @@ numeric array
 
 Returns an array containing the next result-set row of a query. Each array
 entry corresponds to a column of the row. This function is typically called in
-a loop until it returns FALSE, indicating no more rows exist.
+a loop until it returns &false;, indicating no more rows exist.
 
 For details on the data type mapping performed by the OCI8 extension, see the
 datatypes supported by the driver
@@ -17,8 +17,8 @@ executed by |oci_execute|, or a REF CURSOR statement identifier.
 constants: |oci_fetch_array| Modes Constant Description OCI_BOTH Returns an
 array with both associative and numeric indices. This is the same as OCI_ASSOC
 + OCI_NUM and is the default behavior. OCI_ASSOC Returns an associative array.
-OCI_NUM Returns a numeric array. OCI_RETURN_NULLS Creates elements for NULL
-fields. The element values will be a PHP NULL. OCI_RETURN_LOBS Returns the
+OCI_NUM Returns a numeric array. OCI_RETURN_NULLS Creates elements for &null;
+fields. The element values will be a PHP &null;. OCI_RETURN_LOBS Returns the
 contents of LOBs instead of the LOB descriptors.
 
 The default {mode} is OCI_BOTH.
@@ -26,7 +26,7 @@ The default {mode} is OCI_BOTH.
 Use the addition operator "+" to specify more than one mode at a time.
 
 Returns an array with associative and/or numeric indices. If there are no more
-rows in the {statement} then FALSE is returned.
+rows in the {statement} then &false; is returned.
 
 By default, LOB columns are returned as LOB descriptors.
 

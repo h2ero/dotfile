@@ -10,7 +10,7 @@ Returns the next key-value pair in the named {map} after the specified {key}.
 
 {key}
 
-Returns the next key-value pair as an array, or FALSE on errors.
+Returns the next key-value pair as an array, or &false; on errors.
 
 Example for NIS next
 

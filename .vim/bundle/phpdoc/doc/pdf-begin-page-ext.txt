@@ -4,7 +4,7 @@ PDF_begin_page_ext -- Start new page
 
 Adds a new page to the document, and specifies various options. The parameters
 {width} and {height} are the dimensions of the new page in points. Returns
-TRUE on success or &false; on failure.
+&true; on success or &false; on failure.
 
 Common Page Sizes in Points name size A0 2380 x 3368 A1 1684 x 2380 A2 1190 x
 1684 A3 842 x 1190 A4 595 x 842 A5 421 x 595 A6 297 x 421 B5 501 x 709 letter

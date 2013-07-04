@@ -12,7 +12,7 @@ such as |imagecreatetruecolor|.
 
 {outputgamma} The output gamma.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |imagegammacorrect| usage
 

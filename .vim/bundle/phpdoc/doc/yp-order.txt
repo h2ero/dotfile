@@ -8,7 +8,7 @@ Gets the order number for a map.
 
 {map}
 
-Returns the order number for a map or FALSE on error.
+Returns the order number for a map or &false; on error.
 
 Example for the NIS order
 

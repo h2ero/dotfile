@@ -6,7 +6,7 @@ Changes to the parent directory.
 
 {ftp_stream} The link identifier of the FTP connection.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |ftp_cdup| example
 

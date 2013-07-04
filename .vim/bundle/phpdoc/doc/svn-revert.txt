@@ -8,7 +8,7 @@ Revert any local changes to the path in a working copy.
 
 {recursive} Optionally make recursive changes.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |svn_delete| |svn_export|
 

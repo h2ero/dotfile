@@ -20,8 +20,8 @@ zero or more characters and '_' to match a single character).
 The {owner}, {table_name}, and {column_name} accept search patterns ('%' to
 match zero or more characters and '_' to match a single character).
 
-Returns an ODBC result identifier or FALSE on failure. This result identifier
-can be used to fetch a list of columns and associated privileges.
+Returns an ODBC result identifier or &false; on failure. This result
+identifier can be used to fetch a list of columns and associated privileges.
 
 The result set has the following columns: TABLE_QUALIFIER
 

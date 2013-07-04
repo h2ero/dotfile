@@ -1,5 +1,10 @@
 mysql_insert_id -- Get the ID generated in the last query
 
+This extension is deprecated as of PHP 5.5.0, and will be removed in the
+future. Instead, the MySQLi or PDO_MySQL extension should be used. See also
+MySQL: choosing an API guide and related FAQ for more information.
+Alternatives to this function include:
+
   int mysql_insert_id([resource link_identifier])~
 
 Retrieves the ID generated for an AUTO_INCREMENT column by the previous query
@@ -13,7 +18,7 @@ is generated.
 
 The ID generated for an AUTO_INCREMENT column by the previous query on
 success, 0 if the previous query does not generate an AUTO_INCREMENT value, or
-FALSE if no MySQL connection was established.
+&false; if no MySQL connection was established.
 
 |mysql_insert_id| example
 

@@ -16,8 +16,8 @@ return BLOB contents instead of BLOB ids. Passing IBASE_UNIXTIME will cause
 this function to return date/time values as Unix timestamps instead of as
 formatted strings.
 
-Returns an object with the next row information, or FALSE if there are no more
-rows.
+Returns an object with the next row information, or &false; if there are no
+more rows.
 
 |ibase_fetch_object| example
 

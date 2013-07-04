@@ -12,7 +12,7 @@ content in file.
 {param} if mode = 0: pointer to the content, if mode = 1: pointer to the
 filestring.
 
-Returns the new BLOB object-id, or FALSE on errors.
+Returns the new BLOB object-id, or &false; on errors.
 
 |ifx_copy_blob| |ifx_free_blob|
 

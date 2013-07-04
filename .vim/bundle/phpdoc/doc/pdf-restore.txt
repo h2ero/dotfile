@@ -2,7 +2,7 @@ PDF_restore -- Restore graphics state
 
   bool PDF_restore(resource p)~
 
-Restores the most recently saved graphics state. Returns TRUE on success or
+Restores the most recently saved graphics state. Returns &true; on success or
 &false; on failure.
 
 vim:ft=help:

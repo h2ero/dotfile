@@ -8,7 +8,7 @@ Subscribe to a new mailbox.
 
 {mailbox} The mailbox name, see |imap_open| for more information
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |imap_unsubscribe|
 

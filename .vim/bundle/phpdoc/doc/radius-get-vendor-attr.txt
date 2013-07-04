@@ -6,7 +6,7 @@ If |radius_get_attr| returns RADIUS_VENDOR_SPECIFIC, |radius_get_vendor_attr|
 may be called to determine the vendor.
 
 Returns an associative array containing the attribute-type, vendor and the
-data, or FALSE on error.
+data, or &false; on error.
 
 |radius_get_vendor_attr| example
 

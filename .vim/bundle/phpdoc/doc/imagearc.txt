@@ -22,7 +22,7 @@ position, and the arc is drawn clockwise.
 
 {color} A color identifier created with |imagecolorallocate|.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Drawing a circle with |imagearc|
 

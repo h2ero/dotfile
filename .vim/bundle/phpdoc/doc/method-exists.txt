@@ -8,8 +8,8 @@ Checks if the class method exists in the given {object}.
 
 {method_name} The method name
 
-Returns TRUE if the method given by {method_name} has been defined for the
-given {object}, FALSE otherwise.
+Returns &true; if the method given by {method_name} has been defined for the
+given {object}, &false; otherwise.
 
 Using this function will use any registered autoloaders if the class is not
 already known.

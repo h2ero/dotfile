@@ -29,7 +29,7 @@ shared secret.
 {max_tries} The maximum number of repeated requests to make before giving up
 is passed into the {max_tries}.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |radius_add_server| example
 

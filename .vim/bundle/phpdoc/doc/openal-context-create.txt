@@ -4,7 +4,7 @@ openal_context_create -- Create an audio processing context
 
 An Open AL(Device) resource (previously created by |openal_device_open|).
 
-Returns an Open AL(Context) resource on success or FALSE on failure.
+Returns an Open AL(Context) resource on success or &false; on failure.
 
 |openal_device_open| |openal_context_destroy|
 

@@ -26,7 +26,7 @@ tables depending on words lengths like in "multi" mode.
 
 {dbaddr} and {dbmode} must match those used during indexing.
 
-Returns a mnogosearch agent identifier on success, FALSE on failure. This
+Returns a mnogosearch agent identifier on success, &false; on failure. This
 function creates a session with database parameters.
 
 In fact this function does not open a connection to the database and thus does

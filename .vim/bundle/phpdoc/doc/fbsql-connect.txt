@@ -17,7 +17,7 @@ ends, unless it's closed earlier by explicitly calling |fbsql_close|.
 
 {password} The password for the connection.
 
-Returns a positive FrontBase link identifier on success, or FALSE on errors.
+Returns a positive FrontBase link identifier on success, or &false; on errors.
 
 |fbsql_connect| example
 

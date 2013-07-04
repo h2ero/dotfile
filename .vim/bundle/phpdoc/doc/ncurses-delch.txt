@@ -11,7 +11,7 @@ cursor on the same line are moved to the left one position and the last
 character on the line is filled with a blank. The cursor position does not
 change.
 
-Returns FALSE on success, TRUE otherwise.
+Returns &false; on success, &true; otherwise.
 
 |ncurses_deleteln|
 

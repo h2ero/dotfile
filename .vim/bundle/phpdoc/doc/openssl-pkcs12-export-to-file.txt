@@ -16,6 +16,6 @@ in a PKCS#12 file format.
 
 {args}
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 vim:ft=help:

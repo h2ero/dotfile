@@ -7,7 +7,7 @@ Get all registered __autoload() functions.
 This function has no parameters.
 
 An array of all registered __autoload functions. If the autoload stack is not
-activated then the return value is FALSE. If no function is registered the
+activated then the return value is &false;. If no function is registered the
 return value will be an empty array.
 
 vim:ft=help:

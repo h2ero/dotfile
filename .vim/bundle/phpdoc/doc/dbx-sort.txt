@@ -11,7 +11,7 @@ two arguments and return an integer less than, equal to, or greater than zero
 if the first argument is considered to be respectively less than, equal to, or
 greater than the second.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |dbx_sort| example
 

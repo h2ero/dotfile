@@ -20,7 +20,7 @@ direction.
 
 {painttype} Must be 1 or 2.
 
-The identifier of the pattern or FALSE on failure.
+The identifier of the pattern or &false; on failure.
 
 Creating and using a pattern
 

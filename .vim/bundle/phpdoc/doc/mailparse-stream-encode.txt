@@ -13,7 +13,7 @@ written.
 
 {encoding} One of the character encodings supported by the mbstring module.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |mailparse_stream_encode| example
 

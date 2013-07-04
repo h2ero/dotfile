@@ -9,14 +9,17 @@ Authenticate using a public key read from a file.
 
 {username}
 
-{pubkeyfile}
+{pubkeyfile} The public key file needs to be in OpenSSH's format. It should
+look something like:
+
+ssh-rsa AAAAB3NzaC1yc2EAAA....NX6sqSnHA8= rsa-key-20121110
 
 {privkeyfile}
 
 {passphrase} If {privkeyfile} is encrypted (which it should be), the
 {passphrase} must be provided.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Authentication using a public key
 

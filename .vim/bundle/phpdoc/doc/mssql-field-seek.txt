@@ -10,7 +10,7 @@ call to |mssql_query|.
 
 {field_offset} The field offset, starts at 0.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Using |mssql_field_seek| on the example for |mssql_fetch_field|
 

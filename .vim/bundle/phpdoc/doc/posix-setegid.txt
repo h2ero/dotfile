@@ -8,7 +8,7 @@ able to perform this function.
 
 {gid} The group id.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |posix_setegid| example This example will print out the effective group id,
 once changed.

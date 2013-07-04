@@ -6,6 +6,6 @@ filter_has_var -- Checks if variable of specified type exists
 
 {variable_name} Name of a variable to check.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 vim:ft=help:

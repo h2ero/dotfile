@@ -7,7 +7,7 @@ Gets the class methods names.
 {class_name} The class name or an object instance
 
 Returns an array of method names defined for the class specified by
-{class_name}. In case of an error, it returns NULL.
+{class_name}. In case of an error, it returns &null;.
 
 Version Description 5.0.0 As of PHP 5, this function returns the name of the
 methods as they were declared (case-sensitive). In PHP 4 they were lowercased.

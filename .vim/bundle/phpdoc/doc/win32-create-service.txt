@@ -42,7 +42,7 @@ machine starts up.
 with the service. The default is WIN32_SERVER_ERROR_IGNORE. Changing this
 value is not yet fully supported.
 
-{delayed_start} If {delayed_start} is set to TRUE, then this will inform the
+{delayed_start} If {delayed_start} is set to &true;, then this will inform the
 SCM that this service should be started after other auto-start services are
 started plus a short delay.
 

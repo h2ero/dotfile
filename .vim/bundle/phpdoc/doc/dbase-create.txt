@@ -19,7 +19,7 @@ type, and optionally, a length, and a precision.
 The fieldnames are limited in length and must not exceed 10 chars.
 
 Returns a database link identifier if the database is successfully created, or
-FALSE if an error occurred.
+&false; if an error occurred.
 
 Creating a dBase database file
 

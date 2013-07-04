@@ -15,6 +15,6 @@ piggybacking option in |yaz_connect|.
 {elementset} Most servers support F (for full records) and B (for brief
 records).
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 vim:ft=help:

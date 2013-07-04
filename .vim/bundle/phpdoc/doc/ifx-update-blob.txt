@@ -8,7 +8,7 @@ Updates the content of the blob object for the given blob object {bid}.
 
 {content} The new data, as a string.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |ifx_update_char|
 

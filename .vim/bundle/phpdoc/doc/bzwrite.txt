@@ -12,7 +12,7 @@ opened by |bzopen|.
 {length} If supplied, writing will stop after {length} (uncompressed) bytes
 have been written or the end of {data} is reached, whichever comes first.
 
-Returns the number of bytes written, or FALSE on error.
+Returns the number of bytes written, or &false; on error.
 
 |bzwrite| example
 

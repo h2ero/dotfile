@@ -10,7 +10,7 @@ If the given {handle} is a resource, this function will return a string
 representing its type. If the type is not identified by this function, the
 return value will be the string Unknown.
 
-This function will return FALSE and generate an error if {handle} is not a
+This function will return &false; and generate an error if {handle} is not a
 resource.
 
 |get_resource_type| example

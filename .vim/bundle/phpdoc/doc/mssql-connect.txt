@@ -20,7 +20,7 @@ of the already opened link will be returned. This parameter modifies this
 behavior and makes |mssql_connect| always open a new link, even if
 |mssql_connect| was called before with the same parameters.
 
-Returns a MS SQL link identifier on success, or FALSE on error.
+Returns a MS SQL link identifier on success, or &false; on error.
 
 Version Description 4.4.1 and 5.1.0 The {new_link} parameter was added
 

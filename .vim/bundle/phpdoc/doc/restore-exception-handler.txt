@@ -7,7 +7,7 @@ Used after changing the exception handler function using
 |set_exception_handler|, to revert to the previous exception handler (which
 could be the built-in or a user defined function).
 
-This function always returns TRUE.
+This function always returns &true;.
 
 |restore_exception_handler| example
 

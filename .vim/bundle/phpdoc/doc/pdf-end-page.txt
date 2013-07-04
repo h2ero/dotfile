@@ -2,6 +2,6 @@ PDF_end_page -- Finish page
 
   bool PDF_end_page(resource p)~
 
-Finishes the page. Returns TRUE on success or &false; on failure.
+Finishes the page. Returns &true; on success or &false; on failure.
 
 vim:ft=help:

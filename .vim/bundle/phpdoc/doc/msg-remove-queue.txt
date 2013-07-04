@@ -8,7 +8,7 @@ queue and you need to release the system resources held by it.
 
 {queue} Message queue resource handle
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |msg_get_queue| |msg_receive| |msg_stat_queue| |msg_set_queue|
 

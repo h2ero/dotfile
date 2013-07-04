@@ -6,7 +6,7 @@ Tells whether the stream supports locking through |flock|.
 
 {stream} The stream to check.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |flock|
 

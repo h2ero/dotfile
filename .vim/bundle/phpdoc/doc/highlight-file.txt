@@ -9,7 +9,7 @@ PHP.
 Many servers are configured to automatically highlight files with a phps
 extension. For example, example.phps when viewed will show the syntax
 highlighted source of the file. To enable this, add this line to the
-httpd.conf:
+&httpd.conf;:
 
 
 
@@ -17,11 +17,11 @@ httpd.conf:
 
 {filename} Path to the PHP file to be highlighted.
 
-{return} Set this parameter to TRUE to make this function return the
+{return} Set this parameter to &true; to make this function return the
 highlighted code.
 
-If {return} is set to TRUE, returns the highlighted code as a string instead
-of printing it out. Otherwise, it will return TRUE on success, FALSE on
+If {return} is set to &true;, returns the highlighted code as a string instead
+of printing it out. Otherwise, it will return &true; on success, &false; on
 failure.
 
 Version Description 4.2.1 This function is now also affected by safe_mode and
@@ -31,9 +31,9 @@ Care should be taken when using the |highlight_file| function to make sure
 that you do not inadvertently reveal sensitive information such as passwords
 or any other type of information that might create a potential security risk.
 
-This function uses internal output buffering with this parameter so it can not
-be used inside an |ob_start| callback function.
+When the {return} parameter is used, this function uses internal output
+buffering so it cannot be used inside an |ob_start| callback function.
 
-|highlight_string|
+|highlight_string| Highlighting INI directives
 
 vim:ft=help:

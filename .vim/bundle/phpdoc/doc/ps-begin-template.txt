@@ -14,7 +14,7 @@ The template will not be drawn until it is placed by |ps_place_image|.
 
 {height} The height of the template in pixel.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Creating and using a template
 

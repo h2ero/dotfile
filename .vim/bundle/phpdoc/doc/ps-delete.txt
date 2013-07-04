@@ -10,7 +10,7 @@ the document and adding the bookmark hierarchy.
 
 {psdoc} Resource identifier of the postscript file as returned by |ps_new|.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |ps_close|
 

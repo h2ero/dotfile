@@ -13,8 +13,8 @@ quick as |msql_fetch_row| (the difference is insignificant).
 { result}The result resource that is being evaluated. This result comes from a
 call to |msql_query|.
 
-Returns an object with properties that correspond to the fetched row, or FALSE
-if there are no more rows.
+Returns an object with properties that correspond to the fetched row, or
+&false; if there are no more rows.
 
 |msql_fetch_object| example
 
@@ -45,7 +45,7 @@ if there are no more rows.
 
 
 Version Description 4.3.11 and 5.0.4 A bug was fixed when retrieving data from
-columns containing NULL values. Such columns were not placed into the
+columns containing &null; values. Such columns were not placed into the
 resulting array.
 
 |msql_fetch_array| |msql_fetch_row| |msql_data_seek| |msql_result|

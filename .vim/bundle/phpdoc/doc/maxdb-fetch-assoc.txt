@@ -8,7 +8,7 @@ Object oriented style
 
   array maxdb_result::fetch_assoc(resource result)~
 
-Returns an associative array that corresponds to the fetched row or NULL if
+Returns an associative array that corresponds to the fetched row or &null; if
 there are no more rows.
 
 The |maxdb_fetch_assoc| function is used to return an associative array
@@ -23,9 +23,9 @@ you either need to access the result with numeric indices by using
 
 Field names returned by this function are case-sensitive.
 
-This function sets NULL fields to the PHP NULL value.
+This function sets NULL fields to the PHP &null; value.
 
-Returns an array that corresponds to the fetched row or NULL if there are no
+Returns an array that corresponds to the fetched row or &null; if there are no
 more rows in resultset.
 
 Object oriented style

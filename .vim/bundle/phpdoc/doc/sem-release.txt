@@ -9,7 +9,7 @@ After releasing the semaphore, |sem_acquire| may be called to re-acquire it.
 
 {sem_identifier} A Semaphore resource handle as returned by |sem_get|.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |sem_get| |sem_acquire|
 

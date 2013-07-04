@@ -15,8 +15,8 @@ server will be done. It is similar to identify as user anonymous.
 {password} The password for {username}. Keep in mind, that the password is not
 encrypted.
 
-Returns a connection index on success, or FALSE if the connection could not be
-made.
+Returns a connection index on success, or &false; if the connection could not
+be made.
 
 |hw_pconnect|
 

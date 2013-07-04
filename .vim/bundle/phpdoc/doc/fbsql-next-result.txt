@@ -10,7 +10,7 @@ set and prepare to fetch the words from the new result set.
 
 { result}A result identifier returned by |fbsql_query| or |fbsql_db_query|.
 
-Returns TRUE if an additional result set was available or FALSE otherwise.
+Returns &true; if an additional result set was available or &false; otherwise.
 
 |fbsql_next_result| example
 

@@ -1,5 +1,10 @@
 mysql_list_fields -- List MySQL table fields
 
+This extension is deprecated as of PHP 5.5.0, and will be removed in the
+future. Instead, the MySQLi or PDO_MySQL extension should be used. See also
+MySQL: choosing an API guide and related FAQ for more information.
+Alternatives to this function include:
+
   resource mysql_list_fields(string database_name, string table_name [, resource link_identifier])~
 
 Retrieves information about the given table name.
@@ -17,7 +22,7 @@ is found, it will try to create one as if |mysql_connect| was called with no
 arguments. If no connection is found or established, an E_WARNING level error
 is generated.
 
-A result pointer resource on success, or FALSE on failure.
+A result pointer resource on success, or &false; on failure.
 
 The returned result can be used with |mysql_field_flags|, |mysql_field_len|,
 |mysql_field_name| and |mysql_field_type|.

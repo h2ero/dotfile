@@ -15,7 +15,7 @@ if |fbsql_connect| was called with no arguments.
 
 {database_options}
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |fbsql_create_db| example
 

@@ -6,7 +6,7 @@ Creates an char object.
 
 {param} The char content.
 
-Returns the new char object id, or FALSE on errors.
+Returns the new char object id, or &false; on errors.
 
 |ifx_free_char|
 

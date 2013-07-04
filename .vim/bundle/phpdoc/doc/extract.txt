@@ -91,7 +91,7 @@ Do not use |extract| on untrusted data, like user input (i.e. $_GET, $_FILES,
 etc.). If you do, for example if you want to run old code that relies on
 register_globals temporarily, make sure you use one of the non-overwriting
 {extract_type} values such as EXTR_SKIP and be aware that you should extract
-in the same order that's defined in variables_order within the php.ini.
+in the same order that's defined in variables_order within the &php.ini;.
 
 If you have register_globals turned on and you use |extract| on $_FILES and
 specify EXTR_SKIP, you may be surprised at the results.
@@ -148,6 +148,6 @@ $_FILES array so $testfile remains a string. Because strings may be accessed
 using array syntax and the non-numeric string tmp_name is interpreted as 0,
 PHP sees $testfile['tmp_name'] as $testfile[0].
 
-|compact|
+|compact| |list|
 
 vim:ft=help:

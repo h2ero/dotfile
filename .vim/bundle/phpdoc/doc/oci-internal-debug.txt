@@ -4,7 +4,7 @@ oci_internal_debug -- Enables or disables internal debug output
 
 Enables or disables internal debug output.
 
-{onoff} Set this to FALSE to turn debug output off or TRUE to turn it on.
+{onoff} Set this to &false; to turn debug output off or &true; to turn it on.
 
 No value is returned.
 

@@ -8,6 +8,6 @@ or deletes.
 {result_id} A result identifier, returned by |ovrimos_execute| or
 |ovrimos_exec|.
 
-Returns the name as a string, or FALSE on error.
+Returns the name as a string, or &false; on error.
 
 vim:ft=help:

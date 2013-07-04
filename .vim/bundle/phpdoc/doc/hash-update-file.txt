@@ -9,7 +9,7 @@ wrappers.
 
 {context} Stream context as returned by |stream_context_create|.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |hash_init| |hash_update| |hash_update_stream| |hash_final| |hash| |hash_file|
 

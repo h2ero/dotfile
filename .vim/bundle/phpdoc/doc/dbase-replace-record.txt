@@ -16,7 +16,7 @@ to reset the key named deleted.
 {record_number} An integer which spans from 1 to the number of records in the
 database (as returned by |dbase_numrecords|).
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Updating a record in the database
 

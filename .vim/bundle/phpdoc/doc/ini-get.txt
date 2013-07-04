@@ -7,7 +7,7 @@ Returns the value of the configuration option on success.
 {varname} The configuration option name.
 
 Returns the value of the configuration option as a string on success, or an
-empty string for null values. Returns FALSE if the configuration option
+empty string for null values. Returns &false; if the configuration option
 doesn't exist.
 
 A few |ini_get| examples
@@ -59,8 +59,8 @@ boolean ini value of on will be returned as "1". The function can also return
 the literal string of INI value.
 
 Many ini memory size values, such as upload_max_filesize, are stored in the
-php.ini file in shorthand notation. |ini_get| will return the exact string
-stored in the php.ini file and NOT its integer equivalent. Attempting normal
+&php.ini; file in shorthand notation. |ini_get| will return the exact string
+stored in the &php.ini; file and NOT its integer equivalent. Attempting normal
 arithmetic functions on these values will not have otherwise expected results.
 The example above shows one way to convert shorthand notation into bytes, much
 like how the PHP source does it.

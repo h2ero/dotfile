@@ -11,7 +11,7 @@ replacement pairs with |pspell_config_repl|, and open a new dictionary with
 |pspell_new_config|.
 
 For more information and examples, check out inline manual pspell
-website:http://aspell.net/.
+website:&url.pspell;.
 
 {personal} The file where words added to the personal list will be stored. It
 should be an absolute filename beginning with '/' because otherwise it will be

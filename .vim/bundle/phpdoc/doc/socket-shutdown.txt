@@ -11,6 +11,6 @@ data (the default) from being sent through the {socket}
 {how} 0 Shutdown socket reading 1 Shutdown socket writing 2 Shutdown socket
 reading and writing
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 vim:ft=help:

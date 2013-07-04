@@ -9,17 +9,17 @@ PHP code.
 
 {expression} The variable you want to export.
 
-{return} If used and set to TRUE, |var_export| will return the variable
-representation instead of outputing it.
-
-This function uses internal output buffering with this parameter so it can not
-be used inside an |ob_start| callback function.
+{return} If used and set to &true;, |var_export| will return the variable
+representation instead of outputting it.
 
 Returns the variable representation when the {return} parameter is used and
-evaluates to TRUE. Otherwise, this function will return NULL.
+evaluates to &true;. Otherwise, this function will return &null;.
+
+When the {return} parameter is used, this function uses internal output
+buffering so it cannot be used inside an |ob_start| callback function.
 
 Version Description 5.1.0 Possibility to export classes and arrays containing
-classes using the __set_state magic method.
+classes using the __set_state() magic method.
 
 |var_export| Examples
 
@@ -70,7 +70,7 @@ The above example will output:
 
 
 
-Using __set_state (since PHP 5.1.0)
+Using __set_state() (since PHP 5.1.0)
 
 <?php >
   class A

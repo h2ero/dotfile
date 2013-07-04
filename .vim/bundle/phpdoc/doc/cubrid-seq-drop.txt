@@ -13,9 +13,9 @@ the given sequence type attribute in the database.
 
 {index} Index of the element that you want to delete (1-based).
 
-TRUE, when process is successful.
+&true;, when process is successful.
 
-FALSE, when process is unsuccessful.
+&false;, when process is unsuccessful.
 
 |cubrid_seq_drop| example
 

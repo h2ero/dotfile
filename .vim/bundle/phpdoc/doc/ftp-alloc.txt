@@ -6,10 +6,10 @@ Sends an ALLO command to the remote FTP server to allocate space for a file to
 be uploaded.
 
 Many FTP servers do not support this command. These servers may return a
-failure code (FALSE) indicating the command is not supported or a success code
-(TRUE) to indicate that pre-allocation is not necessary and the client should
-continue as though the operation were successful. Because of this, it may be
-best to reserve this function for servers which explicitly require
+failure code (&false;) indicating the command is not supported or a success
+code (&true;) to indicate that pre-allocation is not necessary and the client
+should continue as though the operation were successful. Because of this, it
+may be best to reserve this function for servers which explicitly require
 preallocation.
 
 
@@ -21,7 +21,7 @@ preallocation.
 {result} A textual representation of the servers response will be returned by
 reference in {result} if a variable is provided.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |ftp_alloc| example
 

@@ -17,7 +17,7 @@ Unix-domain socket (e.g. /tmp/my.sock).
 {port} (Optional) The {port} parameter is only used when binding an AF_INET
 socket, and designates the port on which to listen for connections.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 The error code can be retrieved with |socket_last_error|. This code may be
 passed to |socket_strerror| to get a textual explanation of the error.

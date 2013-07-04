@@ -12,7 +12,7 @@ This function accepts patches created both via |xdiff_file_bdiff| and
 
 {dest} Path of the resulting file.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |xdiff_file_bpatch| example The following code applies binary diff to a file.
 

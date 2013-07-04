@@ -15,7 +15,7 @@ as demonstrated in the example below.
 support by this function is a subset of those supported by |date| (Y, y, m, n,
 d, j, L).
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Turn a paradox date into a human readable form
 

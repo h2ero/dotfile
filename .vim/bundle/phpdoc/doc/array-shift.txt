@@ -7,11 +7,11 @@ shortening the {array} by one element and moving everything down. All
 numerical array keys will be modified to start counting from zero while
 literal keys won't be touched.
 
-This function will |reset| the array pointer after use.
+This function will |reset| the array pointer of the input array after use.
 
 {array} The input array.
 
-Returns the shifted value, or NULL if {array} is empty or is not an array.
+Returns the shifted value, or &null; if {array} is empty or is not an array.
 
 |array_shift| example
 

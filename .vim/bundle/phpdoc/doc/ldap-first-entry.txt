@@ -13,7 +13,7 @@ and |ldap_next_entry| functions.
 
 {result_identifier}
 
-Returns the result entry identifier for the first entry on success and FALSE
+Returns the result entry identifier for the first entry on success and &false;
 on error.
 
 |ldap_get_entries|

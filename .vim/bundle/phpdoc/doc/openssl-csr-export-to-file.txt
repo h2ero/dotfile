@@ -11,10 +11,10 @@ by {csr} and saves it as ascii-armoured text into the file named by
 {outfilename} Path to the output file.
 
 {notext} The optional parameter {notext} affects the verbosity of the output;
-if it is FALSE, then additional human-readable information is included in the
-output. The default value of {notext} is TRUE.
+if it is &false;, then additional human-readable information is included in
+the output. The default value of {notext} is &true;.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |openssl_csr_export| |openssl_csr_new| |openssl_csr_sign|
 

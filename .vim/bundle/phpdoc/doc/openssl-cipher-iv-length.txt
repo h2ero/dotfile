@@ -1,12 +1,12 @@
 openssl_cipher_iv_length -- Gets the cipher iv length
 
-  integer openssl_cipher_iv_length(string method)~
+  int openssl_cipher_iv_length(string method)~
 
 Gets the cipher iv length.
 
 The method.
 
-Returns the cipher length on success, or FALSE on failure.
+Returns the cipher length on success, or &false; on failure.
 
 Emits an E_WARNING level error when the cipher algorithm is unknown.
 

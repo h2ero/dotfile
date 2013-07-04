@@ -8,7 +8,7 @@ Let the process {pid} join the process group {pgid}.
 
 {pgid} The process group id.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 See POSIX.1 and the setsid(2) manual page on the POSIX system for more
 informations on process groups and job control.

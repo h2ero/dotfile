@@ -6,10 +6,10 @@ Checks if the given interface has been defined.
 
 {interface_name} The interface name
 
-{autoload} Whether to call __autoload or not by default.
+{autoload} Whether to call &link.autoload; or not by default.
 
-Returns TRUE if the interface given by {interface_name} has been defined,
-FALSE otherwise.
+Returns &true; if the interface given by {interface_name} has been defined,
+&false; otherwise.
 
 |interface_exists| example
 
@@ -27,6 +27,6 @@ FALSE otherwise.
 
 
 
-|class_exists|
+|get_declared_interfaces| |class_implements| |class_exists|
 
 vim:ft=help:

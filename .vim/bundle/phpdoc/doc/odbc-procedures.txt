@@ -19,7 +19,7 @@ character.
 "&#x25;" to match zero or more characters, and "_" to match a single
 character.
 
-Returns an ODBC result identifier containing the information or FALSE on
+Returns an ODBC result identifier containing the information or &false; on
 failure.
 
 The result set has the following columns: PROCEDURE_QUALIFIER

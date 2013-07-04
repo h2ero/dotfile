@@ -13,6 +13,6 @@ writing.
 {data_size} Optional size parameter. |event_buffer_write| writes all the
 {data} by default.
 
-|event_buffer_write| returns TRUE on success or FALSE on error.
+|event_buffer_write| returns &true; on success or &false; on error.
 
 vim:ft=help:

@@ -6,6 +6,6 @@ Returns information about particular RRD database file.
 
 RRD database file name.
 
-Array with information about requsted RRD file, FALSE when error occurs.
+Array with information about requsted RRD file, &false; when error occurs.
 
 vim:ft=help:

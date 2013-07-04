@@ -12,7 +12,7 @@ the variable names, e.g. \$avar. {args} The function arguments.
 
 {code} The function code.
 
-Returns a unique function name as a string, or FALSE on error.
+Returns a unique function name as a string, or &false; on error.
 
 Creating an anonymous function with |create_function| You can use this
 function, to (for example) create a function from information gathered at run

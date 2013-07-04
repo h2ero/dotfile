@@ -12,7 +12,7 @@ valid if each parameter is properly defined.
 
 {year} The year is between 1 and 32767 inclusive.
 
-Returns TRUE if the date given is valid; otherwise returns FALSE.
+Returns &true; if the date given is valid; otherwise returns &false;.
 
 |checkdate| example
 

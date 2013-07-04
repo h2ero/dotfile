@@ -20,7 +20,7 @@ busy, it waits until the last query is finished and discards all its results.
 
 Data inside the query should be properly escaped.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Use |pg_get_result| to determine the query result.
 

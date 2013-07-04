@@ -12,6 +12,6 @@ levels and then set a desired priority for each event.
 
 {npriorities} The number of event priority levels.
 
-|event_base_priority_init| returns TRUE on success or FALSE on error.
+|event_base_priority_init| returns &true; on success or &false; on error.
 
 vim:ft=help:

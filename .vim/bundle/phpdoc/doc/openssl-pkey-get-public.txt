@@ -14,6 +14,6 @@ contain a PEM encoded certificate/private key (it may contain both).
 
 A PEM formatted private key.
 
-Returns a positive key resource identifier on success, or FALSE on error.
+Returns a positive key resource identifier on success, or &false; on error.
 
 vim:ft=help:

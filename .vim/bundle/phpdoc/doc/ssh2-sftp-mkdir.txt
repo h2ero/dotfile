@@ -12,10 +12,10 @@ This function is similar to using |mkdir| with the ssh2.sftp:// wrapper.
 
 {mode} Permissions on the new directory.
 
-{recursive} If {recursive} is TRUE any parent directories required for
+{recursive} If {recursive} is &true; any parent directories required for
 {dirname} will be automatically created as well.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Creating a directory on a remote server
 

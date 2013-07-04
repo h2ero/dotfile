@@ -6,7 +6,7 @@ dba_handlers -- List all the handlers available
 
 {full_info} Turns on/off full information display in the result.
 
-Returns an array of database handlers. If {full_info} is set to TRUE, the
+Returns an array of database handlers. If {full_info} is set to &true;, the
 array will be associative with the handlers names as keys, and their version
 information as value. Otherwise, the result will be an indexed array of
 handlers names.

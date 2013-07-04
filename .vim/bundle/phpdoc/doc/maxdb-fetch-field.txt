@@ -10,11 +10,11 @@ Object oriented style
 
 The |maxdb_fetch_field| returns the definition of one column of a result set
 as an resource. Call this function repeatedly to retrieve information about
-all columns in the result set. |maxdb_fetch_field| returns FALSE when no more
-fields are left.
+all columns in the result set. |maxdb_fetch_field| returns &false; when no
+more fields are left.
 
-Returns an resource which contains field definition information or FALSE if no
-field information is available.
+Returns an resource which contains field definition information or &false; if
+no field information is available.
 
 Object properties Property Description name The name of the column max_length
 The maximum width of the field for the result set. type The data type used for

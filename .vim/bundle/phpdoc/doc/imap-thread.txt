@@ -9,7 +9,7 @@ Gets a tree of a threaded message.
 {options}
 
 |imap_thread| returns an associative array containing a tree of messages
-threaded by REFERENCES, or FALSE on error.
+threaded by REFERENCES, or &false; on error.
 
 Every message in the current mailbox will be represented by three entries in
 the resulting array: $thread["XX.num"] - current message number

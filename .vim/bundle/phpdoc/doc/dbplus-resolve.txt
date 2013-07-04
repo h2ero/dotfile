@@ -8,7 +8,7 @@ internal server id, real hostname and the database path on this host.
 {relation_name} The relation name.
 
 Returns an array containing these values under the keys sid, host and
-host_path or FALSE on error.
+host_path or &false; on error.
 
 This function is EXPERIMENTAL. The behaviour of this function, its name, and
 surrounding documentation may change without notice in a future release of

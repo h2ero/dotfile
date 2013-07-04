@@ -8,7 +8,7 @@ seconds. With set_time_limit(0); ignore_user_abort(true) and periodic
 
 This function requires Apache 1.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 This function is disabled when PHP is running in safe mode.
 

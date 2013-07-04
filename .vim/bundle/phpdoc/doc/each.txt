@@ -18,7 +18,7 @@ returned in a four-element array, with the keys 0, 1, key, and value. Elements
 the data.
 
 If the internal pointer for the array points past the end of the array
-contents, |each| returns FALSE.
+contents, |each| returns &false;.
 
 |each| examples
 

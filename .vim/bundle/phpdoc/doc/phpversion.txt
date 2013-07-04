@@ -8,7 +8,7 @@ extension.
 {extension} An optional extension name.
 
 If the optional {extension} parameter is specified, |phpversion| returns the
-version of that extension, or FALSE if there is no version information
+version of that extension, or &false; if there is no version information
 associated or the extension isn't enabled.
 
 |phpversion| example

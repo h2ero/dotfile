@@ -11,7 +11,7 @@ Object oriented style
 The |maxdb_query| function is used to simplify the act of performing a query
 against the database represented by the {link} parameter.
 
-Returns TRUE on success or &false; on failure. For SELECT, SHOW, DESCRIBE or
+Returns &true; on success or &false; on failure. For SELECT, SHOW, DESCRIBE or
 EXPLAIN |maxdb_query| will return a result resource.
 
 Object oriented style

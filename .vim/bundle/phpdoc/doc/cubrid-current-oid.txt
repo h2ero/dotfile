@@ -11,7 +11,7 @@ included during the query execution.
 
 Oid of current cursor location, when process is successful
 
-FALSE, when process is unsuccessful.
+&false;, when process is unsuccessful.
 
 |cubrid_current_oid| example
 

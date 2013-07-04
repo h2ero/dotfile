@@ -11,7 +11,7 @@ Used in order to obtain information about fields in a certain query result.
 If not specified, the next field that wasn't yet retrieved by
 |fbsql_fetch_field| is retrieved.
 
-Returns an object containing field information, or FALSE on errors.
+Returns an object containing field information, or &false; on errors.
 
 The properties of the object are: name - column name
 
@@ -19,7 +19,7 @@ table - name of the table the column belongs to
 
 max_length - maximum length of the column
 
-not_null - 1 if the column cannot be NULL
+not_null - 1 if the column cannot be &null;
 
 type - the type of the column
 

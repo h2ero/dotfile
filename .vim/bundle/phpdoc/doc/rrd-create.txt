@@ -9,6 +9,6 @@ Filename for newly created rrd file.
 Options for rrd create - list of strings. See man page of rrd create for whole
 list of options.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 vim:ft=help:

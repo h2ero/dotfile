@@ -9,7 +9,7 @@ call to |msql_query|.
 
 { field_offset}The numerical field offset. The {field_offset} starts at 1.
 
-The name of the field or FALSE on failure.
+The name of the field or &false; on failure.
 
 |msql_field_len|
 

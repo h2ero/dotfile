@@ -8,6 +8,6 @@ variables.
 
 {comment} An optional comment string.
 
-Returns a packet ID for use in later functions, or FALSE on error.
+Returns a packet ID for use in later functions, or &false; on error.
 
 vim:ft=help:

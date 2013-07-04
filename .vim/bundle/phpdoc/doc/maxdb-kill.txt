@@ -11,7 +11,7 @@ Object oriented style
 This function is used to disconnect from a MaxDB server specified by the
 {processid} parameter.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Object oriented style
 

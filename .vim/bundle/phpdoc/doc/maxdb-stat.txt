@@ -11,7 +11,7 @@ Object oriented style
 |maxdb_stat| returns a string containing several information about the MaxDB
 server running.
 
-A string describing the server status. FALSE if an error occurred.
+A string describing the server status. &false; if an error occurred.
 
 Object oriented style
 

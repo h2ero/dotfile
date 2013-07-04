@@ -18,7 +18,7 @@ such as |imagecreatetruecolor|.
 
 {enabled} Whether to enable antialiasing or not.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 A comparison of two lines, one with anti-aliasing switched on
 

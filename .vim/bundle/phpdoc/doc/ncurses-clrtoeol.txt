@@ -9,7 +9,7 @@ PHP. This function should be used at your own risk.
 Erases the current line from cursor position to the end. Blanks created by
 |ncurses_clrtoeol| have the current background rendition.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |ncurses_clear| |ncurses_clrtobot|
 

@@ -8,7 +8,7 @@ After removing the semaphore, it is no longer accessible.
 
 {sem_identifier} A semaphore resource identifier as returned by |sem_get|.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |sem_get| |sem_release| |sem_acquire|
 

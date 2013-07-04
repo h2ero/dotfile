@@ -30,7 +30,7 @@ right corner.
 Up to version 0.2.6 of pslib, the BoundingBox and Orientation will be
 overwritten by |ps_begin_page|, unless |ps_findfont| has been called before.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |ps_findfont| |ps_begin_page|
 

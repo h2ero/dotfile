@@ -10,13 +10,13 @@ will be an array of values of each element in the {key} array. If an object,
 or an array containing objects, is returned, then the objects will be
 unserialized. See __wakeup() for details on unserializing objects.
 
-{success} Will be set to TRUE on success and FALSE on failure.
+{success} Will be set to &true; on success and &false; on failure.
 
 If {key} is a string, the function returns the value of the variable stored
-with that key. The {success} is set to TRUE on success and to FALSE on
+with that key. The {success} is set to &true; on success and to &false; on
 failure.
 
-The {key} is an array, the parameter {success} is always set to TRUE. The
+The {key} is an array, the parameter {success} is always set to &true;. The
 returned array (name => value pairs) will contain only those name => value
 pairs for which the get operation in user cache was successful. If none of the
 keys in the key array finds a match in the user cache an empty array will be

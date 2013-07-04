@@ -14,7 +14,7 @@ DocumentType, Title and Name. Possibly you also want to set the MimeType.
 
 {hw_document} The document identifier.
 
-The functions returns the object id of the new document or FALSE.
+The functions returns the object id of the new document or &false;.
 
 |hw_pipedocument|
 

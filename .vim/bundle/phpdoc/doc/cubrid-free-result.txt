@@ -9,9 +9,9 @@ buffer now, and if you want free all memory, use function
 
 {req_identifier} This is the request identifier.
 
-TRUE on success.
+&true; on success.
 
-FALSE on failure.
+&false; on failure.
 
 |cubrid_free_result| example
 

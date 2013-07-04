@@ -6,7 +6,7 @@ Returns the content of the char object.
 
 {bid} The char object-id.
 
-Returns the contents as a string, or FALSE on errors.
+Returns the contents as a string, or &false; on errors.
 
 |ifx_get_blob|
 

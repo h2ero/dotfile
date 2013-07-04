@@ -16,11 +16,11 @@ Unix domain socket, if the socket family is AF_UNIX.
 an AF_INET or an AF_INET6 socket, and designates the port on the remote host
 to which a connection should be made.
 
-Returns TRUE on success or &false; on failure. The error code can be retrieved
-with |socket_last_error|. This code may be passed to |socket_strerror| to get
-a textual explanation of the error.
+Returns &true; on success or &false; on failure. The error code can be
+retrieved with |socket_last_error|. This code may be passed to
+|socket_strerror| to get a textual explanation of the error.
 
-If the socket is non-blocking then this function returns FALSE with an error
+If the socket is non-blocking then this function returns &false; with an error
 Operation now in progress.
 
 |socket_bind| |socket_listen| |socket_create| |socket_last_error|

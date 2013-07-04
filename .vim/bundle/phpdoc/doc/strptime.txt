@@ -2,7 +2,7 @@ strptime -- Parse a time/date generated with strftime
 
   array strptime(string date, string format)~
 
-|strptime| returns an array with the {date} parsed, or FALSE on error.
+|strptime| returns an array with the {date} parsed, or &false; on error.
 
 Month and weekday names and other language dependent strings respect the
 current locale set with |setlocale| (LC_TIME).
@@ -16,7 +16,7 @@ will vary based on the operating system and C library in use.
 
 For more information about the format options, read the |strftime| page.
 
-Returns an array or FALSE on failure.
+Returns an array or &false; on failure.
 
 The following parameters are returned in the array parameters Description
 "tm_sec" Seconds after the minute (0-61) "tm_min" Minutes after the hour
@@ -68,6 +68,6 @@ information on leap seconds, see the Wikipedia article on leap seconds.
 Prior to PHP 5.2.0, this function could return undefined behaviour. Notably,
 the "tm_sec", "tm_min" and "tm_hour" entries would return undefined values.
 
-|checkdate| |strftime|
+|checkdate| |strftime| |date_parse_from_format| |DateTime::createFromFormat|
 
 vim:ft=help:

@@ -8,14 +8,14 @@ that hash. The hash is a 32-character hexadecimal number.
 
 {filename} The filename
 
-{raw_output} When TRUE, returns the digest in raw binary format with a length
-of 16.
+{raw_output} When &true;, returns the digest in raw binary format with a
+length of 16.
 
-Returns a string on success, FALSE otherwise.
+Returns a string on success, &false; otherwise.
 
-Version Description 5.0.0 Added the {raw_output} parameter 5.1.0 Changed the
-function to use the streams API. It means that you can use it with wrappers,
-like md5_file('http://example.com/..')
+Version Description 5.1.0 Changed the function to use the streams API. It
+means that you can use it with wrappers, like
+md5_file('http://example.com/..') 5.0.0 Added the {raw_output} parameter
 
 Usage example of |md5_file|
 

@@ -10,7 +10,7 @@ the specified {protocol} as per /etc/services.
 
 {protocol} {protocol} is either "tcp" or "udp" (in lowercase).
 
-Returns the port number, or FALSE if {service} or {protocol} is not found.
+Returns the port number, or &false; if {service} or {protocol} is not found.
 
 |getservbyname| example
 
@@ -28,7 +28,7 @@ Returns the port number, or FALSE if {service} or {protocol} is not found.
 
 
 
-|getservbyport| http://www.iana.org/assignments/port-numbers for a complete
-list of port numbers.
+|getservbyport| &url.network.port-numbers; for a complete list of port
+numbers.
 
 vim:ft=help:

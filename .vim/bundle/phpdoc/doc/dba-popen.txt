@@ -15,7 +15,7 @@ currently exist, and n for create, truncate and read/write access.
 is passed all optional parameters given to |dba_popen| and can act on behalf
 of them.
 
-Returns a positive handle on success or FALSE on failure.
+Returns a positive handle on success or &false; on failure.
 
 |dba_open| |dba_close|
 

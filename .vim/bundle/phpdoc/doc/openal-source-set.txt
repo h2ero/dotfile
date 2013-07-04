@@ -15,7 +15,7 @@ AL_POSITION (array(float,float,float)), AL_VELOCITY
 Value to assign to specified {property}. Refer to the description of
 {property} for a description of the value(s) expected.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |openal_source_create| |openal_source_get| |openal_source_play|
 

@@ -2,7 +2,7 @@ openal_buffer_create -- Generate OpenAL buffer
 
   resource openal_buffer_create()~
 
-Returns an Open AL(Buffer) resource on success or FALSE on failure.
+Returns an Open AL(Buffer) resource on success or &false; on failure.
 
 |openal_buffer_loadwav| |openal_buffer_data|
 

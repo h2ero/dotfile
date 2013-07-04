@@ -9,10 +9,10 @@ Loads a set of constants from the cache.
 
 {case_sensitive} The default behaviour for constants is to be declared
 case-sensitive; i.e. CONSTANT and Constant represent different values. If this
-parameter evaluates to FALSE the constants will be declared as
+parameter evaluates to &false; the constants will be declared as
 case-insensitive symbols.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |apc_load_constants| example
 

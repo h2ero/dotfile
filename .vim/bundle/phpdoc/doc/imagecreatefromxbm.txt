@@ -13,7 +13,7 @@ provide.
 
 {filename} Path to the XBM image.
 
-Returns an image resource identifier on success, FALSE on errors.
+Returns an image resource identifier on success, &false; on errors.
 
 Convert an XBM image to a png image using |imagecreatefromxbm|
 

@@ -6,7 +6,7 @@ Delays the program execution for the given number of {seconds}.
 
 {seconds} Halt time in seconds.
 
-Returns zero on success, or FALSE on error.
+Returns zero on success, or &false; on error.
 
 If the call was interrupted by a signal, |sleep| returns a non-zero value. On
 Windows, this value will always be 192 (the value of the WAIT_IO_COMPLETION
@@ -17,8 +17,8 @@ If the specified number of {seconds} is negative, this function will generate
 a E_WARNING.
 
 Version Description 5.3.4 Before PHP 5.3.4, on Windows, |sleep| always returns
-NULL when sleep has occurred, regardless of whether the sleep was interrupted
-or not.
+&null; when sleep has occurred, regardless of whether the sleep was
+interrupted or not.
 
 |sleep| example
 

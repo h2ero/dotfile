@@ -6,7 +6,7 @@ Finds whether the given variable is an object.
 
 {var} The variable being evaluated.
 
-Returns TRUE if {var} is an object, FALSE otherwise.
+Returns &true; if {var} is an object, &false; otherwise.
 
 |is_object| example
 
@@ -35,7 +35,7 @@ Returns TRUE if {var} is an object, FALSE otherwise.
 
 
 
-This function will return FALSE if used on an unserialized object where the
+This function will return &false; if used on an unserialized object where the
 class definition is not present (even though |gettype| returns object).
 
 |is_bool| |is_int| |is_float| |is_string| |is_array|

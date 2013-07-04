@@ -9,14 +9,14 @@ broken.
 present, the default connection is used. The default connection is the last
 connection made by |pg_connect| or |pg_pconnect|.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |pg_ping| example
 
 <?php >
   $conn = pg_pconnect("dbname=publisher");
   if (!$conn) {
-    echo "An error occured.\n";
+    echo "An error occurred.\n";
     exit;
   }
   

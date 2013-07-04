@@ -13,7 +13,7 @@ of all available options in the appendix.
 
 {newvalue} The new value for the option.
 
-Returns the old value on success, FALSE on failure.
+Returns the old value on success, &false; on failure.
 
 Setting an ini option
 
@@ -21,7 +21,7 @@ Setting an ini option
   echo ini_get('display_errors');
   
   if (!ini_get('display_errors')) {
-      ini_set('display_errors', 1);
+      ini_set('display_errors', '1');
   }
   
   echo ini_get('display_errors');

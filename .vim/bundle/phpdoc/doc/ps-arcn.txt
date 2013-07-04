@@ -19,7 +19,7 @@ starts on the arc at angle {beta} and ends on the arc at angle {alpha}.
 
 {beta} The end angle given in degrees.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |ps_arc|
 

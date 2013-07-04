@@ -40,12 +40,12 @@ executed by |oci_execute|, or a REF CURSOR statement identifier.
 
 {rows} The number of rows to be prefetched, >= 0
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
-Version Description PHP 5.3.2 (PECL OCI8 1.4) Before this release, {rows} must
-be >= 1. PHP 5.3 (PECL OCI8 1.3.4) Before this release, prefetching was
-limited to the lesser of {rows} rows and 1024 * {rows} bytes. The byte size
-restriction has now been removed.
+Version Description 5.3.2 (PECL OCI8 1.4) Before this release, {rows} must be
+>= 1. 5.3.0 (PECL OCI8 1.3.4) Before this release, prefetching was limited to
+the lesser of {rows} rows and 1024 * {rows} bytes. The byte size restriction
+has now been removed.
 
 Changing the default prefetch value for a query
 

@@ -4,7 +4,7 @@ radius_auth_open -- Creates a Radius handle for authentication
 
 
 
-Returns a handle on success, FALSE on error. This function only fails if
+Returns a handle on success, &false; on error. This function only fails if
 insufficient memory is available.
 
 |radius_auth_open| example

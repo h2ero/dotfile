@@ -15,9 +15,9 @@ type attribute in a requested location.
 
 {seq_element} Content of the element that you want to insert.
 
-TRUE, when process is successful.
+&true;, when process is successful.
 
-FALSE, when process is unsuccessful.
+&false;, when process is unsuccessful.
 
 |cubrid_seq_insert| example
 

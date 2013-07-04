@@ -21,7 +21,7 @@ Returns a file pointer to the file opened, after that, everything you read
 from this file descriptor will be transparently decompressed and what you
 write gets compressed.
 
-If the open fails, the function returns FALSE.
+If the open fails, the function returns &false;.
 
 |gzopen| Example
 

@@ -1,4 +1,4 @@
-bcompiler_write_class -- Writes an defined class as bytecodes
+bcompiler_write_class -- Writes a defined class as bytecodes
 
   bool bcompiler_write_class(resource filehandle, string className [, string extends])~
 
@@ -11,7 +11,7 @@ open file handle.
 
 {extends}
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |bcompiler_write_class| example
 

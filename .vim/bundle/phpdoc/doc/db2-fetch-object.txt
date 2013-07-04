@@ -24,7 +24,7 @@ column in the result set. If you prefer a more descriptive column name and
 object property, you can use the AS clause to assign a name to the column in
 the result set.
 
-Returns FALSE if no row was retrieved.
+Returns &false; if no row was retrieved.
 
 A |db2_fetch_object| example The following example issues a SELECT statement
 with a scalar function, RTRIM, that removes whitespace from the end of the

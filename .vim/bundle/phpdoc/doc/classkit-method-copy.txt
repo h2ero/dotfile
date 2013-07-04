@@ -15,7 +15,7 @@ PHP. This function should be used at your own risk.
 {sMethod} Name of the method to copy from the source class. If this parameter
 is omitted, the value of {dMethod} is assumed.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |classkit_method_copy| example
 

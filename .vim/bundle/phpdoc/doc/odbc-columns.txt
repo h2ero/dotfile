@@ -18,7 +18,7 @@ details.
 The {schema}, {table_name}, and {column_name} accept search patterns ('%' to
 match zero or more characters and '_' to match a single character).
 
-Returns an ODBC result identifier or FALSE on failure.
+Returns an ODBC result identifier or &false; on failure.
 
 The result set has the following columns: TABLE_QUALIFIER
 

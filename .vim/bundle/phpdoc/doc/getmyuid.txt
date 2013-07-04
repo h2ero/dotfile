@@ -4,7 +4,7 @@ getmyuid -- Gets PHP script owner's UID
 
 Gets the user ID of the current script.
 
-Returns the user ID of the current script, or FALSE on error.
+Returns the user ID of the current script, or &false; on error.
 
 |getmygid| |getmypid| |get_current_user| |getmyinode| |getlastmod|
 

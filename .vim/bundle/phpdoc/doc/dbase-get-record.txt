@@ -19,7 +19,7 @@ strings.
 Integers that would have caused an overflow (> 32 bits) are returned as
 strings.
 
-On error, |dbase_get_record| will return FALSE.
+On error, |dbase_get_record| will return &false;.
 
 |dbase_get_record_with_names|
 

@@ -9,6 +9,6 @@ bbcode_container created by |bbcode_create|
 
 {to_parse} The string we need to parse.
 
-Returns the parsed string, or FALSE on failure.
+Returns the parsed string, or &false; on failure.
 
 vim:ft=help:

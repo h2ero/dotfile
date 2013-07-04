@@ -11,7 +11,7 @@ requested with |ps_get_value|
 
 {text} The text to output.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |ps_show| |ps_show_xy| |ps_show_boxed|
 

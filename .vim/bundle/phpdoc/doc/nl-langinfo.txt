@@ -52,7 +52,7 @@ for matching "yes" input. NOEXPR Regex string for matching "no" input. YESSTR
 Output string for "yes". NOSTR Output string for "no". LC_CTYPE Category
 Constants CODESET Return a string with the name of the character encoding.
 
-Returns the element as a string, or FALSE if {item} is not valid.
+Returns the element as a string, or &false; if {item} is not valid.
 
 This function is not implemented on Windows platforms.
 

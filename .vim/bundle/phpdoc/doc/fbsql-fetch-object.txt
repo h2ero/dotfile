@@ -12,8 +12,8 @@ quick as |fbsql_fetch_row| (the difference is insignificant).
 
 { result}A result identifier returned by |fbsql_query| or |fbsql_db_query|.
 
-Returns an object with properties that correspond to the fetched row, or FALSE
-if there are no more rows.
+Returns an object with properties that correspond to the fetched row, or
+&false; if there are no more rows.
 
 |fbsql_fetch_object| example
 

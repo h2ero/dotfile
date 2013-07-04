@@ -13,8 +13,8 @@ quick as |sybase_fetch_row| (the difference is insignificant).
 {object} Use the second {object} to specify the type of object you want to
 return. If this parameter is omitted, the object will be of type stdClass.
 
-Returns an object with properties that correspond to the fetched row, or FALSE
-if there are no more rows.
+Returns an object with properties that correspond to the fetched row, or
+&false; if there are no more rows.
 
 Version Description 4.3.0 This function will no longer return numeric object
 members. Old behaviour:

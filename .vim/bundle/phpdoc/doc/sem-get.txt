@@ -19,7 +19,7 @@ process finds it is the only process currently attached to the semaphore.
 {auto_release} Specifies if the semaphore should be automatically released on
 request shutdown.
 
-Returns a positive semaphore identifier on success, or FALSE on error.
+Returns a positive semaphore identifier on success, or &false; on error.
 
 Version Description 4.3.0 The {auto_release} parameter was added.
 

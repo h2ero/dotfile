@@ -11,6 +11,6 @@ execution.
 
 { result}A result identifier returned by |fbsql_query| or |fbsql_db_query|.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 vim:ft=help:

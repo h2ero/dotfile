@@ -11,9 +11,9 @@ The files context.
 
 Either APC_BIN_VERIFY_CRC32, APC_BIN_VERIFY_MD5, or both.
 
-Returns TRUE on success, otherwise FALSE Reasons it may return FALSE include
-APC is not enabled, {filename} is an invalid file name or empty, {filename}
-can't be opened, the file dump can't be completed, or if the {data} is not a
-valid APC binary dump (e.g., unexpected size).
+Returns &true; on success, otherwise &false; Reasons it may return &false;
+include APC is not enabled, {filename} is an invalid file name or empty,
+{filename} can't be opened, the file dump can't be completed, or if the {data}
+is not a valid APC binary dump (e.g., unexpected size).
 
 vim:ft=help:

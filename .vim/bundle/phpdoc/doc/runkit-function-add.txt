@@ -8,7 +8,7 @@ runkit_function_add -- Add a new function, similar to create_function
 
 {code} Code making up the function
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 A |runkit_function_add| example
 

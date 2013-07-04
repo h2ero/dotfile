@@ -6,6 +6,6 @@ Cancels the {event}.
 
 {event} Valid event resource.
 
-|event_del| returns TRUE on success or FALSE on error.
+|event_del| returns &true; on success or &false; on error.
 
 vim:ft=help:

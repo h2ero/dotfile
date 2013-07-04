@@ -34,7 +34,7 @@ overwriting any previously defined unnamed statement.
 (multiple statements separated by semi-colons are not allowed.) If any
 parameters are used, they are referred to as $1, $2, etc.
 
-A query result resource on success or FALSE on failure.
+A query result resource on success or &false; on failure.
 
 Using |pg_prepare|
 

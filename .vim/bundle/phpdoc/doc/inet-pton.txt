@@ -9,7 +9,7 @@ binary structure.
 
 {address} A human readable IPv4 or IPv6 address.
 
-Returns the in_addr representation of the given {address}, or FALSE if a
+Returns the in_addr representation of the given {address}, or &false; if a
 syntactically invalid {address} is given (for example, an IPv4 address without
 dots or an IPv6 address without colons).
 

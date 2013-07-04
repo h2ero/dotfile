@@ -8,6 +8,6 @@ Creates a WDDX packet from a single given value.
 
 {comment} An optional comment string that appears in the packet header.
 
-Returns the WDDX packet, or FALSE on error.
+Returns the WDDX packet, or &false; on error.
 
 vim:ft=help:

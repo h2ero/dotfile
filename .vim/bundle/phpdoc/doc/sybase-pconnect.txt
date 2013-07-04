@@ -31,7 +31,7 @@ come handy when you have started a transaction in your current connection, and
 you need to be able to do a separate query which cannot be performed inside
 this transaction.
 
-Returns a positive Sybase persistent link identifier on success, or FALSE on
+Returns a positive Sybase persistent link identifier on success, or &false; on
 error.
 
 Version Description 4.2.0 The {appname} parameter was added. 4.0.2 The

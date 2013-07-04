@@ -19,7 +19,7 @@ this function to return date/time values as Unix timestamps instead of as
 formatted strings.
 
 Returns an associative array that corresponds to the fetched row. Subsequent
-calls will return the next row in the result set, or FALSE if there are no
+calls will return the next row in the result set, or &false; if there are no
 more rows.
 
 |ibase_fetch_row| |ibase_fetch_object|

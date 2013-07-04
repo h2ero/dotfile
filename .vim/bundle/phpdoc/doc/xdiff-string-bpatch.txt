@@ -10,7 +10,7 @@ their file counterparts.
 
 {patch} The binary patch string.
 
-Returns the patched string, or FALSE on error.
+Returns the patched string, or &false; on error.
 
 |xdiff_string_bdiff| |xdiff_string_rabdiff|
 

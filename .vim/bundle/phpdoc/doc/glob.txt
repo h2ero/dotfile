@@ -24,7 +24,7 @@ GLOB_ERR - Stop on read errors (like unreadable directories), by default
 errors are ignored.
 
 Returns an array containing the matched files/directories, an empty array if
-no file matched or FALSE on error.
+no file matched or &false; on error.
 
 On some systems it is impossible to distinguish between empty match and an
 error.

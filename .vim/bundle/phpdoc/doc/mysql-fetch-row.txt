@@ -1,5 +1,10 @@
 mysql_fetch_row -- Get a result row as an enumerated array
 
+This extension is deprecated as of PHP 5.5.0, and will be removed in the
+future. Instead, the MySQLi or PDO_MySQL extension should be used. See also
+MySQL: choosing an API guide and related FAQ for more information.
+Alternatives to this function include:
+
   array mysql_fetch_row(resource result)~
 
 Returns a numerical array that corresponds to the fetched row and moves the
@@ -9,7 +14,7 @@ internal data pointer ahead.
 call to |mysql_query|.
 
 Returns an numerical array of strings that corresponds to the fetched row, or
-FALSE if there are no more rows.
+&false; if there are no more rows.
 
 |mysql_fetch_row| fetches one row of data from the result associated with the
 specified result identifier. The row is returned as an array. Each result
@@ -33,7 +38,7 @@ Fetching one row with |mysql_fetch_row|
 
 
 
-This function sets NULL fields to the PHP NULL value.
+This function sets NULL fields to the PHP &null; value.
 
 |mysql_fetch_array| |mysql_fetch_assoc| |mysql_fetch_object| |mysql_data_seek|
 |mysql_fetch_lengths| |mysql_result|

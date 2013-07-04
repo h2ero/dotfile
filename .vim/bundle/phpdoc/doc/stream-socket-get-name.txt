@@ -6,8 +6,8 @@ Returns the local or remote name of a given socket connection.
 
 {handle} The socket to get the name of.
 
-{want_peer} If set to TRUE the remote socket name will be returned, if set to
-FALSE the local socket name will be returned.
+{want_peer} If set to &true; the remote socket name will be returned, if set
+to &false; the local socket name will be returned.
 
 The name of the socket.
 

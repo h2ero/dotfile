@@ -11,7 +11,7 @@ the proper database cannot be located.
 
 {hostname} The hostname or IP address.
 
-Returns the organization name on success, or FALSE if the address cannot be
+Returns the organization name on success, or &false; if the address cannot be
 found in the database.
 
 A |geoip_org_by_name| example This will print to whom the host example.com IP

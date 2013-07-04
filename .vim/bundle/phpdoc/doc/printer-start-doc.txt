@@ -10,7 +10,7 @@ contain multiple pages, it's used to schedule the print job in the spooler.
 {document} The optional parameter {document} can be used to set an alternative
 document name.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |printer_start_doc| example
 

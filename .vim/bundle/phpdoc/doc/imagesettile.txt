@@ -20,7 +20,7 @@ such as |imagecreatetruecolor|.
 
 {tile} The image resource to be used as a tile.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |imagesettile| example
 

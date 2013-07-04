@@ -7,8 +7,8 @@ Deletes the given files from the opcode cache.
 The files to be deleted. Accepts a string, array of strings, or an APCIterator
 object.
 
-Returns TRUE on success or &false; on failure. Or if {keys} is an array, then
-an empty array is returned on success, or an array of failed files is
+Returns &true; on success or &false; on failure. Or if {keys} is an array,
+then an empty array is returned on success, or an array of failed files is
 returned.
 
 |apc_delete_file| example

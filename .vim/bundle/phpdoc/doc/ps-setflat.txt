@@ -11,6 +11,6 @@ available.
 
 {value} The {value} must be between 0.2 and 1.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 vim:ft=help:

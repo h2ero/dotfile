@@ -6,7 +6,7 @@ Returns the details of the dictionary.
 
 {dict} Dictinaray resource
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 A |enchant_dict_describe| example Check if a dictionary exists using
 |enchant_broker_dict_exists| and show the detail of it.

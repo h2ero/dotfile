@@ -10,8 +10,8 @@ A regular expression match for a multibyte string
 
 {option}
 
-Returns TRUE if {string} matches the regular expression {pattern}, FALSE if
-not.
+Returns &true; if {string} matches the regular expression {pattern}, &false;
+if not.
 
 The internal encoding or the character encoding specified by
 |mb_regex_encoding| will be used as the character encoding for this function.

@@ -12,8 +12,8 @@ modify the behaviour of the function.
 The {name} and {port} must be passed by reference. If the socket is not
 connection-oriented, {name} will be set to the internet protocol address of
 the remote host or the path to the UNIX socket. If the socket is
-connection-oriented, {name} is NULL. Additionally, the {port} will contain the
-port of the remote host in the case of an unconnected AF_INET or AF_INET6
+connection-oriented, {name} is &null;. Additionally, the {port} will contain
+the port of the remote host in the case of an unconnected AF_INET or AF_INET6
 socket.
 
 {socket} The {socket} must be a socket resource previously created by
@@ -33,15 +33,15 @@ However, if a signal is caught or the remote host disconnects, the function
 may return less data. MSG_DONTWAIT With this flag set, the function returns
 even if it would normally have blocked. {name} If the socket is of the type
 AF_UNIX type, {name} is the path to the file. Else, for unconnected sockets,
-{name} is the IP address of, the remote host, or NULL if the socket is
+{name} is the IP address of, the remote host, or &null; if the socket is
 connection-oriented.
 
 {port} This argument only applies to AF_INET and AF_INET6 sockets, and
 specifies the remote port from which the data is received. If the socket is
-connection-oriented, {port} will be NULL.
+connection-oriented, {port} will be &null;.
 
-|socket_recvfrom| returns the number of bytes received, or FALSE if there was
-an error. The actual error code can be retrieved by calling
+|socket_recvfrom| returns the number of bytes received, or &false; if there
+was an error. The actual error code can be retrieved by calling
 |socket_last_error|. This error code may be passed to |socket_strerror| to get
 a textual explanation of the error.
 

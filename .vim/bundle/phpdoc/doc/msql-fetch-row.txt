@@ -7,13 +7,13 @@ specified query identifier. The row is returned as an array. Each result
 column is stored in an array offset, starting at offset 0.
 
 Subsequent call to |msql_fetch_row| would return the next row in the result
-set, or FALSE if there are no more rows.
+set, or &false; if there are no more rows.
 
 { result}The result resource that is being evaluated. This result comes from a
 call to |msql_query|.
 
-Returns an array that corresponds to the fetched row, or FALSE if there are no
-more rows.
+Returns an array that corresponds to the fetched row, or &false; if there are
+no more rows.
 
 |msql_fetch_row| example
 
@@ -44,7 +44,7 @@ more rows.
 
 
 Version Description 4.3.11 and 5.0.4 A bug was fixed when retrieving data from
-columns containing NULL values. Such columns were not placed into the
+columns containing &null; values. Such columns were not placed into the
 resulting array.
 
 |msql_fetch_array| |msql_fetch_object| |msql_data_seek| |msql_result|

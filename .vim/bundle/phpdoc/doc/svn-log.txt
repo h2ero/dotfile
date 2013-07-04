@@ -7,11 +7,6 @@ svn_log -- Returns the commit log messages of a repository URL
 This function is equivalent to svn log --verbose -r $start_revision
 $repos_url.
 
-For repositories with large histories, the output may be quite large (one
-array item for every revision of the item). This function does not support the
---limit NUM flag, nor does it support revision ranges (start_revision must be
-an integer).
-
 {repos_url} Repository URL of the item to retrieve log history from.
 
 {start_revision} Revision number of the first log to retrieve. Use

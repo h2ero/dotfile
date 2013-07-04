@@ -9,7 +9,7 @@ Gets the length of the specified output column.
 
 {field_number} The field number. Starts at 1.
 
-Returns the length as an integer, or FALSE on error.
+Returns the length as an integer, or &false; on error.
 
 |ovrimos_field_name| |ovrimos_field_num| |ovrimos_field_type|
 

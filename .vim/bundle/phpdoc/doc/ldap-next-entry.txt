@@ -14,7 +14,7 @@ The first call to |ldap_next_entry| is made after the call to
 
 Returns entry identifier for the next entry in the result whose entries are
 being read starting with |ldap_first_entry|. If there are no more entries in
-the result then it returns FALSE.
+the result then it returns &false;.
 
 |ldap_get_entries|
 

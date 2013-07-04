@@ -6,7 +6,7 @@ Finds whether the given variable is a boolean.
 
 {var} The variable being evaluated.
 
-Returns TRUE if {var} is a boolean, FALSE otherwise.
+Returns &true; if {var} is a boolean, &false; otherwise.
 
 |is_bool| examples
 

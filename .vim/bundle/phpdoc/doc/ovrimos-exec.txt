@@ -10,7 +10,7 @@ Executes an SQL statement (query or update) and returns a result identifier.
 {query} The SQL statement. Evidently, it should not contain parameters. Use
 |ovrimos_prepare| for prepared statements.
 
-Returns the result identifier as an integer, or FALSE on error.
+Returns the result identifier as an integer, or &false; on error.
 
 |ovrimos_execute| |ovrimos_prepare|
 

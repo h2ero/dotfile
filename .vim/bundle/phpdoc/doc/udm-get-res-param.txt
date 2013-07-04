@@ -24,6 +24,7 @@ page.
 UDM_PARAM_LAST_DOC - the number of the last document displayed on current
 page.
 
-|udm_get_res_param| returns result parameter value on success, FALSE on error.
+|udm_get_res_param| returns result parameter value on success, &false; on
+error.
 
 vim:ft=help:

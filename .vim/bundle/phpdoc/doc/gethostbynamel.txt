@@ -8,7 +8,7 @@ Returns a list of IPv4 addresses to which the Internet host specified by
 
 {hostname} The host name.
 
-Returns an array of IPv4 addresses or FALSE if {hostname} could not be
+Returns an array of IPv4 addresses or &false; if {hostname} could not be
 resolved.
 
 |gethostbynamel| example

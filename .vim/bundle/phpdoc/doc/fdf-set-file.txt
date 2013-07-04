@@ -14,7 +14,7 @@ or |fdf_open_string|.
 will be displayed. You can also set the default value for this parameter using
 |fdf_set_target_frame|.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Passing FDF data to a second form
 

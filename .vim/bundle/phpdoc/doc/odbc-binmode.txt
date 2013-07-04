@@ -31,6 +31,6 @@ ODBC_BINMODE_RETURN: Return as is
 
 ODBC_BINMODE_CONVERT: Convert to char and return
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 vim:ft=help:

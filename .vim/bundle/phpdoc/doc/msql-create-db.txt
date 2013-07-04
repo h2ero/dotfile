@@ -10,7 +10,7 @@ msql_create_db -- Create mSQL database
 by |msql_connect| is assumed. If no such link is found, the function will try
 to establish a link as if |msql_connect| was called, and use it.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |msql_drop_db|
 

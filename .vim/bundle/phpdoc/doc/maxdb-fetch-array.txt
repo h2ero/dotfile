@@ -9,7 +9,7 @@ Object oriented style
 
   mixed maxdb_result::fetch_array(resource result [, int resulttype [, int resulttype]])~
 
-Returns an array that corresponds to the fetched row or NULL if there are no
+Returns an array that corresponds to the fetched row or &null; if there are no
 more rows for the resultset represented by the {result} parameter.
 
 |maxdb_fetch_array| is an extended version of the |maxdb_fetch_row| function.
@@ -19,7 +19,7 @@ indices, using the field names of the result set as keys.
 
 Field names returned by this function are case-sensitive.
 
-This function sets NULL fields to the PHP NULL value.
+This function sets NULL fields to the PHP &null; value.
 
 If two or more columns of the result have the same field names, the last
 column will take precedence and overwrite the earlier data. In order to access
@@ -46,7 +46,7 @@ By using the MAXDB_ASSOC_LOWER constant, the behaviour of this function is
 identical to the use of MAXDB_ASSOC except the array index of a column is the
 fieldname in lower case.
 
-Returns an array that corresponds to the fetched row or NULL if there are no
+Returns an array that corresponds to the fetched row or &null; if there are no
 more rows in resultset.
 
 Object oriented style

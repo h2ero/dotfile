@@ -6,8 +6,8 @@ handler and restores terminal settings
 Removes a previously installed callback handler and restores terminal
 settings.
 
-Returns TRUE if a previously installed callback handler was removed, or FALSE
-if one could not be found.
+Returns &true; if a previously installed callback handler was removed, or
+&false; if one could not be found.
 
 See |readline_callback_handler_install| for an example of how to use the
 readline callback interface.

@@ -8,7 +8,7 @@ Stop tracing started by |pg_trace|.
 present, the default connection is used. The default connection is the last
 connection made by |pg_connect| or |pg_pconnect|.
 
-Always returns TRUE.
+Always returns &true;.
 
 |pg_untrace| example
 

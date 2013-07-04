@@ -19,7 +19,7 @@ First character's position is 0. Second character position is 1. Unlike
 character encoding is used.
 
 Return the numeric position of the last occurrence of {needle} in the
-{haystack} string, or FALSE if {needle} is not found.
+{haystack} string, or &false; if {needle} is not found.
 
 |strripos| |strrpos| |mb_strrpos|
 

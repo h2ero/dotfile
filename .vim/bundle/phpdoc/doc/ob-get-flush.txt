@@ -9,7 +9,7 @@ output buffering.
 This function is similar to |ob_end_flush|, except that this function returns
 the buffer as a string.
 
-Returns the output buffer or FALSE if no buffering is active.
+Returns the output buffer or &false; if no buffering is active.
 
 |ob_get_flush| example
 

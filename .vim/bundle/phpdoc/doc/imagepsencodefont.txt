@@ -18,7 +18,7 @@ have the right encoding.
 documentation. T1lib comes with two ready-to-use files, IsoLatin1.enc and
 IsoLatin2.enc.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |imagepsencodefont| example
 

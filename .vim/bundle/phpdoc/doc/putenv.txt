@@ -21,7 +21,7 @@ is set to allow to change them.
 
 {setting} The setting, like "FOO=BAR"
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Setting an environment variable
 

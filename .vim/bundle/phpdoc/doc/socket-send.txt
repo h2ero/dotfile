@@ -19,7 +19,7 @@ completes the record. MSG_EOF Close the sender side of the socket and include
 an appropriate notification of this at the end of the sent data. The sent data
 completes the transaction. MSG_DONTROUTE Bypass routing, use direct interface.
 
-|socket_send| returns the number of bytes sent, or FALSE on error.
+|socket_send| returns the number of bytes sent, or &false; on error.
 
 |socket_sendto|
 

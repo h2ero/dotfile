@@ -2,19 +2,20 @@ stristr -- Case-insensitive strstr
 
   string stristr(string haystack, mixed needle [, bool before_needle])~
 
-Returns all of {haystack} from the first occurrence of {needle} to the end.
+Returns all of {haystack} starting from and including the first occurrence of
+{needle} to the end.
 
 {haystack} The string to search in
 
 {needle} If {needle} is not a string, it is converted to an integer and
 applied as the ordinal value of a character.
 
-{before_needle} If TRUE, |stristr| returns the part of the {haystack} before
-the first occurrence of the {needle}.
+{before_needle} If &true;, |stristr| returns the part of the {haystack} before
+the first occurrence of the {needle} (excluding needle).
 
 {needle} and {haystack} are examined in a case-insensitive manner.
 
-Returns the matched substring. If {needle} is not found, returns FALSE.
+Returns the matched substring. If {needle} is not found, returns &false;.
 
 Version Description 5.3.0 Added the optional parameter {before_needle}. 4.3.0
 |stristr| was made binary safe.
@@ -59,6 +60,6 @@ Using a non "string" needle
 
 This function is binary-safe.
 
-|strstr| |strrchr| |substr| |preg_match|
+|strstr| |strrchr| |stripos| |strpbrk| |preg_match|
 
 vim:ft=help:

@@ -10,7 +10,7 @@ Returns the type of {statement} as one of the following strings. Statement
 type Return String Notes ALTER BEGIN CALL Introduced in PHP 5.2.1 (PECL OCI8
 1.2.3) CREATE DECLARE DELETE DROP INSERT SELECT UPDATE UNKNOWN
 
-Returns FALSE on error.
+Returns &false; on error.
 
 |oci_statement_type| example
 

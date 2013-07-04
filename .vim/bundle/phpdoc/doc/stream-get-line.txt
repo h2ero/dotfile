@@ -21,6 +21,6 @@ the delimiter itself.
 Returns a string of up to {length} bytes read from the file pointed to by
 {handle}.
 
-If an error occurs, returns FALSE.
+If an error occurs, returns &false;.
 
 vim:ft=help:

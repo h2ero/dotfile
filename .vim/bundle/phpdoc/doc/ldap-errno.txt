@@ -9,7 +9,7 @@ number can be converted into a textual error message using |ldap_err2str|.
 
 Return the LDAP error number of the last LDAP command for this link.
 
-Unless you lower your warning level in your php.ini sufficiently or prefix
+Unless you lower your warning level in your &php.ini; sufficiently or prefix
 your LDAP commands with @ (at) characters to suppress warning output, the
 errors generated will also show up in your HTML output. Generating and
 catching an error

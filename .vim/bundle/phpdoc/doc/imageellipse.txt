@@ -18,7 +18,7 @@ such as |imagecreatetruecolor|.
 {color} The color of the ellipse. A color identifier created with
 |imagecolorallocate|.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |imageellipse| example
 

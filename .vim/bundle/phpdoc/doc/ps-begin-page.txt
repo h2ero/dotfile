@@ -40,7 +40,7 @@ BoundingBox and Orientation, if it has been set before with |ps_set_info| and
 
 {height} The height of the page in pixel, e.g. 842 for A4 format.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |ps_end_page| |ps_findfont| |ps_set_info|
 

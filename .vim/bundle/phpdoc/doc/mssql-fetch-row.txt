@@ -7,13 +7,13 @@ specified result identifier. The row is returned as an array. Each result
 column is stored in an array offset, starting at offset 0.
 
 Subsequent call to |mssql_fetch_row| would return the next row in the result
-set, or FALSE if there are no more rows.
+set, or &false; if there are no more rows.
 
 {result} The result resource that is being evaluated. This result comes from a
 call to |mssql_query|.
 
-Returns an array that corresponds to the fetched row, or FALSE if there are no
-more rows.
+Returns an array that corresponds to the fetched row, or &false; if there are
+no more rows.
 
 |mssql_fetch_row| example
 
@@ -43,7 +43,7 @@ The above example will output something similar to:
 
 
 
-This function sets NULL fields to the PHP NULL value.
+This function sets NULL fields to the PHP &null; value.
 
 |mssql_fetch_array| |mssql_fetch_object| |mssql_data_seek| |mssql_result|
 

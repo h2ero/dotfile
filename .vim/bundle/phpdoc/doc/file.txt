@@ -31,7 +31,7 @@ to .
 
 Returns the file in an array. Each element of the array corresponds to a line
 in the file, with the newline still attached. Upon failure, |file| returns
-FALSE.
+&false;.
 
 Each line in the resulting array will include the line ending, unless
 FILE_IGNORE_NEW_LINES is used, so you still need to use |rtrim| if you do not

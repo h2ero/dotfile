@@ -11,7 +11,7 @@ encoding and set values to the {result} array or global variables.
 
 {result} An array containing decoded and character encoded converted values.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |mb_detect_order| |mb_internal_encoding|
 

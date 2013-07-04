@@ -11,7 +11,7 @@ correspondent bytecodes to the open file handle.
 {fileName} The file to be compiled. You must always include or require the
 file you intend to compile.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |bcompiler_write_functions_from_file| example
 

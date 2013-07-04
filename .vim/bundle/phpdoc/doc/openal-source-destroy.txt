@@ -4,7 +4,7 @@ openal_source_destroy -- Destroy a source resource
 
 An Open AL(Source) resource (previously created by |openal_source_create|).
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |openal_source_create|
 

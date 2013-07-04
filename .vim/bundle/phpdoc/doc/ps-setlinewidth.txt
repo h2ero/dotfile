@@ -8,7 +8,7 @@ Sets the line width for all following drawing operations.
 
 {width} The width of lines in points.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |ps_setlinecap| |ps_setlinejoin| |ps_setmiterlimit|
 

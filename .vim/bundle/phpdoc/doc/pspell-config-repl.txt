@@ -16,7 +16,7 @@ misspelled, and a proper suggestion was not found in the list,
 
 {file} The file should be writable by whoever PHP runs as (e.g. nobody).
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |pspell_config_repl|
 

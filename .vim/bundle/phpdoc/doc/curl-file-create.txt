@@ -1,0 +1,59 @@
+curl_file_create -- Create a CURLFile object
+
+  CURLFile curl_file_create(string filename [, string mimetype [, string postname]])~
+
+Creates a CURLFile object, used to upload a file with CURLOPT_POSTFIELDS.
+
+Path to the file which will be uploaded.
+
+Mimetype of the file.
+
+Name of the file.
+
+Returns a CURLFile object.
+
+|curl_file_create| example
+
+<?php >
+  /* http://example.com/upload.php:
+  <?php var_dump($_FILES); ?>
+  */
+  
+  // Create a cURL handle
+  $ch = curl_init('http://example.com/upload.php');
+  
+  // Create a CURLFile object
+  $cfile = curl_file_create('cats.jpg','image/jpeg','test_name');
+  
+  // Assign POST data
+  $data = array('test_file' => $cfile);
+  curl_setopt($ch, CURLOPT_POST,1);
+  curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
+  
+  // Execute the handle
+  curl_exec($ch);
+?>
+
+The above example will output:
+
+  array(1) {
+    ["test_file"]=>
+    array(5) {
+      ["name"]=>
+      string(9) "test_name"
+      ["type"]=>
+      string(10) "image/jpeg"
+      ["tmp_name"]=>
+      string(14) "/tmp/phpPC9Kbx"
+      ["error"]=>
+      int(0)
+      ["size"]=>
+      int(46334)
+    }
+  }
+
+
+
+|curl_setopt|
+
+vim:ft=help:

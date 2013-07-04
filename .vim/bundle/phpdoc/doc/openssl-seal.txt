@@ -18,7 +18,7 @@ recipient's public key.
 
 {pub_key_ids}
 
-Returns the length of the sealed data on success, or FALSE on error. If
+Returns the length of the sealed data on success, or &false; on error. If
 successful the sealed data is returned in {sealed_data}, and the envelope keys
 in {env_keys}.
 

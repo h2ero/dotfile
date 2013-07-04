@@ -10,7 +10,7 @@ character set by this function. The default substitution character is ?.
 
 {character} The substitution character to use.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 Emits a E_WARNING level error if {character} is invalid.
 

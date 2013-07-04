@@ -10,6 +10,6 @@ The first fuzzy hash signature string.
 
 The second fuzzy hash signature string.
 
-Returns an integer from 0 to 100 on success, FALSE otherwise.
+Returns an integer from 0 to 100 on success, &false; otherwise.
 
 vim:ft=help:

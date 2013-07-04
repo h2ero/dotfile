@@ -1,5 +1,10 @@
 mysql_query -- Send a MySQL query
 
+This extension is deprecated as of PHP 5.5.0, and will be removed in the
+future. Instead, the MySQLi or PDO_MySQL extension should be used. See also
+MySQL: choosing an API guide and related FAQ for more information.
+Alternatives to this function include:
+
   resource mysql_query(string query [, resource link_identifier])~
 
 |mysql_query| sends a unique query (multiple queries are not supported) to the
@@ -18,10 +23,10 @@ arguments. If no connection is found or established, an E_WARNING level error
 is generated.
 
 For SELECT, SHOW, DESCRIBE, EXPLAIN and other statements returning resultset,
-|mysql_query| returns a resource on success, or FALSE on error.
+|mysql_query| returns a resource on success, or &false; on error.
 
 For other type of SQL statements, INSERT, UPDATE, DELETE, DROP, etc,
-|mysql_query| returns TRUE on success or FALSE on error.
+|mysql_query| returns &true; on success or &false; on error.
 
 The returned result resource should be passed to |mysql_fetch_array|, and
 other functions for dealing with result tables, to access the returned data.
@@ -30,11 +35,11 @@ Use |mysql_num_rows| to find out how many rows were returned for a SELECT
 statement or |mysql_affected_rows| to find out how many rows were affected by
 a DELETE, INSERT, REPLACE, or UPDATE statement.
 
-|mysql_query| will also fail and return FALSE if the user does not have
+|mysql_query| will also fail and return &false; if the user does not have
 permission to access the table(s) referenced by the query.
 
 Invalid Query The following query is syntactically invalid, so |mysql_query|
-fails and returns FALSE.
+fails and returns &false;.
 
 <?php >
   $result = mysql_query('SELECT * WHERE 1=1');
@@ -55,7 +60,8 @@ Valid Query The following query is valid, so |mysql_query| returns a resource.
   // Formulate Query
   // This is the best way to perform an SQL query
   // For more examples, see mysql_real_escape_string()
-  $query = sprintf("SELECT firstname, lastname, address, age FROM friends WHERE firstname='%s' AND lastname='%s'",
+  $query = sprintf("SELECT firstname, lastname, address, age FROM friends 
+      WHERE firstname='%s' AND lastname='%s'",
       mysql_real_escape_string($firstname),
       mysql_real_escape_string($lastname));
   

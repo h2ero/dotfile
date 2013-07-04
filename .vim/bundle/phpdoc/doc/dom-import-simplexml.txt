@@ -8,7 +8,7 @@ DOMElement node. This new object can then be used as a native DOMElement node.
 
 {node} The SimpleXMLElement node.
 
-The DOMElement node added or FALSE if any errors occur.
+The DOMElement node added or &false; if any errors occur.
 
 Import SimpleXML into DOM with |dom_import_simplexml|
 

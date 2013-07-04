@@ -1,7 +1,7 @@
 forward_static_call_array -- Call a static method and pass the arguments as
 array
 
-  mixed forward_static_call_array(callback function, array parameters)~
+  mixed forward_static_call_array(callable function, array parameters)~
 
 Calls a user defined function or method given by the {function} parameter.
 This function must be called within a method context, it can't be used outside
@@ -10,7 +10,7 @@ method are passed as values, and as an array, similarly to
 |call_user_func_array|.
 
 {function} The function or method to be called. This parameter may be an
-array, with the name of the class, and the method, or a string, with a
+&array;, with the name of the class, and the method, or a &string;, with a
 function name.
 
 {parameter} One parameter, gathering all the method parameter in one array.
@@ -18,7 +18,7 @@ function name.
 Note that the parameters for |forward_static_call_array| are not passed by
 reference.
 
-Returns the function result, or FALSE on error.
+Returns the function result, or &false; on error.
 
 |forward_static_call_array| example
 

@@ -7,7 +7,7 @@ Returns the FDF document as a string.
 {fdf_document} The FDF document handle, returned by |fdf_create|, |fdf_open|
 or |fdf_open_string|.
 
-Returns the document as a string, or FALSE on error.
+Returns the document as a string, or &false; on error.
 
 Retrieving FDF as a string
 

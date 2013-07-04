@@ -5,7 +5,7 @@ pcntl_signal_dispatch -- Calls signal handlers for pending signals
 The |pcntl_signal_dispatch| function calls the signal handlers installed by
 |pcntl_signal| for each pending signal.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |pcntl_signal_dispatch| example
 

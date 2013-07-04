@@ -21,7 +21,7 @@ settings and it can convert any characters that have 'alphabetic' property,
 such as A-umlaut (Ä).
 
 For more information about the Unicode properties, please see
-http://www.unicode.org/unicode/reports/tr21/.
+&url.unicode.reports;.
 
 |mb_convert_case| example
 

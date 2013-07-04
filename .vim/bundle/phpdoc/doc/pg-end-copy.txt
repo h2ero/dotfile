@@ -11,7 +11,7 @@ may get out of sync with the frontend and will report an error.
 present, the default connection is used. The default connection is the last
 connection made by |pg_connect| or |pg_pconnect|.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |pg_end_copy| example
 

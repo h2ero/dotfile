@@ -17,7 +17,7 @@ changes to be written to disk.
 
 {correct} The fixed spelling for the {misspelled} word.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |pspell_store_replacement|
 

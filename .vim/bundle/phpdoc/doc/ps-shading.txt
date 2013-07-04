@@ -21,7 +21,7 @@ middle points of a starting and ending circle.
 {optlist} If the shading is of type radial the {optlist} must also contain the
 parameters r0 and r1 with the radius of the start and end circle.
 
-Returns the identifier of the pattern or FALSE on failure.
+Returns the identifier of the pattern or &false; on failure.
 
 |ps_shading_pattern| |ps_shfill|
 

@@ -11,7 +11,7 @@ to the file will always be appended, regardless of the file position.
 {handle} The file pointer must be valid, and must point to a file successfully
 opened by |fopen|.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |rewind| overwriting example
 

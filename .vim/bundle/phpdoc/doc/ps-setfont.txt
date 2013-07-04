@@ -11,7 +11,7 @@ without setting a font results in an error.
 
 {size} The size of the font.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |ps_findfont| |ps_set_text_pos| for an example.
 

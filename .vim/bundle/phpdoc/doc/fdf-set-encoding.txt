@@ -13,6 +13,6 @@ or |fdf_open_string|.
 An empty string resets the encoding to the default PDFDocEncoding/Unicode
 scheme.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 vim:ft=help:

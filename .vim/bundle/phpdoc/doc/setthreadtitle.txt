@@ -6,7 +6,7 @@ Sets the thread title.
 
 {title} The title to use as the thread title.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |setthreadtitle| example Running the example below will change the thread
 title (visible with ps c for example).

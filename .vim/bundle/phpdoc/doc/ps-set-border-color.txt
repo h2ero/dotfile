@@ -16,7 +16,7 @@ border line.
 
 {blue} The blue component of the border color.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |ps_set_border_dash| |ps_set_border_style|
 

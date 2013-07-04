@@ -1,5 +1,10 @@
 mysql_result -- Get result data
 
+This extension is deprecated as of PHP 5.5.0, and will be removed in the
+future. Instead, the MySQLi or PDO_MySQL extension should be used. See also
+MySQL: choosing an API guide and related FAQ for more information.
+Alternatives to this function include:
+
   string mysql_result(resource result, int row [, mixed field])~
 
 Retrieves the contents of one cell from a MySQL result set.
@@ -24,7 +29,7 @@ name (tablename.fieldname). If the column name has been aliased ('select foo
 as bar from...'), use the alias instead of the column name. If undefined, the
 first field is retrieved.
 
-The contents of one cell from a MySQL result set on success, or FALSE on
+The contents of one cell from a MySQL result set on success, or &false; on
 failure.
 
 |mysql_result| example

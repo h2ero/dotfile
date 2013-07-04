@@ -12,7 +12,7 @@ name of the column.
 
 Returns an integer containing the 0-indexed position of the named column in
 the result set. If the specified column does not exist in the result set,
-|db2_field_num| returns FALSE.
+|db2_field_num| returns &false;.
 
 |db2_field_display_size| |db2_field_name| |db2_field_precision|
 |db2_field_scale| |db2_field_type| |db2_field_width|

@@ -19,8 +19,8 @@ The {checkpoint} is only valid when the {status} is one of
 WIN32_SERVICE_STOP_PENDING, WIN32_SERVICE_START_PENDING,
 WIN32_SERVICE_CONTINUE_PENDING or WIN32_SERVICE_PAUSE_PENDING.
 
-Returns TRUE on success, &false; if there is a problem with the parameters or
-a Win32 Error Code on failure.
+Returns &true; on success, &false; if there is a problem with the parameters
+or a Win32 Error Code on failure.
 
 |win32_start_service_ctrl_dispatcher| Win32Service Service Status Constants
 

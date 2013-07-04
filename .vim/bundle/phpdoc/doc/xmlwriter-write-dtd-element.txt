@@ -1,8 +1,8 @@
-XMLWriter::writeDTDElement -- Write full DTD element tag
+xmlwriter_write_dtd_element -- Write full DTD element tag
 
 Object oriented style
 
-  bool writeDTDElement(string name, string content)~
+  bool XMLWriter::writeDTDElement(string name, string content)~
 
 Procedural style
 
@@ -18,7 +18,7 @@ modified. This resource comes from a call to |xmlwriter_open_uri| or
 
 {content} The content of the element.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 XMLWriter::startDTDElement XMLWriter::endDTDElement
 

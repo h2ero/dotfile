@@ -20,7 +20,7 @@ current path starts on the arc at angle {alpha} and ends on the arc at angle
 
 {beta} The end angle given in degrees.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |ps_arcn|
 

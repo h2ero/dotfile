@@ -23,7 +23,7 @@ Ghostview.
 
 {filename} The path of the program to be started, when the link is clicked on.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |ps_add_locallink| |ps_add_pdflink| |ps_add_weblink|
 

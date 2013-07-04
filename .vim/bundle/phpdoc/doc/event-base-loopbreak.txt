@@ -7,6 +7,6 @@ statement.
 
 {event_base} Valid event base resource.
 
-|event_base_loopbreak| returns TRUE on success or FALSE on error.
+|event_base_loopbreak| returns &true; on success or &false; on error.
 
 vim:ft=help:

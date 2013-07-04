@@ -1,6 +1,6 @@
 array_walk -- Apply a user function to every member of an array
 
-  bool array_walk(array array, callback funcname [, mixed userdata])~
+  bool array_walk(array array, callable funcname [, mixed userdata])~
 
 Applies the user-defined function {funcname} to each element of the {array}
 array.
@@ -30,7 +30,7 @@ function is undefined, and unpredictable.
 {userdata} If the optional {userdata} parameter is supplied, it will be passed
 as the third parameter to the callback {funcname}.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 If function {funcname} requires more parameters than given to it, an error of
 level E_WARNING will be generated each time |array_walk| calls {funcname}.

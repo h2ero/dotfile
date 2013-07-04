@@ -20,14 +20,15 @@ indicates completely transparent.
 The colors parameters are integers between 0 and 255 or hexadecimals between
 0x00 and 0xFF.
 
-A color identifier or FALSE if the allocation failed.
+A color identifier or &false; if the allocation failed.
 
-This function may return Boolean FALSE, but may also return a non-Boolean
-value which evaluates to FALSE, such as 0 or "". Please read the section on
-Booleans for more information. Use the === operator for testing the return
-value of this function.
+This function may return Boolean &false;, but may also return a non-Boolean
+value which evaluates to &false;. Please read the section on Booleans for more
+information. Use the === operator for testing the return value of this
+function.
 
-Version Description Prior to 5.1.3 Returns -1 if the allocation failed.
+Version Description 5.1.3 Returns &false; if the allocation failed. Previously
+-1 was returned.
 
 Example of using |imagecolorallocatealpha|
 

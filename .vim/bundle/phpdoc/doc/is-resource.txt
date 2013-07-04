@@ -6,7 +6,7 @@ Finds whether the given variable is a resource.
 
 {var} The variable being evaluated.
 
-Returns TRUE if {var} is a resource, FALSE otherwise.
+Returns &true; if {var} is a resource, &false; otherwise.
 
 |is_resource| example
 

@@ -12,7 +12,7 @@ array index 0.
 
 {rownumber} The row number.
 
-Returns the number of columns in the result; FALSE on error.
+Returns the number of columns in the result; &false; on error.
 
 Version Description 4.2.0 The {result_array} and {rownumber} parameters have
 been swapped. This allows the rownumber to be a constant again. 4.0.6 The

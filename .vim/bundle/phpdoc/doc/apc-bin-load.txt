@@ -8,9 +8,9 @@ The binary dump being loaded, likely from |apc_bin_dump|.
 
 Either APC_BIN_VERIFY_CRC32, APC_BIN_VERIFY_MD5, or both.
 
-Returns TRUE if the binary dump {data} was loaded with success, otherwise
-FALSE is returned. FALSE is returned if APC is not enabled, or if the {data}
-is not a valid APC binary dump (e.g., unexpected size).
+Returns &true; if the binary dump {data} was loaded with success, otherwise
+&false; is returned. &false; is returned if APC is not enabled, or if the
+{data} is not a valid APC binary dump (e.g., unexpected size).
 
 |apc_bin_load| example
 

@@ -12,6 +12,6 @@ correctly. See the notes under the installation section for more information.
 number of bits) using {configargs}. See |openssl_csr_new| for more information
 about {configargs}.
 
-Returns a resource identifier for the pkey on success, or FALSE on error.
+Returns a resource identifier for the pkey on success, or &false; on error.
 
 vim:ft=help:

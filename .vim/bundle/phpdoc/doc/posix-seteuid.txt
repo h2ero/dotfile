@@ -8,7 +8,7 @@ perform this function.
 
 {uid} The user id.
 
-Returns TRUE on success or &false; on failure.
+Returns &true; on success or &false; on failure.
 
 |posix_setgid|
 

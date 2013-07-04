@@ -18,10 +18,10 @@ finished using event bound COM objects.
 If you do not specify a value for {timeoutms}, then 0 will be assumed. A 0
 value means that no waiting will be performed; if there are messages pending
 they will be dispatched as before; if there are no messages pending, the
-function will return FALSE immediately without sleeping.
+function will return &false; immediately without sleeping.
 
 If a message or messages arrives before the timeout, they will be dispatched,
-and the function will return TRUE. If the timeout occurs and no messages were
-processed, the return value will be FALSE.
+and the function will return &true;. If the timeout occurs and no messages
+were processed, the return value will be &false;.
 
 vim:ft=help:
