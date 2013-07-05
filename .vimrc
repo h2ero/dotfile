@@ -344,11 +344,6 @@ hi IndentGuidesOdd  ctermbg=black
 hi IndentGuidesEven ctermbg=darkgrey
 
 
-"indentLine
-let g:indentLine_fileType = ['c', 'cpp', 'php', 'python']
-let g:indentLine_color_term = 23
-let g:indentLine_char = '┆'
-set concealcursor=iv
 
 "Gundo
 
