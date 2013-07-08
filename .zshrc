@@ -105,3 +105,9 @@ alias hglc="hg log -l 1 | \
 hgd(){
     hg st $(hg root) | awk '{print $2}'  | xargs grep -Rn  "var_dump\|console"
 }
+
+# 
+alias s2='cd /home/h2ero/h2ero/www/sysvisual2'
+alias dbtm='mysql -h 192.168.9.2 -P 9001 -udev -pjumeidevforall'
+alias fdev='/usr/bin/firefox -no-remote -P dev'
+alias edn='vim /home/h2ero/h2ero/dotfile/default.nginx'
