@@ -2,3 +2,8 @@
 .DS_Store
 .vim/.netrwhist
 *.pyc
+.moc/cache/
+.moc/equalizer
+.moc/last_directory
+.moc/softmixer
+*.orig
