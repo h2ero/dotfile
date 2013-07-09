@@ -1,4 +1,4 @@
-eio_readlink -- Read value of a symbolic link.
+*eio_readlink* -- Read value of a symbolic link.
 
   resource eio_readlink(string path, int pri, callable callback [, string data])~
 

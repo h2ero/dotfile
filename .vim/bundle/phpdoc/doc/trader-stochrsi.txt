@@ -1,4 +1,4 @@
-trader_stochrsi -- Stochastic Relative Strength Index
+*trader_stochrsi* -- Stochastic Relative Strength Index
 
   array trader_stochrsi(array real [, integer timePeriod [, integer fastK_Period [, integer fastD_Period [, integer fastD_MAType]]]])~
 

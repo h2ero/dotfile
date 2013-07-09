@@ -1,4 +1,4 @@
-rrd_first -- Gets the timestamp of the first sample from rrd file.
+*rrd_first* -- Gets the timestamp of the first sample from rrd file.
 
   int rrd_first(string file [, int raaindex])~
 

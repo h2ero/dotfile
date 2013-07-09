@@ -1,4 +1,4 @@
-mysqlnd_ms_query_is_select -- Find whether to send the query to the master,
+*mysqlnd_ms_query_is_select* -- Find whether to send the query to the master,
 the slave or the last used MySQL server
 
   int mysqlnd_ms_query_is_select(string query)~

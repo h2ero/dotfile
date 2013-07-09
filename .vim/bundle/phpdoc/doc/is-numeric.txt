@@ -1,4 +1,4 @@
-is_numeric -- Finds whether a variable is a number or a numeric string
+*is_numeric* -- Finds whether a variable is a number or a numeric string
 
   bool is_numeric(mixed var)~
 

@@ -1,4 +1,4 @@
-mysqlnd_memcache_get_config -- Returns information about the plugin
+*mysqlnd_memcache_get_config* -- Returns information about the plugin
 configuration
 
   array mysqlnd_memcache_get_config(mixed connection)~

@@ -1,4 +1,4 @@
-trader_cdlstalledpattern -- Stalled Pattern
+*trader_cdlstalledpattern* -- Stalled Pattern
 
   array trader_cdlstalledpattern(array open, array high, array low, array close)~
 

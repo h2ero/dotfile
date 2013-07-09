@@ -1,4 +1,4 @@
-imagecolorallocate -- Allocate a color for an image
+*imagecolorallocate* -- Allocate a color for an image
 
   int imagecolorallocate(resource image, int red, int green, int blue)~
 

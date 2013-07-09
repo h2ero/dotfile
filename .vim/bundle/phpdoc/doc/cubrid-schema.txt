@@ -1,4 +1,4 @@
-cubrid_schema -- Get the requested schema information
+*cubrid_schema* -- Get the requested schema information
 
   array cubrid_schema(resource conn_identifier, int schema_type [, string class_name [, string attr_name]])~
 

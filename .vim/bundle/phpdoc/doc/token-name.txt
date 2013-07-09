@@ -1,4 +1,4 @@
-token_name -- Get the symbolic name of a given PHP token
+*token_name* -- Get the symbolic name of a given PHP token
 
   string token_name(int token)~
 

@@ -1,4 +1,4 @@
-class_parents -- Return the parent classes of the given class
+*class_parents* -- Return the parent classes of the given class
 
   array class_parents(mixed class [, bool autoload])~
 

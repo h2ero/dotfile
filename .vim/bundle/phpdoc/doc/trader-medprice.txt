@@ -1,4 +1,4 @@
-trader_medprice -- Median Price
+*trader_medprice* -- Median Price
 
   array trader_medprice(array high, array low)~
 

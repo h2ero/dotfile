@@ -1,4 +1,4 @@
-snmpgetnext -- Fetch the SNMP object which follows the given object id
+*snmpgetnext* -- Fetch the SNMP object which follows the given object id
 
   string snmpgetnext(string host, string community, string object_id [, int timeout [, int retries]])~
 

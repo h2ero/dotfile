@@ -1,4 +1,4 @@
-cubrid_bind -- Bind variables to a prepared statement as parameters
+*cubrid_bind* -- Bind variables to a prepared statement as parameters
 
   bool cubrid_bind(resource req_identifier, int bind_index, mixed bind_value [, string bind_value_type])~
 

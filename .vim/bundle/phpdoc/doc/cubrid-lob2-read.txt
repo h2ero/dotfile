@@ -1,4 +1,4 @@
-cubrid_lob2_read -- Read from BLOB/CLOB data.
+*cubrid_lob2_read* -- Read from BLOB/CLOB data.
 
   string cubrid_lob2_read(resource lob_identifier, int len)~
 

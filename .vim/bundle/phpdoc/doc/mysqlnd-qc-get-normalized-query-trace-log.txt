@@ -1,4 +1,4 @@
-mysqlnd_qc_get_normalized_query_trace_log -- Returns a normalized query trace
+*mysqlnd_qc_get_normalized_query_trace_log* -- Returns a normalized query trace
 log for each query inspected by the query cache
 
   array mysqlnd_qc_get_normalized_query_trace_log()~

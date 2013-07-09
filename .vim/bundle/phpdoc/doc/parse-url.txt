@@ -1,4 +1,4 @@
-parse_url -- Parse a URL and return its components
+*parse_url* -- Parse a URL and return its components
 
   mixed parse_url(string url [, int component])~
 

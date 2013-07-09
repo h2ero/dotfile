@@ -1,4 +1,4 @@
-pg_fetch_assoc -- Fetch a row as an associative array
+*pg_fetch_assoc* -- Fetch a row as an associative array
 
   array pg_fetch_assoc(resource result [, int row])~
 

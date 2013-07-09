@@ -1,4 +1,4 @@
-openssl_error_string -- Return openSSL error message
+*openssl_error_string* -- Return openSSL error message
 
   string openssl_error_string()~
 

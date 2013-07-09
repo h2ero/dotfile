@@ -1,4 +1,4 @@
-cli_set_process_title -- Sets the process title
+*cli_set_process_title* -- Sets the process title
 
   bool cli_set_process_title(string title)~
 

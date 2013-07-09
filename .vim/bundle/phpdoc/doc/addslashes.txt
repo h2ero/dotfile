@@ -1,4 +1,4 @@
-addslashes -- Quote string with slashes
+*addslashes* -- Quote string with slashes
 
   string addslashes(string str)~
 

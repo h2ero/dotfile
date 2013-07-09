@@ -1,4 +1,4 @@
-imagefontwidth -- Get font width
+*imagefontwidth* -- Get font width
 
   int imagefontwidth(int font)~
 

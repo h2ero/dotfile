@@ -1,4 +1,4 @@
-eio_poll -- Can be to be called whenever there are pending requests that need
+*eio_poll* -- Can be to be called whenever there are pending requests that need
 finishing.
 
   int eio_poll()~

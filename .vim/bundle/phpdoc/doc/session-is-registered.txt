@@ -1,4 +1,4 @@
-session_is_registered -- Find out whether a global variable is registered in a
+*session_is_registered* -- Find out whether a global variable is registered in a
 session
 
   bool session_is_registered(string name)~

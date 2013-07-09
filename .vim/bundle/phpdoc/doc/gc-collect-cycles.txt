@@ -1,4 +1,4 @@
-gc_collect_cycles -- Forces collection of any existing garbage cycles
+*gc_collect_cycles* -- Forces collection of any existing garbage cycles
 
   int gc_collect_cycles()~
 

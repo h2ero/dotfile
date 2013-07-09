@@ -1,4 +1,4 @@
-cubrid_get_class_name -- Get the class name using OID
+*cubrid_get_class_name* -- Get the class name using OID
 
   string cubrid_get_class_name(resource conn_identifier, string oid)~
 

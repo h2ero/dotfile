@@ -1,4 +1,4 @@
-trader_cos -- Vector Trigonometric Cos
+*trader_cos* -- Vector Trigonometric Cos
 
   array trader_cos(array real)~
 

@@ -1,4 +1,4 @@
-trader_cdltristar -- Tristar Pattern
+*trader_cdltristar* -- Tristar Pattern
 
   array trader_cdltristar(array open, array high, array low, array close)~
 

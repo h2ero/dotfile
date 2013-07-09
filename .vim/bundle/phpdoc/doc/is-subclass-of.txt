@@ -1,4 +1,4 @@
-is_subclass_of -- Checks if the object has this class as one of its parents
+*is_subclass_of* -- Checks if the object has this class as one of its parents
 
   bool is_subclass_of(mixed object, string class_name [, bool allow_string])~
 

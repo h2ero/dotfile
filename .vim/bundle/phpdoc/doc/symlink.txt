@@ -1,4 +1,4 @@
-symlink -- Creates a symbolic link
+*symlink* -- Creates a symbolic link
 
   bool symlink(string target, string link)~
 

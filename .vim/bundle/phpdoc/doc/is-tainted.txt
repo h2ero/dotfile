@@ -1,4 +1,4 @@
-is_tainted -- Checks whether a string is tainted
+*is_tainted* -- Checks whether a string is tainted
 
   bool is_tainted(string string)~
 

@@ -1,4 +1,4 @@
-cubrid_execute -- Execute a prepared SQL statement
+*cubrid_execute* -- Execute a prepared SQL statement
 
   resource cubrid_execute(resource conn_identifier, string sql [, int option])~
 

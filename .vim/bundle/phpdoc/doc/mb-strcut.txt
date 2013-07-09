@@ -1,4 +1,4 @@
-mb_strcut -- Get part of string
+*mb_strcut* -- Get part of string
 
   string mb_strcut(string str, int start [, int length [, string encoding]])~
 

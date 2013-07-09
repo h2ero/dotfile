@@ -1,4 +1,4 @@
-filesize -- Gets file size
+*filesize* -- Gets file size
 
   int filesize(string filename)~
 

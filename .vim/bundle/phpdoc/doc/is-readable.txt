@@ -1,4 +1,4 @@
-is_readable -- Tells whether a file exists and is readable
+*is_readable* -- Tells whether a file exists and is readable
 
   bool is_readable(string filename)~
 

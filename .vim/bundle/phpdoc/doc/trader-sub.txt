@@ -1,4 +1,4 @@
-trader_sub -- Vector Arithmetic Subtraction
+*trader_sub* -- Vector Arithmetic Subtraction
 
   array trader_sub(array real0, array real1)~
 

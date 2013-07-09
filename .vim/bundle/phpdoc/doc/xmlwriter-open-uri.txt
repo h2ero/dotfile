@@ -1,4 +1,4 @@
-xmlwriter_open_uri -- Create new xmlwriter using source uri for output
+*xmlwriter_open_uri* -- Create new xmlwriter using source uri for output
 
 Object oriented style
 

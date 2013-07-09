@@ -1,4 +1,4 @@
-cubrid_seq_insert -- Insert an element to a sequence type column using OID
+*cubrid_seq_insert* -- Insert an element to a sequence type column using OID
 
   bool cubrid_seq_insert(resource conn_identifier, string oid, string attr_name, int index, string seq_element)~
 

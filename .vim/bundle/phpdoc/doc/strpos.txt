@@ -1,4 +1,4 @@
-strpos -- Find the position of the first occurrence of a substring in a string
+*strpos* -- Find the position of the first occurrence of a substring in a string
 
   int strpos(string haystack, mixed needle [, int offset])~
 

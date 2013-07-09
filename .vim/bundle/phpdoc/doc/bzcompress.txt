@@ -1,4 +1,4 @@
-bzcompress -- Compress a string into bzip2 encoded data
+*bzcompress* -- Compress a string into bzip2 encoded data
 
   mixed bzcompress(string source [, int blocksize [, int workfactor]])~
 

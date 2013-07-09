@@ -1,4 +1,4 @@
-setthreadtitle -- Set the thread title
+*setthreadtitle* -- Set the thread title
 
   bool setthreadtitle(string title)~
 

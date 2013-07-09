@@ -1,4 +1,4 @@
-set_include_path -- Sets the include_path configuration option
+*set_include_path* -- Sets the include_path configuration option
 
   string set_include_path(string new_include_path)~
 

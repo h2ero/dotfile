@@ -1,4 +1,4 @@
-filectime -- Gets inode change time of file
+*filectime* -- Gets inode change time of file
 
   int filectime(string filename)~
 

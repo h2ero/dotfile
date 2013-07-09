@@ -1,4 +1,4 @@
-trader_cdl3blackcrows -- Three Black Crows
+*trader_cdl3blackcrows* -- Three Black Crows
 
   array trader_cdl3blackcrows(array open, array high, array low, array close)~
 

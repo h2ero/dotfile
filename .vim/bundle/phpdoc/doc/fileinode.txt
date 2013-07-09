@@ -1,4 +1,4 @@
-fileinode -- Gets file inode
+*fileinode* -- Gets file inode
 
   int fileinode(string filename)~
 

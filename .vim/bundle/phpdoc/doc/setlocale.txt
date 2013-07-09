@@ -1,4 +1,4 @@
-setlocale -- Set locale information
+*setlocale* -- Set locale information
 
   string setlocale(int category, string locale [, string ...])~
 

@@ -1,4 +1,4 @@
-rrd_xport -- Exports the information about RRD database.
+*rrd_xport* -- Exports the information about RRD database.
 
   array rrd_xport(array options)~
 

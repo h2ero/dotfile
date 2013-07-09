@@ -1,4 +1,4 @@
-count -- Count all elements in an array, or something in an object
+*count* -- Count all elements in an array, or something in an object
 
   int count(mixed var [, int mode])~
 

@@ -1,4 +1,4 @@
-trader_cdllongleggeddoji -- Long Legged Doji
+*trader_cdllongleggeddoji* -- Long Legged Doji
 
   array trader_cdllongleggeddoji(array open, array high, array low, array close)~
 

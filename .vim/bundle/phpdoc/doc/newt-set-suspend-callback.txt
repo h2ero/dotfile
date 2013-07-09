@@ -1,4 +1,4 @@
-newt_set_suspend_callback -- Set a callback function which gets invoked when
+*newt_set_suspend_callback* -- Set a callback function which gets invoked when
 user presses the suspend key
 
   void newt_set_suspend_callback(callable function, mixed data)~

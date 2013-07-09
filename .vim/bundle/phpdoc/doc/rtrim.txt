@@ -1,4 +1,4 @@
-rtrim -- Strip whitespace (or other characters) from the end of a string
+*rtrim* -- Strip whitespace (or other characters) from the end of a string
 
   string rtrim(string str [, string charlist])~
 

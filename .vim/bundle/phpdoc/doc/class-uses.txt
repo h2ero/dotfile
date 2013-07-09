@@ -1,4 +1,4 @@
-class_uses -- Return the traits used by the given class
+*class_uses* -- Return the traits used by the given class
 
   array class_uses(mixed class [, bool autoload])~
 

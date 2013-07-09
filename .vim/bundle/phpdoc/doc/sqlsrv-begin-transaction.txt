@@ -1,4 +1,4 @@
-sqlsrv_begin_transaction -- Begins a database transaction
+*sqlsrv_begin_transaction* -- Begins a database transaction
 
   bool sqlsrv_begin_transaction(resource conn)~
 

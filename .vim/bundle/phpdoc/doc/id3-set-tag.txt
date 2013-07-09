@@ -1,4 +1,4 @@
-id3_set_tag -- Update information stored in an ID3 tag
+*id3_set_tag* -- Update information stored in an ID3 tag
 
   bool id3_set_tag(string filename, array tag [, int version])~
 

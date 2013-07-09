@@ -1,4 +1,4 @@
-number_format -- Format a number with grouped thousands
+*number_format* -- Format a number with grouped thousands
 
   string number_format(float number [, int decimals])~
 

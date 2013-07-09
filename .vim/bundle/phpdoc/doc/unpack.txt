@@ -1,4 +1,4 @@
-unpack -- Unpack data from binary string
+*unpack* -- Unpack data from binary string
 
   array unpack(string format, string data)~
 

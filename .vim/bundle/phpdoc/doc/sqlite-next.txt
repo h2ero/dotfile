@@ -1,4 +1,4 @@
-SQLiteUnbuffered::next -- Seek to the next row number
+*SQLiteUnbuffered*::next -- Seek to the next row number
 
   bool sqlite_next(resource result)~
 

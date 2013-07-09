@@ -1,4 +1,4 @@
-ini_set -- Sets the value of a configuration option
+*ini_set* -- Sets the value of a configuration option
 
   string ini_set(string varname, string newvalue)~
 

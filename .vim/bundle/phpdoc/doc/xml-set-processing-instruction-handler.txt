@@ -1,4 +1,4 @@
-xml_set_processing_instruction_handler -- Set up processing instruction (PI)
+*xml_set_processing_instruction_handler* -- Set up processing instruction (PI)
 handler
 
   bool xml_set_processing_instruction_handler(resource parser, callable handler)~

@@ -1,4 +1,4 @@
-imagewebp -- Output an WebP image to browser or file
+*imagewebp* -- Output an WebP image to browser or file
 
   bool imagewebp(resource image, string filename)~
 

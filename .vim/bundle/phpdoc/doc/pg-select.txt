@@ -1,4 +1,4 @@
-pg_select -- Select records
+*pg_select* -- Select records
 
   mixed pg_select(resource connection, string table_name, array assoc_array [, int options])~
 

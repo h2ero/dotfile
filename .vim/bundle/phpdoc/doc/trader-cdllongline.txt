@@ -1,4 +1,4 @@
-trader_cdllongline -- Long Line Candle
+*trader_cdllongline* -- Long Line Candle
 
   array trader_cdllongline(array open, array high, array low, array close)~
 

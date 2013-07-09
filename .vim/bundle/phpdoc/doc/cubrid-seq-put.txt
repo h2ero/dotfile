@@ -1,4 +1,4 @@
-cubrid_seq_put -- Update the element value of sequence type column using OID
+*cubrid_seq_put* -- Update the element value of sequence type column using OID
 
   bool cubrid_seq_put(resource conn_identifier, string oid, string attr_name, int index, string seq_element)~
 

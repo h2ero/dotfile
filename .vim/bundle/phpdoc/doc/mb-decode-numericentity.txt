@@ -1,4 +1,4 @@
-mb_decode_numericentity -- Decode HTML numeric string reference to character
+*mb_decode_numericentity* -- Decode HTML numeric string reference to character
 
   string mb_decode_numericentity(string str, array convmap [, string encoding])~
 

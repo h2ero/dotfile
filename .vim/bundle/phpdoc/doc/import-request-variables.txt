@@ -1,4 +1,4 @@
-import_request_variables -- Import GET/POST/Cookie variables into the global
+*import_request_variables* -- Import GET/POST/Cookie variables into the global
 scope
 
   bool import_request_variables(string types [, string prefix])~

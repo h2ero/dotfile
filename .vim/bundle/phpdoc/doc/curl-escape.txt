@@ -1,4 +1,4 @@
-curl_escape -- URL encodes the given string
+*curl_escape* -- URL encodes the given string
 
   string curl_escape(resource ch, string str)~
 

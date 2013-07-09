@@ -1,4 +1,4 @@
-is_file -- Tells whether the filename is a regular file
+*is_file* -- Tells whether the filename is a regular file
 
   bool is_file(string filename)~
 

@@ -1,4 +1,4 @@
-curl_multi_init -- Returns a new cURL multi handle
+*curl_multi_init* -- Returns a new cURL multi handle
 
   resource curl_multi_init()~
 

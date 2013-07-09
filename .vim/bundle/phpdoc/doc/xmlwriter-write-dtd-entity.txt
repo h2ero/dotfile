@@ -1,4 +1,4 @@
-xmlwriter_write_dtd_entity -- Write full DTD Entity tag
+*xmlwriter_write_dtd_entity* -- Write full DTD Entity tag
 
 Object oriented style
 

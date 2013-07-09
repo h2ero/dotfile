@@ -1,4 +1,4 @@
-is_scalar -- Finds whether a variable is a scalar
+*is_scalar* -- Finds whether a variable is a scalar
 
   bool is_scalar(mixed var)~
 

@@ -1,4 +1,4 @@
-trader_errno -- Get error code
+*trader_errno* -- Get error code
 
   integer trader_errno()~
 

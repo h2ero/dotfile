@@ -1,4 +1,4 @@
-xslt_error -- Returns an error string
+*xslt_error* -- Returns an error string
 
   string xslt_error(resource xh)~
 

@@ -1,4 +1,4 @@
-eio_sendfile -- Transfer data between file descriptors
+*eio_sendfile* -- Transfer data between file descriptors
 
   resource eio_sendfile(mixed out_fd, mixed in_fd, int offset, int length [, int pri [, callable callback [, string data]]])~
 

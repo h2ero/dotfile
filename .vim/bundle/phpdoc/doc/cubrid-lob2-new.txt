@@ -1,4 +1,4 @@
-cubrid_lob2_new -- Create a lob object.
+*cubrid_lob2_new* -- Create a lob object.
 
   resource cubrid_lob2_new([resource conn_identifier [, string type]])~
 

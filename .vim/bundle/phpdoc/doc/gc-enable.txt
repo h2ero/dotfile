@@ -1,4 +1,4 @@
-gc_enable -- Activates the circular reference collector
+*gc_enable* -- Activates the circular reference collector
 
   void gc_enable()~
 

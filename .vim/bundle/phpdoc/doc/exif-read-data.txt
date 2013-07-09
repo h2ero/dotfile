@@ -1,4 +1,4 @@
-exif_read_data -- Reads the EXIF headers from JPEG or TIFF
+*exif_read_data* -- Reads the EXIF headers from JPEG or TIFF
 
   array exif_read_data(string filename [, string sections [, bool arrays [, bool thumbnail]]])~
 

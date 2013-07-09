@@ -1,4 +1,4 @@
-pcntl_fork -- Forks the currently running process
+*pcntl_fork* -- Forks the currently running process
 
   int pcntl_fork()~
 

@@ -1,4 +1,4 @@
-taint -- Taint a string
+*taint* -- Taint a string
 
   bool taint(string string [, string ...])~
 

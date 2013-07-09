@@ -1,4 +1,4 @@
-oci_define_by_name -- Associates a PHP variable with a column for query
+*oci_define_by_name* -- Associates a PHP variable with a column for query
 fetches
 
   bool oci_define_by_name(resource statement, string column_name, mixed variable [, int type])~

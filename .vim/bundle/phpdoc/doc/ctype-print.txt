@@ -1,4 +1,4 @@
-ctype_print -- Check for printable character(s)
+*ctype_print* -- Check for printable character(s)
 
   bool ctype_print(string text)~
 

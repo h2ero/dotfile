@@ -1,4 +1,4 @@
-mb_encode_numericentity -- Encode character to HTML numeric string reference
+*mb_encode_numericentity* -- Encode character to HTML numeric string reference
 
   string mb_encode_numericentity(string str, array convmap [, string encoding [, bool is_hex]])~
 

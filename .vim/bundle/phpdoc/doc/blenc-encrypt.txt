@@ -1,4 +1,4 @@
-blenc_encrypt -- This function encrypt a PHP script with BLENC. It takes a
+*blenc_encrypt* -- This function encrypt a PHP script with BLENC. It takes a
 content string containing the script source and create a file with encrypted
 data. If key is not given BLENC create itself a valid encryption key.
 

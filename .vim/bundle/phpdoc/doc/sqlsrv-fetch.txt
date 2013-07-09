@@ -1,4 +1,4 @@
-sqlsrv_fetch -- Makes the next row in a result set available for reading
+*sqlsrv_fetch* -- Makes the next row in a result set available for reading
 
   mixed sqlsrv_fetch(resource stmt [, int row [, int offset]])~
 

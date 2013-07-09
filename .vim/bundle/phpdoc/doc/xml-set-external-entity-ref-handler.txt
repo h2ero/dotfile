@@ -1,4 +1,4 @@
-xml_set_external_entity_ref_handler -- Set up external entity reference
+*xml_set_external_entity_ref_handler* -- Set up external entity reference
 handler
 
   bool xml_set_external_entity_ref_handler(resource parser, callable handler)~

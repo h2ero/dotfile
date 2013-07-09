@@ -1,4 +1,4 @@
-trim -- Strip whitespace (or other characters) from the beginning and end of a
+*trim* -- Strip whitespace (or other characters) from the beginning and end of a
 string
 
   string trim(string str [, string charlist])~

@@ -1,4 +1,4 @@
-eio_fchmod -- Change file permissions.
+*eio_fchmod* -- Change file permissions.
 
   resource eio_fchmod(mixed fd, int mode [, int pri [, callable callback [, mixed data]]])~
 

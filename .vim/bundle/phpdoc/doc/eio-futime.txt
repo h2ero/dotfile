@@ -1,4 +1,4 @@
-eio_futime -- Change file last access and modification times
+*eio_futime* -- Change file last access and modification times
 
   resource eio_futime(mixed fd, float atime, float mtime [, int pri [, callable callback [, mixed data]]])~
 

@@ -1,4 +1,4 @@
-maxdb_stmt::result_metadata -- Returns result set metadata from a prepared
+*maxdb_stmt*::result_metadata -- Returns result set metadata from a prepared
 statement
 
 Procedural style

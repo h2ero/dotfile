@@ -1,4 +1,4 @@
-array_replace -- Replaces elements from passed arrays into the first array
+*array_replace* -- Replaces elements from passed arrays into the first array
 
   array array_replace(array array, array array1 [, array ...])~
 

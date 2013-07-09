@@ -1,4 +1,4 @@
-trader_mama -- MESA Adaptive Moving Average
+*trader_mama* -- MESA Adaptive Moving Average
 
   array trader_mama(array real [, float fastLimit [, float slowLimit]])~
 

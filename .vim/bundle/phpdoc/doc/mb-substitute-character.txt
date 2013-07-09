@@ -1,4 +1,4 @@
-mb_substitute_character -- Set/Get substitution character
+*mb_substitute_character* -- Set/Get substitution character
 
   mixed mb_substitute_character([mixed substrchar])~
 

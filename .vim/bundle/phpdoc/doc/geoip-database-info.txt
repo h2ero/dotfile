@@ -1,4 +1,4 @@
-geoip_database_info -- Get GeoIP Database information
+*geoip_database_info* -- Get GeoIP Database information
 
   string geoip_database_info([int database])~
 

@@ -1,4 +1,4 @@
-ereg_replace -- Replace regular expression
+*ereg_replace* -- Replace regular expression
 
   string ereg_replace(string pattern, string replacement, string string)~
 

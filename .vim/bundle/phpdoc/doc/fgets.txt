@@ -1,4 +1,4 @@
-fgets -- Gets line from file pointer
+*fgets* -- Gets line from file pointer
 
   string fgets(resource handle [, int length])~
 

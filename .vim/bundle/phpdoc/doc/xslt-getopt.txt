@@ -1,4 +1,4 @@
-xslt_getopt -- Get options on a given xsl processor
+*xslt_getopt* -- Get options on a given xsl processor
 
   int xslt_getopt(resource processor)~
 

@@ -1,4 +1,4 @@
-oci_set_client_identifier -- Sets the client identifier
+*oci_set_client_identifier* -- Sets the client identifier
 
   bool oci_set_client_identifier(resource connection, string client_identifier)~
 

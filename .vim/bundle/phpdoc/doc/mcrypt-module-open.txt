@@ -1,4 +1,4 @@
-mcrypt_module_open -- Opens the module of the algorithm and the mode to be
+*mcrypt_module_open* -- Opens the module of the algorithm and the mode to be
 used
 
   resource mcrypt_module_open(string algorithm, string algorithm_directory, string mode, string mode_directory)~

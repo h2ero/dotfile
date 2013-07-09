@@ -1,4 +1,4 @@
-ssh2_sftp_stat -- Stat a file on a remote filesystem
+*ssh2_sftp_stat* -- Stat a file on a remote filesystem
 
   array ssh2_sftp_stat(resource sftp, string path)~
 

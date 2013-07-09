@@ -1,4 +1,4 @@
-ob_start -- Turn on output buffering
+*ob_start* -- Turn on output buffering
 
   bool ob_start([callable output_callback [, int chunk_size [, bool erase]]])~
 

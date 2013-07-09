@@ -1,4 +1,4 @@
-oci_statement_type -- Returns the type of a statement
+*oci_statement_type* -- Returns the type of a statement
 
   string oci_statement_type(resource statement)~
 

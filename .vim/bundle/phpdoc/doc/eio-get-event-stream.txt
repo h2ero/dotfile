@@ -1,4 +1,4 @@
-eio_get_event_stream -- Get stream representing a variable used in internal
+*eio_get_event_stream* -- Get stream representing a variable used in internal
 communications with libeio.
 
   mixed eio_get_event_stream()~

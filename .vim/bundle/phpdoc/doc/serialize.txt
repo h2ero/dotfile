@@ -1,4 +1,4 @@
-serialize -- Generates a storable representation of a value
+*serialize* -- Generates a storable representation of a value
 
   string serialize(mixed value)~
 

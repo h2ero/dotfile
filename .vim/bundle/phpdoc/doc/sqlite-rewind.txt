@@ -1,4 +1,4 @@
-SQLiteResult::rewind -- Seek to the first row number
+*SQLiteResult*::rewind -- Seek to the first row number
 
   bool sqlite_rewind(resource result)~
 

@@ -1,4 +1,4 @@
-imagecreatetruecolor -- Create a new true color image
+*imagecreatetruecolor* -- Create a new true color image
 
   resource imagecreatetruecolor(int width, int height)~
 

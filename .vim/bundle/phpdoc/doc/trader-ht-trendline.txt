@@ -1,4 +1,4 @@
-trader_ht_trendline -- Hilbert Transform - Instantaneous Trendline
+*trader_ht_trendline* -- Hilbert Transform - Instantaneous Trendline
 
   array trader_ht_trendline(array real)~
 

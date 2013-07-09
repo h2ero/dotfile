@@ -1,4 +1,4 @@
-imagepng -- Output a PNG image to either the browser or a file
+*imagepng* -- Output a PNG image to either the browser or a file
 
   bool imagepng(resource image [, string filename [, int quality [, int filters]]])~
 

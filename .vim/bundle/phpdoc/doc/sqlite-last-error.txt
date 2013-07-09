@@ -1,4 +1,4 @@
-SQLiteDatabase::lastError -- Returns the error code of the last error for a
+*SQLiteDatabase*::lastError -- Returns the error code of the last error for a
 database
 
   int sqlite_last_error(resource dbhandle)~

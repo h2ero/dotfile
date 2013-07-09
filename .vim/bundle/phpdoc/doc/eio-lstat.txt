@@ -1,4 +1,4 @@
-eio_lstat -- Get file status
+*eio_lstat* -- Get file status
 
   resource eio_lstat(string path, int pri, callable callback [, mixed data])~
 

@@ -1,4 +1,4 @@
-cubrid_connect_with_url -- Establish the environment for connecting to CUBRID
+*cubrid_connect_with_url* -- Establish the environment for connecting to CUBRID
 server
 
   resource cubrid_connect_with_url(string conn_url [, string userid [, string passwd [, bool new_link]]])~

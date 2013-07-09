@@ -1,4 +1,4 @@
-error_reporting -- Sets which PHP errors are reported
+*error_reporting* -- Sets which PHP errors are reported
 
   int error_reporting([int level])~
 

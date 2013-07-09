@@ -1,4 +1,4 @@
-trader_bbands -- Bollinger Bands
+*trader_bbands* -- Bollinger Bands
 
   array trader_bbands(array real [, integer timePeriod [, float nbDevUp [, float nbDevDn [, integer mAType]]]])~
 

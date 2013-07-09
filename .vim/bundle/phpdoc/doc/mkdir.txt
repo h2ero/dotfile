@@ -1,4 +1,4 @@
-mkdir -- Makes directory
+*mkdir* -- Makes directory
 
   bool mkdir(string pathname [, int mode [, bool recursive [, resource context]]])~
 

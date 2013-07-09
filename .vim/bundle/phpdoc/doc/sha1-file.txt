@@ -1,4 +1,4 @@
-sha1_file -- Calculate the sha1 hash of a file
+*sha1_file* -- Calculate the sha1 hash of a file
 
   string sha1_file(string filename [, bool raw_output])~
 

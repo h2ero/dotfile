@@ -1,4 +1,4 @@
-trader_cdlengulfing -- Engulfing Pattern
+*trader_cdlengulfing* -- Engulfing Pattern
 
   array trader_cdlengulfing(array open, array high, array low, array close)~
 

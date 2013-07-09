@@ -1,4 +1,4 @@
-trader_asin -- Vector Trigonometric ASin
+*trader_asin* -- Vector Trigonometric ASin
 
   array trader_asin(array real)~
 

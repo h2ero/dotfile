@@ -1,4 +1,4 @@
-pg_fetch_array -- Fetch a row as an array
+*pg_fetch_array* -- Fetch a row as an array
 
   array pg_fetch_array(resource result [, int row [, int result_type]])~
 

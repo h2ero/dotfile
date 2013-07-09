@@ -1,4 +1,4 @@
-ldap_control_paged_result -- Send LDAP pagination control
+*ldap_control_paged_result* -- Send LDAP pagination control
 
   bool ldap_control_paged_result(resource link, int pagesize [, bool iscritical [, string cookie]])~
 

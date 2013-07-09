@@ -1,4 +1,4 @@
-trader_cdl3whitesoldiers -- Three Advancing White Soldiers
+*trader_cdl3whitesoldiers* -- Three Advancing White Soldiers
 
   array trader_cdl3whitesoldiers(array open, array high, array low, array close)~
 

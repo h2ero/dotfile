@@ -1,4 +1,4 @@
-eio_fallocate -- Allows the caller to directly manipulate the allocated disk
+*eio_fallocate* -- Allows the caller to directly manipulate the allocated disk
 space for a file
 
   resource eio_fallocate(mixed fd, int mode, int offset, int length [, int pri [, callable callback [, mixed data]]])~

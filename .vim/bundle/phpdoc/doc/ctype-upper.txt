@@ -1,4 +1,4 @@
-ctype_upper -- Check for uppercase character(s)
+*ctype_upper* -- Check for uppercase character(s)
 
   bool ctype_upper(string text)~
 

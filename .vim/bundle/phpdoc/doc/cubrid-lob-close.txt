@@ -1,4 +1,4 @@
-cubrid_lob_close -- Close BLOB/CLOB data
+*cubrid_lob_close* -- Close BLOB/CLOB data
 
   bool cubrid_lob_close(array lob_identifier_array)~
 

@@ -1,4 +1,4 @@
-mysql_fetch_array -- Fetch a result row as an associative array, a numeric
+*mysql_fetch_array* -- Fetch a result row as an associative array, a numeric
 array, or both
 
 This extension is deprecated as of PHP 5.5.0, and will be removed in the

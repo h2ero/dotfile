@@ -1,4 +1,4 @@
-mb_strstr -- Finds first occurrence of a string within another
+*mb_strstr* -- Finds first occurrence of a string within another
 
   string mb_strstr(string haystack, string needle [, bool before_needle [, string encoding]])~
 

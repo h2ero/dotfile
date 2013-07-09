@@ -1,4 +1,4 @@
-eio_grp_cancel -- Cancels a request group
+*eio_grp_cancel* -- Cancels a request group
 
   void eio_grp_cancel(resource grp)~
 

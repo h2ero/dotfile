@@ -1,4 +1,4 @@
-xmlwriter_output_memory -- Returns current buffer
+*xmlwriter_output_memory* -- Returns current buffer
 
 Object oriented style
 

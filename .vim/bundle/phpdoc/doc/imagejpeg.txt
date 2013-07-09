@@ -1,4 +1,4 @@
-imagejpeg -- Output image to browser or file
+*imagejpeg* -- Output image to browser or file
 
   bool imagejpeg(resource image [, string filename [, int quality]])~
 

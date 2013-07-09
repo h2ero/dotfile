@@ -1,4 +1,4 @@
-posix_getpwnam -- Return info about a user by username
+*posix_getpwnam* -- Return info about a user by username
 
   array posix_getpwnam(string username)~
 

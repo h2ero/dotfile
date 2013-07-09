@@ -1,4 +1,4 @@
-oci_set_prefetch -- Sets number of rows to be prefetched by queries
+*oci_set_prefetch* -- Sets number of rows to be prefetched by queries
 
   bool oci_set_prefetch(resource statement, int rows)~
 

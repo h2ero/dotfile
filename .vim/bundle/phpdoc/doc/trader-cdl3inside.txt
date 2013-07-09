@@ -1,4 +1,4 @@
-trader_cdl3inside -- Three Inside Up/Down
+*trader_cdl3inside* -- Three Inside Up/Down
 
   array trader_cdl3inside(array open, array high, array low, array close)~
 

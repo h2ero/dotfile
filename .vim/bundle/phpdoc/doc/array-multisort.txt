@@ -1,4 +1,4 @@
-array_multisort -- Sort multiple or multi-dimensional arrays
+*array_multisort* -- Sort multiple or multi-dimensional arrays
 
   bool array_multisort(array arr [, mixed arg [, mixed arg [, mixed ...]]])~
 

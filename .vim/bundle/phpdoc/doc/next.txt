@@ -1,4 +1,4 @@
-next -- Advance the internal array pointer of an array
+*next* -- Advance the internal array pointer of an array
 
   mixed next(array array)~
 

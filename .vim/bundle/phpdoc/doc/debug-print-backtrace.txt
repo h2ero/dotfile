@@ -1,4 +1,4 @@
-debug_print_backtrace -- Prints a backtrace
+*debug_print_backtrace* -- Prints a backtrace
 
   void debug_print_backtrace([int options [, int limit]])~
 

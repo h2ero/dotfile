@@ -1,4 +1,4 @@
-__autoload -- Attempt to load undefined class
+*__autoload* -- Attempt to load undefined class
 
   void __autoload(string class)~
 

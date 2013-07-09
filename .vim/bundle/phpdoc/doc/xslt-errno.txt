@@ -1,4 +1,4 @@
-xslt_errno -- Returns an error number
+*xslt_errno* -- Returns an error number
 
   int xslt_errno(resource xh)~
 

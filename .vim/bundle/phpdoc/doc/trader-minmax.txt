@@ -1,4 +1,4 @@
-trader_minmax -- Lowest and highest values over a specified period
+*trader_minmax* -- Lowest and highest values over a specified period
 
   array trader_minmax(array real [, integer timePeriod])~
 

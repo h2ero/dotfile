@@ -1,4 +1,4 @@
-getdate -- Get date/time information
+*getdate* -- Get date/time information
 
   array getdate([int timestamp])~
 

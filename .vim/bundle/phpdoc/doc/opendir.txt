@@ -1,4 +1,4 @@
-opendir -- Open directory handle
+*opendir* -- Open directory handle
 
   resource opendir(string path [, resource context])~
 

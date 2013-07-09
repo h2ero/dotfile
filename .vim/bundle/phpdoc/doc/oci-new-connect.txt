@@ -1,4 +1,4 @@
-oci_new_connect -- Connect to the Oracle server using a unique connection
+*oci_new_connect* -- Connect to the Oracle server using a unique connection
 
   resource oci_new_connect(string username, string password [, string connection_string [, string character_set [, int session_mode]]])~
 

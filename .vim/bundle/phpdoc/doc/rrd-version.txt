@@ -1,4 +1,4 @@
-rrd_version -- Gets information about underlying rrdtool library
+*rrd_version* -- Gets information about underlying rrdtool library
 
   string rrd_version()~
 

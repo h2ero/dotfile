@@ -1,4 +1,4 @@
-mb_strrpos -- Find position of last occurrence of a string in a string
+*mb_strrpos* -- Find position of last occurrence of a string in a string
 
   int mb_strrpos(string haystack, string needle [, int offset [, string encoding]])~
 

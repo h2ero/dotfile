@@ -1,4 +1,4 @@
-trader_cdlspinningtop -- Spinning Top
+*trader_cdlspinningtop* -- Spinning Top
 
   array trader_cdlspinningtop(array open, array high, array low, array close)~
 

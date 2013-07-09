@@ -1,4 +1,4 @@
-get_magic_quotes_gpc -- Gets the current configuration setting of
+*get_magic_quotes_gpc* -- Gets the current configuration setting of
 magic_quotes_gpc
 
   bool get_magic_quotes_gpc()~

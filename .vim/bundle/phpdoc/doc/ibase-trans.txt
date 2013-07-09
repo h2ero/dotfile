@@ -1,4 +1,4 @@
-ibase_trans -- Begin a transaction
+*ibase_trans* -- Begin a transaction
 
   resource ibase_trans([int trans_args [, resource link_identifier]])~
 

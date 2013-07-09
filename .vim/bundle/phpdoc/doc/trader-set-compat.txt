@@ -1,4 +1,4 @@
-trader_set_compat -- Set compatibility mode
+*trader_set_compat* -- Set compatibility mode
 
   void trader_set_compat(integer compatId)~
 

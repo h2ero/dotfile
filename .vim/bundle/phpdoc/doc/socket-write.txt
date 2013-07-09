@@ -1,4 +1,4 @@
-socket_write -- Write to a socket
+*socket_write* -- Write to a socket
 
   int socket_write(resource socket, string buffer [, int length])~
 

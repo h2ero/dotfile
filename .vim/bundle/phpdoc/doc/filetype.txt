@@ -1,4 +1,4 @@
-filetype -- Gets file type
+*filetype* -- Gets file type
 
   string filetype(string filename)~
 

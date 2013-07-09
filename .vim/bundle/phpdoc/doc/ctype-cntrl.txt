@@ -1,4 +1,4 @@
-ctype_cntrl -- Check for control character(s)
+*ctype_cntrl* -- Check for control character(s)
 
   bool ctype_cntrl(string text)~
 

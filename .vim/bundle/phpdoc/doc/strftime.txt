@@ -1,4 +1,4 @@
-strftime -- Format a local time/date according to locale settings
+*strftime* -- Format a local time/date according to locale settings
 
   string strftime(string format [, int timestamp])~
 

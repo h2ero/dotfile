@@ -1,4 +1,4 @@
-imageaffine -- Return an image containing the affine tramsformed src image,
+*imageaffine* -- Return an image containing the affine tramsformed src image,
 using an optional clipping area
 
   resource imageaffine(resource image, array affine [, array clip])~

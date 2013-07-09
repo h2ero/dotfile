@@ -1,4 +1,4 @@
-easter_date -- Get Unix timestamp for midnight on Easter of a given year
+*easter_date* -- Get Unix timestamp for midnight on Easter of a given year
 
   int easter_date([int year])~
 

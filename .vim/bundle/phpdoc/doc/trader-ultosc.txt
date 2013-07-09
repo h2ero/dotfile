@@ -1,4 +1,4 @@
-trader_ultosc -- Ultimate Oscillator
+*trader_ultosc* -- Ultimate Oscillator
 
   array trader_ultosc(array high, array low, array close [, integer timePeriod1 [, integer timePeriod2 [, integer timePeriod3]]])~
 

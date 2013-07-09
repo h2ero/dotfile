@@ -1,4 +1,4 @@
-mysqlnd_uh_set_connection_proxy -- Installs a proxy for mysqlnd connections
+*mysqlnd_uh_set_connection_proxy* -- Installs a proxy for mysqlnd connections
 
   bool mysqlnd_uh_set_connection_proxy(MysqlndUhConnection connection_proxy [, mysqli mysqli_connection])~
 

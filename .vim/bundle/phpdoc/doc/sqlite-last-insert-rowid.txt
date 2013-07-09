@@ -1,4 +1,4 @@
-SQLiteDatabase::lastInsertRowid -- Returns the rowid of the most recently
+*SQLiteDatabase*::lastInsertRowid -- Returns the rowid of the most recently
 inserted row
 
   int sqlite_last_insert_rowid(resource dbhandle)~

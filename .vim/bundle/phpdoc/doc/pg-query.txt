@@ -1,4 +1,4 @@
-pg_query -- Execute a query
+*pg_query* -- Execute a query
 
   resource pg_query([resource connection, string query])~
 

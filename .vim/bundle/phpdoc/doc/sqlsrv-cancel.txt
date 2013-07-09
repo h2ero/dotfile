@@ -1,4 +1,4 @@
-sqlsrv_cancel -- Cancels a statement
+*sqlsrv_cancel* -- Cancels a statement
 
   bool sqlsrv_cancel(resource stmt)~
 

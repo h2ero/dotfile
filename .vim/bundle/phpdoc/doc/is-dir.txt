@@ -1,4 +1,4 @@
-is_dir -- Tells whether the filename is a directory
+*is_dir* -- Tells whether the filename is a directory
 
   bool is_dir(string filename)~
 

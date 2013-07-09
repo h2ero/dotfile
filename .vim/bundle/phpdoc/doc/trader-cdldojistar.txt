@@ -1,4 +1,4 @@
-trader_cdldojistar -- Doji Star
+*trader_cdldojistar* -- Doji Star
 
   array trader_cdldojistar(array open, array high, array low, array close)~
 

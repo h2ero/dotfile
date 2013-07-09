@@ -1,4 +1,4 @@
-array_column -- Return the values from a single column in the input array
+*array_column* -- Return the values from a single column in the input array
 
   array array_column(array input, mixed column_key [, mixed index_key])~
 

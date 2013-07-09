@@ -1,4 +1,4 @@
-substr -- Return part of a string
+*substr* -- Return part of a string
 
   string substr(string string, int start [, int length])~
 

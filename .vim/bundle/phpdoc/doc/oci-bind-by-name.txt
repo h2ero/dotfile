@@ -1,4 +1,4 @@
-oci_bind_by_name -- Binds a PHP variable to an Oracle placeholder
+*oci_bind_by_name* -- Binds a PHP variable to an Oracle placeholder
 
   bool oci_bind_by_name(resource statement, string bv_name, mixed variable [, int maxlength [, int type]])~
 

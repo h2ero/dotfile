@@ -1,4 +1,4 @@
-set_error_handler -- Sets a user-defined error handler function
+*set_error_handler* -- Sets a user-defined error handler function
 
   mixed set_error_handler(callable error_handler [, int error_types])~
 

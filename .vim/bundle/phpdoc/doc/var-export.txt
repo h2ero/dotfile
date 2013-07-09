@@ -1,4 +1,4 @@
-var_export -- Outputs or returns a parsable string representation of a
+*var_export* -- Outputs or returns a parsable string representation of a
 variable
 
   mixed var_export(mixed expression [, bool return])~

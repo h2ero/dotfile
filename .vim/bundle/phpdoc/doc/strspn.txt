@@ -1,4 +1,4 @@
-strspn -- Finds the length of the initial segment of a string consisting
+*strspn* -- Finds the length of the initial segment of a string consisting
 entirely of characters contained within a given mask.
 
   int strspn(string subject, string mask [, int start [, int length]])~

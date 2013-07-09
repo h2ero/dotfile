@@ -1,4 +1,4 @@
-imap_createmailbox -- Create a new mailbox
+*imap_createmailbox* -- Create a new mailbox
 
   bool imap_createmailbox(resource imap_stream, string mailbox)~
 

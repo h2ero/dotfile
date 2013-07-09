@@ -1,4 +1,4 @@
-imagesetinterpolation -- Set the interpolation method
+*imagesetinterpolation* -- Set the interpolation method
 
   bool imagesetinterpolation(resource image [, int method])~
 

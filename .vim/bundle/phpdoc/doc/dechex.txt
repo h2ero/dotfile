@@ -1,4 +1,4 @@
-dechex -- Decimal to hexadecimal
+*dechex* -- Decimal to hexadecimal
 
   string dechex(int number)~
 

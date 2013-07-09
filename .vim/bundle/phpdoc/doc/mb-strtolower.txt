@@ -1,4 +1,4 @@
-mb_strtolower -- Make a string lowercase
+*mb_strtolower* -- Make a string lowercase
 
   string mb_strtolower(string str [, string encoding])~
 

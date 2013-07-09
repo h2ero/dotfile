@@ -1,4 +1,4 @@
-set_magic_quotes_runtime -- Sets the current active configuration setting of
+*set_magic_quotes_runtime* -- Sets the current active configuration setting of
 magic_quotes_runtime
 
   bool set_magic_quotes_runtime(bool new_setting)~

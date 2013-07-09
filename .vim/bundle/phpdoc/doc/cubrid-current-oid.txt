@@ -1,4 +1,4 @@
-cubrid_current_oid -- Get OID of the current cursor location
+*cubrid_current_oid* -- Get OID of the current cursor location
 
   string cubrid_current_oid(resource req_identifier)~
 

@@ -1,4 +1,4 @@
-radius_put_vendor_addr -- Attaches a vendor specific IP-Address attribute
+*radius_put_vendor_addr* -- Attaches a vendor specific IP-Address attribute
 
   bool radius_put_vendor_addr(resource radius_handle, int vendor, int type, string addr)~
 

@@ -1,4 +1,4 @@
-trader_cdleveningdojistar -- Evening Doji Star
+*trader_cdleveningdojistar* -- Evening Doji Star
 
   array trader_cdleveningdojistar(array open, array high, array low, array close [, float penetration])~
 

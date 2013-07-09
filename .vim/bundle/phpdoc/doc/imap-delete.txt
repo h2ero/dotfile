@@ -1,4 +1,4 @@
-imap_delete -- Mark a message for deletion from current mailbox
+*imap_delete* -- Mark a message for deletion from current mailbox
 
   bool imap_delete(resource imap_stream, int msg_number [, int options])~
 

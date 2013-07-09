@@ -1,4 +1,4 @@
-curl_multi_remove_handle -- Remove a multi handle from a set of cURL handles
+*curl_multi_remove_handle* -- Remove a multi handle from a set of cURL handles
 
   int curl_multi_remove_handle(resource mh, resource ch)~
 

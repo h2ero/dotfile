@@ -1,4 +1,4 @@
-unset -- Unset a given variable
+*unset* -- Unset a given variable
 
   void unset(mixed var [, mixed ...])~
 

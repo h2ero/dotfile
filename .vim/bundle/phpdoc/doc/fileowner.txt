@@ -1,4 +1,4 @@
-fileowner -- Gets file owner
+*fileowner* -- Gets file owner
 
   int fileowner(string filename)~
 

@@ -1,4 +1,4 @@
-strrchr -- Find the last occurrence of a character in a string
+*strrchr* -- Find the last occurrence of a character in a string
 
   string strrchr(string haystack, mixed needle)~
 

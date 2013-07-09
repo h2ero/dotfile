@@ -1,4 +1,4 @@
-ibase_set_event_handler -- Register a callback function to be called when
+*ibase_set_event_handler* -- Register a callback function to be called when
 events are posted
 
   resource ibase_set_event_handler(callable event_handler, string event_name1 [, string event_name2 [, string ...]])~

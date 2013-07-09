@@ -1,4 +1,4 @@
-trader_cdladvanceblock -- Advance Block
+*trader_cdladvanceblock* -- Advance Block
 
   array trader_cdladvanceblock(array open, array high, array low, array close)~
 

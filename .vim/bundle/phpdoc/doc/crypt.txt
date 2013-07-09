@@ -1,4 +1,4 @@
-crypt -- One-way string hashing
+*crypt* -- One-way string hashing
 
   string crypt(string str [, string salt])~
 

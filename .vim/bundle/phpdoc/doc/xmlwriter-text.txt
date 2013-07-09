@@ -1,4 +1,4 @@
-xmlwriter_text -- Write text
+*xmlwriter_text* -- Write text
 
 Object oriented style
 

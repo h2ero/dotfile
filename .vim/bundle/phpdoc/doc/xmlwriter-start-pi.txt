@@ -1,4 +1,4 @@
-xmlwriter_start_pi -- Create start PI tag
+*xmlwriter_start_pi* -- Create start PI tag
 
 Object oriented style
 

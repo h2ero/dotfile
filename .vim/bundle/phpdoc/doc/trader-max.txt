@@ -1,4 +1,4 @@
-trader_max -- Highest value over a specified period
+*trader_max* -- Highest value over a specified period
 
   array trader_max(array real [, integer timePeriod])~
 

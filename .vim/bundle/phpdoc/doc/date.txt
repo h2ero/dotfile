@@ -1,4 +1,4 @@
-date -- Format a local time/date
+*date* -- Format a local time/date
 
   string date(string format [, int timestamp])~
 

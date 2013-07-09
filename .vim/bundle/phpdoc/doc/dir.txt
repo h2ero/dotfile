@@ -1,4 +1,4 @@
-dir -- Return an instance of the Directory class
+*dir* -- Return an instance of the Directory class
 
   Directory dir(string directory [, resource context])~
 

@@ -1,4 +1,4 @@
-header_register_callback -- Call a header function
+*header_register_callback* -- Call a header function
 
   bool header_register_callback(callable callback)~
 

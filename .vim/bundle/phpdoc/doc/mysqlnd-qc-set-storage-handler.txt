@@ -1,4 +1,4 @@
-mysqlnd_qc_set_storage_handler -- Change current storage handler
+*mysqlnd_qc_set_storage_handler* -- Change current storage handler
 
   bool mysqlnd_qc_set_storage_handler(string handler)~
 

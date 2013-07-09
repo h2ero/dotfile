@@ -1,4 +1,4 @@
-mysql_errno -- Returns the numerical value of the error message from previous
+*mysql_errno* -- Returns the numerical value of the error message from previous
 MySQL operation
 
 This extension is deprecated as of PHP 5.5.0, and will be removed in the

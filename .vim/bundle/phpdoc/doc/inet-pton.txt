@@ -1,4 +1,4 @@
-inet_pton -- Converts a human readable IP address to its packed in_addr
+*inet_pton* -- Converts a human readable IP address to its packed in_addr
 representation
 
   string inet_pton(string address)~

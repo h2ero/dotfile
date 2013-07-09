@@ -1,4 +1,4 @@
-eio_set_max_idle -- Set maximum number of idle threads.
+*eio_set_max_idle* -- Set maximum number of idle threads.
 
   void eio_set_max_idle(int nthreads)~
 

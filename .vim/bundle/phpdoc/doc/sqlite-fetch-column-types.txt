@@ -1,4 +1,4 @@
-SQLiteDatabase::fetchColumnTypes -- Return an array of column types from a
+*SQLiteDatabase*::fetchColumnTypes -- Return an array of column types from a
 particular table
 
   array sqlite_fetch_column_types(string table_name, resource dbhandle [, int result_type])~

@@ -1,4 +1,4 @@
-trader_cdlhikkakemod -- Modified Hikkake Pattern
+*trader_cdlhikkakemod* -- Modified Hikkake Pattern
 
   array trader_cdlhikkakemod(array open, array high, array low, array close)~
 

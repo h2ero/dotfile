@@ -1,4 +1,4 @@
-eio_ftruncate -- Truncate a file
+*eio_ftruncate* -- Truncate a file
 
   resource eio_ftruncate(mixed fd [, int offset [, int pri [, callable callback [, mixed data]]]])~
 

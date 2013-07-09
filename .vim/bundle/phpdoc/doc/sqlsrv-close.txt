@@ -1,4 +1,4 @@
-sqlsrv_close -- Closes an open connection and releases resourses associated
+*sqlsrv_close* -- Closes an open connection and releases resourses associated
 with the connection
 
   bool sqlsrv_close(resource conn)~

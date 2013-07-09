@@ -1,4 +1,4 @@
-time_nanosleep -- Delay for a number of seconds and nanoseconds
+*time_nanosleep* -- Delay for a number of seconds and nanoseconds
 
   mixed time_nanosleep(int seconds, int nanoseconds)~
 

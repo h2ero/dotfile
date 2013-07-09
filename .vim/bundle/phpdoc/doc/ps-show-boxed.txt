@@ -1,4 +1,4 @@
-ps_show_boxed -- Output text in a box
+*ps_show_boxed* -- Output text in a box
 
   int ps_show_boxed(resource psdoc, string text, float left, float bottom, float width, float height, string hmode [, string feature])~
 

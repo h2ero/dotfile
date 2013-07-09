@@ -1,4 +1,4 @@
-array_uintersect -- Computes the intersection of arrays, compares data by a
+*array_uintersect* -- Computes the intersection of arrays, compares data by a
 callback function
 
   array array_uintersect(array array1, array array2 [, array ..., callable data_compare_func])~

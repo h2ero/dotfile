@@ -1,4 +1,4 @@
-intval -- Get the integer value of a variable
+*intval* -- Get the integer value of a variable
 
   int intval(mixed var [, int base])~
 

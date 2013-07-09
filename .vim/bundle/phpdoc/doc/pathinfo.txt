@@ -1,4 +1,4 @@
-pathinfo -- Returns information about a file path
+*pathinfo* -- Returns information about a file path
 
   mixed pathinfo(string path [, int options])~
 

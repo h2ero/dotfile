@@ -1,4 +1,4 @@
-trader_mavp -- Moving average with variable period
+*trader_mavp* -- Moving average with variable period
 
   array trader_mavp(array real, array periods [, integer minPeriod [, integer maxPeriod [, integer mAType]]])~
 

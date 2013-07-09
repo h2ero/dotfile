@@ -1,4 +1,4 @@
-cubrid_fetch -- Fetch the next row from a result set
+*cubrid_fetch* -- Fetch the next row from a result set
 
   mixed cubrid_fetch(resource result [, int type])~
 

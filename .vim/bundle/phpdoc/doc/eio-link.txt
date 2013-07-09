@@ -1,4 +1,4 @@
-eio_link -- Create a hardlink for file
+*eio_link* -- Create a hardlink for file
 
   resource eio_link(string path, string new_path [, int pri [, callable callback [, mixed data]]])~
 

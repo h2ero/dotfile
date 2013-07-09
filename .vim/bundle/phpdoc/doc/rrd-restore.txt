@@ -1,4 +1,4 @@
-rrd_restore -- Restores the RRD file from XML dump.
+*rrd_restore* -- Restores the RRD file from XML dump.
 
   bool rrd_restore(string xml_file, string rrd_file [, array options])~
 

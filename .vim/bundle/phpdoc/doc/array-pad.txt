@@ -1,4 +1,4 @@
-array_pad -- Pad array to the specified length with a value
+*array_pad* -- Pad array to the specified length with a value
 
   array array_pad(array input, int pad_size, mixed pad_value)~
 

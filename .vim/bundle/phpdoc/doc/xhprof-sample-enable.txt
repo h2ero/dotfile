@@ -1,4 +1,4 @@
-xhprof_sample_enable -- Start XHProf profiling in sampling mode
+*xhprof_sample_enable* -- Start XHProf profiling in sampling mode
 
   void xhprof_sample_enable()~
 

@@ -1,4 +1,4 @@
-mysqlnd_qc_get_query_trace_log -- Returns a backtrace for each query inspected
+*mysqlnd_qc_get_query_trace_log* -- Returns a backtrace for each query inspected
 by the query cache
 
   array mysqlnd_qc_get_query_trace_log()~

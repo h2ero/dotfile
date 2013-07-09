@@ -1,4 +1,4 @@
-spliti -- Split string into array by regular expression case insensitive
+*spliti* -- Split string into array by regular expression case insensitive
 
   array spliti(string pattern, string string [, int limit])~
 

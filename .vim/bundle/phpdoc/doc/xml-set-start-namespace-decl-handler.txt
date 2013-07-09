@@ -1,4 +1,4 @@
-xml_set_start_namespace_decl_handler -- Set up start namespace declaration
+*xml_set_start_namespace_decl_handler* -- Set up start namespace declaration
 handler
 
   bool xml_set_start_namespace_decl_handler(resource parser, callable handler)~

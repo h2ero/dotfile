@@ -1,4 +1,4 @@
-hash_pbkdf2 -- Generate a PBKDF2 key derivation of a supplied password
+*hash_pbkdf2* -- Generate a PBKDF2 key derivation of a supplied password
 
   string hash_pbkdf2(string algo, string password, string salt, int iterations [, int length [, bool raw_output]])~
 

@@ -1,4 +1,4 @@
-hash_algos -- Return a list of registered hashing algorithms
+*hash_algos* -- Return a list of registered hashing algorithms
 
   array hash_algos()~
 

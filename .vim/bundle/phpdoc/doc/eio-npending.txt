@@ -1,4 +1,4 @@
-eio_npending -- Returns number of finished, but unhandled requests
+*eio_npending* -- Returns number of finished, but unhandled requests
 
   int eio_npending()~
 

@@ -1,4 +1,4 @@
-trader_tema -- Triple Exponential Moving Average
+*trader_tema* -- Triple Exponential Moving Average
 
   array trader_tema(array real [, integer timePeriod])~
 

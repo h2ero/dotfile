@@ -1,4 +1,4 @@
-trader_aroon -- Aroon
+*trader_aroon* -- Aroon
 
   array trader_aroon(array high, array low [, integer timePeriod])~
 

@@ -1,4 +1,4 @@
-eio_rmdir -- Remove a directory
+*eio_rmdir* -- Remove a directory
 
   resource eio_rmdir(string path [, int pri [, callable callback [, mixed data]]])~
 

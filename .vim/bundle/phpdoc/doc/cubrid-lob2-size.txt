@@ -1,4 +1,4 @@
-cubrid_lob2_size -- Get a lob object's size.
+*cubrid_lob2_size* -- Get a lob object's size.
 
   int cubrid_lob2_size(resource lob_identifier)~
 

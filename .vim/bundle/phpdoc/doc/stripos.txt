@@ -1,4 +1,4 @@
-stripos -- Find the position of the first occurrence of a case-insensitive
+*stripos* -- Find the position of the first occurrence of a case-insensitive
 substring in a string
 
   int stripos(string haystack, string needle [, int offset])~

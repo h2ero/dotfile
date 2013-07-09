@@ -1,4 +1,4 @@
-imap_mail -- Send an email message
+*imap_mail* -- Send an email message
 
   bool imap_mail(string to, string subject, string message [, string additional_headers [, string cc [, string bcc [, string rpath]]]])~
 

@@ -1,4 +1,4 @@
-isset -- Determine if a variable is set and is not &null;
+*isset* -- Determine if a variable is set and is not &null;
 
   bool isset(mixed var [, mixed ...])~
 

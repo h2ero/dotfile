@@ -1,4 +1,4 @@
-set_exception_handler -- Sets a user-defined exception handler function
+*set_exception_handler* -- Sets a user-defined exception handler function
 
   callable set_exception_handler(callable exception_handler)~
 

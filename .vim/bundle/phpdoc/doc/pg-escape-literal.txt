@@ -1,4 +1,4 @@
-pg_escape_literal -- Escape a literal for insertion into a text field
+*pg_escape_literal* -- Escape a literal for insertion into a text field
 
   string pg_escape_literal([resource connection, string data])~
 

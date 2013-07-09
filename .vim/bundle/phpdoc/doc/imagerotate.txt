@@ -1,4 +1,4 @@
-imagerotate -- Rotate an image with a given angle
+*imagerotate* -- Rotate an image with a given angle
 
   resource imagerotate(resource image, float angle, int bgd_color [, int ignore_transparent])~
 

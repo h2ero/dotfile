@@ -1,4 +1,4 @@
-zlib_encode -- Compress data with the specified encoding
+*zlib_encode* -- Compress data with the specified encoding
 
   string zlib_encode(string data, string encoding [, string level])~
 

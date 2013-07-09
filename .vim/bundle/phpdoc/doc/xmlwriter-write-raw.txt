@@ -1,4 +1,4 @@
-xmlwriter_write_raw -- Write a raw XML text
+*xmlwriter_write_raw* -- Write a raw XML text
 
 Object oriented style
 

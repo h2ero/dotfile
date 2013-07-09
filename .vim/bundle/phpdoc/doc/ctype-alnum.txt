@@ -1,4 +1,4 @@
-ctype_alnum -- Check for alphanumeric character(s)
+*ctype_alnum* -- Check for alphanumeric character(s)
 
   bool ctype_alnum(string text)~
 

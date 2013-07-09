@@ -1,4 +1,4 @@
-eio_sync -- Commit buffer cache to disk
+*eio_sync* -- Commit buffer cache to disk
 
   resource eio_sync([int pri [, callable callback [, mixed data]]])~
 

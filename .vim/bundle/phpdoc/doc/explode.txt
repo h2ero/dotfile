@@ -1,4 +1,4 @@
-explode -- Split a string by string
+*explode* -- Split a string by string
 
   array explode(string delimiter, string string [, int limit])~
 

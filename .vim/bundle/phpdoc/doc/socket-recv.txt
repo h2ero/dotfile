@@ -1,4 +1,4 @@
-socket_recv -- Receives data from a connected socket
+*socket_recv* -- Receives data from a connected socket
 
   int socket_recv(resource socket, string buf, int len, int flags)~
 

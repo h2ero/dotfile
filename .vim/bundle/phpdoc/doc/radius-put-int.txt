@@ -1,4 +1,4 @@
-radius_put_int -- Attaches an integer attribute
+*radius_put_int* -- Attaches an integer attribute
 
   bool radius_put_int(resource radius_handle, int type, int value)~
 

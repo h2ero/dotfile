@@ -1,4 +1,4 @@
-session_start -- Start new or resume existing session
+*session_start* -- Start new or resume existing session
 
   bool session_start()~
 

@@ -1,4 +1,4 @@
-mcrypt_encrypt -- Encrypts plaintext with given parameters
+*mcrypt_encrypt* -- Encrypts plaintext with given parameters
 
   string mcrypt_encrypt(string cipher, string key, string data, string mode [, string iv])~
 

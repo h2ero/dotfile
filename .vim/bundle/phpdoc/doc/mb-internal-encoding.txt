@@ -1,4 +1,4 @@
-mb_internal_encoding -- Set/Get internal character encoding
+*mb_internal_encoding* -- Set/Get internal character encoding
 
   mixed mb_internal_encoding([string encoding])~
 

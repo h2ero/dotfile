@@ -1,4 +1,4 @@
-trader_rocp -- Rate of change Percentage: (price-prevPrice)/prevPrice
+*trader_rocp* -- Rate of change Percentage: (price-prevPrice)/prevPrice
 
   array trader_rocp(array real [, integer timePeriod])~
 

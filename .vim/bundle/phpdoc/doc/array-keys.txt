@@ -1,4 +1,4 @@
-array_keys -- Return all the keys or a subset of the keys of an array
+*array_keys* -- Return all the keys or a subset of the keys of an array
 
   array array_keys(array input [, mixed search_value [, bool strict]])~
 

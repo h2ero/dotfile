@@ -1,4 +1,4 @@
-oci_execute -- Executes a statement
+*oci_execute* -- Executes a statement
 
   bool oci_execute(resource statement [, int mode])~
 

@@ -1,4 +1,4 @@
-pg_delete -- Deletes records
+*pg_delete* -- Deletes records
 
   mixed pg_delete(resource connection, string table_name, array assoc_array [, int options])~
 

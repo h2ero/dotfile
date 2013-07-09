@@ -1,4 +1,4 @@
-trader_trange -- True Range
+*trader_trange* -- True Range
 
   array trader_trange(array high, array low, array close)~
 

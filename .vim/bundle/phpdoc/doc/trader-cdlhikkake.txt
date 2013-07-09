@@ -1,4 +1,4 @@
-trader_cdlhikkake -- Hikkake Pattern
+*trader_cdlhikkake* -- Hikkake Pattern
 
   array trader_cdlhikkake(array open, array high, array low, array close)~
 

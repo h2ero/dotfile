@@ -1,4 +1,4 @@
-inclued_get_data -- Get the inclued data
+*inclued_get_data* -- Get the inclued data
 
   array inclued_get_data()~
 

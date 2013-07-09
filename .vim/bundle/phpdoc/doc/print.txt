@@ -1,4 +1,4 @@
-print -- Output a string
+*print* -- Output a string
 
   int print(string arg)~
 

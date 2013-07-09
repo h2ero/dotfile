@@ -1,4 +1,4 @@
-trader_natr -- Normalized Average True Range
+*trader_natr* -- Normalized Average True Range
 
   array trader_natr(array high, array low, array close [, integer timePeriod])~
 

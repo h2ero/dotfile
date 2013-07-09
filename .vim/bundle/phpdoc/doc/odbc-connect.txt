@@ -1,4 +1,4 @@
-odbc_connect -- Connect to a datasource
+*odbc_connect* -- Connect to a datasource
 
   resource odbc_connect(string dsn, string user, string password [, int cursor_type])~
 

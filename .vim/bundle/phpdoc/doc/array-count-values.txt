@@ -1,4 +1,4 @@
-array_count_values -- Counts all the values of an array
+*array_count_values* -- Counts all the values of an array
 
   array array_count_values(array input)~
 

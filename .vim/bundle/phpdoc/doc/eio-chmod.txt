@@ -1,4 +1,4 @@
-eio_chmod -- Change file/direcrory permissions.
+*eio_chmod* -- Change file/direcrory permissions.
 
   resource eio_chmod(string path, int mode [, int pri [, callable callback [, mixed data]]])~
 

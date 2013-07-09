@@ -1,4 +1,4 @@
-empty -- Determine whether a variable is empty
+*empty* -- Determine whether a variable is empty
 
   bool empty(mixed var)~
 

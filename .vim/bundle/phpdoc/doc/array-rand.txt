@@ -1,4 +1,4 @@
-array_rand -- Pick one or more random entries out of an array
+*array_rand* -- Pick one or more random entries out of an array
 
   mixed array_rand(array input [, int num_req])~
 

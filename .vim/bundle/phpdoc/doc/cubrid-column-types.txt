@@ -1,4 +1,4 @@
-cubrid_column_types -- Get column types in result
+*cubrid_column_types* -- Get column types in result
 
   array cubrid_column_types(resource req_identifier)~
 

@@ -1,4 +1,4 @@
-array_walk_recursive -- Apply a user function recursively to every member of
+*array_walk_recursive* -- Apply a user function recursively to every member of
 an array
 
   bool array_walk_recursive(array input, callable funcname [, mixed userdata])~

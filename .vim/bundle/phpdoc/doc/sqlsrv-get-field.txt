@@ -1,4 +1,4 @@
-sqlsrv_get_field -- Gets field data from the currently selected row
+*sqlsrv_get_field* -- Gets field data from the currently selected row
 
   mixed sqlsrv_get_field(resource stmt, int fieldIndex [, int getAsType])~
 

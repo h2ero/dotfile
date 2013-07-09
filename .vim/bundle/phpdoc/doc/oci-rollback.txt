@@ -1,4 +1,4 @@
-oci_rollback -- Rolls back the outstanding database transaction
+*oci_rollback* -- Rolls back the outstanding database transaction
 
   bool oci_rollback(resource connection)~
 

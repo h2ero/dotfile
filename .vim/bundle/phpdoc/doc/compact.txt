@@ -1,4 +1,4 @@
-compact -- Create array containing variables and their values
+*compact* -- Create array containing variables and their values
 
   array compact(mixed varname [, mixed ...])~
 

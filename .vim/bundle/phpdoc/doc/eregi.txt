@@ -1,4 +1,4 @@
-eregi -- Case insensitive regular expression match
+*eregi* -- Case insensitive regular expression match
 
   int eregi(string pattern, string string [, array regs])~
 

@@ -1,4 +1,4 @@
-touch -- Sets access and modification time of file
+*touch* -- Sets access and modification time of file
 
   bool touch(string filename [, int time [, int atime]])~
 

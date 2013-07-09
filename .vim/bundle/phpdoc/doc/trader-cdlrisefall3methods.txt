@@ -1,4 +1,4 @@
-trader_cdlrisefall3methods -- Rising/Falling Three Methods
+*trader_cdlrisefall3methods* -- Rising/Falling Three Methods
 
   array trader_cdlrisefall3methods(array open, array high, array low, array close)~
 

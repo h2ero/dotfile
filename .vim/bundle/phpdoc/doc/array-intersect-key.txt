@@ -1,4 +1,4 @@
-array_intersect_key -- Computes the intersection of arrays using keys for
+*array_intersect_key* -- Computes the intersection of arrays using keys for
 comparison
 
   array array_intersect_key(array array1, array array2 [, array ...])~

@@ -1,4 +1,4 @@
-finfo::__construct -- Create a new fileinfo resource
+*finfo*::__construct -- Create a new fileinfo resource
 
 Procedural style
 

@@ -1,4 +1,4 @@
-gc_enabled -- Returns status of the circular reference collector
+*gc_enabled* -- Returns status of the circular reference collector
 
   bool gc_enabled()~
 

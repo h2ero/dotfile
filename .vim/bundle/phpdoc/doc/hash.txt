@@ -1,4 +1,4 @@
-hash -- Generate a hash value (message digest)
+*hash* -- Generate a hash value (message digest)
 
   string hash(string algo, string data [, bool raw_output])~
 

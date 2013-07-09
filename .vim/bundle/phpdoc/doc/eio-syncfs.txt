@@ -1,4 +1,4 @@
-eio_syncfs -- Calls Linux' syncfs syscall, if available
+*eio_syncfs* -- Calls Linux' syncfs syscall, if available
 
   resource eio_syncfs(mixed fd [, int pri [, callable callback [, mixed data]]])~
 

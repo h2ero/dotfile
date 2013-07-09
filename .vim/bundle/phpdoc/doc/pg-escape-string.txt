@@ -1,4 +1,4 @@
-pg_escape_string -- Escape a string for query
+*pg_escape_string* -- Escape a string for query
 
   string pg_escape_string([resource connection, string data])~
 

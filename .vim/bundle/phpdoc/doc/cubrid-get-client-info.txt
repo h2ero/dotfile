@@ -1,4 +1,4 @@
-cubrid_get_client_info -- Return the client library version
+*cubrid_get_client_info* -- Return the client library version
 
   string cubrid_get_client_info()~
 

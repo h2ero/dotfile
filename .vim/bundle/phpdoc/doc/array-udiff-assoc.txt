@@ -1,4 +1,4 @@
-array_udiff_assoc -- Computes the difference of arrays with additional index
+*array_udiff_assoc* -- Computes the difference of arrays with additional index
 check, compares data by a callback function
 
   array array_udiff_assoc(array array1, array array2 [, array ..., callable data_compare_func])~

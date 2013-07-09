@@ -1,4 +1,4 @@
-ctype_alpha -- Check for alphabetic character(s)
+*ctype_alpha* -- Check for alphabetic character(s)
 
   bool ctype_alpha(string text)~
 

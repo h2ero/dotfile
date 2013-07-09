@@ -1,4 +1,4 @@
-umask -- Changes the current umask
+*umask* -- Changes the current umask
 
   int umask([int mask])~
 

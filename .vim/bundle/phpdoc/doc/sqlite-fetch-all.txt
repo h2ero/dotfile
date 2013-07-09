@@ -1,4 +1,4 @@
-SQLiteUnbuffered::fetchAll -- Fetches all rows from a result set as an array
+*SQLiteUnbuffered*::fetchAll -- Fetches all rows from a result set as an array
 of arrays
 
   array sqlite_fetch_all(resource result [, int result_type [, bool decode_binary]])~

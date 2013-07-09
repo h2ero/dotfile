@@ -1,4 +1,4 @@
-trader_wclprice -- Weighted Close Price
+*trader_wclprice* -- Weighted Close Price
 
   array trader_wclprice(array high, array low, array close)~
 

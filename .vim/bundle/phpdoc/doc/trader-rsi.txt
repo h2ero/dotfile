@@ -1,4 +1,4 @@
-trader_rsi -- Relative Strength Index
+*trader_rsi* -- Relative Strength Index
 
   array trader_rsi(array real [, integer timePeriod])~
 

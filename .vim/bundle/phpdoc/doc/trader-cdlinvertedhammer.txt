@@ -1,4 +1,4 @@
-trader_cdlinvertedhammer -- Inverted Hammer
+*trader_cdlinvertedhammer* -- Inverted Hammer
 
   array trader_cdlinvertedhammer(array open, array high, array low, array close)~
 

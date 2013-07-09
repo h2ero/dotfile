@@ -1,4 +1,4 @@
-extension_loaded -- Find out whether an extension is loaded
+*extension_loaded* -- Find out whether an extension is loaded
 
   bool extension_loaded(string name)~
 

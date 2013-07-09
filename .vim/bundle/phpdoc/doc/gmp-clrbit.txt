@@ -1,4 +1,4 @@
-gmp_clrbit -- Clear bit
+*gmp_clrbit* -- Clear bit
 
   void gmp_clrbit(resource a, int index)~
 

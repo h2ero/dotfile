@@ -1,4 +1,4 @@
-bin2hex -- Convert binary data into hexadecimal representation
+*bin2hex* -- Convert binary data into hexadecimal representation
 
   string bin2hex(string str)~
 

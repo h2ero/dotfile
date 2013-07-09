@@ -1,4 +1,4 @@
-eio_nop -- Does nothing, except go through the whole request cycle.
+*eio_nop* -- Does nothing, except go through the whole request cycle.
 
   resource eio_nop([int pri [, callable callback [, mixed data]]])~
 

@@ -1,4 +1,4 @@
-key_exists -- Alias of array_key_exists
+*key_exists* -- Alias of array_key_exists
 
 This function is an alias of: |array_key_exists|.
 

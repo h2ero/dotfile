@@ -1,4 +1,4 @@
-array_diff_ukey -- Computes the difference of arrays using a callback function
+*array_diff_ukey* -- Computes the difference of arrays using a callback function
 on the keys for comparison
 
   array array_diff_ukey(array array1, array array2 [, array ..., callable key_compare_func])~

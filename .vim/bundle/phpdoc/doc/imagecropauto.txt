@@ -1,4 +1,4 @@
-imagecropauto -- Crop an image automatically using one of the available modes
+*imagecropauto* -- Crop an image automatically using one of the available modes
 
   resource imagecropauto(resource image [, int mode [, float threshold [, int color]]])~
 

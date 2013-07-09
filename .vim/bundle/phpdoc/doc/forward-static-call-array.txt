@@ -1,4 +1,4 @@
-forward_static_call_array -- Call a static method and pass the arguments as
+*forward_static_call_array* -- Call a static method and pass the arguments as
 array
 
   mixed forward_static_call_array(callable function, array parameters)~

@@ -1,4 +1,4 @@
-mailparse_msg_extract_whole_part_file -- Extracts a message section including
+*mailparse_msg_extract_whole_part_file* -- Extracts a message section including
 headers without decoding the transfer encoding
 
   string mailparse_msg_extract_whole_part_file(resource mimemail, string filename [, callable callbackfunc])~

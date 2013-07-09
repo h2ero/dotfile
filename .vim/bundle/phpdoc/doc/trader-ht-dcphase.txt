@@ -1,4 +1,4 @@
-trader_ht_dcphase -- Hilbert Transform - Dominant Cycle Phase
+*trader_ht_dcphase* -- Hilbert Transform - Dominant Cycle Phase
 
   array trader_ht_dcphase(array real)~
 

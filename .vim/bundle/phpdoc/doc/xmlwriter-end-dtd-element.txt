@@ -1,4 +1,4 @@
-xmlwriter_end_dtd_element -- End current DTD element
+*xmlwriter_end_dtd_element* -- End current DTD element
 
 Object oriented style
 

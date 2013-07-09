@@ -1,4 +1,4 @@
-radius_put_attr -- Attaches a binary attribute
+*radius_put_attr* -- Attaches a binary attribute
 
   bool radius_put_attr(resource radius_handle, int type, string value)~
 

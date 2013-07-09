@@ -1,4 +1,4 @@
-finfo_close -- Close fileinfo resource
+*finfo_close* -- Close fileinfo resource
 
   bool finfo_close(resource finfo)~
 

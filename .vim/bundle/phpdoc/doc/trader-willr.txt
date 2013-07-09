@@ -1,4 +1,4 @@
-trader_willr -- Williams' %R
+*trader_willr* -- Williams' %R
 
   array trader_willr(array high, array low, array close [, integer timePeriod])~
 

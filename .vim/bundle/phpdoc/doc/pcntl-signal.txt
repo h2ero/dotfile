@@ -1,4 +1,4 @@
-pcntl_signal -- Installs a signal handler
+*pcntl_signal* -- Installs a signal handler
 
   bool pcntl_signal(int signo, callable|int handler [, bool restart_syscalls])~
 

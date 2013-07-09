@@ -1,4 +1,4 @@
-SQLiteUnbuffered::fetch -- Fetches the next row from a result set as an array
+*SQLiteUnbuffered*::fetch -- Fetches the next row from a result set as an array
 
   array sqlite_fetch_array(resource result [, int result_type [, bool decode_binary]])~
 

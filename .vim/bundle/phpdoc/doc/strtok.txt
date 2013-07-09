@@ -1,4 +1,4 @@
-strtok -- Tokenize string
+*strtok* -- Tokenize string
 
   string strtok(string str, string token)~
 

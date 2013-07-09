@@ -1,4 +1,4 @@
-is_writable -- Tells whether the filename is writable
+*is_writable* -- Tells whether the filename is writable
 
   bool is_writable(string filename)~
 

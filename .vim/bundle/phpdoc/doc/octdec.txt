@@ -1,4 +1,4 @@
-octdec -- Octal to decimal
+*octdec* -- Octal to decimal
 
   number octdec(string octal_string)~
 

@@ -1,4 +1,4 @@
-cubrid_num_cols -- Return the number of columns in the result set
+*cubrid_num_cols* -- Return the number of columns in the result set
 
   int cubrid_num_cols(resource result)~
 

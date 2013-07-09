@@ -1,4 +1,4 @@
-stream_filter_register -- Register a user defined stream filter
+*stream_filter_register* -- Register a user defined stream filter
 
   bool stream_filter_register(string filtername, string classname)~
 

@@ -1,4 +1,4 @@
-sqlsrv_errors -- Returns error and warning information about the last SQLSRV
+*sqlsrv_errors* -- Returns error and warning information about the last SQLSRV
 operation performed
 
   mixed sqlsrv_errors([int errorsOrWarnings])~

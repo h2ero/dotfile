@@ -1,4 +1,4 @@
-com_get_active_object -- Returns a handle to an already running instance of a
+*com_get_active_object* -- Returns a handle to an already running instance of a
 COM object
 
   variant com_get_active_object(string progid [, int code_page])~

@@ -1,4 +1,4 @@
-spl_autoload -- Default implementation for __autoload()
+*spl_autoload* -- Default implementation for __autoload()
 
   void spl_autoload(string class_name [, string file_extensions])~
 

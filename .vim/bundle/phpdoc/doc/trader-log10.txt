@@ -1,4 +1,4 @@
-trader_log10 -- Vector Log10
+*trader_log10* -- Vector Log10
 
   array trader_log10(array real)~
 

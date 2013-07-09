@@ -1,4 +1,4 @@
-simplexml_load_string -- Interprets a string of XML into an object
+*simplexml_load_string* -- Interprets a string of XML into an object
 
   SimpleXMLElement simplexml_load_string(string data [, string class_name [, int options [, string ns [, bool is_prefix]]]])~
 

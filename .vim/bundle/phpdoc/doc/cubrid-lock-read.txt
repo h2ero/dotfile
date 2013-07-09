@@ -1,4 +1,4 @@
-cubrid_lock_read -- Set a read lock on the given OID
+*cubrid_lock_read* -- Set a read lock on the given OID
 
   bool cubrid_lock_read(resource conn_identifier, string oid)~
 

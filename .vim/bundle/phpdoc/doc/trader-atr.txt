@@ -1,4 +1,4 @@
-trader_atr -- Average True Range
+*trader_atr* -- Average True Range
 
   array trader_atr(array high, array low, array close [, integer timePeriod])~
 

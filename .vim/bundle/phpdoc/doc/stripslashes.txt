@@ -1,4 +1,4 @@
-stripslashes -- Un-quotes a quoted string
+*stripslashes* -- Un-quotes a quoted string
 
   string stripslashes(string str)~
 

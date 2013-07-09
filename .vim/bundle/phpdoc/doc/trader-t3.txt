@@ -1,4 +1,4 @@
-trader_t3 -- Triple Exponential Moving Average (T3)
+*trader_t3* -- Triple Exponential Moving Average (T3)
 
   array trader_t3(array real [, integer timePeriod [, float vFactor]])~
 

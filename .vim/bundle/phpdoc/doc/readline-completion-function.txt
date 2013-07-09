@@ -1,4 +1,4 @@
-readline_completion_function -- Registers a completion function
+*readline_completion_function* -- Registers a completion function
 
   bool readline_completion_function(callable function)~
 

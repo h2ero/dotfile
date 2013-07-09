@@ -1,4 +1,4 @@
-zip_read -- Read next entry in a ZIP file archive
+*zip_read* -- Read next entry in a ZIP file archive
 
   resource zip_read(resource zip)~
 

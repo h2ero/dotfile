@@ -1,4 +1,4 @@
-array_product -- Calculate the product of values in an array
+*array_product* -- Calculate the product of values in an array
 
   number array_product(array array)~
 

@@ -1,4 +1,4 @@
-xml_set_unparsed_entity_decl_handler -- Set up unparsed entity declaration
+*xml_set_unparsed_entity_decl_handler* -- Set up unparsed entity declaration
 handler
 
   bool xml_set_unparsed_entity_decl_handler(resource parser, callable handler)~

@@ -1,4 +1,4 @@
-ctype_punct -- Check for any printable character which is not whitespace or an
+*ctype_punct* -- Check for any printable character which is not whitespace or an
 alphanumeric character
 
   bool ctype_punct(string text)~

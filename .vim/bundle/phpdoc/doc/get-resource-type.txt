@@ -1,4 +1,4 @@
-get_resource_type -- Returns the resource type
+*get_resource_type* -- Returns the resource type
 
   string get_resource_type(resource handle)~
 

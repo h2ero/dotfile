@@ -1,4 +1,4 @@
-ldap_count_entries -- Count the number of entries in a search
+*ldap_count_entries* -- Count the number of entries in a search
 
   int ldap_count_entries(resource link_identifier, resource result_identifier)~
 

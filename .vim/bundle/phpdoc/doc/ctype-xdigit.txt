@@ -1,4 +1,4 @@
-ctype_xdigit -- Check for character(s) representing a hexadecimal digit
+*ctype_xdigit* -- Check for character(s) representing a hexadecimal digit
 
   bool ctype_xdigit(string text)~
 

@@ -1,4 +1,4 @@
-filter_input_array -- Gets external variables and optionally filters them
+*filter_input_array* -- Gets external variables and optionally filters them
 
   mixed filter_input_array(int type [, mixed definition [, bool add_empty]])~
 

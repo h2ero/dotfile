@@ -1,4 +1,4 @@
-xml_set_end_namespace_decl_handler -- Set up end namespace declaration handler
+*xml_set_end_namespace_decl_handler* -- Set up end namespace declaration handler
 
   bool xml_set_end_namespace_decl_handler(resource parser, callable handler)~
 

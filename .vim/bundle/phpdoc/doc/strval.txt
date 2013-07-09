@@ -1,4 +1,4 @@
-strval -- Get string value of a variable
+*strval* -- Get string value of a variable
 
   string strval(mixed var)~
 

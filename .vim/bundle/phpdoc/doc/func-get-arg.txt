@@ -1,4 +1,4 @@
-func_get_arg -- Return an item from the argument list
+*func_get_arg* -- Return an item from the argument list
 
   mixed func_get_arg(int arg_num)~
 

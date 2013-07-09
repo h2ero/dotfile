@@ -1,4 +1,4 @@
-sqlsrv_next_result -- Makes the next result of the specified statement active
+*sqlsrv_next_result* -- Makes the next result of the specified statement active
 
   mixed sqlsrv_next_result(resource stmt)~
 

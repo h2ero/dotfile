@@ -1,4 +1,4 @@
-log -- Natural logarithm
+*log* -- Natural logarithm
 
   float log(float arg [, float base])~
 

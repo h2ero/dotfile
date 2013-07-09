@@ -1,4 +1,4 @@
-sqlsrv_has_rows -- Indicates whether the specified statement has rows
+*sqlsrv_has_rows* -- Indicates whether the specified statement has rows
 
   bool sqlsrv_has_rows(resource stmt)~
 

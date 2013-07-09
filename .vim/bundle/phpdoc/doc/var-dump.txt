@@ -1,4 +1,4 @@
-var_dump -- Dumps information about a variable
+*var_dump* -- Dumps information about a variable
 
   void var_dump(mixed expression [, mixed ...])~
 

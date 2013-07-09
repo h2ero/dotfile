@@ -1,4 +1,4 @@
-filemtime -- Gets file modification time
+*filemtime* -- Gets file modification time
 
   int filemtime(string filename)~
 

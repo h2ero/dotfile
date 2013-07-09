@@ -1,4 +1,4 @@
-html_entity_decode -- Convert all HTML entities to their applicable characters
+*html_entity_decode* -- Convert all HTML entities to their applicable characters
 
   string html_entity_decode(string string [, int flags [, string encoding]])~
 

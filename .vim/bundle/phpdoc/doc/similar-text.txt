@@ -1,4 +1,4 @@
-similar_text -- Calculate the similarity between two strings
+*similar_text* -- Calculate the similarity between two strings
 
   int similar_text(string first, string second [, float percent])~
 

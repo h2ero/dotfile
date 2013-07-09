@@ -1,4 +1,4 @@
-ibase_add_user -- Add a user to a security database
+*ibase_add_user* -- Add a user to a security database
 
   bool ibase_add_user(resource service_handle, string user_name, string password [, string first_name [, string middle_name [, string last_name]]])~
 

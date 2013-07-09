@@ -1,4 +1,4 @@
-trader_stochf -- Stochastic Fast
+*trader_stochf* -- Stochastic Fast
 
   array trader_stochf(array high, array low, array close [, integer fastK_Period [, integer fastD_Period [, integer fastD_MAType]]])~
 

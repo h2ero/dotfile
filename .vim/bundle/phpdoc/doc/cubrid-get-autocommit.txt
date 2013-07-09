@@ -1,4 +1,4 @@
-cubrid_get_autocommit -- Get auto-commit mode of the connection
+*cubrid_get_autocommit* -- Get auto-commit mode of the connection
 
   bool cubrid_get_autocommit(resource conn_identifier)~
 

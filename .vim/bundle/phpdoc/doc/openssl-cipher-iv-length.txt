@@ -1,4 +1,4 @@
-openssl_cipher_iv_length -- Gets the cipher iv length
+*openssl_cipher_iv_length* -- Gets the cipher iv length
 
   int openssl_cipher_iv_length(string method)~
 

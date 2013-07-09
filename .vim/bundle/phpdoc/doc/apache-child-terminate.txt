@@ -1,4 +1,4 @@
-apache_child_terminate -- Terminate apache process after this request
+*apache_child_terminate* -- Terminate apache process after this request
 
   bool apache_child_terminate()~
 

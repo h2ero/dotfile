@@ -1,4 +1,4 @@
-call_user_func -- Call the callback given by the first parameter
+*call_user_func* -- Call the callback given by the first parameter
 
   mixed call_user_func(callable callback [, mixed parameter [, mixed ...]])~
 

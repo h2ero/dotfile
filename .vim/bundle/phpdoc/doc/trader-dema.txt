@@ -1,4 +1,4 @@
-trader_dema -- Double Exponential Moving Average
+*trader_dema* -- Double Exponential Moving Average
 
   array trader_dema(array real [, integer timePeriod])~
 

@@ -1,4 +1,4 @@
-mqseries_connx -- MQSeries MQCONNX
+*mqseries_connx* -- MQSeries MQCONNX
 
   void mqseries_connx(string qManagerName, array connOptions, resource hconn, resource compCode, resource reason)~
 

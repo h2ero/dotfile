@@ -1,4 +1,4 @@
-xslt_set_sax_handler -- Set SAX handlers for a XSLT processor
+*xslt_set_sax_handler* -- Set SAX handlers for a XSLT processor
 
   void xslt_set_sax_handler(resource xh, array handlers)~
 

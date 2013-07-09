@@ -1,4 +1,4 @@
-pg_insert -- Insert array into table
+*pg_insert* -- Insert array into table
 
   mixed pg_insert(resource connection, string table_name, array assoc_array [, int options])~
 

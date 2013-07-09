@@ -1,4 +1,4 @@
-uniqid -- Generate a unique ID
+*uniqid* -- Generate a unique ID
 
   string uniqid([string prefix [, bool more_entropy]])~
 

@@ -1,4 +1,4 @@
-array_walk -- Apply a user function to every member of an array
+*array_walk* -- Apply a user function to every member of an array
 
   bool array_walk(array array, callable funcname [, mixed userdata])~
 

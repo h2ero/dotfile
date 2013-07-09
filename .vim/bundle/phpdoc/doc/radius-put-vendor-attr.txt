@@ -1,4 +1,4 @@
-radius_put_vendor_attr -- Attaches a vendor specific binary attribute
+*radius_put_vendor_attr* -- Attaches a vendor specific binary attribute
 
   bool radius_put_vendor_attr(resource radius_handle, int vendor, int type, string value)~
 

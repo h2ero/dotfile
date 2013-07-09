@@ -1,4 +1,4 @@
-quotemeta -- Quote meta characters
+*quotemeta* -- Quote meta characters
 
   string quotemeta(string str)~
 

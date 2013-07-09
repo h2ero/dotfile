@@ -1,4 +1,4 @@
-opcache_reset -- Resets the contents of the opcode cache
+*opcache_reset* -- Resets the contents of the opcode cache
 
   boolean opcache_reset()~
 

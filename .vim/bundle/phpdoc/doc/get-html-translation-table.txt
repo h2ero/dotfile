@@ -1,4 +1,4 @@
-get_html_translation_table -- Returns the translation table used by
+*get_html_translation_table* -- Returns the translation table used by
 htmlspecialchars and htmlentities
 
   array get_html_translation_table([int table [, int flags [, string encoding]]])~

@@ -1,4 +1,4 @@
-trader_cdlhighwave -- High-Wave Candle
+*trader_cdlhighwave* -- High-Wave Candle
 
   array trader_cdlhighwave(array open, array high, array low, array close)~
 

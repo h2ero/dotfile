@@ -1,4 +1,4 @@
-trader_roc -- Rate of change : ((price/prevPrice)-1)*100
+*trader_roc* -- Rate of change : ((price/prevPrice)-1)*100
 
   array trader_roc(array real [, integer timePeriod])~
 

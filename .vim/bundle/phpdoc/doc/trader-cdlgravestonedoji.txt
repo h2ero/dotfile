@@ -1,4 +1,4 @@
-trader_cdlgravestonedoji -- Gravestone Doji
+*trader_cdlgravestonedoji* -- Gravestone Doji
 
   array trader_cdlgravestonedoji(array open, array high, array low, array close)~
 

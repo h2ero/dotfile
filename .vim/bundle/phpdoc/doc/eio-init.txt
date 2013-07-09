@@ -1,4 +1,4 @@
-eio_init -- (Re-)initialize Eio
+*eio_init* -- (Re-)initialize Eio
 
   void eio_init()~
 

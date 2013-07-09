@@ -1,4 +1,4 @@
-trader_cdlmatchinglow -- Matching Low
+*trader_cdlmatchinglow* -- Matching Low
 
   array trader_cdlmatchinglow(array open, array high, array low, array close)~
 

@@ -1,4 +1,4 @@
-yaml_emit -- Returns the YAML representation of a value
+*yaml_emit* -- Returns the YAML representation of a value
 
   string yaml_emit(mixed data [, int encoding [, int linebreak [, array callbacks]]])~
 

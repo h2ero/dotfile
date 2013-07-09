@@ -1,4 +1,4 @@
-xmlwriter_end_document -- End current document
+*xmlwriter_end_document* -- End current document
 
 Object oriented style
 

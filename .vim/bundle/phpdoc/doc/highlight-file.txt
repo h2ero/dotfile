@@ -1,4 +1,4 @@
-highlight_file -- Syntax highlighting of a file
+*highlight_file* -- Syntax highlighting of a file
 
   mixed highlight_file(string filename [, bool return])~
 

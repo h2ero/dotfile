@@ -1,4 +1,4 @@
-cubrid_lob2_close -- Close LOB object.
+*cubrid_lob2_close* -- Close LOB object.
 
   bool cubrid_lob2_close(resource lob_identifier)~
 

@@ -1,4 +1,4 @@
-htmlentities -- Convert all applicable characters to HTML entities
+*htmlentities* -- Convert all applicable characters to HTML entities
 
   string htmlentities(string string [, int flags [, string encoding [, bool double_encode]]])~
 

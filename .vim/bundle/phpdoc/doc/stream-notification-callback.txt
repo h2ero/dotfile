@@ -1,4 +1,4 @@
-stream_notification_callback -- A callback function for the notification
+*stream_notification_callback* -- A callback function for the notification
 context paramater
 
   void (int notification_code, int severity, string message, int message_code, int bytes_transferred, int bytes_max)~

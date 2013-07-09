@@ -1,4 +1,4 @@
-curl_multi_select -- Wait for activity on any curl_multi connection
+*curl_multi_select* -- Wait for activity on any curl_multi connection
 
   int curl_multi_select(resource mh [, float timeout])~
 

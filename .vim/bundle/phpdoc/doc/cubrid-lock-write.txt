@@ -1,4 +1,4 @@
-cubrid_lock_write -- Set a write lock on the given OID
+*cubrid_lock_write* -- Set a write lock on the given OID
 
   bool cubrid_lock_write(resource conn_identifier, string oid)~
 

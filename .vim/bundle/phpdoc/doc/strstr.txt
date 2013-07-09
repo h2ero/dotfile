@@ -1,4 +1,4 @@
-strstr -- Find the first occurrence of a string
+*strstr* -- Find the first occurrence of a string
 
   string strstr(string haystack, mixed needle [, bool before_needle])~
 

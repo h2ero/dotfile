@@ -1,4 +1,4 @@
-trader_cdl3linestrike -- Three-Line Strike
+*trader_cdl3linestrike* -- Three-Line Strike
 
   array trader_cdl3linestrike(array open, array high, array low, array close)~
 

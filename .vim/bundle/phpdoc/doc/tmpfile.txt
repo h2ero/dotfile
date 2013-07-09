@@ -1,4 +1,4 @@
-tmpfile -- Creates a temporary file
+*tmpfile* -- Creates a temporary file
 
   resource tmpfile()~
 

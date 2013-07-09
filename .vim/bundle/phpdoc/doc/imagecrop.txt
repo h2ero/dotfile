@@ -1,4 +1,4 @@
-imagecrop -- Crop an image using the given coordinates and size, x, y, width
+*imagecrop* -- Crop an image using the given coordinates and size, x, y, width
 and height
 
   resource imagecrop(resource image, array rect)~

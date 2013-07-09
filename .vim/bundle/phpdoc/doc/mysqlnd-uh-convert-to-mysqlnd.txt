@@ -1,4 +1,4 @@
-mysqlnd_uh_convert_to_mysqlnd -- Converts a MySQL connection handle into a
+*mysqlnd_uh_convert_to_mysqlnd* -- Converts a MySQL connection handle into a
 mysqlnd connection handle
 
   resource mysqlnd_uh_convert_to_mysqlnd(mysqli mysql_connection)~

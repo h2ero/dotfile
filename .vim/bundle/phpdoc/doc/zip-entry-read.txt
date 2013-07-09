@@ -1,4 +1,4 @@
-zip_entry_read -- Read from an open directory entry
+*zip_entry_read* -- Read from an open directory entry
 
   string zip_entry_read(resource zip_entry [, int length])~
 

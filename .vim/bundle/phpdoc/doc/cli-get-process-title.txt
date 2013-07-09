@@ -1,4 +1,4 @@
-cli_get_process_title -- Returns the current process title
+*cli_get_process_title* -- Returns the current process title
 
   string cli_get_process_title()~
 

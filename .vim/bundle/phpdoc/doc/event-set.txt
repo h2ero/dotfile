@@ -1,4 +1,4 @@
-event_set -- Prepare an event
+*event_set* -- Prepare an event
 
   bool event_set(resource event, mixed fd, int events, mixed callback [, mixed arg])~
 

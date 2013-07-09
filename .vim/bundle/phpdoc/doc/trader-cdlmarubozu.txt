@@ -1,4 +1,4 @@
-trader_cdlmarubozu -- Marubozu
+*trader_cdlmarubozu* -- Marubozu
 
   array trader_cdlmarubozu(array open, array high, array low, array close)~
 

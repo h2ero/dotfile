@@ -1,4 +1,4 @@
-filter_var_array -- Gets multiple variables and optionally filters them
+*filter_var_array* -- Gets multiple variables and optionally filters them
 
   mixed filter_var_array(array data [, mixed definition [, bool add_empty]])~
 

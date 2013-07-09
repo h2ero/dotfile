@@ -1,4 +1,4 @@
-date_default_timezone_get -- Gets the default timezone used by all date/time
+*date_default_timezone_get* -- Gets the default timezone used by all date/time
 functions in a script
 
   string date_default_timezone_get()~

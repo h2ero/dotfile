@@ -1,4 +1,4 @@
-min -- Find lowest value
+*min* -- Find lowest value
 
   mixed min(array values)~
 

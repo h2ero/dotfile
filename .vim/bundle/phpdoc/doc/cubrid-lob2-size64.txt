@@ -1,4 +1,4 @@
-cubrid_lob2_size64 -- Get a lob object's size.
+*cubrid_lob2_size64* -- Get a lob object's size.
 
   string cubrid_lob2_size64(resource lob_identifier)~
 

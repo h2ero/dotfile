@@ -1,4 +1,4 @@
-clearstatcache -- Clears file status cache
+*clearstatcache* -- Clears file status cache
 
   void clearstatcache([bool clear_realpath_cache [, string filename]])~
 

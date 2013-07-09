@@ -1,4 +1,4 @@
-trader_cdldoji -- Doji
+*trader_cdldoji* -- Doji
 
   array trader_cdldoji(array open, array high, array low, array close)~
 

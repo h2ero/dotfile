@@ -1,4 +1,4 @@
-parse_ini_file -- Parse a configuration file
+*parse_ini_file* -- Parse a configuration file
 
   array parse_ini_file(string filename [, bool process_sections [, int scanner_mode]])~
 

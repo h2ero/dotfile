@@ -1,4 +1,4 @@
-trader_tanh -- Vector Trigonometric Tanh
+*trader_tanh* -- Vector Trigonometric Tanh
 
   array trader_tanh(array real)~
 

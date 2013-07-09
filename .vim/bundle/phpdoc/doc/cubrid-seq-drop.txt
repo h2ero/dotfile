@@ -1,4 +1,4 @@
-cubrid_seq_drop -- Delete an element from sequence type column using OID
+*cubrid_seq_drop* -- Delete an element from sequence type column using OID
 
   bool cubrid_seq_drop(resource conn_identifier, string oid, string attr_name, int index)~
 

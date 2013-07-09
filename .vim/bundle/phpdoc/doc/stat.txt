@@ -1,4 +1,4 @@
-stat -- Gives information about a file
+*stat* -- Gives information about a file
 
   array stat(string filename)~
 

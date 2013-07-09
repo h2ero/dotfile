@@ -1,4 +1,4 @@
-cubrid_move_cursor -- Move the cursor in the result
+*cubrid_move_cursor* -- Move the cursor in the result
 
   int cubrid_move_cursor(resource req_identifier, int offset [, int origin])~
 

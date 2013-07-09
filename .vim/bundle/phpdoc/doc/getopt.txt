@@ -1,4 +1,4 @@
-getopt -- Gets options from the command line argument list
+*getopt* -- Gets options from the command line argument list
 
   array getopt(string options [, array longopts])~
 

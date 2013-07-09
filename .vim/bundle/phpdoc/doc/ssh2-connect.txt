@@ -1,4 +1,4 @@
-ssh2_connect -- Connect to an SSH server
+*ssh2_connect* -- Connect to an SSH server
 
   resource ssh2_connect(string host [, int port [, array methods [, array callbacks]]])~
 

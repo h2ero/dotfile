@@ -1,4 +1,4 @@
-mysqlnd_memcache_set -- Associate a MySQL connection with a Memcache
+*mysqlnd_memcache_set* -- Associate a MySQL connection with a Memcache
 connection
 
   bool mysqlnd_memcache_set(mixed mysql_connection [, Memcached memcache_connection [, string pattern [, callback callback]]])~

@@ -1,4 +1,4 @@
-trader_minmaxindex -- Indexes of lowest and highest values over a specified
+*trader_minmaxindex* -- Indexes of lowest and highest values over a specified
 period
 
   array trader_minmaxindex(array real [, integer timePeriod])~

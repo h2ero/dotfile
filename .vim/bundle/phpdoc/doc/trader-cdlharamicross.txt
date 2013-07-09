@@ -1,4 +1,4 @@
-trader_cdlharamicross -- Harami Cross Pattern
+*trader_cdlharamicross* -- Harami Cross Pattern
 
   array trader_cdlharamicross(array open, array high, array low, array close)~
 

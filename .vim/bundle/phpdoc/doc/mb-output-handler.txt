@@ -1,4 +1,4 @@
-mb_output_handler -- Callback function converts character encoding in output
+*mb_output_handler* -- Callback function converts character encoding in output
 buffer
 
   string mb_output_handler(string contents, int status)~

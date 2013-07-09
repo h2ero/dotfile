@@ -1,4 +1,4 @@
-realpath_cache_size -- Get realpath cache size
+*realpath_cache_size* -- Get realpath cache size
 
   int realpath_cache_size()~
 

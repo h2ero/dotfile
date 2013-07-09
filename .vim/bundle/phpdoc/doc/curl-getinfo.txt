@@ -1,4 +1,4 @@
-curl_getinfo -- Get information regarding a specific transfer
+*curl_getinfo* -- Get information regarding a specific transfer
 
   mixed curl_getinfo(resource ch [, int opt])~
 

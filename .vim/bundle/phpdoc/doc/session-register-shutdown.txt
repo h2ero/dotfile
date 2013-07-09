@@ -1,4 +1,4 @@
-session_register_shutdown -- Session shutdown function
+*session_register_shutdown* -- Session shutdown function
 
   void session_register_shutdown()~
 

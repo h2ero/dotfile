@@ -1,4 +1,4 @@
-json_decode -- Decodes a JSON string
+*json_decode* -- Decodes a JSON string
 
   mixed json_decode(string json [, bool assoc [, int depth [, int options]]])~
 

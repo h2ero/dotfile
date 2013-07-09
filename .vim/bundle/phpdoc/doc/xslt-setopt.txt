@@ -1,4 +1,4 @@
-xslt_setopt -- Set options on a given XSLT processor
+*xslt_setopt* -- Set options on a given XSLT processor
 
   mixed xslt_setopt(resource processor, int newmask)~
 

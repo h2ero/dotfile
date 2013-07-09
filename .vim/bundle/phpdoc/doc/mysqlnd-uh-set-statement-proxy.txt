@@ -1,4 +1,4 @@
-mysqlnd_uh_set_statement_proxy -- Installs a proxy for mysqlnd statements
+*mysqlnd_uh_set_statement_proxy* -- Installs a proxy for mysqlnd statements
 
   bool mysqlnd_uh_set_statement_proxy(MysqlndUhStatement statement_proxy)~
 

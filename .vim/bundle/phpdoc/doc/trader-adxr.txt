@@ -1,4 +1,4 @@
-trader_adxr -- Average Directional Movement Index Rating
+*trader_adxr* -- Average Directional Movement Index Rating
 
   array trader_adxr(array high, array low, array close [, integer timePeriod])~
 

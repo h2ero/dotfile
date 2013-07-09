@@ -1,4 +1,4 @@
-untaint -- Untaint strings
+*untaint* -- Untaint strings
 
   bool untaint(string string [, string ...])~
 

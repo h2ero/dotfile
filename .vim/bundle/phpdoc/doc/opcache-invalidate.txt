@@ -1,4 +1,4 @@
-opcache_invalidate -- Invalidates a cached script
+*opcache_invalidate* -- Invalidates a cached script
 
   boolean opcache_invalidate(string script [, boolean force])~
 

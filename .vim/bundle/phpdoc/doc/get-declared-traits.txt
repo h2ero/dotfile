@@ -1,4 +1,4 @@
-get_declared_traits -- Returns an array of all declared traits
+*get_declared_traits* -- Returns an array of all declared traits
 
   array get_declared_traits()~
 

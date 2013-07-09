@@ -1,4 +1,4 @@
-trader_linearreg_angle -- Linear Regression Angle
+*trader_linearreg_angle* -- Linear Regression Angle
 
   array trader_linearreg_angle(array real [, integer timePeriod])~
 

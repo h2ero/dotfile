@@ -1,4 +1,4 @@
-get_headers -- Fetches all the headers sent by the server in response to a
+*get_headers* -- Fetches all the headers sent by the server in response to a
 HTTP request
 
   array get_headers(string url [, int format])~

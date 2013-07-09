@@ -1,4 +1,4 @@
-cubrid_pconnect_with_url -- Open a persistent connection to CUBRID server
+*cubrid_pconnect_with_url* -- Open a persistent connection to CUBRID server
 
   resource cubrid_pconnect_with_url(string conn_url [, string userid [, string passwd]])~
 

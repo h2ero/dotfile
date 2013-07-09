@@ -1,4 +1,4 @@
-curl_unescape -- Decodes the given URL encoded string
+*curl_unescape* -- Decodes the given URL encoded string
 
   string curl_unescape(resource ch, string str)~
 

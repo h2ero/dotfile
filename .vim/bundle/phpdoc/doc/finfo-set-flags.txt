@@ -1,4 +1,4 @@
-finfo::set_flags -- Set libmagic configuration options
+*finfo*::set_flags -- Set libmagic configuration options
 
 Procedural style
 

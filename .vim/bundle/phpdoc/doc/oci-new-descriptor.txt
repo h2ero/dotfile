@@ -1,4 +1,4 @@
-oci_new_descriptor -- Initializes a new empty LOB or FILE descriptor
+*oci_new_descriptor* -- Initializes a new empty LOB or FILE descriptor
 
   OCI-Lob oci_new_descriptor(resource connection [, int type])~
 

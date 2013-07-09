@@ -1,4 +1,4 @@
-SQLiteUnbuffered::numFields -- Returns the number of fields in a result set
+*SQLiteUnbuffered*::numFields -- Returns the number of fields in a result set
 
   int sqlite_num_fields(resource result)~
 

@@ -1,4 +1,4 @@
-snmp_set_valueretrieval -- Specify the method how the SNMP values will be
+*snmp_set_valueretrieval* -- Specify the method how the SNMP values will be
 returned
 
   bool snmp_set_valueretrieval(int method)~

@@ -1,4 +1,4 @@
-fgetc -- Gets character from file pointer
+*fgetc* -- Gets character from file pointer
 
   string fgetc(resource handle)~
 

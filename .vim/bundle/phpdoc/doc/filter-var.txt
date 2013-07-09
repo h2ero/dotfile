@@ -1,4 +1,4 @@
-filter_var -- Filters a variable with a specified filter
+*filter_var* -- Filters a variable with a specified filter
 
   mixed filter_var(mixed variable [, int filter [, mixed options]])~
 

@@ -1,4 +1,4 @@
-SQLiteDatabase::createFunction -- Registers a "regular" User Defined Function
+*SQLiteDatabase*::createFunction -- Registers a "regular" User Defined Function
 for use in SQL statements
 
   void sqlite_create_function(resource dbhandle, string function_name, callable callback [, int num_args])~

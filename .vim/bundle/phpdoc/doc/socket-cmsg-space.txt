@@ -1,4 +1,4 @@
-socket_cmsg_space -- Calculate message buffer size
+*socket_cmsg_space* -- Calculate message buffer size
 
   int socket_cmsg_space(int level, int type)~
 

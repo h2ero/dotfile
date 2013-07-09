@@ -1,4 +1,4 @@
-sqlsrv_send_stream_data -- Sends data from parameter streams to the server
+*sqlsrv_send_stream_data* -- Sends data from parameter streams to the server
 
   bool sqlsrv_send_stream_data(resource stmt)~
 

@@ -1,4 +1,4 @@
-file_exists -- Checks whether a file or directory exists
+*file_exists* -- Checks whether a file or directory exists
 
   bool file_exists(string filename)~
 

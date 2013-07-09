@@ -1,4 +1,4 @@
-rrd_fetch -- Fetch the data for graph as array.
+*rrd_fetch* -- Fetch the data for graph as array.
 
   array rrd_fetch(string filename, array options)~
 

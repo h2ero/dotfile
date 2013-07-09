@@ -1,4 +1,4 @@
-htmlspecialchars -- Convert special characters to HTML entities
+*htmlspecialchars* -- Convert special characters to HTML entities
 
   string htmlspecialchars(string string [, int flags [, string encoding [, bool double_encode]]])~
 

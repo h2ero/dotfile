@@ -1,4 +1,4 @@
-array_change_key_case -- Changes all keys in an array
+*array_change_key_case* -- Changes all keys in an array
 
   array array_change_key_case(array input [, int case])~
 

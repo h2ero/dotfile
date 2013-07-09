@@ -1,4 +1,4 @@
-trader_linearreg_slope -- Linear Regression Slope
+*trader_linearreg_slope* -- Linear Regression Slope
 
   array trader_linearreg_slope(array real [, integer timePeriod])~
 

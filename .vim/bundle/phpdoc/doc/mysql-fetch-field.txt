@@ -1,4 +1,4 @@
-mysql_fetch_field -- Get column information from a result and return as an
+*mysql_fetch_field* -- Get column information from a result and return as an
 object
 
 This extension is deprecated as of PHP 5.5.0, and will be removed in the

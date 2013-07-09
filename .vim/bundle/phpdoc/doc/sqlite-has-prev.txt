@@ -1,4 +1,4 @@
-SQLiteResult::hasPrev -- Returns whether or not a previous row is available
+*SQLiteResult*::hasPrev -- Returns whether or not a previous row is available
 
   bool sqlite_has_prev(resource result)~
 

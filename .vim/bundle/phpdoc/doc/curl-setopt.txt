@@ -1,4 +1,4 @@
-curl_setopt -- Set an option for a cURL transfer
+*curl_setopt* -- Set an option for a cURL transfer
 
   bool curl_setopt(resource ch, int option, mixed value)~
 

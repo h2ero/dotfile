@@ -1,4 +1,4 @@
-trader_aroonosc -- Aroon Oscillator
+*trader_aroonosc* -- Aroon Oscillator
 
   array trader_aroonosc(array high, array low [, integer timePeriod])~
 

@@ -1,4 +1,4 @@
-apache_getenv -- Get an Apache subprocess_env variable
+*apache_getenv* -- Get an Apache subprocess_env variable
 
   string apache_getenv(string variable [, bool walk_to_top])~
 

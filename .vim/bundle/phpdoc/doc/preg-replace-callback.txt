@@ -1,4 +1,4 @@
-preg_replace_callback -- Perform a regular expression search and replace using
+*preg_replace_callback* -- Perform a regular expression search and replace using
 a callback
 
   mixed preg_replace_callback(mixed pattern, callable callback, mixed subject [, int limit [, int count]])~

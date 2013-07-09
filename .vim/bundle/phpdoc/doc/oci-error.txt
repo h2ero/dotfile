@@ -1,4 +1,4 @@
-oci_error -- Returns the last error found
+*oci_error* -- Returns the last error found
 
   array oci_error([resource resource])~
 

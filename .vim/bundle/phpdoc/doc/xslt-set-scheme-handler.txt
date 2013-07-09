@@ -1,4 +1,4 @@
-xslt_set_scheme_handler -- Set Scheme handlers for a XSLT processor
+*xslt_set_scheme_handler* -- Set Scheme handlers for a XSLT processor
 
   void xslt_set_scheme_handler(resource xh, array handlers)~
 

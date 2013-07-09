@@ -1,4 +1,4 @@
-pcntl_getpriority -- Get the priority of any process
+*pcntl_getpriority* -- Get the priority of any process
 
   int pcntl_getpriority([int pid [, int process_identifier]])~
 

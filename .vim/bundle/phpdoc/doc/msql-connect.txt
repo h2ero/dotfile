@@ -1,4 +1,4 @@
-msql_connect -- Open mSQL connection
+*msql_connect* -- Open mSQL connection
 
   resource msql_connect([string hostname])~
 

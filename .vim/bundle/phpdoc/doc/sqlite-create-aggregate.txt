@@ -1,4 +1,4 @@
-SQLiteDatabase::createAggregate -- Register an aggregating UDF for use in SQL
+*SQLiteDatabase*::createAggregate -- Register an aggregating UDF for use in SQL
 statements
 
   void sqlite_create_aggregate(resource dbhandle, string function_name, callable step_func, callable finalize_func [, int num_args])~

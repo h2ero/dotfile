@@ -1,4 +1,4 @@
-expect_expectl -- Waits until the output from a process matches one of the
+*expect_expectl* -- Waits until the output from a process matches one of the
 patterns, a specified time period has passed, or an EOF is seen
 
   int expect_expectl(resource expect, array cases [, array match])~

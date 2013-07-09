@@ -1,4 +1,4 @@
-SQLiteDatabase::query -- Executes a query against a given database and returns
+*SQLiteDatabase*::query -- Executes a query against a given database and returns
 a result handle
 
   resource sqlite_query(resource dbhandle, string query [, int result_type [, string error_msg]])~

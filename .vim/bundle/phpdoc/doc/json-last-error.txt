@@ -1,4 +1,4 @@
-json_last_error -- Returns the last error occurred
+*json_last_error* -- Returns the last error occurred
 
   int json_last_error()~
 

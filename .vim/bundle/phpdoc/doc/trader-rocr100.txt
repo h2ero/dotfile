@@ -1,4 +1,4 @@
-trader_rocr100 -- Rate of change ratio 100 scale: (price/prevPrice)*100
+*trader_rocr100* -- Rate of change ratio 100 scale: (price/prevPrice)*100
 
   array trader_rocr100(array real [, integer timePeriod])~
 

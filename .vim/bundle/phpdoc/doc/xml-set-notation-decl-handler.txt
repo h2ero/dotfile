@@ -1,4 +1,4 @@
-xml_set_notation_decl_handler -- Set up notation declaration handler
+*xml_set_notation_decl_handler* -- Set up notation declaration handler
 
   bool xml_set_notation_decl_handler(resource parser, callable handler)~
 

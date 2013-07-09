@@ -1,4 +1,4 @@
-trader_cdlkickingbylength -- Kicking - bull/bear determined by the longer
+*trader_cdlkickingbylength* -- Kicking - bull/bear determined by the longer
 marubozu
 
   array trader_cdlkickingbylength(array open, array high, array low, array close)~

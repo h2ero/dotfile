@@ -1,4 +1,4 @@
-sybase_set_message_handler -- Sets the handler called when a server message is
+*sybase_set_message_handler* -- Sets the handler called when a server message is
 raised
 
   bool sybase_set_message_handler(callable handler [, resource link_identifier])~

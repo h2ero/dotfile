@@ -1,4 +1,4 @@
-eio_unlink -- Delete a name and possibly the file it refers to
+*eio_unlink* -- Delete a name and possibly the file it refers to
 
   resource eio_unlink(string path [, int pri [, callable callback [, mixed data]]])~
 

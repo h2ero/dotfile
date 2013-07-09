@@ -1,4 +1,4 @@
-maxdb::prepare -- Prepare an SQL statement for execution
+*maxdb*::prepare -- Prepare an SQL statement for execution
 
 Procedural style
 

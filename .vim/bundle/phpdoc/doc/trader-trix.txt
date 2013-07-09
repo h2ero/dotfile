@@ -1,4 +1,4 @@
-trader_trix -- 1-day Rate-Of-Change (ROC) of a Triple Smooth EMA
+*trader_trix* -- 1-day Rate-Of-Change (ROC) of a Triple Smooth EMA
 
   array trader_trix(array real [, integer timePeriod])~
 

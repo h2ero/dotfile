@@ -1,4 +1,4 @@
-trader_cdlhammer -- Hammer
+*trader_cdlhammer* -- Hammer
 
   array trader_cdlhammer(array open, array high, array low, array close)~
 

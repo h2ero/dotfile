@@ -1,4 +1,4 @@
-trader_cdltasukigap -- Tasuki Gap
+*trader_cdltasukigap* -- Tasuki Gap
 
   array trader_cdltasukigap(array open, array high, array low, array close)~
 

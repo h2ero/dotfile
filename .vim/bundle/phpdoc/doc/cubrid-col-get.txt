@@ -1,4 +1,4 @@
-cubrid_col_get -- Get contents of collection type column using OID
+*cubrid_col_get* -- Get contents of collection type column using OID
 
   array cubrid_col_get(resource conn_identifier, string oid, string attr_name)~
 

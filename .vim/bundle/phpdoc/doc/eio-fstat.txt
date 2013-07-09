@@ -1,4 +1,4 @@
-eio_fstat -- Get file status
+*eio_fstat* -- Get file status
 
   resource eio_fstat(mixed fd, int pri, callable callback [, mixed data])~
 

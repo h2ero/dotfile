@@ -1,4 +1,4 @@
-imagecolortransparent -- Define a color as transparent
+*imagecolortransparent* -- Define a color as transparent
 
   int imagecolortransparent(resource image [, int color])~
 

@@ -1,4 +1,4 @@
-ctype_space -- Check for whitespace character(s)
+*ctype_space* -- Check for whitespace character(s)
 
   bool ctype_space(string text)~
 

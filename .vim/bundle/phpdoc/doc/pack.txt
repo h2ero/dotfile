@@ -1,4 +1,4 @@
-pack -- Pack data into binary string
+*pack* -- Pack data into binary string
 
   string pack(string format [, mixed args [, mixed ...]])~
 

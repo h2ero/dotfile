@@ -1,4 +1,4 @@
-trader_macd -- Moving Average Convergence/Divergence
+*trader_macd* -- Moving Average Convergence/Divergence
 
   array trader_macd(array real [, integer fastPeriod [, integer slowPeriod [, integer signalPeriod]]])~
 

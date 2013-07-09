@@ -1,4 +1,4 @@
-gd_info -- Retrieve information about the currently installed GD library
+*gd_info* -- Retrieve information about the currently installed GD library
 
   array gd_info()~
 

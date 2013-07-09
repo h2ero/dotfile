@@ -1,4 +1,4 @@
-eio_open -- Opens a file
+*eio_open* -- Opens a file
 
   resource eio_open(string path, int flags, int mode, int pri, callable callback [, mixed data])~
 

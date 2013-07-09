@@ -1,4 +1,4 @@
-socket_recvmsg -- Read a message
+*socket_recvmsg* -- Read a message
 
   int socket_recvmsg(resource socket, string message [, int flags])~
 

@@ -1,4 +1,4 @@
-mb_ereg_replace_callback -- Perform a regular expresssion seach and replace
+*mb_ereg_replace_callback* -- Perform a regular expresssion seach and replace
 with multibyte support using a callback
 
   string mb_ereg_replace_callback(string pattern, callable callback, string string [, string option])~

@@ -1,4 +1,4 @@
-sqlsrv_commit -- Commits a transaction that was begun with
+*sqlsrv_commit* -- Commits a transaction that was begun with
 sqlsrv_begin_transaction
 
   bool sqlsrv_commit(resource conn)~

@@ -1,4 +1,4 @@
-sqlsrv_fetch_object -- Retrieves the next row of data in a result set as an
+*sqlsrv_fetch_object* -- Retrieves the next row of data in a result set as an
 object
 
   mixed sqlsrv_fetch_object(resource stmt [, string className [, array ctorParams [, int row [, int offset]]]])~

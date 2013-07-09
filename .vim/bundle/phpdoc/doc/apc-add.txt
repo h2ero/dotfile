@@ -1,4 +1,4 @@
-apc_add -- Cache a new variable in the data store
+*apc_add* -- Cache a new variable in the data store
 
   bool apc_add(string key [, mixed var [, int ttl]])~
 

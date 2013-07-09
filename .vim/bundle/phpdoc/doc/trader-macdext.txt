@@ -1,4 +1,4 @@
-trader_macdext -- MACD with controllable MA type
+*trader_macdext* -- MACD with controllable MA type
 
   array trader_macdext(array real [, integer fastPeriod [, integer fastMAType [, integer slowPeriod [, integer slowMAType [, integer signalPeriod [, integer signalMAType]]]]]])~
 

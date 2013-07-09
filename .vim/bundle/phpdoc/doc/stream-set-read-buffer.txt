@@ -1,4 +1,4 @@
-stream_set_read_buffer -- Set read file buffering on the given stream
+*stream_set_read_buffer* -- Set read file buffering on the given stream
 
   int stream_set_read_buffer(resource stream, int buffer)~
 

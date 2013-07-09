@@ -1,4 +1,4 @@
-cubrid_put -- Update a column using OID
+*cubrid_put* -- Update a column using OID
 
   int cubrid_put(resource conn_identifier, string oid [, string attr, mixed value])~
 

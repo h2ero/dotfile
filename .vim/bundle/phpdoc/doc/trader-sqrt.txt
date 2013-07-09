@@ -1,4 +1,4 @@
-trader_sqrt -- Vector Square Root
+*trader_sqrt* -- Vector Square Root
 
   array trader_sqrt(array real)~
 

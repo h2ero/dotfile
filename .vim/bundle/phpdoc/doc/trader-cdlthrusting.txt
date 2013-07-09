@@ -1,4 +1,4 @@
-trader_cdlthrusting -- Thrusting Pattern
+*trader_cdlthrusting* -- Thrusting Pattern
 
   array trader_cdlthrusting(array open, array high, array low, array close)~
 

@@ -1,4 +1,4 @@
-cubrid_column_names -- Get the column names in result
+*cubrid_column_names* -- Get the column names in result
 
   array cubrid_column_names(resource req_identifier)~
 

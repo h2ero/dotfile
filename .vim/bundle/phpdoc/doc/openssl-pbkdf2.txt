@@ -1,4 +1,4 @@
-openssl_pbkdf2 -- Generates a PKCS5 v2 PBKDF2 string, defaults to SHA-1
+*openssl_pbkdf2* -- Generates a PKCS5 v2 PBKDF2 string, defaults to SHA-1
 
   string openssl_pbkdf2(string password, string salt, int key_length, int iterations [, string digest_algorithm])~
 

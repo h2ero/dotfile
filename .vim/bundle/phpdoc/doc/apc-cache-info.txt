@@ -1,4 +1,4 @@
-apc_cache_info -- Retrieves cached information from APC's data store
+*apc_cache_info* -- Retrieves cached information from APC's data store
 
   array apc_cache_info([string cache_type [, bool limited]])~
 

@@ -1,4 +1,4 @@
-sqlsrv_execute -- Executes a statement prepared with sqlsrv_prepare
+*sqlsrv_execute* -- Executes a statement prepared with sqlsrv_prepare
 
   bool sqlsrv_execute(resource stmt)~
 

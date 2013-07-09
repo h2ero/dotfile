@@ -1,4 +1,4 @@
-trader_macdfix -- Moving Average Convergence/Divergence Fix 12/26
+*trader_macdfix* -- Moving Average Convergence/Divergence Fix 12/26
 
   array trader_macdfix(array real [, integer signalPeriod])~
 

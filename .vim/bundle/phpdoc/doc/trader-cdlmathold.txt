@@ -1,4 +1,4 @@
-trader_cdlmathold -- Mat Hold
+*trader_cdlmathold* -- Mat Hold
 
   array trader_cdlmathold(array open, array high, array low, array close [, float penetration])~
 

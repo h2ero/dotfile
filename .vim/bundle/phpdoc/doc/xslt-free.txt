@@ -1,4 +1,4 @@
-xslt_free -- Free XSLT processor
+*xslt_free* -- Free XSLT processor
 
   void xslt_free(resource xh)~
 

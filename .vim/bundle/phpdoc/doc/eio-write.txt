@@ -1,4 +1,4 @@
-eio_write -- Write to file
+*eio_write* -- Write to file
 
   resource eio_write(mixed fd, string str [, int length [, int offset [, int pri [, callable callback [, mixed data]]]]])~
 

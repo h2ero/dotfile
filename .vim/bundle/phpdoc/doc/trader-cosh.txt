@@ -1,4 +1,4 @@
-trader_cosh -- Vector Trigonometric Cosh
+*trader_cosh* -- Vector Trigonometric Cosh
 
   array trader_cosh(array real)~
 

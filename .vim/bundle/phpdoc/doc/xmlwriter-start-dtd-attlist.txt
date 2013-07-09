@@ -1,4 +1,4 @@
-xmlwriter_start_dtd_attlist -- Create start DTD AttList
+*xmlwriter_start_dtd_attlist* -- Create start DTD AttList
 
 Object oriented style
 

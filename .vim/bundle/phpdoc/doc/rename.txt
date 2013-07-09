@@ -1,4 +1,4 @@
-rename -- Renames a file or directory
+*rename* -- Renames a file or directory
 
   bool rename(string oldname, string newname [, resource context])~
 

@@ -1,4 +1,4 @@
-array_slice -- Extract a slice of the array
+*array_slice* -- Extract a slice of the array
 
   array array_slice(array array, int offset [, int length [, bool preserve_keys]])~
 

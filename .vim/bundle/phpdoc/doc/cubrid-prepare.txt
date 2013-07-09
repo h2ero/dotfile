@@ -1,4 +1,4 @@
-cubrid_prepare -- Prepare a SQL statement for execution
+*cubrid_prepare* -- Prepare a SQL statement for execution
 
   resource cubrid_prepare(resource conn_identifier, string prepare_stmt [, int option])~
 

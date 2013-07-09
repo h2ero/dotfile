@@ -1,4 +1,4 @@
-trader_stddev -- Standard Deviation
+*trader_stddev* -- Standard Deviation
 
   array trader_stddev(array real [, integer timePeriod [, float nbDev]])~
 

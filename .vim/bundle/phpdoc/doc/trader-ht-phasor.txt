@@ -1,4 +1,4 @@
-trader_ht_phasor -- Hilbert Transform - Phasor Components
+*trader_ht_phasor* -- Hilbert Transform - Phasor Components
 
   array trader_ht_phasor(array real)~
 

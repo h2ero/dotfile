@@ -1,4 +1,4 @@
-getenv -- Gets the value of an environment variable
+*getenv* -- Gets the value of an environment variable
 
   string getenv(string varname)~
 

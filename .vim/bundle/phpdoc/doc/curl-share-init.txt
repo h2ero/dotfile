@@ -1,4 +1,4 @@
-curl_share_init -- Initialize a cURL share handle
+*curl_share_init* -- Initialize a cURL share handle
 
   resource curl_share_init()~
 

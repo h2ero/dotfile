@@ -1,4 +1,4 @@
-mysqlnd_qc_set_is_select -- Installs a callback which decides whether a
+*mysqlnd_qc_set_is_select* -- Installs a callback which decides whether a
 statement is cached
 
   mixed mysqlnd_qc_set_is_select(string callback)~

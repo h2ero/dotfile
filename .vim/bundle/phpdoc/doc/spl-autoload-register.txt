@@ -1,4 +1,4 @@
-spl_autoload_register -- Register given function as __autoload()
+*spl_autoload_register* -- Register given function as __autoload()
 implementation
 
   bool spl_autoload_register([callable autoload_function [, bool throw [, bool prepend]]])~

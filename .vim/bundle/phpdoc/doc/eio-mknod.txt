@@ -1,4 +1,4 @@
-eio_mknod -- Create a special or ordinary file.
+*eio_mknod* -- Create a special or ordinary file.
 
   resource eio_mknod(string path, int mode, int dev [, int pri [, callable callback [, mixed data]]])~
 

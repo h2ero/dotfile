@@ -1,4 +1,4 @@
-trigger_error -- Generates a user-level error/warning/notice message
+*trigger_error* -- Generates a user-level error/warning/notice message
 
   bool trigger_error(string error_msg [, int error_type])~
 

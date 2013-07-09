@@ -1,4 +1,4 @@
-posix_getpwuid -- Return info about a user by user id
+*posix_getpwuid* -- Return info about a user by user id
 
   array posix_getpwuid(int uid)~
 

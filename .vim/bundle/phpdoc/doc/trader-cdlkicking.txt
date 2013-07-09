@@ -1,4 +1,4 @@
-trader_cdlkicking -- Kicking
+*trader_cdlkicking* -- Kicking
 
   array trader_cdlkicking(array open, array high, array low, array close)~
 

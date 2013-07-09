@@ -1,4 +1,4 @@
-oci_fetch_row -- Returns the next row from a query as a numeric array
+*oci_fetch_row* -- Returns the next row from a query as a numeric array
 
   array oci_fetch_row(resource statement)~
 

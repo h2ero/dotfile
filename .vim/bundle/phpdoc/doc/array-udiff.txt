@@ -1,4 +1,4 @@
-array_udiff -- Computes the difference of arrays by using a callback function
+*array_udiff* -- Computes the difference of arrays by using a callback function
 for data comparison
 
   array array_udiff(array array1, array array2 [, array ..., callable data_compare_func])~

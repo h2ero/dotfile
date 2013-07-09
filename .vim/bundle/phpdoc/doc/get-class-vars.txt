@@ -1,4 +1,4 @@
-get_class_vars -- Get the default properties of the class
+*get_class_vars* -- Get the default properties of the class
 
   array get_class_vars(string class_name)~
 

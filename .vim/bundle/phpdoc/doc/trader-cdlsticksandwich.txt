@@ -1,4 +1,4 @@
-trader_cdlsticksandwich -- Stick Sandwich
+*trader_cdlsticksandwich* -- Stick Sandwich
 
   array trader_cdlsticksandwich(array open, array high, array low, array close)~
 

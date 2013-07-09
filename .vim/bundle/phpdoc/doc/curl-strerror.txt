@@ -1,4 +1,4 @@
-curl_strerror -- Return string describing the given error code
+*curl_strerror* -- Return string describing the given error code
 
   string curl_strerror(int errornum)~
 

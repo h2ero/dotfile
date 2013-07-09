@@ -1,4 +1,4 @@
-gethostbyaddr -- Get the Internet host name corresponding to a given IP
+*gethostbyaddr* -- Get the Internet host name corresponding to a given IP
 address
 
   string gethostbyaddr(string ip_address)~

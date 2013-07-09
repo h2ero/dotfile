@@ -1,4 +1,4 @@
-cubrid_lob2_bind -- Bind a lob object or a string as a lob object to a
+*cubrid_lob2_bind* -- Bind a lob object or a string as a lob object to a
 prepared statement as parameters.
 
   bool cubrid_lob2_bind(resource req_identifier, int bind_index, mixed bind_value [, string bind_value_type])~

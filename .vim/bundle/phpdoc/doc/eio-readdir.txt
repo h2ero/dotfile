@@ -1,4 +1,4 @@
-eio_readdir -- Reads through a whole directory
+*eio_readdir* -- Reads through a whole directory
 
   resource eio_readdir(string path, int flags, int pri, callable callback [, string data])~
 

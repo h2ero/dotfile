@@ -1,4 +1,4 @@
-fileatime -- Gets last access time of file
+*fileatime* -- Gets last access time of file
 
   int fileatime(string filename)~
 

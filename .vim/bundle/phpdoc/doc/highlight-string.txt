@@ -1,4 +1,4 @@
-highlight_string -- Syntax highlighting of a string
+*highlight_string* -- Syntax highlighting of a string
 
   mixed highlight_string(string str [, bool return])~
 

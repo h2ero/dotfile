@@ -1,4 +1,4 @@
-boolval -- Get the boolean value of a variable
+*boolval* -- Get the boolean value of a variable
 
   boolean boolval(mixed var)~
 

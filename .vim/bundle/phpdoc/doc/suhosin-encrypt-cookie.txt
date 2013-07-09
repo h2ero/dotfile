@@ -1,4 +1,4 @@
-suhosin_encrypt_cookie -- Encrypts a cookie value according to current cookie
+*suhosin_encrypt_cookie* -- Encrypts a cookie value according to current cookie
 encrpytion setting
 
   string suhosin_encrypt_cookie(string name, string value)~

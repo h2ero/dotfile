@@ -1,4 +1,4 @@
-iterator_apply -- Call a function for every element in an iterator
+*iterator_apply* -- Call a function for every element in an iterator
 
   int iterator_apply(Traversable iterator, callable function [, array args])~
 

@@ -1,4 +1,4 @@
-imagecreatefromgd2 -- Create a new image from GD2 file or URL
+*imagecreatefromgd2* -- Create a new image from GD2 file or URL
 
   resource imagecreatefromgd2(string filename)~
 

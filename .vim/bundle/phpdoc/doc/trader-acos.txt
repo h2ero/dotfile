@@ -1,4 +1,4 @@
-trader_acos -- Vector Trigonometric ACos
+*trader_acos* -- Vector Trigonometric ACos
 
   array trader_acos(array real)~
 

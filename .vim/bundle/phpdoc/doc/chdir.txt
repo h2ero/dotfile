@@ -1,4 +1,4 @@
-chdir -- Change directory
+*chdir* -- Change directory
 
   bool chdir(string directory)~
 

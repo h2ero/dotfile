@@ -1,4 +1,4 @@
-curl_share_setopt -- Set an option for a cURL share handle.
+*curl_share_setopt* -- Set an option for a cURL share handle.
 
   bool curl_share_setopt(resource sh, int option, string value)~
 

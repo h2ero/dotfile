@@ -1,4 +1,4 @@
-array_reverse -- Return an array with elements in reverse order
+*array_reverse* -- Return an array with elements in reverse order
 
   array array_reverse(array array [, bool preserve_keys])~
 

@@ -1,4 +1,4 @@
-sem_get -- Get a semaphore id
+*sem_get* -- Get a semaphore id
 
   resource sem_get(int key [, int max_acquire [, int perm [, int auto_release]]])~
 

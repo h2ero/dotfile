@@ -1,4 +1,4 @@
-array_replace_recursive -- Replaces elements from passed arrays into the first
+*array_replace_recursive* -- Replaces elements from passed arrays into the first
 array recursively
 
   array array_replace_recursive(array array, array array1 [, array ...])~

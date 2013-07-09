@@ -1,4 +1,4 @@
-trader_sinh -- Vector Trigonometric Sinh
+*trader_sinh* -- Vector Trigonometric Sinh
 
   array trader_sinh(array real)~
 

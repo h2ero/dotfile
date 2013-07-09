@@ -1,4 +1,4 @@
-imagecreatefromgd2part -- Create a new image from a given part of GD2 file or
+*imagecreatefromgd2part* -- Create a new image from a given part of GD2 file or
 URL
 
   resource imagecreatefromgd2part(string filename, int srcX, int srcY, int width, int height)~

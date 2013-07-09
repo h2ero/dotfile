@@ -1,4 +1,4 @@
-eio_statvfs -- Get file system statistics
+*eio_statvfs* -- Get file system statistics
 
   resource eio_statvfs(string path, int pri, callable callback [, mixed data])~
 

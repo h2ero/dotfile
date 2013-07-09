@@ -1,4 +1,4 @@
-preg_match_all -- Perform a global regular expression match
+*preg_match_all* -- Perform a global regular expression match
 
   int preg_match_all(string pattern, string subject [, array matches [, int flags [, int offset]]])~
 

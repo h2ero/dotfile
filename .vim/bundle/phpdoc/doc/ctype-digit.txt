@@ -1,4 +1,4 @@
-ctype_digit -- Check for numeric character(s)
+*ctype_digit* -- Check for numeric character(s)
 
   bool ctype_digit(string text)~
 

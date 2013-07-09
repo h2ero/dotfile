@@ -1,4 +1,4 @@
-gzencode -- Create a gzip compressed string
+*gzencode* -- Create a gzip compressed string
 
   string gzencode(string data [, int level [, int encoding_mode]])~
 

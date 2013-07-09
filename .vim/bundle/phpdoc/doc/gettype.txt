@@ -1,4 +1,4 @@
-gettype -- Get the type of a variable
+*gettype* -- Get the type of a variable
 
   string gettype(mixed var)~
 

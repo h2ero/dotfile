@@ -1,4 +1,4 @@
-strlen -- Get string length
+*strlen* -- Get string length
 
   int strlen(string string)~
 

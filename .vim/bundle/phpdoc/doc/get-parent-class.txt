@@ -1,4 +1,4 @@
-get_parent_class -- Retrieves the parent class name for object or class
+*get_parent_class* -- Retrieves the parent class name for object or class
 
   string get_parent_class([mixed object])~
 

@@ -1,4 +1,4 @@
-sha256_file -- Calculate the sha256 hash of given filename
+*sha256_file* -- Calculate the sha256 hash of given filename
 
   string sha256_file(string filename [, bool raw_output])~
 

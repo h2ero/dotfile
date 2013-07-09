@@ -1,4 +1,4 @@
-lstat -- Gives information about a file or symbolic link
+*lstat* -- Gives information about a file or symbolic link
 
   array lstat(string filename)~
 

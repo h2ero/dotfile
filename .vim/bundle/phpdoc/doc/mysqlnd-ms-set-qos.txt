@@ -1,4 +1,4 @@
-mysqlnd_ms_set_qos -- Sets the quality of service needed from the cluster
+*mysqlnd_ms_set_qos* -- Sets the quality of service needed from the cluster
 
   bool mysqlnd_ms_set_qos(mixed connection, int service_level [, int service_level_option [, mixed option_value]])~
 

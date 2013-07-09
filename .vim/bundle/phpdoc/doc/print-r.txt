@@ -1,4 +1,4 @@
-print_r -- Prints human-readable information about a variable
+*print_r* -- Prints human-readable information about a variable
 
   mixed print_r(mixed expression [, bool return])~
 

@@ -1,4 +1,4 @@
-unserialize -- Creates a PHP value from a stored representation
+*unserialize* -- Creates a PHP value from a stored representation
 
   mixed unserialize(string str)~
 

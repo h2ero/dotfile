@@ -1,4 +1,4 @@
-snmp3_real_walk -- Return all objects including their respective object ID
+*snmp3_real_walk* -- Return all objects including their respective object ID
 within the specified one
 
   array snmp3_real_walk(string host, string sec_name, string sec_level, string auth_protocol, string auth_passphrase, string priv_protocol, string priv_passphrase, string object_id [, string timeout [, string retries]])~

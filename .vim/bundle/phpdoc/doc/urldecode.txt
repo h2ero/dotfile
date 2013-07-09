@@ -1,4 +1,4 @@
-urldecode -- Decodes URL-encoded string
+*urldecode* -- Decodes URL-encoded string
 
   string urldecode(string str)~
 

@@ -1,4 +1,4 @@
-fsockopen -- Open Internet or Unix domain socket connection
+*fsockopen* -- Open Internet or Unix domain socket connection
 
   resource fsockopen(string hostname [, int port [, int errno [, string errstr [, float timeout]]]])~
 

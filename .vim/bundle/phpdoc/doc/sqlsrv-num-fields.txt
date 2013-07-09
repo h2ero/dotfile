@@ -1,4 +1,4 @@
-sqlsrv_num_fields -- Retrieves the number of fields (columns) on a statement
+*sqlsrv_num_fields* -- Retrieves the number of fields (columns) on a statement
 
   mixed sqlsrv_num_fields(resource stmt)~
 

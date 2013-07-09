@@ -1,4 +1,4 @@
-array_diff_assoc -- Computes the difference of arrays with additional index
+*array_diff_assoc* -- Computes the difference of arrays with additional index
 check
 
   array array_diff_assoc(array array1, array array2 [, array ...])~

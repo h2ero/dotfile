@@ -1,4 +1,4 @@
-eio_read -- Read from a file descriptor at given offset.
+*eio_read* -- Read from a file descriptor at given offset.
 
   resource eio_read(mixed fd, int length, int offset, int pri, callable callback [, mixed data])~
 

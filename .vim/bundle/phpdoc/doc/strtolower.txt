@@ -1,4 +1,4 @@
-strtolower -- Make a string lowercase
+*strtolower* -- Make a string lowercase
 
   string strtolower(string str)~
 

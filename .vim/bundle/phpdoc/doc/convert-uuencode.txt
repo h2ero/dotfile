@@ -1,4 +1,4 @@
-convert_uuencode -- Uuencode a string
+*convert_uuencode* -- Uuencode a string
 
   string convert_uuencode(string data)~
 

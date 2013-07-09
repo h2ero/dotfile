@@ -1,4 +1,4 @@
-sqlsrv_query -- Prepares and executes a query.
+*sqlsrv_query* -- Prepares and executes a query.
 
   mixed sqlsrv_query(resource conn, string sql [, array params [, array options]])~
 

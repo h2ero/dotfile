@@ -1,4 +1,4 @@
-phpinfo -- Outputs information about PHP's configuration
+*phpinfo* -- Outputs information about PHP's configuration
 
   bool phpinfo([int what])~
 

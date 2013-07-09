@@ -1,4 +1,4 @@
-ucfirst -- Make a string's first character uppercase
+*ucfirst* -- Make a string's first character uppercase
 
   string ucfirst(string str)~
 

@@ -1,4 +1,4 @@
-snmp_set_quick_print -- Set the value of quick_print within the UCD SNMP
+*snmp_set_quick_print* -- Set the value of quick_print within the UCD SNMP
 library
 
   bool snmp_set_quick_print(bool quick_print)~

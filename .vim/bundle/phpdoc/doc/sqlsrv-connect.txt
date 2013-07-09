@@ -1,4 +1,4 @@
-sqlsrv_connect -- Opens a connection to a Microsoft SQL Server database
+*sqlsrv_connect* -- Opens a connection to a Microsoft SQL Server database
 
   resource sqlsrv_connect(string serverName [, array connectionInfo])~
 

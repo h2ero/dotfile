@@ -1,4 +1,4 @@
-sqlsrv_get_config -- Returns the value of the specified configuration setting
+*sqlsrv_get_config* -- Returns the value of the specified configuration setting
 
   mixed sqlsrv_get_config(string setting)~
 

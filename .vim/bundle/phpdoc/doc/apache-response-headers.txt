@@ -1,4 +1,4 @@
-apache_response_headers -- Fetch all HTTP response headers
+*apache_response_headers* -- Fetch all HTTP response headers
 
   array apache_response_headers()~
 

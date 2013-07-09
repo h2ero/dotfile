@@ -1,4 +1,4 @@
-round -- Rounds a float
+*round* -- Rounds a float
 
   float round(float val [, int precision [, int mode]])~
 

@@ -1,4 +1,4 @@
-SQLiteDatabase::arrayQuery -- Execute a query against a given database and
+*SQLiteDatabase*::arrayQuery -- Execute a query against a given database and
 returns an array
 
   array sqlite_array_query(resource dbhandle, string query [, int result_type [, bool decode_binary]])~

@@ -1,4 +1,4 @@
-class_implements -- Return the interfaces which are implemented by the given
+*class_implements* -- Return the interfaces which are implemented by the given
 class
 
   array class_implements(mixed class [, bool autoload])~

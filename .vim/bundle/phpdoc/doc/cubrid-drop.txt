@@ -1,4 +1,4 @@
-cubrid_drop -- Delete an instance using OID
+*cubrid_drop* -- Delete an instance using OID
 
   bool cubrid_drop(resource conn_identifier, string oid)~
 

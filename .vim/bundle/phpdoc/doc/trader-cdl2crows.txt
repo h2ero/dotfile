@@ -1,4 +1,4 @@
-trader_cdl2crows -- Two Crows
+*trader_cdl2crows* -- Two Crows
 
   array trader_cdl2crows(array open, array high, array low, array close)~
 

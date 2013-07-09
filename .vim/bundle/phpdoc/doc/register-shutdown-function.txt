@@ -1,4 +1,4 @@
-register_shutdown_function -- Register a function for execution on shutdown
+*register_shutdown_function* -- Register a function for execution on shutdown
 
   void register_shutdown_function(callable callback [, mixed parameter [, mixed ...]])~
 

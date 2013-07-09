@@ -1,4 +1,4 @@
-hexdec -- Hexadecimal to decimal
+*hexdec* -- Hexadecimal to decimal
 
   number hexdec(string hex_string)~
 

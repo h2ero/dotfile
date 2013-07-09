@@ -1,4 +1,4 @@
-str_replace -- Replace all occurrences of the search string with the
+*str_replace* -- Replace all occurrences of the search string with the
 replacement string
 
   mixed str_replace(mixed search, mixed replace, mixed subject [, int count])~

@@ -1,4 +1,4 @@
-socket_set_nonblock -- Sets nonblocking mode for file descriptor fd
+*socket_set_nonblock* -- Sets nonblocking mode for file descriptor fd
 
   bool socket_set_nonblock(resource socket)~
 

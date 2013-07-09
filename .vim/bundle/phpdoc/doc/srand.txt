@@ -1,4 +1,4 @@
-srand -- Seed the random number generator
+*srand* -- Seed the random number generator
 
   void srand([int seed])~
 

@@ -1,4 +1,4 @@
-curl_reset -- Reset all options of a libcurl session handle
+*curl_reset* -- Reset all options of a libcurl session handle
 
   void curl_reset(resource ch)~
 

@@ -1,4 +1,4 @@
-eio_chown -- Change file/direcrory permissions.
+*eio_chown* -- Change file/direcrory permissions.
 
   resource eio_chown(string path, int uid [, int gid [, int pri [, callable callback [, mixed data]]]])~
 

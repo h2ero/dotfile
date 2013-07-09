@@ -1,4 +1,4 @@
-sqlsrv_field_metadata -- Retrieves metadata for the fields of a statement
+*sqlsrv_field_metadata* -- Retrieves metadata for the fields of a statement
 prepared by sqlsrv_prepare or sqlsrv_query
 
   mixed sqlsrv_field_metadata(resource stmt)~

@@ -1,4 +1,4 @@
-session_name -- Get and/or set the current session name
+*session_name* -- Get and/or set the current session name
 
   string session_name([string name])~
 

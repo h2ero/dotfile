@@ -1,4 +1,4 @@
-mailparse_msg_extract_part -- Extracts/decodes a message section
+*mailparse_msg_extract_part* -- Extracts/decodes a message section
 
   void mailparse_msg_extract_part(resource mimemail, string msgbody [, callable callbackfunc])~
 

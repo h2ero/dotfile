@@ -1,4 +1,4 @@
-easter_days -- Get number of days after March 21 on which Easter falls for a
+*easter_days* -- Get number of days after March 21 on which Easter falls for a
 given year
 
   int easter_days([int year [, int method]])~

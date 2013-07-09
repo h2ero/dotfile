@@ -1,4 +1,4 @@
-trader_cdlidentical3crows -- Identical Three Crows
+*trader_cdlidentical3crows* -- Identical Three Crows
 
   array trader_cdlidentical3crows(array open, array high, array low, array close)~
 

@@ -1,4 +1,4 @@
-trader_cdlxsidegap3methods -- Upside/Downside Gap Three Methods
+*trader_cdlxsidegap3methods* -- Upside/Downside Gap Three Methods
 
   array trader_cdlxsidegap3methods(array open, array high, array low, array close)~
 

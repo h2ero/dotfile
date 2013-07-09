@@ -1,4 +1,4 @@
-getlastmod -- Gets time of last page modification
+*getlastmod* -- Gets time of last page modification
 
   int getlastmod()~
 

@@ -1,4 +1,4 @@
-pg_ping -- Ping database connection
+*pg_ping* -- Ping database connection
 
   bool pg_ping([resource connection])~
 

@@ -1,4 +1,4 @@
-trader_ht_sine -- Hilbert Transform - SineWave
+*trader_ht_sine* -- Hilbert Transform - SineWave
 
   array trader_ht_sine(array real)~
 

@@ -1,4 +1,4 @@
-array_intersect_ukey -- Computes the intersection of arrays using a callback
+*array_intersect_ukey* -- Computes the intersection of arrays using a callback
 function on the keys for comparison
 
   array array_intersect_ukey(array array1, array array2 [, array ..., callable key_compare_func])~

@@ -1,4 +1,4 @@
-cubrid_lob_get -- Get BLOB/CLOB data
+*cubrid_lob_get* -- Get BLOB/CLOB data
 
   array cubrid_lob_get(resource conn_identifier, string sql)~
 

@@ -1,4 +1,4 @@
-mt_rand -- Generate a better random value
+*mt_rand* -- Generate a better random value
 
   int mt_rand()~
 

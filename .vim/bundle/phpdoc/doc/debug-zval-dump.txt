@@ -1,4 +1,4 @@
-debug_zval_dump -- Dumps a string representation of an internal zend value to
+*debug_zval_dump* -- Dumps a string representation of an internal zend value to
 output
 
   void debug_zval_dump(mixed variable [, mixed ...])~

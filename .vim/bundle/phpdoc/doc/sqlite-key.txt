@@ -1,4 +1,4 @@
-SQLiteResult::key -- Returns the current row index
+*SQLiteResult*::key -- Returns the current row index
 
 Object oriented style (method):
 

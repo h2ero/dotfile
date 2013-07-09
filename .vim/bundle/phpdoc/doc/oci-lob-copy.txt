@@ -1,4 +1,4 @@
-oci_lob_copy -- Copies large object
+*oci_lob_copy* -- Copies large object
 
   bool oci_lob_copy(OCI-Lob lob_to, OCI-Lob lob_from [, int length])~
 

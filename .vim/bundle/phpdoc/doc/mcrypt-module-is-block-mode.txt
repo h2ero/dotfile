@@ -1,4 +1,4 @@
-mcrypt_module_is_block_mode -- Returns if the specified mode outputs blocks or
+*mcrypt_module_is_block_mode* -- Returns if the specified mode outputs blocks or
 not
 
   bool mcrypt_module_is_block_mode(string mode [, string lib_dir])~

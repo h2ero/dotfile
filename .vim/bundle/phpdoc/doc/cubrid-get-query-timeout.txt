@@ -1,4 +1,4 @@
-cubrid_get_query_timeout -- Get the query timeout value of the request
+*cubrid_get_query_timeout* -- Get the query timeout value of the request
 
   int cubrid_get_query_timeout(resource req_identifier)~
 

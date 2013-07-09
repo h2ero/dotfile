@@ -1,4 +1,4 @@
-getimagesize -- Get the size of an image
+*getimagesize* -- Get the size of an image
 
   array getimagesize(string filename [, array imageinfo])~
 

@@ -1,4 +1,4 @@
-xslt_process -- Perform an XSLT transformation
+*xslt_process* -- Perform an XSLT transformation
 
   mixed xslt_process(resource xh, string xmlcontainer, string xslcontainer [, string resultcontainer [, array arguments [, array parameters]]])~
 

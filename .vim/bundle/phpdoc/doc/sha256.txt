@@ -1,4 +1,4 @@
-sha256 -- Calculate the sha256 hash of a string
+*sha256* -- Calculate the sha256 hash of a string
 
   string sha256(string str [, bool raw_output])~
 

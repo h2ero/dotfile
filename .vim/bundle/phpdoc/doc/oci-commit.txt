@@ -1,4 +1,4 @@
-oci_commit -- Commits the outstanding database transaction
+*oci_commit* -- Commits the outstanding database transaction
 
   bool oci_commit(resource connection)~
 

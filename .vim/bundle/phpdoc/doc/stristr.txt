@@ -1,4 +1,4 @@
-stristr -- Case-insensitive strstr
+*stristr* -- Case-insensitive strstr
 
   string stristr(string haystack, mixed needle [, bool before_needle])~
 

@@ -1,4 +1,4 @@
-trader_maxindex -- Index of highest value over a specified period
+*trader_maxindex* -- Index of highest value over a specified period
 
   array trader_maxindex(array real [, integer timePeriod])~
 

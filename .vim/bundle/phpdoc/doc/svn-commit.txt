@@ -1,4 +1,4 @@
-svn_commit -- Sends changes from the local working copy to the repository
+*svn_commit* -- Sends changes from the local working copy to the repository
 
   array svn_commit(string log, array targets [, bool recursive])~
 

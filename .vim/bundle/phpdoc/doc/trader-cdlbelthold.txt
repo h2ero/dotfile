@@ -1,4 +1,4 @@
-trader_cdlbelthold -- Belt-hold
+*trader_cdlbelthold* -- Belt-hold
 
   array trader_cdlbelthold(array open, array high, array low, array close)~
 

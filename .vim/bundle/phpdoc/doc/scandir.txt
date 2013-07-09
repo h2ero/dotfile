@@ -1,4 +1,4 @@
-scandir -- List files and directories inside the specified path
+*scandir* -- List files and directories inside the specified path
 
   array scandir(string directory [, int sorting_order [, resource context]])~
 

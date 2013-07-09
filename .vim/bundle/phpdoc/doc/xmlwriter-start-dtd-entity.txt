@@ -1,4 +1,4 @@
-xmlwriter_start_dtd_entity -- Create start DTD Entity
+*xmlwriter_start_dtd_entity* -- Create start DTD Entity
 
 Object oriented style
 

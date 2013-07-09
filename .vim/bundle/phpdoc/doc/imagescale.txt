@@ -1,4 +1,4 @@
-imagescale -- Scale an image using the given new width and height
+*imagescale* -- Scale an image using the given new width and height
 
   resource imagescale(resource image, int new_width [, int new_height [, int mode]])~
 

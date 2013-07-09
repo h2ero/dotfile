@@ -1,4 +1,4 @@
-oci_close -- Closes an Oracle connection
+*oci_close* -- Closes an Oracle connection
 
   bool oci_close(resource connection)~
 

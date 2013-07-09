@@ -1,4 +1,4 @@
-exit -- Output a message and terminate the current script
+*exit* -- Output a message and terminate the current script
 
   void exit([string status])~
 

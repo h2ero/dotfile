@@ -1,4 +1,4 @@
-imagepalettetotruecolor -- Converts a palette based image to true color
+*imagepalettetotruecolor* -- Converts a palette based image to true color
 
   bool imagepalettetotruecolor(resource src)~
 

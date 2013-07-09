@@ -1,4 +1,4 @@
-curl_init -- Initialize a cURL session
+*curl_init* -- Initialize a cURL session
 
   resource curl_init([string url])~
 

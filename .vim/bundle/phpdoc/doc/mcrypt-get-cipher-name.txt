@@ -1,4 +1,4 @@
-mcrypt_get_cipher_name -- Gets the name of the specified cipher
+*mcrypt_get_cipher_name* -- Gets the name of the specified cipher
 
   string mcrypt_get_cipher_name(int cipher)~
 

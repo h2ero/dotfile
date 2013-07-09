@@ -1,4 +1,4 @@
-imagefontheight -- Get font height
+*imagefontheight* -- Get font height
 
   int imagefontheight(int font)~
 

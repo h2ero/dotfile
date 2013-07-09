@@ -1,4 +1,4 @@
-geoip_country_code_by_name -- Get the two letter country code
+*geoip_country_code_by_name* -- Get the two letter country code
 
   string geoip_country_code_by_name(string hostname)~
 

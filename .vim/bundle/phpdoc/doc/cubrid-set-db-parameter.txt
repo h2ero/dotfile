@@ -1,4 +1,4 @@
-cubrid_set_db_parameter -- Sets the CUBRID database parameters
+*cubrid_set_db_parameter* -- Sets the CUBRID database parameters
 
   bool cubrid_set_db_parameter(resource conn_identifier, int param_type, int param_value)~
 

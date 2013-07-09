@@ -1,4 +1,4 @@
-trader_midpoint -- MidPoint over period
+*trader_midpoint* -- MidPoint over period
 
   array trader_midpoint(array real [, integer timePeriod])~
 

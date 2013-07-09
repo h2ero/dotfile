@@ -1,4 +1,4 @@
-cubrid_get_charset -- Return the current CUBRID connection charset
+*cubrid_get_charset* -- Return the current CUBRID connection charset
 
   string cubrid_get_charset(resource conn_identifier)~
 

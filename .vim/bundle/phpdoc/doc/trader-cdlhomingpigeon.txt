@@ -1,4 +1,4 @@
-trader_cdlhomingpigeon -- Homing Pigeon
+*trader_cdlhomingpigeon* -- Homing Pigeon
 
   array trader_cdlhomingpigeon(array open, array high, array low, array close)~
 

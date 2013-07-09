@@ -1,4 +1,4 @@
-strptime -- Parse a time/date generated with strftime
+*strptime* -- Parse a time/date generated with strftime
 
   array strptime(string date, string format)~
 

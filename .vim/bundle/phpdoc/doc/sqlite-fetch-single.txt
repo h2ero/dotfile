@@ -1,4 +1,4 @@
-SQLiteUnbuffered::fetchSingle -- Fetches the first column of a result set as a
+*SQLiteUnbuffered*::fetchSingle -- Fetches the first column of a result set as a
 string
 
   string sqlite_fetch_single(resource result [, bool decode_binary])~

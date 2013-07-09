@@ -1,4 +1,4 @@
-ibase_connect -- Open a connection to a database
+*ibase_connect* -- Open a connection to a database
 
   resource ibase_connect([string database [, string username [, string password [, string charset [, int buffers [, int dialect [, string role [, int sync]]]]]]]])~
 

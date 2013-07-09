@@ -1,4 +1,4 @@
-trader_avgprice -- Average Price
+*trader_avgprice* -- Average Price
 
   array trader_avgprice(array open, array high, array low, array close)~
 

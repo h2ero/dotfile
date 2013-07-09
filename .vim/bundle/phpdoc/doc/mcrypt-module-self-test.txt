@@ -1,4 +1,4 @@
-mcrypt_module_self_test -- This function runs a self test on the specified
+*mcrypt_module_self_test* -- This function runs a self test on the specified
 module
 
   bool mcrypt_module_self_test(string algorithm [, string lib_dir])~

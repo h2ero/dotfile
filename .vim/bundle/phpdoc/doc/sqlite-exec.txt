@@ -1,4 +1,4 @@
-SQLiteDatabase::exec -- Executes a result-less query against a given database
+*SQLiteDatabase*::exec -- Executes a result-less query against a given database
 
   bool sqlite_exec(resource dbhandle, string query [, string error_msg])~
 

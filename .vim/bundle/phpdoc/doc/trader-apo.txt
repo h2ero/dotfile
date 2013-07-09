@@ -1,4 +1,4 @@
-trader_apo -- Absolute Price Oscillator
+*trader_apo* -- Absolute Price Oscillator
 
   array trader_apo(array real [, integer fastPeriod [, integer slowPeriod [, integer mAType]]])~
 

@@ -1,4 +1,4 @@
-radius_put_vendor_string -- Attaches a vendor specific string attribute
+*radius_put_vendor_string* -- Attaches a vendor specific string attribute
 
   bool radius_put_vendor_string(resource radius_handle, int vendor, int type, string value)~
 

@@ -1,4 +1,4 @@
-zlib_decode -- Uncompress any raw/gzip/zlib encoded data
+*zlib_decode* -- Uncompress any raw/gzip/zlib encoded data
 
   string zlib_decode(string data [, string max_decoded_len])~
 

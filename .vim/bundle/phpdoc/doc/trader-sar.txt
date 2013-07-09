@@ -1,4 +1,4 @@
-trader_sar -- Parabolic SAR
+*trader_sar* -- Parabolic SAR
 
   array trader_sar(array high, array low [, float acceleration [, float maximum]])~
 

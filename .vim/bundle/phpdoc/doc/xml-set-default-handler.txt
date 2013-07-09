@@ -1,4 +1,4 @@
-xml_set_default_handler -- Set up default handler
+*xml_set_default_handler* -- Set up default handler
 
   bool xml_set_default_handler(resource parser, callable handler)~
 

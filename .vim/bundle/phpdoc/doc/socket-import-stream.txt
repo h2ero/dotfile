@@ -1,4 +1,4 @@
-socket_import_stream -- Import a stream
+*socket_import_stream* -- Import a stream
 
   resource socket_import_stream(resource stream)~
 

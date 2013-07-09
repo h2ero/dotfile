@@ -1,4 +1,4 @@
-get_defined_functions -- Returns an array of all defined functions
+*get_defined_functions* -- Returns an array of all defined functions
 
   array get_defined_functions()~
 

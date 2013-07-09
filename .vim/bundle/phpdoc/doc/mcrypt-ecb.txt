@@ -1,4 +1,4 @@
-mcrypt_ecb -- Deprecated: Encrypts/decrypts data in ECB mode
+*mcrypt_ecb* -- Deprecated: Encrypts/decrypts data in ECB mode
 
   string mcrypt_ecb(int cipher, string key, string data, int mode)~
 

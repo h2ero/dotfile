@@ -1,4 +1,4 @@
-oci_result -- Returns field's value from the fetched row
+*oci_result* -- Returns field's value from the fetched row
 
   mixed oci_result(resource statement, mixed field)~
 

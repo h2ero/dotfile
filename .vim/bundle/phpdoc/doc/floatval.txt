@@ -1,4 +1,4 @@
-floatval -- Get float value of a variable
+*floatval* -- Get float value of a variable
 
   float floatval(mixed var)~
 

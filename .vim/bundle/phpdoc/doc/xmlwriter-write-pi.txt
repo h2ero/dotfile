@@ -1,4 +1,4 @@
-xmlwriter_write_pi -- Writes a PI
+*xmlwriter_write_pi* -- Writes a PI
 
 Object oriented style
 

@@ -1,4 +1,4 @@
-sha1 -- Calculate the sha1 hash of a string
+*sha1* -- Calculate the sha1 hash of a string
 
   string sha1(string str [, bool raw_output])~
 

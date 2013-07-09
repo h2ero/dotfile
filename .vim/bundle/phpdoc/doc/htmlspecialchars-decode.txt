@@ -1,4 +1,4 @@
-htmlspecialchars_decode -- Convert special HTML entities back to characters
+*htmlspecialchars_decode* -- Convert special HTML entities back to characters
 
   string htmlspecialchars_decode(string string [, int flags])~
 

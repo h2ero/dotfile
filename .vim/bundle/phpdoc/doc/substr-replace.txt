@@ -1,4 +1,4 @@
-substr_replace -- Replace text within a portion of a string
+*substr_replace* -- Replace text within a portion of a string
 
   mixed substr_replace(mixed string, mixed replacement, mixed start [, mixed length])~
 

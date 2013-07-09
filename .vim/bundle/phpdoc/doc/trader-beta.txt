@@ -1,4 +1,4 @@
-trader_beta -- Beta
+*trader_beta* -- Beta
 
   array trader_beta(array real0, array real1 [, integer timePeriod])~
 

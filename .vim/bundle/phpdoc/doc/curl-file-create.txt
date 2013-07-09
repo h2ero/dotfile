@@ -1,4 +1,4 @@
-curl_file_create -- Create a CURLFile object
+*curl_file_create* -- Create a CURLFile object
 
   CURLFile curl_file_create(string filename [, string mimetype [, string postname]])~
 

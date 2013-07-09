@@ -1,4 +1,4 @@
-pg_trace -- Enable tracing a PostgreSQL connection
+*pg_trace* -- Enable tracing a PostgreSQL connection
 
   bool pg_trace(string pathname [, string mode [, resource connection]])~
 

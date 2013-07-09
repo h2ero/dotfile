@@ -1,4 +1,4 @@
-iconv_strrpos -- Finds the last occurrence of a needle within a haystack
+*iconv_strrpos* -- Finds the last occurrence of a needle within a haystack
 
   int iconv_strrpos(string haystack, string needle [, string charset])~
 

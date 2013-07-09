@@ -1,4 +1,4 @@
-trader_add -- Vector Arithmetic Add
+*trader_add* -- Vector Arithmetic Add
 
   array trader_add(array real0, array real1)~
 

@@ -1,4 +1,4 @@
-rrd_info -- Gets information about rrd file
+*rrd_info* -- Gets information about rrd file
 
   array rrd_info(string filename)~
 

@@ -1,4 +1,4 @@
-mysqlnd_qc_set_cache_condition -- Set conditions for automatic caching
+*mysqlnd_qc_set_cache_condition* -- Set conditions for automatic caching
 
   bool mysqlnd_qc_set_cache_condition(int condition_type, mixed condition, mixed condition_option)~
 

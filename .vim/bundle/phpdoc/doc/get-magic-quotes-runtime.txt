@@ -1,4 +1,4 @@
-get_magic_quotes_runtime -- Gets the current active configuration setting of
+*get_magic_quotes_runtime* -- Gets the current active configuration setting of
 magic_quotes_runtime
 
   bool get_magic_quotes_runtime()~

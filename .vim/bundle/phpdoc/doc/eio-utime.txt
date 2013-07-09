@@ -1,4 +1,4 @@
-eio_utime -- Change file last access and modification times.
+*eio_utime* -- Change file last access and modification times.
 
   resource eio_utime(string path, float atime, float mtime [, int pri [, callable callback [, mixed data]]])~
 

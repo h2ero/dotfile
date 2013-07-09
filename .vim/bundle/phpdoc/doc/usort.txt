@@ -1,4 +1,4 @@
-usort -- Sort an array by values using a user-defined comparison function
+*usort* -- Sort an array by values using a user-defined comparison function
 
   bool usort(array array, callable cmp_function)~
 

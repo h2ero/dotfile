@@ -1,4 +1,4 @@
-snmpset -- Set the value of an SNMP object
+*snmpset* -- Set the value of an SNMP object
 
   bool snmpset(string host, string community, string object_id, string type, mixed value [, int timeout [, int retries]])~
 

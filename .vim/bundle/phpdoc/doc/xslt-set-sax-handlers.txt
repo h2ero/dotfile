@@ -1,4 +1,4 @@
-xslt_set_sax_handlers -- Set the SAX handlers to be called when the XML
+*xslt_set_sax_handlers* -- Set the SAX handlers to be called when the XML
 document gets processed
 
   void xslt_set_sax_handlers(resource processor, array handlers)~

@@ -1,4 +1,4 @@
-curl_errno -- Return the last error number
+*curl_errno* -- Return the last error number
 
   int curl_errno(resource ch)~
 

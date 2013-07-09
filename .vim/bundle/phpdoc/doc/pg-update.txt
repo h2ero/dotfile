@@ -1,4 +1,4 @@
-pg_update -- Update table
+*pg_update* -- Update table
 
   mixed pg_update(resource connection, string table_name, array data, array condition [, int options])~
 

@@ -1,4 +1,4 @@
-xslt_set_log -- Set the log file to write log messages to
+*xslt_set_log* -- Set the log file to write log messages to
 
   void xslt_set_log(resource xh [, mixed log])~
 

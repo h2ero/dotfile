@@ -1,4 +1,4 @@
-sqlsrv_free_stmt -- Frees all resources for the specified statement
+*sqlsrv_free_stmt* -- Frees all resources for the specified statement
 
   bool sqlsrv_free_stmt(resource stmt)~
 

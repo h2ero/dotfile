@@ -1,4 +1,4 @@
-func_num_args -- Returns the number of arguments passed to the function
+*func_num_args* -- Returns the number of arguments passed to the function
 
   int func_num_args()~
 

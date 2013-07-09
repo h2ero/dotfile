@@ -1,4 +1,4 @@
-shell_exec -- Execute command via shell and return the complete output as a
+*shell_exec* -- Execute command via shell and return the complete output as a
 string
 
   string shell_exec(string cmd)~

@@ -1,4 +1,4 @@
-imageaffinematrixget -- Return an image containing the affine tramsformed src
+*imageaffinematrixget* -- Return an image containing the affine tramsformed src
 image, using an optional clipping area
 
   array imageaffinematrixget(int type [, mixed options])~

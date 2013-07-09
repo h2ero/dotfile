@@ -1,4 +1,4 @@
-cubrid_lob_size -- Get BLOB/CLOB data size
+*cubrid_lob_size* -- Get BLOB/CLOB data size
 
   string cubrid_lob_size(resource lob_identifier)~
 

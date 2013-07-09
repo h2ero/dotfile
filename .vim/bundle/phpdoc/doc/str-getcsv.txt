@@ -1,4 +1,4 @@
-str_getcsv -- Parse a CSV string into an array
+*str_getcsv* -- Parse a CSV string into an array
 
   array str_getcsv(string input [, string delimiter [, string enclosure [, string escape]]])~
 

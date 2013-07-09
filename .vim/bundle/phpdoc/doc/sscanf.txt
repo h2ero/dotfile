@@ -1,4 +1,4 @@
-sscanf -- Parses input from a string according to a format
+*sscanf* -- Parses input from a string according to a format
 
   mixed sscanf(string str, string format [, mixed ...])~
 

@@ -1,4 +1,4 @@
-xml_set_element_handler -- Set up start and end element handlers
+*xml_set_element_handler* -- Set up start and end element handlers
 
   bool xml_set_element_handler(resource parser, callable start_element_handler, callable end_element_handler)~
 

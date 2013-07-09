@@ -1,4 +1,4 @@
-eio_rename -- Change the name or location of a file.
+*eio_rename* -- Change the name or location of a file.
 
   resource eio_rename(string path, string new_path [, int pri [, callable callback [, mixed data]]])~
 

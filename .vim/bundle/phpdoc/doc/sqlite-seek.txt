@@ -1,4 +1,4 @@
-SQLiteResult::seek -- Seek to a particular row number of a buffered result set
+*SQLiteResult*::seek -- Seek to a particular row number of a buffered result set
 
   bool sqlite_seek(resource result, int rownum)~
 

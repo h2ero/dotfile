@@ -1,4 +1,4 @@
-trader_cdlshootingstar -- Shooting Star
+*trader_cdlshootingstar* -- Shooting Star
 
   array trader_cdlshootingstar(array open, array high, array low, array close)~
 

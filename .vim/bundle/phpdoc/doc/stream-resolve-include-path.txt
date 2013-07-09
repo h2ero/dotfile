@@ -1,4 +1,4 @@
-stream_resolve_include_path -- Resolve filename against the include path
+*stream_resolve_include_path* -- Resolve filename against the include path
 
   string stream_resolve_include_path(string filename)~
 

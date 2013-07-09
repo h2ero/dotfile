@@ -1,4 +1,4 @@
-eio_grp_limit -- Set group limit
+*eio_grp_limit* -- Set group limit
 
   void eio_grp_limit(resource grp, int limit)~
 

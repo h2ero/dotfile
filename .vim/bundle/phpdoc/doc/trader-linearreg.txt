@@ -1,4 +1,4 @@
-trader_linearreg -- Linear Regression
+*trader_linearreg* -- Linear Regression
 
   array trader_linearreg(array real [, integer timePeriod])~
 

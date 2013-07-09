@@ -1,4 +1,4 @@
-pow -- Exponential expression
+*pow* -- Exponential expression
 
   number pow(number base, number exp)~
 

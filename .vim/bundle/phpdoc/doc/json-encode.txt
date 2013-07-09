@@ -1,4 +1,4 @@
-json_encode -- Returns the JSON representation of a value
+*json_encode* -- Returns the JSON representation of a value
 
   string json_encode(mixed value [, int options [, int depth]])~
 

@@ -1,4 +1,4 @@
-eio_set_min_parallel -- Set minimum parallel thread number
+*eio_set_min_parallel* -- Set minimum parallel thread number
 
   void eio_set_min_parallel(string nthreads)~
 

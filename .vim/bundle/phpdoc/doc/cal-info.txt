@@ -1,4 +1,4 @@
-cal_info -- Returns information about a particular calendar
+*cal_info* -- Returns information about a particular calendar
 
   array cal_info([int calendar])~
 

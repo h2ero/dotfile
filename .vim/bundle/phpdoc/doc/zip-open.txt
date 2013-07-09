@@ -1,4 +1,4 @@
-zip_open -- Open a ZIP file archive
+*zip_open* -- Open a ZIP file archive
 
   resource zip_open(string filename)~
 

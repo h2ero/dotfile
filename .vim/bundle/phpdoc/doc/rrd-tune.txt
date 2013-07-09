@@ -1,4 +1,4 @@
-rrd_tune -- Tunes some RRD database file header options.
+*rrd_tune* -- Tunes some RRD database file header options.
 
   bool rrd_tune(string filename, array options)~
 

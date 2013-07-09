@@ -1,4 +1,4 @@
-range -- Create an array containing a range of elements
+*range* -- Create an array containing a range of elements
 
   array range(mixed start, mixed end [, number step])~
 

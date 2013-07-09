@@ -1,4 +1,4 @@
-image2wbmp -- Output image to browser or file
+*image2wbmp* -- Output image to browser or file
 
   bool image2wbmp(resource image [, string filename [, int threshold]])~
 

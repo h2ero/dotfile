@@ -1,4 +1,4 @@
-xslt_set_error_handler -- Set an error handler for a XSLT processor
+*xslt_set_error_handler* -- Set an error handler for a XSLT processor
 
   void xslt_set_error_handler(resource xh, mixed handler)~
 

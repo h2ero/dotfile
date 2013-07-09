@@ -1,4 +1,4 @@
-wordwrap -- Wraps a string to a given number of characters
+*wordwrap* -- Wraps a string to a given number of characters
 
   string wordwrap(string str [, int width [, string break [, bool cut]]])~
 

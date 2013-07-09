@@ -1,4 +1,4 @@
-fdf_enum_values -- Call a user defined function for each document value
+*fdf_enum_values* -- Call a user defined function for each document value
 
   bool fdf_enum_values(resource fdf_document, callable function [, mixed userdata])~
 

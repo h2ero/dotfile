@@ -1,4 +1,4 @@
-xml_set_character_data_handler -- Set up character data handler
+*xml_set_character_data_handler* -- Set up character data handler
 
   bool xml_set_character_data_handler(resource parser, callable handler)~
 

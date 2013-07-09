@@ -1,4 +1,4 @@
-flock -- Portable advisory file locking
+*flock* -- Portable advisory file locking
 
   bool flock(resource handle, int operation [, int wouldblock])~
 

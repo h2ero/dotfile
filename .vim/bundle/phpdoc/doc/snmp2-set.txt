@@ -1,4 +1,4 @@
-snmp2_set -- Set the value of an SNMP object
+*snmp2_set* -- Set the value of an SNMP object
 
   bool snmp2_set(string host, string community, string object_id, string type, string value [, string timeout [, string retries]])~
 

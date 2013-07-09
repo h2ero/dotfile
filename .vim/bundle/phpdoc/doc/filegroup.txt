@@ -1,4 +1,4 @@
-filegroup -- Gets file group
+*filegroup* -- Gets file group
 
   int filegroup(string filename)~
 

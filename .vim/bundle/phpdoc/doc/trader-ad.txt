@@ -1,4 +1,4 @@
-trader_ad -- Chaikin A/D Line
+*trader_ad* -- Chaikin A/D Line
 
   array trader_ad(array high, array low, array close, array volume)~
 

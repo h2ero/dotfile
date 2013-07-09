@@ -1,4 +1,4 @@
-localtime -- Get the local time
+*localtime* -- Get the local time
 
   array localtime([int timestamp [, bool is_associative]])~
 

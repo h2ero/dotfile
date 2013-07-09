@@ -1,4 +1,4 @@
-gmp_testbit -- Tests if a bit is set
+*gmp_testbit* -- Tests if a bit is set
 
   bool gmp_testbit(resource a, int index)~
 

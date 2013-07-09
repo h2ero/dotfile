@@ -1,4 +1,4 @@
-SQLiteUnbuffered::fieldName -- Returns the name of a particular field
+*SQLiteUnbuffered*::fieldName -- Returns the name of a particular field
 
   string sqlite_field_name(resource result, int field_index)~
 

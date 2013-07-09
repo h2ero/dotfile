@@ -1,4 +1,4 @@
-current -- Return the current element in an array
+*current* -- Return the current element in an array
 
   mixed current(array array)~
 

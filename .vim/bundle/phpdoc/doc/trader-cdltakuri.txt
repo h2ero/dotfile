@@ -1,4 +1,4 @@
-trader_cdltakuri -- Takuri (Dragonfly Doji with very long lower shadow)
+*trader_cdltakuri* -- Takuri (Dragonfly Doji with very long lower shadow)
 
   array trader_cdltakuri(array open, array high, array low, array close)~
 

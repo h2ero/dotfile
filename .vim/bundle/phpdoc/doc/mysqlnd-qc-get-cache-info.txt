@@ -1,4 +1,4 @@
-mysqlnd_qc_get_cache_info -- Returns information on the current handler, the
+*mysqlnd_qc_get_cache_info* -- Returns information on the current handler, the
 number of cache entries and cache entries, if available
 
   array mysqlnd_qc_get_cache_info()~

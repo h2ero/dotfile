@@ -1,4 +1,4 @@
-snmpwalk -- Fetch all the SNMP objects from an agent
+*snmpwalk* -- Fetch all the SNMP objects from an agent
 
   array snmpwalk(string hostname, string community, string object_id [, int timeout [, int retries]])~
 

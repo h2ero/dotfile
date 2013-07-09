@@ -1,4 +1,4 @@
-oci_fetch_assoc -- Returns the next row from a query as an associative array
+*oci_fetch_assoc* -- Returns the next row from a query as an associative array
 
   array oci_fetch_assoc(resource statement)~
 

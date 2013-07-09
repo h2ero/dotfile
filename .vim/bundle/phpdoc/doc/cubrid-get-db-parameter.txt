@@ -1,4 +1,4 @@
-cubrid_get_db_parameter -- Returns the CUBRID database parameters
+*cubrid_get_db_parameter* -- Returns the CUBRID database parameters
 
   array cubrid_get_db_parameter(resource conn_identifier)~
 

@@ -1,4 +1,4 @@
-trader_cmo -- Chande Momentum Oscillator
+*trader_cmo* -- Chande Momentum Oscillator
 
   array trader_cmo(array real [, integer timePeriod])~
 

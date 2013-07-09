@@ -1,4 +1,4 @@
-hex2bin -- Decodes a hexadecimally encoded binary string
+*hex2bin* -- Decodes a hexadecimally encoded binary string
 
   string hex2bin(string data)~
 

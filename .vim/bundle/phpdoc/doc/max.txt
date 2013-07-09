@@ -1,4 +1,4 @@
-max -- Find highest value
+*max* -- Find highest value
 
   mixed max(array values)~
 

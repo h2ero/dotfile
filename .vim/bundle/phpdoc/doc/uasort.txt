@@ -1,4 +1,4 @@
-uasort -- Sort an array with a user-defined comparison function and maintain
+*uasort* -- Sort an array with a user-defined comparison function and maintain
 index association
 
   bool uasort(array array, callable cmp_function)~

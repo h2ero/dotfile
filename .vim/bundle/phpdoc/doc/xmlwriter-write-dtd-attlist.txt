@@ -1,4 +1,4 @@
-xmlwriter_write_dtd_attlist -- Write full DTD AttList tag
+*xmlwriter_write_dtd_attlist* -- Write full DTD AttList tag
 
 Object oriented style
 

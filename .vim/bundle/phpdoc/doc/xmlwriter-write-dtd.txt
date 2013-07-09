@@ -1,4 +1,4 @@
-xmlwriter_write_dtd -- Write full DTD tag
+*xmlwriter_write_dtd* -- Write full DTD tag
 
 Object oriented style
 

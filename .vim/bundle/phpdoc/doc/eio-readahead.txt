@@ -1,4 +1,4 @@
-eio_readahead -- Perform file readahead into page cache
+*eio_readahead* -- Perform file readahead into page cache
 
   resource eio_readahead(mixed fd, int offset, int length [, int pri [, callable callback [, mixed data]]])~
 

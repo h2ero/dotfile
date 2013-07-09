@@ -1,4 +1,4 @@
-array_merge -- Merge one or more arrays
+*array_merge* -- Merge one or more arrays
 
   array array_merge(array array1 [, array ...])~
 

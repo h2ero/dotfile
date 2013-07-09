@@ -1,4 +1,4 @@
-dns_get_record -- Fetch DNS Resource Records associated with a hostname
+*dns_get_record* -- Fetch DNS Resource Records associated with a hostname
 
   array dns_get_record(string hostname [, int type [, array authns [, array addtl [, bool raw]]]])~
 

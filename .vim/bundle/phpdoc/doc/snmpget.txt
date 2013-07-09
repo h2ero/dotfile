@@ -1,4 +1,4 @@
-snmpget -- Fetch an SNMP object
+*snmpget* -- Fetch an SNMP object
 
   string snmpget(string hostname, string community, string object_id [, int timeout [, int retries]])~
 

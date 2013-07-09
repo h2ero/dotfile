@@ -1,4 +1,4 @@
-xhprof_disable -- Stops xhprof profiler
+*xhprof_disable* -- Stops xhprof profiler
 
   array xhprof_disable()~
 

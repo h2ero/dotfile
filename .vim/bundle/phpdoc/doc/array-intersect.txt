@@ -1,4 +1,4 @@
-array_intersect -- Computes the intersection of arrays
+*array_intersect* -- Computes the intersection of arrays
 
   array array_intersect(array array1, array array2 [, array ...])~
 

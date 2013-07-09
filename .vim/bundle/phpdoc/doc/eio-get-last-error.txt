@@ -1,4 +1,4 @@
-eio_get_last_error -- Returns string describing the last error associated with
+*eio_get_last_error* -- Returns string describing the last error associated with
 a request resource
 
   string eio_get_last_error(resource req)~

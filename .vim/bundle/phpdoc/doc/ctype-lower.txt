@@ -1,4 +1,4 @@
-ctype_lower -- Check for lowercase character(s)
+*ctype_lower* -- Check for lowercase character(s)
 
   bool ctype_lower(string text)~
 

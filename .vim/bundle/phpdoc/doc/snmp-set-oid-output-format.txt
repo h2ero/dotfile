@@ -1,4 +1,4 @@
-snmp_set_oid_output_format -- Set the OID output format
+*snmp_set_oid_output_format* -- Set the OID output format
 
   bool snmp_set_oid_output_format(int oid_format)~
 

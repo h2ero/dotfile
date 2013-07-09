@@ -1,4 +1,4 @@
-pg_unescape_bytea -- Unescape binary for bytea type
+*pg_unescape_bytea* -- Unescape binary for bytea type
 
   string pg_unescape_bytea(string data)~
 

@@ -1,4 +1,4 @@
-trader_cdlgapsidesidewhite -- Up/Down-gap side-by-side white lines
+*trader_cdlgapsidesidewhite* -- Up/Down-gap side-by-side white lines
 
   array trader_cdlgapsidesidewhite(array open, array high, array low, array close)~
 

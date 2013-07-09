@@ -1,4 +1,4 @@
-rrd_graph -- Creates image from a data.
+*rrd_graph* -- Creates image from a data.
 
   array rrd_graph(string filename, array options)~
 

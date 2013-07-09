@@ -1,4 +1,4 @@
-mb_convert_case -- Perform case folding on a string
+*mb_convert_case* -- Perform case folding on a string
 
   string mb_convert_case(string str, int mode [, string encoding])~
 

@@ -1,4 +1,4 @@
-eio_fchown -- Change file ownership
+*eio_fchown* -- Change file ownership
 
   resource eio_fchown(mixed fd, int uid [, int gid [, int pri [, callable callback [, mixed data]]]])~
 

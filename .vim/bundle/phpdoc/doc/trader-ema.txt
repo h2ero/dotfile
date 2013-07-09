@@ -1,4 +1,4 @@
-trader_ema -- Exponential Moving Average
+*trader_ema* -- Exponential Moving Average
 
   array trader_ema(array real [, integer timePeriod])~
 

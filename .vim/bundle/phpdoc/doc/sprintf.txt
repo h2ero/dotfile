@@ -1,4 +1,4 @@
-sprintf -- Return a formatted string
+*sprintf* -- Return a formatted string
 
   string sprintf(string format [, mixed args [, mixed ...]])~
 

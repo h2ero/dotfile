@@ -1,4 +1,4 @@
-maxdb_connect_errno -- Returns the error code from last connect call
+*maxdb_connect_errno* -- Returns the error code from last connect call
 
   int maxdb_connect_errno()~
 

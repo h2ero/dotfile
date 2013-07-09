@@ -1,4 +1,4 @@
-imagettftext -- Write text to the image using TrueType fonts
+*imagettftext* -- Write text to the image using TrueType fonts
 
   array imagettftext(resource image, float size, float angle, int x, int y, int color, string fontfile, string text)~
 

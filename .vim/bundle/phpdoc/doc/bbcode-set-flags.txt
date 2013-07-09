@@ -1,4 +1,4 @@
-bbcode_set_flags -- Set or alter parser options
+*bbcode_set_flags* -- Set or alter parser options
 
   bool bbcode_set_flags(resource bbcode_container, int flags [, int mode])~
 

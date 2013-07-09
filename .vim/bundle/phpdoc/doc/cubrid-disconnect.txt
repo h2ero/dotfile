@@ -1,4 +1,4 @@
-cubrid_disconnect -- Close a database connection
+*cubrid_disconnect* -- Close a database connection
 
   bool cubrid_disconnect([resource conn_identifier])~
 

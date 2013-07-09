@@ -1,4 +1,4 @@
-echo -- Output one or more strings
+*echo* -- Output one or more strings
 
   void echo(string arg1 [, string ...])~
 

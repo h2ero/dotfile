@@ -1,4 +1,4 @@
-cubrid_close_prepare -- Close the request handle
+*cubrid_close_prepare* -- Close the request handle
 
   bool cubrid_close_prepare(resource req_identifier)~
 

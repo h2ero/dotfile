@@ -1,4 +1,4 @@
-xpath_eval -- Evaluates the XPath Location Path in the given string
+*xpath_eval* -- Evaluates the XPath Location Path in the given string
 
   XPathObject XPathContext::xpath_eval(string xpath_expression [, domnode contextnode])~
 

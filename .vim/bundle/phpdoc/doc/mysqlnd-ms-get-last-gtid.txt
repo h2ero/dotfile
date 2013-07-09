@@ -1,4 +1,4 @@
-mysqlnd_ms_get_last_gtid -- Returns the latest global transaction ID
+*mysqlnd_ms_get_last_gtid* -- Returns the latest global transaction ID
 
   string mysqlnd_ms_get_last_gtid(mixed connection)~
 

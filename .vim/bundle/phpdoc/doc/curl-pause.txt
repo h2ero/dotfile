@@ -1,4 +1,4 @@
-curl_pause -- Pause and unpause a connection
+*curl_pause* -- Pause and unpause a connection
 
   int curl_pause(resource ch, int bitmask)~
 

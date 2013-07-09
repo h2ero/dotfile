@@ -1,4 +1,4 @@
-trader_atan -- Vector Trigonometric ATan
+*trader_atan* -- Vector Trigonometric ATan
 
   array trader_atan(array real)~
 

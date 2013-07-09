@@ -1,4 +1,4 @@
-ssh2_auth_agent -- Authenticate over SSH using the ssh agent
+*ssh2_auth_agent* -- Authenticate over SSH using the ssh agent
 
   bool ssh2_auth_agent(resource session, string username)~
 

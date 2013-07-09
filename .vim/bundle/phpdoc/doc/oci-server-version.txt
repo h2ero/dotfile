@@ -1,4 +1,4 @@
-oci_server_version -- Returns the Oracle Database version
+*oci_server_version* -- Returns the Oracle Database version
 
   string oci_server_version(resource connection)~
 

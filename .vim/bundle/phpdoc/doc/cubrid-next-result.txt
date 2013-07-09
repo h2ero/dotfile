@@ -1,4 +1,4 @@
-cubrid_next_result -- Get result of next query when executing multiple SQL
+*cubrid_next_result* -- Get result of next query when executing multiple SQL
 statements
 
   bool cubrid_next_result(resource result)~

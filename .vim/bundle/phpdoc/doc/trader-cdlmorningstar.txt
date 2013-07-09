@@ -1,4 +1,4 @@
-trader_cdlmorningstar -- Morning Star
+*trader_cdlmorningstar* -- Morning Star
 
   array trader_cdlmorningstar(array open, array high, array low, array close [, float penetration])~
 

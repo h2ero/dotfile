@@ -1,4 +1,4 @@
-debug_backtrace -- Generates a backtrace
+*debug_backtrace* -- Generates a backtrace
 
   array debug_backtrace([int options [, int limit]])~
 

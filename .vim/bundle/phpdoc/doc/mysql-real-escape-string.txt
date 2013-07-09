@@ -1,4 +1,4 @@
-mysql_real_escape_string -- Escapes special characters in a string for use in
+*mysql_real_escape_string* -- Escapes special characters in a string for use in
 an SQL statement
 
 This extension is deprecated as of PHP 5.5.0, and will be removed in the

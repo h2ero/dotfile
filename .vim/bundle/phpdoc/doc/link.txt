@@ -1,4 +1,4 @@
-link -- Create a hard link
+*link* -- Create a hard link
 
   bool link(string target, string link)~
 

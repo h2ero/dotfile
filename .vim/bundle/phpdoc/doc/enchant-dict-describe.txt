@@ -1,4 +1,4 @@
-enchant_dict_describe -- Describes an individual dictionary
+*enchant_dict_describe* -- Describes an individual dictionary
 
   mixed enchant_dict_describe(resource dict)~
 

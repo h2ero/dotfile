@@ -1,4 +1,4 @@
-bcscale -- Set default scale parameter for all bc math functions
+*bcscale* -- Set default scale parameter for all bc math functions
 
   bool bcscale(int scale)~
 

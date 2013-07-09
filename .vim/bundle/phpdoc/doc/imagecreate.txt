@@ -1,4 +1,4 @@
-imagecreate -- Create a new palette based image
+*imagecreate* -- Create a new palette based image
 
   resource imagecreate(int width, int height)~
 

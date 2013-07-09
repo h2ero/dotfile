@@ -1,4 +1,4 @@
-recode_string -- Recode a string according to a recode request
+*recode_string* -- Recode a string according to a recode request
 
   string recode_string(string request, string string)~
 

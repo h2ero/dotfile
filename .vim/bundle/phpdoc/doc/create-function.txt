@@ -1,4 +1,4 @@
-create_function -- Create an anonymous (lambda-style) function
+*create_function* -- Create an anonymous (lambda-style) function
 
   string create_function(string args, string code)~
 

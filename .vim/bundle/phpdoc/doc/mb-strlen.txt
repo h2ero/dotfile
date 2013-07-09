@@ -1,4 +1,4 @@
-mb_strlen -- Get string length
+*mb_strlen* -- Get string length
 
   int mb_strlen(string str [, string encoding])~
 

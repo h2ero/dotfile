@@ -1,4 +1,4 @@
-dl -- Loads a PHP extension at runtime
+*dl* -- Loads a PHP extension at runtime
 
   bool dl(string library)~
 

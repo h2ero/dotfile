@@ -1,4 +1,4 @@
-trader_cdlladderbottom -- Ladder Bottom
+*trader_cdlladderbottom* -- Ladder Bottom
 
   array trader_cdlladderbottom(array open, array high, array low, array close)~
 

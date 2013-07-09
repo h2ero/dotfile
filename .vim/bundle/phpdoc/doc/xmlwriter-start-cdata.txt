@@ -1,4 +1,4 @@
-xmlwriter_start_cdata -- Create start CDATA tag
+*xmlwriter_start_cdata* -- Create start CDATA tag
 
 Object oriented style
 

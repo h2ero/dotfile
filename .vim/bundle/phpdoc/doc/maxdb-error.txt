@@ -1,4 +1,4 @@
-maxdb::error -- Returns a string description of the last error
+*maxdb*::error -- Returns a string description of the last error
 
 Procedural style
 

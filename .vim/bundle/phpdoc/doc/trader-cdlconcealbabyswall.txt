@@ -1,4 +1,4 @@
-trader_cdlconcealbabyswall -- Concealing Baby Swallow
+*trader_cdlconcealbabyswall* -- Concealing Baby Swallow
 
   array trader_cdlconcealbabyswall(array open, array high, array low, array close)~
 

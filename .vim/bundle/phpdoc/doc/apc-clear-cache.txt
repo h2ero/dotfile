@@ -1,4 +1,4 @@
-apc_clear_cache -- Clears the APC cache
+*apc_clear_cache* -- Clears the APC cache
 
   bool apc_clear_cache([string cache_type])~
 

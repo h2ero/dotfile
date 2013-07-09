@@ -1,4 +1,4 @@
-zend_logo_guid -- Gets the Zend guid
+*zend_logo_guid* -- Gets the Zend guid
 
   string zend_logo_guid()~
 

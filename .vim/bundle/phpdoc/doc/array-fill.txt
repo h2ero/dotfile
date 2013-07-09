@@ -1,4 +1,4 @@
-array_fill -- Fill an array with values
+*array_fill* -- Fill an array with values
 
   array array_fill(int start_index, int num, mixed value)~
 

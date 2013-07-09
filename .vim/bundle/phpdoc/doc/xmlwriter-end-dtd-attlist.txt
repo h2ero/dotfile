@@ -1,4 +1,4 @@
-xmlwriter_end_dtd_attlist -- End current DTD AttList
+*xmlwriter_end_dtd_attlist* -- End current DTD AttList
 
 Object oriented style
 

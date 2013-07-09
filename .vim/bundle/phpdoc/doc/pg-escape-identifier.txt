@@ -1,4 +1,4 @@
-pg_escape_identifier -- Escape a identifier for insertion into a text field
+*pg_escape_identifier* -- Escape a identifier for insertion into a text field
 
   string pg_escape_identifier([resource connection, string data])~
 

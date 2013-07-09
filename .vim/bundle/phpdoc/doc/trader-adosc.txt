@@ -1,4 +1,4 @@
-trader_adosc -- Chaikin A/D Oscillator
+*trader_adosc* -- Chaikin A/D Oscillator
 
   array trader_adosc(array high, array low, array close, array volume [, integer fastPeriod [, integer slowPeriod]])~
 

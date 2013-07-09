@@ -1,4 +1,4 @@
-xhprof_enable -- Start xhprof profiler
+*xhprof_enable* -- Start xhprof profiler
 
   void xhprof_enable([int flags [, array options]])~
 

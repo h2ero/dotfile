@@ -1,4 +1,4 @@
-readfile -- Outputs a file
+*readfile* -- Outputs a file
 
   int readfile(string filename [, bool use_include_path [, resource context]])~
 

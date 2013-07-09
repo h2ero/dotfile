@@ -1,4 +1,4 @@
-xhprof_sample_disable -- Stops xhprof sample profiler
+*xhprof_sample_disable* -- Stops xhprof sample profiler
 
   array xhprof_sample_disable()~
 

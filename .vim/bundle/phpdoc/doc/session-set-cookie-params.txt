@@ -1,4 +1,4 @@
-session_set_cookie_params -- Set the session cookie parameters
+*session_set_cookie_params* -- Set the session cookie parameters
 
   void session_set_cookie_params(int lifetime [, string path [, string domain [, bool secure [, bool httponly]]]])~
 

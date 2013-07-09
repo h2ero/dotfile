@@ -1,4 +1,4 @@
-trader_kama -- Kaufman Adaptive Moving Average
+*trader_kama* -- Kaufman Adaptive Moving Average
 
   array trader_kama(array real [, integer timePeriod])~
 

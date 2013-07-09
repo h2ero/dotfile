@@ -1,4 +1,4 @@
-yaml_parse_url -- Parse a Yaml stream from a URL
+*yaml_parse_url* -- Parse a Yaml stream from a URL
 
   mixed yaml_parse_url(string url [, int pos [, int ndocs [, array callbacks]]])~
 

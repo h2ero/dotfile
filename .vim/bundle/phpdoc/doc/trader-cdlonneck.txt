@@ -1,4 +1,4 @@
-trader_cdlonneck -- On-Neck Pattern
+*trader_cdlonneck* -- On-Neck Pattern
 
   array trader_cdlonneck(array open, array high, array low, array close)~
 

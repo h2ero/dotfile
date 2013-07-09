@@ -1,4 +1,4 @@
-use_soap_error_handler -- Set whether to use the SOAP error handler
+*use_soap_error_handler* -- Set whether to use the SOAP error handler
 
   bool use_soap_error_handler([bool handler])~
 

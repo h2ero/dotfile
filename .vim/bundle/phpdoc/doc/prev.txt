@@ -1,4 +1,4 @@
-prev -- Rewind the internal array pointer
+*prev* -- Rewind the internal array pointer
 
   mixed prev(array array)~
 

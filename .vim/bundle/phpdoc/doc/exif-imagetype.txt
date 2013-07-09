@@ -1,4 +1,4 @@
-exif_imagetype -- Determine the type of an image
+*exif_imagetype* -- Determine the type of an image
 
   int exif_imagetype(string filename)~
 

@@ -1,4 +1,4 @@
-SQLiteResult::prev -- Seek to the previous row number of a result set
+*SQLiteResult*::prev -- Seek to the previous row number of a result set
 
   bool sqlite_prev(resource result)~
 

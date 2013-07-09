@@ -1,4 +1,4 @@
-gzdeflate -- Deflate a string
+*gzdeflate* -- Deflate a string
 
   string gzdeflate(string data [, int level [, int encoding]])~
 

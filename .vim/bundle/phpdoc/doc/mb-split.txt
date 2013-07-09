@@ -1,4 +1,4 @@
-mb_split -- Split multibyte string using regular expression
+*mb_split* -- Split multibyte string using regular expression
 
   array mb_split(string pattern, string string [, int limit])~
 

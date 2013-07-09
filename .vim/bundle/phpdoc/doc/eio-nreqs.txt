@@ -1,4 +1,4 @@
-eio_nreqs -- Returns number of requests to be processed
+*eio_nreqs* -- Returns number of requests to be processed
 
   int eio_nreqs()~
 

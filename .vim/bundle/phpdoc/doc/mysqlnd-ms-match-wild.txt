@@ -1,4 +1,4 @@
-mysqlnd_ms_match_wild -- Finds whether a table name matches a wildcard pattern
+*mysqlnd_ms_match_wild* -- Finds whether a table name matches a wildcard pattern
 or not
 
   bool mysqlnd_ms_match_wild(string table_name, string wildcard)~

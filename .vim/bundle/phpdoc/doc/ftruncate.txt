@@ -1,4 +1,4 @@
-ftruncate -- Truncates a file to a given length
+*ftruncate* -- Truncates a file to a given length
 
   bool ftruncate(resource handle, int size)~
 

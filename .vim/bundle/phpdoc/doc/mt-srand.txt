@@ -1,4 +1,4 @@
-mt_srand -- Seed the better random number generator
+*mt_srand* -- Seed the better random number generator
 
   void mt_srand([int seed])~
 

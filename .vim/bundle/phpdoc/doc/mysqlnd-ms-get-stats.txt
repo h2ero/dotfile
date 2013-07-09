@@ -1,4 +1,4 @@
-mysqlnd_ms_get_stats -- Returns query distribution and connection statistics
+*mysqlnd_ms_get_stats* -- Returns query distribution and connection statistics
 
   array mysqlnd_ms_get_stats()~
 

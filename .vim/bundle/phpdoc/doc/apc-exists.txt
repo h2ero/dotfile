@@ -1,4 +1,4 @@
-apc_exists -- Checks if APC key exists
+*apc_exists* -- Checks if APC key exists
 
   mixed apc_exists(mixed keys)~
 

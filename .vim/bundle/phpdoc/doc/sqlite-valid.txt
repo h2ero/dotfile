@@ -1,4 +1,4 @@
-SQLiteUnbuffered::valid -- Returns whether more rows are available
+*SQLiteUnbuffered*::valid -- Returns whether more rows are available
 
   bool sqlite_valid(resource result)~
 

@@ -1,4 +1,4 @@
-eio_seek -- Repositions the offset of the open file associated with the fd
+*eio_seek* -- Repositions the offset of the open file associated with the fd
 argument to the argument offset according to the directive whence
 
   resource eio_seek(mixed fd, int offset, int whence [, int pri [, callable callback [, mixed data]]])~

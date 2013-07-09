@@ -1,4 +1,4 @@
-cubrid_error_code_facility -- Get the facility code of error
+*cubrid_error_code_facility* -- Get the facility code of error
 
   int cubrid_error_code_facility()~
 

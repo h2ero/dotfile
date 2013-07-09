@@ -1,4 +1,4 @@
-SQLiteDatabase::unbufferedQuery -- Execute a query that does not prefetch and
+*SQLiteDatabase*::unbufferedQuery -- Execute a query that does not prefetch and
 buffer all data
 
   resource sqlite_unbuffered_query(resource dbhandle, string query [, int result_type [, string error_msg]])~

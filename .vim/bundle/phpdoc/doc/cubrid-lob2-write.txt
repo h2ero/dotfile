@@ -1,4 +1,4 @@
-cubrid_lob2_write -- Write to a lob object.
+*cubrid_lob2_write* -- Write to a lob object.
 
   bool cubrid_lob2_write(resource lob_identifier, string buf)~
 

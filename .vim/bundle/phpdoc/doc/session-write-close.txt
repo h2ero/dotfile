@@ -1,4 +1,4 @@
-session_write_close -- Write session data and end session
+*session_write_close* -- Write session data and end session
 
   void session_write_close()~
 

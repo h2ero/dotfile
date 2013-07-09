@@ -1,4 +1,4 @@
-session_status -- Returns the current session status
+*session_status* -- Returns the current session status
 
   int session_status()~
 

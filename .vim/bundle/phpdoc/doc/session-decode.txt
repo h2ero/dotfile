@@ -1,4 +1,4 @@
-session_decode -- Decodes session data from a session encoded string
+*session_decode* -- Decodes session data from a session encoded string
 
   bool session_decode(string data)~
 

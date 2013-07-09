@@ -1,4 +1,4 @@
-trader_midprice -- Midpoint Price over period
+*trader_midprice* -- Midpoint Price over period
 
   array trader_midprice(array high, array low [, integer timePeriod])~
 

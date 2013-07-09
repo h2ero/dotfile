@@ -1,4 +1,4 @@
-eio_grp_add -- Adds a request to the request group.
+*eio_grp_add* -- Adds a request to the request group.
 
   void eio_grp_add(resource grp, resource req)~
 

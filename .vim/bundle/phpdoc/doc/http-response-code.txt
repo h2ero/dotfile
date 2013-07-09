@@ -1,4 +1,4 @@
-http_response_code -- Get or Set the HTTP response code
+*http_response_code* -- Get or Set the HTTP response code
 
   int http_response_code([int response_code])~
 

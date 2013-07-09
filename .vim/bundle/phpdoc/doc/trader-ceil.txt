@@ -1,4 +1,4 @@
-trader_ceil -- Vector Ceil
+*trader_ceil* -- Vector Ceil
 
   array trader_ceil(array real)~
 

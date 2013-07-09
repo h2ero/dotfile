@@ -1,4 +1,4 @@
-define_syslog_variables -- Initializes all syslog related variables
+*define_syslog_variables* -- Initializes all syslog related variables
 
   void define_syslog_variables()~
 

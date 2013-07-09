@@ -1,4 +1,4 @@
-imageistruecolor -- Finds whether an image is a truecolor image
+*imageistruecolor* -- Finds whether an image is a truecolor image
 
   bool imageistruecolor(resource image)~
 

@@ -1,4 +1,4 @@
-trader_adx -- Average Directional Movement Index
+*trader_adx* -- Average Directional Movement Index
 
   array trader_adx(array high, array low, array close [, integer timePeriod])~
 

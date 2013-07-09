@@ -1,4 +1,4 @@
-eio_nready -- Returns number of not-yet handled requests
+*eio_nready* -- Returns number of not-yet handled requests
 
   int eio_nready()~
 

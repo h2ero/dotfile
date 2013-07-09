@@ -1,4 +1,4 @@
-get_defined_constants -- Returns an associative array with the names of all
+*get_defined_constants* -- Returns an associative array with the names of all
 the constants and their values
 
   array get_defined_constants([bool categorize])~

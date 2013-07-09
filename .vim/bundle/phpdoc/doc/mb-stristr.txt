@@ -1,4 +1,4 @@
-mb_stristr -- Finds first occurrence of a string within another, case
+*mb_stristr* -- Finds first occurrence of a string within another, case
 insensitive
 
   string mb_stristr(string haystack, string needle [, bool before_needle [, string encoding]])~

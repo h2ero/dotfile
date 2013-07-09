@@ -1,4 +1,4 @@
-suhosin_get_raw_cookies -- Returns an array containing the raw cookie values
+*suhosin_get_raw_cookies* -- Returns an array containing the raw cookie values
 
   array suhosin_get_raw_cookies()~
 

@@ -1,4 +1,4 @@
-array_key_exists -- Checks if the given key or index exists in the array
+*array_key_exists* -- Checks if the given key or index exists in the array
 
   bool array_key_exists(mixed key, array search)~
 

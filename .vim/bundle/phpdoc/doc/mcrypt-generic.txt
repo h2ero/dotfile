@@ -1,4 +1,4 @@
-mcrypt_generic -- This function encrypts data
+*mcrypt_generic* -- This function encrypts data
 
   string mcrypt_generic(resource td, string data)~
 

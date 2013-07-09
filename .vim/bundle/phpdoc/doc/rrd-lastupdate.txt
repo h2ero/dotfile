@@ -1,4 +1,4 @@
-rrd_lastupdate -- Gets information about last updated data.
+*rrd_lastupdate* -- Gets information about last updated data.
 
   array rrd_lastupdate(string filename)~
 

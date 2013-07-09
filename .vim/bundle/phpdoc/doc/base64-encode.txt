@@ -1,4 +1,4 @@
-base64_encode -- Encodes data with MIME base64
+*base64_encode* -- Encodes data with MIME base64
 
   string base64_encode(string data)~
 

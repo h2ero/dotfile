@@ -1,4 +1,4 @@
-dio_fcntl -- Performs a c library fcntl on fd
+*dio_fcntl* -- Performs a c library fcntl on fd
 
   mixed dio_fcntl(resource fd, int cmd [, mixed args])~
 

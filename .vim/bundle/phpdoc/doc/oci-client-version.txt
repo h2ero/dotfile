@@ -1,4 +1,4 @@
-oci_client_version -- Returns the Oracle client library version
+*oci_client_version* -- Returns the Oracle client library version
 
   string oci_client_version()~
 

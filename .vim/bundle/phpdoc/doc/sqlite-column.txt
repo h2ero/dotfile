@@ -1,4 +1,4 @@
-SQLiteUnbuffered::column -- Fetches a column from the current row of a result
+*SQLiteUnbuffered*::column -- Fetches a column from the current row of a result
 set
 
   mixed sqlite_column(resource result, mixed index_or_name [, bool decode_binary])~

@@ -1,4 +1,4 @@
-rand -- Generate a random integer
+*rand* -- Generate a random integer
 
   int rand()~
 

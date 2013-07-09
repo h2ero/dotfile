@@ -1,4 +1,4 @@
-extract -- Import variables into the current symbol table from an array
+*extract* -- Import variables into the current symbol table from an array
 
   int extract(array var_array [, int extract_type [, string prefix]])~
 

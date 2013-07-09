@@ -1,4 +1,4 @@
-cubrid_num_rows -- Get the number of rows in the result set
+*cubrid_num_rows* -- Get the number of rows in the result set
 
   int cubrid_num_rows(resource result)~
 

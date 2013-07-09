@@ -1,4 +1,4 @@
-oci_fetch_object -- Returns the next row from a query as an object
+*oci_fetch_object* -- Returns the next row from a query as an object
 
   object oci_fetch_object(resource statement)~
 

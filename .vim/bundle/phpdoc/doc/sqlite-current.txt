@@ -1,4 +1,4 @@
-SQLiteUnbuffered::current -- Fetches the current row from a result set as an
+*SQLiteUnbuffered*::current -- Fetches the current row from a result set as an
 array
 
   array sqlite_current(resource result [, int result_type [, bool decode_binary]])~

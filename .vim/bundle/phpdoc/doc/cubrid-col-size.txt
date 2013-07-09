@@ -1,4 +1,4 @@
-cubrid_col_size -- Get the number of elements in collection type column using
+*cubrid_col_size* -- Get the number of elements in collection type column using
 OID
 
   int cubrid_col_size(resource conn_identifier, string oid, string attr_name)~

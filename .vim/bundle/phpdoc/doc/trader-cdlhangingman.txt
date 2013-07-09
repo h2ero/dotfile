@@ -1,4 +1,4 @@
-trader_cdlhangingman -- Hanging Man
+*trader_cdlhangingman* -- Hanging Man
 
   array trader_cdlhangingman(array open, array high, array low, array close)~
 

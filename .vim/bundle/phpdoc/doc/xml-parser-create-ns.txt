@@ -1,4 +1,4 @@
-xml_parser_create_ns -- Create an XML parser with namespace support
+*xml_parser_create_ns* -- Create an XML parser with namespace support
 
   resource xml_parser_create_ns([string encoding [, string separator]])~
 

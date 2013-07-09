@@ -1,4 +1,4 @@
-eio_truncate -- Truncate a file
+*eio_truncate* -- Truncate a file
 
   resource eio_truncate(string path [, int offset [, int pri [, callable callback [, mixed data]]]])~
 

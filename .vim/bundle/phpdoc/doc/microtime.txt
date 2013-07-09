@@ -1,4 +1,4 @@
-microtime -- Return current Unix timestamp with microseconds
+*microtime* -- Return current Unix timestamp with microseconds
 
   mixed microtime([bool get_as_float])~
 

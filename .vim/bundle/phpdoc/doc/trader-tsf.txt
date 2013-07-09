@@ -1,4 +1,4 @@
-trader_tsf -- Time Series Forecast
+*trader_tsf* -- Time Series Forecast
 
   array trader_tsf(array real [, integer timePeriod])~
 

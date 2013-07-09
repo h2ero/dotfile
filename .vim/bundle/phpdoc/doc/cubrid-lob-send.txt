@@ -1,4 +1,4 @@
-cubrid_lob_send -- Read BLOB/CLOB data and send straight to browser
+*cubrid_lob_send* -- Read BLOB/CLOB data and send straight to browser
 
   bool cubrid_lob_send(resource conn_identifier, resource lob_identifier)~
 

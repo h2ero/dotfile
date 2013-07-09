@@ -1,4 +1,4 @@
-trader_rocr -- Rate of change ratio: (price/prevPrice)
+*trader_rocr* -- Rate of change ratio: (price/prevPrice)
 
   array trader_rocr(array real [, integer timePeriod])~
 

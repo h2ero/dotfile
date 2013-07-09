@@ -1,4 +1,4 @@
-oci_pconnect -- Connect to an Oracle database using a persistent connection
+*oci_pconnect* -- Connect to an Oracle database using a persistent connection
 
   resource oci_pconnect(string username, string password [, string connection_string [, string character_set [, int session_mode]]])~
 

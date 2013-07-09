@@ -1,4 +1,4 @@
-split -- Split string into array by regular expression
+*split* -- Split string into array by regular expression
 
   array split(string pattern, string string [, int limit])~
 

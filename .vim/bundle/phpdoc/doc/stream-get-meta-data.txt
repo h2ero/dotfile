@@ -1,4 +1,4 @@
-stream_get_meta_data -- Retrieves header/meta data from streams/file pointers
+*stream_get_meta_data* -- Retrieves header/meta data from streams/file pointers
 
   array stream_get_meta_data(resource stream)~
 

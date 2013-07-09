@@ -1,4 +1,4 @@
-pcntl_strerror -- Retrieve the system error message associated with the given
+*pcntl_strerror* -- Retrieve the system error message associated with the given
 errno
 
   string pcntl_strerror(int errno)~

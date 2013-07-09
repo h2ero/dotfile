@@ -1,4 +1,4 @@
-ssh2_sftp_chmod -- Changes file mode
+*ssh2_sftp_chmod* -- Changes file mode
 
   bool ssh2_sftp_chmod(resource sftp, string filename, int mode)~
 

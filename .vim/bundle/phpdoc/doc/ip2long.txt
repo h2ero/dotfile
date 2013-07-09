@@ -1,4 +1,4 @@
-ip2long -- Converts a string containing an (IPv4) Internet Protocol dotted
+*ip2long* -- Converts a string containing an (IPv4) Internet Protocol dotted
 address into a proper address
 
   int ip2long(string ip_address)~

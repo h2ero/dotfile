@@ -1,4 +1,4 @@
-mb_regex_encoding -- Set/Get character encoding for multibyte regex
+*mb_regex_encoding* -- Set/Get character encoding for multibyte regex
 
   mixed mb_regex_encoding([string encoding])~
 

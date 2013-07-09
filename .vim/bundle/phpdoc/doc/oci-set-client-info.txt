@@ -1,4 +1,4 @@
-oci_set_client_info -- Sets the client information
+*oci_set_client_info* -- Sets the client information
 
   bool oci_set_client_info(resource connection, string client_info)~
 

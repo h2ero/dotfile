@@ -1,4 +1,4 @@
-trader_cdlinneck -- In-Neck Pattern
+*trader_cdlinneck* -- In-Neck Pattern
 
   array trader_cdlinneck(array open, array high, array low, array close)~
 

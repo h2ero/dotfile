@@ -1,4 +1,4 @@
-preg_split -- Split string by a regular expression
+*preg_split* -- Split string by a regular expression
 
   array preg_split(string pattern, string subject [, int limit [, int flags]])~
 

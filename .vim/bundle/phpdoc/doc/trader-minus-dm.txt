@@ -1,4 +1,4 @@
-trader_minus_dm -- Minus Directional Movement
+*trader_minus_dm* -- Minus Directional Movement
 
   array trader_minus_dm(array high, array low [, integer timePeriod])~
 

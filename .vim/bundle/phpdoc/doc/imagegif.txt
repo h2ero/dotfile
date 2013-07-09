@@ -1,4 +1,4 @@
-imagegif -- Output image to browser or file
+*imagegif* -- Output image to browser or file
 
   bool imagegif(resource image [, string filename])~
 

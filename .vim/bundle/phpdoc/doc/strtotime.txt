@@ -1,4 +1,4 @@
-strtotime -- Parse about any English textual datetime description into a Unix
+*strtotime* -- Parse about any English textual datetime description into a Unix
 timestamp
 
   int strtotime(string time [, int now])~

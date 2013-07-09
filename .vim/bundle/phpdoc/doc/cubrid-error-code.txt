@@ -1,4 +1,4 @@
-cubrid_error_code -- Get error code for the most recent function call
+*cubrid_error_code* -- Get error code for the most recent function call
 
   int cubrid_error_code()~
 

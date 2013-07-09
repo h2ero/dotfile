@@ -1,4 +1,4 @@
-mb_strtoupper -- Make a string uppercase
+*mb_strtoupper* -- Make a string uppercase
 
   string mb_strtoupper(string str [, string encoding])~
 

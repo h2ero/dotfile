@@ -1,4 +1,4 @@
-mcrypt_decrypt -- Decrypts crypttext with given parameters
+*mcrypt_decrypt* -- Decrypts crypttext with given parameters
 
   string mcrypt_decrypt(string cipher, string key, string data, string mode [, string iv])~
 

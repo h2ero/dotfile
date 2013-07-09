@@ -1,4 +1,4 @@
-sqlsrv_rows_affected -- Returns the number of rows modified by the last
+*sqlsrv_rows_affected* -- Returns the number of rows modified by the last
 INSERT, UPDATE, or DELETE query executed
 
   int sqlsrv_rows_affected(resource stmt)~

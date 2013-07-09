@@ -1,4 +1,4 @@
-ssh2_sftp_lstat -- Stat a symbolic link
+*ssh2_sftp_lstat* -- Stat a symbolic link
 
   array ssh2_sftp_lstat(resource sftp, string path)~
 

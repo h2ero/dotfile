@@ -1,4 +1,4 @@
-readdir -- Read entry from directory handle
+*readdir* -- Read entry from directory handle
 
   string readdir([resource dir_handle])~
 

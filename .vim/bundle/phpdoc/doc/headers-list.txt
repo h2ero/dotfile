@@ -1,4 +1,4 @@
-headers_list -- Returns a list of response headers sent (or ready to send)
+*headers_list* -- Returns a list of response headers sent (or ready to send)
 
   array headers_list()~
 

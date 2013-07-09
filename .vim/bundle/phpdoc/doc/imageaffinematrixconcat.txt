@@ -1,4 +1,4 @@
-imageaffinematrixconcat -- Concat two matrices (as in doing many ops in one
+*imageaffinematrixconcat* -- Concat two matrices (as in doing many ops in one
 go)
 
   array imageaffinematrixconcat(array m1, array m2)~

@@ -1,4 +1,4 @@
-date_create_immutable -- Alias of DateTimeImmutable::__construct
+*date_create_immutable* -- Alias of DateTimeImmutable::__construct
 
 This function is an alias of: DateTimeImmutable::__construct
 

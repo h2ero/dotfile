@@ -1,4 +1,4 @@
-trader_ln -- Vector Log Natural
+*trader_ln* -- Vector Log Natural
 
   array trader_ln(array real)~
 

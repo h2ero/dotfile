@@ -1,4 +1,4 @@
-gc_disable -- Deactivates the circular reference collector
+*gc_disable* -- Deactivates the circular reference collector
 
   void gc_disable()~
 

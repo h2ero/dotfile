@@ -1,4 +1,4 @@
-getallheaders -- Fetch all HTTP request headers
+*getallheaders* -- Fetch all HTTP request headers
 
   array getallheaders()~
 

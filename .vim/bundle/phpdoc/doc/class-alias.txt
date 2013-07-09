@@ -1,4 +1,4 @@
-class_alias -- Creates an alias for a class
+*class_alias* -- Creates an alias for a class
 
   bool class_alias(string original, string alias [, bool autoload])~
 

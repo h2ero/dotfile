@@ -1,4 +1,4 @@
-headers_sent -- Checks if or where headers have been sent
+*headers_sent* -- Checks if or where headers have been sent
 
   bool headers_sent([string file [, int line]])~
 

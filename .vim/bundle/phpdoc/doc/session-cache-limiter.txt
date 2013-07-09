@@ -1,4 +1,4 @@
-session_cache_limiter -- Get and/or set the current cache limiter
+*session_cache_limiter* -- Get and/or set the current cache limiter
 
   string session_cache_limiter([string cache_limiter])~
 

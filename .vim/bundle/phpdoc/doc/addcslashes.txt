@@ -1,4 +1,4 @@
-addcslashes -- Quote string with slashes in a C style
+*addcslashes* -- Quote string with slashes in a C style
 
   string addcslashes(string str, string charlist)~
 

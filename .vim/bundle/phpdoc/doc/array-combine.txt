@@ -1,4 +1,4 @@
-array_combine -- Creates an array by using one array for keys and another for
+*array_combine* -- Creates an array by using one array for keys and another for
 its values
 
   array array_combine(array keys, array values)~

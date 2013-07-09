@@ -1,4 +1,4 @@
-yaml_emit_file -- Send the YAML representation of a value to a file
+*yaml_emit_file* -- Send the YAML representation of a value to a file
 
   bool yaml_emit_file(string filename, mixed data [, int encoding [, int linebreak [, array callbacks]]])~
 

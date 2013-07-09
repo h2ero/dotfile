@@ -1,4 +1,4 @@
-oci_free_descriptor -- Frees a descriptor
+*oci_free_descriptor* -- Frees a descriptor
 
   bool oci_free_descriptor(resource descriptor)~
 

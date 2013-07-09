@@ -1,4 +1,4 @@
-ibase_delete_user -- Delete a user from a security database
+*ibase_delete_user* -- Delete a user from a security database
 
   bool ibase_delete_user(resource service_handle, string user_name)~
 

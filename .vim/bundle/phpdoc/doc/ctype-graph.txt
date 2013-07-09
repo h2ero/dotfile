@@ -1,4 +1,4 @@
-ctype_graph -- Check for any printable character(s) except space
+*ctype_graph* -- Check for any printable character(s) except space
 
   bool ctype_graph(string text)~
 

@@ -1,4 +1,4 @@
-eregi_replace -- Replace regular expression case insensitive
+*eregi_replace* -- Replace regular expression case insensitive
 
   string eregi_replace(string pattern, string replacement, string string)~
 

@@ -1,4 +1,4 @@
-cubrid_version -- Get the CUBRID PHP module's version
+*cubrid_version* -- Get the CUBRID PHP module's version
 
   string cubrid_version()~
 

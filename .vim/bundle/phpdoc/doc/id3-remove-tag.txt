@@ -1,4 +1,4 @@
-id3_remove_tag -- Remove an existing ID3 tag
+*id3_remove_tag* -- Remove an existing ID3 tag
 
   bool id3_remove_tag(string filename [, int version])~
 

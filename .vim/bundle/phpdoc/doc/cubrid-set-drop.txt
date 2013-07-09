@@ -1,4 +1,4 @@
-cubrid_set_drop -- Delete an element from set type column using OID
+*cubrid_set_drop* -- Delete an element from set type column using OID
 
   bool cubrid_set_drop(resource conn_identifier, string oid, string attr_name, string set_element)~
 

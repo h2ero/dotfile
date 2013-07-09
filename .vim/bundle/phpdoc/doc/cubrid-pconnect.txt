@@ -1,4 +1,4 @@
-cubrid_pconnect -- Open a persistent connection to a CUBRID server
+*cubrid_pconnect* -- Open a persistent connection to a CUBRID server
 
   resource cubrid_pconnect(string host, int port, string dbname [, string userid [, string passwd]])~
 

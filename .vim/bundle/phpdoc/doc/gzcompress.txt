@@ -1,4 +1,4 @@
-gzcompress -- Compress a string
+*gzcompress* -- Compress a string
 
   string gzcompress(string data [, int level [, int encoding]])~
 

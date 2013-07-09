@@ -1,4 +1,4 @@
-mysqlnd_ms_get_last_used_connection -- Returns an array which describes the
+*mysqlnd_ms_get_last_used_connection* -- Returns an array which describes the
 last used connection
 
   array mysqlnd_ms_get_last_used_connection(mixed connection)~

@@ -1,4 +1,4 @@
-trader_sin -- Vector Trigonometric Sin
+*trader_sin* -- Vector Trigonometric Sin
 
   array trader_sin(array real)~
 

@@ -1,4 +1,4 @@
-strtr -- Translate characters or replace substrings
+*strtr* -- Translate characters or replace substrings
 
   string strtr(string str, string from, string to)~
 

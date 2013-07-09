@@ -1,4 +1,4 @@
-eio_dup2 -- Duplicate a file descriptor
+*eio_dup2* -- Duplicate a file descriptor
 
   resource eio_dup2(mixed fd, mixed fd2 [, int pri [, callable callback [, mixed data]]])~
 

@@ -1,4 +1,4 @@
-xmlwriter_start_dtd -- Create start DTD tag
+*xmlwriter_start_dtd* -- Create start DTD tag
 
 Object oriented style
 

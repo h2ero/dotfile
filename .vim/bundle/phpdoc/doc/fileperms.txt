@@ -1,4 +1,4 @@
-fileperms -- Gets file permissions
+*fileperms* -- Gets file permissions
 
   int fileperms(string filename)~
 

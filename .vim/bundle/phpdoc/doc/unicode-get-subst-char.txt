@@ -1,4 +1,4 @@
-unicode_get_subst_char -- Get the substitution character for string conversion
+*unicode_get_subst_char* -- Get the substitution character for string conversion
 errors
 
   unicode unicode_get_subst_char()~

@@ -1,4 +1,4 @@
-eio_symlink -- Create a symbolic link
+*eio_symlink* -- Create a symbolic link
 
   resource eio_symlink(string path, string new_path [, int pri [, callable callback [, mixed data]]])~
 

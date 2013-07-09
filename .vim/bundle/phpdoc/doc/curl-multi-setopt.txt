@@ -1,4 +1,4 @@
-curl_multi_setopt -- Set an option for the cURL multi handle
+*curl_multi_setopt* -- Set an option for the cURL multi handle
 
   bool curl_multi_setopt(resource mh, int option, mixed value)~
 

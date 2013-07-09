@@ -1,4 +1,4 @@
-trait_exists -- Checks if the trait exists
+*trait_exists* -- Checks if the trait exists
 
   bool trait_exists(string traitname [, bool autoload])~
 

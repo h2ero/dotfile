@@ -1,4 +1,4 @@
-imageflip -- Flips an image using a given mode
+*imageflip* -- Flips an image using a given mode
 
   bool imageflip(resource image, int mode)~
 

@@ -1,4 +1,4 @@
-assert -- Checks if assertion is &false;
+*assert* -- Checks if assertion is &false;
 
   bool assert(mixed assertion [, string description])~
 

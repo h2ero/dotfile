@@ -1,4 +1,4 @@
-iconv_set_encoding -- Set current setting for character encoding conversion
+*iconv_set_encoding* -- Set current setting for character encoding conversion
 
   bool iconv_set_encoding(string type, string charset)~
 

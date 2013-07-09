@@ -1,4 +1,4 @@
-snmp_set_oid_numeric_print -- Return all objects including their respective
+*snmp_set_oid_numeric_print* -- Return all objects including their respective
 object id within the specified one
 
   void snmp_set_oid_numeric_print(int oid_format)~

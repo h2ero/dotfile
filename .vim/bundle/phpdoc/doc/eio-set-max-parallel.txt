@@ -1,4 +1,4 @@
-eio_set_max_parallel -- Set maximum parallel threads
+*eio_set_max_parallel* -- Set maximum parallel threads
 
   void eio_set_max_parallel(int nthreads)~
 

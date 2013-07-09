@@ -1,4 +1,4 @@
-oci_fetch_all -- Fetches multiple rows from a query into a two-dimensional
+*oci_fetch_all* -- Fetches multiple rows from a query into a two-dimensional
 array
 
   int oci_fetch_all(resource statement, array output [, int skip [, int maxrows [, int flags]]])~

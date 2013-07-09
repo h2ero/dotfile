@@ -1,4 +1,4 @@
-shuffle -- Shuffle an array
+*shuffle* -- Shuffle an array
 
   bool shuffle(array array)~
 

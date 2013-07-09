@@ -1,4 +1,4 @@
-imagewbmp -- Output image to browser or file
+*imagewbmp* -- Output image to browser or file
 
   bool imagewbmp(resource image [, string filename [, int foreground]])~
 

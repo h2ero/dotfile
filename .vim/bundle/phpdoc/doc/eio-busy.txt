@@ -1,4 +1,4 @@
-eio_busy -- Artificially increase load. Could be useful in tests,
+*eio_busy* -- Artificially increase load. Could be useful in tests,
 benchmarking.
 
   resource eio_busy(int delay [, int pri [, callable callback [, mixed data]]])~

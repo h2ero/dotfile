@@ -1,4 +1,4 @@
-forward_static_call -- Call a static method
+*forward_static_call* -- Call a static method
 
   mixed forward_static_call(callable function [, mixed parameter [, mixed ...]])~
 

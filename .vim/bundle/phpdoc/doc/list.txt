@@ -1,4 +1,4 @@
-list -- Assign variables as if they were an array
+*list* -- Assign variables as if they were an array
 
   array list(mixed varname [, mixed ...])~
 

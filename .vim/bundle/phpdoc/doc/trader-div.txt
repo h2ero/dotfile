@@ -1,4 +1,4 @@
-trader_div -- Vector Arithmetic Div
+*trader_div* -- Vector Arithmetic Div
 
   array trader_div(array real0, array real1)~
 

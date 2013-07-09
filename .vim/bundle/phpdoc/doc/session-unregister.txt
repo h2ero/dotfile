@@ -1,4 +1,4 @@
-session_unregister -- Unregister a global variable from the current session
+*session_unregister* -- Unregister a global variable from the current session
 
   bool session_unregister(string name)~
 

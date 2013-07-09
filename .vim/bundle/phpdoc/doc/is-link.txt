@@ -1,4 +1,4 @@
-is_link -- Tells whether the filename is a symbolic link
+*is_link* -- Tells whether the filename is a symbolic link
 
   bool is_link(string filename)~
 

@@ -1,4 +1,4 @@
-array_reduce -- Iteratively reduce the array to a single value using a
+*array_reduce* -- Iteratively reduce the array to a single value using a
 callback function
 
   mixed array_reduce(array input, callable function [, mixed initial])~

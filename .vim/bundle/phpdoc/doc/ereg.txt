@@ -1,4 +1,4 @@
-ereg -- Regular expression match
+*ereg* -- Regular expression match
 
   int ereg(string pattern, string string [, array regs])~
 

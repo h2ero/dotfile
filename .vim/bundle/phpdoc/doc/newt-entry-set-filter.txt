@@ -1,4 +1,4 @@
-newt_entry_set_filter --
+*newt_entry_set_filter* --
 
   void newt_entry_set_filter(resource entry, callable filter, mixed data)~
 

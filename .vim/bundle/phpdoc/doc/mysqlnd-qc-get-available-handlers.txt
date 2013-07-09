@@ -1,4 +1,4 @@
-mysqlnd_qc_get_available_handlers -- Returns a list of available storage
+*mysqlnd_qc_get_available_handlers* -- Returns a list of available storage
 handler
 
   array mysqlnd_qc_get_available_handlers()~

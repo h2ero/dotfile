@@ -1,4 +1,4 @@
-cubrid_close_request -- Close the request handle
+*cubrid_close_request* -- Close the request handle
 
   bool cubrid_close_request(resource req_identifier)~
 

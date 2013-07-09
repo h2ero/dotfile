@@ -1,4 +1,4 @@
-trader_ht_trendmode -- Hilbert Transform - Trend vs Cycle Mode
+*trader_ht_trendmode* -- Hilbert Transform - Trend vs Cycle Mode
 
   array trader_ht_trendmode(array real)~
 

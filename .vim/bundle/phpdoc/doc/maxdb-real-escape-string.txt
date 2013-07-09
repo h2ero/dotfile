@@ -1,4 +1,4 @@
-maxdb::real_escape_string -- Escapes special characters in a string for use in
+*maxdb*::real_escape_string -- Escapes special characters in a string for use in
 an SQL statement, taking into account the current charset of the connection
 
 Procedural style

@@ -1,4 +1,4 @@
-uksort -- Sort an array by keys using a user-defined comparison function
+*uksort* -- Sort an array by keys using a user-defined comparison function
 
   bool uksort(array array, callable cmp_function)~
 

@@ -1,4 +1,4 @@
-fopen -- Opens file or URL
+*fopen* -- Opens file or URL
 
   resource fopen(string filename, string mode [, bool use_include_path [, resource context]])~
 

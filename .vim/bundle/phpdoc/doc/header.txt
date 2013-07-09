@@ -1,4 +1,4 @@
-header -- Send a raw HTTP header
+*header* -- Send a raw HTTP header
 
   void header(string string [, bool replace [, int http_response_code]])~
 

@@ -1,4 +1,4 @@
-md5_file -- Calculates the md5 hash of a given file
+*md5_file* -- Calculates the md5 hash of a given file
 
   string md5_file(string filename [, bool raw_output])~
 

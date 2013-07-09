@@ -1,4 +1,4 @@
-xmlwriter_start_attribute -- Create start attribute
+*xmlwriter_start_attribute* -- Create start attribute
 
 Object oriented style
 

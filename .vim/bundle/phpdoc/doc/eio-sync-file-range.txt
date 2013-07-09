@@ -1,4 +1,4 @@
-eio_sync_file_range -- Sync a file segment with disk
+*eio_sync_file_range* -- Sync a file segment with disk
 
   resource eio_sync_file_range(mixed fd, int offset, int nbytes, int flags [, int pri [, callable callback [, mixed data]]])~
 

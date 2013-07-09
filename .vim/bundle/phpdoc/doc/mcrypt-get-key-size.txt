@@ -1,4 +1,4 @@
-mcrypt_get_key_size -- Gets the key size of the specified cipher
+*mcrypt_get_key_size* -- Gets the key size of the specified cipher
 
   int mcrypt_get_key_size(int cipher)~
 

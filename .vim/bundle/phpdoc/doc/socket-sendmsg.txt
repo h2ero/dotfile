@@ -1,4 +1,4 @@
-socket_sendmsg -- Send a message
+*socket_sendmsg* -- Send a message
 
   int socket_sendmsg(resource socket, array message, int flags)~
 

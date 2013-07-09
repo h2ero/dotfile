@@ -1,4 +1,4 @@
-yaml_parse_file -- Parse a YAML stream from a file
+*yaml_parse_file* -- Parse a YAML stream from a file
 
   mixed yaml_parse_file(string filename [, int pos [, int ndocs [, array callbacks]]])~
 

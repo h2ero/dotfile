@@ -1,4 +1,4 @@
-sqlsrv_prepare -- Prepares a query for execution
+*sqlsrv_prepare* -- Prepares a query for execution
 
   mixed sqlsrv_prepare(resource conn, string sql [, array params [, array options]])~
 

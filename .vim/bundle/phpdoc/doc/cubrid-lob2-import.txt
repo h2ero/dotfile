@@ -1,4 +1,4 @@
-cubrid_lob2_import -- Import BLOB/CLOB data from a file.
+*cubrid_lob2_import* -- Import BLOB/CLOB data from a file.
 
   bool cubrid_lob2_import(resource lob_identifier, string file_name)~
 

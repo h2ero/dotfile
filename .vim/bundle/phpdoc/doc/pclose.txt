@@ -1,4 +1,4 @@
-pclose -- Closes process file pointer
+*pclose* -- Closes process file pointer
 
   int pclose(resource handle)~
 

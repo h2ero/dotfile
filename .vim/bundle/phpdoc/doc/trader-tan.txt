@@ -1,4 +1,4 @@
-trader_tan -- Vector Trigonometric Tan
+*trader_tan* -- Vector Trigonometric Tan
 
   array trader_tan(array real)~
 

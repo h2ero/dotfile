@@ -1,4 +1,4 @@
-trader_mfi -- Money Flow Index
+*trader_mfi* -- Money Flow Index
 
   array trader_mfi(array high, array low, array close, array volume [, integer timePeriod])~
 

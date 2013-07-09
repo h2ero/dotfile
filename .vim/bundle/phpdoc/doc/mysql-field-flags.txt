@@ -1,4 +1,4 @@
-mysql_field_flags -- Get the flags associated with the specified field in a
+*mysql_field_flags* -- Get the flags associated with the specified field in a
 result
 
 This extension is deprecated as of PHP 5.5.0, and will be removed in the

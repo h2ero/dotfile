@@ -1,4 +1,4 @@
-mb_substr -- Get part of string
+*mb_substr* -- Get part of string
 
   string mb_substr(string str, int start [, int length [, string encoding]])~
 

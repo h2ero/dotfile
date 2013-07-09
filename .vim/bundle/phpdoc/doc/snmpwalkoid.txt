@@ -1,4 +1,4 @@
-snmpwalkoid -- Query for a tree of information about a network entity
+*snmpwalkoid* -- Query for a tree of information about a network entity
 
   array snmpwalkoid(string hostname, string community, string object_id [, int timeout [, int retries]])~
 

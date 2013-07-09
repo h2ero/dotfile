@@ -1,4 +1,4 @@
-phpcredits -- Prints out the credits for PHP
+*phpcredits* -- Prints out the credits for PHP
 
   bool phpcredits([int flag])~
 

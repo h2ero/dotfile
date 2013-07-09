@@ -1,4 +1,4 @@
-xslt_set_encoding -- Set the encoding for the parsing of XML documents
+*xslt_set_encoding* -- Set the encoding for the parsing of XML documents
 
   void xslt_set_encoding(resource xh, string encoding)~
 

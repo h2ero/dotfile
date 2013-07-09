@@ -1,4 +1,4 @@
-virtual -- Perform an Apache sub-request
+*virtual* -- Perform an Apache sub-request
 
   bool virtual(string filename)~
 
