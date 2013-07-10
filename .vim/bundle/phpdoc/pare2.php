@@ -4,6 +4,7 @@
  *  step 1. svn co http://svn.php.net/repository/phpdoc/modules/doc-en phpdoc
  *  step 2. php parse2.php
  *  step 3. bash replace.sh
+ *  step 4. run vim command :helptags ./
  * 
  **/
 require_once('XML/Parser.php');
