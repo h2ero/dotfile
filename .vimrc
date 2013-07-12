@@ -26,8 +26,9 @@ set vb t_vb=                 " 关闭提示音
 set hidden                   " 允许在有未保存的修改时切换缓冲区
 "set list                     " 显示Tab符，使用一高亮竖线代替
 "set listchars=nbsp:%,trail:-,
-syntax enable                " 打开语法高亮 syntax on                    " 开启文件类型侦测
-"filetype indent on           " 针对不同的文件类型采用不同的缩进格式
+syntax enable                " 打开语法高亮 
+syntax on                    " 开启文件类型侦测
+filetype indent on           " 针对不同的文件类型采用不同的缩进格式
 filetype plugin on           " 针对不同的文件类型加载对应的插件
 "filetype plugin indent on    " 启用自动补全
 
@@ -54,7 +55,7 @@ set laststatus=2             " 开启状态栏信息
 "set cmdheight=2              " 命令行的高度，默认为1，这里设为2
 
 " 每行超过80个的字符用下划线标示
-au BufRead,BufNewFile *.asm,*.c,*.cpp,*.java,*.cs,*.sh,*.lua,*.pl,*.pm,*.py,*.rb,*.erb,*.hs,*.vim match Underlined /.\%81v/
+au BufRead,BufNewFile *.php,*.asm,*.c,*.cpp,*.java,*.cs,*.sh,*.lua,*.pl,*.pm,*.py,*.rb,*.erb,*.hs,*.vim match Underlined /.\%81v/
 "php mannul"
 au FileType php set keywordprg=:help
 
@@ -146,6 +147,10 @@ let g:pydiction_location = '~/.vim/bundle/pydiction/complete-dict'
 "syntastic
 " 在打开文件的时候检查
 " let g:syntastic_check_on_open=1
+let g:syntastic_mode_map = { 'mode': 'active',
+                               \ 'active_filetypes': ['php'],
+                               \ 'passive_filetypes': ['puppet'] }
+let g:syntastic_always_populate_loc_list=1
 let g:syntastic_php_checkers=['php', 'phpcs']
 let g:syntastic_error_symbol='✗'
 let g:syntastic_warning_symbol='⚠'
@@ -390,6 +395,12 @@ noremap ,dp :BreezePrevSibling<CR>
 noremap ,dn :BreezeNextSibling<CR>
 noremap ,dP :BreezeParent<CR>
 noremap ,dm :BreezeMatchTag<CR>
+
+"vim-sundy c-a c-x
+let g:sunday_pairs = [
+    \   ['extends', 'implements'],
+    \   ['require', 'require_once', 'include', 'include_once'],
+    \ ]
 
 "for hex 
 function! Bin2Hex()
