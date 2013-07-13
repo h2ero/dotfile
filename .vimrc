@@ -401,6 +401,9 @@ let g:sunday_pairs = [
     \   ['extends', 'implements'],
     \   ['require', 'require_once', 'include', 'include_once'],
     \ ]
+"wmgraphviz
+let g:WMGraphviz_output = 'png'
+let g:WMGraphviz_viewer = 'feh'
 
 "for hex 
 function! Bin2Hex()
@@ -412,6 +415,7 @@ endfunction
 
 command!  B2H call Bin2Hex()
 command!  H2B call Hex2Bin()
+
 
 " hi Normal ctermbg=NONE      
 hi MatchParen cterm=none ctermbg=darkgrey ctermfg=white
