@@ -66,7 +66,7 @@ URxvt.modifier: alt
 !Rxvt.transparency:255
 
 ! ext
-URxvt.perl-lib: ~/.urxvt/ext/urxvt-perls/
+URxvt.perl-lib: /home/h2ero/.urxvt/ext/urxvt-perls/
 URxvt.perl-ext-common: default,clipboard,keyboard-select,url-select 
 !clipboard
 URxvt.keysym.M-c:   perl:clipboard:copy
