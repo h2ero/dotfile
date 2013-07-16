@@ -240,7 +240,7 @@ let g:vimwiki_list = [{'path': '~/.vimwiki/vim/',
                       \'nested_syntaxes':{'c':'c','php':'php','python':'python','sql':'sql','html':'html','sh':'sh','js':'javascript','text':'sh','conf':'conf'},
                       \'html_header': '~/.vim/templates/vimwiki/header.tpl',
                       \'auto_export': 1,}]
-:nnoremap ,wd :VimwikiToggleListItem<CR>
+:nmap <Leader>vw <Plug>VimwikiIndex
 
 set shell=zsh
 "set shellcmdflag=-d
