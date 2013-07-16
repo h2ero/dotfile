@@ -405,6 +405,9 @@ let g:sunday_pairs = [
 let g:WMGraphviz_output = 'png'
 let g:WMGraphviz_viewer = 'feh'
 
+"phpcr
+let g:sql_keywords = "like"
+
 "for hex 
 function! Bin2Hex()
     :%!xxd
