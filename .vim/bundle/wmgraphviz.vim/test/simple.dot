@@ -1,6 +1,7 @@
 // Simple test file
-digraph SimpleTest {
-	a -> b;
-	b -> c;
-	c -> a;
+digraph G {
+    b->c; 
+    1 -> c;
+    2 -> c;
+    3 -> c;
 }
