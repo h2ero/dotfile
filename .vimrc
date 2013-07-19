@@ -405,6 +405,9 @@ let g:sunday_pairs = [
 let g:WMGraphviz_output = 'png'
 let g:WMGraphviz_viewer = 'feh'
 
+"splitjoin
+let g:splitjoin_align = 1
+
 "phpcr
 let g:sql_keywords = "like"
 
