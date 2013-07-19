@@ -1,3 +1,5 @@
 # $if mysql
 set editing-mode vi
 # $endif
+set completion-ignore-case on 
+set completion-prefix-display-length 2
