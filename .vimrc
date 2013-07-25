@@ -96,9 +96,11 @@ noremap gl :tnext<CR>
 "分屏打开关闭
 noremap ,t :TagbarToggle<CR>
 noremap ,f :NERDTreeToggle<CR>
+noremap ,a :NERDTreeFind<CR>
 noremap ,g :GundoToggle<CR>
 noremap ,c :close<CR>
 noremap ,l :NumbersToggle<CR>
+nmap ,, <C-^>
 "打开当前光标下的url
 nmap ,oo <Plug>(openbrowser-open)
 vmap ,os <Plug>(openbrowser-search)
@@ -198,7 +200,6 @@ set clipboard=unnamed
 ""ctrlp
 let g:ctrlp_map = ',p'
 nmap ,b :CtrlPBuffer<CR>
-nmap ,, :CtrlPBuffer<CR><CR>
 nmap ,m :CtrlPMRU<CR>
 nmap ,l :CtrlPLine<CR>
 let g:ctrlp_working_path_mode = 'ra'
