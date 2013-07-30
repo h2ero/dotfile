@@ -67,7 +67,9 @@ URxvt.modifier: alt
 
 ! ext
 URxvt.perl-lib: /home/h2ero/.urxvt/ext/urxvt-perls/
-URxvt.perl-ext-common: default,clipboard,keyboard-select,url-select,font-size
+URxvt.perl-ext-common: default,clipboard,keyboard-select,url-select,font-size,autocomplete-ALL-the-things
+
+
 !clipboard
 URxvt.keysym.M-c:   perl:clipboard:copy
 URxvt.keysym.M-v:   perl:clipboard:paste
@@ -86,6 +88,10 @@ URxvt.keysym.C-S-I:     perl:font-size:increase
 URxvt.keysym.C-S-O:   perl:font-size:decrease
 URxvt.keysym.C-S-Up:   perl:font-size:incglobal
 URxvt.keysym.C-S-Down: perl:font-size:decglobal
+
+!autocomplete
+URxvt.keysym.M-j:   perl:aAtt:skeleton-word-complete
+URxvt.keysym.M-k:  perl:aAtt:undo
 
 ! 
 URxvt.depth:32
