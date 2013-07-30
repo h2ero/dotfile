@@ -211,6 +211,7 @@ let g:ctrlp_cache_dir = $HOME.'/.cache/ctrlp'
 let g:ctrlp_show_hidden = 0
 ""ctrlp extensions
 :nnoremap ,h :CtrlPHgBranch<CR>
+nnoremap <c-]> :CtrlPtjump<cr>
 
 ""less css  syntax
 au BufNewFile,BufRead *.less set cinkeys=0{,0},0),0#,!^F,o,O,e " 默认为"0{,0},0),:,0#,!^F,o,O,e" 去掉: ,避免css中出现:的时候缩进改变
@@ -408,6 +409,7 @@ let g:WMGraphviz_viewer = 'feh'
 
 "splitjoin
 let g:splitjoin_align = 1
+
 
 "phpcr
 let g:sql_keywords = "like"

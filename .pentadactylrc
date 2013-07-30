@@ -13,7 +13,7 @@ loadplugins '\.(js|penta)$'
     "Hint{
     "设置hint为字母模式{
         ":set hintkeys=asdfg;lkjh
-        :set hintkeys=FHJKL;
+        :set hintkeys=FHJKL:
         :set hintmatching=custom 
         ":set chinesehints='pingyin'
     "}
