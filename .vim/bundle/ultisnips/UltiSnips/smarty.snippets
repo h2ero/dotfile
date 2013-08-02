@@ -1,0 +1,542 @@
+# automatically add a closing '/' to the end of xhtml tags
+# Some useful Unicode entities
+# Non-Breaking Space
+snippet php "php"
+<?php ${1} ?>
+endsnippet
+
+snippet pp "pp"
+<?php ${1} ?>
+endsnippet
+
+snippet ee "ee"
+<?==${1}?>
+endsnippet
+
+snippet nbs "nbs"
+&nbsp;
+endsnippet
+# ←
+
+snippet left "left"
+&#x2190;
+endsnippet
+# →
+
+snippet right "right"
+&#x2192;
+endsnippet
+# ↑
+
+snippet up "up"
+&#x2191;
+endsnippet
+# ↓
+
+snippet down "down"
+&#x2193;
+endsnippet
+# ↩
+
+snippet return "return"
+&#x21A9;
+endsnippet
+# ⇤
+
+snippet backtab "backtab"
+&#x21E4;
+endsnippet
+# ⇥
+
+snippet shift "shift"
+&#x21E7;
+endsnippet
+# ⌃
+
+snippet control "control"
+&#x2303;
+endsnippet
+# ⌅
+
+snippet enter "enter"
+&#x2305;
+endsnippet
+# ⌘
+
+snippet command "command"
+&#x2318;
+endsnippet
+# ⌥
+
+snippet option "option"
+&#x2325;
+endsnippet
+# ⌦
+
+snippet delete "delete"
+&#x2326;
+endsnippet
+# ⌫
+
+snippet backspace "backspace"
+&#x232B;
+endsnippet
+# ⎋
+
+snippet escape "escape"
+&#x238B;
+endsnippet
+# Generic Doctype
+
+snippet doctype "HTML 4.01 Strict"
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN""
+"http://www.w3.org/TR/html4/strict.dtd">
+endsnippet
+
+snippet doctype "HTML 4.01 Transitional"
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN""
+"http://www.w3.org/TR/html4/loose.dtd">
+endsnippet
+
+snippet doctype "HTML 5"
+<!DOCTYPE HTML>
+endsnippet
+
+snippet doctype "XHTML 1.0 Frameset"
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+endsnippet
+
+snippet doctype "XHTML 1.0 Strict"
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+endsnippet
+
+snippet doctype "XHTML 1.0 Transitional"
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+endsnippet
+
+snippet doctype "XHTML 1.1"
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+endsnippet
+# HTML Doctype 4.01 Strict
+
+snippet docts "docts"
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN""
+"http://www.w3.org/TR/html4/strict.dtd">
+endsnippet
+# HTML Doctype 4.01 Transitional
+
+snippet doct "doct"
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN""
+"http://www.w3.org/TR/html4/loose.dtd">
+endsnippet
+# HTML Doctype 5
+
+snippet doct5 "doct5"
+<!DOCTYPE HTML>
+endsnippet
+# XHTML Doctype 1.0 Frameset
+
+snippet docxf "docxf"
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+endsnippet
+# XHTML Doctype 1.0 Strict
+
+snippet docxs "docxs"
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+endsnippet
+# XHTML Doctype 1.0 Transitional
+
+snippet docxt "docxt"
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+endsnippet
+# XHTML Doctype 1.1
+
+snippet docx "docx"
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+endsnippet
+
+snippet html "html"
+<html>
+${1}
+</html>
+endsnippet
+
+snippet xhtml "xhtml"
+<html xmlns="http://www.w3.org/1999/xhtml">
+${1}
+</html>
+endsnippet
+
+snippet body "body"
+<body>
+${1}
+</body>
+endsnippet
+
+snippet title "title"
+<title>${1:`!v substitute(Filename("", "Page Title"), "^.", "u&", "")`}</title>${2}
+endsnippet
+
+snippet js "js"
+<script type="text/javascript" charset="utf-8" language="javascript">
+${1}
+</script>${2}
+endsnippet
+
+snippet script "script"
+<script type="text/javascript" charset="utf-8" language="javascript">
+${1}
+</script>${2}
+endsnippet
+
+snippet scriptsrc "scriptsrc"
+<script src="${1}.js" type="text/javascript" charset="utf-8"></script>${2}
+endsnippet
+
+snippet css "css"
+<style type="text/css" media="${1:screen}">
+${2}
+</style>${3}
+endsnippet
+
+snippet style "style"
+<style type="text/css" media="${1:screen}">
+${2}
+</style>${3}
+endsnippet
+
+snippet base "base"
+<base href="${1}" target="${2}">
+endsnippet
+
+snippet r "r"
+<br>
+endsnippet
+
+snippet fieldset "fieldset"
+<fieldset id="$1">
+<legend>${1:name}</legend>
+${3}
+</fieldset>
+endsnippet
+
+snippet form "form"
+<form action="${1:`!v Filename('$1_submit')`}" method="${2:GET:POST}" accept-charset="utf-8">
+${3}
+endsnippet
+
+snippet frm "frm"
+<form action="${1:`!v Filename('$1_submit')`}" method="${2:GET:POST}" accept-charset="utf-8">
+${3}
+endsnippet
+
+snippet enctype "enctype"
+enctype="$1:multipart/form-data"
+endsnippet
+
+snippet h1 "h1"
+<h1 id="${1:heading}">${2:$1}</h1>
+endsnippet
+
+snippet input "input"
+<input type="${1:text/submit/hidden/button}" name="${2:some_name}" id="$2" value="${3}">${4}
+endsnippet
+
+snippet inp "inp"
+<input type="${1:text/submit/hidden/button}" name="${2:some_name}" id="$2" value="${3}">${4}
+endsnippet
+
+snippet i "i"
+<input type="${1:text/submit/hidden/button}" name="${2}" value="${3}" id="$2">${4}
+endsnippet
+
+snippet label "label"
+<label for="${2:$1}">${1:name}</label><input type="${3:text/submit/hidden/button}" name="${4:$2}" value="${5}" id="${6:$2}">${7}
+endsnippet
+
+snippet link "link"
+<link rel="${1:stylesheet}" href="${2:/css/master.css}" type="text/css" media="${3:screen}" charset="utf-8">${4}
+endsnippet
+
+snippet l "l"
+<link rel="${1:stylesheet}" href="${2:/css/master.css}" type="text/css" media="${3:screen}" charset="utf-8">${4}
+endsnippet
+
+snippet mailto "mailto"
+<a href="mailto:${1:joe@example.com}?subject=${2:feedback}">${3:email me}</a>
+endsnippet
+
+snippet meta "meta"
+<meta name="${1:name}" content="${2:content}">${3}
+endsnippet
+
+snippet opt "opt"
+<option value="${1:option}">${2:$1}</option>${3}
+endsnippet
+
+snippet optt "optt"
+<option>${1:option}</option>${2}
+endsnippet
+
+snippet select "select"
+<select name="${1:some_name}" id="${2:$1}">
+<option value="${3:option}">${4:$3}</option>
+</select>${5}
+endsnippet
+
+snippet h "h"
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<title>${1}</title>
+${1}
+</head>
+${2}
+endsnippet
+
+snippet head "head"
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<title>${1}</title>
+${2}
+</head>
+${3}
+endsnippet
+
+snippet ta "ta"
+<textarea name="${1}" rows="${2}" cols="${3}" id="$1">${4}</textarea>
+${5}
+endsnippet
+
+snippet textarea "textarea"
+<textarea name="${1}" rows="${2}" cols="${3}" id="$1">${4}</textarea>
+endsnippet
+
+
+snippet d "d"
+<div id="${1}" class="${2}"> ${3} </div>
+endsnippet
+
+snippet div "div"
+<div id="${1}" class="${2}"> ${3} </div>
+endsnippet
+
+snippet sp "sp"
+<span id="${1}" class="${2}">
+${3}
+</span>
+${4}
+endsnippet
+
+snippet span "span"
+<span id="${1}" class="$1">${2}</span>
+endsnippet
+
+snippet table "table"
+<table border="${1:0}" cellpadding="${2:1:0}" cellspacing="${3:1:0}">
+<tr>
+<td>
+${4}
+</td>
+</tr>
+</table>
+endsnippet
+
+snippet tbl "tbl"
+<table border="${1:0}" cellpadding="${2:1:0}" cellspacing="${3:1:0}">
+<tr>
+<td>
+${4}
+</td>
+</tr>
+</table>
+endsnippet
+
+snippet t "t"
+<table border="${1:0}" cellpadding="${2:1:0}" cellspacing="${3:1:0}">
+<tr>
+<td>
+${4}
+</td>
+</tr>
+</table>
+endsnippet
+
+snippet tab "tab"
+<table border="${1:0}" cellpadding="${2:1:0}" cellspacing="${3:1:0}">
+<tr>
+<td>
+${4}
+</td>
+</tr>
+</table>
+endsnippet
+
+snippet tr "tr"
+<tr>
+<td>
+${1}
+</td>
+</tr>
+endsnippet
+
+snippet image "image"
+<img src="${1:/image/}" alt="$2" title="${2}" class="${3}" id="{$4}"/>
+endsnippet
+
+snippet img "img"
+<img src="${1:/image/}" alt="$2" title="${2}" class="${3}" id="{$4}"/>
+endsnippet
+
+snippet im "im"
+<img src="${1:/image/}" alt="$2" title="${2}" class="${3}" id="{$4}"/>
+endsnippet
+
+snippet href "href"
+<a href="${1}">${1}</a>${2}
+endsnippet
+
+snippet here "here"
+<div id="here" style="background: red;height:100px;width: 100px;"></div>
+endsnippet
+
+snippet bo "bo"
+style="border: 1px solid red;"
+endsnippet
+
+snippet td "td"
+<td>${1}</td>
+endsnippet
+
+snippet a "a"
+<a href="${1}" title="$4" class="${2}" id="${3}" />${4}</a>
+endsnippet
+
+snippet al "al"
+alert(${1});
+endsnippet
+
+snippet cl "cl"
+class="${1}"
+endsnippet
+
+snippet lit "lit"
+{literal}
+${1}
+{/literal}
+endsnippet
+
+snippet ajax "ajax"
+$.ajax({
+type: 'POST',
+url: '${1:/somepage/}',
+data: $(':text, select, textarea, :radio, :hidden',$('form#${2:formid}')).serialize(),
+dataType: 'json',
+complete: response
+});
+endsnippet
+
+snippet get "get"
+$.get("${1:/somepage}",${2:false}, ${3:mycallback}, 'json');
+function $3(response)
+{
+${4:alert(response)};
+}
+endsnippet
+
+snippet post "post"
+$.post("${1:test.php}", $("#i${2:formid}").serialize(), ${3:mycallback}, 'json');
+endsnippet
+
+snippet jq "jq"
+$(function()
+{
+function()
+{
+${1}
+}
+});
+endsnippet
+
+snippet p "p"
+<p>${1:&nbsp;}</p>
+endsnippet
+
+snippet vo "vo"
+javascript:void(0);
+endsnippet
+
+snippet void "void"
+javascript:void(0);
+endsnippet
+
+snippet foreach "foreach"
+{foreach from=$${1:list} item=${2:var} key=${3:key}}
+{/foreach}
+endsnippet
+
+snippet fun "fun"
+${1:public }function ${2:FunctionName}(${3})
+{
+${4:// code...}
+}
+endsnippet
+
+snippet f "f"
+${1:public }function ${2:FunctionName}(${3})
+{
+${4:// code...}
+}
+endsnippet
+
+snippet jf "jf"
+${1:public }function ${2:FunctionName}(${3})
+{
+${4:// code...}
+}
+endsnippet
+
+snippet tr "tr"
+<?=$this->translate('${1:keyword}')?>
+endsnippet
+
+snippet part "part"
+<?=$this->partial('${1:index}.phtml')?>
+endsnippet
+
+snippet ou "ou"
+<?=$this->output('${1:index}')?>
+endsnippet
+
+snippet checked "checked"
+$("input[class='layout']:checked").val()
+endsnippet
+
+snippet click "click"
+$("${1:#:.}${2:divid:class}").click( function(){
+${3}
+});
+endsnippet
+
+snippet each "each"
+$("input[name^='layout_image']").each(function(i){
+layout_images.push(this.value);
+});
+endsnippet
+
+snippet co "co"
+console.log(${1:"here"});
+endsnippet
+
+snippet l "l"
+console.log(${1:"here"});
+endsnippet
+
+

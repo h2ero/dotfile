@@ -24,3 +24,5 @@ chmod 755 ~/bin/ack
 
 #xdotool for vim refresh firefox
 sudo apt-get install xdotool
+# replace mawk with gawk
+sudo apt-get install  gawk
