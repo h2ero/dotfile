@@ -107,6 +107,7 @@ hgd(){
 }
 
 # 
+alias vps='ssh  -o ServerAliveInterval=60 root@36.54.4.47 -p 3843'
 alias s2='cd /home/h2ero/h2ero/www/sysvisual2'
 alias dbtm='mysql -h 192.168.9.2 -P 9001 -udev -pjumeidevforall'
 alias fdev='/usr/bin/firefox -no-remote -P dev'

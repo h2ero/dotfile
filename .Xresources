@@ -90,8 +90,16 @@ URxvt.keysym.C-S-Up:   perl:font-size:incglobal
 URxvt.keysym.C-S-Down: perl:font-size:decglobal
 
 !autocomplete
-URxvt.keysym.M-j:   perl:aAtt:skeleton-word-complete
-URxvt.keysym.M-k:  perl:aAtt:undo
+URxvt.keysym.M-n:   perl:aAtt:skeleton-word-complete
+URxvt.keysym.M-p:  perl:aAtt:undo
+
+!combine key
+URxvt.keysym.M-k: \033[A
+URxvt.keysym.M-j: \033[B
+URxvt.keysym.M-l: \033[C
+URxvt.keysym.M-h: \033[D
+URxvt.keysym.M-6: \033[H
+URxvt.keysym.M-4: \033[F
 
 ! 
 URxvt.depth:32
