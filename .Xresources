@@ -101,6 +101,11 @@ URxvt.keysym.M-h: \033[D
 URxvt.keysym.M-6: \033[H
 URxvt.keysym.M-4: \033[F
 
+URxvt.keysym.M-S-K: \033[1;3A
+URxvt.keysym.M-S-J: \033[1;3B
+URxvt.keysym.M-S-L: \033[1;3C
+URxvt.keysym.M-S-H: \033[1;3D
+
 ! 
 URxvt.depth:32
 ! URxvt.background:rgba:0000/0000/0000/cccc
