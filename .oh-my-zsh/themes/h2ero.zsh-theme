@@ -1,8 +1,8 @@
 PROMPT=$'
-%{$fg[blue]%}%/%{$reset_color%}$(vcprompt -f "  "\%s)$(vcprompt -f %b)$(git_prompt_info)$(bzr_prompt_info)%{$fg[white]%}[%n@%m]%{$reset_color%} %{$fg[white]%}[%T]%{$reset_color%}
+%{$fg[blue]%}%/%{$reset_color%} ⚡ %{$fg[green]%}$(vcprompt -f "["%s)$(vcprompt -f "\:"%b" ")%{$fg[red]%}$(vcprompt -f %m)%{$fg[green]%}$(vcprompt -f "] ")$(bzr_prompt_info)%{$fg[white]%}[%n@%m]%{$reset_color%} %{$fg[white]%}[%T]%{$reset_color%}
 %{$fg_bold[black]%}>⚡%{$reset_color%} '
 
-PROMPT2="%{$fg_blod[black]%}%_>⚡  %{$reset_color%}"
+PROMPT2="%{$fg_blod[black]%}%_>  %{$reset_color%}"
 
 GIT_CB="git::"
 ZSH_THEME_SCM_PROMPT_PREFIX="%{$fg[green]%}["

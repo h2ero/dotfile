@@ -372,7 +372,7 @@ function! RefreshBrowser()
     endif
 endfunction
 
-autocmd BufWriteCmd *.html,*.js,*.css,*.haml,*.php,*.wiki :call RefreshBrowser()
+autocmd BufWriteCmd *.html,*.js,*.css,*.haml,*.php :call RefreshBrowser()
 noremap ,w :let g:refreshEnable = g:refreshEnable ==1 ? 0 : 1 <CR>
 "------------------------------------------------------------------------
 
