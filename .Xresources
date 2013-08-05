@@ -93,16 +93,18 @@ URxvt.keysym.C-S-Down: perl:font-size:decglobal
 URxvt.keysym.M-n:   perl:aAtt:skeleton-word-complete
 URxvt.keysym.M-p:  perl:aAtt:undo
 
-!key map
-URxvt.keysym.M-k:\033[A
-URxvt.keysym.M-j:\033[B
-URxvt.keysym.M-l:\033[C
-URxvt.keysym.M-h:\033[D
-URxvt.keysym.M-6:\033[H
-URxvt.keysym.M-4:\033[F
+!combine key
+URxvt.keysym.M-k: \033[A
+URxvt.keysym.M-j: \033[B
+URxvt.keysym.M-l: \033[C
+URxvt.keysym.M-h: \033[D
+URxvt.keysym.M-6: \033[H
+URxvt.keysym.M-4: \033[F
 
-
-
+URxvt.keysym.M-S-K: \033[1;3A
+URxvt.keysym.M-S-J: \033[1;3B
+URxvt.keysym.M-S-L: \033[1;3C
+URxvt.keysym.M-S-H: \033[1;3D
 
 ! 
 URxvt.depth:32

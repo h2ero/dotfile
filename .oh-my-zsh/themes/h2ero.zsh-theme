@@ -1,30 +1,22 @@
-# https://github.com/blinks zsh theme
+PROMPT=$'
+%{$fg[blue]%}%/%{$reset_color%}$(vcprompt -f "  "\%s)$(vcprompt -f %b)$(git_prompt_info)$(bzr_prompt_info)%{$fg[white]%}[%n@%m]%{$reset_color%} %{$fg[white]%}[%T]%{$reset_color%}
+%{$fg_bold[black]%}>⚡%{$reset_color%} '
 
-function _prompt_char() {
-  if $(git rev-parse --is-inside-work-tree >/dev/null 2>&1); then
-    echo "%{%F{blue}%}±%{%f%k%b%}"
-  else
-    echo ' '
-  fi
-}
+PROMPT2="%{$fg_blod[black]%}%_>⚡  %{$reset_color%}"
 
-# This theme works with both the "dark" and "light" variants of the
-# Solarized color schema.  Set the SOLARIZED_THEME variable to one of
-# these two values to choose.  If you don't specify, we'll assume you're
-# using the "dark" variant.
-
-case ${SOLARIZED_THEME:-dark} in
-    light) bkg=white;;
-    *)     bkg=black;;
-esac
-
-ZSH_THEME_GIT_PROMPT_PREFIX=" [%{%B%F{blue}%}"
-ZSH_THEME_GIT_PROMPT_SUFFIX="%{%f%k%b%K{${bkg}}%B%F{green}%}]"
-ZSH_THEME_GIT_PROMPT_DIRTY=" %{%F{red}%}*%{%f%k%b%}"
+GIT_CB="git::"
+ZSH_THEME_SCM_PROMPT_PREFIX="%{$fg[green]%}["
+ZSH_THEME_GIT_PROMPT_PREFIX=$ZSH_THEME_SCM_PROMPT_PREFIX$GIT_CB
+ZSH_THEME_GIT_PROMPT_SUFFIX="]%{$reset_color%} "
+ZSH_THEME_GIT_PROMPT_DIRTY=" %{$fg[red]%}*%{$fg[green]%}"
 ZSH_THEME_GIT_PROMPT_CLEAN=""
 
-PROMPT='%{%f%k%b%}
-%{%K{${bkg}}%B%F{green}%}%n%{%B%F{blue}%}@%{%B%F{cyan}%}%m%{%B%F{green}%} %{%b%F{yellow}%K{${bkg}}%}%~%{%B%F{white}%}$(vcprompt -f "  "\%s)%{%K%F{green}%}$(vcprompt -f " ⊕ "  )%{%K%F{blue}%}$(vcprompt -f %b)%E%{%f%k%b%}
-%{%K{${bkg}}%}$(_prompt_char)%{%K{${bkg}}%} %#%{%f%k%b%} '
-
-RPROMPT='!%{%B%F{cyan}%}%!%{%f%k%b%}'
+## Bazaar integration
+bzr_prompt_info() {
+	BZR_CB=`bzr nick 2> /dev/null | grep -v "ERROR" | cut -d ":" -f2 | awk -F / '{print "bzr::"$1}'`
+	if [ -n "$BZR_CB" ]; then
+		BZR_DIRTY=""
+		[[ -n `bzr status` ]] && BZR_DIRTY="%{$fg[red]%} *%{$reset_color%}"
+		echo "$ZSH_THEME_SCM_PROMPT_PREFIX$BZR_CB$BZR_DIRTY$ZSH_THEME_GIT_PROMPT_SUFFIX"
+	fi
+}
