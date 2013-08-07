@@ -114,3 +114,4 @@ alias fdev='/usr/bin/firefox -no-remote -P dev'
 alias edn='vim /home/h2ero/h2ero/dotfile/default.nginx'
 
 cdpath=(. ~ ~/h2ero/www/)
+export GOPATH='/home/h2ero/h2ero/mygo/'
