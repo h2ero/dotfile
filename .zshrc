@@ -45,7 +45,9 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=$PATH:/home/h2ero/bin:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+#
+export GOPATH='/home/h2ero/h2ero/code/mygo/'
+export PATH=$PATH:/home/h2ero/bin:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:$GOPATH/bin
 
 
 ################################################################
@@ -114,4 +116,3 @@ alias fdev='/usr/bin/firefox -no-remote -P dev'
 alias edn='vim /home/h2ero/h2ero/dotfile/default.nginx'
 
 cdpath=(. ~ ~/h2ero/www/)
-export GOPATH='/home/h2ero/h2ero/code/mygo/'
