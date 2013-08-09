@@ -91,6 +91,7 @@ vmap <c-c> <ESC>:QuickRun<CR>
 "分屏显示切换
 noremap gn <c-w><c-w>
 noremap gN <c-w>h
+noremap gj <c-w>p
 "通用map
 noremap gl :tnext<CR>
 "分屏打开关闭
@@ -427,7 +428,10 @@ endfunction
 command!  B2H call Bin2Hex()
 command!  H2B call Hex2Bin()
 
+"close autocomplete preview scratch
 set completeopt=menu,longest
+" differences
+autocmd BufWritePost * if &diff == 1 | diffupdate | endif
 
 " hi Normal ctermbg=NONE      
 hi MatchParen cterm=none ctermbg=darkgrey ctermfg=white

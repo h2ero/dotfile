@@ -1,5 +1,5 @@
-local INNER_IP=$(ifconfig | sed -n  /Bcast/p | awk -F : '{ sub("  Mask","", $3); print $3 }')
 #local IP=$(wget -qO -  )
+local INNER_IP=$(ifconfig | sed -n  /Bcast/p | awk -F : '{ sub("  Bcast","", $2); print $2 }')
 local UPTIME=$(uptime | awk 'sub(",","",$3){print $3}')
 local WH=$(wget -qO - http://www.weather.com.cn/data/sk/101270101.html | sed -n 's/.*temp":"\([0-9]\+\)".*/\1/p')
 
