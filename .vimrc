@@ -98,6 +98,7 @@ noremap gl :tnext<CR>
 noremap ,t :TagbarToggle<CR>
 noremap ,f :NERDTreeToggle<CR>
 noremap ,a :NERDTreeFind<CR>
+noremap ,d :call PhpDoc()<CR>
 noremap ,g :GundoToggle<CR>
 noremap ,c :close<CR>
 noremap ,l :NumbersToggle<CR>
