@@ -242,7 +242,10 @@ let g:vimwiki_camel_case = 0
 let g:vimwiki_list = [{'path': '~/.vimwiki/vim/',
                       \'path_html': '~/.vimwiki/',
                       \'nested_syntaxes':{'c':'c','php':'php','python':'python','sql':'sql','html':'html','sh':'sh','js':'javascript','text':'sh','conf':'conf'},
-                      \'html_header': '~/.vim/templates/vimwiki/header.tpl',
+                      \'auto_export': 1,},
+                      \{'path': '~/h2ero/blog/blog/',
+                      \'path_html': '~/h2ero/blog/',
+                      \'nested_syntaxes':{'c':'c','php':'php','python':'python','sql':'sql','html':'html','sh':'sh','js':'javascript','text':'sh','conf':'conf'},
                       \'auto_export': 1,}]
 :nmap <Leader>vw <Plug>VimwikiIndex
 
