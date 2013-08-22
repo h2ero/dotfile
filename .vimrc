@@ -127,16 +127,38 @@ call pathogen#runtime_append_all_bundles()
 
 "tagbar
 let g:tagbar_iconchars = ['▸','▾']
+
 let g:tagbar_type_php = {
-\ 'ctagstype' : 'php',
-\ 'kinds' : [
-\ 'i:interfaces',
-\ 'c:classes',
-\ 'd:constant definitions',
-\ 'f:functions',
-\ 'j:javascript functions:1'
-\ ]
+    \ 'kinds' : [
+    \ 'ctagstype' : 'php',
+        \ 'i:interfaces',
+        \ 'c:classes',
+        \ 'd:constant definitions',
+        \ 'f:functions',
+        \ 'j:javascript functions:1'
+    \ ]
 \ }
+
+let g:tagbar_type_go = {
+    \ 'ctagstype': 'go',
+    \ 'kinds' : [
+        \ 'p:package',
+        \ 'f:function',
+        \ 'v:variables',
+        \ 't:type',
+        \ 'c:const'
+    \ ]
+\ }
+
+let g:tagbar_type_css = {
+\ 'ctagstype' : 'Css',
+    \ 'kinds'     : [
+        \ 'c:classes',
+        \ 's:selectors',
+        \ 'i:identities'
+    \ ]
+\ }
+
 set tags=tags;/ "找不到tags文件到上层找寻"
 
 
@@ -379,7 +401,7 @@ function! RefreshBrowser()
     endif
 endfunction
 
-autocmd BufWriteCmd *.html,*.js,*.css,*.haml,*.php :call RefreshBrowser()
+autocmd BufWriteCmd *.htm,*.html,*.js,*.css,*.haml,*.php :call RefreshBrowser()
 noremap ,w :let g:refreshEnable = g:refreshEnable ==1 ? 0 : 1 <CR>
 "------------------------------------------------------------------------
 
@@ -420,6 +442,10 @@ let g:splitjoin_align = 1
 "airline
 let g:airline_enable_branch = 1
 let g:airline_enable_syntastic = 1
+
+"linemovement
+let g:linemovement_up="<c-k>"
+let g:linemovement_down="<c-j>"
 
 "phpcr
 let g:sql_keywords = "like"
