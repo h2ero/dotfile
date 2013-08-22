@@ -129,8 +129,8 @@ call pathogen#runtime_append_all_bundles()
 let g:tagbar_iconchars = ['▸','▾']
 
 let g:tagbar_type_php = {
-    \ 'kinds' : [
     \ 'ctagstype' : 'php',
+    \ 'kinds' : [
         \ 'i:interfaces',
         \ 'c:classes',
         \ 'd:constant definitions',
