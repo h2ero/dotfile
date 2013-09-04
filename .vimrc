@@ -443,10 +443,6 @@ let g:splitjoin_align = 1
 let g:airline_enable_branch = 1
 let g:airline_enable_syntastic = 1
 
-"linemovement
-let g:linemovement_up="<c-k>"
-let g:linemovement_down="<c-j>"
-
 "phpcr
 let g:sql_keywords = "like"
 
