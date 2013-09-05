@@ -234,7 +234,8 @@ let g:ctrlp_clear_cache_on_exit = 0
 let g:ctrlp_cache_dir = $HOME.'/.cache/ctrlp'
 let g:ctrlp_show_hidden = 0
 ""ctrlp extensions
-:nnoremap ,h :CtrlPHgBranch<CR>
+nnoremap ,h :CtrlPHgBranch<CR>
+nnoremap ,F :CtrlPFunky<CR>
 nnoremap <c-]> :CtrlPtjump<cr>
 
 ""less css  syntax
