@@ -269,6 +269,7 @@ let g:vimwiki_list = [{'path': '~/.vimwiki/vim/',
                       \'path_html': '~/h2ero/blog/',
                       \'nested_syntaxes':{'c':'c','php':'php','python':'python','sql':'sql','html':'html','sh':'sh','js':'javascript','text':'sh','conf':'conf'},
                       \'auto_export': 1,}]
+let g:vimwiki_ext2syntax = {} 
 :nmap <Leader>vw <Plug>VimwikiIndex
 
 set shell=zsh

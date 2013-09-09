@@ -83,13 +83,14 @@ export PATH=$PATH:/home/h2ero/bin:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/
 	alias AT='stat -c "%n %x"'
 	alias CT='stat -c "%n %z"'
     #cd 
-    alias cdh='cd ~'
-    alias cd='pushd'
-    alias cdd='popd'
-    alias ccd='dirs -c'
-    alias '?'='dirs -v'
+    # alias cdh='cd ~'
+    # alias cd='pushd'
+    # alias cdd='popd'
+    # alias ccd='dirs -c'
+    # alias '?'='dirs -v'
     #others
     alias _='sudo'
+    alias v='vim'
 
 
 alias hgb="hg branch | \
@@ -125,3 +126,37 @@ alias fdev='/usr/bin/firefox -no-remote -P dev'
 alias edn='vim /home/h2ero/h2ero/dotfile/default.nginx'
 
 cdpath=(. ~ ~/h2ero/www/)
+
+
+
+
+
+
+CD_PATH_LIST="/home/h2ero/.cd_path_list"
+function cdt {
+
+echo $1
+case $1 in
+    "") 
+        cd ~
+        ;;
+    +[1-9]|+[1-9][0-9]) 
+        ;;
+    *)  
+        ;;
+    esac
+}
+function cds {
+# # show all record
+# awk '{print NR" "$0}' file
+# 
+# # print path by line num
+# sed -n 'p' file
+# 
+# # delete record
+# sed '1d' file
+# 
+# #  j
+    # grep -n "h*t" file
+    awk '{print NR" "$0}' $CD_PATH_LIST
+}
