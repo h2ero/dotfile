@@ -47,7 +47,7 @@ source $ZSH/oh-my-zsh.sh
 # Customize to your needs...
 #
 export GOPATH='/home/h2ero/h2ero/code/mygo/'
-export PATH=$PATH:/home/h2ero/bin:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:$GOPATH/bin:/home/h2ero/bin/bin
+export PATH=$PATH:/home/h2ero/bin:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:$GOPATH/bin:/home/h2ero/bin/bin:$GOPATH/bin:/home/h2ero/bin/go/bin
 
 
 ################################################################
@@ -120,8 +120,6 @@ hgd(){
 
 # 
 alias vps='ssh  -o ServerAliveInterval=60 root@36.54.4.47 -p 3843'
-alias s2='cd /home/h2ero/h2ero/www/sysvisual2'
-alias dbtm='mysql -h 192.168.9.2 -P 9001 -udev -p'
 alias fdev='/usr/bin/firefox -no-remote -P dev'
 alias edn='vim /home/h2ero/h2ero/dotfile/default.nginx'
 
