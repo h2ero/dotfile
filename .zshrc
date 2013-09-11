@@ -90,6 +90,9 @@ export PATH=$PATH:/home/h2ero/bin:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/
     alias '?'='dirs -v'
     #others
     alias _='sudo'
+   
+    #go
+    alias gob='go build'
 
 
 alias hgb="hg branch | \

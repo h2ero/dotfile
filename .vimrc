@@ -270,6 +270,10 @@ let g:vimwiki_list = [{'path': '~/.vimwiki/vim/',
                       \'path_html': '~/h2ero/blog/',
                       \'nested_syntaxes':{'c':'c','php':'php','python':'python','sql':'sql','html':'html','sh':'sh','js':'javascript','text':'sh','conf':'conf'},
                       \'auto_export': 1,}]
+
+let g:vimwiki_ext2syntax = {}
+
+
 :nmap <Leader>vw <Plug>VimwikiIndex
 
 set shell=zsh
@@ -446,6 +450,22 @@ let g:airline_enable_syntastic = 1
 
 "phpcr
 let g:sql_keywords = "like"
+"mwiki
+set conceallevel=2
+let g:markdown_conceal='#*dlaibBces'
+
+"test
+function SourceTestFile()
+    source /home/h2ero/.vim/bundle/mwiki/plugin/mwiki.vim
+    source /home/h2ero/.vim/bundle/mwiki/autoload/mwiki.vim
+    source /home/h2ero/.vim/bundle/mwiki/autoload/mwiki/common.vim
+    source /home/h2ero/.vim/bundle/mwiki/autoload/mwiki/manage.vim
+    source /home/h2ero/.vim/bundle/mwiki/autoload/mwiki/highlight.vim
+    source /home/h2ero/.vim/bundle/mwiki/autoload/mwiki/link.vim
+    source /home/h2ero/.vim/bundle/mwiki/autoload/mwiki/table.vim
+    source /home/h2ero/.vim/bundle/mwiki/autoload/mwiki/function.vim
+endfunction
+map ,j :call SourceTestFile()<CR>
 
 "for hex 
 function! Bin2Hex()
