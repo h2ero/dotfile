@@ -447,6 +447,22 @@ let g:airline_enable_syntastic = 1
 
 "phpcr
 let g:sql_keywords = "like"
+"mwiki
+set conceallevel=2
+let g:markdown_conceal='#*dlaibBces'
+
+"test
+function SourceTestFile()
+    source /home/h2ero/.vim/bundle/mwiki/plugin/mwiki.vim
+    source /home/h2ero/.vim/bundle/mwiki/autoload/mwiki.vim
+    source /home/h2ero/.vim/bundle/mwiki/autoload/mwiki/common.vim
+    source /home/h2ero/.vim/bundle/mwiki/autoload/mwiki/manage.vim
+    source /home/h2ero/.vim/bundle/mwiki/autoload/mwiki/highlight.vim
+    source /home/h2ero/.vim/bundle/mwiki/autoload/mwiki/link.vim
+    source /home/h2ero/.vim/bundle/mwiki/autoload/mwiki/table.vim
+    source /home/h2ero/.vim/bundle/mwiki/autoload/mwiki/function.vim
+endfunction
+map ,j :call SourceTestFile()<CR>
 
 "for hex 
 function! Bin2Hex()
