@@ -450,6 +450,7 @@ let g:sql_keywords = "like"
 "mwiki
 set conceallevel=2
 let g:markdown_conceal='#*dlaibBces'
+let g:mwikis = [{'path':'/home/h2ero/h2ero/wiki/vim/'}]
 
 "test
 function SourceTestFile()
