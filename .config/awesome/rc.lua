@@ -25,10 +25,17 @@ awful.util.spawn("nm-applet")
 
 -- This is used later as the default terminal and editor to run.
 --terminal = "x-terminal-emulator"
- terminal = "urxvt"
+terminal = "urxvt"
 editor = os.getenv("EDITOR") or "editor"
 editor_cmd = terminal .. " -e " .. editor
 
+--change menu key
+awful.menu.menu_keys = { up = { "Up", "k" },
+              down = { "Down", "j" },
+              back = { "Left", "h" },
+              exec = { "Return", "Right", "l"},
+              enter = { "Right", "l" },
+              close = { "Escape" } }
 -- Default modkey.
 -- Usually, Mod4 is the key with a logo between Control and Alt.
 -- If you do not like this or do not have such a key,
@@ -42,16 +49,26 @@ layouts =
     --awful.layout.suit.max,
     awful.layout.suit.tile.left,
     awful.layout.suit.tile.left,
-    awful.layout.suit.magnifier,
-    awful.layout.suit.tile,
-    awful.layout.suit.tile.bottom,
-    awful.layout.suit.floating,
-    awful.layout.suit.tile.top,
-    awful.layout.suit.fair,
-    awful.layout.suit.fair.horizontal,
-    awful.layout.suit.spiral,
-    awful.layout.suit.spiral.dwindle,
-    awful.layout.suit.max.fullscreen
+    awful.layout.suit.tile.left,
+    awful.layout.suit.tile.left,
+    awful.layout.suit.tile.left,
+    awful.layout.suit.tile.left,
+    awful.layout.suit.tile.left,
+    awful.layout.suit.tile.left,
+    awful.layout.suit.tile.left,
+    awful.layout.suit.tile.left,
+    awful.layout.suit.tile.left,
+    awful.layout.suit.tile.left,
+    --awful.layout.suit.magnifier,
+    --awful.layout.suit.tile,
+    --awful.layout.suit.tile.bottom,
+    --awful.layout.suit.floating,
+    --awful.layout.suit.tile.top,
+    --awful.layout.suit.fair,
+    --awful.layout.suit.fair.horizontal,
+    --awful.layout.suit.spiral,
+    --awful.layout.suit.spiral.dwindle,
+    --awful.layout.suit.max.fullscreen
 }
 -- }}}
 
@@ -241,7 +258,7 @@ awful.key({ modkey }, "m", function () awful.util.spawn_with_shell("mute") end),
             end
         end),
     -- Standard program
-    awful.key({ modkey,           }, "Return", function () awful.util.spawn(terminal) end),
+    awful.key({ modkey,           }, "Return", function () awful.util.spawn(terminal.." -e tmux") end),
     awful.key({ modkey, "Control" }, "r", awesome.restart),
     awful.key({ modkey, "Shift"   }, "q", awesome.quit),
 
