@@ -225,8 +225,10 @@ awful.key({ modkey,"Control"}, "s", function () awful.util.spawn(runapp[5]) end)
 awful.key({ modkey,"Control"}, "x", function () awful.util.spawn(runapp[6]) end),
 
 awful.key({ modkey }, "m", function () awful.util.spawn_with_shell("mute") end),
-    awful.key({ modkey }, "=", function () os.execute("amixer set Master $((`amixer get Master | sed 1,4d | sed \"s/.*Playback \\(\[^ \]\\+\\) .*/\\1/g\"` + 2 ))") end),
-    awful.key({ modkey }, "-", function () os.execute("amixer set Master $((`amixer get Master | sed 1,4d | sed \"s/.*Playback \\(\[^ \]\\+\\) .*/\\1/g\"` - 2 ))") end),
+
+           
+    awful.key({ modkey }, "=", function () os.execute("amixer set Master $(($(amixer get Master  | sed -n 's/.*P.*\[\(.*\)%\].*/\1/p')+4))%") end),
+    awful.key({ modkey }, "-", function () os.execute("amixer set Master $(($(amixer get Master  | sed -n 's/.*P.*\[\(.*\)%\].*/\1/p')-4))%") end),
 
     awful.key({ modkey,           }, "Left",   awful.tag.viewprev       ),
     awful.key({ modkey,           }, "Right",  awful.tag.viewnext       ),
