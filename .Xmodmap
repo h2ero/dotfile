@@ -11,3 +11,4 @@ keycode  56 = b B Home
 keycode  26 = e E End
 keycode  40 = d D Delete
 keycode  39 = s S BackSpace
+keycode  58 = m M Menu
