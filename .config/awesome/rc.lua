@@ -21,6 +21,7 @@ beautiful.init("/home/h2ero/.config/awesome/themes/default/theme.lua")
 --awful.util.spawn("xcompmgr")
 -- 网络管理
 awful.util.spawn("nm-applet")
+awful.util.spawn("xmodmap /home/h2ero/.Xmodmap")
 -- }}}
 
 -- This is used later as the default terminal and editor to run.
