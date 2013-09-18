@@ -57,8 +57,12 @@ keys = [
     Key([mod, "shift"], "Return",lazy.layout.toggle_split()),
     Key(["mod1"], "Tab", lazy.nextlayout()),
     Key([mod], "c", lazy.window.kill()),
-    # Key([mod], "n", lazy.layout.normalize()),
-    # Key([mod], "f", lazy.layout.maximize()),
+    Key([mod], "n", lazy.layout.normalize()),
+    Key([mod], "f", lazy.window.toggle_fullscreen()),
+ 
+
+    Key([mod], 'Left', lazy.group.prevgroup()),
+    Key([mod], 'Right', lazy.group.nextgroup()),
 
     # interact with prompts
     Key([mod], "r", lazy.spawncmd()),
@@ -67,7 +71,7 @@ keys = [
     Key([mod, "shift"], "r", lazy.restart()),
 
     # start specific apps
-    Key([mod], "control","f", lazy.spawn("firefox")),
+    Key([mod, "control"],"f", lazy.spawn("firefox")),
     Key([mod], "Return", lazy.spawn("urxvt")),
 
     # Change the volume if your keyboard has special volume keys.
@@ -112,8 +116,14 @@ for i in ["1", "2", "3", "4", "5"]:
         Key([mod, "shift"], i, lazy.window.togroup(groupName[int(i)-1]))
     )
 
+#float rules 
+floating_layout = layout.floating.Floating(float_rules=[{'wmclass': x} for x in (
+    'Update' 
+    )])
+
 # Two basic layouts.
 layouts = [
+    layout.Tile(ratio=0.5),
     layout.Stack(stacks=2, border_width=1),
     layout.Max(),
 ]
