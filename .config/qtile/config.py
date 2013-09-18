@@ -17,23 +17,28 @@ from libqtile import layout, bar, widget, hook
 # Below is a screen with a top bar that contains several basic qtile widgets.
 screens = [Screen(top = bar.Bar([
         # This is a list of our virtual desktops.
-        widget.GroupBox(urgent_alert_method='text'),
+        widget.GroupBox(inactive='BBBBBB',highlight_method='block',padding=4,this_current_screen_border="#2D2D2D",rounded='false',active='A6E22E',fontsize=14,urgent_alert_method='text'),
 
         # A prompt for spawning processes or switching groups. This will be
         # invisible most of the time.
-        widget.Prompt(),
+        widget.Prompt(fontsize=14,),
 
         # Current window name.
-        widget.WindowName(),
-        widget.Volume(),
+        widget.WindowName(fontsize=14,foreground='DA2659'),
+        widget.Systray(fontsize=14, background="202020"),
+        widget.CurrentLayout(fontsize=14,),
+        widget.Volume(fontsize=14,foreground = "70ff70"),
+        # widget.TaskList(),
         widget.Battery(
+            fontsize=14,
             energy_now_file='charge_now',
             energy_full_file='charge_full',
             power_now_file='current_now',
         ),
-        widget.Systray(),
-        widget.Clock('%Y-%m-%d %a %I:%M %p'),
-    ], 30)) # our bar is 30px high
+        widget.CPUGraph(border_width=0, type='box', graph_color='ff0000'),
+        widget.Systray(fontsize=14,),
+        widget.Clock(foreground='#A6E22B',fontsize=14,fmt='%Y-%m-%d %a %I:%M %p'),
+    ], 30 , background="202020",opacity='0.1')) # our bar is 30px high
 ]
 
 # Super_L (the Windows key) is typically bound to mod4 by default, so we use
@@ -57,7 +62,8 @@ keys = [
     Key([mod, "shift"], "Return",lazy.layout.toggle_split()),
     Key(["mod1"], "Tab", lazy.nextlayout()),
     Key([mod], "c", lazy.window.kill()),
-    Key([mod], "n", lazy.layout.normalize()),
+    Key([mod], "n", lazy.window.toggle_minimize()),
+    Key([mod, "shift"], "n", lazy.window.minimized()),
     Key([mod], "f", lazy.window.toggle_fullscreen()),
  
 
@@ -118,7 +124,7 @@ for i in ["1", "2", "3", "4", "5"]:
 
 #float rules 
 floating_layout = layout.floating.Floating(float_rules=[{'wmclass': x} for x in (
-    'Update' 
+    'Dialog',
     )])
 
 # Two basic layouts.
