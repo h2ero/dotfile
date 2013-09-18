@@ -69,7 +69,7 @@ keys = [
 
     Key([mod, "shift"], "space", lazy.layout.rotate()),
     Key([mod, "shift"], "Return",lazy.layout.toggle_split()),
-    Key(["mod1"], "Tab", lazy.nextlayout()),
+    Key([mod], "Tab", lazy.nextlayout()),
     Key([mod], "c", lazy.window.kill()),
     Key([mod], "n", lazy.window.toggle_minimize()),
     Key([mod, "shift"], "n", lazy.window.minimized()),
@@ -146,6 +146,7 @@ layout_theme = {
 # Two basic layouts.
 layouts = [
     layout.Tile(ratio=0.5),
+    layout.TreeTab(active_bg='202020',inactive_bg='202020', bg_color='202020', active_fg='A6E22B'),
     layout.Stack(stacks=2, border_width=1),
     layout.Max(),
 ]
@@ -170,7 +171,7 @@ def startup():
     subprocess.Popen("sleep 3".split())
     execute_once("nm-applet")
     execute_once("xmodmap /home/h2ero/.Xmodmap")
-    execute_once("xcompmgr")
+    # execute_once("xcompmgr")
     execute_once("feh --bg-tile -F /home/h2ero/h2ero/bg/now1.jpg")
 
 # vim: tabstop=4 shiftwidth=4 expandtab
