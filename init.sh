@@ -26,3 +26,5 @@ chmod 755 ~/bin/ack
 sudo apt-get install xdotool
 # replace mawk with gawk
 sudo apt-get install  gawk
+
+pip install tox pytest

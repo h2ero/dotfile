@@ -291,6 +291,8 @@ nmap ,xf :call system("xclip -i -selection clipboard", bufname('%'))<CR>
 inoremap <S-CR> <CR>
 let g:acp_enableAtStartup = 1
 
+"jedi-vim don't show  preview
+let g:jedi#auto_vim_configuration = 0
 "////////////////////////////////////////////////////////////////////////////////
 "//
 "//  neocomplcache  config
@@ -373,6 +375,7 @@ let g:neocomplcache_omni_patterns.php = '[^. \t]->\h\w*\|\h\w*::'
 let g:neocomplcache_omni_patterns.c = '\%(\.\|->\)\h\w*'
 let g:neocomplcache_omni_patterns.cpp = '\h\w*\%(\.\|->\)\h\w*\|\h\w*::'
 let g:neocomplcache_omni_patterns.go = '\h\w*\.\?'
+
 "neocomplcache end
 "------------------------------------------------------------------------
 
@@ -477,7 +480,7 @@ command!  B2H call Bin2Hex()
 command!  H2B call Hex2Bin()
 
 "close autocomplete preview scratch
-set completeopt=menu,longest
+set completeopt=longest
 " differences
 autocmd BufWritePost * if &diff == 1 | diffupdate | endif
 
