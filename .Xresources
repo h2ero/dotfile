@@ -42,6 +42,7 @@ URxvt.font:xft:wenquanyi micro hei mono:pixelsize=11:style=Regular:antialias=tru
 URxvt.boldfont:xft:wenquanyi micro hei mono:pixelsize=11:style=BOld:antialias=true,xft:wenquanyi micro hei mono:pixelsize=11:style=Bold:antialias=true
 ! Input Method set 
 URxvt.inputMethod:fcitx
+urxvt.cursorUnderline:  true
 !URxvt.imFont:Liberation Mono
 !URxvt.preeditType: Root
 
@@ -108,4 +109,4 @@ URxvt.keysym.M-S-H: \033[1;3D
 
 ! 
 URxvt.depth:32
-! URxvt.background:rgba:0000/0000/0000/cccc
+URxvt.background:rgba:0000/0000/0000/cccc

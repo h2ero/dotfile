@@ -38,7 +38,7 @@ screens = [Screen(top = bar.Bar([
         widget.CPUGraph(border_width=0, type='box', graph_color='ff0000'),
         widget.Systray(fontsize=14,),
         widget.Clock(foreground='#A6E22B',fontsize=14,fmt='%Y-%m-%d %a %I:%M %p'),
-    ], 30 , background="202020",opacity='0.1')) # our bar is 30px high
+    ], 30 , background="202020")) # our bar is 30px high
 ]
 
 # Super_L (the Windows key) is typically bound to mod4 by default, so we use
@@ -65,6 +65,7 @@ keys = [
     Key([mod], "n", lazy.window.toggle_minimize()),
     Key([mod, "shift"], "n", lazy.window.minimized()),
     Key([mod], "f", lazy.window.toggle_fullscreen()),
+    Key([mod], "o", lazy.window.toggle_floating()),
  
 
     Key([mod], 'Left', lazy.group.prevgroup()),
@@ -127,11 +128,40 @@ floating_layout = layout.floating.Floating(float_rules=[{'wmclass': x} for x in 
     'Dialog',
     )])
 
+layout_theme = {
+    "border_width": 2,
+    "margin": 1,
+    "border_focus": "A5BA26",
+    "border_normal": "A5BA26"
+    }
 # Two basic layouts.
 layouts = [
     layout.Tile(ratio=0.5),
     layout.Stack(stacks=2, border_width=1),
     layout.Max(),
 ]
+
+#  
+import subprocess, re
+
+def is_running(process):
+    s = subprocess.Popen(["ps", "axuw"], stdout=subprocess.PIPE)
+    for x in s.stdout:
+        if re.search(process, x):
+            return True
+    return False
+
+def execute_once(process):
+    if not is_running(process):
+        return subprocess.Popen(process.split())
+
+# start the applications at Qtile startup
+@hook.subscribe.startup
+def startup():
+    subprocess.Popen("sleep 3".split())
+    execute_once("nm-applet")
+    execute_once("xmodmap /home/h2ero/.Xmodmap")
+    execute_once("xcompmgr")
+    execute_once("feh --bg-tile -F /home/h2ero/h2ero/bg/now1.jpg")
 
 # vim: tabstop=4 shiftwidth=4 expandtab
