@@ -59,10 +59,14 @@ keys = [
     Key([mod, "shift"], "q", lazy.shutdown()),
 
     Key([mod], "Print", lazy.spawn(Commands.screenshot)),
-    Key([mod], "k", lazy.layout.down()),
-    Key([mod], "j", lazy.layout.up()),
-    Key([mod], "h", lazy.layout.previous()),
-    Key([mod], "l", lazy.layout.previous()),
+    Key([mod,"shift"], "k", lazy.layout.down()),
+    Key([mod, "shift"], "j", lazy.layout.up()),
+    Key([mod], "k", lazy.group.prev_window()),
+    Key([mod], "j", lazy.group.next_window()),
+
+    Key([mod], "h", lazy.layout.increase_ratio()),
+    Key([mod], "l", lazy.layout.decrease_ratio()),
+
     Key([mod, "shift"], "space", lazy.layout.rotate()),
     Key([mod, "shift"], "Return",lazy.layout.toggle_split()),
     Key(["mod1"], "Tab", lazy.nextlayout()),
