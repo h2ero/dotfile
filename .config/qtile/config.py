@@ -9,6 +9,10 @@
 from libqtile.config import Key, Screen, Group, Drag, Click
 from libqtile.command import lazy
 from libqtile import layout, bar, widget, hook
+# 
+class Commands(object):
+    dmenu = 'dmenu_run -i -b -p ">>>" -fn "Open Sans-10" -nb "#000" -nf "#fff" -sb "#15181a" -sf "#fff"'
+    screenshot = 'scrot \'%Y-%m-%d_$wx$h_scrot.png\' -e \'mv $f /home/h2ero/temp/\''
 
 # The screens variable contains information about what bars are drawn where on
 # each screen. If you have multiple screens, you'll need to construct multiple
@@ -54,6 +58,7 @@ keys = [
     # and in gracefully.
     Key([mod, "shift"], "q", lazy.shutdown()),
 
+    Key([mod], "Print", lazy.spawn(Commands.screenshot)),
     Key([mod], "k", lazy.layout.down()),
     Key([mod], "j", lazy.layout.up()),
     Key([mod], "h", lazy.layout.previous()),
