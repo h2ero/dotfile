@@ -1,14 +1,7 @@
-
-
-NEWS: Sy is pretty stable at the moment, so there will be no commits (apart from
-bugfixes/feature requests) in the next ~month. I'm mainly working at Sy 2.0 at the
-moment. Stay tuned! :-)
-
-
 vim-signify
 -----------
 
-Or just: __sy__
+Or just: __Sy__.
 
 Sy shows all added, deleted and modified lines since the last commit via Vim its
 sign column. It __supports several version control systems__.
@@ -17,8 +10,9 @@ It's __fast__, __highly configurable__ and __well documented__.
 
 Features:
 
-- supports git, mercurial, darcs, bazaar, subversion, cvs, rcs, fossil
-- quick jumping between changed lines
+- supports git, mercurial, darcs, bazaar, subversion, cvs, rcs, fossil, accurev,
+  perforce
+- quick jumping between blocks of changed lines
 - apart from signs there is also optional line highlighting
 - fully configurable through global variables (options and mappings)
 - optional preserving of signs from other plugins
@@ -28,7 +22,7 @@ Features:
 
 - quick developer response! :-)
 
-![Example:signify in action](https://github.com/mhinz/vim-signify/raw/master/signify.png)
+![Example:signify in action](https://github.com/mhinz/vim-signify/raw/master/signify.gif)
 
 Limits exist only in your mind!
 
@@ -39,6 +33,8 @@ If you use any of my plugins, star it on github. This is a great way of getting
 feedback! Same for issues or feature requests.
 
 Thank you for flying mhi airlines. Get the Vim on!
+
+You can also follow me on Twitter: [@_mhinz_](https://twitter.com/_mhinz_)
 
 What about vim-gitgutter?
 -------------------------
@@ -66,25 +62,26 @@ Sign explanation
 
 `+`
 
-A new line was added. The sign is shown on the same line as the new line.
+This indicates a new line.
 
-`_`
+`_1`
 
-A line was deleted. The sign is shown on the line above the deleted line. Special case: The first line was deleted. In this case the sign is shown on the same line.
+This indicates the number of deleted lines. If the number is larger than 9, a
+`>` will be shown instead.
 
 `!`
 
-A line was changed. Something was changed, but the amount of lines stayed the same. The sign is shown on the same line.
+This indicates a changed line.
 
-`!_`
+`!1`
 
-A line was changed and one or more of the lines below were deleted. A combination of **!** and **_**. The sign is shown on the same line.
-
+This indicates a changed line and a number of lines below that were deleted.  It
+is a combination of `!` and `_`. If the number is larger than 9, a `>` will be
+shown instead.
 
 `‾`
 
-The first line was deleted. This special case is indicated by **‾** rather than
-**_**.
+This is used instead of `_` in the special case of the first line being removed.
 
 Longer introduction
 -------------------
@@ -105,11 +102,14 @@ Currently the following VCS are supported:
 - cvs
 - rcs
 - fossil
+- accurev
+- perforce
 
 #### quick jumping between changed lines
 
-There are mappings for jumping forth and back between changed lines (so-called
-hunks). The following example shows the default mappings and how to change them:
+There are mappings for jumping forth and back between blocks of changes
+(so-called hunks). The following example shows the default mappings and how to
+change them:
 
 ```vim
 let g:signify_mapping_next_hunk = '<leader>gj'
@@ -128,15 +128,6 @@ the concerned lines:
 
 ```vim
 let g:signify_mapping_toggle_highlight = '<leader>gh'
-```
-
-You can also change the highlighting classes for these lines. The defaults are:
-
-```vim
-let g:signify_line_color_add           = 'DiffAdd'
-let g:signify_line_color_delete        = 'DiffDelete'
-let g:signify_line_color_change        = 'DiffChange'
-let g:signify_line_color_change_delete = 'DiffChange'
 ```
 
 #### you can toggle the plugin per buffer
@@ -190,12 +181,16 @@ Documentation
 Configuration
 -------------
 
+__NOTE__: The shown assignments are only examples. You can find the default
+values in the help.
+
 For more info: `:h signify-options`
 
-__NOTE__: The shown assignments are only examples, not defaults.
 
 ```vim
 let g:signify_vcs_list = [ 'git', 'hg' ]
+
+let g:signify_difftool = 'gnudiff'
 
 let g:signify_mapping_next_hunk = '<leader>gj'
 let g:signify_mapping_prev_hunk = '<leader>gk'
@@ -209,34 +204,14 @@ let g:signify_skip_filename = { '/home/user/.vimrc': 1 }
 let g:signify_sign_overwrite = 1
 
 let g:signify_update_on_bufenter = 1
+let g:signify_update_on_focusgained = 0
 
 let g:signify_line_highlight = 1
 
-let g:signify_sign_weight = 'bold'
-
 let g:signify_sign_add               = '+'
-let g:signify_sign_delete            = '-'
-let g:signify_sign_change            = '*'
-let g:signify_sign_change_delete     = '*_'
+let g:signify_sign_change            = '!'
+let g:signify_sign_delete            = '_'
 let g:signify_sign_delete_first_line = '‾'
-
-let g:signify_sign_color_guifg_add      = '#00ff00'
-let g:signify_sign_color_guifg_delete   = '#ff0000'
-let g:signify_sign_color_guifg_change   = '#ffff00'
-let g:signify_sign_color_guibg          = '#111111'
-
-let g:signify_sign_color_ctermfg_add    = 2
-let g:signify_sign_color_ctermfg_delete = 1
-let g:signify_sign_color_ctermfg_change = 3
-let g:signify_sign_color_ctermbg        = 0
-
-let g:signify_sign_color_group_add    = 'MyAdd'
-let g:signify_sign_color_group_delete = 'MyDelete'
-let g:signify_sign_color_group_change = 'MyChange'
-
-let g:signify_line_color_add    = 'DiffAdd'
-let g:signify_line_color_delete = 'DiffDelete'
-let g:signify_line_color_change = 'DiffChange'
 
 let g:signify_cursorhold_normal = 1
 let g:signify_cursorhold_insert = 1
@@ -250,5 +225,4 @@ Marco Hinz `<mh.codebro@gmail.com>`
 License
 -------
 
-Copyright © Marco Hinz. Distributed under the same terms as Vim itself. See
-`:help license`.
+MIT license. Copyright (c) 2013 Marco Hinz.
