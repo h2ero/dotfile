@@ -248,8 +248,8 @@ globalkeys = awful.util.table.join(
     awful.key({ modkey,"Control"}, "x", function () awful.util.spawn(runapp[6]) end),
     
     awful.key({ modkey }, "m", function () awful.util.spawn_with_shell("mute") end),
-    awful.key({ modkey }, "=", function () setVolume("+2"); volumewidget.text  = getVolume(); end),
-    awful.key({ modkey }, "-", function () setVolume("-2"); volumewidget.text  = getVolume(); end),
+    awful.key({ modkey }, "=", function () setVolume("+4"); volumewidget.text  = getVolume(); end),
+    awful.key({ modkey }, "-", function () setVolume("-4"); volumewidget.text  = getVolume(); end),
     awful.key({ modkey,           }, "Left",   awful.tag.viewprev       ),
     awful.key({ modkey,           }, "Right",  awful.tag.viewnext       ),
     awful.key({ modkey,           }, "Escape", awful.tag.history.restore),
