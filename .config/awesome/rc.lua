@@ -173,11 +173,11 @@ ipwidget.text  = ip
 awful.widget.layout.margins[ipwidget] = { right = 5 }
 ipwidget.right=15
 
-mytimer = timer({ timeout = 30 })
-mytimer:connect_signal("timeout", function() 
-    mytextbox.text = "Hello awesome world!" 
-    end)
-mytimer:start()
+--mytimer = timer({ timeout = 30 })
+--mytimer:connect_signal("timeout", function() 
+--    mytextbox.text = "Hello awesome world!" 
+--    end)
+--mytimer:start()
 
 
 for s = 1, screen.count() do
