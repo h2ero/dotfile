@@ -109,4 +109,4 @@ URxvt.keysym.M-S-H: \033[1;3D
 
 ! 
 URxvt.depth:32
-! URxvt.background:rgba:0000/0000/0000/cccc
+URxvt.background:rgba:0000/0000/0000/cccc

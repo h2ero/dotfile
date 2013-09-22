@@ -201,7 +201,7 @@ for s = 1, screen.count() do
 
 
     -- Create the wibox
-    mywibox[s] = awful.wibox({ opacity=0.6,position = "top", screen = s })
+    mywibox[s] = awful.wibox({ position = "top", opacity=0.6, screen = s })
     -- Add widgets to the wibox - order matters
     mywibox[s].widgets = {
         {
@@ -427,6 +427,6 @@ client.add_signal("manage", function (c, startup)
     end
 end)
 
-client.add_signal("focus", function(c) c.border_color = beautiful.border_focus;c.opacity=0.5 end)
-client.add_signal("unfocus", function(c) c.border_color = beautiful.border_normal;end)
+client.add_signal("focus", function(c) c.border_color = beautiful.border_focus end)
+client.add_signal("unfocus", function(c) c.border_color = beautiful.border_normal end)
 -- }}}
