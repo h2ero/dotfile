@@ -10,6 +10,8 @@ require("naughty")
 -- Load Debian menu entries
 require("debian.menu")
 
+require("h2eroUtil")
+
 -- {{{ Variable definitions
 -- Themes define colours, icons, and wallpapers
 beautiful.init("/home/h2ero/.config/awesome/themes/default/theme.lua")
@@ -164,21 +166,22 @@ mytasklist.buttons = awful.util.table.join(
                                               if client.focus then client.focus:raise() end
                                           end))
 
+-- h2ero widget --------------------------------------------------------------------------------
+--
 -- ip
-local handle = io.popen("ifconfig | sed -n  /Bcast/p | awk -F : '{ sub(\"  Bcast\",\"\", $2); print $2 }'")
-local ip = handle:read("*a")
-handle:close()
 local ipwidget = widget({type = "textbox"})
-ipwidget.text  = ip
+ipwidget.text  = getIp()
 awful.widget.layout.margins[ipwidget] = { right = 5 }
 ipwidget.right=15
 
---mytimer = timer({ timeout = 30 })
---mytimer:connect_signal("timeout", function() 
---    mytextbox.text = "Hello awesome world!" 
---    end)
---mytimer:start()
+-- volume
+local volumewidget = widget({type = "textbox"})
+volumewidget.text  = getVolume()
+awful.widget.layout.margins[volumewidget] = { right = 5 }
+volumewidget.right=15
 
+
+-- h2ero widget end --------------------------------------------------------------------------------
 
 for s = 1, screen.count() do
     -- Create a promptbox for each screen
@@ -214,6 +217,7 @@ for s = 1, screen.count() do
         mytextclock,
         s == 1 and mysystray or nil,
         ipwidget,
+        volumewidget,
         layout = awful.widget.layout.horizontal.rightleft
     }
 end
@@ -244,8 +248,8 @@ globalkeys = awful.util.table.join(
     awful.key({ modkey,"Control"}, "x", function () awful.util.spawn(runapp[6]) end),
     
     awful.key({ modkey }, "m", function () awful.util.spawn_with_shell("mute") end),
-    awful.key({ modkey }, "=", function () os.execute("amixer set Master $(($(amixer get Master  | sed -n 's/.*P.*\\[\\(.*\\)%\\].*/\\1/p')+4))%") end),
-    awful.key({ modkey }, "-", function () os.execute("amixer set Master $(($(amixer get Master  | sed -n 's/.*P.*\\[\\(.*\\)%\\].*/\\1/p')-4))%") end),
+    awful.key({ modkey }, "=", function () setVolume("+2"); volumewidget.text  = getVolume(); end),
+    awful.key({ modkey }, "-", function () setVolume("-2"); volumewidget.text  = getVolume(); end),
     awful.key({ modkey,           }, "Left",   awful.tag.viewprev       ),
     awful.key({ modkey,           }, "Right",  awful.tag.viewnext       ),
     awful.key({ modkey,           }, "Escape", awful.tag.history.restore),
