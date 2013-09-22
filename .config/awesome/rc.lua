@@ -18,7 +18,7 @@ beautiful.init("/home/h2ero/.config/awesome/themes/default/theme.lua")
 -- conky
 --awful.util.spawn("conky -c /home/h2ero/.conky/conky_grey/conkyrc_grey")
 -- 透明效果
---awful.util.spawn("xcompmgr")
+awful.util.spawn("xcompmgr")
 -- 网络管理
 awful.util.spawn("nm-applet")
 awful.util.spawn("xmodmap /home/h2ero/.Xmodmap")
@@ -164,6 +164,22 @@ mytasklist.buttons = awful.util.table.join(
                                               if client.focus then client.focus:raise() end
                                           end))
 
+-- ip
+local handle = io.popen("ifconfig | sed -n  /Bcast/p | awk -F : '{ sub(\"  Bcast\",\"\", $2); print $2 }'")
+local ip = handle:read("*a")
+handle:close()
+local ipwidget = widget({type = "textbox"})
+ipwidget.text  = ip
+awful.widget.layout.margins[ipwidget] = { right = 5 }
+ipwidget.right=15
+
+mytimer = timer({ timeout = 30 })
+mytimer:connect_signal("timeout", function() 
+    mytextbox.text = "Hello awesome world!" 
+    end)
+mytimer:start()
+
+
 for s = 1, screen.count() do
     -- Create a promptbox for each screen
     mypromptbox[s] = awful.widget.prompt({ layout = awful.widget.layout.horizontal.leftright })
@@ -183,8 +199,9 @@ for s = 1, screen.count() do
                                               return awful.widget.tasklist.label.currenttags(c, s)
                                           end, mytasklist.buttons)
 
+
     -- Create the wibox
-    mywibox[s] = awful.wibox({ position = "top", screen = s })
+    mywibox[s] = awful.wibox({ opacity=0.6,position = "top", screen = s })
     -- Add widgets to the wibox - order matters
     mywibox[s].widgets = {
         {
@@ -196,6 +213,7 @@ for s = 1, screen.count() do
         mylayoutbox[s],
         mytextclock,
         s == 1 and mysystray or nil,
+        ipwidget,
         layout = awful.widget.layout.horizontal.rightleft
     }
 end
@@ -217,36 +235,32 @@ runapp={ "firefox",
 }
 -- {{{ Key bindings
 globalkeys = awful.util.table.join(
----Application ShortCut
-awful.key({ modkey,"Control"}, "f", function () awful.util.spawn(runapp[1]) end),
-awful.key({ modkey,"Control"}, "v", function () awful.util.spawn(runapp[2]) end),
-awful.key({ modkey,"Control"}, "z", function () awful.util.spawn(runapp[3]) end),
-awful.key({ modkey,"Control"}, "a", function () awful.util.spawn(runapp[4]) end),
-awful.key({ modkey,"Control"}, "s", function () awful.util.spawn(runapp[5]) end),
-awful.key({ modkey,"Control"}, "x", function () awful.util.spawn(runapp[6]) end),
-
-awful.key({ modkey }, "m", function () awful.util.spawn_with_shell("mute") end),
-
-           
+    ---Application ShortCut
+    awful.key({ modkey,"Control"}, "f", function () awful.util.spawn(runapp[1]) end),
+    awful.key({ modkey,"Control"}, "v", function () awful.util.spawn(runapp[2]) end),
+    awful.key({ modkey,"Control"}, "z", function () awful.util.spawn(runapp[3]) end),
+    awful.key({ modkey,"Control"}, "a", function () awful.util.spawn(runapp[4]) end),
+    awful.key({ modkey,"Control"}, "s", function () awful.util.spawn(runapp[5]) end),
+    awful.key({ modkey,"Control"}, "x", function () awful.util.spawn(runapp[6]) end),
+    
+    awful.key({ modkey }, "m", function () awful.util.spawn_with_shell("mute") end),
     awful.key({ modkey }, "=", function () os.execute("amixer set Master $(($(amixer get Master  | sed -n 's/.*P.*\\[\\(.*\\)%\\].*/\\1/p')+4))%") end),
     awful.key({ modkey }, "-", function () os.execute("amixer set Master $(($(amixer get Master  | sed -n 's/.*P.*\\[\\(.*\\)%\\].*/\\1/p')-4))%") end),
-
     awful.key({ modkey,           }, "Left",   awful.tag.viewprev       ),
     awful.key({ modkey,           }, "Right",  awful.tag.viewnext       ),
     awful.key({ modkey,           }, "Escape", awful.tag.history.restore),
-
     awful.key({ modkey,           }, "j",
-        function ()
-            awful.client.focus.byidx( 1)
-            if client.focus then client.focus:raise() end
-        end),
+            function ()
+                awful.client.focus.byidx( 1)
+                if client.focus then client.focus:raise() end
+            end),
     awful.key({ modkey,           }, "k",
-        function ()
-            awful.client.focus.byidx(-1)
-            if client.focus then client.focus:raise() end
-        end),
+            function ()
+                awful.client.focus.byidx(-1)
+                if client.focus then client.focus:raise() end
+            end),
     awful.key({ modkey,           }, "w", function () mymainmenu:show({keygrabber=true}) end),
-
+    
     -- Layout manipulation
     awful.key({ modkey, "Shift"   }, "j", function () awful.client.swap.byidx(  1)    end),
     awful.key({ modkey, "Shift"   }, "k", function () awful.client.swap.byidx( -1)    end),
@@ -254,17 +268,17 @@ awful.key({ modkey }, "m", function () awful.util.spawn_with_shell("mute") end),
     awful.key({ modkey, "Control" }, "k", function () awful.screen.focus_relative(-1) end),
     awful.key({ modkey,           }, "u", awful.client.urgent.jumpto),
     awful.key({ modkey,           }, "F1",
-        function ()
-            awful.client.focus.history.previous()
-            if client.focus then
-                client.focus:raise()
-            end
-        end),
-    -- Standard program
+            function ()
+                awful.client.focus.history.previous()
+                if client.focus then
+                    client.focus:raise()
+                end
+            end),
+        -- Standard program
     awful.key({ modkey,           }, "Return", function () awful.util.spawn(terminal.." -e tmux") end),
     awful.key({ modkey, "Control" }, "r", awesome.restart),
     awful.key({ modkey, "Shift"   }, "q", awesome.quit),
-
+    
     awful.key({ modkey,           }, "l",     function () awful.tag.incmwfact( 0.05)    end),
     awful.key({ modkey,           }, "h",     function () awful.tag.incmwfact(-0.05)    end),
     awful.key({ modkey, "Shift"   }, "h",     function () awful.tag.incnmaster( 1)      end),
@@ -273,19 +287,19 @@ awful.key({ modkey }, "m", function () awful.util.spawn_with_shell("mute") end),
     awful.key({ modkey, "Control" }, "l",     function () awful.tag.incncol(-1)         end),
     awful.key({ modkey,           }, "space", function () awful.layout.inc(layouts,  1) end),
     awful.key({ modkey, "Shift"   }, "space", function () awful.layout.inc(layouts, -1) end),
-
+    
     awful.key({ modkey, "Control" }, "n", awful.client.restore),
-
+    
     -- Prompt
     awful.key({ modkey },            "r",     function () mypromptbox[mouse.screen]:run() end),
-
+    
     awful.key({ modkey }, "x",
-              function ()
-                  awful.prompt.run({ prompt = "Run Lua code: " },
-                  mypromptbox[mouse.screen].widget,
-                  awful.util.eval, nil,
-                  awful.util.getdir("cache") .. "/history_eval")
-              end)
+                  function ()
+                      awful.prompt.run({ prompt = "Run Lua code: " },
+                      mypromptbox[mouse.screen].widget,
+                      awful.util.eval, nil,
+                      awful.util.getdir("cache") .. "/history_eval")
+                  end)
 )
 
 clientkeys = awful.util.table.join(
@@ -413,6 +427,6 @@ client.add_signal("manage", function (c, startup)
     end
 end)
 
-client.add_signal("focus", function(c) c.border_color = beautiful.border_focus end)
-client.add_signal("unfocus", function(c) c.border_color = beautiful.border_normal end)
+client.add_signal("focus", function(c) c.border_color = beautiful.border_focus;c.opacity=0.5 end)
+client.add_signal("unfocus", function(c) c.border_color = beautiful.border_normal;end)
 -- }}}
