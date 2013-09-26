@@ -3,6 +3,7 @@ colorscheme molokai
 loadplugins '\.(js|penta)$'
 
 
+
 "nmap > :firebug >
 "nmap < :firebug >
 
@@ -81,6 +82,9 @@ loadplugins '\.(js|penta)$'
 	map ,b :emenu View.Firebug<CR>
 	map ,a :emenu Tools.Adblock Plus.Disable everywhere<CR> 
     map ,d :downloads <CR>
+    inoremap -e <C-c> js Firebug.largeCommandLineEditor.enter()
+    inoremap -e <C-slash> js Firebug.Ace.win2.editor.execCommand('togglecomment')
+    "inoremap -e <C-S-slash> js Firebug.Ace.win2.editor.execCommand('toggleStreamComment')
     "}
 
     "F2来显示隐藏工具栏{
