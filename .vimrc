@@ -173,8 +173,10 @@ let g:pydiction_location = '~/.vim/bundle/pydiction/complete-dict'
 "syntastic
 " 在打开文件的时候检查
 " let g:syntastic_check_on_open=1
+let g:syntastic_enable_signs=1
+highlight SyntasticErrorLine guibg=#2f0000
 let g:syntastic_mode_map = { 'mode': 'active',
-                               \ 'active_filetypes': ['php'],
+                               \ 'active_filetypes': ['c'],
                                \ 'passive_filetypes': ['puppet'] }
 let g:syntastic_always_populate_loc_list=1
 let g:syntastic_php_checkers=['php', 'phpcs']
@@ -389,6 +391,7 @@ hi IndentGuidesEven ctermbg=darkgrey
 "Gundo
 
 "signify
+let g:signify_sign_overwrite = 0
 let g:signify_vcs_list = [ 'git', 'hg' ]
 let g:signify_mapping_next_hunk = ',sn'
 let g:signify_mapping_prev_hunk = ',sN'
@@ -406,7 +409,7 @@ function! RefreshBrowser()
     endif
 endfunction
 
-autocmd BufWriteCmd *.htm,*.html,*.js,*.css,*.haml,*.php :call RefreshBrowser()
+autocmd BufWriteCmd *.htm,*.html,*.js,*.css,*.haml :call RefreshBrowser()
 noremap ,w :let g:refreshEnable = g:refreshEnable ==1 ? 0 : 1 <CR>
 "------------------------------------------------------------------------
 
