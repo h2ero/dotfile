@@ -118,7 +118,7 @@ alias hglc="hg log -l 1 | \
             xclip -selection clipboard"
 
 hgd(){
-    hg st $(hg root) | awk '{print $2}'  | xargs grep -Rn  "var_export\|var_dump\|console"
+    hg st $(hg root) | awk '{print $2}'  | xargs grep -Rn  "var_export\|var_dump\|console" | sed -n 's/:/ +/p'
 }
 
 # 
