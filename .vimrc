@@ -173,17 +173,22 @@ let g:pydiction_location = '~/.vim/bundle/pydiction/complete-dict'
 "syntastic
 " 在打开文件的时候检查
 " let g:syntastic_check_on_open=1
+"
 let g:syntastic_enable_signs=1
 highlight SyntasticErrorLine guibg=#2f0000
 let g:syntastic_mode_map = { 'mode': 'active',
                                \ 'active_filetypes': ['c'],
                                \ 'passive_filetypes': ['puppet'] }
+
+let g:syntastic_ignore_files=['\.tpl\.php$']
 let g:syntastic_always_populate_loc_list=1
 let g:syntastic_php_checkers=['php', 'phpcs']
 let g:syntastic_error_symbol='✗'
 let g:syntastic_warning_symbol='⚠'
 noremap ]l :lnext<CR>
 noremap [l :lpre<CR>
+noremap ,sp :let g:syntastic_php_checkers=['php']<CR>
+noremap ,ss :let g:syntastic_php_checkers=['php', 'phpcs']<CR>
 "phpcs，tab4个空格，编码参考使用CodeIgniter风格
 let g:user_zen_expandabbr_key = '<C-e>'
 let g:user_zen_next_key = ',n'
@@ -323,6 +328,7 @@ let g:neocomplcache_dictionary_filetype_lists = {
     \ 'scheme' : $HOME.'/.gosh_completions'
     \ }
 
+
 " Define keyword, for minor languages
 if !exists('g:neocomplcache_keyword_patterns')
   let g:neocomplcache_keyword_patterns = {}
@@ -373,7 +379,8 @@ if !exists('g:neocomplcache_omni_patterns')
 endif
 let g:neocomplcache_omni_patterns.ruby = '[^. *\t]\.\w*\|\h\w*::'
 "autocmd FileType ruby setlocal omnifunc=rubycomplete#Complete
-let g:neocomplcache_omni_patterns.php = '[^. \t]->\h\w*\|\h\w*::'
+" let g:neocomplcache_omni_patterns.php = '[^. \t]->\h\w*\|\h\w*::'
+let g:neocomplcache_omni_patterns.php = ''
 let g:neocomplcache_omni_patterns.c = '\%(\.\|->\)\h\w*'
 let g:neocomplcache_omni_patterns.cpp = '\h\w*\%(\.\|->\)\h\w*\|\h\w*::'
 let g:neocomplcache_omni_patterns.go = '\h\w*\.\?'
@@ -402,7 +409,7 @@ let g:signify_mapping_prev_hunk = ',sN'
 let g:refreshEnable = 1
 function! RefreshBrowser()
     if &modified
-        write
+        execute ":w"
         if g:refreshEnable == 1
             silent !xdotool search --name "pentad" key F5
         endif

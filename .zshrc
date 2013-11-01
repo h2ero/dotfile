@@ -83,17 +83,21 @@ export PATH=$PATH:/home/h2ero/bin:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/
 	alias AT='stat -c "%n %x"'
 	alias CT='stat -c "%n %z"'
     #cd 
-    alias cdh='cd ~'
-    alias cd='pushd'
-    alias cdd='popd'
-    alias ccd='dirs -c'
-    alias '?'='dirs -v'
+    # alias cdh='cd ~'
+    # alias cd='pushd'
+    # alias cdd='popd'
+    # alias ccd='dirs -c'
+    # alias '?'='dirs -v'
+    . ~/.shell/z.sh
     #others
     alias _='sudo'
     alias v='vim'
    
     #go
     alias gob='go build'
+    #quick search
+    alias hs='history | grep '
+    alias pss='ps -ef | grep '
 
 
 alias hgb="hg branch | \
@@ -118,7 +122,7 @@ alias hglc="hg log -l 1 | \
             xclip -selection clipboard"
 
 hgd(){
-    hg st $(hg root) | awk '{print $2}'  | xargs grep -Rn  "var_export\|var_dump\|console"
+    hg st $(hg root) | awk '{print $2}'  | xargs grep -Rn  "var_export\|var_dump\|console" | sed -n 's/:/ +/p'
 }
 
 # 

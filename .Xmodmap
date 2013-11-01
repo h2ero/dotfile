@@ -17,3 +17,5 @@ keycode  33 = p P XF86Paste
 keycode  54 = c C XF86Copy
 keycode  53 = x X XF86Cut
 keycode  30 = u U Caps_Lock
+keycode  34 = bracketleft braceleft Next Next
+keycode  35 = bracketright braceright Prior Prior
