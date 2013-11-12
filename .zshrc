@@ -72,8 +72,10 @@ export PATH=$PATH:/home/h2ero/bin:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/
 	alias mv='mv -i'
     #alias cp='cp -i'
 	alias c='clear'
-    alias pbcopy='xclip -selection clipboard'
-    alias pbpaste='xclip -selection clipboard -o'
+    if [[ $DESKTOP_SESSION != '' ]]; then
+        alias pbcopy='xclip -selection clipboard'
+        alias pbpaste='xclip -selection clipboard -o'
+    fi
 	alias rejpg='for i in $(ls);do mv $i $i.jpg; done;'
 	alias  r='reset'
 	alias  e='exit'
@@ -95,15 +97,19 @@ export PATH=$PATH:/home/h2ero/bin:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/
    
     #go
     alias gob='go build'
+    #quick run
+    alias u='( urxvt & ) &>/dev/null && clear'
     #quick search
     alias hs='history | grep '
     alias pss='ps -ef | grep '
 
 
-alias hgb="hg branch | \
-           tr -d '\n' | \
-           xclip -selection clipboard && \
-           echo \"$(xclip -selection clipboard -o)\" "
+    if [[ $DESKTOP_SESSION != '' ]]; then
+        alias hgb="hg branch | \
+            tr -d '\n' | \
+            xclip -selection clipboard && \
+            echo \"$(xclip -selection clipboard -o)\" "
+    fi
 
 # Show all branches in a more readable way
 alias hgbs="hg branches | \
@@ -117,9 +123,11 @@ alias hgbsc="hg branches -c | \
 
 # Copy branch/changeset information to the clipboard.
 # Useful when referring to commits
-alias hglc="hg log -l 1 | \
-            grep -1 changeset | \
-            xclip -selection clipboard"
+if [[ $DESKTOP_SESSION != '' ]]; then
+    alias hglc="hg log -l 1 | \
+        grep -1 changeset | \
+        xclip -selection clipboard"
+fi
 
 hgd(){
     hg st $(hg root) | awk '{print $2}'  | xargs grep -Rn  "var_export\|var_dump\|console" | sed -n 's/:/ +/p'
