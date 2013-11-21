@@ -7,3 +7,5 @@
 .moc/last_directory
 .moc/softmixer
 *.orig
+.emacs.d/auto-save-list/*
+.emacs.d/elpa/archives/*
