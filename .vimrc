@@ -298,8 +298,8 @@ nmap ,xf :call system("xclip -i -selection clipboard", bufname('%'))<CR>
 inoremap <S-CR> <CR>
 let g:acp_enableAtStartup = 1
 
-"jedi-vim don't show  preview
-let g:jedi#auto_vim_configuration = 0
+" "jedi-vim don't show  preview
+" let g:jedi#auto_vim_configuration = 0
 "////////////////////////////////////////////////////////////////////////////////
 "//
 "//  neocomplcache  config

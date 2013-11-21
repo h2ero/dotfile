@@ -1,16 +1,20 @@
-(setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
-                         ("marmalade" . "http://marmalade-repo.org/packages/")
-                         ("melpa" . "http://melpa.milkbox.net/packages/")))
-(add-to-list 'load-path "~/.emacs.d/elpa/evil-20131023.2315") ; only without ELPA/el-get
-(add-to-list 'load-path "~/.emacs.d/elpa/php-mode-20131029.1345") ; only without ELPA/el-get
-(add-to-list 'load-path "~/.emacs.d/elpa/monokai-theme-20131027.1027") ; only without ELPA/el-get
-; (add-to-list 'load-path "~/.emacs.d/elpa/f") ; only without ELPA/el-get
-(require 'evil)
+(add-to-list 'load-path "~/.emacs.d/el-get/el-get")
+
+(unless (require 'el-get nil 'noerror)
+  (with-current-buffer
+    (url-retrieve-synchronously
+      "https://raw.github.com/dimitri/el-get/master/el-get-install.el")
+    (let (el-get-master-branch)
+      (goto-char (point-max))
+      (eval-print-last-sexp))))
+
+(el-get 'sync)
+
+(add-to-list 'load-path "~/.emacs.d/el-get/php-mode") 
 (require 'php-mode)
-(require 'monokai-theme)
-; (require 'flycheck)
 
+(add-to-list 'load-path "~/.emacs.d/el-get/php-mode") 
+(require 'evil)
+(define-key evil-normal-state-map (kbd "M-c") 'execute-extended-command)
 (evil-mode 1)
-(define-key evil-normal-state-map "gT" 'elscreen-previous) ;previous tab
-(define-key evil-normal-state-map "gt" 'elscreen-next) ;next tab
-
+(server-start)
