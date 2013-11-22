@@ -20,6 +20,10 @@
 (evil-mode 1)
 (server-start)
 
+(add-to-list 'load-path "~/.emacs.d/el/powerline") ; only without ELPA/el-get
+(require 'powerline)
+(powerline-default-theme)
+
 (add-to-list 'load-path "~/.emacs.d/elpa/yasnippet-0.8.0")
 (require 'yasnippet)
 (yas-global-mode 1)
