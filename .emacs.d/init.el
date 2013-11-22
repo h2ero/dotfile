@@ -28,3 +28,5 @@
 (require 'yasnippet)
 (yas-global-mode 1)
 
+(add-to-list 'load-path "~/.emacs.d/elpa/evil-nerd-commenter-1.2.4")
+(require 'evil-nerd-commenter)
