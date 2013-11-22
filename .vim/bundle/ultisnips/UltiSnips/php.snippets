@@ -140,7 +140,6 @@ public function ${1:name}(${2:$param})
 {
     ${VISUAL}${3:return null;}
 }
-$0
 endsnippet
 
 snippet pro "Protected function" !b
@@ -261,10 +260,12 @@ endsnippet
 
 #common doc
 snippet /*f
+
 /**
  * ${1:desc}
  * 
  * ${2:@param ${3:type} $${4:name} ${5:desc}}
+ *
  * ${6:@return ${6:type} ${7:desc}}
  */
 endsnippet
@@ -288,7 +289,24 @@ snippet phpe "php" w
 <?php echo $${1}; ?>
 endsnippet
 
-snippet phpeh "phpeh" w
+snippet phpea "php" w
+<?php echo $${1}['${2}']; ?>
+endsnippet
+
+
+snippet phpif "phpif" w
+<?php if($${1}){ ?>
+<?php } ?>
+endsnippet
+
+snippet phpife "phpife" w
+<?php if($${1}){ ?>
+<?php } else{ ?>
+<?php } ?>
+endsnippet
+
+
+snippet es "php" w
 <?php echo htmlspecialchars($${1}); ?>
 endsnippet
 

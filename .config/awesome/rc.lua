@@ -54,7 +54,7 @@ layouts =
     awful.layout.suit.tile.left,
     awful.layout.suit.tile.left,
     awful.layout.suit.tile.left,
-    awful.layout.suit.tile.left,
+    awful.layout.suit.floating,
     awful.layout.suit.tile.left,
     awful.layout.suit.tile.left,
     awful.layout.suit.tile.left,
@@ -235,7 +235,8 @@ runapp={ "firefox",
 		"/media/software/developTool/ZendStudio/ZendStudio",
 		"/media/software/developTool/Aptana/AptanaStudio3",
 		"/media/software/developTool/SublimeText2/sublime_text",
-		"scrot -e 'mv $f ~/Desktop/temp/ 2>/dev/null'"
+		"scrot -e 'mv $f ~/Desktop/temp/ 2>/dev/null'",
+		"mysql-workbench"
 }
 -- {{{ Key bindings
 globalkeys = awful.util.table.join(
@@ -246,6 +247,7 @@ globalkeys = awful.util.table.join(
     awful.key({ modkey,"Control"}, "a", function () awful.util.spawn(runapp[4]) end),
     awful.key({ modkey,"Control"}, "s", function () awful.util.spawn(runapp[5]) end),
     awful.key({ modkey,"Control"}, "x", function () awful.util.spawn(runapp[6]) end),
+    awful.key({ modkey,"Control"}, "w", function () awful.util.spawn(runapp[7]) end),
     
     awful.key({ modkey }, "m", function () awful.util.spawn_with_shell("mute") end),
     awful.key({ modkey }, "=", function () setVolume("+4"); volumewidget.text  = getVolume(); end),
@@ -397,6 +399,8 @@ awful.rules.rules = {
  	{ rule = { instance = "plugin-container" },
       properties = { floating = true } },
     { rule = { class = "Osdlyrics" },
+      properties = { floating = true } },
+    { rule = { class = "wine" },
       properties = { floating = true } },
     { rule = { class = "pinentry" },
       properties = { floating = true } },

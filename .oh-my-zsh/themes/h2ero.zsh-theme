@@ -1,10 +1,10 @@
 #local IP=$(wget -qO -  )
 local INNER_IP=$(ifconfig | sed -n  /Bcast/p | awk -F : '{ sub("  Bcast","", $2); print $2 }')
 local UPTIME=$(uptime | awk 'sub(",","",$3){print $3}')
-local WH=$(wget -qO - http://www.weather.com.cn/data/sk/101270101.html | sed -n 's/.*temp":"\([0-9]\+\)".*/\1/p')
+# local WH=$(wget -qO - http://www.weather.com.cn/data/sk/101270101.html | sed -n 's/.*temp":"\([0-9]\+\)".*/\1/p')
 
 PROMPT=$'
-%{$fg[blue]%}%/%{$reset_color%} ⚡ %{$fg[green]%}$(vcprompt -f "["%s)$(vcprompt -f "\:"%b" ")%{$fg[red]%}$(vcprompt -f %m)%{$fg[green]%}$(vcprompt -f "] ")$(bzr_prompt_info)%{$fg[white]%}[%n@%m]%{$reset_color%} %{$fg[white]%}[%T]%{$reset_color%}   <${INNER_IP}> %{$fg[red]%}${WH}℃  ${UPTIME}
+%{$fg[blue]%}%/%{$reset_color%} ⚡ %{$fg[green]%}$(vcprompt -f "["%s)$(vcprompt -f "\:"%b" ")%{$fg[red]%}$(vcprompt -f %m)%{$fg[green]%}$(vcprompt -f "] ")$(bzr_prompt_info)%{$fg[white]%}[%n@%m]%{$reset_color%} %{$fg[white]%}[%T]%{$reset_color%}   <${INNER_IP}> %{$fg[red]%}${UPTIME}
 %{$fg_bold[black]%}>⚡%{$reset_color%}'
 
 PROMPT2="%{$fg_blod[black]%}%_>  %{$reset_color%}"

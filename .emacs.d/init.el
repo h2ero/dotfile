@@ -37,9 +37,3 @@
           (lambda ()
             (smart-operator-mode-on)))
 
-(add-to-list 'load-path "~/.emacs.d/el/ido/")
-(require 'ido)
-(ido-mode 1)
-(define-key evil-ex-map "e " 'ido-find-file)
-(define-key evil-ex-map "w " 'ido-write-file)
-(define-key evil-ex-map "b " 'ido-switch-buffer)
