@@ -1,0 +1,12 @@
+[user]
+	name = h2ero
+	email = 122750707@qq.com
+[color]
+	ui = true
+[core]
+	quotepath = false
+[github]
+	user = h2ero
+[http]
+    proxy = http://127.0.0.1:8087
+    sslVerify = false
