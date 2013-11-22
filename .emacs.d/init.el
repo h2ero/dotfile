@@ -45,3 +45,5 @@
 
 (setq fiplr-ignored-globs '((directories (".git" ".svn" ".hg"))
                             (files ("*.jpg" "*.png" "*.zip" "*~"))))
+
+(global-set-key (kbd "M-x") 'smex)

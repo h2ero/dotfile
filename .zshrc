@@ -79,6 +79,7 @@ export PATH=$PATH:/home/h2ero/bin:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/
 	alias rejpg='for i in $(ls);do mv $i $i.jpg; done;'
 	alias  r='reset'
 	alias  e='exit'
+	alias  es='emacs'
 	#file mssages
 	alias lm='stat -c "%n %A %a"'
 	alias MT='stat -c "%n %y"'
