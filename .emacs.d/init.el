@@ -33,3 +33,6 @@
 
 (add-to-list 'load-path "~/.emacs.d/elpa/smart-operator-4.0")
 (require 'smart-operator)
+(add-hook 'php-mode-hook
+          (lambda ()
+            (smart-operator-mode-on)))
