@@ -1,25 +1,14 @@
+.vim/doc/*
+.DS_Store
+.vim/.netrwhist
 *.pyc
 .moc/cache/
 .moc/equalizer
 .moc/last_directory
 .moc/softmixer
 *.orig
-./.emacs.d/auto-save-list
-./.emacs.d/el-get/el-get/
-./.emacs.d/el-get/el-get/.*
-.emacs.d/el-get/.loaddefs.el
-.emacs.d/el-get/.loaddefs.elc
-.emacs.d/el-get/.loaddefs.el~
-.emacs.d/el-get/.status.el
-.emacs.d/el-get/.status.el.old
-.emacs.d/el-get/el-get
-                                                  
-                                                                   
-                                                            
-                                                             
-                                                        
-                                                         
- 
+.emacs.d/auto-save-list/*
+.emacs.d/elpa/archives/*
                                 
                                                                  
                                                                              
