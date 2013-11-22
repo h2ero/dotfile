@@ -30,3 +30,6 @@
 
 (add-to-list 'load-path "~/.emacs.d/elpa/evil-nerd-commenter-1.2.4")
 (require 'evil-nerd-commenter)
+
+(add-to-list 'load-path "~/.emacs.d/elpa/smart-operator-4.0")
+(require 'smart-operator)
