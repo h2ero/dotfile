@@ -7,6 +7,7 @@
 
 (setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
                          ("marmalade" . "http://marmalade-repo.org/packages/")
+						 ("melpa" . "http://melpa.milkbox.net/packages/")
                          ))
 (add-to-list 'custom-theme-load-path "~/.emacs.d/elpa/monokai-theme-0.0.10")
 (load-theme 'monokai t)
@@ -37,3 +38,10 @@
           (lambda ()
             (smart-operator-mode-on)))
 
+(add-to-list 'load-path "~/.emacs.d/elpa/fiplr-20130810.1841")
+(require 'fiplr)
+(setq fiplr-root-markers '(".git" ".svn" ".hg"))
+(global-set-key (kbd "C-x f") 'fiplr-find-file)
+
+(setq fiplr-ignored-globs '((directories (".git" ".svn" ".hg"))
+                            (files ("*.jpg" "*.png" "*.zip" "*~"))))
