@@ -68,3 +68,7 @@
 
 (add-to-list 'flymake-allowed-file-name-masks
              '("\\.php$" flymake-php-init))
+
+(add-to-list 'load-path "~/.emacs.d/el")
+(add-to-list 'load-path "~/.emacs.d/elpa/tree-mode-20121207.1538")
+(require 'dirtree)
