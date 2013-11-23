@@ -45,6 +45,7 @@
 (add-hook 'php-mode-hook
           (lambda ()
             (smart-operator-mode-on)))
+; (setq smart-operator-docs nil)
 
 (add-to-list 'load-path "~/.emacs.d/elpa/fiplr-20130810.1841")
 (require 'fiplr)
@@ -79,3 +80,11 @@
 (add-to-list 'load-path "~/.emacs.d/el")
 (add-to-list 'load-path "~/.emacs.d/elpa/tree-mode-20121207.1538")
 (require 'dirtree)
+
+(add-to-list 'load-path "~/.emacs.d/elpa/auto-complete-20131121.1705")
+(add-to-list 'load-path "~/.emacs.d/elpa/popup-20130708.2245")
+(require 'auto-complete)
+(require 'auto-complete-config)
+(define-key ac-completing-map (kbd "C-n") 'ac-next)
+(define-key ac-completing-map (kbd "C-p") 'ac-previous)
+(global-auto-complete-mode t)
