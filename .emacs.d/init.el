@@ -1,7 +1,12 @@
 (setq indent-tabs-mode nil)
 (setq default-tab-width 4)
 (setq tab-width 4)
+(setq indent-line-function 'insert-tab)
+(setq tab-stop-list '(4 8 12 16 20 24 28 32 36 40 44 48 52 56 60 64 68 72 76 80))
+
 (setq inhibit-startup-message t)
+(setq c-basic-offset 4)
+(setq delete-trailing-whitespace t)
 
 ; (setq c-offsets-alist '((substatement-open . 0)))
 
@@ -13,16 +18,16 @@
 (add-to-list 'custom-theme-load-path "~/.emacs.d/elpa/monokai-theme-0.0.10")
 (load-theme 'monokai t)
 
-(add-to-list 'load-path "~/.emacs.d/elpa/php-mode-1.5.0") ; only without ELPA/el-get
+(add-to-list 'load-path "~/.emacs.d/elpa/php-mode-1.5.0") 
 (require 'php-mode)
 
-(add-to-list 'load-path "~/.emacs.d/el/evil") ; only without ELPA/el-get
+(add-to-list 'load-path "~/.emacs.d/el/evil") 
 (require 'evil)
 (define-key evil-normal-state-map (kbd "M-c") 'execute-extended-command)
 (evil-mode 1)
 (server-start)
 
-(add-to-list 'load-path "~/.emacs.d/el/powerline") ; only without ELPA/el-get
+(add-to-list 'load-path "~/.emacs.d/el/powerline") 
 (require 'powerline)
 (powerline-default-theme)
 
