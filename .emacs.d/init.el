@@ -1,6 +1,7 @@
 (setq indent-tabs-mode nil)
 (setq default-tab-width 4)
 (setq tab-width 4)
+(setq inhibit-startup-message t)
 
 ; (setq c-offsets-alist '((substatement-open . 0)))
 
@@ -50,6 +51,8 @@
 
 ;check php
 (require 'flymake)
+
+(add-hook 'find-file-hook 'flymake-find-file-hook)
 
 (defun flymake-php-init ()
   "Use php to check the syntax of the current file."
