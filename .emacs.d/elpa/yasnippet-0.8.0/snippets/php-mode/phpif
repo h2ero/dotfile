@@ -1,0 +1,5 @@
+# name: php if
+# key: phpfi
+# --
+<?php if($${1}){ ?>
+<?php } ?>

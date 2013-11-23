@@ -8,6 +8,7 @@
 (setq c-basic-offset 4)
 (setq delete-trailing-whitespace t)
 
+
 ; (setq c-offsets-alist '((substatement-open . 0)))
 
 
@@ -34,6 +35,7 @@
 (add-to-list 'load-path "~/.emacs.d/elpa/yasnippet-0.8.0")
 (require 'yasnippet)
 (yas-global-mode 1)
+(setq yas/indent-line nil)
 
 (add-to-list 'load-path "~/.emacs.d/elpa/evil-nerd-commenter-1.2.4")
 (require 'evil-nerd-commenter)

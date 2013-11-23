@@ -1,0 +1,4 @@
+# name: echo htmlspecialchars
+# key: es
+# --
+<?php echo htmlspecialchars($${1}); ?>

@@ -1,0 +1,6 @@
+# name: foreach
+# key: fore
+# --
+foreach ($${1:variable} as $${3:value}) {
+    ${VISUAL}${4}
+}
