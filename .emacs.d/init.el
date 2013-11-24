@@ -7,6 +7,8 @@
 (setq inhibit-startup-message t)
 (setq c-basic-offset 4)
 
+(add-hook 'before-save-hook 'delete-trailing-whitespace)
+
 
 ; (setq c-offsets-alist '((substatement-open . 0)))
 
