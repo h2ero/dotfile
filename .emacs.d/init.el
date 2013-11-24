@@ -6,7 +6,6 @@
 
 (setq inhibit-startup-message t)
 (setq c-basic-offset 4)
-(setq delete-trailing-whitespace t)
 
 
 ; (setq c-offsets-alist '((substatement-open . 0)))
@@ -19,7 +18,7 @@
 (add-to-list 'custom-theme-load-path "~/.emacs.d/elpa/monokai-theme-0.0.10")
 (load-theme 'monokai t)
 
-(add-to-list 'load-path "~/.emacs.d/elpa/php-mode-1.5.0") 
+(add-to-list 'load-path "~/.emacs.d/el/php-mode") 
 (require 'php-mode)
 
 (add-to-list 'load-path "~/.emacs.d/el/evil") 
@@ -44,8 +43,9 @@
 (require 'smart-operator)
 (add-hook 'php-mode-hook
           (lambda ()
-            (smart-operator-mode-on)))
-; (setq smart-operator-docs nil)
+            (smart-operator-mode-on)
+            ))
+
 
 (add-to-list 'load-path "~/.emacs.d/elpa/fiplr-20130810.1841")
 (require 'fiplr)
@@ -74,8 +74,8 @@
              '("\\(Parse\\|Fatal\\) error: +\\(.*?\\)
                in \\(.*?\\) on line \\([0-9]+\\)$" 3 4 nil 2))
 
-(add-to-list 'flymake-allowed-file-name-masks
-             '("\\.php$" flymake-php-init))
+; (add-to-list 'flymake-allowed-file-name-masks
+;              '("\\.php$" flymake-php-init))
 
 (add-to-list 'load-path "~/.emacs.d/el")
 (add-to-list 'load-path "~/.emacs.d/elpa/tree-mode-20121207.1538")
