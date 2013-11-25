@@ -49,10 +49,10 @@
             ))
 
 
-(add-to-list 'load-path "~/.emacs.d/elpa/fiplr-20130810.1841")
-(require 'fiplr)
-(setq fiplr-root-markers '(".git" ".svn" ".hg"))
-(global-set-key (kbd "C-x f") 'fiplr-find-file)
+; (add-to-list 'load-path "~/.emacs.d/elpa/fiplr-20130810.1841")
+; (require 'fiplr)
+; (setq fiplr-root-markers '(".git" ".svn" ".hg"))
+; (global-set-key (kbd "C-x f") 'fiplr-find-file)
 
 (setq fiplr-ignored-globs '((directories (".git" ".svn" ".hg"))
                             (files ("*.jpg" "*.png" "*.zip" "*~"))))
