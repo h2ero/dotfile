@@ -96,3 +96,4 @@
 (define-key ac-completing-map (kbd "C-n") 'ac-next)
 (define-key ac-completing-map (kbd "C-p") 'ac-previous)
 (global-auto-complete-mode t)
+(setq ac-delay 0.5)
