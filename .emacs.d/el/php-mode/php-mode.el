@@ -689,7 +689,7 @@ This is was done due to the problem reported here:
     ;; Use the Emacs standard indentation binding. This may upset c-mode
     ;; which does not follow this at the moment, but I see no better
     ;; choice.
-    (define-key map [tab] 'indent-for-tab-command)
+    ; (define-key map [tab] 'indent-for-tab-command)
     map)
   "Keymap for `php-mode'")
 

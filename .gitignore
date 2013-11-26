@@ -10,3 +10,5 @@
 .emacs.d/auto-save-list/*
 .emacs.d/elpa/archives/*
 *.elc
+.emacs.d/ac-comphist.dat
+*.swp
