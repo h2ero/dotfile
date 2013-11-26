@@ -102,3 +102,9 @@
 (define-key ac-completing-map (kbd "C-n") 'ac-next)
 (define-key ac-completing-map (kbd "C-p") 'ac-previous)
 (global-auto-complete-mode t)
+
+
+(add-to-list 'load-path "~/.emacs.d/el/helm")
+(require 'helm-config)
+(global-set-key (kbd "C-x C-f") 'helm-find-files)
+; (helm-command-prefix-key M-x)
