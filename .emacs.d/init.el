@@ -4,6 +4,10 @@
 (setq indent-line-function 'insert-tab)
 (setq tab-stop-list '(4 8 12 16 20 24 28 32 36 40 44 48 52 56 60 64 68 72 76 80))
 
+(global-set-key (kbd "C-SPC") nil)
+; (global-unset-key (kbd "C-SPC"))  
+; (global-set-key (kbd "M-SPC") 'set-mark-command) 
+
 (setq inhibit-startup-message t)
 (setq c-basic-offset 4)
 
