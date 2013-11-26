@@ -24,20 +24,8 @@
 (add-to-list 'custom-theme-load-path "~/.emacs.d/elpa/monokai-theme-0.0.10")
 (load-theme 'monokai t)
 
-(add-to-list 'load-path "~/.emacs.d/elpa/php-mode-1.5.0") 
+(add-to-list 'load-path "~/.emacs.d/el/php-mode") 
 (require 'php-mode)
-(add-hook 'php-mode-hook (lambda ()
-    (defun ywb-php-lineup-arglist-intro (langelem)
-      (save-excursion
-        (goto-char (cdr langelem))
-        (vector (+ (current-column) c-basic-offset))))
-    (defun ywb-php-lineup-arglist-close (langelem)
-      (save-excursion
-        (goto-char (cdr langelem))
-        (vector (current-column))))
-    (c-set-offset 'arglist-intro 'ywb-php-lineup-arglist-intro)
-    (c-set-offset 'arglist-close 'ywb-php-lineup-arglist-close)))
-
 
 (add-to-list 'load-path "~/.emacs.d/el/evil") 
 (require 'evil)
@@ -53,6 +41,8 @@
 (require 'yasnippet)
 (yas-global-mode 1)
 (setq yas/indent-line nil)
+; (global-set-key (kbd "TAB") nil)
+; (global-set-key (kbd "<TAB>") 'yas-expand)
 
 (add-to-list 'load-path "~/.emacs.d/elpa/evil-nerd-commenter-1.2.4")
 (require 'evil-nerd-commenter)
