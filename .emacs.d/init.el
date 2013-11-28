@@ -42,7 +42,8 @@
 (add-to-list 'load-path "~/.emacs.d/elpa/yasnippet-20131127.2134")
 (require 'yasnippet)
 (yas-global-mode 1)
-(setq yas/indent-line nil)
+; (setq yas/indent-line nil)
+(setf yas/indent-line 'fixed)
 ; (global-set-key (kbd "TAB") nil)
 ; (global-set-key (kbd "<TAB>") 'yas-expand)
 
