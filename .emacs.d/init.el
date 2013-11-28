@@ -11,6 +11,8 @@
 (setq inhibit-startup-message t)
 (setq c-basic-offset 4)
 
+(defalias 'yes-or-no-p 'y-or-n-p)
+
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
 
 
@@ -37,7 +39,7 @@
 (require 'powerline)
 (powerline-default-theme)
 
-(add-to-list 'load-path "~/.emacs.d/elpa/yasnippet-0.8.0")
+(add-to-list 'load-path "~/.emacs.d/elpa/yasnippet-20131127.2134")
 (require 'yasnippet)
 (yas-global-mode 1)
 (setq yas/indent-line nil)
@@ -104,3 +106,13 @@
 (require 'helm-config)
 (global-set-key (kbd "C-x C-f") 'helm-find-files)
 ; (helm-command-prefix-key M-x)
+;
+
+(add-to-list 'load-path "~/.emacs.d/elpa/sr-speedbar-20130309.1959")
+(require 'sr-speedbar)
+(setq speedbar-use-images nil)
+(setq sr-speedbar-right-side nil)
+(setq speedbar-show-unknown-files t)
+(setq imenu-auto-scan t)
+(define-key evil-normal-state-map (kbd ",f") 'sr-speedbar-toggle)
+(define-key speedbar-mode-map ",f" 'sr-speedbar-toggle)

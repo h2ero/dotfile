@@ -1,0 +1,11 @@
+# name: doc function
+# key: docf
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+/**
+ * ${1:desc}
+ * 
+ * ${2:@param ${3:type} $${4:name} ${5:desc}}
+ *
+ * ${6:@return ${6:type} ${7:desc}}
+ */
