@@ -15,8 +15,10 @@
 
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
 
-
 ; (setq c-offsets-alist '((substatement-open . 0)))
+
+; fly check subWord
+(global-subword-mode 1)
 
 
 (setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
@@ -55,6 +57,8 @@
 (add-hook 'php-mode-hook
           (lambda ()
             (smart-operator-mode-on)
+            ; fly spell check only for comments
+            (flyspell-prog-mode)
             ))
 
 
