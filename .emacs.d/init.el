@@ -71,6 +71,8 @@
 (setq fiplr-ignored-globs '((directories (".git" ".svn" ".hg"))
                             (files ("*.jpg" "*.png" "*.zip" "*~"))))
 
+(define-key evil-normal-state-map (kbd ",p") 'fiplr-find-file)
+
 (global-set-key (kbd "M-x") 'smex)
 
 ;check php
@@ -107,12 +109,6 @@
 (setq ac-delay 0.5)
 
 
-(add-to-list 'load-path "~/.emacs.d/el/helm")
-(require 'helm-config)
-(global-set-key (kbd "C-x C-f") 'helm-find-files)
-; (helm-command-prefix-key M-x)
-;
-
 (add-to-list 'load-path "~/.emacs.d/elpa/sr-speedbar-20130309.1959")
 (require 'sr-speedbar)
 (setq speedbar-use-images nil)
@@ -130,3 +126,32 @@
 (define-key evil-normal-state-map (kbd ",em") 'ecb-goto-window-methods)
 (define-key evil-normal-state-map (kbd ",eh") 'ecb-goto-window-history)
 (define-key evil-normal-state-map (kbd ",er") 'ecb-redraw-layout)
+
+
+; recentf
+(require 'recentf)
+(recentf-mode 1)
+(setq recentf-max-menu-items 100)
+;ido
+(require 'ido)
+(ido-mode t)
+(defun recentf-ido-find-file ()
+      "Find a recent file using Ido."
+      (interactive)
+      (let* ((file-assoc-list
+          (mapcar (lambda (x)
+                (cons (file-name-nondirectory x)
+                  x))
+              recentf-list))
+         (filename-list
+          (remove-duplicates (mapcar #'car file-assoc-list)
+                     :test #'string=))
+         (filename (ido-completing-read "Choose recent file: "
+                        filename-list
+                        nil
+                        t)))
+        (when filename
+          (find-file (cdr (assoc filename
+                     file-assoc-list))))))
+
+(define-key evil-normal-state-map (kbd ",m") 'recentf-ido-find-file )
