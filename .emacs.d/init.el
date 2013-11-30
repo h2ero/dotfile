@@ -121,3 +121,12 @@
 (setq imenu-auto-scan t)
 (define-key evil-normal-state-map (kbd ",f") 'sr-speedbar-toggle)
 (define-key speedbar-mode-map ",f" 'sr-speedbar-toggle)
+
+; ecb
+; (ecb-activate t)
+(define-key evil-normal-state-map (kbd ",ee") 'ecb-goto-window-edit-last)
+(define-key evil-normal-state-map (kbd ",es") 'ecb-goto-window-sources)
+(define-key evil-normal-state-map (kbd ",ed") 'ecb-goto-window-directories)
+(define-key evil-normal-state-map (kbd ",em") 'ecb-goto-window-methods)
+(define-key evil-normal-state-map (kbd ",eh") 'ecb-goto-window-history)
+(define-key evil-normal-state-map (kbd ",er") 'ecb-redraw-layout)
