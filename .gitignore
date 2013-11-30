@@ -12,3 +12,6 @@
 *.elc
 .emacs.d/ac-comphist.dat
 *.swp
+.emacs.d/ido.last
+.emacs.d/.project-roots
+.vim/bundle/mwiki
