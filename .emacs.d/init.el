@@ -4,9 +4,14 @@
 (setq indent-line-function 'insert-tab)
 (setq tab-stop-list '(4 8 12 16 20 24 28 32 36 40 44 48 52 56 60 64 68 72 76 80))
 
+(progn
+  (set-frame-font "Ubuntu Mono-12")
+  (set-fontset-font "fontset-default" 'han
+                    '("WenQuanYi Zen Hei Mono" . "unicode-bmp")))
+
 (global-set-key (kbd "C-SPC") nil)
-; (global-unset-key (kbd "C-SPC"))  
-; (global-set-key (kbd "M-SPC") 'set-mark-command) 
+; (global-unset-key (kbd "C-SPC"))
+; (global-set-key (kbd "M-SPC") 'set-mark-command)
 
 (setq inhibit-startup-message t)
 (setq c-basic-offset 4)
@@ -28,16 +33,16 @@
 (add-to-list 'custom-theme-load-path "~/.emacs.d/elpa/monokai-theme-0.0.10")
 (load-theme 'monokai t)
 
-(add-to-list 'load-path "~/.emacs.d/el/php-mode") 
+(add-to-list 'load-path "~/.emacs.d/el/php-mode")
 (require 'php-mode)
 
-(add-to-list 'load-path "~/.emacs.d/el/evil") 
+(add-to-list 'load-path "~/.emacs.d/el/evil")
 (require 'evil)
 (define-key evil-normal-state-map (kbd "M-c") 'execute-extended-command)
 (evil-mode 1)
 (server-start)
 
-(add-to-list 'load-path "~/.emacs.d/el/powerline") 
+(add-to-list 'load-path "~/.emacs.d/el/powerline")
 (require 'powerline)
 (powerline-default-theme)
 

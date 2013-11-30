@@ -112,4 +112,4 @@ URxvt.depth:32
 URxvt.background:rgba:0000/0000/0000/cccc
 
 Emacs.FontBackend: xft
-Emacs.Font: WenQuanYi Micro Hei Mono-9
+Emacs.Font: WenQuanYi Micro Hei Mono-10
