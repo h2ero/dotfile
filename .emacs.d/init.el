@@ -6,6 +6,8 @@
 
 (progn
   (set-frame-font "Ubuntu Mono-12")
+  ; emacs --daemon font
+  (add-to-list 'default-frame-alist '(font . "Ubuntu Mono-12"))
   (set-fontset-font "fontset-default" 'han
                     '("WenQuanYi Zen Hei Mono" . "unicode-bmp")))
 
@@ -160,3 +162,8 @@
                      file-assoc-list))))))
 
 (define-key evil-normal-state-map (kbd ",m") 'recentf-ido-find-file )
+
+;org-mode
+(add-to-list 'load-path "~/.emacs.d/elpa/org-20131125")
+(require 'org)
+(setq org-src-fontify-natively t)
