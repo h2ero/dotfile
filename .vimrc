@@ -59,6 +59,8 @@ au BufRead,BufNewFile *.php,*.asm,*.c,*.cpp,*.java,*.cs,*.sh,*.lua,*.pl,*.pm,*.p
 "php mannul"
 au FileType php set keywordprg=:help
 
+autocmd Filetype gitcommit setlocal spell textwidth=72
+
 
 
 " 设置编码

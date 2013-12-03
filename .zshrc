@@ -60,6 +60,7 @@ export PATH=$PATH:/home/h2ero/bin:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/
 
     set -o vi
 #exprot
+    export EDITOR="vim"
      
     export LANG="zh_CN.UTF-8"
     export LANGUAGE=
