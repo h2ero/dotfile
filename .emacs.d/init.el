@@ -125,14 +125,6 @@
 (define-key evil-normal-state-map (kbd ",f") 'sr-speedbar-toggle)
 (define-key speedbar-mode-map ",f" 'sr-speedbar-toggle)
 
-; ecb
-; (ecb-activate t)
-(define-key evil-normal-state-map (kbd ",ee") 'ecb-goto-window-edit-last)
-(define-key evil-normal-state-map (kbd ",es") 'ecb-goto-window-sources)
-(define-key evil-normal-state-map (kbd ",ed") 'ecb-goto-window-directories)
-(define-key evil-normal-state-map (kbd ",em") 'ecb-goto-window-methods)
-(define-key evil-normal-state-map (kbd ",eh") 'ecb-goto-window-history)
-(define-key evil-normal-state-map (kbd ",er") 'ecb-redraw-layout)
 
 
 ; recentf
@@ -166,4 +158,27 @@
 ;org-mode
 (add-to-list 'load-path "~/.emacs.d/elpa/org-20131125")
 (require 'org)
+(setq org-agenda-files (list "~/h2ero/org/todo/job.org" "~/h2ero/org/todo/normal.org"))
 (setq org-src-fontify-natively t)
+(setq org-log-done 'time)
+
+(setq org-todo-keywords
+      '((sequence "TODO" "INPROGRESS" "DONE")))
+
+(defun dos2unix ()
+  "Not exactly but it's easier to remember"
+  (interactive)
+  (set-buffer-file-coding-system 'unix 't) )
+
+
+; evil key map
+; ecb
+; (ecb-activate t)
+(define-key evil-normal-state-map (kbd ",ee") 'ecb-goto-window-edit-last)
+(define-key evil-normal-state-map (kbd ",es") 'ecb-goto-window-sources)
+(define-key evil-normal-state-map (kbd ",ed") 'ecb-goto-window-directories)
+(define-key evil-normal-state-map (kbd ",em") 'ecb-goto-window-methods)
+(define-key evil-normal-state-map (kbd ",eh") 'ecb-goto-window-history)
+(define-key evil-normal-state-map (kbd ",er") 'ecb-redraw-layout)
+(define-key evil-normal-state-map (kbd "gn") 'evil-window-next)
+(define-key evil-normal-state-map (kbd "gN") 'evil-window-prev)
