@@ -182,3 +182,7 @@
 (define-key evil-normal-state-map (kbd ",er") 'ecb-redraw-layout)
 (define-key evil-normal-state-map (kbd "gn") 'evil-window-next)
 (define-key evil-normal-state-map (kbd "gN") 'evil-window-prev)
+
+; remember
+(define-key global-map "\C-cr" 'org-remember)
+(setq org-default-notes-file "~/h2ero/org/.notes.org")
