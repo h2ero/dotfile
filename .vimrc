@@ -1,4 +1,5 @@
 colorscheme molokai
+set cursorline cursorcolumn
 set ff=unix
 set t_Co=256
 set guifont=Monaco:h10       " 字体 && 字号
