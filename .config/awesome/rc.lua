@@ -170,15 +170,23 @@ mytasklist.buttons = awful.util.table.join(
 --
 -- ip
 local ipwidget = widget({type = "textbox"})
-ipwidget.text  = getIp()
+ipwidget.text  = "IP:"..getIp()
 awful.widget.layout.margins[ipwidget] = { right = 5 }
 ipwidget.right=15
 
 -- volume
 local volumewidget = widget({type = "textbox"})
-volumewidget.text  = getVolume()
+volumewidget.text  = "Vol:"..getVolume()
 awful.widget.layout.margins[volumewidget] = { right = 5 }
 volumewidget.right=15
+
+local loadWidget = widget({type = "textbox"})
+
+awful.widget.layout.margins[volumewidget] = { right = 5 }
+loadWidget.right=15
+mytimer = timer({ timeout = 1 })
+mytimer:add_signal("timeout", function() loadWidget.text = getLoad() end)
+mytimer:start()
 
 
 -- h2ero widget end --------------------------------------------------------------------------------
@@ -216,8 +224,13 @@ for s = 1, screen.count() do
         mylayoutbox[s],
         mytextclock,
         s == 1 and mysystray or nil,
+        layout = awful.widget.layout.horizontal.rightleft
+    }
+    mywibox[s] = awful.wibox({ position = "bottom", opacity=0.6, screen = s })
+    mywibox[s].widgets = {
         ipwidget,
         volumewidget,
+        loadWidget,
         layout = awful.widget.layout.horizontal.rightleft
     }
 end

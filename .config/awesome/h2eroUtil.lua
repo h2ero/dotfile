@@ -15,3 +15,13 @@ end
 function setVolume(arg)
     os.execute("amixer set Master $(($(amixer get Master  | sed -n 's/.*P.*\\[\\(.*\\)%\\].*/\\1/p')"..arg.."))%")
 end
+
+function trim(s)
+    return s:match "^%s*(.-)%s*$"
+end
+
+function getLoad()
+    local up = trim(runCmd("top -b -n 1| sed -n 1p | sed -n 's/^.*up/up/p' | sed 's/\\n//'"))
+    local cpu = trim(runCmd("top -b -n 1 | sed -n '3p'"))
+    return up.."         "..cpu.."        "
+end
