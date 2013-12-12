@@ -21,7 +21,6 @@ function trim(s)
 end
 
 function getLoad()
-    local up = trim(runCmd("top -b -n 1| sed -n 1p | sed -n 's/^.*up/up/p' | sed 's/\\n//'"))
-    local cpu = trim(runCmd("top -b -n 1 | sed -n '3p'"))
-    return up.."         "..cpu.."        "
+    local up = trim(runCmd("uptime"))
+    return up.."   "
 end
