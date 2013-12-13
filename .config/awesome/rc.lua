@@ -224,12 +224,12 @@ for s = 1, screen.count() do
         mylayoutbox[s],
         mytextclock,
         s == 1 and mysystray or nil,
+        ipwidget,
+        volumewidget,
         layout = awful.widget.layout.horizontal.rightleft
     }
     mywibox[s] = awful.wibox({ position = "bottom", opacity=0.6, screen = s })
     mywibox[s].widgets = {
-        ipwidget,
-        volumewidget,
         loadWidget,
         layout = awful.widget.layout.horizontal.rightleft
     }
