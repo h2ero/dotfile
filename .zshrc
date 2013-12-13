@@ -102,6 +102,7 @@ export PATH=$PATH:/home/h2ero/bin:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/
     alias e0='emacs --daemon'  #启动守护进程
     alias e1='emacsclient -t -a ""'  #在终端中开启emacs
     alias e2='emacsclient -c -a ""'  #启动emacs图形界面
+    alias phpd='php -d xdebug.profiler_enable=On '
 
 	#file mssages
 	alias lm='stat -c "%n %A %a"'
