@@ -165,6 +165,15 @@
 (setq org-todo-keywords
       '((sequence "TODO" "INPROGRESS" "DONE")))
 
+(setq org-publish-project-alist
+	  '(("org"
+		 :base-directory "~/h2ero/org/"
+		 :publishing-directory "~/h2ero/org/html"
+		 :publishing-function org-html-publish-to-html
+		 :recursive t
+		 :section-numbers nil
+		 :table-of-contents nil)))
+
 (defun dos2unix ()
   "Not exactly but it's easier to remember"
   (interactive)
