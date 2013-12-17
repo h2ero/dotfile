@@ -195,3 +195,7 @@
 ; remember
 (define-key global-map "\C-cr" 'org-remember)
 (setq org-default-notes-file "~/h2ero/org/.notes.org")
+
+;quick run
+(require 'quickrun)
+(global-set-key (kbd "C-c c") 'quickrun)
