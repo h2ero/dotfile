@@ -3,6 +3,8 @@
 (setq tab-width 4)
 (setq indent-line-function 'insert-tab)
 (setq tab-stop-list '(4 8 12 16 20 24 28 32 36 40 44 48 52 56 60 64 68 72 76 80))
+(global-linum-mode t)
+
 
 (progn
   (set-frame-font "Ubuntu Mono-10")
@@ -37,6 +39,17 @@
 
 (add-to-list 'load-path "~/.emacs.d/el/php-mode")
 (require 'php-mode)
+
+(add-to-list 'load-path "~/.emacs.d/elpa/flymake-phpcs-1.0.5")
+(setq flymake-phpcs-show-rule t)
+(require 'flymake-phpcs)
+(setq flymake-phpcs-standard "Jumei")
+
+; (add-to-list 'load-path "~/.emacs.d/elpa/w3m-20131119.2351")
+;  (setq browse-url-browser-function 'w3m-browse-url)
+;  (autoload 'w3m-browse-url "w3m" "Ask a WWW browser to show a URL." t)
+;  ;; optional keyboard short-cut
+;  (global-set-key "\C-xm" 'browse-url-at-point)
 
 (add-to-list 'load-path "~/.emacs.d/el/evil")
 (require 'evil)
