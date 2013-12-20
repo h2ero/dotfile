@@ -10,3 +10,5 @@
 [http]
     proxy = http://127.0.0.1:8087
     sslVerify = false
+[credential]
+	helper = cache --timeout=3600000
