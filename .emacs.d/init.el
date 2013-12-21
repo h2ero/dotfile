@@ -167,6 +167,8 @@
                      file-assoc-list))))))
 
 (define-key evil-normal-state-map (kbd ",m") 'recentf-ido-find-file )
+(add-to-list 'load-path "~/.emacs/elpa/ido-better-flex-0.0.2")
+(setq ido-better-flex/enable t)
 
 ;org-mode
 (add-to-list 'load-path "~/.emacs.d/elpa/org-20131125")
@@ -212,3 +214,9 @@
 ;quick run
 (require 'quickrun)
 (global-set-key (kbd "C-c c") 'quickrun)
+
+; ememnt
+(add-to-list 'load-path "~/.emacs.d/el/emmet-mode")
+(require 'emmet-mode)
+(add-hook 'sgml-mode-hook 'emmet-mode) 
+(add-hook 'css-mode-hook  'emmet-mode) 
