@@ -218,5 +218,27 @@
 ; ememnt
 (add-to-list 'load-path "~/.emacs.d/el/emmet-mode")
 (require 'emmet-mode)
-(add-hook 'sgml-mode-hook 'emmet-mode) 
-(add-hook 'css-mode-hook  'emmet-mode) 
+(add-hook 'sgml-mode-hook 'emmet-mode)
+(add-hook 'css-mode-hook  'emmet-mode)
+
+; rainbow
+(add-to-list 'load-path "~/.emacs.d/elpa/rainbow-mode-0.9")
+(require 'rainbow-mode)
+(dolist (hook '(css-mode-hook html-mode-hook sass-mode-hook))
+(add-hook hook 'rainbow-turn-on))
+
+; multi-web-mode
+(add-to-list 'load-path "~/.emacs.d/el/multi-web-mode")
+(require 'multi-web-mode)
+(setq mweb-default-major-mode 'html-mode)
+(setq mweb-tags '((php-mode "<\\?php\\|<\\? \\|<\\?=" "\\?>")
+                  (js-mode "<script +\\(type=\"text/javascript\"\\|language=\"javascript\"\\)[^>]*>" "</script>")
+                  (css-mode "<style +type=\"text/css\"[^>]*>" "</style>")))
+(setq mweb-filename-extensions '("php" "htm" "html" "ctp" "phtml" "php4" "php5"))
+(multi-web-global-mode 1)
+
+; projectile
+(add-to-list 'load-path "~/.emacs.d/el/projectile")
+(require 'projectile)
+(setq projectile-completion-system 'grizzl)
+(projectile-global-mode)
