@@ -242,3 +242,7 @@
 ;   (setq web-mode-indent-style 4)
 ; )
 ; (add-hook 'web-mode-hook 'web-mode-hook)
+
+;geben Debug
+(add-to-list 'load-path "~/.emacs.d/el/geben-0.26")
+(require 'geben)
