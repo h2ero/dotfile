@@ -7,9 +7,9 @@
 
 
 (progn
-  (set-frame-font "Ubuntu Mono-10")
+  (set-frame-font "Ubuntu Mono-9")
   ; emacs --daemon font
-  (add-to-list 'default-frame-alist '(font . "Ubuntu Mono-10"))
+  (add-to-list 'default-frame-alist '(font . "Ubuntu Mono-9"))
   (set-fontset-font "fontset-default" 'han
                     '("WenQuanYi Zen Hei Mono" . "unicode-bmp")))
 
@@ -56,6 +56,7 @@
 (define-key evil-normal-state-map (kbd "M-c") 'execute-extended-command)
 (evil-mode 1)
 (server-start)
+(define-key global-map (kbd "RET") 'newline-and-indent)
 
 (add-to-list 'load-path "~/.emacs.d/el/powerline")
 (require 'powerline)
@@ -238,7 +239,7 @@
 ; (require 'web-mode)
 ; (add-to-list 'auto-mode-alist '("\\.html?\\'" . web-mode))
 ; (add-to-list 'auto-mode-alist '("\\.css\\'" . web-mode))
-; (defun web-mode-hook () 
+; (defun web-mode-hook ()
 ;   (setq web-mode-indent-style 4)
 ; )
 ; (add-hook 'web-mode-hook 'web-mode-hook)
