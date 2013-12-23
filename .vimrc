@@ -430,7 +430,7 @@ noremap ,z :ConqueTerm zsh<CR>
 au BufRead,BufNewFile *.nginx set ft=nginx
 
 "php xdebug
-let g:debuggerPort = 9001
+let g:debuggerPort = 9000
 
 "ultisnips
 let g:snips_author = 'h2ero <122750707@qq.com>'
