@@ -7,9 +7,9 @@
 
 
 (progn
-  (set-frame-font "Ubuntu Mono-9")
+  (set-frame-font "Ubuntu Mono-12")
   ; emacs --daemon font
-  (add-to-list 'default-frame-alist '(font . "Ubuntu Mono-9"))
+  (add-to-list 'default-frame-alist '(font . "Ubuntu Mono-12"))
   (set-fontset-font "fontset-default" 'han
                     '("WenQuanYi Zen Hei Mono" . "unicode-bmp")))
 

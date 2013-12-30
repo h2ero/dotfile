@@ -2,7 +2,7 @@ colorscheme molokai
 set cursorline cursorcolumn
 set ff=unix
 set t_Co=256
-set guifont=Monaco:h10       " 字体 && 字号
+" set guifont=:h10       " 字体 && 字号
 set tabstop=4                " 设置tab键的宽度
 set shiftwidth=4             " 换行时行间交错使用4个空格
 set softtabstop=4            " Sets the number of columns for a TAB
@@ -34,15 +34,16 @@ filetype plugin on           " 针对不同的文件类型加载对应的插件
 "filetype plugin indent on    " 启用自动补全
 
 if has("gui_running")
+    set novb
     au GUIEnter * simalt ~x  " 窗口启动时自动最大化
     "winpos 20 20            " 指定窗口出现的位置，坐标原点在屏幕左上角
     "set lines=20 columns=90 " 指定窗口大小，lines为高度，columns为宽度
-    "set guioptions-=m       " 隐藏菜单栏
+    set guioptions-=m       " 隐藏菜单栏
     set guioptions-=T        " 隐藏工具栏
-    "set guioptions-=L       " 隐藏左侧滚动条
-    "set guioptions-=r       " 隐藏右侧滚动条
-    "set guioptions-=b       " 隐藏底部滚动条
-    "set showtabline=0       " 隐藏Tab栏
+    set guioptions-=L       " 隐藏左侧滚动条
+    set guioptions-=r       " 隐藏右侧滚动条
+    set guioptions-=b       " 隐藏底部滚动条
+    set showtabline=0       " 隐藏Tab栏
 endif
 
 set writebackup              " 设置无备份文件
@@ -185,7 +186,7 @@ let g:syntastic_mode_map = { 'mode': 'active',
 
 let g:syntastic_ignore_files=['\.tpl\.php$']
 let g:syntastic_always_populate_loc_list=1
-let g:syntastic_php_checkers=['php', 'phpcs']
+let g:syntastic_php_checkers=['php', 'phpv', 'phpcs']
 let g:syntastic_error_symbol='✗'
 let g:syntastic_warning_symbol='⚠'
 noremap ]l :lnext<CR>
@@ -328,6 +329,7 @@ let g:neocomplcache_lock_buffer_name_pattern = '\*ku\*'
 let g:neocomplcache_dictionary_filetype_lists = {
     \ 'default' : '',
     \ 'vimshell' : $HOME.'/.vimshell_hist',
+    \ 'php' : $HOME.'/.vim/doc/php',
     \ 'scheme' : $HOME.'/.gosh_completions'
     \ }
 

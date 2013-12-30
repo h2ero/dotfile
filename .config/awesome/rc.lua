@@ -81,7 +81,19 @@ tags = {}
 
 for s = 1,screen.count() do
     -- Each screen has its own tag table.
-    tags[s] = awful.tag({ "1≯web", "2≯dev","3≯hack","4≯bgrun","5≯video"}, s, layouts)
+    tags[s] = awful.tag(
+    {   
+        "1≯web",
+        "2≯dev",
+        "3≯hack",
+        "4≯bgrun",
+        "5≯doc",
+        "6≯tem",
+        "7≯emacs",
+        "8≯gvim",
+        "9≯video",
+    }
+    , s, layouts)
 end
 -- }}}
 
@@ -99,6 +111,7 @@ myapp= {
    { "osdlyrics","osdlyrics" },
    { "virtualbox","virtualbox" },
    { "shutdown","shutdown -h now" },
+   { "gvim","gvim" },
    { "edit config", editor_cmd .. " " .. awful.util.getdir("config") .. "/rc.lua" },
    { "restart", awesome.restart },
    { "quit", awesome.quit }
@@ -249,13 +262,14 @@ runapp={ "firefox",
 		"/media/software/developTool/Aptana/AptanaStudio3",
 		"/media/software/developTool/SublimeText2/sublime_text",
 		"scrot -e 'mv $f ~/Desktop/temp/ 2>/dev/null'",
-		"mysql-workbench"
+		"mysql-workbench",
+		"gvim"
 }
 -- {{{ Key bindings
 globalkeys = awful.util.table.join(
     ---Application ShortCut
     awful.key({ modkey,"Control"}, "f", function () awful.util.spawn(runapp[1]) end),
-    awful.key({ modkey,"Control"}, "v", function () awful.util.spawn(runapp[2]) end),
+    awful.key({ modkey,"Control"}, "v", function () awful.util.spawn(runapp[8]) end),
     awful.key({ modkey,"Control"}, "z", function () awful.util.spawn(runapp[3]) end),
     awful.key({ modkey,"Control"}, "a", function () awful.util.spawn(runapp[4]) end),
     awful.key({ modkey,"Control"}, "s", function () awful.util.spawn(runapp[5]) end),

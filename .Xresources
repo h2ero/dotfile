@@ -38,8 +38,8 @@ URxvt.saveLines:5000
 ! URxvt.font:xft:Liberation Mono:pixelsize=16:antialias=false,xft:Microsoft Yahei:pixelsize=12
 ! URxvt.boldFont:xft:Liberation Mono:pixelsize=16:antialias=false:Bold,xft:Microsoft Yahei:pixelsize=18:Bold
 
-URxvt.font:xft:wenquanyi micro hei mono:pixelsize=11:style=Regular:antialias=true,xft:wenquanyi micro hei mono:pixelsize=11:style=Regular:antialias=true
-URxvt.boldfont:xft:wenquanyi micro hei mono:pixelsize=11:style=BOld:antialias=true,xft:wenquanyi micro hei mono:pixelsize=11:style=Bold:antialias=true
+URxvt.font:xft:wenquanyi micro hei mono:pixelsize=12:style=Regular:antialias=true,xft:wenquanyi micro hei mono:pixelsize=12:style=Regular:antialias=true
+URxvt.boldfont:xft:wenquanyi micro hei mono:pixelsize=12:style=BOld:antialias=true,xft:wenquanyi micro hei mono:pixelsize=12:style=Bold:antialias=true
 ! Input Method set 
 URxvt.inputMethod:fcitx
 urxvt.cursorUnderline:  true
