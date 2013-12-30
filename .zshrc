@@ -62,7 +62,7 @@ export PATH=$PATH:/home/h2ero/bin:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/
 #exprot
     export EDITOR="vim"
      
-    export LANG="zh_CN.UTF-8"
+    export LANG="en_US.UTF-8"
     export LANGUAGE=
     export LC_CTYPE="zh_CN.UTF-8"
     export LC_NUMERIC="en_US.UTF-8"
