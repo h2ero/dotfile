@@ -186,12 +186,12 @@ let g:syntastic_mode_map = { 'mode': 'active',
 
 let g:syntastic_ignore_files=['\.tpl\.php$']
 let g:syntastic_always_populate_loc_list=1
-let g:syntastic_php_checkers=['php', 'phpv', 'phpcs']
+let g:syntastic_php_checkers=['php', 'phpcs', 'phpv']
 let g:syntastic_error_symbol='✗'
 let g:syntastic_warning_symbol='⚠'
 noremap ]l :lnext<CR>
 noremap [l :lpre<CR>
-noremap ,sp :let g:syntastic_php_checkers=['php']<CR>
+noremap ,sp :let g:syntastic_php_checkers=['php', 'phpv']<CR>
 noremap ,ss :let g:syntastic_php_checkers=['php', 'phpcs']<CR>
 "phpcs，tab4个空格，编码参考使用CodeIgniter风格
 let g:user_zen_expandabbr_key = '<C-e>'
