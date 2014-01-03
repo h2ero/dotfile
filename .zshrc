@@ -103,6 +103,8 @@ export PATH=$PATH:/home/h2ero/bin:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/
     alias e1='emacsclient -t -a ""'  #在终端中开启emacs
     alias e2='emacsclient -c -a ""'  #启动emacs图形界面
     alias phpd='php -d xdebug.profiler_enable=On '
+    alias s='sudo'
+    alias s='sudo service '
 
 	#file mssages
 	alias lm='stat -c "%n %A %a"'
@@ -198,3 +200,5 @@ function cds {
     # grep -n "h*t" file
     awk '{print NR" "$0}' $CD_PATH_LIST
 }
+eval $(dbus-launch --sh-syntax)
+export $(dbus-launch)

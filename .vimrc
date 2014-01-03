@@ -506,3 +506,6 @@ autocmd BufWritePost * if &diff == 1 | diffupdate | endif
 " hi Normal ctermbg=NONE      
 hi MatchParen cterm=none ctermbg=darkgrey ctermfg=white
 
+" remove space 
+autocmd BufWritePre  *.php :%s/\s\+$//e
+
