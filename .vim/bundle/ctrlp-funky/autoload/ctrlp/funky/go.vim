@@ -1,16 +1,11 @@
-" Language: GO (go)
-" Author: h2ero
+" Language: Go
+" Author: Takahiro Yoshihara
 " License: The MIT License
 
-let s:filter = [{ 'pattern': '\v\s*func\s+\w.+\s*\(',
-                \ 'filter': []}
-                \ ]
-
-function! ctrlp#funky#go#apply_filter(bufnr)
-  return ctrlp#funky#abstract(a:bufnr, s:filter)
+function! ctrlp#funky#go#filters()
+  let filters = [
+        \ { 'pattern': '\m\C^[\t ]*func[\t ]\+',
+        \   'formatter': [] },
+  \ ]
+  return filters
 endfunction
-
-function! ctrlp#funky#go#get_filter()
-  return s:filter
-endfunction
-
