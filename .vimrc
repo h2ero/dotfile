@@ -237,6 +237,7 @@ let g:ctrlp_map = ',p'
 nmap ,b :CtrlPBuffer<CR>
 nmap ,m :CtrlPMRU<CR>
 nmap ,l :CtrlPLine<CR>
+nmap ,k :CtrlPFunky<Cr>
 let g:ctrlp_working_path_mode = 'ra'
 let g:ctrlp_extensions = ['hg_branch']
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip 
