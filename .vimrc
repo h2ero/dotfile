@@ -510,3 +510,7 @@ hi MatchParen cterm=none ctermbg=darkgrey ctermfg=white
 " remove space 
 autocmd BufWritePre  *.php :%s/\s\+$//e
 
+" grep.vim
+let Grep_Default_Filelist = '*.c *.cpp *.asm *.php *.inc'
+let Grep_Skip_Files = '*.bak *~ tags'
+
