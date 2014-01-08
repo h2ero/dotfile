@@ -2,6 +2,22 @@ snippet array "array"
 $${1:arrayName} = array('${2}' => ${3});${4}
 endsnippet
 
+snippet / "//"
+// ${1}
+endsnippet
+
+snippet @pi "@param integer"
+@param integer $${1:variable}
+endsnippet
+
+snippet @ps "@param string"
+@param string $${1:variable}
+endsnippet
+
+snippet @pa "@param array"
+@param array $${1:variable}
+endsnippet
+
 snippet def "def"
 define('${1}'${2});${3}
 endsnippet
