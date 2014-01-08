@@ -12,3 +12,7 @@
     sslVerify = false
 [credential]
 	helper = cache --timeout=3600000
+
+[filter "date"]
+	clean = cat /dev/stdin | sed 's/date/222/g'
+	smudge = 
