@@ -16,3 +16,7 @@
 .emacs.d/.project-roots
 .vim/bundle/mwiki
 .emacs.d/recentf
+.pentadactyl/info/default/command-history
+.pentadactyl/info/default/local-marks
+.pentadactyl/info/default/register-ring
+.moc/pid
