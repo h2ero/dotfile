@@ -191,8 +191,9 @@ let g:syntastic_error_symbol='✗'
 let g:syntastic_warning_symbol='⚠'
 noremap ]l :lnext<CR>
 noremap [l :lpre<CR>
-noremap ,sp :let g:syntastic_php_checkers=['php', 'phpv']<CR>
+noremap ,sp :let g:syntastic_php_checkers=['php', 'phpv','phpcsdef']<CR>
 noremap ,ss :let g:syntastic_php_checkers=['php', 'phpcs']<CR>
+noremap ,sn :let g:syntastic_php_checkers=['php']<CR>
 "phpcs，tab4个空格，编码参考使用CodeIgniter风格
 let g:user_zen_expandabbr_key = '<C-e>'
 let g:user_zen_next_key = ',n'
@@ -508,7 +509,7 @@ autocmd BufWritePost * if &diff == 1 | diffupdate | endif
 hi MatchParen cterm=none ctermbg=darkgrey ctermfg=white
 
 " remove space 
-autocmd BufWritePre  *.php :%s/\s\+$//e
+" autocmd BufWritePre  *.php :%s/\s\+$//e
 
 " grep.vim
 let Grep_Default_Filelist = '*.c *.cpp *.asm *.php *.inc'
