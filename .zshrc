@@ -90,11 +90,11 @@ alias pss='ps -ef | grep '
 
 
 hgd(){
-    hg st $(hg root) | awk '{print $2}'  | xargs grep -Rn  "var_export\|var_dump\|console" | sed -n 's/:/ +/p'
+    hg st $(hg root) | grep -v "?" | awk '{print $2}'  | xargs grep -Rn  "var_export\|var_dump\|console" | sed -n 's/:/ +/p'
 }
 
 hgl(){
-    hg st | grep -v "?" | awk '{print $2}' | xargs -i php -l {} 
+    hg st $(hg root)| grep -v "?" | awk '{print $2}' | xargs -i php -l {} 
 }
 
 #
