@@ -102,6 +102,7 @@ noremap gl :tnext<CR>
 noremap ,t :TagbarToggle<CR>
 noremap ,f :NERDTreeToggle<CR>
 noremap ,d :call pdv#DocumentWithSnip()<CR>
+noremap ,e :CtrlPCmdPalette<CR>
 noremap ,a :NERDTreeFind<CR>
 noremap ,g :GundoToggle<CR>
 noremap ,c :close<CR>
