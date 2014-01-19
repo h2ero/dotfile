@@ -101,8 +101,8 @@ noremap gl :tnext<CR>
 "分屏打开关闭
 noremap ,t :TagbarToggle<CR>
 noremap ,f :NERDTreeToggle<CR>
+noremap ,d :call pdv#DocumentWithSnip()<CR>
 noremap ,a :NERDTreeFind<CR>
-noremap ,d :call PhpDoc()<CR>
 noremap ,g :GundoToggle<CR>
 noremap ,c :close<CR>
 noremap ,l :NumbersToggle<CR>
@@ -515,3 +515,5 @@ hi MatchParen cterm=none ctermbg=darkgrey ctermfg=white
 let Grep_Default_Filelist = '*.c *.cpp *.asm *.php *.inc'
 let Grep_Skip_Files = '*.bak *~ tags'
 
+"pdv
+let g:pdv_template_dir = $HOME ."/.vim/bundle/pdv/templates_snip"
