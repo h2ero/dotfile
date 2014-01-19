@@ -102,7 +102,7 @@ noremap gl :tnext<CR>
 noremap ,t :TagbarToggle<CR>
 noremap ,f :NERDTreeToggle<CR>
 noremap ,d :call pdv#DocumentWithSnip()<CR>
-noremap ,e :CtrlPCmdPalette<CR>
+noremap ,s :CtrlPCmdPalette<CR>
 noremap ,a :NERDTreeFind<CR>
 noremap ,g :GundoToggle<CR>
 noremap ,c :close<CR>
@@ -518,3 +518,6 @@ let Grep_Skip_Files = '*.bak *~ tags'
 
 "pdv
 let g:pdv_template_dir = $HOME ."/.vim/bundle/pdv/templates_snip"
+
+" load functions
+source $HOME/.vim/ff.vim
