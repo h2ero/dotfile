@@ -94,7 +94,7 @@ hgd(){
 }
 
 hgl(){
-    hg st $(hg root)| grep -v "?" | awk '{print $2}' | xargs -i php -l {} 
+    hg st $(hg root)| grep -v "?" | awk '{print $2}' | xargs -I {} php -l {} 
 }
 
 #

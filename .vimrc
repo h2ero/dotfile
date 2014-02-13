@@ -472,6 +472,7 @@ let g:airline_theme='powerlineish'
 
 "phpcr
 let g:sql_keywords = "like"
+noremap =- :PhpcrLineFormat<CR>
 "mwiki
 set conceallevel=2
 let g:markdown_conceal='#*dlaibBces'
@@ -487,6 +488,7 @@ function SourceTestFile()
     source /home/h2ero/.vim/bundle/mwiki/autoload/mwiki/link.vim
     source /home/h2ero/.vim/bundle/mwiki/autoload/mwiki/table.vim
     source /home/h2ero/.vim/bundle/mwiki/autoload/mwiki/function.vim
+    source /home/h2ero/.vim/ff.vim
 endfunction
 map ,j :call SourceTestFile()<CR>
 

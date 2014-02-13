@@ -379,4 +379,36 @@ switch ($1) {
         break;
 }
 endsnippet
+
+snippet classu
+/**
+ * Class ${1:`!v  substitute(expand('%:r'),'\(^\w\)','\U\1','g')`} 
+ */
+class $1 extends PHPUnit_Framework_TestCase
+{
+	function setUp()
+	{
+		$2
+	}
+
+	function tearDown() 
+	{
+		$3
+	}
+}
+$0
+endsnippet
+
+snippet iw
+if ($this->isWriteNew()) {
+endsnippet
+
+snippet io
+if ($this->isWriteOld()) {
+endsnippet
+
+snippet iow
+if ($this->isWriteNew() && $this->isWriteOld()) {
+endsnippet
+
 # vim:ft=snippets:

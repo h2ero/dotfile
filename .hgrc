@@ -1,5 +1,6 @@
 [ui]
-username    = haojieh <haojieh@juemei.com>
+username    = Huang Haojie <haojieh@juemei.com>
+# merge = meld
 merge = vimdiff
 
 [alias]

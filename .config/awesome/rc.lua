@@ -308,7 +308,8 @@ globalkeys = awful.util.table.join(
                 end
             end),
         -- Standard program
-    awful.key({ modkey,           }, "Return", function () awful.util.spawn(terminal.." -e tmux") end),
+    --awful.key({ modkey,           }, "Return", function () awful.util.spawn(terminal.." -e tmux") end),
+    awful.key({ modkey,           }, "Return", function () awful.util.spawn(terminal) end),
     awful.key({ modkey, "Control" }, "r", awesome.restart),
     awful.key({ modkey, "Shift"   }, "q", awesome.quit),
     
